@@ -1,0 +1,10 @@
+query_id,intervention,removed_evidence,before,after,decision_changed,interpretation
+source_P01,remove_source_evidence,E08,reported_target_in_matched_source_system,unknown,True,Software evidence-dependency check; not a model ablation result
+source_P02,remove_source_evidence,E09,target_not_observed_in_matched_source_system,unknown,True,Software evidence-dependency check; not a model ablation result
+source_P05,remove_source_evidence,E03,reported_target_in_matched_source_system,unknown,True,Software evidence-dependency check; not a model ablation result
+source_SE02,remove_source_evidence,E12,target_not_observed_in_matched_source_system,unknown,True,Software evidence-dependency check; not a model ablation result
+source_SE03,remove_source_evidence,E12,reported_target_in_matched_source_system,unknown,True,Software evidence-dependency check; not a model ablation result
+source_SE04,remove_source_evidence,E13,reported_target_in_matched_source_system,unknown,True,Software evidence-dependency check; not a model ablation result
+source_N01,remove_source_evidence,E10,reported_target_in_matched_source_system,unknown,True,Software evidence-dependency check; not a model ablation result
+source_N03,remove_source_evidence,E11,target_not_observed_in_matched_source_system,unknown,True,Software evidence-dependency check; not a model ablation result
+P05_monoF_requested,remove_source_evidence,E03,reported_other_endpoint_target_unresolved,unknown,True,Software evidence-dependency check; not a model ablation result

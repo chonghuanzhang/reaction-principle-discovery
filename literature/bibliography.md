@@ -1,8 +1,8 @@
 # Complete bibliography
 
-The bibliography contains all 403 numbered references used in the Supplementary Information. The 370 literature-catalog sources retain their L identifiers; the other 33 references provide methodological and background context. A source record is not necessarily an independent study. L055 and L343 describe preprint and published versions of one study.
+The repository bibliography contains 403 numbered references. Numbers in square brackets in the research materials identify these entries; the SI uses these online reference numbers. The 370 literature-catalog sources retain their L identifiers; the other 33 references provide methodological and background context. A source record is not necessarily an independent study. L055 and L343 describe preprint and published versions of one study.
 
-[CSV](bibliography.csv) · [Source catalog](README.md) · [Background references](background.md)
+[CSV](bibliography.csv) · [Source catalog](README.md) · [Background references](background.md) · [Reference correspondence](reference_correspondence.md)
 
 <a id="ref-1"></a>
 

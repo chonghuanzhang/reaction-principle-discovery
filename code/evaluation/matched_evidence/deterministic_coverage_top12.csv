@@ -1,0 +1,13 @@
+rank,candidate_id,smiles,new_coverage_tags,cumulative_coverage_tags,new_tags
+1,CP-ab85a340b88a5fa0,CC(=O)ON1C(=O)c2ccccc2C1=O,18,18,aromatic_rings:1;bond:C-C:AROMATIC;bond:C-C:SINGLE;bond:C-N:SINGLE;bond:C-O:DOUBLE;bond:C-O:SINGLE;bond:N-O:SINGLE;center:C;charge:neutral;fragment:fr_C_O;fragment:fr_C_O_noCOO;fragment:fr_NH0;fragment:fr_N_O;fragment:fr_amide;fragment:fr_benzene;fragment:fr_bicyclic;fragment:fr_imide;lens:radical_other
+2,CP-15eeea50cbe27556,c1c[nH]cn1,9,27,bond:C-N:AROMATIC;center:N;fragment:fr_Ar_N;fragment:fr_Ar_NH;fragment:fr_NH1;fragment:fr_Nhpyrrole;fragment:fr_imidazole;lens:neutral_ambident_aromatics;lens:nitrogen
+3,CP-3ca04501f77d577c,N#C[S-].[K+],8,35,aromatic_rings:0;bond:C-N:TRIPLE;bond:C-S:SINGLE;center:S;charge:ionic;fragment:fr_nitrile;fragment:fr_thiocyan;lens:sulfur
+4,CP-fe84fbfeaab6ca84,C=C(OC)O[Si](C)(C)C,7,42,bond:C-C:DOUBLE;bond:C-Si:SINGLE;bond:O-Si:SINGLE;fragment:fr_ether;fragment:fr_methoxy;lens:carbon_pi;lens:carbon_transfer
+5,CP-13af80fd720ea87f,O=[PH](c1ccccc1)c1ccccc1,6,48,aromatic_rings:2;bond:C-P:SINGLE;bond:O-P:DOUBLE;center:P;lens:phosphorus;lens:precursor_state_pairs
+6,CP-d0c9b289504a201f,Nc1ccc(C(F)(F)F)cc1,6,54,bond:C-F:SINGLE;fragment:fr_ArN;fragment:fr_NH2;fragment:fr_alkyl_halide;fragment:fr_aniline;fragment:fr_halogen
+7,CP-3a23ccb632c9f44d,Oc1ccccc1,5,59,center:O;fragment:fr_Ar_OH;fragment:fr_para_hydroxylation;fragment:fr_phenol;fragment:fr_phenol_noOrthoHbond
+8,CP-17d78fd2ceec8c4c,CS(N)(=O)=O,4,63,bond:N-S:SINGLE;bond:O-S:DOUBLE;fragment:fr_prisulfonamd;fragment:fr_sulfonamd
+9,CP-04e1450f7a0596df,C=CCO,3,66,fragment:fr_Al_OH;fragment:fr_Al_OH_noTert;lens:oxygen
+10,CP-1f98fe5f121fd9a1,OB(O)c1ccncc1,3,69,bond:B-C:SINGLE;bond:B-O:SINGLE;fragment:fr_pyridine
+11,CP-60ed269cc272def9,F[B-](F)(F)F.N#[N+]c1ccccc1,3,72,bond:B-F:SINGLE;bond:N-N:TRIPLE;fragment:fr_diazo
+12,CP-869e3eb72168d724,Cc1ccco1,3,75,bond:C-O:AROMATIC;fragment:fr_aryl_methyl;fragment:fr_furan

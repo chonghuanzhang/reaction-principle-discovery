@@ -1,0 +1,80 @@
+[
+  {
+    "structure_id": "Intelli_1a",
+    "smiles": "COc1ccc(C=C(F)F)cc1",
+    "name": "1-(2,2-difluorovinyl)-4-methoxybenzene",
+    "locator": "10.1021/acs.joc.3c01562 Table1 graphical scheme, p14013",
+    "verification": "visual primary figure"
+  },
+  {
+    "structure_id": "Ph2P(O)H",
+    "smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "name": "diphenylphosphine oxide",
+    "locator": "same Table1, 2a",
+    "verification": "visual primary figure"
+  },
+  {
+    "structure_id": "Intelli_3a",
+    "smiles": "COc1ccc(CC(F)(F)P(=O)(c2ccccc2)c2ccccc2)cc1",
+    "name": "[(1,1-difluoro-2-(4-methoxyphenyl))ethyl]diphenylphosphine oxide",
+    "locator": "same Table1 product3a; Figure3 p14014",
+    "verification": "visual primary figure"
+  },
+  {
+    "structure_id": "Coradi_1",
+    "smiles": "FC(F)(F)CCCOCc1ccccc1",
+    "name": "((4,4,4-trifluorobutoxy)methyl)benzene",
+    "locator": "10.1039/d6sc01042c SI S3 explicit full substrate name",
+    "verification": "unambiguous chemical name, visually checked pageS3"
+  },
+  {
+    "structure_id": "Ph2PH",
+    "smiles": "[PH](c1ccccc1)c1ccccc1",
+    "name": "diphenylphosphine",
+    "locator": "10.1039/d6sc01042c SI S15",
+    "verification": "unambiguous chemical name"
+  },
+  {
+    "structure_id": "NiSe_1a",
+    "smiles": "C=CCC(=O)Nc1ccccc1",
+    "name": "N-phenylbut-3-enamide",
+    "locator": "10.1002/advs.77070 Table1 and Results body paragraph5",
+    "verification": "unambiguous full chemical name"
+  },
+  {
+    "structure_id": "PhSeH",
+    "smiles": "[SeH]c1ccccc1",
+    "name": "benzeneselenol",
+    "locator": "same, [Se]-1",
+    "verification": "unambiguous chemical name"
+  },
+  {
+    "structure_id": "PhSeSePh",
+    "smiles": "c1ccccc1[Se][Se]c1ccccc1",
+    "name": "diphenyl diselenide",
+    "locator": "same, [Se]-4",
+    "verification": "unambiguous chemical name"
+  },
+  {
+    "structure_id": "CF2_Se_25",
+    "smiles": "FC(F)=C[Se]c1ccccc1",
+    "name": "phenyl 2,2-difluorovinyl selenide",
+    "locator": "10.1038/s41467-018-08253-z Figure3, product25; original archived structural audit",
+    "verification": "visual primary Figure3 product25, rechecked2026-10-25; not the C(F)-Se target",
+    "primary_image": "raw/Zhang2019_Fig3.jpg"
+  },
+  {
+    "structure_id": "Coradi_2",
+    "smiles": "CCCCC(CC)CO",
+    "name": "2-ethylhexan-1-ol",
+    "locator": "10.1039/d6sc01042c SI S3 full reagent name",
+    "verification": "unambiguous chemical name, primary page visually checked"
+  },
+  {
+    "structure_id": "Coradi_3",
+    "smiles": "CCCCC(CC)COC(F)=CCCOCc1ccccc1",
+    "name": "(((4-((2-ethylhexyl)oxy)-4-fluorobut-3-en-1-yl)oxy)methyl)benzene",
+    "locator": "10.1039/d6sc01042c SI S3 full product name",
+    "verification": "unambiguous product connectivity from primary name; source mixture E/Z, stereochemistry not assigned in SMILES"
+  }
+]

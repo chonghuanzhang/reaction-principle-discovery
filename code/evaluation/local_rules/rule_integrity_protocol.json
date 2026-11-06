@@ -1,0 +1,32 @@
+{
+  "protocol_id": "20261025_rule_integrity_v2_E16_source_correction",
+  "created_at_utc": "2026-10-25T11:56:40.459293+00:00",
+  "status": "frozen_before_rule_execution",
+  "amendment": {
+    "reason": "Refresh corrected E16 evidence/source hashes; E16 does not supply an executable clause in this8-clause source-scoped implementation."
+  },
+  "scope": "Source-conditioned integrity and evidence-intervention exercise. All cases were used in rule construction. No independent chemistry, no learned model, no reaction-success accuracy.",
+  "clauses": 8,
+  "queries": 15,
+  "rule_parameters_fitted": 0,
+  "decisions": "Three-valued premises; unknown/mismatched/true. Missing evidence/conditions causes abstention; conflicting observed endpoint assertions cause abstention irrespective of vote counts.",
+  "chemistry_inputs": [
+    {
+      "path": "../chemistry/pse_challenge_matrix.json",
+      "sha256": "6f7d740d6cf893b20b8061b0004dc75940c16af85726a67efcfd87c5ce2777af",
+      "original_sha256": "6f7d740d6cf893b20b8061b0004dc75940c16af85726a67efcfd87c5ce2777af"
+    },
+    {
+      "path": "../chemistry/evidence.json",
+      "sha256": "d46a02ecdd02bcf1604ef6db1de64c27f9ebd494952ed3635293ea6fab49d351",
+      "original_sha256": "2fdf0ce21a29fab58beeb7e80ab201cdfd9e768380bf92993b436e08ddd2ebc7"
+    },
+    {
+      "path": "../chemistry/principle_cards.json",
+      "sha256": "78bd432630fb2cf6539be1edf5390e1683bca2582d4cff6480ff26ab85c8e324",
+      "original_sha256": "78bd432630fb2cf6539be1edf5390e1683bca2582d4cff6480ff26ab85c8e324"
+    }
+  ],
+  "rule_sha256": "3f3725d998ef1137e952355e7ecd6313e747377f401baf76a6ea5033bd81f5b4",
+  "query_sha256": "a7d73360445359438f706715ecdf725ab1b6613bf851bbe0592a87defbd18344"
+}

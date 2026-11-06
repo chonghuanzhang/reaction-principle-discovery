@@ -1,0 +1,82 @@
+[
+  {
+    "arm": "RP_boundary_ablation",
+    "replicate": 4
+  },
+  {
+    "arm": "RP_explicit",
+    "replicate": 2
+  },
+  {
+    "arm": "same_evidence_direct",
+    "replicate": 5
+  },
+  {
+    "arm": "same_evidence_direct",
+    "replicate": 3
+  },
+  {
+    "arm": "RP_explicit",
+    "replicate": 3
+  },
+  {
+    "arm": "no_retrieval",
+    "replicate": 5
+  },
+  {
+    "arm": "RP_boundary_ablation",
+    "replicate": 1
+  },
+  {
+    "arm": "RP_boundary_ablation",
+    "replicate": 3
+  },
+  {
+    "arm": "RP_explicit",
+    "replicate": 1
+  },
+  {
+    "arm": "no_retrieval",
+    "replicate": 3
+  },
+  {
+    "arm": "no_retrieval",
+    "replicate": 1
+  },
+  {
+    "arm": "same_evidence_direct",
+    "replicate": 2
+  },
+  {
+    "arm": "RP_explicit",
+    "replicate": 5
+  },
+  {
+    "arm": "RP_boundary_ablation",
+    "replicate": 5
+  },
+  {
+    "arm": "same_evidence_direct",
+    "replicate": 1
+  },
+  {
+    "arm": "no_retrieval",
+    "replicate": 4
+  },
+  {
+    "arm": "no_retrieval",
+    "replicate": 2
+  },
+  {
+    "arm": "RP_boundary_ablation",
+    "replicate": 2
+  },
+  {
+    "arm": "RP_explicit",
+    "replicate": 4
+  },
+  {
+    "arm": "same_evidence_direct",
+    "replicate": 4
+  }
+]

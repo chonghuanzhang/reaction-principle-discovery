@@ -35,6 +35,10 @@ Forty-six molecules carry original molecule-linked citations; 54 do not. A later
 
 The [108 experimental-input associations](experiment_mapping/README.md) distinguish exact molecules, reactive forms and broader donor-family relations. These comparisons do not recover contemporaneous selection decisions. Missing evidence is explicit, and no observed yield is assigned through a family analogy.
 
+## Structure, network and novelty guides
+
+[Input structure atlas C1–C9](structure_atlas.md) · [Evidence network G1–G9](../code/docs/evidence_network.md) · [Novelty assessment and Figure N1](novelty_assessment.md) · [Model settings, original prompts and working constraints](../code/docs/model_workflow.md) · [Model donors and experimental record interpretation](experiment_mapping/model_donors.md)
+
 ## Downloadable scientific tables
 
 - [100 molecules: CSV](data/candidates_100.csv) · [JSON with full English descriptions and source-linked evidence](data/candidates_100.json)

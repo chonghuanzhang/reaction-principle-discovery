@@ -1,0 +1,10 @@
+{
+  "correction": "Replaced incorrect difluorocarbene-derived descriptions with TFHZ-Tfs-derived; added CF3CHN2/carbenoid/beta-F-elimination mechanism interpretation with primary locator.",
+  "primary_locator": "10.1038/s41467-018-08253-z Par14/Figure6; controls Par13/Figure5",
+  "raw_quotations_changed": false,
+  "all_16_quotations_pass": true,
+  "raw_files_unchanged": true,
+  "matrix_sha256": "6f7d740d6cf893b20b8061b0004dc75940c16af85726a67efcfd87c5ce2777af",
+  "evidence_original_sha256": "2fdf0ce21a29fab58beeb7e80ab201cdfd9e768380bf92993b436e08ddd2ebc7",
+  "evidence_sha256": "d46a02ecdd02bcf1604ef6db1de64c27f9ebd494952ed3635293ea6fab49d351"
+}

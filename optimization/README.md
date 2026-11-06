@@ -1,6 +1,6 @@
 # Experimental responses and Bayesian condition selection
 
-This directory contains the recorded response workbooks, frozen Bayesian model, condition-selection records and source data for Figure 5 and Supplementary Figures 21–23. It is a runnable subsystem: model code, inputs, selection histories and artwork remain together.
+This directory contains the recorded response workbooks, frozen Bayesian model, condition-selection records and source data for Figure 5 and Repository Figures BO1–BO3. It is a runnable subsystem: model code, inputs, selection histories and artwork remain together.
 
 The S–H analysis compares Bayesian and random selection on a fixed measured 96-condition grid. One hundred paired computational initializations give median first-hit budgets of **24 and 48 conditions**. The N–H and two O–H trajectories each select **60 responses in five batches** from a measured 96-condition grid. These are computational replays of recorded analytical signals; the selected-response files do not establish dated laboratory execution sequences.
 
@@ -16,6 +16,8 @@ The S–H analysis compares Bayesian and random selection on a fixed measured 96
 | `figures/figures/` | Supplied PDF, SVG and 600-dpi PNG artwork for the main figure and three supporting figures |
 | `figure_code/` | Drawing functions that use the relative scientific data paths |
 | `scripts/` | Response-cell checks, workbook reassembly, analysis reproduction and figure rendering |
+
+[Figure legends and interpretation](FIGURE_GUIDE.md) provide BO1–BO3 artwork links, complete panel legends, source-data links, condition identities and response scales.
 
 Readable SI tables are also available as [Repository Table R3](../experiments/bo_benchmark/) and [Repository Table R4](../experiments/selected_responses/). Component explanations and citations are in [experiments/condition_library](../experiments/condition_library/).
 

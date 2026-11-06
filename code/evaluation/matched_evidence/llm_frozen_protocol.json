@@ -1,0 +1,72 @@
+{
+  "protocol_id": "20261025_evidence_interpretation_diagnostic_v2_E16_correction",
+  "frozen_at_utc": "2026-10-25T11:56:40.392934+00:00",
+  "amendment": {
+    "supersedes": "20261025_evidence_interpretation_diagnostic_v1",
+    "prior_protocol_sha256": "d31111bb79ef20db48810967c5640eb33c3764f875aa44940d02fab5115b5957",
+    "reason": "Correct E16 route description: TFHZ-Tfs generates CF3CHN2, followed by metal-carbenoid formation and beta-fluoride loss, rather than a difluorocarbene-derived route.",
+    "successful_inference_calls_before_amendment": 0,
+    "task_labels_and_analysis_plan_changed": false
+  },
+  "status": "PREPARED_NO_SUCCESSFUL_NEW_CALLS",
+  "historical_preregistration": false,
+  "task": "24 author-constructed claim assessments from16 source-excerpt records in six source families; curated observations and limitations accompany each quotation. This is evidence interpretation and scope control, not reaction-outcome prediction.",
+  "model": "gpt-5.6-sol",
+  "independent_generation_calls_per_arm": 5,
+  "arms": [
+    "RP_explicit",
+    "same_evidence_direct",
+    "no_retrieval",
+    "RP_boundary_ablation"
+  ],
+  "planned_total_calls": 20,
+  "primary_comparison": "Source-family-balanced label agreement: RP_explicit minus same_evidence_direct; exact same evidence, question order, schema, model, tool permissions and output-token ceiling.",
+  "other_comparisons": "no_retrieval measures access-to-evidence differences; RP_boundary_ablation tests loss of applicability boundary representation; deterministic coverage policy is a separate, unscored fixed-candidate reference.",
+  "prompt_budget": "All evidence arms receive the identical16 source-excerpt records in identical order. RP arm adds a structured source-derived representation and application procedure, not answer labels. Extra manuscript counterexamples absent from the shared packet are omitted. Actual input/output tokens must be reported; exact token equality is not claimed.",
+  "model_parameters": {
+    "max_output_tokens": 8000,
+    "store": false,
+    "temperature": "provider default; not set",
+    "seed": "not supported by reused client; no seed claimed",
+    "tools": [],
+    "retries": 0
+  },
+  "evaluation": "Exact3-way label agreement, source citation validity, unsupported scope generalization and unknown handling; per-call scores and paired replicate differences; source-group bootstrap only descriptive because six families and analyst-authored questions are not a representative sample.",
+  "no_retrieval_citation_evaluation": "Not scored for evidence-ID coverage because no evidence was supplied.",
+  "quality_unit": "Chemical source family is the content unit; generation repeat is not an independent chemical task.",
+  "data_split": "No independent chemical holdout. All sources were already available in the project or selected for this revision. Answers are excluded from model inputs, but the benchmark author has read them. Public documents may be in pretraining.",
+  "no_tuning": "Do not alter questions, labels, rules, token limits or scoring in response to model outputs; any amendment requires a new protocol version and separate results.",
+  "cost": "Provider pricing was not established. Record actual token usage and elapsed time; monetary cost remains unknown unless a provider bill/rate is supplied.",
+  "files": [
+    {
+      "path": "llm_evidence.json",
+      "sha256": "4a64791e5a6ee9114ef81aa3c288a64573f5920c1bcd29e3e5a7d15d773c3db7"
+    },
+    {
+      "path": "llm_tasks.json",
+      "sha256": "eff443fd3ee3c1187c39cadcacac6d7692575d4c9ebae6d405bb42272998edda"
+    },
+    {
+      "path": "llm_answers_sealed_from_prompts.json",
+      "sha256": "a14d23ca02ecaa6f59eeb744a95ecbf56fa338b26d1b69b08efd970176852fc0"
+    },
+    {
+      "path": "llm_run_order.json",
+      "sha256": "4e56b390c9fd998e10708aa56533eeaf567302ecc9974b49fa51215444dea2c5"
+    },
+    {
+      "path": "llm_principle_cards.json",
+      "sha256": "812ea472e6460f2db3c7b1b1c708aef0ef8615d22770a0dea853eca4629b5822"
+    }
+  ],
+  "historical_software_sha256": [
+    {
+      "path": "run_llm_diagnostic.py",
+      "sha256": "d9bc0a5e8b240fb279f16afb4f14ef4adec1c33022d92488c6588c8842665c20"
+    },
+    {
+      "path": "score_llm_diagnostic.py",
+      "sha256": "c48bd64475f2e41222a3091c35821fcce3e0b1e03baae6b6668df0a5b0ae9359"
+    }
+  ]
+}

@@ -1,0 +1,2561 @@
+
+--- PDF page 1 ---
+ 
+S1 
+Supplementary Information 
+ 
+A Brønsted Acid-Base Approach for the Net Monoselective C–F Substitution of (Trifluoromethyl)alkanes 
+ 
+Nicholas J. Coradi and Jeffrey S. Bandar 
+Department of Chemistry, Colorado State University 
+Fort Collins, Colorado 80523, United States 
+Email: jeff.bandar@colostate.edu 
+ 
+Table of Contents 
+ 
+I. 
+General Information 
+S2 
+II 
+Optimization for (Trifluoromethyl)alkane Monodefluorofunctionalization 
+S3 
+III. 
+Limitations of the Pronucleophile Coupling Partner 
+S15 
+IV 
+General Procedures for (Trifluoromethyl)alkane Monodefluorofunctionalization 
+S16 
+V. 
+Characterization Data of C–F Substituted Products 
+S18 
+VI. 
+Starting Material Syntheses and Characterization 
+S36 
+VII. 
+References 
+S45 
+VIII. NMR Spectra 
+S47 
+ 
+ 
+Supplementary Information (SI) for Chemical Science.
+This journal is © The Royal Society of Chemistry 2026
+
+
+--- PDF page 2 ---
+ 
+S2 
+I. 
+General Information 
+General Reagent information: All reactions were conducted under an ambient atmosphere unless 
+otherwise 
+noted. 
+2-Ethyl-1-hexanol 
+(Sigma 
+Aldrich, 
+catalog 
+#538051), 
+1,4,7,10,13,16-
+hexaoxacyclooctadecane-6 (18-crown-6, Chem-Impex catalog #03901), triethylamine trihydrofluoride ( 
+NEt3‧3HF, Oakwood, catalog #003029), hydrogen fluoride-pyridine (HF-pyridine, Oakwood, catalog 
+#002844), trifluoroacetic acid (TFA, Sigma Aldrich, catalog #T6508), and methanesulfonic acid (MsOH, 
+TCI, catalog #M0093) were purchased from the indicated vendors and used as received. Potassium 
+bis(trimethylsilyl)amide (MilliporeSigma, catalog #324671) was purchased as a 95% pure powder and 
+potassium tert-butoxide (KO-t-Bu, Chem-Impex catalog #27317) was purchased as a 99.8% pure powder 
+and were used as received. N,N-Dimethylformamide (DMF, anhydrous, Sigma Aldrich, catalog #227056) 
+and toluene (Alfa Aesar, anhydrous, catalog #L10967-AU) were used as received. All solid bases, 18-
+crown-6, and DMF were stored at room temperature (rt) inside a N2 filled glovebox and used immediately 
+if brought outside the glovebox. NEt3‧3HF, TFA, MsOH, and toluene were stored at room temperature. 
+Potassium bis(trimethylsilyl)amide (1M in THF, Sigma Aldrich, catalog #702722) and sodium 
+bis(trimethylsilyl)amide solution (2M in THF, Oakwood, catalog #S14980), and HF-pyridine were stored 
+at -32 °C in a freezer. All other solvents and reagents were purchased from Millipore Sigma, Combi-Blocks, 
+TCI, Acros Organics, Matrix Scientific, AlfaAesar, ChemScene and used as received unless otherwise 
+noted. Flash chromatography was performed on 40-63 μm silica gel (SiliaFlash® F60 from Silicycle). 
+Preparative thin-layer chromatography (PTLC) was performed on silica gel 60 Å F254 plates (20 x 20 cm, 
+1000 µm, SiliaPlate from Silicycle, #TLG-R10011B-341) and visualized with UV light (254 nm). Celite® 
+545 (Product #CX0574-3) was purchased from Millipore Sigma. Automated flash column chromatography 
+was conducted on a Biotage® Selekt Enkel (Biotage, SEL-ESV). 
+General Analytical Information: All reported compounds were characterized by 1H, 13C, and 19F NMR 
+spectroscopy, FTIR spectroscopy, and high-resolution mass spectrometry. Melting point analysis was 
+conducted if the compound was solid. 1H NMR, 13C NMR, and 19F NMR spectra were obtained on a Bruker 
+NEO400, Bruker US400, or Bruker Ascend 400 spectrometer. 1H NMR spectroscopic data is reported as 
+follows: chemical shift (δ ppm), multiplicity (if applicable, s = singlet, br s = broad singlet, d =doublet, t = 
+triplet, q = quartet, p = pentet, h = hextet, hept = heptet, dd = doublet of doublets, ddd = doublet of doublet 
+of doublets, dddd = doublet of doublet of doublet of doublets, dt = doublet of triplets, td = triplet of doublets, 
+dq = doublet of quartets, qd = quartet of doublets, qdd = quartet of doublet of doublets, ddt = doublet of 
+doublet of triplets, tt = triplet of triplets, tdd = triplet of doublet of doublets, ttt = triplet of triplet of triplets, 
+dtd, doublet of triplet of doublets, ddp = doublet of doublet of pentets , ttq = triplet of triplet of quartets, m 
+= multiplet), coupling constant (Hz), and integration. All 1H NMR spectrum signals are reported as chemical 
+shifts (δ ppm) relative to residual CDCl3 at 7.26 ppm, CD3CN at 1.94 ppm, CD2Cl2, or tetramethylsilane 
+(TMS) at 0.00 ppm. 13C NMR spectroscopic data is reported as follows: chemical shift (δ ppm), multiplicity 
+(if applicable, d = doublet, t = triplet, q = quartet, quin = quintet, dq = doublet of quartets, qd = quartet of 
+doublets, m = multiplet), and coupling constant (Hz). 13C NMR signals are reported as chemical shifts (δ 
+ppm) relative to CDCl3 at 77.16 ppm, CD3CN at 1.32 ppm, CD2Cl2 at 53.5 ppm or tetramethylsilane at 0.00 
+ppm.1  Chemical shifts (δ ppm) for 19F NMR are reported in terms of chemical shift in reference to an 
+internal standard (1,4-difluorobenzene set to δ -119.7 ppm or 1,2-difluorobenzene set to δ -138.9 ppm). 19F 
+NMR spectroscopic data is reported as follows: chemical shift (δ ppm), multiplicity (d = doublet, t = triplet, 
+dt = doublet of triplet, br s = broad singlet, m = multiplet), and coupling constant (Hz). 2,3 High resolution 
+mass spectra (HRMS) were recorded on an Agilent 6230 LC-MS B-TOF equipped with a dual ESI source 
+or an Agilent 5890 GC coupled to Xevo G2 QTOF via APGC ionization source provided by the Colorado 
+State University Analytical Resource Core – Molecular and Materials Analysis Center. IR spectra were 
+recorded using a Thermo Scientific Nicolet iS-50 FTIR Spectrometer and reported as frequency of 
+
+
+--- PDF page 3 ---
+ 
+S3 
+absorption (cm-1). Melting point analyses were conducted using a MelTemp capillary melting point 
+apparatus. Thin-layer chromatography analysis was performed on silica gel 60 Å F254 plates (250 µm, 
+SiliaPlate from Silicycle, #TLG-R10014B323) and interpreted using UV light (254 nm) or KMnO4 stain.  
+Nomenclature Note: The names provided for the structures in this document were obtained from 
+ChemDraw Professional 23.1.2.  
+ 
+II. Optimization for (Trifluoromethyl)alkane Monodefluorofunctionalization  
+(a) Optimization of vinyl ether formation: Evaluation of changes in base identity and equivalents, 
+alcohol equivalents, solvent, reaction time, and temperature. 
+Discussion. Preliminary experiments varying base and solvent indicated that multiple 
+combinations of base and solvent promoted vinyl ether formation of (4,4,4-trifluorobutoxy)methyl)benzene 
+(1) using 2-ethyl-1-hexanol (2) as a model alcohol. Table S1 lists a set of conditions where base, solvent, 
+temperature, reagent equivalents, and reaction time were varied to achieve high yield of vinyl ether 3. We 
+found that KHMDS and NaHMDS were optimal bases to promote vinyl ether formation. Despite potassium 
+KO-t-Bu affording a high yield of the vinyl ether, we found that KHMDS is more general for a variety of 
+alcohols, affording full conversion of the (trifluoromethyl)alkane, which allows for easier purification of 
+the α,α-difluoroether product. For model (trifluoromethyl)alkane 1, KHMDS was selected over NaHMDS 
+because each reaction (Table S1) resulted in complete consumption of (trifluoromethyl)alkane starting 
+material, which was often difficult to separate from the α,α-difluoro ether product via silica 
+chromatography. 
+General procedure for condition variation for vinyl ether synthesis (Step 1): (4,4,4-
+Trifluorobutoxy)methyl)benzene (21.8 mg, 0.1 mmol) was added to an oven-dried, 4 mL dram vial 
+(KIMBLE®, #0333919A) charged with a magnetic stir bar. The vial was sealed with a screw cap (Thermo 
+Fisher Scientific, #C4015-1A) lined with a PTFE septum (Thermo Fisher Scientific, #B7995-13) and was 
+brought into a N2 filled glovebox. The vial was unsealed and anhydrous DMF (0.25 mL, 0.4M) was added 
+via a micropipette. 2-Ethyl-1-hexanol (19.5 mg, 1.5 equiv, 0.15 mmol) was then added via pipette followed 
+by KHMDS (59.9 mg, 3.0 equiv, 0.3 mmol). The vial was sealed with the screw cap, removed from the 
+glovebox, and placed into an aluminum reaction block at room temperature. The reaction solution was 
+stirred at room temperature for 4 h. At this time, the vial was unsealed, and methanol (0.1 mL, 2.47 mmol, 
+24.7 equiv) was added via syringe to quench the reaction solution. 1,4-Difluorobenzene standard was then 
+measured into the reaction solution via pipette; for each experiment, the mass of 1,4-difluorobenzene 
+weighed into the vial was recorded separately. A small aliquot was removed, charged into an NMR tube, 
+and constituted in CDCl3 (0.5 mL). 19F NMR spectroscopy (376 MHz, CDCl3) was used to determine the 
+yield of (Z)-(((4-((2-ethylhexyl)oxy)-4-fluorobut-3-en-1-yl)oxy)methyl)benzene (3Z) and (E)-(((4-((2-
+ethylhexyl)oxy)-4-fluorobut-3-en-1-yl)oxy)methyl)benzene (3E). We note that the ratio of 3E to 3Z is 
+usually greater than 5:1. The aromatic fluorine signal of 1,4-difluorobenzene at -119.7 ppm (q, 2F) was 
+integrated 
+against 
+the 
+vinyl 
+fluorine 
+signal 
+of 
+(((4-((2-ethylhexyl)oxy)-4-fluorobut-3-en-1-
+yl)oxy)methyl)benzene at -89.50 ppm (d, J = 4.6 Hz, Z-isomer) and -89.51 ppm (d, J = 30.5 Hz, E-isomer) 
+to determine the yield. The results are summarized in Table S1 below. Representative 1H and 19F NMR 
+spectra for this reaction are provided below. Note: A 20 second relaxation delay was used to acquire 
+quantitative 19F NMR data. 
+
+
+--- PDF page 4 ---
+ 
+S4 
+Table S1: Condition variation of vinyl ether formation from ((4,4,4-trifluorobutoxy)methyl)benzene (1). A 
+> 5:1 ratio of 3E to 3Z is usually observed and the combined yield is reported. a reaction was run under 
+ambient atmosphere. 
+
+
+--- PDF page 5 ---
+ 
+S5 
+ 
+Figure S1: Representative 19F NMR spectrum of a crude reaction solution from optimization studies. 
+Reaction stopped after 5 min to show starting material (1) (Table S1, Entry 15), gem-difluoroalkene 
+intermediate, and vinyl ether product (3). 1,4-Difluorobenzene (24.8 mg, 217 μmol, signal at -119.7 ppm) 
+was used to determine the amount of ((4,4,4-trifluorobutoxy)methyl)benzene (1, 10.9 µmol, 11%), (((4,4-
+difluorobut-3-en-1-yl)oxy)methyl)benzene (15.6 µmol, 16% yield) and (E/Z)-(((4-((2-ethylhexyl)oxy)-4-
+fluorobut-3-en-1-yl)oxy)methyl)benzene (3, 60.6 µmol, 61% yield).  
+3 
+1 
+
+
+--- PDF page 6 ---
+ 
+S6 
+ 
+Figure S2: 19F NMR spectral window of spectrum depicted in Figure S1 depicting the 19F NMR signals 
+for the gem-difluoroalkene intermediate and both E and Z isomers (3E and 3Z, respectively) of the vinyl 
+ether product. 
+3E 
+3Z 
+
+
+--- PDF page 7 ---
+ 
+S7 
+ 
+Figure S3: Representative 1H NMR spectrum of the crude reaction solution from the optimization studies, 
+quenching the reaction mixture with methanol (0.1 mL, 2.5 mmol) after 5 min (Table S1, Entry 15). 1,4-
+Difluorobenzene (24.8 mg, 217 μmol, signal at 6.96 ppm) was used to corroborate the yield of 3 (61.2 µmol, 
+61% yield) determined via 19F NMR spectroscopy.  
+ 
+ 
+ 
+
+
+--- PDF page 8 ---
+ 
+S8 
+Figure S4: 1H NMR spectral window of spectrum depicted in Figure S3 depicting the 1H NMR signals for 
+the (((4,4-difluorobut-3-en-1-yl)oxy)methyl)benzene intermediate and vinyl ether product (E)-(((4-((2-
+ethylhexyl)oxy)-4-fluorobut-3-en-1-yl)oxy)methyl)benzene (3E). 3Z is not observable here. 
+Preparation of crude vinyl ether solution for hydrofluorination optimization: For optimization of 
+hydrofluorination, 1 mmol scale preparation of 3 was conducted using General Procedure 1 (GP1 Step 1, 
+page S11). The crude reaction mixture from this step was transferred to a 125 mL separatory funnel, 
+saturated aqueous NaHCO3 (50 mL) was added and extracted with dichloromethane (DCM, 3 x 25 mL). 
+The resulting organic solution was then dried with Na2SO4, filtered, transferred to a 500 mL round bottom 
+flask, and concentrated in vacuo. n-Heptane (100 mL) was added, and the solution was reconcentrated. To 
+the mixture, 1,4-diflurobenzene (30 µL, 305 µmol) was added via microsyringe. CDCl3 (~0.5 mL) was then 
+added to give a homogenous solution. A small aliquot from this solution was removed, charged into an 
+NMR tube, and constituted in CDCl3 (0.5 mL). 19F NMR spectroscopy (376 MHz, CDCl3) was used to 
+determine the yield of (3E) and (3Z) with a 20 second relaxation delay. The NMR sample was recombined 
+with the crude material, taken up with DCM and transferred to a 20 mL scintillation vial of a known mass. 
+The solution was then reconcentrated in vacuo. The mass of the crude material was determined by weighing 
+the vial containing the concentrated crude material. An aliquot with the mass 1/10th of the crude material 
+mass was charged into a HDPE scintillation vial (Fisher, #03-341-72B) with a stir bar (i.e., if the total mass 
+of the crude material weighed 250 mg, a 25 mg aliquot was taken). 
+(b) Optimization of hydrofluorination of 1-fluorovinyl ether 3: evaluation of hydrofluorination 
+reagent, co-acid, and solvent. 
+Discussion. Hydrofluorination optimization studies were conducted using the crude vinyl ether 
+mixture acquired from the procedure above. Initial studies varying hydrofluoric acid source indicated that 
+
+
+--- PDF page 9 ---
+ 
+S9 
+pyridine·HF (70% hydrogen fluoride % w/w) and DMPU·HF (65% hydrogen fluoride % w/w) in toluene 
+promote 
+regioselective 
+hydrofluorination 
+of 
+3 
+to 
+afford 
+((4-((2-ethylhexyl)oxy)-4,4-
+difluorobutoxy)methyl)benzene (4) in good to excellent yield (Table S2, Entry 9 and 12, respectively). We 
+also found that use of NEt3‧3HF with TFA affords quantitative conversion of 3 to 4. We reasoned one 
+potential advantage of a co-acid system would be that the identity of the coacid could be modularly changed 
+to promote hydrofluorination of more difficult-to-protonate vinyl ether compounds. This is illustrated in 
+Figure 4 in which methanesulfonic acid was required to promote regioselective hydrofluorination of 
+fluorovinyl arylether intermediates. In addition to the coacid system affording high hydrofluorination yield, 
+use of NEt3‧3HF has practical advantages over pyridine‧HF and DMPU‧HF. Namely, NEt3‧3HF by itself 
+does not etch glass, can be measured in a glass microsyringe and does not evolve hydrogen fluoride vapor.4 
+Although we found that hydrofluorination of the model vinyl ether (3) works best using 2.0 equivalents of 
+NEt3‧3HF and 2.0 equivalents of TFA after 20 min, all preparative scale hydrofluorination reactions of 
+model substrate 1 vinyl ether adducts were conducted with 3.0 equivalents of each acid for 30 min. This 
+was done because we found this generally allowed for full consumption of the vinyl ethers in Chart 1. The 
+vinyl ether starting material and corresponding α,α-difluoroether product are inseparable via silica gel 
+chromatography. For vinyl ether compounds bearing an amine group, higher equivalents of each acid are 
+required to achieve high α,α-difluoroether yield and complete consumption of the vinyl ether.  
+General procedure for condition variation of hydrofluorination (Step 2): To the HDPE vial 
+containing the crude vinyl ether mixture (3) obtained from Step 1, toluene (0.5 mL, 0.2 M) was added via 
+syringe. NEt3‧3HF (32.6 μL, 0.2 mmol, 2.0 equiv) was added via syringe and the solution was stirred. 
+Trifluoroacetic acid (15.3 µL, 0.2 mmol, 2.0 equiv) was added via syringe, the vial was sealed with a 
+screwcap, and the reaction mixture was stirred at room temperature for 20 min. At this time, the vial was 
+unsealed, 1,2-difluorobenzene (30 μL, 305 µmol) was added with a microsyringe and aqueous saturated 
+sodium bicarbonate (1 mL + 1 mL per mmol of acid) was added via a syringe. K2CO3 (solid) was added 
+until the aqueous phase of the biphasic mixture achieved a pH of 8. With a Pasteur pipette, a small aliquot 
+was taken from the organic phase and loaded onto a sodium sulfate plug to remove residual water (the plug 
+was prepared by tamping a small piece of Kimwipe into Pasteur pipette and filling the pipette ¾ full with 
+sodium sulfate) and the crude solution was flushed with CDCl3 (0.5 mL) into an NMR tube. 19F NMR 
+spectroscopy (376 MHz, CDCl3) was used to determine the yield of ((4-((2-ethylhexyl)oxy)-4,4-
+difluorobutoxy)methyl)benzene (4). The aromatic fluorine signal of 1,2-difluorobenzene at -138.9 ppm (q, 
+2F) was integrated against the fluorine signal of 4 at -74.88 ppm (t, J = 10.7 Hz, 2F) to determine the yield. 
+The results are summarized in Table S2 below. Yields shown are out of total possible yield benchmarked 
+against the yield of fluorovinyl ether from Step 1. Representative 19F NMR spectra for this reaction are 
+provided below. Note: A 20 second relaxation delay was used to acquire quantitative 19F NMR data. 
+Safety note: Organic hydrogen fluoride (HF) complexes (e.g., pyridine‧HF, NEt3‧3HF) are highly toxic and 
+corrosive compounds and must be handled with care. Read HF standard operating procedures before 
+handing HF reagents.5 When conducting experiments with HF reagents the following safety precautions 
+were employed in addition to standard lab safety procedures recommended by Colorado State University 
+Environmental Health Services: unexpired calcium gluconate gel (Calgonate, Fisher, #NC1209914) was on 
+hand at all times, and a prepared beaker of saturated sodium bicarbonate solution was on hand. Needles and 
+syringes that were used to measure and dispense HF reagents in the reactions described below were 
+thoroughly neutralized with saturated NaHCO3 before being cleaned or disposed of. When measuring HF 
+reagents in syringes, 1 mL, Luer lock syringes (Fisher, #14-817-252) were used (with the exception of 
+NEt3‧3HF). Pyridine‧HF readily etches glass and produces hydrogen fluoride vapors at room temperature. 
+Pyridine‧HF was measured and dispensed using either a micropipette with a disposible plastic pipette tip or 
+a plastic Luer lock syringe; do not measure pyridine‧HF in a glass syringe. We note that NEt3‧3HF does not 
+
+
+--- PDF page 10 ---
+ 
+S10 
+readily etch glass and NEt3‧3HF was measured in a glass microsyringe many times without any observable 
+damage to the syringe. Note: the co-acid system (mixture of either TFA or MsOH with NEt3‧3HF) does 
+etch glass and these reactions should be conducted in HF resistent vessels (e.g., HDPE, PTFE). After 
+conducting any reaction with hydrofluoric acid, the reaction mixture was quenched with saturated aqueous 
+NaHCO3 solution followed by excess solid K2CO3. Before analysis by NMR spectroscopy, the pH of the 
+resulting aqueous layer was analyzed to ensure no HF remained. Never handle hydrofluoric acid outside of 
+a fumehood and never evaporate a solution containing dissolved hydrogen fluoride.  
+Table S2: Condition variation for α,α-difluoroether (4) formation from crude fluorovinyl ether (3).  
+ 
+
+
+--- PDF page 11 ---
+ 
+S11 
+ 
+Figure S5: Representative 19F NMR spectrum of the crude, quenched reaction solution for the 
+hydrofluorination of vinyl ether 3. 1,2-difluorobenzene (30 μL, 34.8 mg, 305 μmol, signal at -138.9 ppm) 
+was used to determine the yield of ((4-((2-ethylhexyl)oxy)-4,4-difluorobutoxy)methyl)benzene (0.1 mmol 
+scale) (4, 88 μmol out of possible 89 μmol, 99% yield; Table S2, Entry 1).  
+ 
+(c) Discussion of yields and reaction assessments determined by 19F NMR spectroscopy method 
+Discussion: For yields reported based on 19F NMR spectroscopy a 20 second D1 delay was used based on 
+the following experiment where the % error in quantification of analyte 17 is insignificant at D1 = 15 
+seconds (1%). A 20 second delay was used to account for potential variation in substrate 19F T1 relaxation. 
+Procedure: 17 (20.0 mg, 0.052 mmol) was added to a 4 mL dram vial. CDCl3 (0.5 mL) was then added. To 
+the vial, 1,4-difluorobenzene (18.8 mg, 0.165 mmol) was added. The solution was loaded into an NMR 
+tube and analyzed via 19F NMR spectroscopy using various D1 delay times.  
+ 
+
+
+--- PDF page 12 ---
+ 
+S12 
+ 
+Figure S6: Percentage error in 19F NMR integration versus D1 delay time. 
+Analysis: The gem-difluoride signal at -73.9 ppm (t, J = 10.4 Hz, 2F) was integrated against the fluorine 
+signal of 1,4-diflurobenene (p, J = 6.0 Hz, 2F) to calculate the amount of 17 in solution. The percentage 
+error was calculated based on the known amount of 17 in solution (0.052 mmol). From the data, we 
+conclude that a 15 second D1 time is sufficient for quantifying 17. To account for potential variation in 
+substrate 19F T1 time, a 20 second delay was used to determine yields where 19F NMR spectroscopy is used 
+to report a yield. 
+Notes on discrepancy between yields determined via 19F NMR spectroscopy and isolated yields  
+Discussion: In most cases, we report only the isolated product yields. In certain cases, yields based on 19F 
+NMR spectroscopy are included to inform readers of the initial yield of the reaction (Figure 4b and 5c). 
+Several of these compounds have a discrepancy between the yield determined by 19F NMR spectroscopy 
+of the crude reaction mixture and the isolated yield. We note a few potential factors that can contribute to 
+the yield loss. First, substituted gem-difluoride products are sensitive to hydrolysis, which may take place 
+during the aqueous workup or during chromatography. We reason this is the largest contributing factor to 
+the yield loss for the compounds in Figure 4b. For the complex compounds in Figure 5c, the resolution 
+between the products, starting material and side products are poor on silica and necessitated careful 
+purification via preparatory thin layer chromatography without full separation. 
+Assessment of E/Z fluorovinyl ether isomers 
+Discussion: Throughout this work, we report the vinyl fluoro(thio)ether intermediates as the E isomer. We 
+note that the E isomer is the major product for all vinyl(thio)ether formation reactions that we have 
+observed. Analysis of crude reaction mixtures via 19F NMR spectroscopy shows two 19F signals representing 
+the E and Z isomers. The isomers were assigned based on the 3JHF coupling constant compared with each 
+other, with the major (E) isomer having a smaller coupling constant. A representative 19F NMR spectrum 
+of a fluorovinyl ether mixture (the intermediate to product 5) is shown below to illustrate a case where both 
+isomers are visible. A mixture (E-isomer major) is also observed for the model substrate in Figure S2. 
+
+
+--- PDF page 13 ---
+ 
+S13 
+ 
+Figure S7: 19F NMR spectral window of the formation of (E/Z)-(((4-fluoro-4-(2-methoxyethoxy)but-3-en-
+1-yl)oxy)methyl)benzene displaying both isomer 19F signals with their respective coupling 3JHF constants. 
+The signals at -90.4 ppm (d, J = 4.6 Hz, 1F) and -90.5 (d, J = 29.7 Hz, 1F) were integrated against 1,4-
+difluorobenzene (not shown, 48.3 mg, 423 µmol) to show 85% combined yield (368 µmol, 74% yield; 57 
+µmol, 11% yield).  
+
+
+--- PDF page 14 ---
+ 
+S14 
+  
+Figure 
+S8: 
+19F 
+NMR 
+spectral 
+window 
+of 
+the 
+formation 
+of 
+((4,4-difluoro-4-(2-
+methoxyethoxy)butoxy)methyl)benzene (5). The 19F signal of 5 (t, J = 11.1 Hz, 2F) (398 µmol, 80% yield) 
+was integrated against 1,2-difluorobenzene (not shown, 30 µL, 306 µmol). 
+Analysis: The presence of two distinct 19F signals in Figure S7 that exhibit different coupling constants is 
+consistent with the formation of both E (74% yield) and Z (11% yield) isomers with the E isomer being the 
+major intermediate. Furthermore, a yield of 80% for the hydrofluorination step is consistent with both 
+isomers reacting to form 5. We note that in all cases other than this representative example similar scenarios 
+are observed (E isomer being major intermediate). 
+(d) Role of CuCl in hydrofluorination of fluorovinyl thioethers: 
+Discussion: During hydrofluorination studies of fluorovinyl thioether intermediates, we found poor yield 
+and mass balance were observed under standard hydrofluorination conditions (Figure S9a). Lower acid 
+loadings gave poor conversion while higher acid loadings resulted in complete consumption of starting 
+material with little product formation. We investigated various additives that could bind to amine·HF 
+sources and alter their reactivity. When CuCl was used with Olah’s reagent, a substantial product yield 
+increase was observed. We speculate that CuCl disrupts the H-bonding in Olah’s reagent to achieve the 
+requisite balance of acidity and nucleophilicity for fluorovinyl thioether hydrofluorination without 
+decomposition. There are other mechanistic possibilities, including olefin binding6, and the full role of this 
+additive is not currently known. 
+
+
+--- PDF page 15 ---
+ 
+S15 
+ 
+Figure S9: Fluorovinyl thioether hydrofluorination yield increase using CuCl additive. 
+ 
+III. Limitations of the Pronucleophile Coupling Partner: 
+Discussion: During these studies, we also explored N- and P-based pronucleophiles to try to achieve 
+broader range of C–F substitution products. We found that these classes of pronucleophiles are sufficiently 
+nucleophilic to form the respective fluorovinyl intermediates; however, neither class underwent productive 
+hydrofluorination. We reason that this is likely due to a more challenging fluoride addition step or the 
+potential instability of the resulting products which is well documented for N-substituted gem-difluorides.7  
+Amine pronucleophiles: we found that alkylamines (e.g., piperidine) do not add to give the fluorinated 
+enamine intermediate and poor mass balance is observed alongside gem-difluoroalkene intermediate. This 
+is likely due to the low acidity of alkylamines. Anilines, on the other hand, afford the corresponding 
+fluoroenamine in good yield (e.g., 1 and N-methylaniline give 82% yield under standard conditions using 
+NaHMDS in N,N-dimethylacetamide). Hydrofluorination of this enamine intermediate was unsuccessful 
+under a variety of our optimized conditions for fluorovinyl ether hydrofluorination.  
+Phosphine pronucleophiles: we found that diphenylphosphine undergoes the addition/elimination 
+sequence with 1 to afford the corresponding fluorovinyl phosphine interemediate in moderate yield (37% 
+yield) under standard conditions. However, subjection of this fluorovinyl phosphine to standard 
+hydrofluorination conditions results in a complex mixture of products with no desired phosphorus 
+substituted gem-difluoride detected.  
+Tertiary alcohol pronucleophiles: tertiary alcohol pronucleophiles (e.g., t-BuOH) undergo the 
+addition/elimination sequence to afford the corresponding vinyl ether in moderate yield under standard 
+conditions (e.g., t-BuOH and 9-(4,4,4-trifluorobutyl)-9H-carbazole give 51% fluorovinyl ether yield under 
+standard conditions); however, subjection of this material to standard hydrofluorination conditions results 
+in poor yield and mass balance (4% yield by 19F NMR spectroscopy). 
+Diol pronucleophiles: during the alcohol pronucleophile studies, we investigated diols and hypothesized 
+that steric effects could influence site-selectivity. We found, however, that these substrates result in low 
+yield and mass balance of the corresponding vinyl ether (e.g., 3-methylbutane-1,3-diol and 1 gave a mixture 
+of characteristic fluorovinyl ether signals that integrate to 28% yield in the 19F NMR spectrum under 
+standard conditions), likely due to a lower nucleophilicity caused by additional H-bonding.  
+
+
+--- PDF page 16 ---
+ 
+S16 
+IV. 
+General 
+Procedures 
+for 
+(Trifluoromethyl)alkane 
+Monodefluorofunctionalization: 
+General Procedure 1 (GP1) for primary-substituted (trifluoromethyl)alkane defluoroetherification: 
+(Step 1) To an oven-dried, 7.5 mL dram vial (Fisher, #14-955-326) with a stir bar containing 
+(trifluoromethyl)alkane (0.5 mmol 1.0 equiv), anhydrous DMF (1.25 mL) and alcohol (0.75 mmol, 1.5 
+equiv) were added via syringe. The vial was sealed with a screwcap, placed in a 0 °C ice bath and the 
+solution was stirred for five min. The vial was then unsealed, and potassium bis(trimethylsilyl)amide 
+solution (1M in THF, 1.5 mL, 1.5 mmol) or sodium bis(trimethylsilyl)amide solution (2M in THF, 0.75 mL, 
+1.5 mmol) was added via syringe. The vial was resealed with the screwcap, and the mixture was stirred at 
+0 °C for an additional one minute. The vial was then removed from the ice bath and placed in an aluminum 
+reaction block (Chemglass, #CG-1991-05) preheated to 40 °C and the reaction mixture was stirred. The 
+reaction mixture was monitored by thin layer chromatography (TLC) until complete consumption of the 
+(trifluoromethyl)alkane was observed (typically 10 hours). At this time, the vial was unsealed, and methanol 
+(0.5 mL, 12.4 mmol) was added via syringe to quench the reaction solution. 1,4-Difluorobenzene standard 
+was then measured into the crude solution with a pipette and the mass of standard added was recorded. A 
+small aliquot (~0.1 mL) was charged into an NMR tube and constituted in CDCl3 (0.5 mL). 19F NMR 
+spectroscopy (376 MHz, CDCl3) was used to determine the yield of the fluorovinyl ether product. The NMR 
+sample and the crude reaction solution were combined in a 250 mL separatory funnel with DCM. Saturated 
+aqueous NaHCO3 solution (100 mL) was added, and the mixture was extracted with DCM (3 x 50 mL). 
+Note: Initial studies into the aqueous workup suggested that the vinyl ether is sensitive to hydrolysis under 
+neutral aqueous conditions and found that using saturated sodium bicarbonate as the aqueous phase instead 
+of water mitigated hydrolysis. The resulting organic solution was then dried with Na2SO4, filtered and 
+concentrated in vacuo. To the concentrated solution containing residual DMF, n-heptane (50 mL) was 
+added, and the resulting solution was reconcentrated in vacuo. This was done to remove residual DMF 
+which forms a low-boiling azeotrope with n-heptane.8 The concentrated mixture was taken up with DCM 
+and transferred to a 25 mL PTFE round bottom flask (Fisher, #50-977-980) and reconcentrated via air 
+blowdown evaporation. The flask was fitted with a rubber septum and placed under vacuum via a needle 
+connected to a Schlenk line for 1 minute. Note: due to issues with bumping while concentrating solutions 
+in the PTFE round bottom flask (the internal flask surface is not smooth) via rotary evaporation, we found 
+concentration via air blowdown evaporation followed by drying under vacuum to be more efficient. 
+(Step 2) The PTFE round bottom flask containing the crude mixture from Step 1 was backfilled with 
+nitrogen before being disconnected from the Schlenk line. The rubber septum was removed, and a stir bar 
+was added. The flask was then fitted with a rubber septum and evacuated and backfilled with nitrogen gas 
+three times and left under a positive pressure of nitrogen gas on a manifold Schlenk line. Toluene (2.5 mL) 
+was then added via syringe. At this time, NEt3‧3HF (244 µL, 1.5 mmol, 3.0 equiv) was added via syringe 
+and the solution was stirred. To this solution, trifluoroacetic acid (115 µL, 1.5 mmol, 3.0 equiv) was added 
+via syringe and the reaction mixture was stirred at rt for 30 min (unless otherwise noted). At this time, 1,2-
+difluorobenzene (30 µL, 34.8 mg, 0.305 mmol) was added via syringe, the septum was pierced with a vent 
+needle, and the reaction mixture was quenched with saturated aqueous NaHCO3 solution (1 mL + (1 mL 
+per 1 mmol of acid)) which was added slowly (~1 mL / 5 seconds) via syringe. The septum was removed 
+and excess solid K2CO3 was added until gas evolution ceased (~50 mg). The pH of the aqueous phase was 
+measured using pH paper to ensure all HF was consumed (pH ~ 9). From the organic layer of the biphasic 
+mixture, a small aliquot (~ 0.2 mL) was removed and filtered through a sodium sulfate plug with CDCl3 
+(0.5 mL) into an NMR tube (the plug was prepared by tamping a small piece of Kimwipe into Pasteur 
+pipette and filling the pipette ¾ full with sodium sulfate). The solution was analyzed with NMR 
+
+
+--- PDF page 17 ---
+ 
+S17 
+spectroscopy (1H and 19F) to determine the crude yield of the α,α-difluoroether product. The biphasic 
+mixture and the NMR sample were then combined in a 250 mL separatory funnel. Saturated aqueous 
+NaHCO3 solution (100 mL) was added, and the mixture was extracted with DCM (3 x 50 mL). The resulting 
+organic solution was dried over Na2SO4, filtered, and concentrated in vacuo. The product was isolated via 
+silica flash column chromatography according to the eluent conditions provided. Reported isolated yields 
+represent total yield of both steps (i.e., out of 0.5 mmol).  
+General 
+Procedure 
+2 
+(GP2) 
+for 
+secondary-substituted 
+(trifluoromethyl)alkane 
+defluoroetherificatiom: GP1 Step 1 was followed with the following modifications: After addition of the 
+(trifluoromethyl)alkane, the vial was sealed with a screwcap lined with a PTFE septum, and the vial was 
+evacuated and backfilled three times with anhydrous nitrogen gas and left under a positive pressure of 
+nitrogen gas on a manifold Schlenk line. DMF (1.25 mL) was added via syringe followed by alcohol (0.5 
+mmol, 1.0 equiv) via syringe. The vial was placed in a 0 °C ice bath with stirring, and the solution was 
+stirred at 0 °C for 5 min. At this time, the vial was unsealed and KO-t-Bu (140.3 mg, 1.25 mmol, 2.5 equiv) 
+was added at once. The vial was resealed with a screwcap and new septum and the vial was flushed for 30 
+seconds with nitrogen using a positive pressure of nitrogen gas via an inlet needle connected to a Schlenk 
+line and a vent needle. The vial was removed from the ice bath; the top of the vial was sealed with electrical 
+tape and the vial cap was wrapped in parafilm. The vial was placed in an aluminum reaction block preheated 
+to 80 °C and the reaction mixture was stirred for 15 hours. Step 2 and the purification procedure are identical 
+to GP1. 
+General Procedure 3 (GP3) for amine-bearing (trifluoromethyl)alkane defluoroetherification: This 
+procedure was employed when either the pronucleophile or (trifluoromethyl)alkane contained a primary or 
+secondary amine functional group. GP2 Step 1 was followed with the following modifications: anhydrous 
+N,N-dimethylacetamide (DMA, 0.5 mL, 0.4 M) was used instead of DMF, 1.5 equivalents of alcohol (0.75 
+mmol, 1.5 equiv) was used instead of 1.0 equivalent, 3.0  equivalents of solid KO-t-Bu (168.3 mg, 1.5 
+mmol, 3.0 equiv) was used instead of 2.5 equivalents, and the reaction mixture was stirred at 40 °C instead 
+of 80 °C. Step 2 and the purification procedure are identical to GP1. 
+General Procedure 4 (GP4) for (trifluoromethyl)alkane defluoroetherification with phenols: GP1 
+Step 1 was followed with the following modifications: After addition of DMF (1.25 mL, 0.4 M), 18-crown-
+6 (396.5 mg, 1.5 mmol, 3.0 equiv) was added directly to the solution of (trifluoromethyl)alkane in DMF. 
+Solid KHMDS (299.3 mg, 1.5 mmol, 3.0 equiv) was used instead of the KHMDS solution in THF which 
+was added directly to the solution. The reaction mixture was stirred at 50 °C instead of 40 °C. Step 2 and 
+the purification procedure are identical to GP1. 
+General Procedure 5 (GP5) for (trifluoromethyl)alkane defluorothioetherification: Step 1: To a 7.5 
+mL, oven-dried dram vial, (trifluoromethyl)alkane (0.5 mmol 1.0 equiv) was added via pipette. Anhydrous 
+N,N-dimethylformamide (1.25 mL, 0.4 M) was added via syringe followed by 18-crown-6 (330.4 mg, 1.25 
+mmol, 2.5 equiv). The vial was sealed with a screwcap lined with a PTFE septum, placed in a 0 °C ice bath, 
+and the mixture was stirred for five min. The vial was then unsealed, and solid KHMDS (249.4 mg, 1.25 
+mmol, 2.5 equiv) was added at once. The vial was resealed with the screwcap and allowed to stir at 0 °C 
+for 5 seconds. At this time, the vial was removed from the ice bath and was stirred at room temperature for 
+30 seconds. The vial was then unsealed and thiol (1.5 mmol, 3.0 equiv) was added via syringe. The vial 
+was then resealed with the screwcap and septum and was flushed with nitrogen gas for 30 seconds with 
+nitrogen using a positive pressure of nitrogen gas via an inlet needle connected to a Schlenk line and a vent 
+needle. Both needles were then removed, and the reaction mixture was stirred at room temperature for 1 
+hour. At this time, the vial was unsealed, and methanol (0.5 mL, 12.4 mmol) was added via syringe. GP1 
+was followed for the aqueous workup and preparation of the crude vinyl thioether mixture for 
+
+
+--- PDF page 18 ---
+ 
+S18 
+hydrofluorination. Step 2: To the PTFE flask containing the crude vinyl thioether and a stir bar, DCM (2.5 
+mL, 0.2 M) was added via syringe followed by cuprous chloride (49.5 mg, 0.5 mmol, 1.0 equiv) and the 
+solution was stirred. Pyridine·HF (70% hydrogen fluoride % w/w, 208 µL – 312 µL, 0.88 mmol - 1.2 mmol, 
+1.8 equiv – 2.6 equiv) was added via micropipette. The flask was sealed with a rubber septum and the 
+reaction mixture was stirred for 30 min (unless otherwise noted) at room temperature. At this time, 1,2-
+difluorobenzene (30 µL, 34.8 mg, 0.305 mmol) was added via syringe, the septum was pierced with a vent 
+needle, and the reaction mixture was quenched with saturated aqueous NaHCO3 solution (1 mL + (1 mL 
+per 1 mmol of acid)) which was added slowly (~1 mL / 5 seconds) via syringe. The septum was removed 
+and excess solid K2CO3 was added until gas evolution ceased (~50 mg). The pH of the aqueous phase was 
+measured using pH paper to ensure all HF was consumed (pH ~ 9). From the organic layer of the biphasic 
+mixture, a small aliquot (~ 0.2 mL) was removed and filtered through a sodium sulfate and neutralized 
+silica plug with CDCl3 (0.5 mL) into an NMR tube (the plug was prepared by tamping a small piece of 
+Kimwipe into Pasteur pipette and filling the pipette with 1 cm of neutralized silica and then ¾ full with 
+sodium sulfate) (the silica was neutralized by preparing a slurry of silica in 2% triethylamine in hexanes 
+and allowing that slurry to dry). This was done to dry the crude mixture and remove copper which severely 
+broadens both 19F and 1H NMR spectra. The solution was analyzed with NMR spectroscopy (1H and 19F) 
+to determine the crude yield of the α,α-difluorothioether product. The workup and isolation for α,α-
+difluorothioether products is described in GP1 Step 2. 
+ 
+V. Characterization Data of C–F Substituted Products  
+Note: For (trifluoromethyl)alkane substrates that possess stereocenters, when racemic 2-ethyl-1-hexanol is 
+used as an alcohol, a 1:1 diastereomeric ratio is assumed (no NMR signals were discernable to directly 
+measure the dr). This is the case for products 19, 22, 26, 27 and 50. 
+((4,4-difluoro-4-(2-methoxyethoxy)butoxy)methyl)benzene (5) 
+Note: This is a one-pot procedure to demonstrate that the entire procedure 
+can be conducted without any intermediate forms of purification (i.e., 
+aqueous workup). We found, however, that evaporation of the crude reaction mixture / n-Heptane mixture 
+via rotary evaporation results in strong bumping as solid inorganic precipitate forms such that the air 
+evaporation and vial switching described in GP1 is more practical for routine mmol-scale reactions. 
+Procedure: To an oven-dried 25 mL PTFE round bottom flask with stir bar containing ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol) and anhydrous N,N-dimethylformamide (1.25 
+mL), 2-methoxyethanol (57.1 mg, 0.75 mmol, 1.5 equiv) was added. The flask was placed in a 0 °C ice 
+bath and was stirred for five min. To the flask, potassium bis(trimethylsilyl)amide solution 1M in THF (1.5 
+mL, 1.5 mmol, 3.0 equiv) was added at once. The flask was fitted with a rubber septum and allowed to stir 
+at 0°C for one minute. At this time, the flask was removed from the ice bath and placed in an oil bath 
+preheated to 40°C for 4 hours. At this time, the reaction mixture was cooled to 0°C and methanol (0.5 mL, 
+12.4 mmol) was added via syringe. The stir bar was removed and rinsed with dichloromethane. The crude 
+reaction mix was concentrated in vacuo until most of the low boiling point solvents (THF, DCM) were 
+removed. At this time, n-heptane (10 mL) was added and the solution was reconcentrated. This was repeated 
+four times. A fresh stir bar was added to the flask, the flask was fitted with a rubber septum and was 
+evacuated and backfilled three times with anhydrous nitrogen gas and left under a positive pressure of 
+nitrogen gas on a manifold Schlenk line. For the remaining procedure, GP1 was followed using NEt3‧3HF 
+(244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid, (114.8 μL, 1.5 mmol, 3.0 equiv), and toluene (2.5 mL) 
+(Step 2). The titled compound was purified via silica gel chromatography with the eluent conditions 2% 
+
+
+--- PDF page 19 ---
+ 
+S19 
+EtOAc, 2% Triethylamine/ hexanes on neutralized silica (the silica gel was neutralized by preparing a silica 
+slurry with 2% triethylamine / hexanes solution) to afford the product as a yellow oil (97.5mg, 0.36 mmol, 
+71% yield). 1H NMR (400 MHz, CD3CN) δ 7.41 – 7.23 (m, 5H), 4.48 (s, 2H), 4.12 – 3.80 (m, 2H), 3.56 – 
+3.45 (m, 4H), 3.32 (s, 3H), 2.13 – 2.00 (m, 2H), 1.85 – 1.64 (m, 2H). 13C NMR (101 MHz, CD3CN) δ 
+140.0, 129.3, 128.6, 128.4, 127.1 (t, J = 259.9 Hz), 73.3, 71.5, 69.7, 63.4 (t, J = 6.7 Hz), 59.0, 33.1 (t, J = 
+30.2 Hz), 24.1 (t, J = 3.1 Hz).  19F NMR (376 MHz, CDCl3) δ -75.10 (t, J = 11.1 Hz). IR (neat, cm-1) 2935, 
+2859, 1453, 1262, 1099, 992. HRMS (ESI) [M+NH4]+ calcd. for [C14H20F2O3•NH4]+ = 292.1719, 292.1758 
+found. 
+3-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-3-methyloxetane (6) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), (3-
+methyloxetan-3-yl)methanol (76.6 mg, 0.75 mmol, 1.5 equiv), KHMDS (1 M 
+solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 4 h (Step 1); NEt3‧3HF 
+(244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous 
+toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via silica gel chromatography with the eluent 
+conditions 5% EtOAc in hexanes on neutralized silica (the silica gel was neutralized by preparing a silica 
+slurry with 10% triethylamine / hexanes solution) to afford the product as a colorless oil (107.0 mg, 0.36 
+mmol, 71% yield). 1H NMR (400 MHz, CDCl3) δ 7.43 – 7.26 (m, 5H), 4.51 (t, J = 2.9 Hz, 5H), 4.36 (d, J 
+= 5.9 Hz, 2H), 3.92 (s, 2H), 3.51 (t, J = 6.3 Hz, 2H), 2.25 – 1.99 (m, 2H), 1.85 (ddt, J = 10.6, 7.6, 6.2 Hz, 
+2H), 1.32 (s, 3H). 13C NMR (101 MHz, CDCl3) δ 138.5, 128.5, 127.7, 125.9 (t, J = 261.8 Hz), 79.5, 73.0, 
+69.2, 67.4 (t, J = 6.2 Hz), 39.1, 32.7 (t, J = 30.0 Hz), 23.3 (t, J = 3.0 Hz), 21.2. 19F NMR (376 MHz, CDCl3) 
+δ -74.60 (t, J = 11.0 Hz) IR (neat, cm-1) 2960, 2869, 1452, 1259, 1098, 1064, 978, 835, 736, 697. HRMS 
+(ESI) [M+H]+ calcd. for [C16H23F2O3]+ = 301.1615, 301.1617 found. 
+(1-(4-(benzyloxy)-1,1-difluorobutoxy)-2-methylpropan-2-yl)benzene (7) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), 2-
+methyl-2-phenylpropan-1-ol (112.7 mg, 0.75 mmol, 1.5 equiv), KHMDS (1 
+M solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 4 h (Step 1); NEt3‧3HF 
+(244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous 
+toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via silica gel chromatography using hexanes 
+as an eluent on neutralized silica (the silica gel was neutralized by preparing a silica slurry with 2% 
+triethylamine / hexanes solution). Fractions containing product with impurities were further purified via 
+silica gel chromatography with eluent conditions 2% EtOAc in hexanes on neutralized silica to afford the 
+product as a yellow oil (98.5 mg, 0.29 mmol, 57% yield). 1H NMR (400 MHz, CDCl3) δ 7.45 – 7.15 (m, 
+10H), 4.47 (s, 2H), 3.86 (s, 2H), 3.45 (t, J = 6.4 Hz, 2H), 2.10 – 1.93 (m, 2H), 1.77 (ddt, J = 10.3, 7.5, 6.3 
+Hz, 2H), 1.35 (s, 6H). 13C NMR (101 MHz, CDCl3) δ 146.6, 138.6, 128.5, 128.3, 127.8, 127.71, 126.3, 
+126.1, 124.6 (t, J = 261.2 Hz), 73.0, 71.5 (t, J = 5.8 Hz), 69.3, 38.3, 32.7 (t, J = 30.4 Hz), 25.9, 23.3 (t, J = 
+3.1 Hz). 19F NMR (376 MHz, CDCl3) δ -74.41 (t, J = 10.8 Hz). IR (neat, cm-1) 3036, 2967, 2858, 1497, 
+1403, 1328, 1262, 1100, 1063, 973. HRMS (ESI) [M+NH4]+ calcd. for [C21H26F2O2•NH4]+ = 366.2228, 
+366.2264 found. 
+2-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)chromane (8) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), 
+chroman-2-ylmethanol (123.2 mg, 0.75 mmol, 1.5 equiv), KHMDS (1 M 
+
+
+--- PDF page 20 ---
+ 
+S20 
+solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 4 h (Step 1); NEt3‧3HF 
+(244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous 
+toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via silica gel chromatography with the eluent 
+conditions 100% hexanes to 2% ethyl acetate in hexanes on neutralized silica (the silica gel was neutralized 
+by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford the product as a yellow oil 
+(117.7mg, 0.33 mmol, 65% yield). 1H NMR (400 MHz, CD3CN) δ 7.44 – 7.20 (m, 5H), 7.07 (dddd, J = 
+8.4, 4.6, 1.9, 1.1 Hz, 2H), 6.83 (td, J = 7.4, 1.2 Hz, 1H), 6.74 (dd, J = 8.6, 1.2 Hz, 1H), 4.47 (s, 2H), 4.21 
+(dddd, J = 12.5, 6.2, 4.1, 2.4 Hz, 1H), 4.02 (dd, J = 4.8, 2.4 Hz, 2H), 3.50 (t, J = 6.3 Hz, 2H), 2.96 – 2.67 
+(m, 2H), 2.20 – 1.97 (m, 4H), 1.86 – 1.68 (m, 2H). 13C NMR (101 MHz, CDCl3) δ 154.5, 138.5, 129.6, 
+128.5, 127.7, 127.7, 127.5, 125.9 (t, J = 262.2 Hz), 121.8, 120.5, 117.0, 73.8, 73.0, 69.2, 64.9 (t, J = 6.3 
+Hz), 32.6 (t, J = 29.8 Hz), 24.3, 24.2, 23.3 (t, J = 3.0 Hz). 19F NMR (376 MHz, CDCl3) δ -74.74 (t, J = 11.1 
+Hz). IR (neat, cm-1) 3029, 2951, 2856, 1583, 1488, 1456, 1233, 1100, 1000. HRMS (ESI) [M+NH4]+ calcd. 
+for [C21H24F2O3•NH4]+ = 380.2037, 380.2100 found. 
+1-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)adamantane (9) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), 1-
+adamantan-1-ylmethanol (124.7 mg, 0.75 mmol, 1.5 equiv), KHMDS (1 M 
+solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 
+mL) for 4 h (Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 μL, 1.5 mmol, 
+3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The title compound was purified via silica gel 
+chromatography with the eluent conditions 2% EtOAc in hexanes on neutralized silica (the silica gel was 
+neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford the product as a 
+colorless oil (143.0 mg, 0.39 mmol, 78% yield). 1H NMR (400 MHz, CDCl3) δ 7.39 – 7.23 (m, 5H), 4.50 
+(s, 2H), 3.51 (t, J = 6.4 Hz, 2H), 3.38 (s, 2H), 2.16 – 2.00 (m, 2H), 1.97 (s, 3H), 1.89 – 1.78 (m, 2H), 1.78 
+– 1.58 (m, 6H), 1.52 (d, J = 2.9 Hz, 6H). 13C NMR (101 MHz, CD3CN) δ 139.5, 128.9, 128.2, 128.0, 126.7 
+(t, J = 5.7 Hz), 73.0, 72.9, 69.4, 39.4, 37.2, 33.3, 32.8 (t, J = 30.8 Hz), 28.7, 23.8 (t, J = 3.1 Hz). 19F NMR 
+(376 MHz, CDCl3) δ -74.71 (t, J = 10.8 Hz). IR (neat, cm-1) 2901, 2848, 1452, 1328, 1305, 1264, 1001, 
+1067, 985, 732, 696. HRMS (ESI) [M+H]+ calcd. for [C22H31F2O2]+ = 365.2287, 365.2248 found. 
+((4,4-difluoro-4-(((1R,2S,5R)-2-isopropyl-5-methylcyclohexyl)oxy)butoxy)methyl)benzene (10) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), 
+(1R,2S,5R)-2-isopropyl-5-methylcyclohexan-1-ol (117.2 mg, 0.75 mmol, 1.5 
+equiv), KHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and 
+anhydrous DMF (1.25 mL) for 19 h (Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic 
+acid (114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was 
+purified via silica gel chromatography with the eluent conditions 2% ethyl acetate in hexanes) to afford the 
+product as a colorless oil (132.5 mg, 0.38 mmol, 75% yield). 1H NMR (400 MHz, CDCl3) δ 8.44 – 5.95 
+(m, 5H), 4.50 (s, 2H), 4.01 (td, J = 10.7, 4.5 Hz, 1H), 3.50 (t, J = 6.3 Hz, 2H), 2.14 – 1.97 (m, 4H), 1.88 – 
+1.77 (m, 2H), 1.65 (dt, J = 11.7, 2.9 Hz, 2H), 1.41 (m, 1H), 1.21 (ddd, J = 13.2, 9.8, 3.5 Hz, 1H), 1.13 – 
+0.94 (m, 2H), 0.90 (dd, J = 6.8, 4.4 Hz, 7H), 0.76 (d, J = 6.9 Hz, 3H). 13C NMR (101 MHz, CDCl3) δ 138.5, 
+127.6, 127.6, 126.2 (t, J = 260.9 Hz), 74.6 (t, J = 4.0 Hz), 72.9, 69.3, 47.9, 43.1, 34.2, 33.2 (t, J = 31.0 Hz), 
+31.6, 25.4, 23.4 (t, J = 3.0 Hz), 23.0, 22.2, 21.2, 15.5 (d, J = 2.4 Hz). 19F NMR (376 MHz, CDCl3) δ -69.97 
+(dt, J = 143.3, 10.6 Hz), -70.53 (dt, J = 143.5, 10.7 Hz). IR (neat, cm-1) 2954, 2936, 2867, 1454, 1329, 
+1268, 1247, 1215 1181, 1102, 966, 732, 696. HRMS (ESI) [M+H]+ calcd. for [C21H33F2O2]+ = 355.2443, 
+355.2647 found. 
+
+
+--- PDF page 21 ---
+ 
+S21 
+2-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-1,3-dichlorobenzene (11) 
+ The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), (2,6-
+dichlorophenyl)methanol (88.5 mg, 0. 5 mmol, 1.0 equiv), KHMDS (1 M 
+solution in THF, 1.25 mL, 1.25 mmol, 2.5 equiv), and anhydrous DMF (1.25 
+mL) for 1 h (Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 μL, 1.5 mmol, 
+3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via silica gel 
+chromatography with the eluent conditions 2%-5% ethyl acetate in hexanes on neutralized silica (the silica 
+gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford the 
+product as a yellow oil (98.5 mg, 0.26 mmol, 53% yield). 1H NMR (400 MHz, CD3CN) δ 7.50 – 7.22 (m, 
+8H), 5.17 (s, 2H), 4.43 (s, 2H), 3.46 (t, J = 6.3 Hz, 2H), 2.17 – 2.00 (m, 2H), 1.82 – 1.65 (m, 2H). 13C NMR 
+(101 MHz, CD3CN) δ 139.9, 137.6, 132.3, 132.1, 129.7, 129.3, 128.6, 128.4, 128.4 (t, J = 261.9 Hz), 73.3, 
+69.6, 60.8 (t, J = 7.9 Hz), 33.0 (t, J = 29.7 Hz), 24.0 (t, J = 3.2 Hz). 19F NMR (376 MHz, CDCl3) δ -75.33 
+(t, J = 11.1 Hz). IR (neat, cm-1) 3030, 2935, 2858, 1583, 1565, 1438, 1260, 1149, 1094, 980, 767. HRMS 
+(ESI) [M+NH4]+ calcd. for [C18H18Cl2F2O2•NH4]+ = 392.0996, 392.0989 found. 
+ 
+(2R,7aS)-7a-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-2-fluorohexahydro-1H-pyrrolizine (12) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol), ((2R,7aS)-2-
+fluorotetrahydro-1H-pyrrolizin-7a(5H)-yl)methanol (119.4 mg, 0.75 mmol, 
+1.5 equiv), KHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and 
+anhydrous DMF (1.25 mL) for 14 h (Step 1); NEt3‧3HF (407.1 μL, 2.5 mmol, 5.0 equiv), trifluoroacetic 
+acid (191.3 μL, 2.5 mmol, 5.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was 
+purified via silica gel chromatography with the eluent conditions 10%-20% ethyl acetate, 2% triethylamine 
+in hexanes on neutralized silica (the silica gel was neutralized by preparing a silica slurry with 2% 
+triethylamine / hexanes solution) to afford the product as a yellow oil (116.7 mg, 0.33 mmol, 65% yield). 
+1H NMR (400 MHz, CDCl3) δ 7.39 – 7.20 (m, 5H), 5.18 (d, J = 54.2 Hz, 1H), 4.49 (s, 2H), 3.65 (d, J = 9.4 
+Hz, 1H), 3.60 – 3.40 (m, 3H), 3.29 – 2.83 (m, 4H), 2.31 – 1.58 (m, 10H). 13C NMR (101 MHz, CDCl3) δ 
+138.4, 128.4, 127.6, 125.7 (t, J = 261.4 Hz), 98.7, 97.0, 72.9, 72.1, 69.2 (t, J = 5.4 Hz), 69.2, 60.5 (d, J = 
+19.3 Hz), 57.1, 42.4 (d, J = 20.4 Hz), 35.9, 32.6 (t, J = 30.3 Hz), 25.5, 23.2 (t, J = 3.0 Hz). 19F NMR (376 
+MHz, CDCl3) δ -74.15 (dt, J = 141.9, 10.8 Hz), -74.65 (dt, J = 141.8, 11.1 Hz), -172.57 – -173.34 (m). IR 
+(neat, cm-1) 2956, 2856, 1452, 1258, 1100, 1064, 1028, 952, 735, 697. HRMS (ESI) [M+H]+ calcd. for 
+[C19H27F3NO2]+ = 358.1989, 358.2081 found. 
+ Trans-4-(4-(benzyloxy)-1,1-difluorobutoxy)cyclohexan-1-amine (13) 
+The title product was prepared according to GP3 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol), trans-4-
+aminocyclohexanol  (86.4 mg, 0.75 mmol, 1.5 equiv), KO-t-Bu (168.3 mg, 
+1.5 mmol, 3.0 equiv), DMA (1.25 mL, 0.4 M) for 4 h (Step 1); NEt3‧3HF (488.5 μL, 3.0 mmol, 6.0 equiv), 
+trifluoroacetic acid (229.6 μL, 3.0 mmol, 6.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The 
+compound was purified via silica gel chromatography with the eluent conditions 5% methanol, 2% 
+triethylamine in dichloromethane on neutralized silica (the silica gel was neutralized by preparing a silica 
+slurry with 2% triethylamine / dichloromethane solution) to afford the product as a yellow oil (67.6 mg, 
+0.22 mmol, 43% yield). 1H NMR (400 MHz, CDCl3) δ 7.41 – 7.09 (m, 5H), 4.49 (s, 2H), 4.15 (tt, J = 10.8, 
+4.4 Hz, 1H), 3.49 (t, J = 6.4 Hz, 2H), 2.82 – 2.52 (m, 1H), 2.14 – 1.65 (m, 7H), 1.60 – 0.92 (m, 7H). 13C 
+
+
+--- PDF page 22 ---
+ 
+S22 
+NMR (101 MHz, CDCl3) δ 138.4, 128.4, 127.6, 127.6, 126.0 (t, J = 260.9 Hz), 72.9, 72.5 (t, J = 5.3 Hz), 
+69.2, 49.4, 34.2, 32.9 (t, J = 30.6 Hz), 31.8, 23.3 (t, J = 3.0 Hz). 19F NMR (376 MHz, CDCl3) δ -71.74 (t, 
+J = 10.7 Hz). IR (neat, cm-1) 2941, 2861, 1452, 1331, 1261, 1092, 1059, 1021, 950, 735, 697. HRMS (ESI) 
+[M+H]+ calcd. for [C17H26F2NO2]+ = 314.1927, 314.1997 found.  
+1-benzhydryl-3-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)azetidine (14) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), (1-
+benzhydrylazetidin-3-yl)methanol (190.0 mg, 0.75 mmol, 1.5 equiv), 
+KHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and 
+anhydrous DMF (1.25 mL) for 4 h (Step 1); NEt3‧3HF (407.1 μL, 2.5 mmol, 5.0 equiv), trifluoroacetic acid 
+(191.3 μL, 2.5 mmol, 5.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was 
+purified via silica gel chromatography with the eluent conditions 5% EtOAc in hexanes on neutralized silica 
+(the silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to 
+afford the product as a yellow oil (132.5 mg, 0.30 mmol, 59% yield). 1H NMR (400 MHz, CDCl3) δ 7.46 
+– 7.36 (m, 4H), 7.36 – 7.10 (m, 11H), 4.49 (s, 2H), 4.32 (s, 1H), 3.96 (d, J = 6.8 Hz, 2H), 3.48 (t, J = 6.3 
+Hz, 2H), 3.26 (t, J = 7.6 Hz, 2H), 2.99 – 2.80 (m, 2H), 2.69 (p, J = 6.9 Hz, 1H), 2.20 – 1.93 (m, 2H), 1.91 
+– 1.59 (m, 2H). 13C NMR (101 MHz, CDCl3) δ 142.3, 138.5, 128.5, 128.5, 127.7, 127.6, 127.2, 125.8 (t, J 
+= 261.5 Hz), 78.1, 73.0, 69.2, 65.0 (t, J = 6.4 Hz), 56.1, 32.7 (t, J = 30.2 Hz), 29.3, 23.4 (t, J = 3.0 Hz). 19F 
+NMR (376 MHz, CDCl3) δ -74.33 (t, J = 10.8 Hz). IR (neat, cm-1) 3025, 2949, 2857, 2359, 1490, 1452, 
+1258, 1101, 742, 697. HRMS (ESI) [M+H]+ calcd. for [C28H32F2NO2]+ = 452.2396, 452.2415 found.  
+(3S,4R)-3-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-4-(4-fluorophenyl)-1-methylpiperidine (15) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), 
+((3S,4R)-4-(4-fluorophenyl)-1-methylpiperidin-3-yl)methanol (167.5 mg, 
+0.75 mmol, 1.5 equiv), KHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 
+3.0 equiv), and anhydrous DMF (1.25 mL) for 13 h (Step 1); NEt3‧3HF 
+(407.1 μL, 2.5 mmol, 5.0 equiv), trifluoroacetic acid (191.3 μL, 2.5 mmol, 5.0 equiv), and anhydrous 
+toluene (2.5 mL, 0.2M) (Step 2). The title compound was purified via silica gel chromatography with the 
+eluent conditions 2% MeOH in dichloromethane on neutralized silica (the silica gel was neutralized by 
+preparing a silica slurry with 2% triethylamine / dichloromethane solution) to afford the product as a yellow 
+oil (140.6 mg, 0.34 mmol, 67% yield). 1H NMR (400 MHz, CDCl3) δ 7.42 – 7.28 (m, 5H), 7.19 – 7.09 (m, 
+2H), 7.06 – 6.95 (m, 2H), 4.52 (s, 2H), 3.58 (dd, J = 10.1, 3.2 Hz, 1H), 3.51 (t, J = 6.3 Hz, 2H), 3.43 (dd, J 
+= 10.1, 7.2 Hz, 1H), 3.10 (ddd, J = 11.3, 3.8, 1.7 Hz, 1H), 2.96 (ddt, J = 11.3, 4.0, 2.5 Hz, 1H), 2.36 (s, 3H), 
+2.31 (td, J = 11.3, 4.9 Hz, 1H), 2.18 – 1.95 (m, 4H), 1.96 – 1.73 (m, 5H). 13C NMR (101 MHz, CDCl3) δ 
+162.9, 160.4, 139.5 (d, J = 3.2 Hz), 138.5, 128.9 (d, J = 7.8 Hz), 128.5, 125.7 (t, J = 261.6 Hz), 115.5 (d, J 
+= 21.1 Hz), 73.0, 69.3, 63.5 (t, J = 6.5 Hz), 59.4, 56.3, 46.7, 43.6, 41.7, 34.7, 32.7 (t, J = 30.3 Hz), 23.3 (t, 
+J = 2.9 Hz). 19F NMR (376 MHz, CDCl3) δ -75.87 (dt, J = 154.6, 11.05 Hz), -75.29 (dt, J = 141.98, 10.76 
+Hz), -116.63 (m). IR (neat, cm-1) 2938, 2852, 2786, 1510, 1223, 1098, 1063, 997. HRMS (ESI) [M+H]+ 
+calcd. for [C24H31F3NO2]+ = 422.2302, 422.2345 found. 
+10-(3-(4-(2-(4-(benzyloxy)-1,1-difluorobutoxy)ethyl)piperazin-1-yl)propyl)-2-chloro-10H-
+phenothiazine (16) 
+
+
+--- PDF page 23 ---
+ 
+S23 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol), 2-(4-
+(3-(2-chloro-10H-phenothiazin-10-yl)propyl)piperazin-1-
+yl)ethan-1-ol (303.0 mg, 0.75 mmol, 1.5 equiv), KHMDS (1 M 
+solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and anhydrous 
+DMF (1.25 mL) for 27 h (Step 1); NEt3‧3HF (652.0 μL, 4.0 mmol, 8.0 equiv), trifluoroacetic acid (306.1 
+μL, 4.0 mmol, 8.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). Note: After Step 2 of the reaction, 
+NaOH (1 M solution in H2O, 50 mL) was used as the aqueous phase during the workup instead of aqueous 
+NaHCO3 (sat.). The compound was purified via silica gel chromatography with the eluent conditions 100% 
+dichloromethane on neutralized silica (the silica gel was neutralized by preparing a silica slurry with 2% 
+triethylamine / DCM solution) to afford the product as a yellow oil (142.8 mg, 0.24 mmol, 47% yield). 1H 
+NMR (400 MHz, CDCl3) δ 7.41 – 7.27 (m, 5H), 7.19 – 7.06 (m, 2H), 7.01 (d, J = 8.1 Hz, 1H), 6.96 – 6.80 
+(m, 4H), 4.49 (s, 2H), 3.95 (t, J = 6.1 Hz, 2H), 3.89 (t, J = 6.9 Hz, 2H), 3.49 (t, J = 6.3 Hz, 2H), 2.60 (t, J 
+= 6.1 Hz, 2H), 2.46 (m, 10H), 2.17 – 1.99 (m, 2H), 1.93 (p, J = 6.9 Hz, 2H), 1.87 – 1.75 (m, 2H). 13C NMR 
+(101 MHz, CDCl3) δ 146.5, 144.6, 138.5, 133.3, 128.4, 127.9, 127.7, 127.6, 127.5, δ 125.7 (t, J = 261.6 
+Hz), 124.8, 123.5, 122.9, 122.3, 115.9 (d, J = 1.9 Hz), 72.9, 69.2, 60.7 (t, J = 6.5 Hz), 57.1, 55.6, 53.4, 53.3, 
+45.4, 32.6 (t, J = 30.1 Hz), 24.3, 23.3 (t, J = 2.9 Hz). 19F NMR (376 MHz, CDCl3) δ -75.02 (t, J = 11.2 Hz). 
+IR (neat, cm-1) 2939, 2873, 2808, 2360, 2341, 1566, 1456, 1243, 1097, 745. HRMS (ESI) [M+H]+ calcd. 
+for [C32H39ClF2N3O2S]+ = 602.2415, 602.2419 found. 
+9-(4-((2-ethylhexyl)oxy)-4,4-difluorobutyl)-9H-carbazole (17) 
+The title product was prepared according to GP1 using 9-(4,4,4-
+trifluorobutyl)-9H-carbazole (138.7 mg, 0.5 mmol, 1.0 equiv), 2-ethyl-1-
+hexanol (97.7 mg, 0.75 mmol, 1.5 equiv), KHMDS (1 M solution in THF, 
+1.5 mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 18 h 
+(Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid 
+(114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was 
+purified via silica gel chromatography with the eluent conditions 5% EtOAc in hexanes on neutralized silica 
+(the silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to 
+afford the product as a yellow oil (157.3 mg, 0.41 mmol, 81% yield). 1H NMR (400 MHz, CD3CN) δ 8.12 
+(dt, J = 7.8, 1.0 Hz, 2H), 7.55 – 7.42 (m, 4H), 7.22 (ddd, J = 7.9, 6.8, 1.3 Hz, 2H), 4.41 (t, J = 6.7 Hz, 2H), 
+3.73 (d, J = 5.5 Hz, 2H), 2.01 (dddd, J = 10.6, 7.0, 3.8, 2.3 Hz, 3H), 1.63 – 1.40 (m, 1H), 1.38 – 1.14 (m, 
+9H), 0.85 (t, J = 7.4 Hz, 6H). 13C NMR (101 MHz, CD3CN) δ 141.3, 126.8 (t, J = 259.6 Hz), 126.8, 121.3, 
+120.0, 118.3, 109.9, 66.0 (t, J = 6.1 Hz), 42.6, 39.9, 33.7 (t, J = 31.0 Hz), 30.9, 29.6, 24.3, 23.6, 23.2 (t, J = 
+2.9 Hz). 19F NMR (376 MHz, CDCl3) δ -73.86 (t, J = 10.1 Hz). IR (neat, cm-1) 3053, 2958, 2930, 2860, 
+1598, 1484, 1452, 1324, 1239, 747, 722. HRMS (ESI) [M+H]+ calcd. for [C24H32F2NO]+ = 388.2447, 
+388.2478 found. 
+(2-((2-ethylhexyl)oxy)-2,2-difluoroethyl)benzene (18) 
+The title product was prepared according to GP1 using (2,2,2-
+trifluoroethyl)benzene (80.1 mg, 0.5 mmol, 1.0 equiv), 2-ethyl-1-hexanol (97.7 
+mg, 0.75 mmol, 1.5 equiv), NaHMDS (2 M solution in THF, 0.75 mL, 1.5 mmol, 
+3.0 equiv), and anhydrous DMF (1.25 mL) for 150 min (Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 equiv), 
+trifluoroacetic acid (114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The 
+compound was purified via silica gel chromatography with the eluent conditions 100% hexanes on 
+neutralized silica (the silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes 
+solution) to afford the product as a colorless oil (107.7 mg, 0.4 mmol, 80% yield). 1H NMR (400 MHz, 
+
+
+--- PDF page 24 ---
+ 
+S24 
+CD3CN) δ 7.40 – 7.23 (m, 5H), 3.74 (d, J = 5.5 Hz, 2H), 3.27 (t, J = 10.7 Hz, 2H), 1.48 (p, J = 6.0 Hz, 1H), 
+1.40 – 1.13 (m, 9H), 1.06 – 0.70 (m, 7H). 13C NMR (101 MHz, CD3CN) δ 134.0 (t, J = 3.3 Hz), 131.4, 
+129.1, 128.2, 125.8 (t, J = 260.7 Hz), 42.5 (t, J = 31.5 Hz), 39.9, 31.0, 29.6, 24.3, 23.7, 14.4, 11.3. 19F NMR 
+(376 MHz, CD3CN) δ -72.44 (td, J = 10.6, 5.4 Hz). IR (neat, cm-1) 2960, 2931, 2874, 2861, 1456, 1350, 
+1274, 1232, 1165, 1030, 698. HRMS (APGC) [M+H] calcd. for [C16H25F2O]+ = 271.1868, 271.1873 found. 
+1-((4-chlorophenyl)(phenyl)methyl)-4-(4-((2-ethylhexyl)oxy)-4,4-difluorobutyl)piperazine (19) 
+The title product was prepared according to GP1 using 1-((4-
+chlorophenyl)(phenyl)methyl)-4-(4,4,4-trifluorobutyl)piperazine 
+(198.5 mg, 0.5 mmol, 1.0 equiv), 2-ethyl-1-hexanol (97.7 mg, 0.75 
+mmol, 1.5 equiv), and KHMDS (1 M solution in THF, 1.5 mL, 1.5 
+mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 16 h (Step 
+1); NEt3‧3HF (652.0 μL, 4.0 mmol, 8.0 equiv), trifluoroacetic acid 
+(306.1 μL, 4.0 mmol, 8.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was 
+purified via silica gel chromatography with the eluent conditions 10% ethyl acetate in hexanes on 
+neutralized silica (the silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes 
+solution) to afford the product as yellow oil (110.2 mg, 0.22 mmol, 43% yield). 1H NMR (400 MHz, CDCl3) 
+δ 7.44 – 7.30 (m, 4H), 7.31 – 7.11 (m, 5H), 4.19 (s, 1H), 3.77 – 3.66 (m, 2H), 2.90 – 2.12 (m, 7H), 2.02 – 
+1.88 (m, 2H), 1.67 (p, J = 7.8 Hz, 2H), 1.48 (q, J = 5.9 Hz, 1H), 1.41 – 1.14 (m, 8H), 1.00 – 0.65 (m, 6H). 
+13C NMR (101 MHz, CDCl3) δ 142.4, 141.6, 132.6, 129.3, 128.7, 128.7, 128.0, 127.26, 126.0 (t, J = 260.5 
+Hz), 75.6, 65.0 (t, J = 6.1 Hz), 57.7, 53.4, 52.0, 39.2, 33.9 (t, J = 30.5 Hz), 30.4, 29.0, 23.7, 23.1, 20.3, 14.2, 
+11.1. 19F NMR (376 MHz, CDCl3) δ -74.60 (t, J = 10.8 Hz). IR (neat, cm-1) 2959, 2932, 2907, 2874, 2810, 
+1487, 1452, 1372, 1290, 1266, 1088, 907, 732. HRMS (ESI) [M+H]+ calcd. for [C29H42ClF2N2O]+ = 
+507.2949, 507.3042 found. 
+4'-(((2-ethylhexyl)oxy)difluoromethyl)spiro[benzo[d][1,3]dioxole-2,1'-cyclohexane] (20) 
+The title product was prepared according to GP2 using 4'-
+(trifluoromethyl)spiro[benzo[d][1,3]dioxole-2,1'-cyclohexane] (129.1 mg, 
+0.5 mmol, 1.0 equiv), 2-ethyl-1-hexanol (97.7 mg, 0.75 mmol, 1.5 equiv), 
+KO-t-Bu (224.4 mg, 2.0 mmol, 4.0 equiv), and anhydrous DMF (1.25 mL) 
+at 50 °C instead of 80 °C (Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 
+μL, 1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via 
+silica gel chromatography with the eluent conditions 2% EtOAc in hexanes on neutralized silica (the silica 
+gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford the 
+product as a yellow oil (87.4 mg, 0.24 mmol, 47% yield). 1H NMR (400 MHz, CDCl3) δ 6.87 – 6.63 (m, 
+4H), 3.87 – 3.69 (m, 2H), 2.33 – 2.09 (m, 2H), 1.99 (dt, J = 10.6, 3.1 Hz, 3H), 1.89 – 1.67 (m, 4H), 1.54 (q, 
+J = 5.7 Hz, 1H), 1.46 – 1.17 (m, 8H), 0.91 (td, J = 7.1, 2.8 Hz, 6H). 13C NMR (101 MHz, CDCl3) δ 147.4, 
+147.3, 126.2 (t, J = 263.2 Hz), 121.2, 121.2, 117.3, 108.8, 108.6, 65.0 (t, J = 6.2 Hz), 42.2 (t, J = 28.7 Hz), 
+39.2, 33.9, 30.4, 29.1, 23.8, 23.1, 22.8 (t, J = 2.5 Hz), 14.2, 11.1. 19F NMR (376 MHz, CDCl3) δ -81.33 (d, 
+J = 7.5 Hz). IR (neat, cm-1) 2958, 2931, 2907, 2874, 1485, 1359, 1235, 1063, 734. HRMS (APGC) [M]+ 
+calcd. for [C21H30F2O3] = 368.2158, 368.2163 found. 
+(((2-ethylhexyl)oxy)difluoromethyl)cyclohexane (21) 
+The 
+title 
+product 
+was 
+prepared 
+according 
+to 
+GP2 
+using 
+(trifluoromethyl)cyclohexane (76.1 mg, 0.5 mmol, 1.0 equiv), 2-ethyl-1-hexanol 
+(78.1 µL, 0.5 mmol, 1.0 equiv), KO-t-Bu (140.3 mg, 1.25 mmol, 2.5 equiv), and 
+anhydrous DMF (1.25 mL) and was run for 4 h (Step 1) ; NEt3‧3HF (244.1.5 µL, 1.5 mmol, 3.0 equiv), 
+
+
+--- PDF page 25 ---
+ 
+S25 
+trifluoroacetic acid (114.8 µL, 1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The 
+compound was filtered through neutralized silica with hexanes (the silica gel was neutralized by preparing 
+a silica slurry with 2% triethylamine / hexanes solution) to afford the product as a colorless oil (86.9 mg, 
+0.33 mmol, 66% yield). 1H NMR (400 MHz, CDCl3) δ 3.85 – 3.61 (m, 2H), 2.00 – 1.72 (m, 5H), 1.71 – 
+1.61 (m, 1H), 1.51 (dt, J = 11.8, 5.8 Hz, 1H), 1.45 – 1.02 (m, 12H), 1.01 – 0.76 (m, 6H). 13C NMR (101 
+MHz, CDCl3) δ 126.7 (t, J = 263.0 Hz), 64.7 (t, J = 6.3 Hz), 44.0 (t, J = 27.8 Hz), 39.3, 30.5, 29.1, 26.1, 
+26.1, 26.1, 25.7, 23.8, 23.2, 14.2, 11.1. 19F NMR (376 MHz, CDCl3) δ -82.36 (d, J = 7.9 Hz). IR (neat, cm-
+1) 2932, 2858, 1454, 1325, 1255, 1080, 1025, 981, 893. HRMS (APGC) [M]+ calcd. for [C15H28F2O] = 
+262.2103, 262.2108 found. 
+1-benzyl-4-(((2-ethylhexyl)oxy)difluoromethyl)piperidine (22) 
+The title product was prepared according to GP2 using 1-benzyl-3-
+(trifluoromethyl)piperidine (121.7 mg, 0.5 mmol), 2-ethyl-1-hexanol (78.1 
+µL, 0.5 mmol, 1.0 equiv), KO-t-Bu (140.3 mg, 1.25 mmol, 2.5 equiv), and 
+anhydrous DMF (1.25 mL) for 16 h (Step 1); NEt3‧3HF (407.1 μL, 2.5 mmol, 5.0 equiv), trifluoroacetic 
+acid (191.3 μL, 2.5 mmol, 5.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The title product 
+was purified via by filtering the product through neutralized silica with 10% ethyl acetate in hexanes (the 
+silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford 
+the product as a yellow oil (145.4 mg, 0.41 mmol, 82% yield). 1H NMR (400 MHz, CDCl3) δ 7.41 – 7.15 
+(m, 5H), 3.71 (d, J = 5.6 Hz, 2H), 3.63 – 3.41 (m, 2H), 3.04 (ddt, J = 11.0, 3.6, 1.8 Hz, 1H), 2.90 – 2.76 (m, 
+1H), 2.21 (ttt, J = 11.8, 7.8, 3.6 Hz, 1H), 1.98 – 1.77 (m, 3H), 1.67 (dt, J = 13.4, 3.6 Hz, 1H), 1.61 – 1.42 
+(m, 2H), 1.40 – 1.14 (m, 9H), 0.88 (dt, J = 10.5, 6.9 Hz, 6H). 13C NMR (101 MHz, CDCl3) δ 138.3, 129.1, 
+128.2, 127.0, 125.6 (t, J = 263.2 Hz), 64.7 (t, J = 6.2 Hz), 63.4, 53.4, 42.7 (t, J = 27.8 Hz), 39.0, 30.3, 28.9 
+(d, J = 1.3 Hz), 24.6, 24.0, 23.0, 14.1, 11.1 (d, J = 1.3 Hz). 19F NMR (376 MHz, CDCl3) δ -80.28 – -81.32 
+(m). IR (neat, cm-1) 2956, 2930, 2860, 2811, 2782, 2363, 1732, 1454, 1329, 1183, 1158, 1113, 1011, 733, 
+697. HRMS (ESI) [M+H]+ calcd. for [C21H34F2NO]+ = 354.2603, 354.2733 found 
+N-(4-bromobenzyl)-3-((2-ethylhexyl)oxy)-3,3-difluoropropan-1-amine (23) 
+The title product was prepared according to GP3 using N-(4-
+bromobenzyl)-3,3,3-trifluoropropan-1-amine (141.1 mg, 0.5 mmol, 1.0 
+equiv), 2-ethyl-1-hexanol (97.7 mg, 0.75 mmol, 1.5 equiv), KO-t-Bu 
+(1.5 mmol, 3.0 equiv), and anhydrous DMA (1.25 mL) for 4 h (Step 1); NEt3‧3HF (407.5 μL, 2.5 mmol, 
+5.0 equiv), trifluoroacetic acid (191.3 μL, 2.5 mmol, 5.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) 
+(Step 2). The compound was purified via silica gel chromatography with the eluent conditions 2% 
+triethylamine in DCM on neutralized silica (the silica gel was neutralized by preparing a silica slurry with 
+2% triethylamine / DCM solution). Fractions containing product with impurities were further purified via 
+silica gel chromatography with eluent conditions 2% MeOH in DCM on neutralized silica to afford the 
+product as a yellow oil (131.9 mg, 0.34 mmol, 67% yield). 1H NMR (400 MHz, CDCl3) δ 7.44 (d, J = 8.3 
+Hz, 2H), 7.19 (d, J = 8.3 Hz, 2H), 3.74 (d, J = 5.0 Hz, 4H), 2.81 (t, J = 6.8 Hz, 2H), 2.18 (tt, J = 10.6, 6.8 
+Hz, 2H), 1.55 (s, 1H), 1.48 (q, J = 5.9 Hz, 1H), 1.38 – 1.11 (m, 8H), 0.88 (q, J = 6.9 Hz, 6H).13C NMR 
+(101 MHz, CDCl3) δ 139.3, 131.6, 129.9, 125.5 (t, J = 261.4 Hz), 120.9, 65.2 (t, J = 6.2 Hz), 53.2, 43.3 (t, 
+J = 3.4 Hz), 39.2, 36.0 (t, J = 29.3 Hz), 30.4, 29.0, 23.8, 23.1, 14.2, 11.1. 19F NMR (376 MHz, CDCl3) δ -
+72.90 (t, J = 10.5 Hz). IR (neat, cm-1) 2959, 2930, 2906, 2860, 1487, 1461, 1265, 1243, 1132, 1011, 942, 
+800. HRMS (ESI) [M+H]+ calcd. for [C18H29BrF2NO]+ = 392.1396, 392.1449 found. 
+ 
+ 
+
+
+--- PDF page 26 ---
+ 
+S26 
+N-(3-((2-ethylhexyl)oxy)-3,3-difluoropropyl)-N-methylbenzamide (24) 
+The title product was prepared according to GP1 using N-methyl-N-(3,3,3-
+trifluoropropyl)benzamide (115.6 mg, 0.5 mmol), 2-ethyl-1-hexanol (97.7 
+mg, 0.75 mmol, 1.5 equiv), NaHMDS (2 M solution in THF, 0.75 mL, 1.5 
+mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 22 h (Step 1); (244.2 μL, 1.5 mmol, 3.0 equiv), 
+trifluoroacetic acid (114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The 
+compound was purified via silica gel chromatography with the eluent conditions 10% EtOAc in hexanes to 
+15% EtOAc in hexanes on neutralized silica (the silica gel was neutralized by preparing a silica slurry with 
+2% triethylamine / hexanes solution). Fractions containing product with impurities were further purified via 
+silica gel chromatography with eluent conditions 10% EtOAc in hexanes on neutralized silica to afford the 
+product as a yellow oil (86.9 mg, 0.26 mmol, 51% yield). 1H NMR (400 MHz, CDCl3) δ 7.39 (s, 5H), 4.05 
+– 3.30 (m, 4H), 3.02 (d, J = 40.5 Hz, 2H), 2.29 (d, J = 69.4 Hz, 2H), 1.61 – 0.99 (m, 10H), 0.88 (t, J = 6.3 
+Hz, 6H). 13C NMR (101 MHz, CDCl3) δ 170.0, 158.9, 137.9, 129.5, 125.7 (t, J = 260.7 Hz), 118.9, 115.7, 
+112.8, 66.9, 65.0 (t, J = 6.1 Hz), 48.7, 43.1, 39.1, 32.5 (t, J = 30.8 Hz), 30.3, 28.9, 26.6, 25.7, 24.6, 23.6, 
+23.0, 22.9, 22.9, 14.1, 10.9. 13C NMR (101 MHz, CDCl3) δ 136.51, 129.67, 128.54, 127.07, 126.58, 65.27 
+(t, J = 6.1 Hz), 45.80, 42.81, 39.14, 38.35, 33.46, 30.30, 29.00, 23.65, 23.08, 14.18, 11.03. 19F NMR (376 
+MHz, CDCl3) δ -73.40, -73.79. IR (neat, cm-1) 2958, 2930, 2860, 1635, 1400, 1277, 1242, 1068, 699. 
+HRMS (ESI) [M+H]+ calcd. for [C19H30F2NO2]+ = 342.2240, 342.2270 found. Note: this compound 
+exhibits severe broadening in the 1H, 13C, and 19F NMR spectra. 
+(3-(4-((2-ethylhexyl)oxy)-4,4-difluorobutoxy)phenyl)(piperidin-1-yl)methanone (25) 
+The title product was prepared according to GP1 using piperidin-
+1-yl(3-(4,4,4-trifluorobutoxy)phenyl)methanone (157.7 mg, 0.5 
+mmol), 2-ethyl-1-hexanol (97.7 mg, 0.75 mmol, 1.5 equiv), 
+NaHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 4 h 
+(Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 μL, 1.5 mmol, 3.0 equiv), 
+and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via silica gel chromatography 
+with the eluent conditions 100% DCM to 10 % ethyl acetate in DCM on neutralized silica (the silica gel 
+was neutralized by preparing a silica slurry with 2% triethylamine / DCM solution) to afford the product 
+yellow oil (130.3 mg, 0.31 mmol, 61% yield). 1H NMR (400 MHz, CDCl3) δ 7.38 – 7.19 (m, 1H), 7.01 – 
+6.83 (m, 3H), 4.00 (t, J = 6.2 Hz, 2H), 3.76 (dd, J = 5.6, 2.8 Hz, 2H), 3.70 (br s, 2H), 3.34 (br s, 2H), 2.15 
+(tdd, J = 10.4, 8.1, 5.5 Hz, 2H), 2.06 – 1.93 (m, 2H), 1.76 – 1.44 (m, 7H), 1.43 – 1.16 (m, 8H), 1.01 – 0.82 
+(m, 6H). 13C NMR (101 MHz, CDCl3) δ 170.0, 158.9, 137.9, 129.5, 125.7 (t, J = 260.7 Hz), 118.9, 115.7, 
+112.8, 66.9, 65.00 (t, J = 6.1 Hz), 48.7, 43.1, 39.1, 32.5 (t, J = 30.8 Hz), 30.3, 28.9, 26.6, 25.7, 24.6, 23.6, 
+23.0, 22.9, 22.9, 14.1, 10.9. 19F NMR (376 MHz, CDCl3) δ -74.52 (t, J = 10.5 Hz). IR (neat, cm-1) 2932, 
+2858, 1633, 1442, 1272, 1052, 997, 790, 747. HRMS (ESI) [M+H]+ calcd. for [C24H38F2NO3]+ = 426.2815, 
+426.2840 found. 
+4-((2-ethylhexyl)oxy)-4,4-difluoro-N-methyl-N-(3-phenyl-3-(4-(trifluoromethyl)phenoxy)propyl)but-
+an-1-amine (26) 
+The title product was prepared according to GP1 using 4,4,4-
+trifluoro-N-methyl-N-(3-phenyl-3-(4-
+(trifluoromethyl)phenoxy)propyl)butan-1-amine (209.7 mg, 
+0.5 mmol, 1.0 equiv), 2-ethyl-1-hexanol (97.7 mg, 0.75 mmol, 
+1.5 equiv), KHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) 
+for 21 h (Step 1); NEt3‧3HF (407.1 μL, 2.5 mmol, 5.0 equiv), trifluoroacetic acid (229.6 μL, 3.0 mmol, 6.0 
+
+
+--- PDF page 27 ---
+ 
+S27 
+equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via silica gel 
+chromatography with the eluent conditions 5% triethylamine in hexanes on neutralized silica (the silica gel 
+was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford the product 
+as a yellow oil (120.8 mg, 0.23 mmol, 46% yield). 1H NMR (400 MHz, CD2Cl2) δ 7.45 (d, J = 8.7 Hz, 2H), 
+7.40 – 7.22 (m, 5H), 6.95 (d, J = 8.6 Hz, 2H), 5.35 (dd, J = 8.4, 4.9 Hz, 1H), 3.73 (dd, J = 5.6, 2.0 Hz, 2H), 
+2.54 (dt, J = 12.5, 7.2 Hz, 1H), 2.38 (dddd, J = 23.7, 12.5, 8.3, 5.5 Hz, 3H), 2.27 – 2.04 (m, 4H), 2.04 – 
+1.82 (m, 3H), 1.75 – 1.56 (m, 2H), 1.51 (p, J = 5.9 Hz, 1H), 1.44 – 1.19 (m, 9H), 1.01 – 0.80 (m, 6H). 13C 
+NMR (101 MHz, CD2Cl2) δ 160.9, 141.4, 128.6, 127.7, 126.6 (q, J = 3.8 Hz), 126.0, 126.5 (t, J = 260.5 
+Hz), 125.0 (q, J = 271.0 Hz), 122.3 (q, J = 32.4 Hz), 115.8, 78.3, 64.8, 56.7, 41.5, 39.1, 36.5, 33.4 (t, J = 
+30.4 Hz), 30.2, 28.9, 23.6, 23.0, 20.7 (t, J = 2.8 Hz), 13.8, 10.7. 19F NMR (377 MHz, CDCl3) δ -61.59, -
+74.57 (t, J = 10.8 Hz). IR (neat, cm-1) 2959, 2931, 2860, 2798, 2373 1615, 1517, 1454, 1378, 1326, 1249, 
+1161, 1109, 1068, 1009, 909, 834, 700. HRMS (ESI) [M+H]+ calcd. for [C29H41F5NO2]+ = 530.3052, 
+530.3188 found. 
+(1S,2S,4S,5R)-2-((1R)-(4-((2-ethylhexyl)oxy)-4,4-difluorobutoxy)(6-methoxyquinolin-4-yl)methyl)-5-
+vinylquinuclidine (27) 
+ The title product was prepared according to GP1 using (1S,2S,4S,5R)-
+2-((R)-(6-methoxyquinolin-4-yl)(4,4,4-trifluorobutoxy)methyl)-5-
+vinylquinuclidine (217.3 mg, 0.5 mmol, 1.0 equiv), 2-ethyl-1-hexanol 
+(97.7 mg, 0.75 mmol, 1.5 equiv), NaHMDS (2 M solution in THF, 0.75 
+mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 5 h (Step 
+1); NEt3‧3HF (407.1 μL, 2.5 mmol, 5.0 equiv), trifluoroacetic acid (191.3 μL, 2.5 mmol, 5.0 equiv), and 
+anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via silica gel chromatography with 
+the eluent conditions 100% ethyl acetate on neutralized silica (the silica gel was neutralized by preparing a 
+silica slurry with 2% triethylamine / ethyl acetate solution) to afford the product as a yellow oil (102.5 mg, 
+0.19 mmol, 38% yield). 1H NMR (400 MHz, CDCl3) δ 8.74 (d, J = 4.4 Hz, 1H), 8.03 (d, J = 9.2 Hz, 1H), 
+7.47 – 7.27 (m, 3H), 5.73 (ddd, J = 17.6, 10.3, 7.7 Hz, 1H), 5.15 – 4.79 (m, 3H), 3.93 (s, 3H), 3.73 (dd, J = 
+5.7, 2.2 Hz, 2H), 3.39 (t, J = 6.2 Hz, 3H), 3.09 (dd, J = 13.5, 9.8 Hz, 2H), 2.71 (ddd, J = 14.3, 10.8, 4.7 Hz, 
+1H), 2.65 – 2.53 (m, 1H), 2.26 (s, 1H), 2.08 (dddd, J = 14.7, 12.4, 6.2, 3.4 Hz, 2H), 1.93 – 1.66 (m, 5H), 
+1.66 – 1.41 (m, 4H), 1.40 – 1.17 (m, 9H), 0.87 (q, J = 6.7 Hz, 6H). 13C NMR (101 MHz, CDCl3) δ 157.9, 
+147.7, 145.1, 144.9, 142.2, 132.0, 127.5, 125.9 (t, J = 260.7 Hz), 121.8, 119.0, 114.3, 101.4, 82.0, 68.5, 
+65.1 (t, J = 6.0 Hz), 60.3, 57.4, 55.8, 43.4, 40.2, 39.2, 33.0 (t, J = 30.8 Hz), 30.3, 29.0, 28.1, 28.0, 23.8, 
+23.8, 23.7, 23.1, 14.2, 11.0. 19F NMR (376 MHz, CDCl3) δ -75.08 (t, J = 10.8 Hz). IR (neat, cm-1) 2924, 
+2861, 2360, 1620, 1507, 1452, 1240,1107, 1058, 1030, 999, 910, 731. HRMS (ESI) [M+H]+ calcd. for 
+[C32H47F2N2O3]+ = 545.3550, 545.3662 found. 
+2-(4-((2-ethylhexyl)oxy)-4,4-difluorobutoxy)quinoline (28) 
+The title product was prepared according to GP1 using 2-(4,4,4-
+trifluorobutoxy)quinoline (127.6 mg, 0.5 mmol, 1.0 equiv), 2-ethyl-1-
+hexanol (97.7 mg, 0.75 mmol, 1.5 equiv), NaHMDS (1 M solution in 
+THF, 0.75 mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 14 h (Step 1); NEt3‧3HF (244.2 
+μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 
+mL, 0.2M) (Step 2). The compound was purified via silica gel chromatography with the eluent conditions 
+5% ethyl acetate in hexanes on neutralized silica (the silica gel was neutralized by preparing a silica slurry 
+with 2% triethylamine / hexanes solution) to afford the product as a yellow oil (113.9 mg, 0.31 mmol, 62% 
+yield). 1H NMR (400 MHz, CDCl3) δ 7.98 (d, J = 8.8 Hz, 1H), 7.83 (d, J = 8.4 Hz, 1H), 7.71 (dd, J = 8.0, 
+1.5 Hz, 1H), 7.62 (ddd, J = 8.5, 6.9, 1.5 Hz, 1H), 7.37 (ddd, J = 8.1, 6.9, 1.2 Hz, 1H), 6.90 (d, J = 8.8 Hz, 
+
+
+--- PDF page 28 ---
+ 
+S28 
+1H), 4.52 (t, J = 6.3 Hz, 2H), 3.87 – 3.69 (m, 2H), 2.29 – 1.98 (m, 4H), 1.52 (h, J = 4.3 Hz, 1H), 1.47 – 
+1.15 (m, 8H), 0.89 (t, J = 7.3 Hz, 6H). 13C NMR (101 MHz, CDCl3) δ 162.2, 146.7, 138.8, 129.6, 127.5, 
+127.4, 125.9 (t, J = 260.7 Hz), 125.2, 124.1, 113.3, 65.1 (t, J = 6.1 Hz), 64.9, 39.2, 32.9 (t, J = 30.8 Hz), 
+30.4, 29.1, 23.7, 23.1, 22.8 (t, J = 3.1 Hz), 14.2, 11.1. 19F NMR (376 MHz, CDCl3) δ -74.62 (t, J = 10.4 
+Hz). IR (neat, cm-1) 2958, 2930, 2860, 1619, 1606, 1428, 1313, 1238, 965, 821, 755. HRMS (ESI) [M+H]+ 
+calcd. for [C21H30F2NO2]+ = 366.2240, 366.2259 found. 
+((4-((3,7-dimethyloct-6-en-1-yl)oxy)-4,4-difluorobutoxy)methyl)benzene (29) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), 
+3,7-dimethyloct-6-en-1-ol (117.2 mg, 0.75 mmol, 1.5 equiv), KHMDS (1 M solution in THF, 1.5 mL, 1.5 
+mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 4 h (Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 
+equiv), trifluoroacetic acid (114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 
+2). The title compound was purified via silica gel chromatography with the eluent conditions 2% EtOAc in 
+hexanes on neutralized silica (the silica gel was neutralized by preparing a silica slurry with 2% 
+triethylamine / hexanes solution) to afford the product as a yellow oil (131.6 mg, 0.37 mmol, 74% yield). 
+1H NMR (400 MHz, CD3CN) 7.41-7.24 (m, 5H), 5.51, (ddp, J = 1.4 Hz, 1.4 Hz, 5.8 Hz, 8.6 Hz, 1H), 4.47 
+(s, 2H), 3.38 (m, 2H), 3.38 (m, 2H), 3.49 (t, J = 6.3 Hz, 2H), 2.10-1.92 (m, 4H), 1.81-1.71 (m, 2H), 1.69-
+1.50 (m, 8H), 1.45-1.25 (m, 2H). 13C NMR (101MHz, CD3CN) δ 139.9, 132.1, 129.3, 128.6, 128.4, 127.1 
+(t, J = 259.4 Hz), 125.6, 73.3, 69.8, 62.2 (t, J = 6.7 Hz), 37.6, 36.8, 33.3 (t, J = 30.6 Hz), 30.0, 26.1, 25.9, 
+24.1 (t, J = 3.08 Hz), 19.6, 17.8. 19F NMR (376 MHz, CDCl3) δ -74.29 (t, J = 10.6 Hz). IR (neat, cm-1) 
+2962, 2914, 2856, 1453, 1263, 1101, 1069, 999. HRMS (ESI) [M+H]+ calcd. for [C21H33F2O2]+ = 355.2444, 
+355.2665 found. 
+(3aR,5R,5aS,8aS,8bR)-5-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-2,2,7,7-tetramethyltetrahydro-
+5H-bis([1,3]dioxolo)[4,5-b:4',5'-d]pyran (30) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol, 1.0 equiv), 
+((3aR,5R,5aS,8aS,8bR)-2,2,7,7-tetramethyltetrahydro-5H-
+bis([1,3]dioxolo)[4,5-b:4',5'-d]pyran-5-yl)methanol (195.2 mg, 0.75 
+mmol, 1.5 equiv), KHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 3.0 
+equiv), and anhydrous DMF (1.25 mL) for 16 h (Step 1); NEt3‧3HF (244.2 
+μL 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 μL ,1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 
+mL, 0.2M) (Step 2). The compound was purified via silica gel chromatography with the eluent conditions 
+hexanes to 10% EtOAc in hexanes on neutralized silica (the silica gel was neutralized by preparing a silica 
+slurry with 2% triethylamine / hexanes solution) to afford the product as a colorless oil (116.5 mg, 0.26 
+mmol, 51% yield. 1H NMR (400 MHz, CDCl3) δ 7.42 – 7.17 (m, 5H), 5.54 (d, J = 5.0 Hz, 1H), 4.61 (dd, J 
+= 7.9, 2.5 Hz, 1H), 4.50 (s, 2H), 4.32 (dd, J = 5.0, 2.5 Hz, 1H), 4.23 (dd, J = 7.9, 1.5 Hz, 1H), 4.08 – 3.94 
+(m, 3H), 3.51 (t, J = 6.3 Hz, 2H), 2.17 – 2.03 (m, 2H), 1.89 – 1.77 (m, 2H), 1.52 (s, 3H), 1.45 (s, 3H), 1.34 
+(s, 3H), 1.33 (s, 3H). 13C NMR (101 MHz, CDCl3) δ 138.6, 128.5, 127.7, 127.7, 126.0 (t, J = 262.3 Hz), 
+109.6, 108.9, 96.4, 73.0, 71.0, 70.8, 70.6, 69.3, 66.7, 62.1 (t, J = 6.4 Hz), 32.6 (t, J = 29.9 Hz), 26.1, 26.1, 
+25.1, 24.6, 23.3 (t, J = 2.9 Hz). 19F NMR (376 MHz, CDCl3) δ -74.34 (dt, J = 142.0, 10.8 Hz), -75.09 (dt, 
+J = 142.0, 11.4 Hz). IR (neat, cm-1) 2987, 2935, 2860, 1735, 1454, 1371, 1254, 1211, 1066. HRMS (ESI) 
+[M+NH4]+ calcd. for [C23H32F2O7•NH4]+ = 476.2454, 476.2690 found. 
+ 
+ 
+
+
+--- PDF page 29 ---
+ 
+S29 
+tert-butyl 4-(4-(benzyloxy)-1,1-difluorobutoxy)piperidine-1-carboxylate (31) 
+The title product was prepared according to GP1 using ((4,4,4-
+trifluorobutoxy)methyl)benzene (1) (109.1 mg, 0.5 mmol), tert-butyl 4-
+hydroxypiperidine-1-carboxylate (151.0 mg, 0.75 mmol, 1.5 equiv), 
+KHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 14 h 
+(Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid (114.8 μL, 1.5 mmol, 3.0 equiv), 
+and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via silica gel chromatography 
+with the eluent conditions 10% ethyl acetate in hexanes on neutralized silica (the silica gel was neutralized 
+by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford the product as a yellow oil 
+(99.5 mg, 0.25 mmol, 50% yield). 1H NMR (400 MHz, CDCl3) δ 7.47 – 7.12 (m, 5H), 4.50 (s, 2H), 4.42 
+(tt, J = 7.9, 3.8 Hz, 1H), 3.80 – 3.57 (m, 2H), 3.50 (t, J = 6.3 Hz, 2H), 3.20 (ddd, J = 12.9, 8.5, 3.6 Hz, 2H), 
+2.15 – 1.97 (m, 2H), 1.91 – 1.74 (m, 4H), 1.60 (dtd, J = 12.6, 8.2, 3.9 Hz, 2H), 1.46 (d, J = 0.9 Hz, 9H). 13C 
+NMR (101 MHz, CDCl3) δ 154.8, 138.4, 128.4, 127.6 (d, J = 1.4 Hz), 126.1 (t, J = 261.6 Hz), 79.6, 72.9, 
+69.5 (t, J = 5.4 Hz), 69.1, 32.9 (t, J = 30.3 Hz), 32.1, 28.4, 23.3 (t, J = 3.0 Hz), 22.7, 14.1. 19F NMR (376 
+MHz, CDCl3) δ -72.00 (br s). IR (neat, cm-1) 2972, 2863, 2368, 1692, 1421, 1275, 1167, 1025, 965. HRMS 
+(ESI) [M+H]+ calcd. for [C21H32F2NO4]+ = 400.2294, 400.2299 found 
+tert-butyl 4-(((2-ethylhexyl)oxy)difluoromethyl)piperidine-1-carboxylate (32) 
+The title product was prepared according to GP2 using tert-butyl 4-
+(trifluoromethyl)piperidine-1-carboxylate (126.7 mg, 0.5 mmol), 2-ethyl 
+hexanol (65.1 mg, 0.5 mmol, 1.0 equiv), KO-t-Bu (140.3 mg, 1.25 mmol, 
+2.5 equiv), and DMF (1.25 mL, 0.4 mL) for 15 h (Step 1); NEt3‧3HF 
+(244.2 μL, 1.5 mmol, 3.0 equiv), trifluoroacetic acid, (114.8 μL, 1.5 mmol, 3.0 equiv), and anhydrous 
+toluene (2.5 mL, 0.2 M) (Step 2). The titled product was filtered through neutralized silica with 10% ethyl 
+acetate in hexanes (the silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes 
+solution) to afford the product as a yellow oil (160.7 mg, 0.44 mmol, 88% yield). 1H NMR (400 MHz, 
+CDCl3) δ 4.15 (s, 2H), 3.73 (dd, J = 5.5, 2.5 Hz, 2H), 2.64 (t, J = 13.0 Hz, 2H), 1.99 (ttt, J = 11.5, 7.5, 3.6 
+Hz, 1H), 1.86 – 1.73 (m, 2H), 1.55 – 1.19 (m, 19H), 0.88 (td, J = 6.9, 4.8 Hz, 7H). 13C NMR (101 MHz, 
+CDCl3) δ 154.9, 125.9 (t, J = 262.8 Hz), 79.6, 64.9 (t, J = 6.1 Hz), 43.3, 42.4 (t, J = 29.1 Hz), 39.2, 30.4, 
+29.0, 28.6, 25.4, 23.8, 23.1, 14.2, 11.1. 19F NMR (376 MHz, CDCl3) δ -82.05 (d, J = 7.8 Hz). IR (neat, cm-
+1) 2959, 2931, 2861, 1422, 1325, 1233, 1160, 1037, 979. HRMS (ESI) [M+H]+ calcd. for [C19H36F2NO3]+ 
+= 364.2658, 364.2661 found. 
+4-(4-(9H-carbazol-9-yl)-1,1-difluorobutoxy)-N,N-dimethylaniline (33) 
+The title product was prepared according to GP4 using 9-(4,4,4-
+trifluorobutyl)-9H-carbazole (138.7 mg, 0.5 mmol), 18-crown-6 (396.5 mg, 
+1.5 mmol, 3.0 equiv), 4-(dimethylamino)phenol (102.9 mg, 0.75 mmol, 1.5 
+equiv), KHMDS (299.3 mg, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 
+mL, 0.4 M) (Step 1); NEt3‧3HF (815.0 μL, 5.0 mmol, 10.0 equiv), methanesulfonic acid (456.0 μL, 7.0 
+mmol, 14.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) for 2 h (Step 2). The title product was purified 
+via silica gel chromatography with the eluent conditions 100% hexanes to 10% EtOAC in hexanes on 
+neutralized silica (the silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes 
+solution) to afford the product as a colorless oil (105.2 mg, 0.27 mmol, 53% yield). 1H NMR (400 MHz, 
+CDCl3) δ 8.10 (d, J = 7.8 Hz, 2H), 7.50 – 7.43 (m, 2H), 7.40 (d, J = 8.1 Hz, 2H), 7.27 – 7.20 (m, 2H), 7.07 
+– 6.94 (m, 2H), 6.62 (d, J = 9.1 Hz, 2H), 4.39 (t, J = 6.8 Hz, 2H), 2.88 (s, 6H), 2.28 – 2.11 (m, 4H). 13C 
+NMR (101 MHz, CDCl3) δ 148.7, 140.7, 140.3, 125.8, 124.8 (t, J = 263.8 Hz), 122.9, 122.8, 120.4, 119.0, 
+
+
+--- PDF page 30 ---
+ 
+S30 
+112.9, 108.5, 42.0, 40.9, 33.3 (t, J = 29.9 Hz), 22.4 (t, J = 2.7 Hz). 19F NMR (376 MHz, CDCl3) δ -70.05 
+(t, J = 10.2 Hz). IR (neat, cm-1) 3049, 2940, 2883, 2802, 1597 1513, 1452, 1324, 1241, 1120, 1000, 748, 
+722. HRMS (ESI) [M+H]+ calcd. for [C24H25F2N2O]+ = 395.1930, 395.1972 found. 
+9-(4,4-difluoro-4-(4-methoxyphenoxy)butyl)-9H-carbazole (34) 
+The title product was prepared according to GP4 using 9-(4,4,4-
+trifluorobutyl)-9H-carbazole (138.7 mg, 0.5 mmol), 18-crown-6 (396.5 mg, 
+1.5 mmol, 3.0 equiv), 4-methoxyphenol (93.1 mg, 0.75 mmol, 1.5 equiv), 
+KHMDS (299.3 mg, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL, 
+0.4 M) (Step 1); NEt3‧3HF (651.3 μL, 4.0 mmol, 8.0 equiv), methanesulfonic acid (259.8 μL, 4.0 mmol, 
+8.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) for 2 h (Step 2). The compound was purified via silica 
+gel chromatography with the eluent conditions 5% ethyl acetate in hexanes on neutralized silica (the silica 
+gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford the 
+product as a yellow solid (112.9 mg, 0.30 mmol, 59% yield). MP: 73-75 °C. 1H NMR (400 MHz, CDCl3) 
+δ 8.09 (d, J = 7.8 Hz, 2H), 7.45 (t, J = 7.6 Hz, 2H), 7.38 (d, J = 8.3 Hz, 2H), 7.23 (t, J = 7.4 Hz, 2H), 7.03 
+(d, J = 9.1 Hz, 2H), 6.79 (d, J = 9.0 Hz, 2H), 4.36 (t, J = 6.6 Hz, 2H), 3.72 (s, 3H), 2.26 – 2.09 (m, 4H). 13C 
+NMR (101 MHz, CDCl3) δ 157.2, 143.5 (t, J = 2.4 Hz), 140.2, 125.8, 124.7 (t, J = 264.8 Hz), 123.1, 122.9, 
+120.4, 119.0, 114.3, 108.5, 55.5, 42.0, 33.3 (t, J = 29.6 Hz), 22.3 (t, J = 2.7 Hz). 19F NMR (376 MHz, 
+CDCl3) δ -70.26 (t, J = 10.2 Hz). IR (neat, cm-1) 3051, 2935, 1595, 1505, 1462, 1240, 1137, 1030, 748, 
+723. HRMS (ESI) [M+H]+ calcd. for [C23H22F2NO2]+ = 382.1614, 382.1614 found. 
+9-(4,4-difluoro-4-((2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)chroman-6-yl)oxy)butyl)-9H-
+carbazole (35) 
+ The title product was prepared according to 
+GP4 
+using 
+9-(4,4,4-trifluorobutyl)-9H-
+carbazole (138.7 mg, 0.5 mmol), 18-crown-6 
+(396.5 mg, 1.5 mmol, 3.0 equiv), DL-α-
+tocopherol (323.0 mg, 0.75 mmol, 1.5 equiv), KHMDS (299.3 mg, 1.5 mmol, 3.0 equiv), and anhydrous 
+DMF (1.25 mL, 0.4 M) (Step 1); NEt3‧3HF (651.3 μL, 4.0 mmol, 8.0 equiv), methanesulfonic acid (259.8 
+μL, 4.0 mmol, 8.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 2). The compound was purified via 
+flash column chromatography with eluent conditions 2% ethyl acetate in hexanes followed by automated 
+flash column silica gel chromatography with the eluent conditions 100% hexanes to 1% ethyl acetate in 
+hexanes to afford the product as a yellow oil (150.0 mg, 0.22 mmol, 44% yield). 1H NMR (400 MHz, 
+CDCl3) δ 8.10 (d, J = 7.7 Hz, 2H), 7.55 – 7.34 (m, 4H), 7.23 (ddd, J = 8.0, 6.7, 1.4 Hz, 2H), 4.42 (t, J = 6.7 
+Hz, 2H), 2.54 (t, J = 6.8 Hz, 2H), 2.37 – 2.16 (m, 4H), 2.19 – 1.99 (m, 9H), 1.91 – 1.64 (m, 2H), 1.64 – 
+0.94 (m, 24H), 0.85 (dd, J = 8.5, 6.5 Hz, 12H). 13C NMR (101 MHz, CDCl3) δ 149.3, 140.3, 139.3, 129.4, 
+127.7, 125.8, 123.0, 123.0, 108.5, 75.0, 42.2, 40.1 (d, J = 4.2 Hz), 39.4, 38.0 – 36.5 (m), 33.6 (t, J = 30.3 
+Hz), 32.8 (d, J = 2.0 Hz), 32.7 (d, J = 2.4 Hz), 31.1 (d, J = 4.8 Hz), 28.0, 24.8 (d, J = 1.7 Hz), 24.4, 23.9, 
+22.7, 22.6, 22.6, 21.0, 20.6, 19.8, 19.7, 19.7, 19.6, 19.6, 14.4 (t, J = 3.1 Hz), 13.5 (t, J = 3.1 Hz), 11.9. 19F 
+NMR (376 MHz, CDCl3) δ -69.26 (t, J = 10.0 Hz). IR (neat, cm-1) 2924, 2866, 2356, 2329, 1452, 1241, 
+1120, 1079, 1001, 747, 723. HRMS (ESI) [M+H]+ calcd. for [C45H64F2NO2]+ = 688.4900, 688.4896 found. 
+N-(4-(4-(9H-carbazol-9-yl)-1,1-difluorobutoxy)phenyl)acetamide (36) 
+The title product was prepared according to GP4 using 9-(4,4,4-
+trifluorobutyl)-9H-carbazole (138.7 mg, 0.5 mmol), 18-crown-6 (396.5 
+mg, 1.5 mmol, 3.0 equiv), N-(4-hydroxyphenyl)acetamide (113.4 mg, 0.75 
+mmol, 1.5 equiv), KHMDS (299.3 mg, 1.5 mmol, 3.0 equiv), and 
+
+
+--- PDF page 31 ---
+ 
+S31 
+anhydrous DMF (1.25 mL, 0.4 M) for 4 h (Step 1); NEt3‧3HF (746.5 μL, 4.6 mmol, 9.2 equiv), 
+methanesulfonic acid (389.0 μL, 6.0 mmol, 12.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) for 45 min 
+(Step 2). The compound was purified via automated flash column silica gel chromatography with the eluent 
+conditions 100% DCM. The resulting residue was recrystallized in methanol using H2O as an anti-solvent 
+to afford the product as a white powder (112.7 mg, 0.28 mmol, 55% yield). MP: 143-144 °C. 1H NMR 
+(400 MHz, CDCl3) δ 8.10 (d, J = 7.7 Hz, 2H), 7.57 – 7.27 (m, 6H), 7.24 (t, J = 7.4 Hz, 2H), 7.06 (d, J = 9.0 
+Hz, 2H), 4.69 – 4.14 (m, 2H), 2.43 – 2.15 (m, 4H), 2.12 (s, 3H). 13C NMR (101 MHz, CDCl3) δ 168.3, 
+146.3, 140.2, 135.4, 125.8, 124.7 (t, J = 265.6 Hz), 123.9, 122.4, 120.8, 120.5, 119.1, 108.5, 42.0, 33.4 (t, 
+J = 29.4 Hz), 24.4, 22.3 (t, J = 2.8 Hz). 19F NMR (376 MHz, CDCl3) δ -70.18 (t, J = 10.3 Hz). IR (neat, 
+cm-1) 3319, 3054, 2941, 1663, 1529, 1510, 1484, 1451, 1308, 1253, 1096, 1005, 836, 747, 721. HRMS 
+(ESI) [M+H]+ calcd. for [C24H23F2N2O2]+ = 409.1723, 409.1730 found. 
+1-(1,1-difluoro-2-phenylethoxy)-4-methoxybenzene (37) 
+The 
+title 
+product 
+was 
+prepared 
+according 
+to 
+GP4 
+using 
+(2,2,2-
+trifluoroethyl)benzene (80.1 mg, 0.5 mmol, 1.0 equiv), 18-crown-6 (396.5 mg, 1.5 
+mmol, 3.0 equiv), 4-methoxyphenol (93.1 mg, 0.75 mmol, 1.5 equiv), KHMDS 
+(299.3 mg, 1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL, 0.4 M) for 30 min at room temperature 
+(Step 1). For Step 2 the hydrofluorination was conducted according to GP5 Step 2 using cuprous chloride 
+(74.3 mg, 0.75 mmol, 1.5 equiv), pyridine·HF (70% hydrogen fluoride % w/w, 310 µL, 1.3 mmol, 2.6 
+equiv). The title product was purified via silica gel chromatography with the eluent conditions 10% to 20% 
+ethyl acetate in hexanes to afford the product as a yellow oil (60.2 mg, 0.23 mmol, 46% yield). 1H NMR 
+(400 MHz, CDCl3) δ 7.48 – 7.28 (m, 5H), 7.02 (d, J = 8.9 Hz, 2H), 6.86 – 6.72 (m, 2H), 3.76 (s, 3H), 3.42 
+(t, J = 11.0 Hz, 2H). 13C NMR (101 MHz, CDCl3) δ 157.2, 143.8 (t, J = 2.3 Hz), 132.2 (t, J = 3.0 Hz), 
+130.4, 128.4, 127.5, 123.7 (t, J = 265.4 Hz), 123.1, 114.2, 55.6, 42.2 (t, J = 30.1 Hz). 19F NMR (376 MHz, 
+CDCl3) δ -69.84 (t, J = 10.9 Hz). IR (neat, cm-1) 2944, 1505, 1241, 1192, 1094, 1031, 843, 745, 697. HRMS 
+(ESI) [M+NH4]+ calcd. for [C15H14F2O2•NH4]+ = 282.1300, 282.1914 found. 
+N-(4-(3-((4-bromobenzyl)amino)-1,1-difluoropropoxy)phenyl)acetamide (38) 
+The title product was prepared according to GP4 using N-(4-
+bromobenzyl)-3,3,3-trifluoropropan-1-amine (142.6 mg, 0.5 mmol), 
+18-crown-6 
+(396.5 
+mg, 
+1.5 
+mmol, 
+3.0 
+equiv), 
+N-(4-
+hydroxyphenyl)acetamide (113.4 mg, 0.75 mmol, 1.5 equiv), KHMDS 
+(399.0 mg, 2.0 mmol, 4.0 equiv), and anhydrous DMF (1.25 mL, 0.4 M). (Step 1); NEt3‧3HF (815.0 μL, 
+5.0 mmol, 10.0 equiv), methanesulfonic acid (454.5 μL, 7.0 mmol, 14.0 equiv), and anhydrous toluene (2.5 
+mL, 0.2M) (Step 2). The product was purified via preparatory thin layer chromatography with the eluent 
+conditions: 2% methanol in DCM on neutralized silica (the preparatory TLC plate was neutralized by 
+covering the plate in a 2% triethylamine / hexanes solution and allowing the plate to dry prior to sample 
+loading) to afford the product as a brown solid (80.8 mg, 0.20 mmol, 39% yield). MP: 104-109 °C. 1H 
+NMR (400 MHz, CDCl3) δ 7.61 – 7.35 (m, 4H), 7.21 (d, J = 8.4 Hz, 2H), 7.09 (d, J = 8.6 Hz, 2H), 3.78 (s, 
+2H), 2.94 (t, J = 7.0 Hz, 2H), 2.36 (tt, J = 11.1, 7.0 Hz, 2H), 2.17 (s, 3H). 13C NMR (101 MHz, CDCl3) δ 
+168.4, 146.3, 139.1, 135.4, 131.5, 129.8, 124.6 (t, J = 267.1 Hz), 122.4, 120.9, 120.8, 53.1, 42.8 (t, J = 3.3 
+Hz), 36.1 (t, J = 28.0 Hz), 24.4. 19F NMR (376 MHz, CDCl3) δ -69.13 (t, J = 11.1 Hz). (neat, cm-1) 3258, 
+1660, 1607, 1546, 1506, 1487, 1406, 1318, 1245, 1102, 942, 870. HRMS (ESI) [M+H]+ calcd. for 
+[C18H20BrF2N2O2]+ = 413.0671, 413.0689 found. 
+ 
+ 
+
+
+--- PDF page 32 ---
+ 
+S32 
+9-(4-((2-ethylhexyl)thio)-4,4-difluorobutyl)-9H-carbazole  (39) 
+The title product was prepared according to GP5 using 9-(4,4,4-
+trifluorobutyl)-9H-carbazole (138.7 mg, 0.5 mmol), 18-crown-6 (330.4 
+mg, 1.25 mmol, 2.5 equiv), 2-ethyl-1-hexanethiol (174.3 mg, 1.2 mmol, 
+2.4 equiv), KHMDS (249.4 mg, 1.25 mmol, 2.5 equiv), and anhydrous 
+DMF (1.25 mL, 0.4 M) (Step 1); cuprous chloride (49.5 mg, 0.5 mmol, 1.0 equiv), pyridine·HF (70% 
+hydrogen fluoride % w/w, 208 µL, 0.87 mmol, 1.7 equiv), and DCM (2.5 equiv, 0.2 M) (Step 2). 19F NMR 
+spectroscopy of the crude reaction mixture was used to initially evaluate the yield of 39 (346 μmol, 69% 
+yield). The compound was purified via silica gel chromatography with the eluent conditions 1% ethyl 
+acetate in hexanes on neutralized silica (the silica gel was neutralized by preparing a silica slurry with 2% 
+triethylamine / hexanes solution) to afford the product as a yellow oil (73.5 mg, 0.18 mmol, 36% yield. 1H 
+NMR (400 MHz, CDCl3) δ 8.09 (d, J = 7.8 Hz, 2H), 7.49 – 7.27 (m, 4H), 7.27 – 7.16 (m, 2H), 4.34 (m, 
+2H), 2.78 (d, J = 5.9 Hz, 2H), 2.24 – 2.08 (m, 3H), 1.51 (h, J = 6.2 Hz, 1H), 1.43 – 1.12 (m, 9H), 1.01 – 
+0.70 (m, 6H). 13C NMR (101 MHz, CDCl3) δ 140.2, 131.0 (t, J = 275.9 Hz), 125.8, 123.0 (d, J = 2.2 Hz), 
+120.4, 119.0 (d, J = 2.1 Hz), 108.5, 42.1, 39.1, 36.8 (t, J = 24.3 Hz), 32.3, 31.6 (t, J = 2.8 Hz), 28.7, 25.5, 
+22.9 (t, J = 3.0 Hz), 22.9, 14.1, 10.7. 19F NMR (376 MHz, CDCl3) δ -72.83 (t, J = 13.9 Hz). IR (neat, cm-
+1) 2958, 2928, 2871, 2858, 2598, 1484, 1453, 1347, 1325, 1240, 1153, 967, 748, 722. HRMS (APGC) [M] 
+calcd. for [C24H31F2NS] = 403.2145, 403.2145 found. 
+9-(4-(tert-butylthio)-4,4-difluorobutyl)-9H-carbazole (40) 
+The title product was prepared according to GP5 using 9-(4,4,4-trifluorobutyl)-
+9H-carbazole (138.7 mg, 0.5 mmol), 18-crown-6 (330.4 mg, 1.25 mmol, 2.5 
+equiv), 2-methylpropane-2-thiol (135.2 mg, 1.5 mmol, 3.0 equiv), KHMDS (249.4 
+mg, 1.25 mmol, 2.5 equiv), and anhydrous DMF (1.25 mL, 0.4 M) (Step 1); 
+cuprous chloride (74.3 mg, 0.75 mmol, 1.5 equiv), pyridine·HF (70% hydrogen fluoride % w/w, 312 µL, 
+1.3 mmol, 2.6 equiv), and DCM (2.5 equiv, 0.2 M) (Step 2). 19F NMR spectroscopy of the crude reaction 
+mixture was used to initially evaluate the yield of 40 (323 μmol, 65% yield). The compound was purified 
+via silica gel chromatography with the eluent conditions 2% EtOAc in hexanes on neutralized silica (the 
+silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford 
+the product as a yellow oil (88.4 mg, 0.26 mmol, 51% yield). 1H NMR (400 MHz, CDCl3) δ 8.10 (d, J = 
+7.8 Hz, 2H), 7.61 – 7.35 (m, 4H), 7.34 – 7.17 (m, 2H), 4.45 – 4.33 (m, 2H), 2.32 – 2.05 (m, 4H), 1.50 (s, 
+9H). 13C NMR (101 MHz, CDCl3) δ 140.2, 132.5 (t, J = 277.6 Hz), 125.8, 122.9, 120.4, 119.0, 108.5, 48.2, 
+42.2, 37.9 (t, J = 24.4 Hz), 32.3 (t, J = 1.8 Hz), 22.8 (t, J = 3.1 Hz). 19F NMR (377 MHz, CDCl3) δ -70.08 
+(t, J = 14.4 Hz). IR (neat, cm-1) 2965, 2901, 2360, 2341, 1484, 1453, 1326, 1326, 1153, 1026, 749, 723. 
+HRMS (ESI) [M+NH4]+ calcd. for [C20H23F2NS•NH4] + = 365.1858, 365.2041 found. 
+9-(4-(benzylthio)-4,4-difluorobutyl)-9H-carbazole (41) 
+The title product was prepared according to GP5 using 9-(4,4,4-trifluorobutyl)-
+9H-carbazole (138.7 mg, 0.5 mmol), 18-crown-6 (330.4 mg, 1.25 mmol, 2.5 
+equiv), phenylmethanethiol (186.3 mg, 1.5 mmol, 3.0 equiv), KHMDS (249.4 
+mg, 1.25 mmol, 2.5 equiv), and anhydrous DMF (1.25 mL, 0.4 M) (Step 1); 
+cuprous chloride (49.5 mg, 0.5 mmol, 1.0 equiv), pyridine·HF (70% hydrogen fluoride % w/w, 312 µL, 1.3 
+mmol, 2.6 equiv), and DCM (2.5 equiv, 0.2 M) (Step 2). 19F NMR spectroscopy of the crude reaction 
+mixture was initially used to evaluate the yield of 41 (187 μmol, 37% yield). The compound was purified 
+via silica gel chromatography with the eluent conditions 1% ethyl acetate in hexanes on neutralized silica 
+(the silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to 
+
+
+--- PDF page 33 ---
+ 
+S33 
+afford the product as a yellow oil (38.7 mg, 0.10 mmol, 20% yield). 1H NMR (400 MHz, CDCl3) δ 8.15 
+(d, J = 7.8 Hz, 2H), 7.52 (ddd, J = 8.3, 7.1, 1.2 Hz, 2H), 7.42 (d, J = 8.3 Hz, 2H), 7.39 – 7.23 (m, 7H), 4.39 
+(t, J = 6.6 Hz, 2H), 4.08 (s, 2H), 2.32 – 2.08 (m, 4H). 13C NMR (101 MHz, CDCl3) δ 140.3, 136.7, 130.8 
+(t, J = 277.0 Hz), 129.1, 128.8, 127.6, 125.9, 120.6, 119.2, 108.6, 42.1, 36.7 (t, J = 24.0 Hz), 32.5 (t, J = 
+3.9 Hz), 23.0 (t, J = 3.07 Hz). 19F NMR (376 MHz, CDCl3) δ -72.59 (t, J = 14.2 Hz). IR (neat, cm-1) 3052, 
+2936, 2881, 1596, 1439, 1452, 1325, 1153, 749, 722. HRMS (ESI) [M+H]+ calcd. for [C23H22F2NS]+ = 
+382.1436, 382.1433 found. 
+1-bromo-4-(2-((2-ethylhexyl)oxy)-2,2-difluoroethoxy)benzene (44) 
+The title product was prepared according to GP1 using 1-bromo-4-(2,2,2-
+trifluoroethoxy)benzene (127.5 mg, 0.5 mmol, 1.0 equiv), 2-ethylhexanol 
+(97.7 mg, 0.75 mmol, 1.5 equiv), KHMDS (1 M solution in THF, 1.5 mL, 
+1.5 mmol, 3.0 equiv), and anhydrous DMF (1.25 mL) for 3 h (Step 1); NEt3‧3HF (244.2 μL, 1.5 mmol, 3.0 
+equiv), methanesulfonic acid (97.4 μL, 1.5 mmol, 3.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) (Step 
+2). 19F NMR spectroscopy of the crude reaction mixture was used to assess the yield of the intermediate, 
+compound 43 (386 μmol, 77% yield).  19F NMR spectroscopy of the crude reaction mixture was used to 
+assess the yield of 44 against the yield from Step 1 (279 μmol, 72% yield). The compound was purified via 
+silica gel chromatography with the eluent conditions 0.5% triethylamine in hexanes on neutralized silica 
+(the silica gel was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to 
+afford the product as a colorless oil (87.4 mg, 0.24 mmol, 48% yield). 1H NMR (400 MHz, CDCl3) δ 7.45 
+– 7.32 (m, 2H), 6.92 – 6.75 (m, 2H), 4.20 (t, J = 8.3 Hz, 2H), 3.84 (dd, J = 5.7, 1.5 Hz, 2H), 1.63 – 1.47 (m, 
+1H), 1.46 – 1.17 (m, 8H), 0.89 (td, J = 7.0, 3.1 Hz, 6H). 13C NMR (101 MHz, CDCl3) δ 157.4, 132.5, 122.2 
+(t, J = 263.2 Hz), 117.1, 114.3, 68.1 (t, J = 36.6 Hz), 65.9 (t, J = 5.6 Hz), 39.1, 30.3, 29.0, 23.6, 23.1, 14.2, 
+11.0. 19F NMR (376 MHz, CDCl3) δ -81.05 (t, J = 8.3 Hz). IR (neat, cm-1) 2959, 2931, 2860, 1488, 1233, 
+1173, 1057, 920, 820. HRMS (APGC) [M]+ calcd. for [C16H23BrF2O2] = 364.0844, 364.0850 found. 
+2-(((4-(2,2-difluoro-2-isopropoxyethoxy)-3-methylpyridin-2-yl)methyl)thio)-1H-benzo[d]imidazole 
+(46) 
+The title product was prepared according to GP1 using 2-(((3-methyl-4-
+(2,2,2-trifluoroethoxy)pyridin-2-yl)methyl)thio)-1H-benzo[d]imidazole 
+(176.7 mg, 0.5 mmol), isopropyl alcohol (45.1 mg, 0.75 mmol, 1.5 equiv), 
+KHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and 
+anhydrous DMF (1.25 mL) for 18 h (Step 1); For Step 2, GP1 was followed except after 1 h the reaction 
+mixture was cooled in a 0 °C ice bath and was quenched with NaOH (1 M in methanol, 12 mL, 12.0 mmol) 
+instead of saturated NaHCO3. For Step 2, NEt3‧3HF (488.5 μL, 3.0 mmol, 6.0 equiv), methanesulfonic acid 
+(194.8 μL, 3.0 mmol, 6.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) were used and the reaction was 
+conducted for 1 hour. Note: the addition of NaOH to the reaction is very exothermic. The compound was 
+purified via silica gel chromatography with the eluent conditions 1% methanol in dichloromethane on 
+neutralized silica (the silica gel was neutralized by preparing a silica slurry with 2% triethylamine / DCM 
+solution) to afford the product as a yellow solid (137.5 mg, 0.35 mmol, 70% yield). MP: 94-99 °C. 1H 
+NMR (400 MHz, CDCl3) δ 12.93 (s, 1H), 8.36 (d, J = 5.8 Hz, 1H), 7.55 (d, J = 59.4 Hz, 2H), 7.20 (dt, J = 
+6.0, 3.6 Hz, 2H), 6.72 (d, J = 5.8 Hz, 1H), 4.74 – 4.60 (m, 1H), 4.43 (s, 2H), 4.25 (t, J = 8.0 Hz, 2H), 2.31 
+(s, 3H), 1.31 (d, J = 6.3 Hz, 6H). 13C NMR (101 MHz, CD3CN) δ 163.8, 157.5, 152.0, 148.6, 140.6, 123.3 
+(t, J = 261.4 Hz), 122.7, 121.9, 115.1, 107.8, 70.0 (t, J = 5.3 Hz), 68.6 (t, J = 37.1 Hz), 36.4, 23.6, 10.9. 19F 
+NMR (376 MHz, CDCl3) δ -78.52 (t, J = 8.0 Hz). IR (neat, cm-1) 2981, 2875, 1581, 1438, 1296, 1261, 
+1167, 1107, 1089, 1054, 1004, 911, 860, 816, 745. HRMS (ESI) [M+H]+ calcd. for [C19H22F2N3O2S]+ = 
+394.1396, 394.1489 found. 
+
+
+--- PDF page 34 ---
+ 
+S34 
+2-(((4-(2-cyclobutoxy-2,2-difluoroethoxy)-3-methylpyridin-2-yl)methyl)thio)-1H-benzo[d]imidazole 
+(47) 
+The title product was prepared according to GP1 using 2-(((3-methyl-4-
+(2,2,2-trifluoroethoxy)pyridin-2-yl)methyl)thio)-1H-benzo[d]imidazole 
+(176.7 mg, 0.5 mmol), cyclobutanol (54.1 mg, 0.75 mmol, 1.5 equiv), 
+KHMDS (1 M solution in THF, 1.5 mL, 1.5 mmol, 3.0 equiv), and 
+anhydrous DMF (1.25 mL) for 2 h (Step 1). For Step 2, GP1 was followed except after 1 h the reaction 
+mixture was cooled in a 0 °C ice bath and was quenched with NaOH (1 M in methanol, 12 mL, 12.0 mmol) 
+instead of saturated NaHCO3. For Step 2, NEt3‧3HF (569.9 μL, 3.5 mmol, 7.0 equiv), methanesulfonic acid 
+(227.3 μL, 3.5 mmol, 7.0 equiv), and anhydrous toluene (2.5 mL, 0.2M) were used and the reaction was 
+run for 1 hour. 19F NMR spectroscopy of the crude reaction mixture was used to initially evaluate the yield 
+of 47 (299 μmol, 60% yield). The product was purified via preparatory thin layer chromatography with the 
+eluent conditions: 1% triethylamine, 1% methanol in DCM on neutralized silica (the preparatory TLC plate 
+was neutralized by covering the plate in a 2% triethylamine / hexanes solution and allowing the plate to dry 
+prior to sample loading) to afford the product as a white powder (70.8 mg, 0.18 mmol, 35%). MP: 122-127 
+°C 1H NMR (400 MHz, CDCl3) δ 12.75 (s, 1H), 8.38 (d, J = 5.7 Hz, 1H), 7.54 (s, 2H), 7.22 – 7.13 (m, 2H), 
+6.75 (d, J = 5.8 Hz, 1H), 4.81 – 4.67 (m, 1H), 4.40 (s, 2H), 4.25 (t, J = 8.2 Hz, 2H), 2.37 – 2.24 (m, 5H), 
+2.15 (qdd, J = 10.0, 7.9, 2.9 Hz, 2H), 1.84 – 1.70 (m, 1H), 1.58 (qt, J = 10.8, 7.9 Hz, 1H). 13C NMR (101 
+MHz, CDCl3) δ 163.4, 157.3, 151.6, 147.3, 122.0, 121.8, 121.6 (t, J = 263.6 Hz), 114.4, 106.5, 68.5 (t, J = 
+6.1 Hz), 67.7 (t, J = 36.7 Hz), 35.0, 31.3, 13.3, 10.8. 19F NMR (376 MHz, CDCl3) δ -79.13 (t, J = 8.1 Hz). 
+IR (neat, cm-1) 2949, 2859, 1581, 1439,1296, 1265, 1169, 1094, 1062, 987, 815, 746. HRMS (ESI) [M+H]+ 
+calcd. for [C20H22F2N3O2S]+ = 406.1396, 406.1454 found. 
+2-(((4-(2,2-difluoro-2-(methoxy-d3)ethoxy)-3-methylpyridin-2-yl)methyl)thio)-1H-
+benzo[d]imidazole (48) 
+ The title product was prepared according to GP1 except 18-crown-6 was 
+added after solvent addition, before addition of methanol-d3 using (2-(((3-
+methyl-4-(2,2,2-trifluoroethoxy)pyridin-2-yl)methyl)thio)-1H-
+benzo[d]imidazole (176.7 mg, 0.5 mmol), 18-crown-6 (132.2 mg, 0.5 mmol, 
+1.0 equiv), and methanol-d3 (30.4 μL, 0.75 mmol, 1.5 equiv), and KHMDS (1 M solution in THF, 1.5 mL, 
+1.5 mmol, 3.0 equiv) for 1 h (Step 1); NEt3‧3HF (569.9 μL, 3.5 mmol, 7.0 equiv), methanesulfonic acid 
+(227.3 μL, 3.5 mmol, 7.0 equiv), and anhydrous toluene (1.25 mL, 0.2M) (Step 2). 19F NMR spectroscopy 
+of the crude reaction mixture was used to initially evaluate the yield of 48 (216 μmol, 43% yield). The titled 
+product was purified via preparatory thin layer chromatography with the eluent conditions: 50% diethyl 
+ether in DCM on neutralized silica (the preparatory TLC plate was neutralized by covering the plate in a 
+2% triethylamine / hexanes solution and allowing the plate to dry prior to sample loading) to afford the 
+product as an off-white solid (46.1 mg, 0.13 mmol, 25% yield). MP: 132-134 °C. 1H NMR (400 MHz, 
+CDCl3) δ 12.80 (s, 1H), 8.36 (d, J = 5.7 Hz, 1H), 7.53 (s, 2H), 7.18 (q, J = 3.6 Hz, 2H), 6.72 (d, J = 5.8 Hz, 
+1H), 4.40 (s, 2H), 4.27 (t, J = 8.1 Hz, 2H), 2.30 (s, 3H). 13C NMR (101 MHz, CDCl3) δ 163.3, 157.4, 155.4, 
+151.6, 148.1, 147.4, 122.0, 121.8 (t, J = 264.1 Hz), 106.42, 67.48, 34.98, 10.84. 19F NMR (376 MHz, 
+CDCl3) δ -83.74 (t, J = 8.0 Hz). IR (neat, cm-1) 3137, 3086, 2927, 2894, 2812, 1581, 1439, 1412, 1331, 
+1296, 1263, 1179, 1113, 1080, 1020, 911, 841, 806. HRMS (ESI) [M+H]+ calcd. for [C17H15D3F2N3O2S]+ 
+= 369.1271, 369.1312 found. 
+ 
+ 
+
+
+--- PDF page 35 ---
+ 
+S35 
+N-(1-(5-(2,2-difluoro-2-isopropoxyethoxy)pyridin-2-yl)ethyl)-2-(4-isopropylphenyl)acetamide (49) 
+ The title product was prepared according to GP1 using 2-(4-
+isopropylphenyl)-N-(1-(5-(2,2,2-trifluoroethoxy)pyridin-2-
+yl)ethyl)acetamide (190.2 mg, 0.5 mmol), isopropyl alcohol (57.3 
+µL, 0.75 mmol, 1.5 equiv), KHMDS (349.1 mg, 1.75 mmol, 3.5 
+equiv), and anhydrous DMF (1.25 mL) for 2 h (Step 1). For Step 2, 
+GP1 was followed except after 30 min the reaction mixture was cooled in a 0 °C ice bath and was quenched 
+with NaOH (1 M in methanol, 12 mL, 12.0 mmol) instead of saturated NaHCO3. For Step 2, NEt3‧3HF 
+(407.5 μL, 2.5 mmol, 5.0 equiv), methanesulfonic acid (162.3 μL, 2.5 mmol, 5.0 equiv), and anhydrous 
+toluene (2.5 mL, 0.2M) were used. 19F NMR spectroscopy of the crude reaction mixture was used to initially 
+evaluate the yield of 49 (346 μmol, 69% yield). The product was purified via silica preparatory thin layer 
+chromatography plate (the silica was neutralized by subjecting the preparatory TLC plate to a solution of 
+2% triethylamine in hexanes and allowing the plate to dry) and developed with 1% methanol in DCM to 
+afford the product as a yellow solid (87.8 mg, 0.21 mmol, 42% yield). MP: 64-66 °C. 1H NMR (400 MHz, 
+CD2Cl2) δ 8.21 (d, J = 3.0 Hz, 1H), 7.55 – 6.88 (m, 6H), 6.72 (d, J = 7.4 Hz, 1H), 5.05 (p, J = 6.9 Hz, 1H), 
+4.64 (hept, J = 6.2 Hz, 1H), 4.22 (t, J = 8.4 Hz, 2H), 3.50 (s, 2H), 2.90 (hept, J = 6.9 Hz, 1H), 1.38 (d, J = 
+6.8 Hz, 3H), 1.28 (d, J = 6.3 Hz, 6H), 1.24 (d, J = 6.9 Hz, 6H). 13C NMR (101 MHz, CD2Cl2) δ 170.3, 
+155.0, 153.8, 148.1, 137.7, 133.2, 129.6, 127.1, 123.2, 122.6 (t, J = 262.7 Hz), 122.0, 69.5 (t, J = 5.2 Hz), 
+68.9 (t, J = 36.6 Hz), 49.6, 43.7, 34.2, 24.2, 23.5, 22.6. 19F NMR (377 MHz, CDCl3) δ -78.65 (t, J = 8.3 
+Hz). IR (neat, cm-1) 3287, 2961, 2932, 2872, 2360, 2341, 1644, 1537, 1482, 1239, 1211, 1096, 1053, 916, 
+849, 787. HRMS (ESI) [M+H]+ calcd. for [C23H31F2N2O3]+ = 421.2298, 421.2399 found. 
+5-((2R)-2-((2-(2-(2-((2-ethylhexyl)oxy)-2,2-difluoroethoxy)phenoxy)ethyl)amino)propyl)-1-(3-
+hydroxypropyl)indoline-7-carboxamide (50) 
+The title product was prepared according to GP1 using 
+(R)-1-(3-hydroxypropyl)-5-(2-((2-(2-(2,2,2-
+trifluoroethoxy)phenoxy)ethyl)amino)propyl)indoline-
+7-carboxamide (247.8 mg, 0.5 mmol), 2-ethyl-1-
+hexanol (97.7 mg, 0.75 mmol, 1.5 equiv), KHMDS 
+(349.1 mg, 1.75 mmol, 3.5 equiv), and anhydrous DMF (1.25 mL, 0.4 M) for 2 h (Step 1); NEt3‧3HF (597 
+μL, 3.7 mmol, 7.3 equiv), methanesulfonic acid (311.2 μL, 4.8 mmol, 9.6 equiv), and anhydrous toluene 
+(1.25 mL, 0.2M) for 1 hour. (Step 2). For this substrate, Step 1 of the reaction was conducted under 
+anhydrous nitrogen: the vial containing the (trifluoromethyl)alkane was evacuated and backfilled three 
+times with anhydrous nitrogen gas and left under a positive pressure of nitrogen gas on a manifold Schlenk 
+line. The vial was unsealed for addition of KHMDS and was resealed and flushed with a positive pressure 
+of nitrogen using an inlet needle from the Schlenk line and a vent needle, the vial was then wrapped in 
+parafilm before placing the vial in the reaction block. For Step 2 of the reaction, the reaction mixture was 
+quenched by cooling the solution in a 0 °C ice bath and adding NaOH (1 M in methanol, 12 mL, 12.0 mmol) 
+via syringe followed by excess K2CO3. 19F NMR spectroscopy of the crude reaction mixture was used to 
+initially evaluate the yield of 50 (196 μmol, 39% yield).  The crude residue was loaded onto a neutralized 
+silica preparatory thin layer chromatography plate (the silica was neutralized by subjecting the preparatory 
+TLC plate to a solution of 2% triethylamine in hexanes and allowing the plate to dry) and developed with 
+5% methanol in DCM to afford the product as a yellow oil (70.5 mg, 0.12 mmol, 23% yield). 1H NMR (400 
+MHz, CDCl3) δ 7.16 (s, 1H), 7.05 – 6.70 (m, 5H), 6.05 (s, 1H), 4.36 – 4.00 (m, 4H), 3.88 – 3.77 (m, 2H), 
+3.73 (t, J = 5.5 Hz, 2H), 3.38 (h, J = 9.5 Hz, 2H), 3.27 – 2.86 (m, 7H), 2.64 (ddd, J = 59.2, 13.6, 6.9 Hz, 
+2H), 1.78 (p, J = 6.4 Hz, 2H), 1.52 (p, J = 6.4 Hz, 1H), 1.44 – 1.16 (m, 9H), 1.11 (d, J = 6.4 Hz, 3H), 0.87 
+
+
+--- PDF page 36 ---
+ 
+S36 
+(td, J = 7.1, 4.5 Hz, 6H). 13C NMR (101 MHz, CDCl3) δ 171.7, 150.0, 149.4, 148.4, 133.9, 129.8, 128.3, 
+128.2, 123.4, 122.5 (t, J = 263.8 Hz), 121.9, 118.1, 117.3, 115.5, 69.7 (t, J = 35.2 Hz), 68.9, 65.6 (t, J = 5.7 
+Hz), 59.6, 54.7, 53.7, 50.7, 46.0, 42.3, 39.1, 31.1, 30.2, 29.0, 28.3, 23.5, 23.1, 19.7, 14.2, 11.0. 19F NMR 
+(376 MHz, CDCl3) δ -81.24 (t, J = 8.9 Hz). IR (neat, cm-1) 3350, 2957, 2928, 2858, 2367, 1757, 1656, 
+1594, 1500, 1456, 1380, 1250, 1201, 1128, 1042, 918, 742, 668. HRMS (ESI) [M+H]+ calcd. for 
+[C33H50F2N3O5]+ = 606.3714, 606.3770 found. 
+ 
+VI. Starting Material Syntheses and Characterization  
+All substrates that are not described below were purchased from commercial suppliers and used as received. 
+We note that all alcohols, thiols, and phenols used in the scope are commercially available.  
+((4,4,4-trifluorobutoxy)methyl)benzene (1) 
+ 
+Procedure: 4,4,4-Trifluorobutanol (2.562g, 20.0 mmol) was added via pipette to a 100 mL oven-dried 
+round bottom flask containing a magnetic stir bar. To the flask, anhydrous THF (28.5 mL, 0.7 M) was added 
+via syringe, and the solution was cooled to 0 °C in a 0 °C ice bath with stirring. NaH (60% dispersion in 
+mineral oil, 960.0 mg, 24.0 mmol, 1.2 equiv) was added portion-wise and the reaction mixture was stirred 
+for 20 min. At this time, tetrabutylammonium iodide (TBAI, 738.8 mg, 2.0 mmol, 10 mol%) was added 
+followed by benzyl chloride (3.0 mL, 26.0 mmol, 1.3 equiv) which was added via syringe. The flask was 
+fitted with a rubber septum (Chemglass, #CG302208) connected to a nitrogen balloon via a needle. The 
+flask was removed from the ice bath and was stirred at room temperature for 14 hours. At this time, the 
+reaction mixture was cooled to 0 °C in a 0 °C ice bath and the rubber septum was removed. To the flask, 
+H2O (50 mL) was slowly added, and the mixture was transferred to a 250 mL separatory funnel. The mixture 
+was extracted with Et2O (3 x 100 mL) and the organic layers were combined. The combined organic layers 
+were dried over MgSO4, filtered, and concentrated in vacuo. The resulting crude mixture was purified via 
+silica gel flash column chromatography (100% hexanes → 3% EtOAc in hexanes) to afford ((4,4,4-
+trifluorobutoxy)methyl)benzene as a colorless oil (2.7202g, 12.40 mmol, 62% yield). 1H NMR (400 MHz, 
+CDCl3) δ 7.41 – 7.27 (m, 5H), 4.51 (s, 2H), 3.53 (t, J = 6.1 Hz, 2H), 2.30 – 2.14 (m, 2H), 1.92 – 1.81 (m, 
+2H). The spectroscopic data is consistent with a previous report.9 
+2-(4,4,4-trifluorobutoxy)quinoline 
+ 
+Procedure: To a 100 mL, oven-dried round bottom flask with a magnetic stir bar 4,4,4-trifluorobutan-1-ol 
+(585.4 mg, 4.57 mmol, 1.0 equiv) was added via pipette. To the flask, anhydrous THF (33 mL) was added 
+via syringe, the round bottom flask was placed in a 0 °C ice bath on stirring, and the solution was cooled to 
+0 °C. At this time, sodium hydride (60% dispersion in mineral oil, 200 mg, 5.0 mmol, 1.1 equiv) was added 
+portion-wise. The flask was loosely covered with a plastic stopper and the reaction was stirred at 0 °C for 
+20 min. At this time, 2-bromoquinoline (950.0 mg, 4.57 mmol, 1.0 equiv) was added to the solution at once 
+
+
+--- PDF page 37 ---
+ 
+S37 
+and the flask was removed from the ice bath. The flask was fitted with a reflux condenser and placed in an 
+oil bath preheated to 50 °C. The reflux condenser was fitted with a rubber septum and connected to a 
+manifold Schlenk line via a needle under a positive pressure of nitrogen. The reaction mixture was stirred 
+at 50 °C for 17 hours. At this time, the flask was removed from the oil bath, and the reaction mixture was 
+cooled to room temperature. The flask was then placed in a 0 °C ice bath and the reaction mix was cooled 
+to 0 °C. H2O (50 mL) was slowly added and the resulting mixture was transferred to a 250 mL separatory 
+funnel and extracted with EtOAc (3 x 50 mL). The combined organic layers were dried over Na2SO4, 
+filtered and concentrated in vacuo. The product was purified via silica gel flash column chromatography 
+with eluent conditions 100% hexanes to 5% EtOAc to afford 2-(4,4,4-trifluorobutoxy)quinoline as a 
+colorless oil (837.4 mg, 3.42 mmol, 72% yield). 1H NMR (400 MHz, CDCl3) δ 8.00 (d, J = 8.9 Hz, 1H), 
+7.83 (d, J = 8.4 Hz, 1H), 7.72 (dd, J = 8.0, 1.5 Hz, 1H), 7.63 (ddd, J = 8.4, 7.0, 1.5 Hz, 1H), 7.39 (ddd, J = 
+8.1, 6.9, 1.2 Hz, 1H), 6.90 (d, J = 8.8 Hz, 1H), 4.55 (t, J = 6.2 Hz, 2H), 2.42 – 2.25 (m, 2H), 2.17 – 2.03 
+(m, 2H). 13C NMR (101 MHz, CDCl3) δ 161.9, 146.6, 139.0, 129.7, 127.6, 127.4, 127.4 (q, J = 276.1 Hz), 
+125.3, 124.3, 113.1, 64.2, 31.1 (q, J = 29.1 Hz), 22.1 (q, J = 3.1 Hz). 19F NMR (376 MHz, CDCl3) δ -66.41 
+(t, J = 10.9 Hz). 2957, 2359, 1619, 1574, 1429, 1312, 1240, 1151, 1016, 821, 781, 756, 622. HRMS (ESI) 
+[M+H]+ calcd. for [C13H13F3NO]+ = 256.0944, 256.0951 found.  
+N-(4-bromobenzyl)-3,3,3-trifluoropropan-1-amine 
+ 
+Procedure: To a 100 mL, oven-dried round bottom flask with a magnetic stir bar, 4-bromobenzaldehyde 
+(925.0 mg, 5.0 mmol) was added. To the flask, methanol (50 mL, 0.1M) was added via syringe followed 
+by activated 3Å molecular sieves (Sigma-Aldrich, #208590; the molecular sieves were activated by drying 
+in an oven at 120 °C overnight and allowing them to cool to room temperature in a desiccator). At this time, 
+3,3,3-trifluoropropan-1-amine (565.5 mg, 5.0 mmol, 1.0 equiv) was added via syringe. The round bottom 
+flask was fitted with a plastic stopper and the reaction mixture was stirred at room temperature for 24 hours. 
+At this time, the reaction mix was cooled to 0 °C in a 0 °C ice bath and sodium borohydride (251.4 mg, 
+6.65 mmol, 1.33 eq) was added portion-wise. The flask was then removed from the ice bath and stirred at 
+room temperature for 30 min. At this time, the reaction mixture was cooled to 0 °C in a 0 °C ice bath and 
+H2O (25 mL) was added. The crude solution was decanted into a 500 mL round bottom flask and methanol 
+was removed via rotary evaporation. The resulting aqueous mixture was transferred to a 250 mL separatory 
+funnel with brine (20 mL) and extracted with DCM (3 x 50 mL) to afford N-(4-bromobenzyl)-3,3,3-
+trifluoropropan-1-amine (1.25 g, 4.40 mmol, 89% yield) as a yellow oil. 1H NMR (400 MHz, CDCl3) δ 
+7.45 (d, J = 8.3 Hz, 2H), 7.20 (d, J = 8.4 Hz, 2H), 3.76 (s, 2H), 2.87 (t, J = 7.1 Hz, 2H), 2.31 (qt, J = 10.9, 
+7.1 Hz, 2H), 1.44 (br s, 1H). 13C NMR (101 MHz, CDCl3) δ 138.9, 131.7, 129.87, 126.8 (q, J = 276.6 Hz), 
+121.1, 53.2, 42.1 (q, J = 3.3 Hz), 34.51 (q, J = 27.7 Hz). 19F NMR (376 MHz, CDCl3) δ -65.02 (t, J = 11.0 
+Hz). IR (neat, cm-1) 2842, 2361, 1487, 1400, 1251, 1138, 1069, 1011, 835, 803, 657, 561. HRMS (ESI) 
+[M+H]+ calcd. for [C10H12BrF3N]+ = 282.0100, 282.0180 found. 
+ 
+ 
+
+
+--- PDF page 38 ---
+ 
+S38 
+9-(4,4,4-trifluorobutyl)-9H-carbazole 
+ 
+Procedure: To a 25 mL, oven-dried round bottom flask with a stir bar, 9H-carbazole (836.0 mg, 5.0 mmol) 
+was added. Anhydrous THF (5 mL, 1M) was added, and the solution was cooled to 0 °C in a 0 °C ice bath. 
+Sodium hydride (60% dispersion in mineral oil, 180.0 mg, 7.5 mmol, 1.5 equiv) was added portion-wise, 
+and the reaction mixture was stirred at 0 °C for 30 min. At this time, 4-bromo-1,1,1-trifluorobutane (1.146g, 
+1.2 equiv, 6.0 mmol) was added via syringe. The flask was removed from the ice bath and the reaction 
+mixture was stirred at room temperature for 15 hours. At this time, the reaction solution was cooled to 0 °C 
+and H2O (10 mL) was added slowly. The crude mixture was transferred to a 250 mL separatory funnel with 
+brine (20 mL) and extracted with Et2O (3 x 50 mL). The combined organic layers were dried over MgSO4, 
+and the crude solution was concentrated in vacuo. The resulting residue was purified via silica gel flash 
+column chromatography (100% hexanes to 10% EtOAc in hexanes) to afford 9-(4,4,4-trifluorobutyl)-9H-
+carbazole as a white solid (748.5 mg, 2.70 mmol, 54%). 1H NMR (400 MHz, CDCl3) δ 8.22 (dd, J = 7.9, 
+1.2 Hz, 2H), 7.69 – 7.50 (m, 2H), 7.46 – 7.41 (m, 2H), 7.37 (t, J = 7.4 Hz, 2H), 4.38 (t, J = 6.5 Hz, 2H), 
+2.35 – 2.02 (m, 4H). The spectroscopic data is consistent with a previous report.10 
+1-benzyl-3-(trifluoromethyl)piperidine 
+ 
+Procedure: to a 250 mL, oven-dried round bottom flask with a magnetic stir bar, 3-
+(trifluoromethyl)piperidine hydrochloride (948.0 mg, 5.0 mmol) was added. The flask was fitted with a 
+rubber septum and the flask was evacuated and backfilled three times with anhydrous nitrogen gas and left 
+under a positive pressure of nitrogen gas on a manifold Schlenk line. Acetonitrile (42 mL, 0.12 M) was 
+added through the rubber septum via syringe. Diisopropylethylamine (DIPEA, 1.75 mL, 10 mmol, 2.0 
+equiv) was added via syringe and the solution was stirred. Benzyl bromide (855 mg, 5.0 mmol, 1.0 equiv) 
+was then added dropwise through the rubber septum via syringe. The reaction mixture was stirred at room 
+temperature for 3 hours. At this time H2O (50 mL) was added and the mixture was transferred to a 250 mL 
+separatory funnel and extracted with EtOAc (3 x 50 mL). The combined organic layers were dried over 
+Na2SO4, and the crude solution was concentrated in vacuo. The product was filtered through silica with 
+10% EtOAc in hexanes to afford 1-benzyl-3-(trifluoromethyl)piperidine as a yellow oil (751.8 mg, 3.10 
+mmol, 62%). 1H NMR (400 MHz, CDCl3) δ 7.44 – 7.15 (m, 5H), 3.90 – 3.24 (m, 2H), 3.04 (ddt, J = 10.9, 
+3.6, 1.7 Hz, 1H), 2.85 (dtd, J = 11.2, 2.8, 1.4 Hz, 1H), 2.48 – 2.24 (m, 1H), 2.10 – 1.80 (m, 2H), 1.73 (dt, J 
+= 13.9, 3.7 Hz, 1H), 1.58 (qt, J = 12.8, 4.0 Hz, 1H), 1.28 (qd, J = 12.7, 4.4 Hz, 1H). The spectroscopic data 
+is consistent with a previous report.11 
+ 
+ 
+
+
+--- PDF page 39 ---
+ 
+S39 
+N-(3,3,3-trifluoropropyl)benzamide 
+ 
+Procedure: To a 50 mL, oven-dried round bottom flask with a magnetic stir bar, benzoic acid (610.5 mg, 
+5.0 mmol), 1-ethyl-3-(3-dimethylaminopropyl)carbodiimide (EDCI, 958.5 mg, 1.0 equiv), and 4-
+dimethylaminopyridine (DMAP, 61.1 mg, 10 mol%) were added. Anhydrous THF (25 mL, 0.2M) was 
+added to the flask via syringe and the solution was stirred. 3,3,3-Trifluoropropan-1-amine (565.5 mg, 1.0 
+equiv) was added via syringe. The flask was sealed with a plastic stopper and the reaction mixture was 
+stirred at room temperature for 15 hours. At this time, H2O (20 mL) was added, and the mixture was 
+transferred to a 250 mL separatory funnel and extracted with EtOAc (3 x 50 mL). The combined organic 
+layers were washed with aqueous HCl (1M, 2 x 50 mL), the resulting organic solution was dried over 
+Na2SO4 and concentrated in vacuo to afford crude white crystals. The crude residue was recrystallized in 
+Et2O to afford N-(3,3,3-trifluoropropyl)benzamide as a white solid (383.6 mg, 1.75 mmol, 35%). 1H NMR 
+(400 MHz, CDCl3) δ 7.80 – 7.70 (m, 2H), 7.56 – 7.49 (m, 1H), 7.48 – 7.40 (m, 2H), 6.37 (br s, 1H), 3.73 
+(q, J = 6.2 Hz, 2H), 2.48 (qt, J = 10.8, 6.4 Hz, 2H). The spectroscopic data is consistent with a previous 
+report.12 
+N-methyl-N-(3,3,3-trifluoropropyl)benzamide 
+ 
+Procedure: To a 50 mL, flame-dried round bottom flask with a stir bar, N-(3,3,3-trifluoropropyl)benzamide 
+(343.3 mg, 1.58 mmol) was added. DMF (15 mL, 0.1 M) was added via syringe and the flask was placed 
+in a 0 °C ice bath for 5 min. NaH (60% wt. dispersion in mineral oil, 126.4 mg, 2.0 equiv, 3.16 mmol) was 
+added portion-wise. The flask was loosely sealed with a plastic stopper and the reaction mixture was stirred 
+at 0 °C for 15 min. At this time, iodomethane (448.4 mg, 2.0 equiv, 3.16 mmol) was added via syringe. The 
+flask was removed from the ice bath stirred at room temperature for 14 hours. At this time, H2O (20 mL) 
+was added. The mixture was transferred to a 250 mL separatory funnel and was extracted with DCM (3 x 
+50 mL), and the combined organic layers were washed with H2O (3 x 50 mL). The resulting organic solution 
+was dried over Na2SO4, filtered, transferred to a 250 mL round bottom flask and concentrated in vacuo. To 
+the flask, n-heptane (50 mL) was added, and the solution was reconcentrated. To the flask, acetonitrile (100 
+mL) was added, the solution was transferred to a 250 mL separatory funnel and extracted with hexanes (2 
+x 100 mL). The acetonitrile layer was collected and concentrated in vacuo. DMF remained, and thus n-
+heptane (50 mL) was added to the flask and the solution was reconcentrated in vacuo to afford N-methyl-
+N-(3,3,3-trifluoropropyl)benzamide as a yellow oil (287.8 mg, 1.24 mmol, 79%). 1H NMR (400 MHz, 
+CDCl3) δ 7.52 – 7.31 (m, 5H), 3.90 – 3.44 (m, 2H), 3.16 – 2.84 (m, 3H), 2.70 – 2.23 (m, 2H). 13C NMR 
+(101 MHz, CDCl3) δ 171.6, 135.9, 129.8, 128.4, 126.9, 41.9, 38.3, 32.1 – 28.7 (m). 19F NMR (376 MHz, 
+CDCl3) δ -65.10 (t, J = 10.7 Hz), -65.52. Note: the titled product exhibits severe broadening in the 1H, 19F, 
+and 13C NMR spectra, that could not be improved in different solvents. HRMS (ESI) [M+H]+ calcd. for 
+[C11H13F3NO]+ = 232.0944, 232.1093 found. 
+ 
+ 
+
+
+--- PDF page 40 ---
+ 
+S40 
+4'-(trifluoromethyl)spiro[benzo[d][1,3]dioxole-2,1'-cyclohexane] 
+ 
+Procedure: To a 25 mL, oven-dried round bottom flask with a magnetic stir bar 4-
+(trifluoromethyl)cyclohexan-1-one (835 mg, 5.0 mmol) was added via pipette followed by methanol (2.9 
+mL, 1.7 M) via syringe. p-Toluenesulfonic acid monohydrate (47.6 mg, 0.25 mmol, 5 mol%) was added 
+and the flask was fitted with a short path distilling head and receiving flask. Note: the addition of p-
+toluenesulfonic acid is exothermic. The flask was placed into a water bath preheated to 55 °C and the 
+reaction mixture was stirred at 55 °C for 3 hours. At this time, the reaction flask was removed from heating 
+and allowed to cool to room temperature. The distillation head and receiving flask were removed and the 
+contents of the receiving flask were discarded. To the reaction flask saturated aqueous NaHCO3 (20 mL) 
+was added, the mixture was transferred to a 125 mL separatory funnel and extracted with Et2O (3 x 50 mL). 
+The combined organic layers were dried over MgSO4, filtered, and concentrated in vacuo. The resulting 
+residue was taken up with Et2O and transferred to a 50 mL, oven-dried round bottom flask and 
+reconcentrated in vacuo. The flask was charged with a magnetic stir bar, toluene (10 mL, 0.5 M), and 
+benzene-1,2-diol (661.2 mg, 1.2 equiv). The flask was fitted with a reflux condenser, and the reaction 
+solution was brought to reflux in an oil bath preheated to 100 °C where it was refluxed for 20 min with 
+stirring. At this time, the oil bath temperature was reduced to 60 °C, p-toluenesulfonic acid monohydrate 
+(9.5 mg, 0.05 mmol, 1 mol %) was added, and the reaction mixture was stirred at 60 °C for 18 hours. At 
+this time the flask was removed from the oil bath and the reaction mixture was cooled to room temperature. 
+To the reaction flask saturated aqueous NaHCO3 (5 mL) was added via syringe, the mixture was transferred 
+to a 250 mL separatory funnel and extracted with EtOAc (3 x 50 mL). The combined organic layers were 
+dried over Na2SO4, filtered, and concentrated in vacuo. The residue was purified via silica gel flash column 
+chromatography on neutralized silica (1% EtOAc in hexanes) (the silica was neutralized by preparing a 
+silica 
+slurry 
+with 
+2% 
+triethylamine 
+/ 
+hexanes 
+solution) 
+to 
+afford 
+4'-
+(trifluoromethyl)spiro[benzo[d][1,3]dioxole-2,1'-cyclohexane] as a white powder (2 steps, 427.4 mg, 1.65 
+mmol, 33%). MP: 111-113 °C. 1H NMR (400 MHz, CDCl3) δ 6.84 – 6.70 (m, 4H), 2.37 – 2.07 (m, 3H), 
+2.07 – 1.98 (m, 2H), 1.90 – 1.70 (m, 4H). 13C NMR (101 MHz, CDCl3) δ 147.3, 147.1, 127.6 (q, J = 278.6 
+Hz), 121.4, 121.4, 116.5, 108.9, 108.8, 40.4 (q, J = 27.1 Hz), 33.5, 22.1 (q, J = 2.6 Hz). 19F NMR (376 
+MHz, CDCl3) δ -73.06 (d, J = 8.3 Hz). IR (neat, cm-1) 2963, 2947, 2882, 2360, 2341, 1487, 1462, 1447, 
+1334, 1237, 1145,1089, 739. HRMS (ESI) [M+NH4]+ calcd. for [C13H13F3O2•NH4]+ = 276.1206, 276.1586 
+found. 
+ 2(1S,2S,4S,5R)-2-((R)-(6-methoxyquinolin-4-yl)(4,4,4-trifluorobutoxy)methyl)-5-vinylquinuclidine 
+ 
+Procedure: To a 100 mL, oven-dried round bottom flask (R)-(6-methoxyquinolin-4-yl)((1S,2S,4S,5R)-5-
+vinylquinuclidin-2-yl)methanol (1.621g, 5.0 mmol) was added. The flask was fitted with a rubber septum 
+and was evacuated and backfilled three times with anhydrous nitrogen gas and left under a positive pressure 
+
+
+--- PDF page 41 ---
+ 
+S41 
+of nitrogen gas on a manifold Schlenk line. DMF (16.5 mL, 0.3M) was added through the septum via 
+syringe and the solution was cooled 0 °C in a 0 °C ice bath. The septum was removed and NaH (60% 
+dispersion in mineral oil, 500 mg, 2.5 equiv) was added portion-wise. At this time, the flask was resealed 
+with a rubber septum, the septum was pierced with a vent and the flask was flushed with nitrogen gas from 
+a manifold Schlenk line for two min. At this time, the vent needle was removed, and the reaction mixture 
+was stirred at 0°C for 1 hour. At this time, 4-bromo-1,1,1-trifluorobutane (955.0 mg, 1.0 equiv) was added 
+dropwise via syringe. After the addition, the flask was removed from the ice bath, and the reaction mixture 
+was stirred at room temperature for 21 h. At this time, H2O (50 mL) was added, the mixture was transferred 
+to a 250 mL separatory funnel and extracted with EtOAc (3 x 50 mL). The combined organic layers were 
+dried over Na2SO4, and the solution was concentrated in vacuo. The resulting crude residue was purified 
+via silica gel flash column chromatography on neutralized silica (2% triethylamine, 2% methanol in DCM) 
+(the silica was neutralized by preparing a silica slurry with 2% triethylamine / hexanes solution) to afford 
+(1S,2S,4S,5R)-2-((R)-(6-methoxyquinolin-4-yl)(4,4,4-trifluorobutoxy)methyl)-5-vinylquinuclidine as a 
+hard yellow wax (751.6 mg, 1.75 mmol, 35%). 1H NMR (400 MHz, CDCl3) δ 8.75 (d, J = 4.4 Hz, 1H), 
+8.04 (d, J = 9.2 Hz, 1H), 7.48 – 7.28 (m, 3H), 5.73 (ddd, J = 17.6, 10.3, 7.6 Hz, 1H), 5.05 (br s, 1H), 5.00 
+– 4.85 (m, 2H), 3.93 (s, 3H), 3.41 (t, J = 6.1 Hz, 2H), 3.34 (s, 1H), 3.09 (dd, J = 13.7, 10.0 Hz, 2H), 2.80 – 
+2.67 (m, 1H), 2.61 (d, J = 13.8 Hz, 1H), 2.34 – 2.15 (m, 3H), 1.95 – 1.78 (m, 3H), 1.78 – 1.66 (m, 2H), 1.67 
+– 1.37 (m, 2H). 13C NMR (101 MHz, CDCl3) δ 157.9, 147.6, 144.8, 144.66, 141.9, 131.9, 127.3, 127.2 (q, 
+J = 276.1 Hz), 121.7, 118.7, 114.32, 101.3, 81.9, 67.7, 60.14, 57.1, 55.7, 43.2, 40.0, 31.0 (q, J = 29.0 Hz), 
+27.90, 22.82 (q, J = 3.0 Hz). 19F NMR (376 MHz, CDCl3) δ -66.40 (t, J = 10.8 Hz). IR (neat, cm-1) 3076, 
+2938, 2867, 2361, 2341, 1620, 1508, 1252, 1229, 1029, 909, 729. HRMS (ESI) [M+H]+ calcd. for 
+[C24H30F3N2O2]+ = 435.2254, 435.2253 found. 
+1-((4-chlorophenyl)(phenyl)methyl)-4-(4,4,4-trifluorobutyl)piperazine 
+ 
+Procedure: To a 250 mL, oven-dried round bottom flask 1-((4-chlorophenyl)(phenyl)methyl)piperazine 
+(2.861g, 10.0 mmol) was added. The flask was fitted with a rubber septum and was evacuated and backfilled 
+three times with anhydrous nitrogen gas and left under a positive pressure of nitrogen gas on a manifold 
+Schlenk line. DMF (71 mL, 0.14 M) was added through the septum via syringe, and the solution was cooled 
+0 °C in a 0 °C ice bath. The septum was removed and NaH (60% dispersion in mineral oil, 1.400 g, 3.5 
+equiv, 35.0 mmol) was added portion-wise. At this time, the flask was resealed with a rubber septum, the 
+septum was pierced with a vent needle, and the flask was flushed with nitrogen gas from a manifold Schlenk 
+line for two min. At this time, the vent needle was removed, and the reaction solution was stirred at 0 °C 
+for 30 min. At this time, 4-bromo-1,1,1-trifluorobutane (2.292 g, 1.2 equiv, 12.0 mmol) was added slowly 
+via syringe. The flask was then removed from the ice bath and the reaction mixture was stirred for 14 h at 
+room temperature. At this time, H2O (50 mL) was added, the mixture was transferred to a 250 mL separatory 
+funnel, and extracted with EtOAc (3 x 50 mL). The combined organic layers were transferred to a 1 L 
+separatory funnel and washed with H2O (2 x 200 mL). The organic phase was dried over Na2SO4, and the 
+solution was transferred to a 250 mL round bottom flask and concentrated in vacuo. To remove residual 
+DMF, n-heptane (100 mL) was added to the flask and the solution was concentrated in vacuo. This process 
+was repeated once more. To further remove DMF, the solution was transferred to a 250 mL separatory 
+funnel with DCM (50 mL) and the solution was washed with H2O (3 x 100 mL). The organic phase was 
+dried over Na2SO4, filtered, transferred to a round bottom flask and concentrated in vacuo. To the round 
+
+
+--- PDF page 42 ---
+ 
+S42 
+bottom, 50 mL n-heptane was added and the mixture was reconcentrated. The resulting crude residue was 
+purified via silica gel plug with the eluent conditions 10% EtOAC in hexanes followed by a flush with 50% 
+EtOAC in hexanes to afford 1-((4-chlorophenyl)(phenyl)methyl)-4-(4,4,4-trifluorobutyl)piperazine as a 
+thick yellow wax (2.1511g, 5.40 mmol, 54% yield). 1H NMR (400 MHz, CDCl3) δ 7.41 – 7.32 (m, 4H), 
+7.32 – 7.13 (m, 5H), 4.20 (s, 1H), 2.63 – 2.24 (m, 10H), 2.19 – 2.00 (m, 2H), 1.76 – 1.64 (m, 2H). 13C NMR 
+(101 MHz, CDCl3) δ 142.3, 141.5, 132.6, 129.3, 128.7, 128.7, 127.9, 127.5 (q, J = 276.12 Hz), 127.2, 75.6, 
+56.8, 53.3, 51.9, 31.7 (q, J = 28.8 Hz), 19.5 (q, J = 2.8 Hz). 19F NMR (376 MHz, CDCl3) δ -66.37 (t, J = 
+11.0 Hz). 2955, 2811, 1703, 1601, 1487, 1254, 1133, 1107, 1007, 757, 699. HRMS (ESI) [M+H]+ calcd. 
+for [C21H25ClF3N2]+ = 397.1653, 397.1681 found. 
+tert-Butyl 4-(trifluoromethyl)piperidine-1-carboxylate 
+ 
+ 
+Procedure: To a 250 mL, oven-dried round bottom flask with a magnetic stir bar, 4-
+(trifluoromethyl)piperidine (765.5 mg, 5.0 mmol) was added via pipette. DCM (62.5mL, 0.08 M) was added 
+and the solution was stirred. To the solution triethylamine (2.1 mL, 3.0 equiv) was added via syringe 
+followed by di-tert-butyl dicarbonate (2.181 g, 2.0 equiv). The flask was loosely sealed with a plastic 
+stopper and the reaction mixture was stirred at room temperature for 1 hour. At this time, H2O (50 mL) was 
+added, the mixture was transferred to a 250 mL separatory funnel and extracted with DCM (3 x 50 mL). 
+The combined organic layers were dried over Na2SO4, and the solution was concentrated in vacuo. The 
+resulting crude residue was purified via flash column chromatography (5% EtOAc in hexanes) to afford 
+tert-butyl 4-(trifluoromethyl)piperidine-1-carboxylate as a white powder (575.9 mg, 2.25 mmol, 45%). 1H 
+NMR (400 MHz, CDCl3) δ 4.22 (br s, 2H), 2.71 (t, J = 13.1 Hz, 2H), 2.27 – 2.09 (m, 1H), 1.86 (d, J = 13.1 
+Hz, 2H), 1.58 – 1.49 (m, 2H), 1.48 (s, 9H). The spectroscopic data is consistent with a previous report. We 
+note that this compound is commercially available.13 
+Piperidin-1-yl(3-(4,4,4-trifluorobutoxy)phenyl)methanone 
+ 
+Procedure: In a 25 mL, oven-dried round bottom flask (3-hydroxyphenyl)(piperidin-1-yl)methanone 
+(650.7 mg, 3.17 mmol) and potassium carbonate (657.8 mg, 4.8 mmol, 1.5 equiv) were combined. DMF 
+(12.7 mL, 0.25M) was added was added via syringe. 4-Bromo-1,1,1-trifluorobutane (605.4 mg, 3.17 mmol, 
+1.0 equiv) was added via syringe. The flask was fitted with a reflux condenser, placed in an oil bath 
+preheated to 75 °C, and the reaction was stirred for 24h. At this time, the flask was removed from the oil 
+bath and the reaction mixture was cooled to rt. The reaction mixture was then transferred to a 250 mL 
+separatory funnel and H2O (50 mL) was added. The mixture was extracted with EtOAc (3 x 50 mL), the 
+combined organic layers were dried over Na2SO4, filtered, and concentrated in vacuo. The crude residue 
+was purified via silica gel flash column chromatography (1:1 EtOAc:hexanes) to afford piperidin-1-yl(3-
+(4,4,4-trifluorobutoxy)phenyl)methanone as a white powder (436.3 mg, 1.39 mmol, 44%). MP: 36-39 °C. 
+1H NMR (400 MHz, CDCl3) δ 7.37 – 7.29 (m, 1H), 7.04 – 6.86 (m, 3H), 4.05 (t, J = 6.0 Hz, 2H), 3.72 (br 
+
+
+--- PDF page 43 ---
+ 
+S43 
+s, 2H), 3.36 (br s, 2H), 2.46 – 2.24 (m, 2H), 2.21 – 1.99 (m, 2H), 1.89 – 1.38 (m, 6H). 13C NMR (101 MHz, 
+CDCl3) δ 169.9, 158.7, 138.0, 129.6, 127.2 (q, J = 276.1 Hz), 119.2, 115.7, 112.8, 66.1, 48.7, 43.1, 30.7 (q, 
+J = 29.2 Hz), 26.6, 25.6, 24.6, 22.2 (q, J = 3.1 Hz). 19F NMR (376 MHz, CDCl3) δ -66.35 (t, J = 10.8 Hz). 
+IR (neat, cm-1) 2947, 2864, 2360, 1625, 1584, 1439, 1243, 1133, 1025, 801. HRMS (ESI) [M+H]+ calcd. 
+for [C16H21F3NO2]+ = 316.1519, 316.1598 found. 
+4,4,4-trifluoro-N-methyl-N-(3-phenyl-3-(4-(trifluoromethyl)phenoxy)propyl)butan-1-amine 
+ 
+Procedure: To a 50 mL, flame-dried round bottom flask with a magnetic stir bar, (±)-N-Methyl-3-phenyl-
+3-[4-(trifluoromethyl)phenoxy]propylamine hydrochloride (691.6 mg, 2.0 mmol) was added. DMF (6.7 
+mL, 0.3 M) was added via syringe, the flask was placed in a 0 °C ice bath, and the solution was stirred at 0 
+°C for 5 min. NaH (60% dispersion in mineral oil, 200 g, 2.5 equiv, 5.0 mmol) was added portion-wise. 
+The flask was loosely covered with a plastic stopper and the reaction mixture was stirred for 1 h at 0 °C. At 
+this time the stopper was removed and 4-bromo-1,1,1-trifluorobutane (382.0 mg, 1.0 equiv, 2.0 mmol) was 
+added via syringe. The flask was loosely covered with a plastic stopper and removed from the ice bath. The 
+reaction was stirred at room temperature for 16 hours. At this time, H2O (20 mL) was added, the mixture 
+was transferred to a 250 mL separatory funnel and extracted with DCM (3 x 50 mL). The combined organic 
+layers were transferred to a 250 mL separatory funnel and washed with H2O (3 x 40 mL). The resulting 
+organic solution was dried over Na2SO4, filtered, transferred to a 500 mL round bottom flask, and 
+concentrated in vacuo. To the resulting concentrated mixture, n-heptane (50 mL) was added and the solution 
+was reconcentrated in vacuo. To the crude concentrate, n-hexane (50 mL) was added to yield a cloudy 
+solution. To the solution, HCl (4M in dioxane, 1 mL, 4.0 mmol) to yield a yellow sticky wax. The hexane 
+solution was decanted and the solid was rinsed with n-hexane (50 mL) and decanted again. To the flask 
+containing the crude solid, NaOH (2 M in H2O, 50 mL) and DCM (100 mL) were added and the biphasic 
+mixture was transferred to a 250 mL separatory funnel and extracted with DCM (1 x 100 mL, 2 x 50 mL). 
+The combined organic layers were dried over Na2SO4 and concentrated in vacuo. The resulting crude oil 
+was taken up with DCM and filtered through silica via vacuum filtration with 10% MeOH in DCM (60 mL) 
+to afford the title product as a bronze oil (426.5 mg, 1.02 mmol, 51% yield 1H NMR (400 MHz, CDCl3) δ 
+7.43 (d, J = 8.7 Hz, 2H), 7.34 (d, J = 5.0 Hz, 4H), 7.30 – 7.23 (m, 1H), 6.89 (d, J = 8.6 Hz, 2H), 5.28 (dd, 
+J = 8.5, 4.6 Hz, 1H), 2.57 (dt, J = 12.4, 7.3 Hz, 1H), 2.41 (m, 3H), 2.20 (s, 3H), 2.20 – 1.89 (m, 4H), 1.75 
+– 1.49 (m, 2H). 13C NMR (101 MHz, CD3CN) δ 162.1, 162.1 142.5, 129.7, 128.9 (q, J = 275.3 Hz), 127.7 
+(q, J = 3.8 Hz), 127.2, 125.7 (q, J = 270.4 Hz) 123.0 (q, J = 32.4 Hz), 117.1, 78.9, 56.9, 54.2, 42.0, 37.1, 
+31.8 (q, J = 28.3 Hz), 20.7 (q, J = 2.9 Hz). 19F NMR (376 MHz, CDCl3) δ -61.77 (d, J = 271.2 Hz), -66.49 
+(d, J = 276.0 Hz). IR (neat, cm-1) 2956, 2801, 2360, 1615, 1517, 1325, 1248, 1159, 1108, 1067, 834, 700. 
+HRMS (ESI) [M+H]+ calcd. for [C21H24F6NO]+ = 420.1757, 420.1765 found. 
+ 
+ 
+
+
+--- PDF page 44 ---
+ 
+S44 
+2-(4-isopropylphenyl)-N-(1-(5-(2,2,2-trifluoroethoxy)pyridine-2-yl)ethyl)acetamide 
+ 
+Procedure: 
+Step 1: (5-(2,2,2-trifluoroethoxy)picolinonitrile): In a 100 mL flame-dried flask with a magnetic stir bar, 
+5-bromopicolinonitrile (3.66 g, 20.0 mmol), Cs2CO3 (9.774 g, 1.5 equiv, 30.0 mmol), and dimethyl 
+sulfoxide (DMSO, 14.4 mL, 1.4 M) were combined. Trifluoroethanol (6.00 g, 60.0 mmol) was added via 
+syringe, the round bottom flask was fitted with a reflux condenser and placed in an oil bath preheated to 
+100 °C. The reaction mixture was stirred for 1 h at 100 °C. At this time, the flask was removed from the oil 
+bath, and the reaction mixture was cooled to room temperature. The mixture was transferred to a 250 mL 
+separatory funnel with EtOAc and H2O (50 mL) and was extracted with ethyl acetate (3 x 100 mL). The 
+resulting organic phase was transferred to a round bottom flask and concentrated in vacuo to remove EtOAc. 
+The resulting aqueous mixture was transferred to a 250 mL separatory funnel with toluene (50 mL) and was 
+washed with H2O (3 x 150 mL). The resulting organic solution was dried over Na2SO4, filtered and 
+concentrated in vacuo to afford the titled product as a white powder (3.057 g, 15.2 mmol, 76%). 1H NMR 
+(400 MHz, CDCl3) δ 8.46 (dd, J = 2.9, 0.7 Hz, 1H), 7.71 (dd, J = 8.7, 0.6 Hz, 1H), 7.33 (dd, J = 8.6, 3.0 
+Hz, 1H), 4.49 (q, J = 7.7 Hz, 2H). The spectroscopic data is consistent with a previous report.14 
+Step 2: (1-(5-(2,2,2-trifluoroethoxy)pyridin-2-yl)ethan-1-amine):  
+A 100 mL round bottom flask fitted with a rubber septum was evacuated and backfilled with nitrogen gas 
+three times and left under a positive pressure of nitrogen gas on a manifold Schlenk line. To the flask, 
+tetrahydrofuran (THF, 20 mL) was added via syringe. Methylmagnesiumchloride (3M in THF, 15.1 mL, 
+45.4 mmol, 3.0 equiv) was then added via syringe. In a 20 mL oven-dried scintillation vial, 2,2,2-
+trifluoroethoxy)picolinonitrile (3.0566g, 15.2 mmol) was dissolved in THF (15 mL) and was taken up into 
+a 
+20 
+mL 
+syringe. 
+The 
+2,2,2-trifluoroethoxy)picolinonitrile 
+solution 
+was 
+added 
+to 
+the 
+methylmagnesiumchloride solution using a syringe pump over the course of 30 min. After addition was 
+complete, the reaction mixture was cooled to 0 °C in an ice bath, methanol (10 mL) was added dropwise, 
+and the solution was then concentrated in vacuo. The resulting solid was taken up with dichloromethane 
+and transferred to a 100 mL, oven-dried round bottom flask and concentrated in vacuo. To the flask, 
+methanol (20 mL, 0.76 M) was added. The flask was placed in a 0 °C ice bath and the solution cooled to 0 
+°C. At this time, NaBH4 (2.860 g, 75.6 mmol, 5.0 equiv) was added in 5 portions (Note: this addition is 
+very exothermic). When the addition was complete, the reaction mixture was placed in a room temperature 
+water bath, the flask was loosely covered with a plastic stopper and the reaction was stirred for 15 h at room 
+temperature. At this time, the flask was placed in a 0 °C ice bath. H2O (30 mL) was added, the resulting 
+solution was transferred to a 250 mL separatory funnel, and the flask was rinsed with EtOAc (40 mL). The 
+mixture was extracted with EtOAc (3 x 100 mL) and the combined organic layers were dried over Na2SO4, 
+
+
+--- PDF page 45 ---
+ 
+S45 
+filtered, and concentrated in vacuo. The residue was purified via silica gel flash column chromatography 
+with eluent conditions 100% methanol to 2% triethylamine in methanol to afford the titled product as a 
+bronze oil (954.3 mg, 4.4 mmol, 29%). 1H NMR (400 MHz, CDCl3) δ 8.32 (d, J = 2.9 Hz, 1H), 7.31 (d, J 
+= 8.6 Hz, 1H), 7.26 (dd, J = 8.6, 2.9 Hz, 1H), 4.41 (q, J = 8.0 Hz, 2H), 4.17 (q, J = 6.7 Hz, 1H), 1.72 (s, 
+2H), 1.43 (d, J = 6.7 Hz, 3H). The spectroscopic data is consistent with a previous report.14 
+Step 3: (2-(4-isopropylphenyl)-N-(1-(5-(2,2,2-trifluoroethoxy)pyridin-2-yl)ethyl)acetamide): To a 100 
+mL, oven-dried round bottom flask, 2-(4-isopropylphenyl)acetic acid (1.079 g, 6.06 mmol, 1.4 equiv) was 
+added. Methyl tert-butyl ether (MTBE, 5.7 mL) was added via syringe followed by carbonyldiimidazole 
+portionwise (CDI, 908.3 mg, 5.6 mmol, 1.3 equiv), and the reaction mixture was stirred for 2 h at room 
+temperature. At this time, 1-(5-(2,2,2-trifluoroethoxy)pyridin-2-yl)ethan-1-amine (2.9 M in MTBE, 1.5 mL, 
+4.4 mmol) was added via syringe. The reaction mixture was stirred at room temperature for 17 hours. At 
+this time, the crude reaction mixture was added to a 500 mL Erlenmeyer flask containing H2O (100 mL) 
+and a stir bar under vigorous stirring to afford a white precipitate. The crude titled product was recrystallized 
+in n-hexane to afford the titled product as a white powder (1.361 g, 3.53 mmol, 82% yield). 1H NMR (400 
+MHz, CDCl3) δ 8.20 (dd, J = 2.8, 0.8 Hz, 1H), 7.24 – 7.13 (m, 6H), 6.63 (d, J = 7.6 Hz, 1H), 5.10 (p, J = 
+6.9 Hz, 1H), 4.37 (q, J = 8.0 Hz, 2H), 3.55 (d, J = 1.2 Hz, 2H), 2.90 (hept, J = 6.9 Hz, 1H), 1.39 (d, J = 6.8 
+Hz, 3H), 1.25 (d, J = 6.9 Hz, 6H).The spectroscopic data is consistent with a previous report. 14 
+ 
+VII. References  
+(1) Fulmer, G. R.; Miller, A. J. M.; Sherden, N. H.; Gottlieb, H. E.; Nudelman, A.; Stoltz, B. M.; Bercaw, 
+J. E.; Goldberg, K. I. NMR Chemical Shifts of Trace Impurities: Common Laboratory Solvents, 
+Organics, and Gases in Deuterated Solvents Relevant to the Organometallic Chemist. Organometallics 
+2010, 29, 2176–2179. 
+(2) Dubbaka, S. R.; Narreddula, V. R.; Gadde, S.; Mathew, T. Silver-Mediated Fluorination of Potassium 
+Aryltrifluoroborates with Selectfluor®. Tetrahedron 2014, 70, 9676–9681. 
+(3) Planas, O.; Wang, F.; Leutzsch, M.; Cornella, J. Fluorination of Arylboronic Esters Enabled by 
+Bismuth Redox Catalysis. Science 2020, 367, 313–317. 
+(4) Franz, R. Ueber Trishydrofluoride Tertiaerer Amine Und Ihren Einsatz Als Fluorierungsmittel. J. 
+Fluor. Chem. 1980, 15, 423–434. 
+(5) Hydrofluoric Acid SOP Template, 2025. https://www.bu.edu/research/files/2021/07/HF-2020-New-
+Template-Final-2.docx 
+(6) Yamamoto, Y. From σ- to π-Electrophilic Lewis Acids. Application to Selective Organic 
+Transformations. J. Org. Chem. 2007, 72, 7817–7831. 
+(7) Song, H.; Wang, Q.; Wang, X.; Pan, Y.; Li, J.; Duan, X.-H.; Hu, M. Synthesis of α,α-
+Difluoromethylene Amines from Thioamides Using Silver Fluoride. J. Org. Chem. 2024, 89, 14341–
+14347. 
+(8) Ruiz, C.; Coca, J.; Vega, A.; Díez, F. V. Extractive Distillation of Hydrocarbons with 
+Dimethylformamide:  Experimental and Simulation Data. Ind. Eng. Chem. Res. 1997, 36, 4934–4939. 
+(9) Lin, X.; Wang, Y.; Hu, Y.; Zhu, W.; Dou, X. Diboron-Mediated Rhodium-Catalysed Transfer 
+Hydrogenation of Alkenes and Carbonyls. Eur. J. Org. Chem. 2020, 2020, 1046–1049. 
+
+
+--- PDF page 46 ---
+ 
+S46 
+(10) Xu, J.; Xiao, B.; Xie, C.-Q.; Luo, D.-F.; Liu, L.; Fu, Y. Copper-Promoted Trifluoromethylation of 
+Primary and Secondary Alkylboronic Acids. Angew. Chem. Int. Ed. 2012, 51, 12551–12554. 
+(11) Renom-Carrasco, M.; Gajewski, P.; Pignataro, L.; de Vries, J. G.; Piarulli, U.; Gennari, C.; Lefort, L. 
+Asymmetric Hydrogenation of 3-Substituted Pyridinium Salts. Chem. Eur. J. 2016, 22, 9528–9532. 
+(12) Yang, Y.-F.; Lin, J.-H.; Xiao, J.-C. Starting from Styrene: A Unified Protocol for 
+Hydrotrifluoromethylation of Diversified Alkenes. Org. Lett. 2021, 23, 9277–9282. 
+(13) Chen, Y.; Ma, G.; Gong, H. Copper-Catalyzed Reductive Trifluoromethylation of Alkyl Iodides with 
+Togni’s Reagent. Org. Lett. 2018, 20, 4677–4680. 
+(14) Zhong, Y.-L.; Moore, J. C.; Shevlin, M.; Shultz, C. S.; Kosjek, B.; Chen, Y.; Janey, J. M.; Tan, L. 
+Scalable Asymmetric Synthesis of MK-8998, a T-Type Calcium Channel Antagonist. J. Org. Chem. 
+2022, 87, 2120–2128. 
+ 
+ 
+ 
+
+
+--- PDF page 47 ---
+ 
+S47 
+VIII. NMR Spectra 
+((4,4-difluoro-4-(2-methoxyethoxy)butoxy)methyl)benzene (5)
+1H NMR spectrum of 5 (400 MHz, CD3CN) 
+13C NMR spectrum of 5 (101 MHz, CD3CN) 
+
+
+--- PDF page 48 ---
+ 
+S48 
+19F NMR spectrum of 5 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+3-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-3-methyloxetane (6)
+1H NMR spectrum of 6 (400 MHz, CDCl3) 
+
+
+--- PDF page 49 ---
+ 
+S49 
+13C NMR spectrum of 6 (101 MHz, CDCl3) 
+19F NMR spectrum of 6 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+ 
+ 
+
+
+--- PDF page 50 ---
+ 
+S50 
+(1-(4-(benzyloxy)-1,1-difluorobutoxy)-2-methylpropan-2-yl)benzene (7) 
+1H NMR spectrum of 7 (400 MHz, CDCl3) 
+13C NMR spectrum of 7 (101 MHz, CDCl3) 
+
+
+--- PDF page 51 ---
+ 
+S51 
+19F NMR spectrum of 7 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+2-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)chromane (8)
+1H NMR spectrum of 8 (400 MHz, CD3CN) 
+
+
+--- PDF page 52 ---
+ 
+S52 
+13C NMR spectrum of 8 (101 MHz, CDCl3) 
+19F NMR spectrum of 8 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+ 
+ 
+
+
+--- PDF page 53 ---
+ 
+S53 
+1-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)adamantane (9) 
+1H NMR spectrum of 9 (400 MHz, CDCl3)  
+13C NMR spectrum of 9 (101 MHz, CD3CN) 
+
+
+--- PDF page 54 ---
+ 
+S54 
+ 
+19F NMR spectrum of 9 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+ ((4,4-difluoro-4-(((1S,2R,5S)-2-isopropyl-5-methylcyclohexyl)oxy)butoxy)methyl)benzene (10)
+1H NMR spectrum of 10 (400 MHz, CDCl3) 
+
+
+--- PDF page 55 ---
+ 
+S55 
+13C NMR spectrum of 10 (101 MHz, CDCl3) 
+19F NMR spectrum of 10 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 56 ---
+ 
+S56 
+2-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-1,3-dichlorobenzene (11)
+1H NMR spectrum of 11 (400 MHz, CD3CN) 
+13C NMR spectrum of 11 (101 MHz, CDCl3 
+ 
+
+
+--- PDF page 57 ---
+ 
+S57 
+19F NMR spectrum of 11 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+(2R,7aS)-7a-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-2-fluorohexahydro-1H-pyrrolizine (12)
+1H NMR spectrum of 12 (400 MHz, CDCl3) 
+
+
+--- PDF page 58 ---
+ 
+S58 
+13C NMR spectrum of 12 (101 MHz, CDCl3) 
+19F NMR spectrum of 12 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 59 ---
+ 
+S59 
+trans-4-(4-(benzyloxy)-1,1-difluorobutoxy)cyclohexan-1-amine (13)
+1H NMR spectrum of 13 (400 MHz, CDCl3) 
+13C NMR spectrum of 13 (101 MHz, CDCl3) 
+
+
+--- PDF page 60 ---
+ 
+S60 
+19F NMR spectrum of 13 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+1-benzhydryl-3-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)azetidine (14)
+ 
+1H NMR spectrum of 14 (400 MHz, CDCl3) 
+
+
+--- PDF page 61 ---
+ 
+S61 
+ 
+13C NMR spectrum of 14 (101 MHz, CDCl3 
+19F NMR spectrum of 14 (376 MHz, CDCl3), 1,4-difuorobenzene used as internal standard 
+
+
+--- PDF page 62 ---
+ 
+S62 
+(3S,4R)-3-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-4-(4-fluorophenyl)-1-methylpiperidine (15)
+1H NMR spectrum of 15 (400 MHz, CDCl3) 
+ 
+ 
+13C NMR spectrum of 15 (101 MHz, CDCl3) 
+
+
+--- PDF page 63 ---
+ 
+S63 
+19F NMR spectrum of 15 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+10-(3-(4-(2-(4-(benzyloxy)-1,1-difluorobutoxy)ethyl)piperazin-1-yl)propyl)-2-chloro-10H-
+phenothiazine (16)
+1H NMR spectrum of 16 (400 MHz, CDCl3) 
+
+
+--- PDF page 64 ---
+ 
+S64 
+13C NMR spectrum of 16 (101 MHz, CDCl3) 
+19F NMR spectrum of 16 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 65 ---
+ 
+S65 
+9-(4-((2-ethylhexyl)oxy)-4,4-difluorobutyl)-9H-carbazole (17)
+1H NMR spectrum of 17 (400 MHz, CD3CN) 
+13C NMR spectrum of 17 (101 MHz, CD3CN) 
+
+
+--- PDF page 66 ---
+ 
+S66 
+19F NMR spectrum of 17 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+(2-((2-ethylhexyl)oxy)-2,2-difluoroethyl)benzene (18)
+1H NMR spectrum of 18 (400 MHz, CD3CN) 
+
+
+--- PDF page 67 ---
+ 
+S67 
+13C NMR spectrum of 18 (101 MHz, CD3CN) 
+19F NMR spectrum of 18 (376 MHz, CD3CN), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 68 ---
+ 
+S68 
+1-((4-chlorophenyl)(phenyl)methyl)-4-(4-((2-ethylhexyl)oxy)-4,4-difluorobutyl)piperazine (19)
+1H NMR spectrum of 19 (400 MHz, CDCl3) 
+13C NMR spectrum of 19 (101 MHz, CDCl3 
+
+
+--- PDF page 69 ---
+ 
+S69 
+19F NMR spectrum of 19 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+4'-(((2-ethylhexyl)oxy)difluoromethyl)spiro[benzo[d][1,3]dioxole-2,1'-cyclohexane (20)
+1H NMR spectrum of 20 (400 MHz, CDCl3) 
+
+
+--- PDF page 70 ---
+ 
+S70 
+13C NMR spectrum of 20 (101 MHz, CDCl3) 
+ 
+19F NMR spectrum of 20 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 71 ---
+ 
+S71 
+ (((2-ethylhexyl)oxy)difluoromethyl)cyclohexane (21)
+1H NMR spectrum of 21 (400 MHz, CDCl3) 
+ 
+13C NMR spectrum of 21 (101 MHz, CDCl3) 
+
+
+--- PDF page 72 ---
+ 
+S72 
+19F NMR spectrum of 21 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+1-benzyl-4-(((2-ethylhexyl)oxy)difluoromethyl)piperidine (22)
+1H NMR spectrum of 22 (400 MHz, CDCl3) 
+
+
+--- PDF page 73 ---
+ 
+S73 
+13C NMR spectrum of 22 (101 MHz, CDCl3) 
+19F NMR spectrum of 22 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 74 ---
+ 
+S74 
+N-(4-bromobenzyl)-3-((2-ethylhexyl)oxy)-3,3-difluoropropan-1-amine (23)
+1H NMR spectrum of 23 (400 MHz, CD3CN) 
+13C NMR spectrum of 23 (101 MHz, CDCl3) 
+
+
+--- PDF page 75 ---
+ 
+S75 
+19F NMR spectrum of 23 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+N-(3-((2-ethylhexyl)oxy)-3,3-difluoropropyl)-N-methylbenzamide (24)
+1H NMR spectrum of 24 (400 MHz, CDCl3) 
+
+
+--- PDF page 76 ---
+ 
+S76 
+13C NMR spectrum of 24 (101 MHz, CDCl3) 
+19F NMR spectrum of 24 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 77 ---
+ 
+S77 
+(3-(4-((2-ethylhexyl)oxy)-4,4-difluorobutoxy)phenyl)(piperidin-1-yl)methanone (25)
+1H NMR spectrum of 25 (400 MHz, CDCl3) 
+13C NMR spectrum of 25 (101 MHz, CDCl3 
+
+
+--- PDF page 78 ---
+ 
+S78 
+19F NMR spectrum of 25 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+4-((2-ethylhexyl)oxy)-4,4-difluoro-N-methyl-N-(3-phenyl-3-(4-(trifluoromethyl)phenoxy)propyl)but-
+an-1-amine (26) 
+1H NMR spectrum of 26 (400 MHz, CDCl3) 
+
+
+--- PDF page 79 ---
+ 
+S79 
+13C NMR spectrum of 26 (101 MHz, CDCl3 
+19F NMR spectrum of 26 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+ 
+ 
+
+
+--- PDF page 80 ---
+ 
+S80 
+(1S,2S,4S,5R)-2-((1R)-(4-((2-ethylhexyl)oxy)-4,4-difluorobutoxy)(6-methoxyquinolin-4-yl)methyl)-5-
+vinylquinuclidine (27) 
+1H NMR spectrum of 27 (400 MHz, CDCl3) 
+13C NMR spectrum of 27 (101 MHz, CDCl3) 
+
+
+--- PDF page 81 ---
+ 
+S81 
+ 
+19F NMR spectrum of 27 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+2-(4-((2-ethylhexyl)oxy)-4,4-difluorobutoxy)quinoline (28)
+1H NMR spectrum of 28 (400 MHz, CDCl3) 
+
+
+--- PDF page 82 ---
+ 
+S82 
+13C NMR spectrum of 28 (101 MHz, CDCl3) 
+19F NMR spectrum of 28 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 83 ---
+ 
+S83 
+((4-((3,7-dimethyloct-6-en-1-yl)oxy)-4,4-difluorobutoxy)methyl)benzene (29)
+1H NMR spectrum of 29 (400 MHz, CD3CN) 
+13C NMR spectrum of 29 (101 MHz, CD3CN) 
+
+
+--- PDF page 84 ---
+ 
+S84 
+19F NMR spectrum of 29 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+(3aR,5R,5aS,8aS,8bR)-5-((4-(benzyloxy)-1,1-difluorobutoxy)methyl)-2,2,7,7-tetramethyltetrahydro-
+5H-bis([1,3]dioxolo)[4,5-b:4',5'-d]pyran (30)
+1H NMR spectrum of 30 (400 MHz, CD3CN) 
+
+
+--- PDF page 85 ---
+ 
+S85 
+ 
+13C NMR spectrum of 30 (101 MHz, CDCl3) 
+19F NMR spectrum of 30 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 86 ---
+ 
+S86 
+tert-butyl 4-(4-(benzyloxy)-1,1-difluorobutoxy)piperidine-1-carboxylate (31)
+1H NMR spectrum of 31 (400 MHz, CDCl3) 
+13C NMR spectrum of 31 (101 MHz, CDCl3 
+
+
+--- PDF page 87 ---
+ 
+S87 
+19F NMR spectrum of 31 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+tert-butyl 4-(((2-ethylhexyl)oxy)difluoromethyl)piperidine-1-carboxylate (32)
+1H NMR spectrum of 32 (400 MHz, CDCl3) 
+
+
+--- PDF page 88 ---
+ 
+S88 
+13C NMR spectrum of 32 (400 MHz, CDCl3) 
+19F NMR spectrum of 32 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 89 ---
+ 
+S89 
+4-(4-(9H-carbazol-9-yl)-1,1-difluorobutoxy)-N,N-dimethylaniline (33)
+1H NMR spectrum of 33 (400 MHz, CDCl3) 
+13C NMR spectrum of 33 (101 MHz, CDCl3) 
+
+
+--- PDF page 90 ---
+ 
+S90 
+19F NMR spectrum of 33 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+9-(4,4-difluoro-4-(4-methoxyphenoxy)butyl)-9H-carbazole (34)
+1H NMR spectrum of 34 (400 MHz, CDCl3) 
+
+
+--- PDF page 91 ---
+ 
+S91 
+13C NMR spectrum of 34 (101 MHz, CDCl3) 
+19F NMR spectrum of 34 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard  
+
+
+--- PDF page 92 ---
+ 
+S92 
+9-(4,4-difluoro-4-((2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)chroman-6-yl)oxy)butyl)-9H-
+carbazole (35)
+1H NMR spectrum of 35 (400 MHz, CDCl3) 
+13C NMR spectrum of 35 (101 MHz, CDCl3) 
+
+
+--- PDF page 93 ---
+ 
+S93 
+19F NMR spectrum of 35 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+N-(4-(4-(9H-carbazol-9-yl)-1,1-difluorobutoxy)phenyl)acetamide (36) 
+1H NMR spectrum of 36 (400 MHz, CDCl3) 
+
+
+--- PDF page 94 ---
+ 
+S94 
+ 
+13C NMR spectrum of 36 (101 MHz, CDCl3) 
+19F NMR spectrum of 36 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+ 
+ 
+
+
+--- PDF page 95 ---
+ 
+S95 
+1-(1,1-difluoro-2-phenylethoxy)-4-methoxybenzene (37) 
+1H NMR spectrum of 37 (400 MHz, CDCl3) 
+13C NMR spectrum of 37 (101 MHz, CDCl3) 
+
+
+--- PDF page 96 ---
+ 
+S96 
+19F NMR spectrum of 37 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+N-(4-(3-((4-bromobenzyl)amino)-1,1-difluoropropoxy)phenyl)acetamide (38) 
+1H NMR spectrum of 38 (400 MHz, CDCl3) 
+
+
+--- PDF page 97 ---
+ 
+S97 
+ 
+13C NMR spectrum of 38 (101 MHz, CDCl3) 
+19F NMR spectrum of 38 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 98 ---
+ 
+S98 
+9-(4-((2-ethylhexyl)thio)-4,4-difluorobutyl)-9H-carbazole (39)  
+ 
+1H NMR spectrum of 39 (400 MHz, CDCl3) 
+13C NMR spectrum of 39 (101 MHz, CDCl3) 
+
+
+--- PDF page 99 ---
+ 
+S99 
+f19F NMR spectrum of 39 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+9-(4-(tert-butylthio)-4,4-difluorobutyl)-9H-carbazole (40)
+1H NMR spectrum of 40 (400 MHz, CDCl3) 
+
+
+--- PDF page 100 ---
+ 
+S100 
+13C NMR spectrum of 40 (101 MHz, CDCl3) 
+19F NMR spectrum of 40 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 101 ---
+ 
+S101 
+9-(4-(benzylthio)-4,4-difluorobutyl)-9H-carbazole (41)
+ 
+1H NMR spectrum of 41 (400 MHz, CDCl3) 
+ 
+13C NMR spectrum of 41 (101 MHz, CDCl3) 
+
+
+--- PDF page 102 ---
+ 
+S102 
+ 
+19F NMR spectrum of 41 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+1-bromo-4-(2-((2-ethylhexyl)oxy)-2,2-difluoroethoxy)benzene (44)
+1H NMR spectrum of 44 (400 MHz, CDCl3) 
+
+
+--- PDF page 103 ---
+ 
+S103 
+ 
+13C NMR spectrum of 44 (101 MHz, CDCl3) 
+19F NMR spectrum of 44 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 104 ---
+ 
+S104 
+2-(((4-(2,2-difluoro-2-isopropoxyethoxy)-3-methylpyridin-2-yl)methyl)thio)-1H-benzo[d]imidazole 
+(46)
+1H NMR spectrum of 46 (400 MHz, CDCl3)  
+13C NMR spectrum of 46 (101 MHz, CD3CN)  
+
+
+--- PDF page 105 ---
+ 
+S105 
+ 
+19F NMR spectrum of 46 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+2-(((4-(2-cyclobutoxy-2,2-difluoroethoxy)-3-methylpyridin-2-yl)methyl)thio)-1H-benzo[d]imidazole 
+(47)
+1H NMR spectrum of 47 (400 MHz, CDCl3) 
+
+
+--- PDF page 106 ---
+ 
+S106 
+13C NMR spectrum of 47 (101 MHz, CDCl3) 
+19F NMR spectrum of 47 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 107 ---
+ 
+S107 
+2-(((4-(2,2-difluoro-2-(methoxy-d3)ethoxy)-3-methylpyridin-2-yl)methyl)thio)-1H-
+benzo[d]imidazole (48)
+1H NMR spectrum of 48 (400 MHz, CDCl3) 
+13C NMR spectrum of 48 (101 MHz, CDCl3) 
+
+
+--- PDF page 108 ---
+ 
+S108 
+19F NMR spectrum of 48 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+N-(1-(5-(2,2-difluoro-2-isopropoxyethoxy)pyridin-2-yl)ethyl)-2-(4-isopropylphenyl)acetamide (49)
+ 
+1H NMR spectrum of 49 (400 MHz, CD2Cl2) 
+
+
+--- PDF page 109 ---
+ 
+S109 
+13C NMR spectrum of 49 (400 MHz, CD2Cl2) 
+19F NMR spectrum of 49 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+ 
+ 
+
+
+--- PDF page 110 ---
+ 
+S110 
+ 
+5-((2R)-2-((2-(2-(2-((2-ethylhexyl)oxy)-2,2-difluoroethoxy)phenoxy)ethyl)amino)propyl)-1-(3-
+hydroxypropyl)indoline-7-carboxamide (50)
+1H NMR spectrum of 50 (400 MHz, CDCl3) 
+13C NMR spectrum of 50 (101 MHz, CDCl3)  
+
+
+--- PDF page 111 ---
+ 
+S111 
+19F NMR spectrum of 50 (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+2-(4,4,4-trifluorobutoxy)quinoline
+1H NMR spectrum of 2-(4,4,4-trifluorobutoxy)quinoline (400 MHz, CDCl3)  
+
+
+--- PDF page 112 ---
+ 
+S112 
+13C NMR spectrum of 2-(4,4,4-trifluorobutoxy)quinoline (101 MHz, CDCl3)  
+19F NMR spectrum of 2-(4,4,4-trifluorobutoxy)quinoline (376 MHz, CDCl3), 1,4-difluorobenzene used 
+as internal standard 
+
+
+--- PDF page 113 ---
+ 
+S113 
+N-(4-bromobenzyl)-3,3,3-trifluoropropan-1-amine
+ 
+1H NMR spectrum of N-(4-bromobenzyl)-3,3,3-trifluoropropan-1-amine (400 MHz, CDCl3) 
+ 
+13C NMR spectrum of N-(4-bromobenzyl)-3,3,3-trifluoropropan-1-amine (101 MHz, CDCl3)  
+
+
+--- PDF page 114 ---
+ 
+S114 
+19F NMR spectrum of N-(4-bromobenzyl)-3,3,3-trifluoropropan-1-amine (376 MHz, CDCl3), 1,4-
+difluorobenzene used as internal standard 
+N-methyl-N-(3,3,3-trifluoropropyl)benzamide
+ 
+1H NMR spectrum of N-methyl-N-(3,3,3-trifluoropropyl)benzamide (400 MHz, CDCl3) 
+
+
+--- PDF page 115 ---
+ 
+S115 
+ 
+13C NMR spectrum of N-methyl-N-(3,3,3-trifluoropropyl)benzamide (101 MHz, CDCl3) 
+19F NMR spectrum of N-methyl-N-(3,3,3-trifluoropropyl)benzamide (376 MHz, CDCl3), 1,4-
+difluorobenzene used as internal standard 
+
+
+--- PDF page 116 ---
+ 
+S116 
+4'-(trifluoromethyl)spiro[benzo[d][1,3]dioxole-2,1'-cyclohexane] 
+1H NMR spectrum of 4'-(trifluoromethyl)spiro[benzo[d][1,3]dioxole-2,1'-cyclohexane] (400 MHz, 
+CDCl3) 
+13C NMR spectrum of 4'-(trifluoromethyl)spiro[benzo[d][1,3]dioxole-2,1'-cyclohexane] (101 MHz, 
+CDCl3) 
+
+
+--- PDF page 117 ---
+ 
+S117 
+19F NMR spectrum of 4'-(trifluoromethyl)spiro[benzo[d][1,3]dioxole-2,1'-cyclohexane] (376 MHz, 
+CDCl3), 1,4-difluorobenzene used as internal standard 
+(1S,2S,4S,5R)-2-((R)-(6-methoxyquinolin-4-yl)(4,4,4-trifluorobutoxy)methyl)-5-vinylquinuclidine
+1H NMR spectrum of (1S,2S,4S,5R)-2-((R)-(6-methoxyquinolin-4-yl)(4,4,4-trifluorobutoxy)methyl)-
+5-vinylquinuclidine (400 MHz, CDCl3) 
+
+
+--- PDF page 118 ---
+ 
+S118 
+13C NMR spectrum of (1S,2S,4S,5R)-2-((R)-(6-methoxyquinolin-4-yl)(4,4,4-trifluorobutoxy)methyl)-
+5-vinylquinuclidine (101 MHz, CDCl3) 
+19F NMR spectrum of (1S,2S,4S,5R)-2-((R)-(6-methoxyquinolin-4-yl)(4,4,4-trifluorobutoxy)methyl)-
+5-vinylquinuclidine (376 MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 119 ---
+ 
+S119 
+1-((4-chlorophenyl)(phenyl)methyl)-4-(4,4,4-trifluorobutyl)piperazine
+1H NMR spectrum of 1-((4-chlorophenyl)(phenyl)methyl)-4-(4,4,4-trifluorobutyl)piperazine (400 
+MHz, CDCl3) 
+13C NMR spectrum of 1-((4-chlorophenyl)(phenyl)methyl)-4-(4,4,4-trifluorobutyl)piperazine (101 
+MHz, CDCl3) 
+
+
+--- PDF page 120 ---
+ 
+S120 
+19F NMR spectrum of 1-((4-chlorophenyl)(phenyl)methyl)-4-(4,4,4-trifluorobutyl)piperazine (376 
+MHz, CDCl3), 1,4-difluorobenzene used as internal standard 
+Piperidin-1-yl(3-(4,4,4-trifluorobutoxy)phenyl)methanone
+ 
+1H NMR spectrum of Piperidin-1-yl(3-(4,4,4-trifluorobutoxy)phenyl)methanone (400 MHz, CDCl3) 
+
+
+--- PDF page 121 ---
+ 
+S121 
+ 
+13C NMR spectrum of Piperidin-1-yl(3-(4,4,4-trifluorobutoxy)phenyl)methanone (101 MHz, CDCl3) 
+19F NMR spectrum of Piperidin-1-yl(3-(4,4,4-trifluorobutoxy)phenyl)methanone (376 MHz, CDCl3), 
+1,4-difluorobenzene used as internal standard 
+
+
+--- PDF page 122 ---
+ 
+S122 
+4,4,4-trifluoro-N-methyl-N-(3-phenyl-3-(4-(trifluoromethyl)phenoxy)propyl)butan-1-amine
+1H NMR spectrum of 4,4,4-trifluoro-N-methyl-N-(3-phenyl-3-(4-
+(trifluoromethyl)phenoxy)propyl)butan-1-amine (400 MHz, CDCl3) 
+13C NMR spectrum of 4,4,4-trifluoro-N-methyl-N-(3-phenyl-3-(4-
+(trifluoromethyl)phenoxy)propyl)butan-1-amine (101 MHz, CD3CN) 
+
+
+--- PDF page 123 ---
+ 
+S123 
+19F NMR spectrum of 4,4,4-trifluoro-N-methyl-N-(3-phenyl-3-(4-
+(trifluoromethyl)phenoxy)propyl)butan-1-amine (376 MHz, CDCl3), 1,4-difluorobenzene used as 
+internal standard 

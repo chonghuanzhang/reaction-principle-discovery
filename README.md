@@ -10,7 +10,7 @@ The article presents the scientific argument. The Supplementary Information (SI)
 
 | What would you like to examine? | Start here |
 |---|---|
-| Which publications informed the study? | [Literature catalog and bibliography](literature/) — 370 source records and all 403 numbered SI references |
+| Which publications informed the study? | [Literature catalog and bibliography](literature/) — 370 source records and 403 online references |
 | What did those publications actually report? | [Chemical evidence](evidence/) — source passages, conditions, endpoints and limits of applying them to this target |
 | Why were particular molecules recommended? | [100 recommended molecules](candidates/) — structures, chemical rationale, proposed pathways, references and novelty assessments |
 | How do the recommendations relate to experimental inputs? | [Candidate–experiment associations · Table R1](candidates/experiment_mapping/) |

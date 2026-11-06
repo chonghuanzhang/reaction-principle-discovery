@@ -6,6 +6,8 @@ Primary relations are mutually exclusive: **3 exact molecular matches, 101 struc
 
 Repository Table R1 lists all 108 experimental pairs and their candidate associations. Structural Analogue denotes a broad donor-family association; a conserved scaffold is not required. Exact donor identity does not imply the same electrophile or product. RF denotes secondary reactive-form links. The primary category follows exact molecular graph, reactive form, structural/family relation, then unmatched.
 
+[Model donors, source worksheet notes and record interpretation](model_donors.md)
+
 [Full JSON](mapping_108.json) · [Full CSV](mapping_108.csv) · [All nonexclusive relations](relations.csv) · [Repository Table R1](table_R1.csv) · [Molecule catalog](../README.md)
 
 | Pair | Route | Primary relation | Candidate links | NP | NR |

@@ -1,0 +1,5493 @@
+[
+  {
+    "query_id": "source_P01",
+    "decision": "reported_target_in_matched_source_system",
+    "target_endpoint": "fluorovinyl phosphine, one F",
+    "reported_endpoints": [
+      "fluorovinyl phosphine, one F"
+    ],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "satisfied",
+        "mismatches": [],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "base-promoted addition/elimination",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          },
+          {
+            "feature": "condition_recipe",
+            "actual": "standard conditions, no P-specific complete recipe assigned in S15",
+            "allowed": [
+              "standard hydrofluorination conditions in S15"
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "base-promoted addition/elimination",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "base-promoted addition/elimination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "base-promoted addition/elimination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "base-promoted addition/elimination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "base-promoted addition/elimination",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_base",
+          "condition_solvent",
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "base-promoted addition/elimination",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          },
+          {
+            "feature": "condition_recipe",
+            "actual": "standard conditions, no P-specific complete recipe assigned in S15",
+            "allowed": [
+              "variety of optimized ether hydrofluorination conditions"
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [
+      "RP2_P01"
+    ],
+    "called_evidence": [
+      "E08"
+    ],
+    "local_chemical_relations": [
+      {
+        "principle_id": "RP2",
+        "effect": "A fluorovinyl ether that has already formed can be consumed by hydrofluorination when the HF/coacid combination enables productive protonation and fluoride capture. The required regime depends on the attached heteroatom substituent; successful monofluoro formation and successful HF addition are separate outcomes.",
+        "direction": "reported_target: fluorovinyl phosphine, one F",
+        "boundary": "Source scaffold is unactivated aliphatic CF3, not the project carbonyl scaffold."
+      }
+    ],
+    "source_reliability": [
+      {
+        "evidence_id": "E08",
+        "access_level": "primary_supporting_information"
+      }
+    ],
+    "transfer_distance": "matched source context",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [
+      {
+        "rule_id": "RP2_P01",
+        "items": [
+          "Full phosphorus-specific recipe is not specified by source"
+        ]
+      }
+    ],
+    "reported_measurements": [
+      {
+        "status": "reported_product",
+        "endpoint": "fluorovinyl phosphine, one F",
+        "source_case_id": "P01",
+        "source_reported_yield": 37,
+        "source_yield_basis": "percent; exact analytical basis not specified in S15"
+      }
+    ]
+  },
+  {
+    "query_id": "source_P02",
+    "decision": "target_not_observed_in_matched_source_system",
+    "target_endpoint": "P-substituted gem-difluoride, two F",
+    "reported_endpoints": [],
+    "explicitly_not_observed_endpoints": [
+      "P-substituted gem-difluoride, two F"
+    ],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed fluorovinyl phosphine",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "P-bound fluorovinyl intermediate from P01",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "second-step hydrofluorination",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_recipe",
+            "actual": "standard hydrofluorination conditions in S15",
+            "allowed": [
+              "standard conditions, no P-specific complete recipe assigned in S15"
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "satisfied",
+        "mismatches": [],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed fluorovinyl phosphine",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "P-bound fluorovinyl intermediate from P01",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "second-step hydrofluorination",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed fluorovinyl phosphine",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "P-bound fluorovinyl intermediate from P01",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "second-step hydrofluorination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed fluorovinyl phosphine",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "P-bound fluorovinyl intermediate from P01",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "second-step hydrofluorination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed fluorovinyl phosphine",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "P-bound fluorovinyl intermediate from P01",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "second-step hydrofluorination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed fluorovinyl phosphine",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "P-bound fluorovinyl intermediate from P01",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "second-step hydrofluorination",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_base",
+          "condition_solvent",
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed fluorovinyl phosphine",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "P-bound fluorovinyl intermediate from P01",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "second-step hydrofluorination",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          },
+          {
+            "feature": "condition_recipe",
+            "actual": "standard hydrofluorination conditions in S15",
+            "allowed": [
+              "variety of optimized ether hydrofluorination conditions"
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [
+      "RP2_P02"
+    ],
+    "called_evidence": [
+      "E09"
+    ],
+    "local_chemical_relations": [
+      {
+        "principle_id": "RP2",
+        "effect": "A fluorovinyl ether that has already formed can be consumed by hydrofluorination when the HF/coacid combination enables productive protonation and fluoride capture. The required regime depends on the attached heteroatom substituent; successful monofluoro formation and successful HF addition are separate outcomes.",
+        "direction": "specified_target_not_detected: P-substituted gem-difluoride, two F",
+        "boundary": "Complex product mixture. No detection limit supplied. This is NOT a negative label for P01 monoF formation."
+      }
+    ],
+    "source_reliability": [
+      {
+        "evidence_id": "E09",
+        "access_level": "primary_supporting_information"
+      }
+    ],
+    "transfer_distance": "matched source context",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [
+      {
+        "rule_id": "RP2_P02",
+        "items": [
+          "Complete formed-intermediate connectivity/recipe not independently recorded"
+        ]
+      }
+    ],
+    "reported_measurements": [
+      {
+        "status": "target_not_observed",
+        "endpoint": "P-substituted gem-difluoride, two F",
+        "source_case_id": "P02",
+        "source_reported_yield": null,
+        "source_yield_basis": null
+      }
+    ]
+  },
+  {
+    "query_id": "source_P05",
+    "decision": "reported_target_in_matched_source_system",
+    "target_endpoint": "saturated ArCH2CF2P(O)Ph2; retains two F",
+    "reported_endpoints": [
+      "saturated ArCH2CF2P(O)Ph2; retains two F"
+    ],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "satisfied",
+        "mismatches": [],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 120,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 16,
+            "allowed": [
+              18
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "N2",
+            "allowed": [
+              "Ar"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 120,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 16,
+            "allowed": [
+              18
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "N2",
+            "allowed": [
+              "Ar"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 120,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 16,
+            "allowed": [
+              18
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "N2",
+            "allowed": [
+              "Ar"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "N,N-dimethylacetamide"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_base",
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [
+      "RP1_P05"
+    ],
+    "called_evidence": [
+      "E03"
+    ],
+    "local_chemical_relations": [
+      {
+        "principle_id": "RP1",
+        "effect": "For a compatible gem-difluoroalkene and P(O)H partner, polar addition under basic conditions can form a carbanion that loses fluoride; peroxide-initiated radical addition followed by H-atom transfer instead can furnish a saturated CF2-containing product.",
+        "direction": "reported_alternative: saturated ArCH2CF2P(O)Ph2; retains two F",
+        "boundary": "Alternative to monofluoro target. Source scope3a gives90% isolated, average of two independent24–26h reactions."
+      }
+    ],
+    "source_reliability": [
+      {
+        "evidence_id": "E03",
+        "access_level": "primary_full_text"
+      }
+    ],
+    "transfer_distance": "matched source context",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": [
+      {
+        "status": "reported_product",
+        "endpoint": "saturated ArCH2CF2P(O)Ph2; retains two F",
+        "source_case_id": "P05",
+        "source_reported_yield": ">95",
+        "source_yield_basis": "19F NMR, Table1 entry8"
+      }
+    ]
+  },
+  {
+    "query_id": "source_SE02",
+    "decision": "target_not_observed_in_matched_source_system",
+    "target_endpoint": "nonfluorinated beta-selenide 3a",
+    "reported_endpoints": [],
+    "explicitly_not_observed_endpoints": [
+      "nonfluorinated beta-selenide 3a"
+    ],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF 1mL (0.1M)",
+            "allowed": [
+              "tBuOH"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 25,
+            "allowed": [
+              120
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 18,
+            "allowed": [
+              16
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "Ar",
+            "allowed": [
+              "N2"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "satisfied",
+        "mismatches": [],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "donor",
+            "actual": "PhSeH",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "donor",
+            "actual": "PhSeH",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "condition_BnBr_equiv",
+            "actual": 1,
+            "allowed": [
+              0
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3 2 equiv",
+            "allowed": [
+              "NaHMDS"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF 1mL (0.1M)",
+            "allowed": [
+              "N,N-dimethylacetamide"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [
+      "RP3_SE02"
+    ],
+    "called_evidence": [
+      "E12"
+    ],
+    "local_chemical_relations": [
+      {
+        "principle_id": "RP3",
+        "effect": "In the documented amide-directed NiH hydroselenylation, the diselenide donor is compatible with reductive selenium transfer, whereas phenylselenol is unproductive; interception of nucleophilic selenium by BnBr supports catalyst turnover.",
+        "direction": "specified_target_not_detected: nonfluorinated beta-selenide 3a",
+        "boundary": "No C–F bond present; no project defluorination label."
+      }
+    ],
+    "source_reliability": [
+      {
+        "evidence_id": "E12",
+        "access_level": "primary_full_text"
+      }
+    ],
+    "transfer_distance": "matched source context",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": [
+      {
+        "status": "target_not_observed",
+        "endpoint": "nonfluorinated beta-selenide 3a",
+        "source_case_id": "SE02",
+        "source_reported_yield": null,
+        "source_yield_basis": "dash in Table1 entry1; no calibrated zero"
+      }
+    ]
+  },
+  {
+    "query_id": "source_SE03",
+    "decision": "reported_target_in_matched_source_system",
+    "target_endpoint": "nonfluorinated beta-selenide 3a",
+    "reported_endpoints": [
+      "nonfluorinated beta-selenide 3a"
+    ],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF 1mL (0.1M)",
+            "allowed": [
+              "tBuOH"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 25,
+            "allowed": [
+              120
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 18,
+            "allowed": [
+              16
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "Ar",
+            "allowed": [
+              "N2"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "PhSeH"
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "satisfied",
+        "mismatches": [],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "condition_BnBr_equiv",
+            "actual": 1,
+            "allowed": [
+              0
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3 2 equiv",
+            "allowed": [
+              "NaHMDS"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF 1mL (0.1M)",
+            "allowed": [
+              "N,N-dimethylacetamide"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [
+      "RP3_SE03"
+    ],
+    "called_evidence": [
+      "E12"
+    ],
+    "local_chemical_relations": [
+      {
+        "principle_id": "RP3",
+        "effect": "In the documented amide-directed NiH hydroselenylation, the diselenide donor is compatible with reductive selenium transfer, whereas phenylselenol is unproductive; interception of nucleophilic selenium by BnBr supports catalyst turnover.",
+        "direction": "reported_target: nonfluorinated beta-selenide 3a",
+        "boundary": "rr18:1, er97:3; nonfluorinated local compatibility comparison."
+      }
+    ],
+    "source_reliability": [
+      {
+        "evidence_id": "E12",
+        "access_level": "primary_full_text"
+      }
+    ],
+    "transfer_distance": "matched source context",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": [
+      {
+        "status": "reported_product",
+        "endpoint": "nonfluorinated beta-selenide 3a",
+        "source_case_id": "SE03",
+        "source_reported_yield": 91,
+        "source_yield_basis": "1H NMR, Table1 entry4"
+      }
+    ]
+  },
+  {
+    "query_id": "source_SE04",
+    "decision": "reported_target_in_matched_source_system",
+    "target_endpoint": "nonfluorinated beta-selenide 3a",
+    "reported_endpoints": [
+      "nonfluorinated beta-selenide 3a"
+    ],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF 1mL (0.1M)",
+            "allowed": [
+              "tBuOH"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 25,
+            "allowed": [
+              120
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 18,
+            "allowed": [
+              16
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "Ar",
+            "allowed": [
+              "N2"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "condition_BnBr_equiv",
+            "actual": 0,
+            "allowed": [
+              1
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "condition_BnBr_equiv",
+            "actual": 0,
+            "allowed": [
+              1
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "satisfied",
+        "mismatches": [],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3 2 equiv",
+            "allowed": [
+              "NaHMDS"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF 1mL (0.1M)",
+            "allowed": [
+              "N,N-dimethylacetamide"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [
+      "RP3_SE04"
+    ],
+    "called_evidence": [
+      "E13"
+    ],
+    "local_chemical_relations": [
+      {
+        "principle_id": "RP3",
+        "effect": "In the documented amide-directed NiH hydroselenylation, the diselenide donor is compatible with reductive selenium transfer, whereas phenylselenol is unproductive; interception of nucleophilic selenium by BnBr supports catalyst turnover.",
+        "direction": "reported_target: nonfluorinated beta-selenide 3a",
+        "boundary": "Low but nonzero positive target; source mechanistic inhibition explanation remains interpretation."
+      }
+    ],
+    "source_reliability": [
+      {
+        "evidence_id": "E13",
+        "access_level": "primary_full_text"
+      }
+    ],
+    "transfer_distance": "matched source context",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": [
+      {
+        "status": "reported_product",
+        "endpoint": "nonfluorinated beta-selenide 3a",
+        "source_case_id": "SE04",
+        "source_reported_yield": 11,
+        "source_yield_basis": "1H NMR, Table1 entry7"
+      }
+    ]
+  },
+  {
+    "query_id": "source_N01",
+    "decision": "reported_target_in_matched_source_system",
+    "target_endpoint": "fluoroenamine, one F",
+    "reported_endpoints": [
+      "fluoroenamine, one F"
+    ],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "donor",
+            "actual": "N-methylaniline",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "NaHMDS-mediated addition/elimination",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "N-methylaniline",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "NaHMDS-mediated addition/elimination",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "N-methylaniline",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "NaHMDS-mediated addition/elimination",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "N,N-dimethylacetamide",
+            "allowed": [
+              "tBuOH"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "N-methylaniline",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "NaHMDS-mediated addition/elimination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "NaHMDS",
+            "allowed": [
+              "Na2CO3 2 equiv"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "N,N-dimethylacetamide",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "N-methylaniline",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "NaHMDS-mediated addition/elimination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "NaHMDS",
+            "allowed": [
+              "Na2CO3 2 equiv"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "N,N-dimethylacetamide",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "N-methylaniline",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "NaHMDS-mediated addition/elimination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "NaHMDS",
+            "allowed": [
+              "Na2CO3 2 equiv"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "N,N-dimethylacetamide",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "satisfied",
+        "mismatches": [],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "FC(F)(F)CCCOCc1ccccc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "N-methylaniline",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "NaHMDS-mediated addition/elimination",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [
+      "RP2_N01"
+    ],
+    "called_evidence": [
+      "E10"
+    ],
+    "local_chemical_relations": [
+      {
+        "principle_id": "RP2",
+        "effect": "A fluorovinyl ether that has already formed can be consumed by hydrofluorination when the HF/coacid combination enables productive protonation and fluoride capture. The required regime depends on the attached heteroatom substituent; successful monofluoro formation and successful HF addition are separate outcomes.",
+        "direction": "reported_target: fluoroenamine, one F",
+        "boundary": "No global rule that anilines outperform all aliphatic amines; source comparison only."
+      }
+    ],
+    "source_reliability": [
+      {
+        "evidence_id": "E10",
+        "access_level": "primary_supporting_information"
+      }
+    ],
+    "transfer_distance": "matched source context",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": [
+      {
+        "status": "reported_product",
+        "endpoint": "fluoroenamine, one F",
+        "source_case_id": "N01",
+        "source_reported_yield": 82,
+        "source_yield_basis": "percent, SI S15"
+      }
+    ]
+  },
+  {
+    "query_id": "source_N03",
+    "decision": "target_not_observed_in_matched_source_system",
+    "target_endpoint": "N-substituted gem-difluoride",
+    "reported_endpoints": [],
+    "explicitly_not_observed_endpoints": [
+      "N-substituted gem-difluoride"
+    ],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed one-F intermediate",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "fluoroenamine from N-methylaniline",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "hydrofluorination",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_recipe",
+            "actual": "variety of optimized ether hydrofluorination conditions",
+            "allowed": [
+              "standard conditions, no P-specific complete recipe assigned in S15"
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed one-F intermediate",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "fluoroenamine from N-methylaniline",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "hydrofluorination",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          },
+          {
+            "feature": "condition_recipe",
+            "actual": "variety of optimized ether hydrofluorination conditions",
+            "allowed": [
+              "standard hydrofluorination conditions in S15"
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed one-F intermediate",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "fluoroenamine from N-methylaniline",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "hydrofluorination",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed one-F intermediate",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "fluoroenamine from N-methylaniline",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "hydrofluorination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed one-F intermediate",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "fluoroenamine from N-methylaniline",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "hydrofluorination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed one-F intermediate",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "fluoroenamine from N-methylaniline",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "hydrofluorination",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:already formed one-F intermediate",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "fluoroenamine from N-methylaniline",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "hydrofluorination",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_base",
+          "condition_solvent",
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "satisfied",
+        "mismatches": [],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [
+      "RP2_N03"
+    ],
+    "called_evidence": [
+      "E11"
+    ],
+    "local_chemical_relations": [
+      {
+        "principle_id": "RP2",
+        "effect": "A fluorovinyl ether that has already formed can be consumed by hydrofluorination when the HF/coacid combination enables productive protonation and fluoride capture. The required regime depends on the attached heteroatom substituent; successful monofluoro formation and successful HF addition are separate outcomes.",
+        "direction": "specified_target_not_detected: N-substituted gem-difluoride",
+        "boundary": "Distinct step from positive N01."
+      }
+    ],
+    "source_reliability": [
+      {
+        "evidence_id": "E11",
+        "access_level": "primary_supporting_information"
+      }
+    ],
+    "transfer_distance": "matched source context",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [
+      {
+        "rule_id": "RP2_N03",
+        "items": [
+          "Complete formed-intermediate connectivity/recipe not independently recorded"
+        ]
+      }
+    ],
+    "reported_measurements": [
+      {
+        "status": "target_not_observed",
+        "endpoint": "N-substituted gem-difluoride",
+        "source_case_id": "N03",
+        "source_reported_yield": null,
+        "source_yield_basis": null
+      }
+    ]
+  },
+  {
+    "query_id": "P05_monoF_requested",
+    "decision": "reported_other_endpoint_target_unresolved",
+    "target_endpoint": "monofluorovinyl C-P target",
+    "reported_endpoints": [
+      "saturated ArCH2CF2P(O)Ph2; retains two F"
+    ],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "satisfied",
+        "mismatches": [],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 120,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 16,
+            "allowed": [
+              18
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "N2",
+            "allowed": [
+              "Ar"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 120,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 16,
+            "allowed": [
+              18
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "N2",
+            "allowed": [
+              "Ar"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 120,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 16,
+            "allowed": [
+              18
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "N2",
+            "allowed": [
+              "Ar"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "N,N-dimethylacetamide"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_base",
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H, 3 equiv",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [
+      "RP1_P05"
+    ],
+    "called_evidence": [
+      "E03"
+    ],
+    "local_chemical_relations": [
+      {
+        "principle_id": "RP1",
+        "effect": "For a compatible gem-difluoroalkene and P(O)H partner, polar addition under basic conditions can form a carbanion that loses fluoride; peroxide-initiated radical addition followed by H-atom transfer instead can furnish a saturated CF2-containing product.",
+        "direction": "reported_alternative: saturated ArCH2CF2P(O)Ph2; retains two F",
+        "boundary": "Alternative to monofluoro target. Source scope3a gives90% isolated, average of two independent24–26h reactions."
+      }
+    ],
+    "source_reliability": [
+      {
+        "evidence_id": "E03",
+        "access_level": "primary_full_text"
+      }
+    ],
+    "transfer_distance": "matched source context",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": [
+      {
+        "status": "reported_product",
+        "endpoint": "saturated ArCH2CF2P(O)Ph2; retains two F",
+        "source_case_id": "P05",
+        "source_reported_yield": ">95",
+        "source_yield_basis": "19F NMR, Table1 entry8"
+      }
+    ]
+  },
+  {
+    "query_id": "P05_PIII_donor_swap",
+    "decision": "unknown",
+    "target_endpoint": "saturated ArCH2CF2P(O)Ph2; retains two F",
+    "reported_endpoints": [],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          }
+        ],
+        "missing_features": [],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 120,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 16,
+            "allowed": [
+              18
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "N2",
+            "allowed": [
+              "Ar"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 120,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 16,
+            "allowed": [
+              18
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "N2",
+            "allowed": [
+              "Ar"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 120,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 16,
+            "allowed": [
+              18
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "N2",
+            "allowed": [
+              "Ar"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "tBuOH",
+            "allowed": [
+              "N,N-dimethylacetamide"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_base",
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C=C(F)F)cc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH, P(III)–H",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "peroxide-initiated hydrophosphinylation",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [],
+    "called_evidence": [],
+    "local_chemical_relations": [],
+    "source_reliability": [],
+    "transfer_distance": "outside an executable source-conditioned clause or missing premises",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": []
+  },
+  {
+    "query_id": "AP087",
+    "decision": "unknown",
+    "target_endpoint": "project monofluoro C–P target",
+    "reported_endpoints": [],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "tBuOH"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 80,
+            "allowed": [
+              120
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 12,
+            "allowed": [
+              16
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_catalyst",
+            "actual": "Pd168",
+            "allowed": [
+              "NiBr2·glyme 10 mol%"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3",
+            "allowed": [
+              "Na2CO3 2 equiv"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 80,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 12,
+            "allowed": [
+              18
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_ligand",
+          "condition_silane",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_catalyst",
+            "actual": "Pd168",
+            "allowed": [
+              "NiBr2·glyme 10 mol%"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3",
+            "allowed": [
+              "Na2CO3 2 equiv"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 80,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 12,
+            "allowed": [
+              18
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_ligand",
+          "condition_silane",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_catalyst",
+            "actual": "Pd168",
+            "allowed": [
+              "NiBr2·glyme 10 mol%"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3",
+            "allowed": [
+              "Na2CO3 2 equiv"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 80,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 12,
+            "allowed": [
+              18
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_ligand",
+          "condition_silane",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3",
+            "allowed": [
+              "NaHMDS"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "N,N-dimethylacetamide"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [],
+    "called_evidence": [],
+    "local_chemical_relations": [],
+    "source_reliability": [],
+    "transfer_distance": "outside an executable source-conditioned clause or missing premises",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": []
+  },
+  {
+    "query_id": "AP088",
+    "decision": "unknown",
+    "target_endpoint": "project monofluoro C–P target",
+    "reported_endpoints": [],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "tBuOH"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 80,
+            "allowed": [
+              120
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 12,
+            "allowed": [
+              16
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_catalyst",
+            "actual": "Pd168",
+            "allowed": [
+              "NiBr2·glyme 10 mol%"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3",
+            "allowed": [
+              "Na2CO3 2 equiv"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 80,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 12,
+            "allowed": [
+              18
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_ligand",
+          "condition_silane",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_catalyst",
+            "actual": "Pd168",
+            "allowed": [
+              "NiBr2·glyme 10 mol%"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3",
+            "allowed": [
+              "Na2CO3 2 equiv"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 80,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 12,
+            "allowed": [
+              18
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_ligand",
+          "condition_silane",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          },
+          {
+            "feature": "condition_catalyst",
+            "actual": "Pd168",
+            "allowed": [
+              "NiBr2·glyme 10 mol%"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3",
+            "allowed": [
+              "Na2CO3 2 equiv"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "THF 1mL (0.1M)"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 80,
+            "allowed": [
+              25
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 12,
+            "allowed": [
+              18
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_ligand",
+          "condition_silane",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3",
+            "allowed": [
+              "NaHMDS"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF",
+            "allowed": [
+              "N,N-dimethylacetamide"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2PH",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "recorded Pd168/Na2CO3 protocol",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [],
+    "called_evidence": [],
+    "local_chemical_relations": [],
+    "source_reliability": [],
+    "transfer_distance": "outside an executable source-conditioned clause or missing premises",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": []
+  },
+  {
+    "query_id": "SE_PROJECT",
+    "decision": "unknown",
+    "target_endpoint": "project monofluoro C–Se target",
+    "reported_endpoints": [],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrate not localized",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH candidate; actual Se donor not yet verified",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "author-reported Se attempt; sample/recipe unavailable",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrate not localized",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH candidate; actual Se donor not yet verified",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "author-reported Se attempt; sample/recipe unavailable",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrate not localized",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH candidate; actual Se donor not yet verified",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "author-reported Se attempt; sample/recipe unavailable",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrate not localized",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH candidate; actual Se donor not yet verified",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "author-reported Se attempt; sample/recipe unavailable",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrate not localized",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH candidate; actual Se donor not yet verified",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "author-reported Se attempt; sample/recipe unavailable",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrate not localized",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH candidate; actual Se donor not yet verified",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "author-reported Se attempt; sample/recipe unavailable",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrate not localized",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH candidate; actual Se donor not yet verified",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "author-reported Se attempt; sample/recipe unavailable",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_base",
+          "condition_solvent",
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrate not localized",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeH candidate; actual Se donor not yet verified",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "author-reported Se attempt; sample/recipe unavailable",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [],
+    "called_evidence": [],
+    "local_chemical_relations": [],
+    "source_reliability": [],
+    "transfer_distance": "outside an executable source-conditioned clause or missing premises",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": []
+  },
+  {
+    "query_id": "P_O_PROJECT",
+    "decision": "unknown",
+    "target_endpoint": "project monofluoro C–P(O) target",
+    "reported_endpoints": [],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrates",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "no matched executed record in audited108",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrates",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "no matched executed record in audited108",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrates",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "no matched executed record in audited108",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrates",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H",
+            "allowed": [
+              "PhSeH"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "no matched executed record in audited108",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrates",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "no matched executed record in audited108",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrates",
+            "allowed": [
+              "C=CCC(=O)Nc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H",
+            "allowed": [
+              "PhSeSePh"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "no matched executed record in audited108",
+            "allowed": [
+              "amide-directed NiH hydroselenylation"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_alkene_mmol",
+          "condition_Se_loading_equiv",
+          "condition_catalyst",
+          "condition_ligand",
+          "condition_silane",
+          "condition_base",
+          "condition_BnBr_equiv",
+          "condition_salt",
+          "condition_solvent",
+          "condition_temperature_C",
+          "condition_time_h",
+          "condition_atmosphere"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrates",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "no matched executed record in audited108",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_base",
+          "condition_solvent",
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "source:project CF3 carbonyl substrates",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "Ph2P(O)H",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "no matched executed record in audited108",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [],
+    "called_evidence": [],
+    "local_chemical_relations": [],
+    "source_reliability": [],
+    "transfer_distance": "outside an executable source-conditioned clause or missing premises",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": []
+  },
+  {
+    "query_id": "SE03_BnBr_unrecorded",
+    "decision": "unknown",
+    "target_endpoint": "nonfluorinated beta-selenide 3a",
+    "reported_endpoints": [],
+    "explicitly_not_observed_endpoints": [],
+    "conflicting_endpoints": [],
+    "missing_required_input": [],
+    "rule_audit": [
+      {
+        "rule_id": "RP2_P01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "Ph2PH, P(III)–H"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "base-promoted addition/elimination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E08"
+        ]
+      },
+      {
+        "rule_id": "RP2_P02",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "source:already formed fluorovinyl phosphine"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "P-bound fluorovinyl intermediate from P01"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "second-step hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E09"
+        ]
+      },
+      {
+        "rule_id": "RP1_P05",
+        "principle_id": "RP1",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "COc1ccc(C=C(F)F)cc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "Ph2P(O)H, 3 equiv"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "peroxide-initiated hydrophosphinylation"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF 1mL (0.1M)",
+            "allowed": [
+              "tBuOH"
+            ]
+          },
+          {
+            "feature": "condition_temperature_C",
+            "actual": 25,
+            "allowed": [
+              120
+            ]
+          },
+          {
+            "feature": "condition_time_h",
+            "actual": 18,
+            "allowed": [
+              16
+            ]
+          },
+          {
+            "feature": "condition_atmosphere",
+            "actual": "Ar",
+            "allowed": [
+              "N2"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_initiator"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE02",
+        "principle_id": "RP3",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "PhSeH"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_BnBr_equiv"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE03",
+        "principle_id": "RP3",
+        "premise_state": "unknown",
+        "mismatches": [],
+        "missing_features": [
+          "condition_BnBr_equiv"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "rule_id": "RP3_SE04",
+        "principle_id": "RP3",
+        "premise_state": "unknown",
+        "mismatches": [],
+        "missing_features": [
+          "condition_BnBr_equiv"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "rule_id": "RP2_N01",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "FC(F)(F)CCCOCc1ccccc1"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "NaHMDS-mediated addition/elimination"
+            ]
+          },
+          {
+            "feature": "condition_base",
+            "actual": "Na2CO3 2 equiv",
+            "allowed": [
+              "NaHMDS"
+            ]
+          },
+          {
+            "feature": "condition_solvent",
+            "actual": "THF 1mL (0.1M)",
+            "allowed": [
+              "N,N-dimethylacetamide"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_other"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "rule_id": "RP2_N03",
+        "principle_id": "RP2",
+        "premise_state": "not_satisfied",
+        "mismatches": [
+          {
+            "feature": "substrate",
+            "actual": "C=CCC(=O)Nc1ccccc1",
+            "allowed": [
+              "source:already formed one-F intermediate"
+            ]
+          },
+          {
+            "feature": "donor",
+            "actual": "PhSeSePh",
+            "allowed": [
+              "fluoroenamine from N-methylaniline"
+            ]
+          },
+          {
+            "feature": "activation",
+            "actual": "amide-directed NiH hydroselenylation",
+            "allowed": [
+              "hydrofluorination"
+            ]
+          }
+        ],
+        "missing_features": [
+          "condition_recipe"
+        ],
+        "missing_evidence": [],
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "applied_rules": [],
+    "called_evidence": [],
+    "local_chemical_relations": [],
+    "source_reliability": [],
+    "transfer_distance": "outside an executable source-conditioned clause or missing premises",
+    "prediction_uncertainty": "This interpreter has no calibrated reaction-success probability.",
+    "scope": "Reported source-system evidence. Matching is on explicitly supplied curated descriptors; this does not establish prospective reactivity.",
+    "missing_source_information": [],
+    "reported_measurements": []
+  }
+]

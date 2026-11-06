@@ -1,0 +1,16 @@
+query_id,decision,target_endpoint,applied_rules,called_evidence,scope
+source_P01,reported_target_in_matched_source_system,"fluorovinyl phosphine, one F",RP2_P01,E08,development/software integrity only
+source_P02,target_not_observed_in_matched_source_system,"P-substituted gem-difluoride, two F",RP2_P02,E09,development/software integrity only
+source_P05,reported_target_in_matched_source_system,saturated ArCH2CF2P(O)Ph2; retains two F,RP1_P05,E03,development/software integrity only
+source_SE02,target_not_observed_in_matched_source_system,nonfluorinated beta-selenide 3a,RP3_SE02,E12,development/software integrity only
+source_SE03,reported_target_in_matched_source_system,nonfluorinated beta-selenide 3a,RP3_SE03,E12,development/software integrity only
+source_SE04,reported_target_in_matched_source_system,nonfluorinated beta-selenide 3a,RP3_SE04,E13,development/software integrity only
+source_N01,reported_target_in_matched_source_system,"fluoroenamine, one F",RP2_N01,E10,development/software integrity only
+source_N03,target_not_observed_in_matched_source_system,N-substituted gem-difluoride,RP2_N03,E11,development/software integrity only
+P05_monoF_requested,reported_other_endpoint_target_unresolved,monofluorovinyl C-P target,RP1_P05,E03,development/software integrity only
+P05_PIII_donor_swap,unknown,saturated ArCH2CF2P(O)Ph2; retains two F,,,development/software integrity only
+AP087,unknown,project monofluoro C–P target,,,development/software integrity only
+AP088,unknown,project monofluoro C–P target,,,development/software integrity only
+SE_PROJECT,unknown,project monofluoro C–Se target,,,development/software integrity only
+P_O_PROJECT,unknown,project monofluoro C–P(O) target,,,development/software integrity only
+SE03_BnBr_unrecorded,unknown,nonfluorinated beta-selenide 3a,,,development/software integrity only

@@ -1,0 +1,3138 @@
+{
+  "version": "6.9",
+  "hitCount": 12,
+  "request": {
+    "queryString": "defluorinative AND (selenium OR selenylation)",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "38322331",
+        "source": "MED",
+        "pmid": "38322331",
+        "pmcid": "PMC10840438",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10840438"
+          ]
+        },
+        "doi": "10.1016/j.apsb.2023.10.001",
+        "title": "Evolution of chemistry and selection technology for DNA-encoded library.",
+        "authorString": "Ma P, Zhang S, Huang Q, Gu Y, Zhou Z, Hou W, Yi W, Xu H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ma P",
+              "lastName": "Ma",
+              "firstName": "Peixiang",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6794-1663"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Orthopedic Implants, Department of Orthopedics, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University, School of Medicine, Shanghai 200025, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang S",
+              "lastName": "Zhang",
+              "firstName": "Shuning",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Orthopedic Implants, Department of Orthopedics, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University, School of Medicine, Shanghai 200025, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Institute for Advanced Immunochemical Studies, ShanghaiTech University, Shanghai 201210, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang Q",
+              "lastName": "Huang",
+              "firstName": "Qianping",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Shanghai Institute for Advanced Immunochemical Studies, ShanghaiTech University, Shanghai 201210, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gu Y",
+              "lastName": "Gu",
+              "firstName": "Yuang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Shanghai Institute for Advanced Immunochemical Studies, ShanghaiTech University, Shanghai 201210, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou Z",
+              "lastName": "Zhou",
+              "firstName": "Zhi",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6521-8946"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangzhou Municipal and Guangdong Provincial Key Laboratory of Molecular Target & Clinical Pharmacology, The NMPA and State Key Laboratory of Respiratory Disease, Guangzhou Medical University, Guangzhou 511436, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hou W",
+              "lastName": "Hou",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9027-8991"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science and Institute of Drug Development & Chemical Biology, Zhejiang University of Technology, Hangzhou 310014, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yi W",
+              "lastName": "Yi",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangzhou Municipal and Guangdong Provincial Key Laboratory of Molecular Target & Clinical Pharmacology, The NMPA and State Key Laboratory of Respiratory Disease, Guangzhou Medical University, Guangzhou 511436, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu H",
+              "lastName": "Xu",
+              "firstName": "Hongtao",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5174-9079"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Shanghai Institute for Advanced Immunochemical Studies, ShanghaiTech University, Shanghai 201210, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5174-9079"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6794-1663"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6521-8946"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9027-8991"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "14",
+          "journalIssueId": 3709890,
+          "dateOfPublication": "2024 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Acta Pharm Sin B",
+            "title": "Acta pharmaceutica Sinica. B",
+            "essn": "2211-3843",
+            "issn": "2211-3835",
+            "nlmid": "101600560",
+            "isoabbreviation": "Acta Pharm Sin B"
+          },
+          "printPublicationDate": "2024-02-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "492-516",
+        "abstractText": "DNA-encoded chemical library (DEL) links the power of amplifiable genetics and the non-self-replicating chemical phenotypes, generating a diverse chemical world. In analogy with the biological world, the DEL world can evolve by using a chemical central dogma, wherein DNA replicates using the PCR reactions to amplify the genetic codes, DNA sequencing transcripts the genetic information, and DNA-compatible synthesis translates into chemical phenotypes. Importantly, DNA-compatible synthesis is the key to expanding the DEL chemical space. Besides, the evolution-driven selection system pushes the chemicals to evolve under the selective pressure, <i>i.e.,</i> desired selection strategies. In this perspective, we summarized recent advances in expanding DEL synthetic toolbox and panning strategies, which will shed light on the drug discovery harnessing <i>in vitro</i> evolution of chemicals <i>via</i> DEL.",
+        "affiliation": "Shanghai Key Laboratory of Orthopedic Implants, Department of Orthopedics, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University, School of Medicine, Shanghai 200025, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "U19A2011",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21907085",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Shanghai Municipality",
+              "grantId": "21ZR1442900",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21977070",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Shanghai Municipality",
+              "grantId": "23ZR1437600",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "22177073",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Zhejiang Province",
+              "grantId": "LY22H300001",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shanghai Key Laboratory of Orthopaedic Implants",
+              "grantId": "KFKT202207",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "drug discovery",
+            "Dna-encoded Library",
+            "High-throughput Selection",
+            "Chemical Central Dogma",
+            "Dna-Compatible Synthesis",
+            "In vitro Evolution"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.apsb.2023.10.001"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.apsb.2023.10.001"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.apsb.2023.10.001"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.apsb.2023.10.001"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10840438"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10840438?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 62,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2024-02-07",
+        "dateOfRevision": "2024-02-10",
+        "electronicPublicationDate": "2023-10-11",
+        "firstPublicationDate": "2023-10-11",
+        "firstIndexDate": "2024-02-08",
+        "fullTextReceivedDate": "2024-02-07",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "41181231",
+        "source": "MED",
+        "pmid": "41181231",
+        "pmcid": "PMC12573124",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12573124"
+          ]
+        },
+        "doi": "10.1039/d5sc04074d",
+        "title": "Diselenide-enabled photocatalytic hydroazolation of &lt;i&gt;gem&lt;/i&gt;-difluoroalkenes.",
+        "authorString": "Abd El-Gaber MK, Herrick RM, Sudhakar P, Rana A, Roach BA, Dick JE, Altman RA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Abd El-Gaber MK",
+              "lastName": "Abd El-Gaber",
+              "firstName": "Mohammed K",
+              "initials": "MK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8077-6428"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Borch Department of Medicinal Chemistry and Molecular Pharmacology, Purdue University West Lafayette IN 47907 USA raaltman@purdue.edu."
+                  },
+                  {
+                    "affiliation": "Medicinal Chemistry Department, Faculty of Pharmacy, Assiut University Assiut 71526 Egypt."
+                  },
+                  {
+                    "affiliation": "Department of Pharmaceutical Sciences, University of Tennessee Health Science Center Memphis TN 38163 USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Herrick RM",
+              "lastName": "Herrick",
+              "firstName": "Ryan M",
+              "initials": "RM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7407-2021"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Borch Department of Medicinal Chemistry and Molecular Pharmacology, Purdue University West Lafayette IN 47907 USA raaltman@purdue.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sudhakar P",
+              "lastName": "Sudhakar",
+              "firstName": "Pranaya",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-7794-1309"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, Purdue University West Lafayette IN 47907 USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rana A",
+              "lastName": "Rana",
+              "firstName": "Ashutosh",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "James Tarpo Jr and Margaret Tarpo Department of Chemistry, Purdue University West Lafayette IN 47907 USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Roach BA",
+              "lastName": "Roach",
+              "firstName": "Brent A",
+              "initials": "BA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-5854-4821"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "James Tarpo Jr and Margaret Tarpo Department of Chemistry, Purdue University West Lafayette IN 47907 USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dick JE",
+              "lastName": "Dick",
+              "firstName": "Jeffrey E",
+              "initials": "JE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4538-9705"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "James Tarpo Jr and Margaret Tarpo Department of Chemistry, Purdue University West Lafayette IN 47907 USA."
+                  },
+                  {
+                    "affiliation": "Elmore Family School of Electrical and Computer Engineering, Purdue University West Lafayette IN 47907 USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Altman RA",
+              "lastName": "Altman",
+              "firstName": "Ryan A",
+              "initials": "RA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8724-1098"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Borch Department of Medicinal Chemistry and Molecular Pharmacology, Purdue University West Lafayette IN 47907 USA raaltman@purdue.edu."
+                  },
+                  {
+                    "affiliation": "James Tarpo Jr and Margaret Tarpo Department of Chemistry, Purdue University West Lafayette IN 47907 USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7407-2021"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4538-9705"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8077-6428"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8724-1098"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-7794-1309"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-5854-4821"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "47",
+          "volume": "16",
+          "journalIssueId": 4067584,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Chem Sci",
+            "title": "Chemical science",
+            "essn": "2041-6539",
+            "issn": "2041-6520",
+            "nlmid": "101545951",
+            "isoabbreviation": "Chem Sci"
+          },
+          "printPublicationDate": "2025-12-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "22701-22710",
+        "abstractText": "Difluoromethylene-containing molecules and azoles, independently, have wide applications in materials science, pharmaceuticals, agrochemicals and as biological diagnostic probes. However, compounds bearing the <i>N</i>-α,α-difluoroalkyl azole [(azole)N-CF<sub>2</sub>R] motif remain scarce in academic and patent literature, presumably due to a lack of synthetic methods. Such compounds could be convergently accessed in a single step <i>via</i> the hydroazolation of <i>gem</i>-difluoroalkenes. However, most existing functionalization reactions of <i>gem</i>-difluoroalkenes proceed through a β-fluoride elimination pathway that generates monofluorinated derivatives. Herein, we report a photocatalytic hydroazolation of <i>gem</i>-difluoroalkenes to generate (azole)N-CF<sub>2</sub>R that employs an uncommon diselenide co-catalyst to avoid the defluorinative process, ultimately enabling facile access to underexplored medicinally and agriculturally-relevant chemical space.",
+        "affiliation": "Borch Department of Medicinal Chemistry and Molecular Pharmacology, Purdue University West Lafayette IN 47907 USA raaltman@purdue.edu.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R35 GM124661",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R35 GM138133",
+              "orderIn": 0
+            },
+            {
+              "agency": "Division of Chemistry",
+              "grantId": "CHE 1625543",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of General Medical Sciences",
+              "grantId": "R35 GM138133",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of General Medical Sciences",
+              "grantId": "R35 GM124661",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Cancer Institute",
+              "grantId": "CA 023168",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "P30 CA023168",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1039/d5sc04074d"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12573124"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12573124?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-12-08",
+        "dateOfCreation": "2025-11-03",
+        "dateOfRevision": "2025-12-09",
+        "electronicPublicationDate": "2025-10-21",
+        "firstPublicationDate": "2025-10-21",
+        "firstIndexDate": "2025-11-03",
+        "fullTextReceivedDate": "2025-12-22",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "41982761",
+        "source": "MED",
+        "pmid": "41982761",
+        "pmcid": "PMC13071163",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13071163"
+          ]
+        },
+        "doi": "10.2147/dddt.s554857",
+        "title": "Fused Indole-Diazepines with a Bridgehead Nitrogen Atom: Synthesis and Pharmaceutical Significance.",
+        "authorString": "Zhou M, Yang X, Wang S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhou M",
+              "lastName": "Zhou",
+              "firstName": "Mengyang",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, China-Japan Union Hospital of Jilin University, Changchun, 130033, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang X",
+              "lastName": "Yang",
+              "firstName": "Xiaohong",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Jilin University, Changchun, 130021, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang S",
+              "lastName": "Wang",
+              "firstName": "Shutao",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4895-2687"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, The Second Hospital of Jilin University, Changchun, 130041, People's Republic of China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4895-2687"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "20",
+          "journalIssueId": 4091778,
+          "dateOfPublication": "2026 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Drug Des Devel Ther",
+            "title": "Drug design, development and therapy",
+            "essn": "1177-8881",
+            "issn": "1177-8881",
+            "nlmid": "101475745",
+            "isoabbreviation": "Drug Des Devel Ther"
+          },
+          "printPublicationDate": "2026-01-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "554857",
+        "abstractText": "Indole-fused diazepines with a bridgehead nitrogen atom represent a unique and privileged scaffold in medicinal chemistry, offering considerable potential for the development of novel pharmaceuticals. The bridgehead nitrogen atom acts as a key pharmacophoric element. It rigidifies the molecular conformation, modulates electronic properties, and participates in target binding via hydrogen bonding or electrostatic interactions. These features significantly influence biological activity, target selectivity, and pharmacokinetic profiles. This review comprehensively summarizes the synthesis, biological activities, and therapeutic potential of indole-fused diazepines, with emphasis on their structural diversity and pharmacological properties. We highlight recent advances in synthetic methodologies as well as important historical studies. We also discuss their implications for drug discovery, provide insights into structure-activity relationships (SAR), and propose future research directions for this class of compounds.",
+        "affiliation": "Department of Pharmacy, China-Japan Union Hospital of Jilin University, Changchun, 130033, People's Republic of China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Nitrogen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Azepines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Indoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Structure-activity relationships",
+            "Biological activities",
+            "Synthetic Methodologies",
+            "Indole-fused Diazepines"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Azepines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "indole",
+              "registryNumber": "8724FJW4M5"
+            },
+            {
+              "name": "Nitrogen",
+              "registryNumber": "N762921K75"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2147/DDDT.S554857"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13071163"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13071163?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2026-07-15",
+        "dateOfCreation": "2026-04-15",
+        "dateOfRevision": "2026-08-13",
+        "electronicPublicationDate": "2026-04-08",
+        "firstPublicationDate": "2026-04-08",
+        "firstIndexDate": "2026-04-15",
+        "fullTextReceivedDate": "2026-04-20",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31424934",
+        "source": "MED",
+        "pmid": "31424934",
+        "doi": "10.1021/acs.joc.9b01387",
+        "title": "Nickel-Catalyzed Defluorinative Reductive Cross-Coupling Reaction of <i>gem-</i>Difluoroalkenes with Thiosulfonate or Selenium Sulfonate.",
+        "authorString": "Li J, Rao W, Wang SY, Ji SJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jian",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Organic Synthesis of Jiangsu Province, College of Chemistry, Chemical Engineering and Materials Science, and Collaborative Innovation Center of Suzhou Nano Science and Technology , Soochow University , Suzhou 215123 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rao W",
+              "lastName": "Rao",
+              "firstName": "Weidong",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6088-7278"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Jiangsu Key Laboratory of Biomass-based Green Fuels and Chemicals, College of Chemical Engineering , Nanjing Forestry University , Nanjing 210037 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang SY",
+              "lastName": "Wang",
+              "firstName": "Shun-Yi",
+              "initials": "SY",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8985-8753"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Organic Synthesis of Jiangsu Province, College of Chemistry, Chemical Engineering and Materials Science, and Collaborative Innovation Center of Suzhou Nano Science and Technology , Soochow University , Suzhou 215123 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ji SJ",
+              "lastName": "Ji",
+              "firstName": "Shun-Jun",
+              "initials": "SJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4299-3528"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Organic Synthesis of Jiangsu Province, College of Chemistry, Chemical Engineering and Materials Science, and Collaborative Innovation Center of Suzhou Nano Science and Technology , Soochow University , Suzhou 215123 , China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4299-3528"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6088-7278"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8985-8753"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "18",
+          "volume": "84",
+          "journalIssueId": 2860770,
+          "dateOfPublication": "2019 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "J Org Chem",
+            "title": "The Journal of organic chemistry",
+            "essn": "1520-6904",
+            "issn": "0022-3263",
+            "nlmid": "2985193R",
+            "isoabbreviation": "J Org Chem"
+          },
+          "printPublicationDate": "2019-09-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "11542-11552",
+        "abstractText": "A nickel-catalyzed defluorinative reductive cross-coupling of <i>gem</i>-difluoroalkenes with thiosulfonate or selenosulfonates is described. The reaction involves the formation of thiolated or selenylated monofluoroolefins via regioselective C-F bond cleavage and C-S or C-Se bond formation and features easily available substrates, mild reaction conditions, and high <i>E</i>-selectivity. One of the derivatives by further cross coupling with PhMgBr exhibited an aggregation-induced emission enhancement effect.",
+        "affiliation": "Key Laboratory of Organic Synthesis of Jiangsu Province, College of Chemistry, Chemical Engineering and Materials Science, and Collaborative Innovation Center of Suzhou Nano Science and Technology , Soochow University , Suzhou 215123 , China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Natural Science Foundation of the Jiangsu Higher Education Institutions",
+              "grantId": "16KJA150002",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21672157",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21772137",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21542015",
+              "orderIn": 0
+            },
+            {
+              "agency": "Soochow University",
+              "orderIn": 0
+            },
+            {
+              "agency": "Priority Academic Program Development of Jiangsu Higher Education Institutions",
+              "orderIn": 0
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.joc.9b01387"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 38,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2019-08-20",
+        "dateOfRevision": "2020-03-04",
+        "electronicPublicationDate": "2019-08-28",
+        "firstPublicationDate": "2019-08-28",
+        "firstIndexDate": "2019-08-20",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39403305",
+        "source": "MED",
+        "pmid": "39403305",
+        "pmcid": "PMC11472660",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11472660"
+          ]
+        },
+        "doi": "10.3762/bjoc.20.214",
+        "title": "A review of recent advances in electrochemical and photoelectrochemical late-stage functionalization classified by anodic oxidation, cathodic reduction, and paired electrolysis.",
+        "authorString": "Li N, Sitdikov R, Kale AP, Steverlynck J, Li B, Rueping M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li N",
+              "lastName": "Li",
+              "firstName": "Nian",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-9429-0517"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "KAUST Catalysis Center (KCC), King Abdullah University Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sitdikov R",
+              "lastName": "Sitdikov",
+              "firstName": "Ruzal",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1362-3819"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "KAUST Catalysis Center (KCC), King Abdullah University Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kale AP",
+              "lastName": "Kale",
+              "firstName": "Ajit Prabhakar",
+              "initials": "AP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4695-0688"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "KAUST Catalysis Center (KCC), King Abdullah University Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Steverlynck J",
+              "lastName": "Steverlynck",
+              "firstName": "Joost",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0328-2168"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "KAUST Catalysis Center (KCC), King Abdullah University Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li B",
+              "lastName": "Li",
+              "firstName": "Bo",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6179-4284"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "KAUST Catalysis Center (KCC), King Abdullah University Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rueping M",
+              "lastName": "Rueping",
+              "firstName": "Magnus",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "KAUST Catalysis Center (KCC), King Abdullah University Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia."
+                  },
+                  {
+                    "affiliation": "Institute for Experimental Molecular Imaging, RWTH Aachen University, Forckenbeckstrasse 55, 52074, Aachen, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0328-2168"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1362-3819"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6179-4284"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4695-0688"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-9429-0517"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "20",
+          "journalIssueId": 3696105,
+          "dateOfPublication": "2024 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Beilstein J Org Chem",
+            "title": "Beilstein journal of organic chemistry",
+            "essn": "1860-5397",
+            "issn": "1860-5397",
+            "nlmid": "101250746",
+            "isoabbreviation": "Beilstein J Org Chem"
+          },
+          "printPublicationDate": "2024-01-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "2500-2566",
+        "abstractText": "With the resurgence of electrosynthesis in organic chemistry, there is a significant increase in the number of routes available for late-stage functionalization (LSF) of drugs. Electrosynthetic methods, which obviate the need for hazardous chemical oxidants or reductants, offer unprecedented control of reactions through the continuous variation of the applied potential and the possibility of combination with photochemical processes. This capability is a substantial advantage for performing electrochemical or photoelectrochemical LSF. Ultimately, these protocols are poised to become a vital component of the medicinal chemist's toolkit. In this review, we discuss electrochemical protocols that have been demonstrated to be applicable for the LSF of pharmaceutical drugs, their derivatives, and natural substrates. We present and analyze representative examples to illustrate the potential of electrochemistry or photoelectrochemistry for the LSF of valuable molecular scaffolds.",
+        "affiliation": "KAUST Catalysis Center (KCC), King Abdullah University Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "King Abdullah University of Science and Technology",
+              "grantId": "URF/1/4726-01-01; URF/1/5082-01-01",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Electrochemistry",
+            "Photoelectrochemistry",
+            "Pharmaceutical Drugs",
+            "Late-stage Functionalization",
+            "Paired Electrolysis"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3762/bjoc.20.214"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11472660"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11472660?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 15,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2024-10-15",
+        "dateOfRevision": "2024-10-16",
+        "electronicPublicationDate": "2024-10-09",
+        "firstPublicationDate": "2024-10-09",
+        "firstIndexDate": "2024-10-15",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "40327599",
+        "source": "MED",
+        "pmid": "40327599",
+        "pmcid": "PMC12172599",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12172599"
+          ]
+        },
+        "doi": "10.1002/chem.202500798",
+        "title": "Advances in Mechanochemical Methods for One-Pot Multistep Organic Synthesis.",
+        "authorString": "Biedermann N, Schnürch M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Biedermann N",
+              "lastName": "Biedermann",
+              "firstName": "Nina",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7709-1156"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Applied Synthetic Chemistry, TU Wien, Getreidemarkt 9/163, Vienna, 1060, Austria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schnürch M",
+              "lastName": "Schnürch",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2946-9294"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Applied Synthetic Chemistry, TU Wien, Getreidemarkt 9/163, Vienna, 1060, Austria."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7709-1156"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2946-9294"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "34",
+          "volume": "31",
+          "journalIssueId": 3962173,
+          "dateOfPublication": "2025 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Chemistry",
+            "title": "Chemistry (Weinheim an der Bergstrasse, Germany)",
+            "essn": "1521-3765",
+            "issn": "0947-6539",
+            "nlmid": "9513783",
+            "isoabbreviation": "Chemistry"
+          },
+          "printPublicationDate": "2025-06-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e202500798",
+        "abstractText": "Mechanochemical synthesis has emerged as a powerful and more sustainable alternative to conventional solution-based methods, offering advantages such as no or only minimal solvent use, reduced reaction times, and simplified operational conditions. The integration of multiple steps into a single reaction vessel further enhances these benefits by eliminating workup and purification steps, reducing waste, and often improving overall efficiency. This review highlights recent advancements in mechanochemical one-pot multistep reactions in organic synthesis, focusing on protocols with sequential one-pot operation. Diverse transformations are covered, including heterocycle formation, functional group interconversions, and the synthesis of active pharmaceutical ingredients, while discussing both the operational and environmental advantages of these methodologies, along with their remaining challenges. Overall, mechanochemical one-pot synthesis has the potential to streamline transformations and therefore contribute to more sustainable approaches in modern organic synthetic chemistry.",
+        "affiliation": "Institute of Applied Synthetic Chemistry, TU Wien, Getreidemarkt 9/163, Vienna, 1060, Austria.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Ball Milling",
+            "Mechanochemistry",
+            "Solvent Free",
+            "Sustainable Synthesis",
+            "Liquid‐assisted Grinding"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/chem.202500798"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12172599"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12172599?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCreation": "2025-05-06",
+        "dateOfRevision": "2026-09-24",
+        "electronicPublicationDate": "2025-05-24",
+        "firstPublicationDate": "2025-05-24",
+        "firstIndexDate": "2025-05-07",
+        "fullTextReceivedDate": "2025-12-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38108020",
+        "source": "MED",
+        "pmid": "38108020",
+        "pmcid": "PMC10725311",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10725311"
+          ]
+        },
+        "doi": "10.1016/j.trechm.2023.01.001",
+        "title": "When all C-C breaks LO-Ose.",
+        "authorString": "Dworkin JH, Dehnert BW, Kwon O.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dworkin JH",
+              "lastName": "Dworkin",
+              "firstName": "Jeremy H",
+              "initials": "JH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-6891-5571"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Biochemistry, University of California, Los Angeles, CA 90095-1569, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dehnert BW",
+              "lastName": "Dehnert",
+              "firstName": "Brady W",
+              "initials": "BW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Biochemistry, University of California, Los Angeles, CA 90095-1569, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kwon O",
+              "lastName": "Kwon",
+              "firstName": "Ohyun",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5405-3971"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Biochemistry, University of California, Los Angeles, CA 90095-1569, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5405-3971"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-6891-5571"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "5",
+          "journalIssueId": 3684027,
+          "dateOfPublication": "2023 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Trends Chem",
+            "title": "Trends in chemistry",
+            "essn": "2589-5974",
+            "issn": "2589-7209",
+            "nlmid": "101748926",
+            "isoabbreviation": "Trends Chem"
+          },
+          "printPublicationDate": "2023-03-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "174-200",
+        "abstractText": "Organic peroxides are becoming popular intermediates for novel chemical transformations. The weak O-O bond is readily reduced by transition metals, including iron and copper, to initiate a radical cascade process that breaks C-C bonds. Great potential exists for the rapid generation of complexity, originating from the ability to couple the resulting free radicals with a wide range of partners. First, this review article discusses the history and synthesis of organic peroxides, providing the context necessary to understand this methodology. Then, it highlights 91 examples of recent applications of the radical functionalization of C-C bonds accessed through the transition metal-mediated reduction of organic peroxides. Finally, we provide some comments about safety when working with organic peroxides.",
+        "affiliation": "Department of Chemistry and Biochemistry, University of California, Los Angeles, CA 90095-1569, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "University of California, Los Angeles",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R01 GM071779",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of General Medical Sciences",
+              "grantId": "R01 GM141327-02S1",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R01 GM141327",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://escholarship.org/uc/item/7p40c08b"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.trechm.2023.01.001"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10725311"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10725311?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 20,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1950262",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2023-12-18",
+        "dateOfRevision": "2024-06-04",
+        "electronicPublicationDate": "2023-02-14",
+        "firstPublicationDate": "2023-02-14",
+        "firstIndexDate": "2023-12-22",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "35622926",
+        "source": "MED",
+        "pmid": "35622926",
+        "pmcid": "PMC9140971",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9140971"
+          ]
+        },
+        "doi": "10.1126/sciadv.abn7819",
+        "title": "Chemodivergent Csp<sup>3</sup>─F bond functionalization and cross-electrophile alkyl-alkyl coupling with alkyl fluorides.",
+        "authorString": "Balaraman K, Wolf C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Balaraman K",
+              "lastName": "Balaraman",
+              "firstName": "Kaluvu",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2020-269X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Georgetown University, Washington, DC 20057, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wolf C",
+              "lastName": "Wolf",
+              "firstName": "Christian",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4447-3753"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Georgetown University, Washington, DC 20057, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4447-3753"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2020-269X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "21",
+          "volume": "8",
+          "journalIssueId": 3363698,
+          "dateOfPublication": "2022 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Sci Adv",
+            "title": "Science advances",
+            "essn": "2375-2548",
+            "issn": "2375-2548",
+            "nlmid": "101653440",
+            "isoabbreviation": "Sci Adv"
+          },
+          "printPublicationDate": "2022-05-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "eabn7819",
+        "abstractText": "The widespread use of fluorinated organic compounds in the health, agrochemical, and materials sciences is sustained by a steadily growing pool of commercially available fine chemicals. The synthetic utility of the increasingly ubiquitous Csp<sup>3</sup>─F bond, however, remains to be fully exploited, which is often a difficult task because of its paramount stability and chemical inertness. Here, we demonstrate chemodivergent activation of monofluoroalkyl compounds toward either nucleophilic or electrophilic intermediates. This is accomplished under conditions that are compatible with several reaction types and many functional groups, which drastically widens the current scope of organofluorine chemistry and sets the stage for carbon-carbon and carbon-heteroatom bond formations, stereoselective construction of bisoxindole alkaloid scaffolds via in situ Umpolung, and cross-electrophilic coupling methodology. The selective generation of either nucleophilic or electrophilic species and the possibility of doing so simultaneously or, alternatively, switching molecular polarity enable previously unidentified synthetic opportunities that recognize alkyl fluorides as chemodivergent building blocks.",
+        "affiliation": "Department of Chemistry, Georgetown University, Washington, DC 20057, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R15 GM106260",
+              "orderIn": 0
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1126/sciadv.abn7819"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9140971"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9140971?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2022-05-27",
+        "dateOfRevision": "2022-08-21",
+        "electronicPublicationDate": "2022-05-27",
+        "firstPublicationDate": "2022-05-27",
+        "firstIndexDate": "2022-05-28",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36385990",
+        "source": "MED",
+        "pmid": "36385990",
+        "pmcid": "PMC9660241",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9660241"
+          ]
+        },
+        "doi": "10.3389/fchem.2022.1059792",
+        "title": "Redox-neutral and metal-free synthesis of 3-(arylmethyl)chroman-4-ones <i>via</i> visible-light-driven alkene acylarylation.",
+        "authorString": "Ding Y, Yu S, Ren M, Lu J, Fu Q, Zhang Z, Wang Q, Bai J, Hao N, Yang L, Wei S, Yi D, Wei J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ding Y",
+              "lastName": "Ding",
+              "firstName": "Yan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu S",
+              "lastName": "Yu",
+              "firstName": "Shengjiao",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, School of Basic Medical Sciences, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ren M",
+              "lastName": "Ren",
+              "firstName": "Man",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lu J",
+              "lastName": "Lu",
+              "firstName": "Ji",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fu Q",
+              "lastName": "Fu",
+              "firstName": "Qiang",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Z",
+              "lastName": "Zhang",
+              "firstName": "Zhijie",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Q",
+              "lastName": "Wang",
+              "firstName": "Qin",
+              "initials": "Q",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9852-5347"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bai J",
+              "lastName": "Bai",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Public Health, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hao N",
+              "lastName": "Hao",
+              "firstName": "Na",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang L",
+              "lastName": "Yang",
+              "firstName": "Lin",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wei S",
+              "lastName": "Wei",
+              "firstName": "Siping",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yi D",
+              "lastName": "Yi",
+              "firstName": "Dong",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8281-7860"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wei J",
+              "lastName": "Wei",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9852-5347"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8281-7860"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "10",
+          "journalIssueId": 3307026,
+          "dateOfPublication": "2022 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Front Chem",
+            "title": "Frontiers in chemistry",
+            "essn": "2296-2646",
+            "issn": "2296-2646",
+            "nlmid": "101627988",
+            "isoabbreviation": "Front Chem"
+          },
+          "printPublicationDate": "2022-01-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "1059792",
+        "abstractText": "A metal- and aldehyde-free visible-light-driven photoredox-neutral alkene acylarylation with readily available cyanoarenes is described. A variety of 3-(arylmethyl)chroman-4-ones (i.e., homoisoflavonoids) and analogs are efficiently synthesized with good functional group tolerance. This mild protocol relies on a phosphoranyl radical-mediated acyl radical-initiated cyclization and selective radical-radical coupling sequence, and is also further highlighted by subsequent derivatization to chromone and 2<i>H</i>-chromene as well as its application in the three-component alkene acylarylation.",
+        "affiliation": "Central Nervous System Drug Key Laboratory of Sichuan Province, Department of Medicinal Chemistry, School of Pharmacy, Southwest Medical University, Luzhou, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "22101237 22171233",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Chroman-4-one",
+            "Acyl Radical",
+            "Phosphoranyl Radical",
+            "Radical-radical Coupling",
+            "3-(Arylmethyl)chroman-4-ones"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.3389/fchem.2022.1059792"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fchem.2022.1059792"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9660241"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9660241?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2022-11-17",
+        "dateOfRevision": "2022-11-18",
+        "electronicPublicationDate": "2022-10-31",
+        "firstPublicationDate": "2022-10-31",
+        "firstIndexDate": "2022-11-18",
+        "fullTextReceivedDate": "2022-11-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39591522",
+        "source": "MED",
+        "pmid": "39591522",
+        "pmcid": "PMC11638928",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11638928"
+          ]
+        },
+        "doi": "10.1021/acs.chemrev.4c00524",
+        "title": "Cross-Electrophile Coupling: Principles, Methods, and Applications in Synthesis.",
+        "authorString": "Ehehalt LE, Beleh OM, Priest IC, Mouat JM, Olszewski AK, Ahern BN, Cruz AR, Chi BK, Castro AJ, Kang K, Wang J, Weix DJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ehehalt LE",
+              "lastName": "Ehehalt",
+              "firstName": "Lauren E",
+              "initials": "LE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4267-214X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Beleh OM",
+              "lastName": "Beleh",
+              "firstName": "Omar M",
+              "initials": "OM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8927-5382"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Priest IC",
+              "lastName": "Priest",
+              "firstName": "Isabella C",
+              "initials": "IC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3265-6907"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mouat JM",
+              "lastName": "Mouat",
+              "firstName": "Julianna M",
+              "initials": "JM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3976-3676"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Olszewski AK",
+              "lastName": "Olszewski",
+              "firstName": "Alyssa K",
+              "initials": "AK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3707-5423"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ahern BN",
+              "lastName": "Ahern",
+              "firstName": "Benjamin N",
+              "initials": "BN",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cruz AR",
+              "lastName": "Cruz",
+              "firstName": "Alexandro R",
+              "initials": "AR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2296-3329"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chi BK",
+              "lastName": "Chi",
+              "firstName": "Benjamin K",
+              "initials": "BK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5672-9827"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Castro AJ",
+              "lastName": "Castro",
+              "firstName": "Anthony J",
+              "initials": "AJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kang K",
+              "lastName": "Kang",
+              "firstName": "Kai",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7625-1661"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang J",
+              "lastName": "Wang",
+              "firstName": "Jiang",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Weix DJ",
+              "lastName": "Weix",
+              "firstName": "Daniel J",
+              "initials": "DJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9552-3378"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5672-9827"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8927-5382"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3265-6907"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3707-5423"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3976-3676"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7625-1661"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9552-3378"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2296-3329"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4267-214X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "23",
+          "volume": "124",
+          "journalIssueId": 3869180,
+          "dateOfPublication": "2024 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Chem Rev",
+            "title": "Chemical reviews",
+            "essn": "1520-6890",
+            "issn": "0009-2665",
+            "nlmid": "2985134R",
+            "isoabbreviation": "Chem Rev"
+          },
+          "printPublicationDate": "2024-12-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "13397-13569",
+        "abstractText": "Cross-electrophile coupling (XEC), defined by us as the cross-coupling of two different σ-electrophiles that is driven by catalyst reduction, has seen rapid progression in recent years. As such, this review aims to summarize the field from its beginnings up until mid-2023 and to provide comprehensive coverage on synthetic methods and current state of mechanistic understanding. Chapters are split by type of bond formed, which include C(sp<sup>3</sup>)-C(sp<sup>3</sup>), C(sp<sup>2</sup>)-C(sp<sup>2</sup>), C(sp<sup>2</sup>)-C(sp<sup>3</sup>), and C(sp<sup>2</sup>)-C(sp) bond formation. Additional chapters include alkene difunctionalization, alkyne difunctionalization, and formation of carbon-heteroatom bonds. Each chapter is generally organized with an initial summary of mechanisms followed by detailed figures and notes on methodological developments and ending with application notes in synthesis. While XEC is becoming an increasingly utilized approach in synthesis, its early stage of development means that optimal catalysts, ligands, additives, and reductants are still in flux. This review has collected data on these and various other aspects of the reactions to capture the state of the field. Finally, the data collected on the papers in this review is offered as Supporting Information for readers.",
+        "affiliation": "Department of Chemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Science Foundation",
+              "grantId": "DGE-2137424",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "T32 GM152341",
+              "orderIn": 0
+            },
+            {
+              "agency": "U.S. Department of Health and Human Services",
+              "grantId": "T32 GM152341",
+              "orderIn": 0
+            },
+            {
+              "agency": "U.S. Department of Health and Human Services",
+              "grantId": "F32 GM146357",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R01 GM097243",
+              "orderIn": 0
+            },
+            {
+              "agency": "U.S. Department of Health and Human Services",
+              "grantId": "R01 GM097243",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Science Foundation",
+              "grantId": "CHE-2154698",
+              "orderIn": 0
+            },
+            {
+              "agency": "University of Wisconsin-Madison",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "F32 GM146357",
+              "orderIn": 0
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.chemrev.4c00524"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11638928"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11638928?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 157,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2024-11-26",
+        "dateOfRevision": "2026-09-23",
+        "electronicPublicationDate": "2024-11-26",
+        "firstPublicationDate": "2024-11-26",
+        "firstIndexDate": "2024-11-26",
+        "fullTextReceivedDate": "2025-12-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37751573",
+        "source": "MED",
+        "pmid": "37751573",
+        "pmcid": "PMC10571048",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10571048"
+          ]
+        },
+        "doi": "10.1021/acs.chemrev.3c00158",
+        "title": "Electrochemical Late-Stage Functionalization.",
+        "authorString": "Wang Y, Dana S, Long H, Xu Y, Li Y, Kaplaneris N, Ackermann L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yulei",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut für Organische und Biomolekulare Chemie and Wöhler Research Institute for Sustainable Chemistry (WISCh), Georg-August-Universität, Göttingen 37077, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dana S",
+              "lastName": "Dana",
+              "firstName": "Suman",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4502-1601"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut für Organische und Biomolekulare Chemie and Wöhler Research Institute for Sustainable Chemistry (WISCh), Georg-August-Universität, Göttingen 37077, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Long H",
+              "lastName": "Long",
+              "firstName": "Hao",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-9556-1309"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut für Organische und Biomolekulare Chemie and Wöhler Research Institute for Sustainable Chemistry (WISCh), Georg-August-Universität, Göttingen 37077, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu Y",
+              "lastName": "Xu",
+              "firstName": "Yang",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-1440-0783"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut für Organische und Biomolekulare Chemie and Wöhler Research Institute for Sustainable Chemistry (WISCh), Georg-August-Universität, Göttingen 37077, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li Y",
+              "lastName": "Li",
+              "firstName": "Yanjun",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut für Organische und Biomolekulare Chemie and Wöhler Research Institute for Sustainable Chemistry (WISCh), Georg-August-Universität, Göttingen 37077, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kaplaneris N",
+              "lastName": "Kaplaneris",
+              "firstName": "Nikolaos",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7559-3088"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut für Organische und Biomolekulare Chemie and Wöhler Research Institute for Sustainable Chemistry (WISCh), Georg-August-Universität, Göttingen 37077, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ackermann L",
+              "lastName": "Ackermann",
+              "firstName": "Lutz",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7034-8772"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut für Organische und Biomolekulare Chemie and Wöhler Research Institute for Sustainable Chemistry (WISCh), Georg-August-Universität, Göttingen 37077, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7034-8772"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4502-1601"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7559-3088"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-1440-0783"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-9556-1309"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "19",
+          "volume": "123",
+          "journalIssueId": 3648188,
+          "dateOfPublication": "2023 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Chem Rev",
+            "title": "Chemical reviews",
+            "essn": "1520-6890",
+            "issn": "0009-2665",
+            "nlmid": "2985134R",
+            "isoabbreviation": "Chem Rev"
+          },
+          "printPublicationDate": "2023-10-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "11269-11335",
+        "abstractText": "Late-stage functionalization (LSF) constitutes a powerful strategy for the assembly or diversification of novel molecular entities with improved physicochemical or biological activities. LSF can thus greatly accelerate the development of medicinally relevant compounds, crop protecting agents, and functional materials. Electrochemical molecular synthesis has emerged as an environmentally friendly platform for the transformation of organic compounds. Over the past decade, electrochemical late-stage functionalization (eLSF) has gained major momentum, which is summarized herein up to February 2023.",
+        "affiliation": "Institut für Organische und Biomolekulare Chemie and Wöhler Research Institute for Sustainable Chemistry (WISCh), Georg-August-Universität, Göttingen 37077, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "European Research Council",
+              "grantId": "101021358",
+              "orderIn": 0
+            },
+            {
+              "agency": "Deutsches Zentrum für Herz-Kreislaufforschung",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Scholarship Council",
+              "orderIn": 0
+            },
+            {
+              "agency": "Alexander von Humboldt-Stiftung",
+              "orderIn": 0
+            },
+            {
+              "agency": "Deutsche Forschungsgemeinschaft",
+              "orderIn": 0
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.chemrev.3c00158"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10571048"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10571048?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 180,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2023-09-26",
+        "dateOfRevision": "2024-10-01",
+        "electronicPublicationDate": "2023-09-26",
+        "firstPublicationDate": "2023-09-26",
+        "firstIndexDate": "2023-09-27",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "34751568",
+        "source": "MED",
+        "pmid": "34751568",
+        "pmcid": "PMC10021920",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10021920"
+          ]
+        },
+        "doi": "10.1021/acs.chemrev.1c00384",
+        "title": "Photons or Electrons? A Critical Comparison of Electrochemistry and Photoredox Catalysis for Organic Synthesis.",
+        "authorString": "Tay NES, Lehnherr D, Rovis T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tay NES",
+              "lastName": "Tay",
+              "firstName": "Nicholas E S",
+              "initials": "NES",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4063-8880"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Columbia University, New York, New York 10027, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lehnherr D",
+              "lastName": "Lehnherr",
+              "firstName": "Dan",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8392-1208"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Process Research and Development, Merck & Co., Inc., Rahway, New Jersey 07065, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rovis T",
+              "lastName": "Rovis",
+              "firstName": "Tomislav",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6287-8669"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Columbia University, New York, New York 10027, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6287-8669"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8392-1208"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4063-8880"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "122",
+          "journalIssueId": 3299146,
+          "dateOfPublication": "2022 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Chem Rev",
+            "title": "Chemical reviews",
+            "essn": "1520-6890",
+            "issn": "0009-2665",
+            "nlmid": "2985134R",
+            "isoabbreviation": "Chem Rev"
+          },
+          "printPublicationDate": "2022-01-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "2487-2649",
+        "abstractText": "Redox processes are at the heart of synthetic methods that rely on either electrochemistry or photoredox catalysis, but how do electrochemistry and photoredox catalysis compare? Both approaches provide access to high energy intermediates (e.g., radicals) that enable bond formations not constrained by the rules of ionic or 2 electron (e) mechanisms. Instead, they enable 1e mechanisms capable of bypassing electronic or steric limitations and protecting group requirements, thus enabling synthetic chemists to disconnect molecules in new and different ways. However, while providing access to similar intermediates, electrochemistry and photoredox catalysis differ in several physical chemistry principles. Understanding those differences can be key to designing new transformations and forging new bond disconnections. This review aims to highlight these differences and similarities between electrochemistry and photoredox catalysis by comparing their underlying physical chemistry principles and describing their impact on electrochemical and photochemical methods.",
+        "affiliation": "Department of Chemistry, Columbia University, New York, New York 10027, United States.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Review",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R01 GM125206",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of General Medical Sciences",
+              "grantId": "GM125206",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catalysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electrochemistry"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Electrons"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Photons"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemistry Techniques, Synthetic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.chemrev.1c00384"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10021920"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10021920?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.chemrev.1c00384"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 234,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1778709",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2022-03-17",
+        "dateOfCreation": "2021-11-09",
+        "dateOfRevision": "2024-09-14",
+        "electronicPublicationDate": "2021-11-09",
+        "firstPublicationDate": "2021-11-09",
+        "firstIndexDate": "2021-11-27",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

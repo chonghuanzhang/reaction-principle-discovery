@@ -1,0 +1,83 @@
+{
+  "records": [
+    {
+      "tier": 1,
+      "catalog_sources": 139,
+      "principle_cited_sources": 4,
+      "original_candidate_citation_sources": 7,
+      "cited_candidates": 11
+    },
+    {
+      "tier": 2,
+      "catalog_sources": 101,
+      "principle_cited_sources": 4,
+      "original_candidate_citation_sources": 16,
+      "cited_candidates": 24
+    },
+    {
+      "tier": 3,
+      "catalog_sources": 88,
+      "principle_cited_sources": 0,
+      "original_candidate_citation_sources": 4,
+      "cited_candidates": 7
+    },
+    {
+      "tier": 4,
+      "catalog_sources": 42,
+      "principle_cited_sources": 0,
+      "original_candidate_citation_sources": 3,
+      "cited_candidates": 7
+    }
+  ],
+  "nonexclusive_cited_candidates": [
+    "C048",
+    "C068",
+    "C082"
+  ],
+  "distinct_cited_candidates": 46,
+  "distinct_original_citation_sources": 30,
+  "candidate_evidence_links": 53,
+  "core_graph_evidence_records": 28,
+  "source_caption": "Supplementary Table 2 | Tier-specific source and candidate coverage. Counts of cited candidates overlap between tiers: C048, C068 and C082 have citations in more than one tier. The union is 46 candidates and 30 original citation sources, represented by 53 deduplicated candidate–evidence links. The RP-cited-source column describes the 28-record core graph, in which Tiers 3 and 4 contribute through original candidate citations. Source support in the dated review layer is reported separately and is not included in that column.",
+  "source_table_columns": [
+    "Tier",
+    "Corpus sources",
+    "RP-cited sources",
+    "Original candidate sources",
+    "Cited candidates"
+  ],
+  "source_table_rows": [
+    [
+      "1",
+      "139",
+      "4",
+      "7",
+      "11"
+    ],
+    [
+      "2",
+      "101",
+      "4",
+      "16",
+      "24"
+    ],
+    [
+      "3",
+      "88",
+      "0",
+      "4",
+      "7"
+    ],
+    [
+      "4",
+      "42",
+      "0",
+      "3",
+      "7"
+    ]
+  ],
+  "principle_interpretation": [
+    "Mechanistic status: source-specific observations establish precursor-, steric- and site-dependence. Coupling these observations to catalyst compatibility is a conditional design rationale; it is not a universal kinetic relationship. Specific P/Se compatibility comparisons are documented in Sections S2.5–S2.6 and the repository guide to interpreting experimental records (docs/interpretation.md).",
+    "The four current cards specify a relationship, directional implications, supporting evidence, source scope, exceptions and candidate-generation rules. RP1 concerns access to a fluorinated acceptor; RP2 couples donor availability to capture competence; RP3 relates intermediate state to fluorine loss or retention; RP4 relates selective formation to subsequent consumption. Twenty-eight distinct evidence records connect the four current cards to eight sources. A candidate-level crosswalk records how each relationship poses an activation, capture, endpoint or persistence question for the 100 structures. It is an explanatory mapping, not a trained prediction model."
+  ]
+}

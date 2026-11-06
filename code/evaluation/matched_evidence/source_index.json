@@ -1,0 +1,98 @@
+[
+  {
+    "evidence_id": "E01",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/INTELLI_intelli.pages.json",
+    "package_path": "../chemistry/raw/INTELLI_intelli.pages.json",
+    "sha256": "a2704294f67ace633a2ad511a3b88a14957c552cf2e76f22271a2ffb77fac215"
+  },
+  {
+    "evidence_id": "E02",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/PENG_p2019_crossref.json",
+    "package_path": "../chemistry/raw/PENG_p2019_crossref.json",
+    "sha256": "70f46da45e34fe19e29a67c61412e03944a90aa5da86a15ae62499cb77a3b6cb"
+  },
+  {
+    "evidence_id": "E03",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/INTELLI_intelli.pages.json",
+    "package_path": "../chemistry/raw/INTELLI_intelli.pages.json",
+    "sha256": "a2704294f67ace633a2ad511a3b88a14957c552cf2e76f22271a2ffb77fac215"
+  },
+  {
+    "evidence_id": "E04",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/INTELLI_intelli.pages.json",
+    "package_path": "../chemistry/raw/INTELLI_intelli.pages.json",
+    "sha256": "a2704294f67ace633a2ad511a3b88a14957c552cf2e76f22271a2ffb77fac215"
+  },
+  {
+    "evidence_id": "E05",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/INTELLI_intelli.pages.json",
+    "package_path": "../chemistry/raw/INTELLI_intelli.pages.json",
+    "sha256": "a2704294f67ace633a2ad511a3b88a14957c552cf2e76f22271a2ffb77fac215"
+  },
+  {
+    "evidence_id": "E06",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/CORADI_d6sc01042c.xml.txt",
+    "package_path": "../chemistry/raw/CORADI_d6sc01042c.xml.txt",
+    "sha256": "6442b90ae363d28a1cc70c5f0fe7a20bc05f202d3c4ab3676cb2f946868e232f"
+  },
+  {
+    "evidence_id": "E07",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/CORADI_d6sc01042c.xml.txt",
+    "package_path": "../chemistry/raw/CORADI_d6sc01042c.xml.txt",
+    "sha256": "6442b90ae363d28a1cc70c5f0fe7a20bc05f202d3c4ab3676cb2f946868e232f"
+  },
+  {
+    "evidence_id": "E08",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+    "package_path": "../chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+    "sha256": "4ac8f4593f13a45799812e29e33ee82993449ac166f3a97c9815c974dacb345d"
+  },
+  {
+    "evidence_id": "E09",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+    "package_path": "../chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+    "sha256": "4ac8f4593f13a45799812e29e33ee82993449ac166f3a97c9815c974dacb345d"
+  },
+  {
+    "evidence_id": "E10",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+    "package_path": "../chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+    "sha256": "4ac8f4593f13a45799812e29e33ee82993449ac166f3a97c9815c974dacb345d"
+  },
+  {
+    "evidence_id": "E11",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+    "package_path": "../chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+    "sha256": "4ac8f4593f13a45799812e29e33ee82993449ac166f3a97c9815c974dacb345d"
+  },
+  {
+    "evidence_id": "E12",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/NI_SE_PMC13460409.paragraphs.json",
+    "package_path": "../chemistry/raw/NI_SE_PMC13460409.paragraphs.json",
+    "sha256": "c053d1a6b77350292c19bbdba949bff2c5931a91cb6a635dc6e7b9a8ab7dd1da"
+  },
+  {
+    "evidence_id": "E13",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/NI_SE_PMC13460409.paragraphs.json",
+    "package_path": "../chemistry/raw/NI_SE_PMC13460409.paragraphs.json",
+    "sha256": "c053d1a6b77350292c19bbdba949bff2c5931a91cb6a635dc6e7b9a8ab7dd1da"
+  },
+  {
+    "evidence_id": "E14",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/NI_SE_PMC13460409.paragraphs.json",
+    "package_path": "../chemistry/raw/NI_SE_PMC13460409.paragraphs.json",
+    "sha256": "c053d1a6b77350292c19bbdba949bff2c5931a91cb6a635dc6e7b9a8ab7dd1da"
+  },
+  {
+    "evidence_id": "E15",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/LI_epmc_3.json",
+    "package_path": "../chemistry/raw/LI_epmc_3.json",
+    "sha256": "0320576405032894fca6713538a777458109b94b608fec204966b21e7eee30da"
+  },
+  {
+    "evidence_id": "E16",
+    "frozen_source_path": "outputs/2026-10-25_NMI_revised/chemistry/raw/CF2_SE_PMC6336877.paragraphs.json",
+    "package_path": "../chemistry/raw/CF2_SE_PMC6336877.paragraphs.json",
+    "sha256": "c8a86a613234782be9f2ba0b1eeec062e4626c39c6956c4b129f4996dfc83716"
+  }
+]

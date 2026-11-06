@@ -1,0 +1,30 @@
+{
+  "amended_at_utc": "2026-10-25T11:56:40.534234+00:00",
+  "reason": "E16 precursor-mechanism source correction before successful inference",
+  "successful_calls_before_and_after": 0,
+  "unchanged_json_artifacts": {
+    "llm_tasks.json": true,
+    "llm_answers_sealed_from_prompts.json": true,
+    "llm_run_order.json": true,
+    "executable_rules.json": true,
+    "rule_queries.json": true,
+    "rule_outputs.json": true
+  },
+  "active_protocol_id": "20261025_evidence_interpretation_diagnostic_v2_E16_correction",
+  "old_protocol_sha256": "d31111bb79ef20db48810967c5640eb33c3764f875aa44940d02fab5115b5957",
+  "new_protocol_sha256": "9c9a11e33f9561774185384e454cf1b81da416cf8b27e2c58954c95030b3c308",
+  "active_E16": {
+    "evidence_id": "E16",
+    "source_family": "10.1038/s41467-018-08253-z",
+    "source_path": "../chemistry/raw/CF2_SE_PMC6336877.paragraphs.json",
+    "source_sha256": "c8a86a613234782be9f2ba0b1eeec062e4626c39c6956c4b129f4996dfc83716",
+    "location": "Main text substrate scope, paragraph beginning “Having established”; Figure 3, product 25",
+    "passage": "benzeneselenol performed equally well, affording the selenodifluoroalkene 25 in 66% yield",
+    "curated_source_observation": "Benzeneselenol gives PhSe–CH=CF2 in 66% under TFHZ-Tfs-derived coupling conditions.",
+    "interpretation_and_limit": "Two fluorines remain and Se is attached to the other vinyl carbon. It is an alternative endpoint, not the target C(F)–Se connectivity.",
+    "access": "primary_full_text",
+    "input_type": "Verbatim excerpt plus analyst-curated source observation; not a raw full-document benchmark",
+    "source_mechanism_note": "TFHZ-Tfs releases trifluorodiazoethane (CF3CHN2); the authors propose metal-carbenoid formation, substrate trapping and beta-fluoride elimination. This is not a difluorocarbene precursor.",
+    "source_mechanism_locator": "Primary text Par14 (body paragraph17), Figure6; mechanistic controls in Par13 (body paragraph15), Figure5."
+  }
+}

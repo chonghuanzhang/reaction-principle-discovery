@@ -2,7 +2,9 @@
 
 Use this catalog to find a paper, understand what chemical observation it contributes, and check the limits of transferring that observation to a different substrate or donor. Each source page provides its complete citation, DOI, chemical contribution, access limitations and attributed statements.
 
-The [complete bibliography](bibliography.md) contains **403 numbered references**: **370 source records** identified as L001–L370 and **33 background or methods references**. These are records, not 370 independent experimental confirmations. In particular, L055 and L343 are preprint and published versions of one study. Missing full text or a metadata-only record does not establish a failed reaction or absence of prior art.
+The [complete bibliography](bibliography.md) contains **403 numbered repository references**: **370 source records** identified as L001–L370 and **33 background or methods references**. These are records, not 370 independent experimental confirmations. In particular, L055 and L343 are preprint and published versions of one study. Missing full text or a metadata-only record does not establish a failed reaction or absence of prior art.
+
+Numbers in square brackets refer to this repository bibliography. The [reference correspondence](reference_correspondence.md) relates original manuscript numbers, comparison codes and source aliases to the same records.
 
 ## Browse by chemical relevance
 
@@ -17,6 +19,8 @@ A source may contribute several kinds of evidence while retaining its primary ti
 
 ## Follow the evidence
 
+- [Source and candidate coverage](../evidence/source_coverage.md) gives the tier-specific source and original candidate-citation counts.
+- [Background chemical context](../evidence/background_context.md) documents the application and selectivity passages, with their source-specific limits.
 - [43 attributed quotations](../evidence/quotations/README.md) connect claims to exact passages and physical page or source-section locators.
 - [17 source-specific cases](../evidence/source_cases/README.md) distinguish donors, substrates, activation regimes and reaction endpoints.
 - [Four reaction principles](../evidence/principles/README.md) explain the conditional relationships used in molecular design.
@@ -26,6 +30,7 @@ A source may contribute several kinds of evidence while retaining its primary ti
 
 The [data dictionary](data_dictionary.md) defines the counting units, fields, source attribution and extraction-text normalization.
 
+- [Reference correspondence CSV](reference_correspondence.csv) and [JSON](reference_correspondence.json): 53 original manuscript references, 35 comparison codes and 16 source aliases.
 - [Bibliography CSV](bibliography.csv) and [JSON](bibliography.json): all 403 numbered references and their L identifiers where applicable.
 - [Source catalog CSV](catalog.csv) and [JSON](catalog.json): 370 citations, chemical contributions, access states, limitations and reference-code correspondence.
 - [Statement CSV](evidence_statements.csv) and [JSON](evidence_statements.json): all 3,756 source-linked statements with attribution, language and human-readable locators.

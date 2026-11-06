@@ -1,0 +1,564 @@
+[
+  {
+    "case_id": "P01",
+    "donor": "Ph2PH, P(III)–H",
+    "substrate": "((4,4,4-trifluorobutoxy)methyl)benzene 1",
+    "activation_mode": "base-promoted addition/elimination",
+    "assessed_endpoint": "fluorovinyl phosphine, one F",
+    "evidence_status": "reported_target",
+    "yield_value": 37,
+    "yield_basis": "percent; exact analytical basis not specified in S15",
+    "conditions": {
+      "recipe": "standard conditions, no P-specific complete recipe assigned in S15"
+    },
+    "evidence_ids": [
+      "E08"
+    ],
+    "project_exact_match": false,
+    "limitations": "Source scaffold is unactivated aliphatic CF3, not the project carbonyl scaffold.",
+    "substrate_smiles": "FC(F)(F)CCCOCc1ccccc1"
+  },
+  {
+    "case_id": "P02",
+    "donor": "P-bound fluorovinyl intermediate from P01",
+    "substrate": "already formed fluorovinyl phosphine",
+    "activation_mode": "second-step hydrofluorination",
+    "assessed_endpoint": "P-substituted gem-difluoride, two F",
+    "evidence_status": "specified_target_not_detected",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {
+      "recipe": "standard hydrofluorination conditions in S15"
+    },
+    "evidence_ids": [
+      "E09"
+    ],
+    "project_exact_match": false,
+    "limitations": "Complex product mixture. No detection limit supplied. This is NOT a negative label for P01 monoF formation.",
+    "substrate_smiles": null
+  },
+  {
+    "case_id": "P03",
+    "donor": "diphenylphosphine oxide, Ph2P(O)H",
+    "substrate": "gem-difluorostyrenes",
+    "activation_mode": "DBU-mediated polar addition/elimination",
+    "assessed_endpoint": "1-fluorovinyl phosphine oxides",
+    "evidence_status": "reported_target",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {
+      "base": "DBU",
+      "temperature": "room temperature",
+      "solvent": "DMF in Intelli Figure2B summary; Peng abstract alone does not specify solvent"
+    },
+    "evidence_ids": [
+      "E01",
+      "E02"
+    ],
+    "project_exact_match": false,
+    "limitations": "Primary author abstract establishes product class. Individual substrate yields and exact stereoisomer not assigned.",
+    "substrate_smiles": null
+  },
+  {
+    "case_id": "P04",
+    "donor": "dialkyl P(O)H reagent as named in Peng abstract",
+    "substrate": "gem-difluorostyrenes",
+    "activation_mode": "DBU-mediated polar addition/elimination",
+    "assessed_endpoint": "1-fluorovinyl phosphonates",
+    "evidence_status": "reported_target",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {
+      "base": "DBU",
+      "temperature": "room temperature"
+    },
+    "evidence_ids": [
+      "E02"
+    ],
+    "project_exact_match": false,
+    "limitations": "Abstract says dialkyl phosphate. Do not silently assign methyl/ethyl individual or yield.",
+    "substrate_smiles": null
+  },
+  {
+    "case_id": "P05",
+    "donor": "Ph2P(O)H, 3 equiv",
+    "substrate": "p-MeO-C6H4-CH=CF2 (1a)",
+    "activation_mode": "peroxide-initiated hydrophosphinylation",
+    "assessed_endpoint": "saturated ArCH2CF2P(O)Ph2; retains two F",
+    "evidence_status": "reported_alternative",
+    "yield_value": ">95",
+    "yield_basis": "19F NMR, Table1 entry8",
+    "conditions": {
+      "initiator": "di-tert-butyl peroxide 5 mol%",
+      "solvent": "tBuOH",
+      "temperature_C": 120,
+      "time_h": 16,
+      "atmosphere": "N2"
+    },
+    "evidence_ids": [
+      "E03"
+    ],
+    "project_exact_match": false,
+    "limitations": "Alternative to monofluoro target. Source scope3a gives90% isolated, average of two independent24–26h reactions.",
+    "substrate_smiles": "COc1ccc(C=C(F)F)cc1"
+  },
+  {
+    "case_id": "P06",
+    "donor": "HP(O)(OEt)2, diethyl phosphite",
+    "substrate": "p-MeO-C6H4-CH=CF2 (1a)",
+    "activation_mode": "peroxide-initiated hydrophosphinylation",
+    "assessed_endpoint": "saturated CF2 product 4g",
+    "evidence_status": "reported_trace_target",
+    "yield_value": "trace",
+    "yield_basis": "Figure4",
+    "conditions": {
+      "initiator": "peroxide protocol; additional optimization unsuccessful"
+    },
+    "evidence_ids": [
+      "E05"
+    ],
+    "project_exact_match": false,
+    "limitations": "Trace is not numeric0; neither this result nor another P donor result establishes project monoF outcome.",
+    "substrate_smiles": "COc1ccc(C=C(F)F)cc1"
+  },
+  {
+    "case_id": "P07",
+    "donor": "di-n-pentylphosphine oxide",
+    "substrate": "p-MeO-C6H4-CH=CF2 (1a)",
+    "activation_mode": "peroxide-initiated hydrophosphinylation",
+    "assessed_endpoint": "saturated CF2 product 4f",
+    "evidence_status": "reported_alternative",
+    "yield_value": 50,
+    "yield_basis": "isolated, mean of two experiments",
+    "conditions": {
+      "initiator": "di-tert-butyl peroxide 5 mol%",
+      "temperature_C": 120,
+      "time_h": "24–26",
+      "solvent": "DMF or tBuOH; exact donor-specific solvent not assigned from general caption"
+    },
+    "evidence_ids": [
+      "E05"
+    ],
+    "project_exact_match": false,
+    "limitations": "Same P(O)H broad label gives a different donor outcome from diethyl phosphite.",
+    "substrate_smiles": "COc1ccc(C=C(F)F)cc1"
+  },
+  {
+    "case_id": "SE01",
+    "donor": "selenosulfonate (exact substituent unresolved)",
+    "substrate": "gem-difluoroalkenes",
+    "activation_mode": "Ni-catalysed reductive coupling",
+    "assessed_endpoint": "selenylated monofluoroolefins",
+    "evidence_status": "reported_target",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {
+      "catalyst": "Ni; exact identity not resolved in abstract",
+      "other": "not assigned"
+    },
+    "evidence_ids": [
+      "E15"
+    ],
+    "project_exact_match": false,
+    "limitations": "Not PhSeH or PhSeSePh. Abstract-only support, exact carbonyl-target match not established.",
+    "substrate_smiles": null
+  },
+  {
+    "case_id": "SE02",
+    "donor": "PhSeH",
+    "substrate": "N-phenylbut-3-enamide",
+    "activation_mode": "amide-directed NiH hydroselenylation",
+    "assessed_endpoint": "nonfluorinated beta-selenide 3a",
+    "evidence_status": "specified_target_not_detected",
+    "yield_value": null,
+    "yield_basis": "dash in Table1 entry1; no calibrated zero",
+    "conditions": {
+      "alkene_mmol": 0.1,
+      "Se_loading_equiv": 1.5,
+      "catalyst": "NiBr2·glyme 10 mol%",
+      "ligand": "paper L* 12 mol%; exact structure retained in original Table1",
+      "silane": "(MeO)2MeSiH 3 equiv",
+      "base": "Na2CO3 2 equiv",
+      "BnBr_equiv": 1,
+      "salt": "NaBF4 1 equiv",
+      "solvent": "THF 1mL (0.1M)",
+      "temperature_C": 25,
+      "time_h": 18,
+      "atmosphere": "Ar"
+    },
+    "evidence_ids": [
+      "E12"
+    ],
+    "project_exact_match": false,
+    "limitations": "No C–F bond present; no project defluorination label.",
+    "substrate_smiles": "C=CCC(=O)Nc1ccccc1"
+  },
+  {
+    "case_id": "SE03",
+    "donor": "PhSeSePh",
+    "substrate": "N-phenylbut-3-enamide",
+    "activation_mode": "amide-directed NiH hydroselenylation",
+    "assessed_endpoint": "nonfluorinated beta-selenide 3a",
+    "evidence_status": "reported_target",
+    "yield_value": 91,
+    "yield_basis": "1H NMR, Table1 entry4",
+    "conditions": {
+      "alkene_mmol": 0.1,
+      "Se_loading_equiv": 1.5,
+      "catalyst": "NiBr2·glyme 10 mol%",
+      "ligand": "paper L* 12 mol%; exact structure retained in original Table1",
+      "silane": "(MeO)2MeSiH 3 equiv",
+      "base": "Na2CO3 2 equiv",
+      "BnBr_equiv": 1,
+      "salt": "NaBF4 1 equiv",
+      "solvent": "THF 1mL (0.1M)",
+      "temperature_C": 25,
+      "time_h": 18,
+      "atmosphere": "Ar"
+    },
+    "evidence_ids": [
+      "E12"
+    ],
+    "project_exact_match": false,
+    "limitations": "rr18:1, er97:3; nonfluorinated local compatibility comparison.",
+    "substrate_smiles": "C=CCC(=O)Nc1ccccc1"
+  },
+  {
+    "case_id": "SE04",
+    "donor": "PhSeSePh",
+    "substrate": "N-phenylbut-3-enamide",
+    "activation_mode": "same NiH conditions, BnBr omitted",
+    "assessed_endpoint": "nonfluorinated beta-selenide 3a",
+    "evidence_status": "reported_target",
+    "yield_value": 11,
+    "yield_basis": "1H NMR, Table1 entry7",
+    "conditions": {
+      "alkene_mmol": 0.1,
+      "Se_loading_equiv": 1.5,
+      "catalyst": "NiBr2·glyme 10 mol%",
+      "ligand": "paper L* 12 mol%; exact structure retained in original Table1",
+      "silane": "(MeO)2MeSiH 3 equiv",
+      "base": "Na2CO3 2 equiv",
+      "BnBr_equiv": 0,
+      "salt": "NaBF4 1 equiv",
+      "solvent": "THF 1mL (0.1M)",
+      "temperature_C": 25,
+      "time_h": 18,
+      "atmosphere": "Ar"
+    },
+    "evidence_ids": [
+      "E13"
+    ],
+    "project_exact_match": false,
+    "limitations": "Low but nonzero positive target; source mechanistic inhibition explanation remains interpretation.",
+    "substrate_smiles": "C=CCC(=O)Nc1ccccc1"
+  },
+  {
+    "case_id": "SE05",
+    "donor": "PhSeH",
+    "substrate": "TFHZ-Tfs-derived transformation",
+    "activation_mode": "TFHZ-Tfs-derived vinylation",
+    "assessed_endpoint": "PhSe–CH=CF2 (product25), two F on carbon not bonded to Se",
+    "evidence_status": "reported_alternative",
+    "yield_value": 66,
+    "yield_basis": "reported product yield, main text Figure3",
+    "conditions": {
+      "method": "source MethodA, Figure3",
+      "donor_mmol": 0.3,
+      "TFHZ_Tfs_mmol": 0.6,
+      "catalyst": "Fe[P2]1mol%, source code retained",
+      "additive": "SDBS30mol%",
+      "medium": "KOH(aq.)/DCM5:1",
+      "atmosphere": "air",
+      "temperature_C": 40,
+      "time_h": 18
+    },
+    "evidence_ids": [
+      "E16"
+    ],
+    "project_exact_match": false,
+    "limitations": "Alternative topology/fluorine count. Cannot be relabelled desired C(F)–Se monoF product.",
+    "substrate_smiles": null
+  },
+  {
+    "case_id": "N01",
+    "donor": "N-methylaniline",
+    "substrate": "Coradi substrate1",
+    "activation_mode": "NaHMDS-mediated addition/elimination",
+    "assessed_endpoint": "fluoroenamine, one F",
+    "evidence_status": "reported_target",
+    "yield_value": 82,
+    "yield_basis": "percent, SI S15",
+    "conditions": {
+      "base": "NaHMDS",
+      "solvent": "N,N-dimethylacetamide",
+      "other": "standard conditions; not fully assigned"
+    },
+    "evidence_ids": [
+      "E10"
+    ],
+    "project_exact_match": false,
+    "limitations": "No global rule that anilines outperform all aliphatic amines; source comparison only.",
+    "substrate_smiles": "FC(F)(F)CCCOCc1ccccc1"
+  },
+  {
+    "case_id": "N02",
+    "donor": "piperidine",
+    "substrate": "Coradi substrate1",
+    "activation_mode": "base-promoted source conditions",
+    "assessed_endpoint": "fluorinated enamine",
+    "evidence_status": "specified_target_not_detected",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {
+      "recipe": "source standard conditions; not fully assigned"
+    },
+    "evidence_ids": [
+      "E10"
+    ],
+    "project_exact_match": false,
+    "limitations": "Poor mass balance and gem-difluoroalkene observed. Author proposes low acidity; direct mechanistic isolation absent.",
+    "substrate_smiles": null
+  },
+  {
+    "case_id": "N03",
+    "donor": "fluoroenamine from N-methylaniline",
+    "substrate": "already formed one-F intermediate",
+    "activation_mode": "hydrofluorination",
+    "assessed_endpoint": "N-substituted gem-difluoride",
+    "evidence_status": "specified_target_not_detected",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {
+      "recipe": "variety of optimized ether hydrofluorination conditions"
+    },
+    "evidence_ids": [
+      "E11"
+    ],
+    "project_exact_match": false,
+    "limitations": "Distinct step from positive N01.",
+    "substrate_smiles": null
+  },
+  {
+    "case_id": "AP087",
+    "donor": "Ph2PH",
+    "substrate": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+    "activation_mode": "recorded Pd168/Na2CO3 protocol",
+    "assessed_endpoint": "project monofluoro C–P target",
+    "evidence_status": "insufficient_product_evidence",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {
+      "catalyst": "Pd168",
+      "base": "Na2CO3",
+      "solvent": "THF",
+      "temperature_C": 80,
+      "time_h": 12,
+      "sample_ids": [
+        "CFC124009-19-PL22-W2"
+      ]
+    },
+    "evidence_ids": [],
+    "project_exact_match": true,
+    "limitations": "Executed combination, but structure confirmation/calibrated yield/independent repeat remain pending. No zero assigned.",
+    "substrate_smiles": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+    "archive_record": {
+      "chain_id": "EC-AP087",
+      "actual_pair_id": "AP087",
+      "route": "PH",
+      "partner_family": "二苯基膦（P-H）",
+      "partner_cas": [
+        "829-85-6"
+      ],
+      "partner_smiles": "c1ccc(Pc2ccccc2)cc1",
+      "electrophile_smiles": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+      "candidate_relation": "精确分子",
+      "exact_candidate_numbers": [
+        95
+      ],
+      "analogue_candidate_numbers": [],
+      "candidate_ids": [
+        "CP-7010fb8ed62e0e37"
+      ],
+      "hypothesis_ids": [
+        "CP-7010fb8ed62e0e37::H01"
+      ],
+      "original_candidate_evidence_ids": [
+        "EV-307199e244a61dbf5ab4"
+      ],
+      "current_local_evidence_ids": [
+        "EV-02d0fdb64e035df834f5",
+        "EV-307199e244a61dbf5ab4"
+      ],
+      "current_comparison_references": [
+        "V05"
+      ],
+      "constraint_ids": [
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "DC5"
+      ],
+      "design_rationale": "保留Ph2PH正向依据，按当前活化窗口测试；不将两个电亲底物搭配计为两个P伙伴。",
+      "inference_limit": "P-H活化局部类比；V05另有Ph2PH单氟37%正例，未证明本体系相容。",
+      "relation_timing": "2026-10-24本版资料关联；不证明当时选择由这些文献触发",
+      "execution_status": "executed",
+      "execution_basis": "作者2026-10-23确认108组合均已执行",
+      "sample_ids": [
+        "CFC124009-19-PL22-W2"
+      ],
+      "source_locations": [
+        {
+          "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
+          "sheet": "亲核试剂(PH)-底物扩展",
+          "row": 3,
+          "experiment_id": "CFC124009-19-PL22-W2"
+        }
+      ],
+      "target_option_ids": [
+        "AP087-O01"
+      ],
+      "applicability": "目标分支适用",
+      "recorded_result": "存在样品/条件记录；数值响应不在本表复制",
+      "characterization_notes": [
+        {
+          "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
+          "sheet": "亲核试剂(PH)-底物扩展",
+          "cell": "AM3",
+          "note": "计划收集H、C、F谱图"
+        }
+      ],
+      "product_confirmation": "待补样品级结构确证",
+      "quantitation": "待补校准/分离收率",
+      "replication": "待补独立制备重复",
+      "input_identity_issues": []
+    }
+  },
+  {
+    "case_id": "AP088",
+    "donor": "Ph2PH",
+    "substrate": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+    "activation_mode": "recorded Pd168/Na2CO3 protocol",
+    "assessed_endpoint": "project monofluoro C–P target",
+    "evidence_status": "insufficient_product_evidence",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {
+      "catalyst": "Pd168",
+      "base": "Na2CO3",
+      "solvent": "THF",
+      "temperature_C": 80,
+      "time_h": 12,
+      "sample_ids": [
+        "CFC124009-19-PL22-W1"
+      ]
+    },
+    "evidence_ids": [],
+    "project_exact_match": true,
+    "limitations": "Executed combination, but structure confirmation/calibrated yield/independent repeat remain pending. No zero assigned.",
+    "substrate_smiles": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+    "archive_record": {
+      "chain_id": "EC-AP088",
+      "actual_pair_id": "AP088",
+      "route": "PH",
+      "partner_family": "二苯基膦（P-H）",
+      "partner_cas": [
+        "829-85-6"
+      ],
+      "partner_smiles": "c1ccc(Pc2ccccc2)cc1",
+      "electrophile_smiles": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+      "candidate_relation": "精确分子",
+      "exact_candidate_numbers": [
+        95
+      ],
+      "analogue_candidate_numbers": [],
+      "candidate_ids": [
+        "CP-7010fb8ed62e0e37"
+      ],
+      "hypothesis_ids": [
+        "CP-7010fb8ed62e0e37::H01"
+      ],
+      "original_candidate_evidence_ids": [
+        "EV-307199e244a61dbf5ab4"
+      ],
+      "current_local_evidence_ids": [
+        "EV-02d0fdb64e035df834f5",
+        "EV-307199e244a61dbf5ab4"
+      ],
+      "current_comparison_references": [
+        "V05"
+      ],
+      "constraint_ids": [
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "DC5"
+      ],
+      "design_rationale": "保留Ph2PH正向依据，按当前活化窗口测试；不将两个电亲底物搭配计为两个P伙伴。",
+      "inference_limit": "P-H活化局部类比；V05另有Ph2PH单氟37%正例，未证明本体系相容。",
+      "relation_timing": "2026-10-24本版资料关联；不证明当时选择由这些文献触发",
+      "execution_status": "executed",
+      "execution_basis": "作者2026-10-23确认108组合均已执行",
+      "sample_ids": [
+        "CFC124009-19-PL22-W1"
+      ],
+      "source_locations": [
+        {
+          "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
+          "sheet": "亲核试剂(PH)-底物扩展",
+          "row": 2,
+          "experiment_id": "CFC124009-19-PL22-W1"
+        }
+      ],
+      "target_option_ids": [
+        "AP088-O01"
+      ],
+      "applicability": "目标分支适用",
+      "recorded_result": "存在样品/条件记录；数值响应不在本表复制",
+      "characterization_notes": [
+        {
+          "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
+          "sheet": "亲核试剂(PH)-底物扩展",
+          "cell": "AM2",
+          "note": "计划收集H、C、F谱图"
+        }
+      ],
+      "product_confirmation": "待补样品级结构确证",
+      "quantitation": "待补校准/分离收率",
+      "replication": "待补独立制备重复",
+      "input_identity_issues": []
+    }
+  },
+  {
+    "case_id": "SE_PROJECT",
+    "donor": "PhSeH candidate; actual Se donor not yet verified",
+    "substrate": "project CF3 carbonyl substrate not localized",
+    "activation_mode": "author-reported Se attempt; sample/recipe unavailable",
+    "assessed_endpoint": "project monofluoro C–Se target",
+    "evidence_status": "insufficient_records",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {},
+    "evidence_ids": [],
+    "project_exact_match": false,
+    "limitations": "No Se row in audited108 executed combinations; this does not prove no experiment occurred.",
+    "substrate_smiles": null
+  },
+  {
+    "case_id": "P_O_PROJECT",
+    "donor": "Ph2P(O)H",
+    "substrate": "project CF3 carbonyl substrates",
+    "activation_mode": "no matched executed record in audited108",
+    "assessed_endpoint": "project monofluoro C–P(O) target",
+    "evidence_status": "not_tested_in_audited_set",
+    "yield_value": null,
+    "yield_basis": null,
+    "conditions": {},
+    "evidence_ids": [],
+    "project_exact_match": false,
+    "limitations": "Not an observed failed reaction; computational transfer remains unknown.",
+    "substrate_smiles": null
+  }
+]

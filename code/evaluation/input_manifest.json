@@ -1,0 +1,170 @@
+{
+  "title": "Source-conditioned P/Se evidence and prepared matched-evidence diagnostic",
+  "source_snapshot_date": "2026-10-25",
+  "scientific_status": {
+    "local_rule_integrity": "Completed on development cases",
+    "matched_evidence_comparison": "Prepared; no successful new model calls; performance and effect estimates are null"
+  },
+  "files": [
+    {
+      "path": "chemistry/E16_precursor_correction.json",
+      "sha256": "b4256490ef8b138e6feaffc188a45151cf2977ff41c1ee03d51e872dab5359ce"
+    },
+    {
+      "path": "chemistry/evidence.json",
+      "sha256": "d46a02ecdd02bcf1604ef6db1de64c27f9ebd494952ed3635293ea6fab49d351"
+    },
+    {
+      "path": "chemistry/principle_cards.json",
+      "sha256": "78bd432630fb2cf6539be1edf5390e1683bca2582d4cff6480ff26ab85c8e324"
+    },
+    {
+      "path": "chemistry/pse_challenge_matrix.csv",
+      "sha256": "f2af976f36fc62a31230747b823e9f289c89eb0b9fbaa2401f0b99991bcb5ffa"
+    },
+    {
+      "path": "chemistry/pse_challenge_matrix.json",
+      "sha256": "6f7d740d6cf893b20b8061b0004dc75940c16af85726a67efcfd87c5ce2777af"
+    },
+    {
+      "path": "chemistry/raw/CF2_SE_PMC6336877.paragraphs.json",
+      "sha256": "c8a86a613234782be9f2ba0b1eeec062e4626c39c6956c4b129f4996dfc83716"
+    },
+    {
+      "path": "chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+      "sha256": "4ac8f4593f13a45799812e29e33ee82993449ac166f3a97c9815c974dacb345d"
+    },
+    {
+      "path": "chemistry/raw/CORADI_d6sc01042c.xml.txt",
+      "sha256": "6442b90ae363d28a1cc70c5f0fe7a20bc05f202d3c4ab3676cb2f946868e232f"
+    },
+    {
+      "path": "chemistry/raw/INTELLI_intelli.pages.json",
+      "sha256": "a2704294f67ace633a2ad511a3b88a14957c552cf2e76f22271a2ffb77fac215"
+    },
+    {
+      "path": "chemistry/raw/LI_epmc_3.json",
+      "sha256": "0320576405032894fca6713538a777458109b94b608fec204966b21e7eee30da"
+    },
+    {
+      "path": "chemistry/raw/NI_SE_PMC13460409.paragraphs.json",
+      "sha256": "c053d1a6b77350292c19bbdba949bff2c5931a91cb6a635dc6e7b9a8ab7dd1da"
+    },
+    {
+      "path": "chemistry/raw/PENG_p2019_crossref.json",
+      "sha256": "70f46da45e34fe19e29a67c61412e03944a90aa5da86a15ae62499cb77a3b6cb"
+    },
+    {
+      "path": "chemistry/raw/Zhang2019_Fig3.jpg",
+      "sha256": "a8819c1256797ee0c9b5649c4cddab06bb1ba6c9f2f6dd64dedb532a3d4ccdb2"
+    },
+    {
+      "path": "chemistry/references.json",
+      "sha256": "360f6f31d4db25bbd4dcd127ce12b5ade3e9db14179dae32f661868549cebd7d"
+    },
+    {
+      "path": "chemistry/verified_structures.json",
+      "sha256": "a9f6e2262a7dba1579e9ec7763e10f90cb5d887e78104912898651d03936140d"
+    },
+    {
+      "path": "local_rules/build_rule_artifacts.py",
+      "sha256": "18df91eeeec00ec82b147cfc41db3b3817ad77191e2b119ef0a4eea0a127bd55"
+    },
+    {
+      "path": "local_rules/conditional_rules.py",
+      "sha256": "e7cf6b46015422b53bccc1e5fdea7524879c053da3ad0a0d13ac0f9d9fca98d5"
+    },
+    {
+      "path": "local_rules/executable_rules.json",
+      "sha256": "3f3725d998ef1137e952355e7ecd6313e747377f401baf76a6ea5033bd81f5b4"
+    },
+    {
+      "path": "local_rules/rule_decision_summary.csv",
+      "sha256": "2a1e7c8d227a259dae460e233390b9d6df178a636e76b3dfdf2bb4f4a3263d5f"
+    },
+    {
+      "path": "local_rules/rule_evidence_interventions.csv",
+      "sha256": "c3eee1ffcaca4c0d9f25c254c9a2a3d13ce3dda8cac14c64f7600f62a8573fcf"
+    },
+    {
+      "path": "local_rules/rule_integrity_protocol.json",
+      "sha256": "c9cdf9d14b40958f142ac0460c518e9db5da58985d9ebe436ac85b14d3664a68"
+    },
+    {
+      "path": "local_rules/rule_outputs.json",
+      "sha256": "f10cb91814c9cbc04d7e6c2832ee686714d508589cf56da8559aa243743c01b2"
+    },
+    {
+      "path": "local_rules/rule_queries.json",
+      "sha256": "a7d73360445359438f706715ecdf725ab1b6613bf851bbe0592a87defbd18344"
+    },
+    {
+      "path": "local_rules/test_conditional_rules.py",
+      "sha256": "e33079f118e27cfec41d9c4b0d42c559c89cd0b5b458d536bbe05985b6c7d31b"
+    },
+    {
+      "path": "matched_evidence/E16_protocol_amendment.json",
+      "sha256": "37b012745000e23626f4e3238052a10c10f07783751eb3e53099da7d862c9d95"
+    },
+    {
+      "path": "matched_evidence/deterministic_coverage_top12.csv",
+      "sha256": "7a5769736df4b93fe5e52ddc041264007b50819058d94823429062c475d30f6f"
+    },
+    {
+      "path": "matched_evidence/llm_answers_sealed_from_prompts.json",
+      "sha256": "a14d23ca02ecaa6f59eeb744a95ecbf56fa338b26d1b69b08efd970176852fc0"
+    },
+    {
+      "path": "matched_evidence/llm_evidence.json",
+      "sha256": "4a64791e5a6ee9114ef81aa3c288a64573f5920c1bcd29e3e5a7d15d773c3db7"
+    },
+    {
+      "path": "matched_evidence/llm_frozen_protocol.json",
+      "sha256": "c1cc4f09e5df862d02576c4392e703d9147f76439468688b24fa307c15dea1da"
+    },
+    {
+      "path": "matched_evidence/llm_inputs/RP_boundary_ablation.json",
+      "sha256": "3cdc4ee8cc7aa2f8515ef7ad566684d42644bf8baa17c058aa3807ed46fbda0a"
+    },
+    {
+      "path": "matched_evidence/llm_inputs/RP_explicit.json",
+      "sha256": "2c35f476b31ed44cf9075cafdfbe0df98f0fc47788103854c4a86aaee2d8f299"
+    },
+    {
+      "path": "matched_evidence/llm_inputs/no_retrieval.json",
+      "sha256": "71dd45ae55a42152a810daace8b66f74d91fe29e854469c2b95b70033af6a48b"
+    },
+    {
+      "path": "matched_evidence/llm_inputs/same_evidence_direct.json",
+      "sha256": "b42034ee712aada8468d3554a284a1210a9662bae592bd07b2b18315128ca83f"
+    },
+    {
+      "path": "matched_evidence/llm_principle_cards.json",
+      "sha256": "812ea472e6460f2db3c7b1b1c708aef0ef8615d22770a0dea853eca4629b5822"
+    },
+    {
+      "path": "matched_evidence/llm_results_status.json",
+      "sha256": "d4f16c4ed9836738bb3aa9ed26c808fa49b0a6b2f9305c1a65859054e0116421"
+    },
+    {
+      "path": "matched_evidence/llm_run_order.json",
+      "sha256": "4e56b390c9fd998e10708aa56533eeaf567302ecc9974b49fa51215444dea2c5"
+    },
+    {
+      "path": "matched_evidence/llm_tasks.json",
+      "sha256": "eff443fd3ee3c1187c39cadcacac6d7692575d4c9ebae6d405bb42272998edda"
+    },
+    {
+      "path": "matched_evidence/run_llm_diagnostic.py",
+      "sha256": "602cf8800427578a78ed2a959f6f91f0f90c8292af8a07312f3c55d8b1aefe1e"
+    },
+    {
+      "path": "matched_evidence/score_llm_diagnostic.py",
+      "sha256": "d0e34583377c0eb2bd39bfc6ffe94508f2b85140098f2856abe90c63af44b0e2"
+    },
+    {
+      "path": "matched_evidence/source_index.json",
+      "sha256": "35d827eb390894f9fcd41806d4482772bfa2529557871eb652be5cbace42a848"
+    }
+  ]
+}

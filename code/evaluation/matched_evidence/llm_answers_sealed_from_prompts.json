@@ -1,0 +1,201 @@
+[
+  {
+    "claim_id": "C01",
+    "source_group": "10.1021/acs.joc.3c01562",
+    "label": "supported",
+    "support_ids": [
+      "E03"
+    ]
+  },
+  {
+    "claim_id": "C02",
+    "source_group": "10.1021/acs.joc.3c01562",
+    "label": "contradicted",
+    "support_ids": [
+      "E04"
+    ]
+  },
+  {
+    "claim_id": "C03",
+    "source_group": "10.1021/acs.joc.3c01562",
+    "label": "insufficient",
+    "support_ids": [
+      "E03",
+      "E05"
+    ]
+  },
+  {
+    "claim_id": "C04",
+    "source_group": "10.1021/acs.joc.3c01562",
+    "label": "insufficient",
+    "support_ids": [
+      "E05"
+    ]
+  },
+  {
+    "claim_id": "C05",
+    "source_group": "10.1021/acs.joc.3c01562",
+    "label": "contradicted",
+    "support_ids": [
+      "E03"
+    ]
+  },
+  {
+    "claim_id": "C06",
+    "source_group": "10.1002/ejoc.201801602",
+    "label": "supported",
+    "support_ids": [
+      "E02"
+    ]
+  },
+  {
+    "claim_id": "C07",
+    "source_group": "10.1002/ejoc.201801602",
+    "label": "insufficient",
+    "support_ids": [
+      "E02"
+    ]
+  },
+  {
+    "claim_id": "C08",
+    "source_group": "10.1021/acs.joc.3c01562",
+    "label": "insufficient",
+    "support_ids": [
+      "E01",
+      "E02",
+      "E03"
+    ]
+  },
+  {
+    "claim_id": "C09",
+    "source_group": "10.1039/d6sc01042c",
+    "label": "supported",
+    "support_ids": [
+      "E08",
+      "E09"
+    ]
+  },
+  {
+    "claim_id": "C10",
+    "source_group": "10.1039/d6sc01042c",
+    "label": "contradicted",
+    "support_ids": [
+      "E08",
+      "E09"
+    ]
+  },
+  {
+    "claim_id": "C11",
+    "source_group": "10.1039/d6sc01042c",
+    "label": "supported",
+    "support_ids": [
+      "E06"
+    ]
+  },
+  {
+    "claim_id": "C12",
+    "source_group": "10.1039/d6sc01042c",
+    "label": "contradicted",
+    "support_ids": [
+      "E06"
+    ]
+  },
+  {
+    "claim_id": "C13",
+    "source_group": "10.1039/d6sc01042c",
+    "label": "contradicted",
+    "support_ids": [
+      "E06",
+      "E07"
+    ]
+  },
+  {
+    "claim_id": "C14",
+    "source_group": "10.1039/d6sc01042c",
+    "label": "supported",
+    "support_ids": [
+      "E10",
+      "E11"
+    ]
+  },
+  {
+    "claim_id": "C15",
+    "source_group": "10.1039/d6sc01042c",
+    "label": "insufficient",
+    "support_ids": [
+      "E08"
+    ]
+  },
+  {
+    "claim_id": "C16",
+    "source_group": "10.1039/d6sc01042c",
+    "label": "insufficient",
+    "support_ids": [
+      "E08"
+    ]
+  },
+  {
+    "claim_id": "C17",
+    "source_group": "10.1002/advs.77070",
+    "label": "supported",
+    "support_ids": [
+      "E12"
+    ]
+  },
+  {
+    "claim_id": "C18",
+    "source_group": "10.1002/advs.77070",
+    "label": "supported",
+    "support_ids": [
+      "E12"
+    ]
+  },
+  {
+    "claim_id": "C19",
+    "source_group": "10.1002/advs.77070",
+    "label": "contradicted",
+    "support_ids": [
+      "E13"
+    ]
+  },
+  {
+    "claim_id": "C20",
+    "source_group": "10.1002/advs.77070",
+    "label": "insufficient",
+    "support_ids": [
+      "E12"
+    ]
+  },
+  {
+    "claim_id": "C21",
+    "source_group": "10.1002/advs.77070",
+    "label": "insufficient",
+    "support_ids": [
+      "E14"
+    ]
+  },
+  {
+    "claim_id": "C22",
+    "source_group": "10.1021/acs.joc.9b01387",
+    "label": "supported",
+    "support_ids": [
+      "E15"
+    ]
+  },
+  {
+    "claim_id": "C23",
+    "source_group": "10.1038/s41467-018-08253-z",
+    "label": "contradicted",
+    "support_ids": [
+      "E16"
+    ]
+  },
+  {
+    "claim_id": "C24",
+    "source_group": "10.1038/s41467-018-08253-z",
+    "label": "supported",
+    "support_ids": [
+      "E16"
+    ]
+  }
+]

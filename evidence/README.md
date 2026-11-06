@@ -4,6 +4,8 @@ This guide connects reported chemistry to the four reaction principles used to o
 
 | Resource | Contents | Main question |
 |---|---:|---|
+| [Source and candidate coverage](source_coverage.md) | 4 tiers | Which sources support principles and original candidate citations? |
+| [Background chemical context](background_context.md) | 4 source contexts | What supports the application and selectivity arguments? |
 | [Reaction principles](principles/README.md) | 4 cards | What chemical relationship guides a design choice? |
 | [Attributed quotations](quotations/README.md) | 43 passages | What did the source report or propose? |
 | [Source-specific cases](source_cases/README.md) | 17 cases | Which donor, acceptor, activation and endpoint were tested? |

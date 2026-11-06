@@ -1,0 +1,165 @@
+[
+  {
+    "rp_id": "RP1",
+    "title": "Activation mode selects fluoride loss versus fluorine-retentive P(O)H addition",
+    "relation": "For a compatible gem-difluoroalkene and P(O)H partner, polar addition under basic conditions can form a carbanion that loses fluoride; peroxide-initiated radical addition followed by H-atom transfer instead can furnish a saturated CF2-containing product.",
+    "required_inputs": [
+      "electrophile_connectivity",
+      "P_donor_oxidation_state_and_substituents",
+      "activation_mode",
+      "solvent",
+      "temperature",
+      "target_fluorine_count",
+      "target_connectivity"
+    ],
+    "preconditions": {
+      "electrophile_class": "gem-difluoroalkene",
+      "donor_class": "P(O)H",
+      "polar_regime": "DBU-mediated literature protocol",
+      "radical_regime": "peroxide-initiated hydrophosphinylation with compatible P(O)H donor"
+    },
+    "directional_predictions": [
+      {
+        "when": "verified polar P(O)H/gem-difluorostyrene regime",
+        "then": "monofluorovinyl C–P product supported",
+        "status": "observed_literature_scope",
+        "evidence_ids": [
+          "E01",
+          "E02"
+        ]
+      },
+      {
+        "when": "p-methoxy gem-difluorostyrene + Ph2P(O)H under Intelli peroxide conditions",
+        "then": "CF2-retaining saturated adduct supported, an alternative endpoint to monofluoroalkene",
+        "status": "observed_literature_exact_case",
+        "evidence_ids": [
+          "E03"
+        ]
+      },
+      {
+        "when": "nitro-substituted alkene or diethyl phosphite in peroxide conditions",
+        "then": "do not apply the default CF2-retention/productive-addition prediction",
+        "status": "observed_exception",
+        "evidence_ids": [
+          "E04",
+          "E05"
+        ]
+      }
+    ],
+    "project_transfer": "Carbonyl-bearing CF3 starting materials require additional activation steps; do not infer success or failure from this local alkene rule.",
+    "evidence_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "prediction_uncertainty": "Not a calibrated probability; unknown outside specified scope"
+  },
+  {
+    "rp_id": "RP2",
+    "title": "Donor-dependent acid response determines whether a fluorovinyl product undergoes HF addition",
+    "relation": "A fluorovinyl ether that has already formed can be consumed by hydrofluorination when the HF/coacid combination enables productive protonation and fluoride capture. The required regime depends on the attached heteroatom substituent; successful monofluoro formation and successful HF addition are separate outcomes.",
+    "required_inputs": [
+      "formed_product_connectivity",
+      "heteroatom_substituent",
+      "reaction_stage",
+      "HF_source",
+      "coacid",
+      "Lewis_acid",
+      "target_fluorine_count"
+    ],
+    "preconditions": {
+      "formed_product": "source-characterized fluorovinyl ether, thioether, enamine or phosphine",
+      "stage_separation": true
+    },
+    "directional_predictions": [
+      {
+        "when": "model alkoxy fluorovinyl ether 3 + NEt3·3HF, then add TFA in PhMe",
+        "then": "productive conversion toward CF2 ether increases; reported99% endpoint",
+        "status": "observed_literature_exact_case",
+        "evidence_ids": [
+          "E06"
+        ]
+      },
+      {
+        "when": "change alkoxy to aryloxy or thioether product",
+        "then": "do not transfer model TFA recipe without adjustment; stronger/different acid systems used",
+        "status": "observed_literature_scope",
+        "evidence_ids": [
+          "E07"
+        ]
+      },
+      {
+        "when": "Ph2PH or N-methylaniline gives monofluorovinyl intermediate but subsequent HF addition fails",
+        "then": "label monoF formation positive and subsequent CF2 formation negative separately",
+        "status": "observed_literature_exact_case",
+        "evidence_ids": [
+          "E08",
+          "E09",
+          "E10",
+          "E11"
+        ]
+      }
+    ],
+    "project_transfer": "Use stage-resolved endpoint bookkeeping for this project; acid response of its conjugated carbonyl monofluoro products is unknown.",
+    "evidence_ids": [
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11"
+    ],
+    "prediction_uncertainty": "No continuous kinetics or universal acid-strength ordering established"
+  },
+  {
+    "rp_id": "RP3",
+    "title": "NiH selenium transfer requires a compatible donor and interception of nucleophilic selenium",
+    "relation": "In the documented amide-directed NiH hydroselenylation, the diselenide donor is compatible with reductive selenium transfer, whereas phenylselenol is unproductive; interception of nucleophilic selenium by BnBr supports catalyst turnover.",
+    "required_inputs": [
+      "alkene_connectivity",
+      "directing_group",
+      "Se_donor_form",
+      "NiH_catalyst_and_ligand",
+      "hydrosilane",
+      "base",
+      "counteranion",
+      "BnBr",
+      "target_connectivity"
+    ],
+    "preconditions": {
+      "substrate": "N-phenylbut-3-enamide or independently verified source scope",
+      "activation": "documented NiBr2·glyme/chiral ligand/hydrosilane conditions",
+      "conditions": "Table1 conditions including Na2CO3/NaBF4/THF/25°C/18h"
+    },
+    "directional_predictions": [
+      {
+        "when": "replace PhSeH by PhSeSePh at matched Table1 conditions",
+        "then": "desired beta-selenide becomes productive (dash versus91% NMR)",
+        "status": "observed_literature_matched_comparison",
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "when": "omit BnBr from matched PhSeSePh system",
+        "then": "target-product yield decreases (91 to11% NMR)",
+        "status": "observed_literature_matched_comparison",
+        "evidence_ids": [
+          "E13",
+          "E14"
+        ]
+      }
+    ],
+    "project_transfer": "Ordinary nonfluorinated alkene chemistry. No positive or negative ground-truth label follows for PhSeH + project CF3 carbonyl.",
+    "evidence_ids": [
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16"
+    ],
+    "prediction_uncertainty": "Unknown outside the explicit NiH regime"
+  }
+]

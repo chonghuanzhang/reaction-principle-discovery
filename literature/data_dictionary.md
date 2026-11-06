@@ -1,10 +1,10 @@
 # Literature data dictionary
 
-The bibliography identifies references; the source catalog explains their chemical contribution; the statement data retain the underlying attributed claims. The tables use different counting units.
+The bibliography identifies references; the source catalog explains their chemical contribution; the statement data retain the underlying attributed claims. The tables use different counting units. The original data key `reference_number` retains the numbering previously used for the complete SI reference list; its values now resolve to the same entries in the online bibliography. JSON and CSV field names and numeric values remain unchanged.
 
 | Field | Meaning |
 |---|---|
-| `reference_number` | Number 1–403 in the complete SI bibliography. It is independent of the L identifier. |
+| `reference_number` | Stable number 1–403 in the online repository bibliography. It is independent of the L identifier. |
 | `source_id` | Stable literature identifier L001–L370. Preprint and published versions may have separate identifiers while representing one study. |
 | `tier` | Primary chemical-relevance category 1–4, not a journal-quality or source-access ranking. |
 | `legacy_reference_code` | Earlier V-style reference code, where one exists, for joining candidate citations to literature sources. |
