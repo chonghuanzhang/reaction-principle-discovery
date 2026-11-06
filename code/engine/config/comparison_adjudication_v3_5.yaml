@@ -1,0 +1,19 @@
+version: "3.5"
+source_version: "3.4.1"
+minimum_core_token_jaccard: 0.35
+minimum_context_token_jaccard: 0.20
+qualifying_evidence_prefixes:
+  - "TA-"
+review_lane_ids:
+  - "REVIEW-V35-A"
+  - "REVIEW-V35-B"
+model: "gpt-5.6-terra"
+maximum_batch_size: 4
+expected_proposal_count: 213
+expected_unresolved_pair_count: 3082
+expected_shared_external_evidence_count: 252
+expected_text_compatible_evidence_gap_count: 16
+expected_insufficient_linkage_count: 2814
+unknown_policy: preserve
+cross_coordinate_policy: prohibited
+ranking_before_freeze_2: prohibited

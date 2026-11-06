@@ -1,0 +1,14 @@
+[
+  {
+    "diagnostic": "additive_UCB",
+    "median": 24.0,
+    "mean": 29.28,
+    "hits_at_48": 98
+  },
+  {
+    "diagnostic": "same_model_greedy_mean",
+    "median": 24.0,
+    "mean": 26.28,
+    "hits_at_48": 100
+  }
+]

@@ -1,0 +1,103 @@
+actual_donor_id,smiles,pair_ids,n_distinct_pairs,primary_mapping_classes,exact_candidate_numbers,reactive_form_candidate_numbers,structural_candidate_numbers,decision_status
+NU001,Brc1ccc2[nH]c3c(c2c1)CCCC3,"[""AP004""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU002,Brc1ccc2[nH]ccc2c1,"[""AP005""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU003,Brc1cccc(-c2cc3ccccc3[nH]2)c1,"[""AP006""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU004,C#CC(O)c1ccccc1,"[""AP050""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU005,C1=COc2ccccc2N1,"[""AP007""]",1,"[""Structural Analogue""]",[],[],[48],not recorded
+NU006,CC(=O)Nc1ccc(S)cc1,"[""AP089""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU007,CC(=O)Nc1ccccc1,"[""AP008""]",1,"[""Structural Analogue""]",[],[],[41],not recorded
+NU008,CC(=O)c1c[nH]c2ccccc12,"[""AP009""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU009,CC(C)(C)c1ccc(O)cc1,"[""AP051""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU010,CC(C)(C)c1ccc(S)cc1,"[""AP090""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU011,CC(C)(C)c1ncc[nH]1,"[""AP001""]",1,"[""Structural Analogue""]",[],[],[35],not recorded
+NU012,CC(C)(O)C(=O)c1ccccc1,"[""AP052""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU013,CC(C)(S)CCO,"[""AP091""]",1,"[""Structural Analogue""]",[],[],"[75, 80]",not recorded
+NU014,CC(O)c1ccc2ccccc2c1,"[""AP053""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU015,CC1OCCC1S,"[""AP092""]",1,"[""Structural Analogue""]",[],[],"[75, 80]",not recorded
+NU016,CCCCCO,"[""AP054""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU017,CCCCN1CCNCC1,"[""AP010""]",1,"[""Structural Analogue""]",[],[],"[39, 46]",not recorded
+NU018,CCNc1cccc2ccccc12,"[""AP011""]",1,"[""Structural Analogue""]",[],[],"[38, 48]",not recorded
+NU019,CCOC(=O)C1CCc2[nH]c3ccccc3c2C1,"[""AP012""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU020,CN(C)C(=O)C1CC(S)CN1C(=O)OCc1ccc([N+](=O)[O-])cc1,"[""AP093""]",1,"[""Structural Analogue""]",[],[],"[75, 80]",not recorded
+NU021,CN1CCC(O)C1,"[""AP055""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU022,CNC(=O)c1ccccc1,"[""AP013""]",1,"[""Structural Analogue""]",[],[],[41],not recorded
+NU023,CNCc1ccccc1,"[""AP014""]",1,"[""Structural Analogue""]",[],[],"[39, 46]",not recorded
+NU024,CNCc1cnn(C)c1,"[""AP015""]",1,"[""Structural Analogue""]",[],[],"[39, 46]",not recorded
+NU025,CNc1ccncc1,"[""AP016""]",1,"[""Structural Analogue""]",[],[],"[38, 48]",not recorded
+NU026,COC(=O)CCS,"[""AP094""]",1,"[""Structural Analogue""]",[],[],"[75, 80]",not recorded
+NU027,COC(=O)c1ccccc1S,"[""AP095""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU028,COC(=O)c1cnc(O)cn1,"[""AP056""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU029,COc1cc(O)cc(OC)c1,"[""AP057""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU030,COc1ccc(C(=O)O)cc1,"[""AP058""]",1,"[""Unmatched""]",[],[],[],not recorded
+NU031,COc1ccc(CCO)cc1,"[""AP059""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU032,COc1ccc(S)cc1,"[""AP096""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU033,COc1ccc2c(c1)[nH]c1ccccc12,"[""AP017""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU034,COc1ccc2ccccc2c1Br,"[""AP045""]",1,"[""Unmatched""]",[],[],[],not recorded
+NU035,COc1cccc2[nH]ccc12,"[""AP018""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU036,Cc1cc2ccccc2[nH]1,"[""AP019""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU037,Cc1ccc(O)nc1,"[""AP060""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU038,Cc1ccc(S)cc1,"[""AP097""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU039,Cc1ccc2[nH]c3ccc(C)cc3c2c1,"[""AP020""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU040,Cc1ccc2c(c1)CCCN2,"[""AP021""]",1,"[""Structural Analogue""]",[],[],[48],not recorded
+NU041,Cc1ccc2cccc(O)c2n1,"[""AP061""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU042,Cc1cccc(C)c1O,"[""AP062""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU043,Cc1cccc(C)c1S,"[""AP098""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU044,Cc1cccc2[nH]ccc12,"[""AP022"", ""AP043""]",2,"[""Structural Analogue""]",[],[],[27],not recorded
+NU045,Cc1cccc2cc[nH]c12,"[""AP023""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU046,Cc1ccccc1CS,"[""AP099""]",1,"[""Structural Analogue""]",[],[],"[75, 80]",not recorded
+NU047,FC(F)(F)c1ccc(S)cc1,"[""AP100""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU048,Fc1ccc(CS)cc1,"[""AP101""]",1,"[""Structural Analogue""]",[],[],"[75, 80]",not recorded
+NU049,Fc1ccc2[nH]ccc2c1,"[""AP024""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU050,Ic1ccc2[nH]c3ccccc3c2c1,"[""AP025""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU051,N#CCCS,"[""AP102""]",1,"[""Structural Analogue""]",[],[],"[75, 80]",not recorded
+NU052,N#Cc1ccc(O)cc1,"[""AP063""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU053,N#Cc1ccc2cc[nH]c2c1,"[""AP026""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU054,N#Cc1cccc2[nH]ccc12,"[""AP027""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU055,O=C(O)Cc1ccc(S)cc1,"[""AP103""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU056,O=C(O)c1cc(O)cc(C(=O)O)n1,"[""AP064""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU057,O=C(O)c1ccc2[nH]cnc2c1,"[""AP028""]",1,"[""Structural Analogue""]",[],[],[35],not recorded
+NU058,O=C1C2CCCN2C(=S)N1c1ccccc1,"[""AP002""]",1,"[""Unmatched""]",[],[],[],not recorded
+NU059,O=C1Cc2ccccc2N1,"[""AP029""]",1,"[""Structural Analogue""]",[],[],[41],not recorded
+NU060,O=C1NC(=O)C2CCC=CC12,"[""AP030""]",1,"[""Structural Analogue""]",[],[],[44],not recorded
+NU061,O=C1NC(=O)C2CCCC12,"[""AP003""]",1,"[""Structural Analogue""]",[],[],[44],not recorded
+NU062,O=C1Nc2ccc(F)cc2C1=O,"[""AP031""]",1,"[""Structural Analogue""]",[],[],[41],not recorded
+NU063,O=Cc1c(O)ccc2ccccc12,"[""AP065""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU064,O=Cc1cc(CO)ccc1O,"[""AP066""]",1,"[""Structural Analogue""]",[],[],"[51, 52, 61, 64]",not recorded
+NU065,O=[N+]([O-])c1c(O)ccc2ccccc12,"[""AP067""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU066,O=[N+]([O-])c1ccc(S)cc1,"[""AP104""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU067,O=c1cc(O)c2ccccc2o1,"[""AP068""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU068,OC(c1ccccc1)c1ccccc1,"[""AP069""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU069,OC/C=C/c1cccc(OCc2ccccc2)c1,"[""AP070""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU070,OC1CCc2ccccc21,"[""AP071""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU071,OC1c2ccccc2Oc2ccccc21,"[""AP072""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU072,OCC1CO1,"[""AP105""]",1,"[""Unmatched""]",[],[],[],not recorded
+NU073,OCC1c2ccccc2-c2ccccc21,"[""AP073""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU074,OCCCS,"[""AP106""]",1,"[""Structural Analogue""]",[],[],"[75, 80]",not recorded
+NU075,OCc1cccc2ccccc12,"[""AP074""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU076,OCc1ccccc1,"[""AP075""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU077,OCc1cccnc1,"[""AP076""]",1,"[""Structural Analogue""]",[],[],"[52, 61]",not recorded
+NU078,Oc1ccc(-c2ccccc2)cc1,"[""AP077""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU079,Oc1ccc(Br)c2ccccc12,"[""AP046"", ""AP078""]",2,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU080,Oc1ccc(Br)nc1,"[""AP079""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU081,Oc1ccc2ncccc2c1,"[""AP080""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU082,Oc1cccc2ccccc12,"[""AP047"", ""AP048"", ""AP049""]",3,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU083,Oc1cccc2cccnc12,"[""AP081""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU084,Oc1cccc2oc3ccccc3c12,"[""AP082""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU085,Oc1ccccc1,"[""AP083""]",1,"[""Exact Molecular Match""]",[51],[64],[],not recorded
+NU086,Oc1ccccc1-c1ccccc1,"[""AP084""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU087,Oc1ccnc2[nH]ccc12,"[""AP085""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU088,Oc1cnc2[nH]ccc2c1,"[""AP032""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU089,Oc1cncc(Cl)c1,"[""AP086""]",1,"[""Structural Analogue""]",[],[],"[51, 64]",not recorded
+NU090,SC(c1ccccc1)(c1ccccc1)c1ccccc1,"[""AP107""]",1,"[""Structural Analogue""]",[],[],"[75, 80]",not recorded
+NU091,Sc1ccc(S)cc1,"[""AP108""]",1,"[""Structural Analogue""]",[],[],"[68, 82]",not recorded
+NU092,c1cc(N2CCNCC2)ccn1,"[""AP033""]",1,"[""Structural Analogue""]",[],[],"[39, 46]",not recorded
+NU093,c1ccc(C2CCNCC2)cc1,"[""AP034""]",1,"[""Structural Analogue""]",[],[],"[39, 46]",not recorded
+NU094,c1ccc(CNc2ccccc2)cc1,"[""AP035""]",1,"[""Structural Analogue""]",[],[],"[38, 48]",not recorded
+NU095,c1ccc(COc2ccc3[nH]ccc3c2)cc1,"[""AP036""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU096,c1ccc(N2CCNCC2)cc1,"[""AP037""]",1,"[""Structural Analogue""]",[],[],"[39, 46]",not recorded
+NU097,c1ccc(Nc2ccccc2)cc1,"[""AP038""]",1,"[""Structural Analogue""]",[],[],"[38, 48]",not recorded
+NU098,c1ccc(Pc2ccccc2)cc1,"[""AP087"", ""AP088""]",2,"[""Exact Molecular Match""]",[95],[99],[],not recorded
+NU099,c1ccc2c(c1)CCN2,"[""AP039"", ""AP044""]",2,"[""Structural Analogue""]",[],[],[48],not recorded
+NU100,c1ccc2c(c1)Nc1ccccc1S2,"[""AP040""]",1,"[""Structural Analogue""]",[],[],[48],not recorded
+NU101,c1ccc2c(c1)ccc1c3ccccc3[nH]c21,"[""AP041""]",1,"[""Structural Analogue""]",[],[],[27],not recorded
+NU102,c1ccc2c3c([nH]c2c1)CCCC3,"[""AP042""]",1,"[""Structural Analogue""]",[],[],[27],not recorded

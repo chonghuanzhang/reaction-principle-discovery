@@ -1,0 +1,127 @@
+[
+  {
+    "pool_id": "SH_PL33",
+    "definition": "any historically followed catalyst code",
+    "target": [
+      "Ag6",
+      "Cu9"
+    ],
+    "candidate_indices": [
+      1,
+      28
+    ],
+    "wells": [
+      "PL33-W2",
+      "PL33-W29"
+    ],
+    "legacy_normalization_same_indices": true
+  },
+  {
+    "pool_id": "SH_PL39",
+    "definition": "exact raw cat/ligand/base/solvent within this grid",
+    "target": {
+      "cat": "Cu9",
+      "ligand": "PPh3",
+      "base": "CsOH/2",
+      "solvent": "DCE"
+    },
+    "candidate_indices": [],
+    "wells": [],
+    "legacy_normalization_same_indices": true
+  },
+  {
+    "pool_id": "SH_PL40",
+    "definition": "exact raw cat/ligand/base/solvent within this grid",
+    "target": {
+      "cat": "Cu9",
+      "ligand": "PPh3",
+      "base": "CsOH/2",
+      "solvent": "DCE"
+    },
+    "candidate_indices": [
+      65
+    ],
+    "wells": [
+      "CFC124009-19-PL40-W66"
+    ],
+    "legacy_normalization_same_indices": true
+  },
+  {
+    "pool_id": "NH_PL35",
+    "definition": "any historically followed catalyst code",
+    "target": [
+      "Ag13"
+    ],
+    "candidate_indices": [
+      8
+    ],
+    "wells": [
+      "PL35-W9"
+    ],
+    "legacy_normalization_same_indices": true
+  },
+  {
+    "pool_id": "NH_PL36",
+    "definition": "exact raw cat/ligand/base/solvent within this grid",
+    "target": {
+      "cat": "Ag13",
+      "ligand": "PPh3",
+      "base": "NaH",
+      "solvent": "DCE"
+    },
+    "candidate_indices": [
+      81
+    ],
+    "wells": [
+      "CFC124009-19-PL36-W82"
+    ],
+    "legacy_normalization_same_indices": true
+  },
+  {
+    "pool_id": "OH_PL34",
+    "definition": "any historically followed catalyst code",
+    "target": [
+      "Cu66",
+      "Ni203"
+    ],
+    "candidate_indices": [
+      50,
+      77
+    ],
+    "wells": [
+      "PL34-W51",
+      "PL34-W78"
+    ],
+    "legacy_normalization_same_indices": true
+  },
+  {
+    "pool_id": "OH_PL37",
+    "definition": "exact raw cat/ligand/base/solvent within this grid",
+    "target": {
+      "cat": "Ni203",
+      "ligand": "",
+      "base": "DIPEA",
+      "solvent": "DCE"
+    },
+    "candidate_indices": [],
+    "wells": [],
+    "legacy_normalization_same_indices": true
+  },
+  {
+    "pool_id": "OH_PL38",
+    "definition": "exact raw cat/ligand/base/solvent within this grid",
+    "target": {
+      "cat": "Ni203",
+      "ligand": "",
+      "base": "DIPEA",
+      "solvent": "DCE"
+    },
+    "candidate_indices": [
+      9
+    ],
+    "wells": [
+      "CFC124009-19-PL38-W10"
+    ],
+    "legacy_normalization_same_indices": true
+  }
+]

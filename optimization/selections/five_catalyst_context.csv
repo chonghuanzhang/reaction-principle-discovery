@@ -1,0 +1,6 @@
+﻿condition_grid,historical_panel,catalyst_code,catalyst_name,rank_in_original_complete_panel,panel_response,source_sheet,source_response_cell,selection_reason_status,allowed_inference
+SH_PL39,SH_PL33,Ag6,AgF,5,0.802527646129542,亲核试剂(SH)-条件筛选,AG3,historical choice; exact contemporaneous decision rationale not available,candidate had a relatively high recorded response; rank alone does not reconstruct why chosen
+SH_PL40,SH_PL33,Cu9,CuCl,1,0.96602658788774,亲核试剂(SH)-条件筛选,AG30,historical choice; exact contemporaneous decision rationale not available,candidate had a relatively high recorded response; rank alone does not reconstruct why chosen
+NH_PL36,NH_PL35,Ag13,Ag2SO4,2,1.49729627272151,亲核试剂(NH)-条件筛选,AJ10,historical choice; exact contemporaneous decision rationale not available,candidate had a relatively high recorded response; rank alone does not reconstruct why chosen
+OH_PL37,OH_PL34,Cu66,Cu(MeCN)4PF6,2,1.02120141342756,亲核试剂(OH)-条件筛选,AJ52,historical choice; exact contemporaneous decision rationale not available,candidate had a relatively high recorded response; rank alone does not reconstruct why chosen
+OH_PL38,OH_PL34,Ni203,NiCl2·DME,1,1.09119010819165,亲核试剂(OH)-条件筛选,AJ79,historical choice; exact contemporaneous decision rationale not available,candidate had a relatively high recorded response; rank alone does not reconstruct why chosen

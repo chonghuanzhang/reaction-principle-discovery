@@ -1,0 +1,11 @@
+{
+  "directory": "/Users/chonghuanzhang/Dropbox/reaction_principle/runs/reusable_exploration_v1/results/59e2412b7072b106870d88a850e9e0c316ad3fdb576e5d3becfd4d6fe4832e90",
+  "experimental_success_claimed": false,
+  "generated_lenses": 7,
+  "instrument_ready": false,
+  "pool_size": 96,
+  "rejected_proposals": 4,
+  "run_id": "59e2412b7072b106870d88a850e9e0c316ad3fdb576e5d3becfd4d6fe4832e90",
+  "selected_count": 48,
+  "uncovered_tags": []
+}

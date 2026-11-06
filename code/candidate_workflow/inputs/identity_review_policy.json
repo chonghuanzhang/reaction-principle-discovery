@@ -1,0 +1,16 @@
+{
+  "reviewer": "Codex chemistry analyst; name/structure consistency review, not supplier or experimental verification",
+  "default_scope": "Names and submitted SMILES read together; retain explicit precursor structures, preserve all hypotheses and unknown reaction compatibility",
+  "exceptions": {
+    "c1ccc(SSc2ccccc2)cc1": {"decision":"retain","display_name":"二苯二硫化物","reason":"Symmetric diphenyl disulfide; equivalent sulfur atoms retained as the source hypothesis, one reagent identity."},
+    "OB(O)c1ccncc1": {"decision":"name_corrected","display_name":"吡啶-4-硼酸","reason":"Submitted structure has the ring nitrogen para to the boronic acid position; original name said pyridin-3-yl. Preserve structure and correct display name; do not silently move the boron position."},
+    "C=C[Si](C)(C)C": {"decision":"identity_unresolved","display_name":"乙烯基三甲基硅烷结构／烯丙基名称冲突","reason":"Submitted structure lacks the allylic CH2 required by both original name and allylic-transfer rationale. Quarantine rather than inventing a corrected reactive structure or changing the claimed mechanism."},
+    "CS(=O)[O-].[Na+]": {"decision":"name_corrected","display_name":"甲基亚磺酸钠","reason":"One S=O and one anionic O identify methanesulfinate, not methanesulfonate; original label mixed the two names."},
+    "[Na+].[O-]O": {"decision":"name_corrected","display_name":"氢过氧化钠（NaOOH）","reason":"The explicit submitted structure is sodium hydroperoxide, not sodium peroxide. Formulation, stability and operational compatibility remain unverified."},
+    "CCOC(=S)[S-].[K+]": {"decision":"retain","display_name":"乙基黄原酸钾","reason":"Same reagent proposed at two sulfur sites; keep both atom-specific hypotheses but one reagent identity."},
+    "CSSc1ccccc1": {"decision":"retain","display_name":"甲基苯基二硫化物","reason":"Mixed disulfide is one reagent; retain separate methylthio and phenylthio transfer hypotheses without duplicate molecule count."},
+    "C=C(C)[O-].[Li+]": {"decision":"retain","display_name":"丙酮烯醇锂（显式离子形式）","reason":"Keep O- and C-bonding hypotheses for the same enolate precursor; aggregation and actual reactive state are not established by this structure."}
+  },
+  "not_validated": ["commercial availability", "purity or solution formulation", "reaction success", "all regioselectivity claims", "safe common condition set"],
+  "screening_safety_note": "Air-sensitive organometallics, reactive phosphines, diazonium, azide and peroxide reagents require separate trained-laboratory risk review; do not use the generated blank templates as dosing instructions."
+}

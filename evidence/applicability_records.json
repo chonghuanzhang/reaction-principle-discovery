@@ -1,0 +1,874 @@
+[
+  {
+    "record_id": "L343-01",
+    "source_id": "L343",
+    "claim": "Ph2P(O)H (1.2 equiv) and K2CO3 (2 equiv), 1,4-dioxane, 80 °C, 6 h convert model RCOCF3 to RCOCHF2 in 80% yield. With 4 Å molecular sieves, DFEP 2Aa is obtained in 80% yield. The change concerns endpoint selection, not disappearance of P reactivity.",
+    "observation_kind": "measured_alternative_endpoint",
+    "source_passage": "We began our investigation by synthesizing difluoroenol phosphinate (Fig. 2A). Treatment of commercially available 4-methoxytrifluoroacetyl ketone (1A) with diphenylphosphine oxide (1.2 equiv.) and potassium carbonate (2.0 equiv.) afforded difluoromethyl ketone 3A in 80% yield (Condition A: entry 1). Minor side products included the over-defluorinated compound 4A and the addition product 5A, resulting from the phospha-Brook rearrangement. These findings are consistent with the proposed mechanism in Fig. 1C, where fluoride elimination occurs after the phospha-Brook rearrangement, with the resulting HF promoting protonation. We hypothesized that efficient HF trapping could enable the formation of difluoroenol phosphinate 2Aa. However, neither increasing the base equivalents nor screening various additives successfully afforded 2Aa. Remarkably, the addition of molecular sieves (MS4Å) proved critical, enabling the formation of 2Aa in 80% yield (entry 2). HF trapping by 4 Å molecular sieves was confirmed by 19F NMR analysis, which showed clear evidence of HF capture. Although we also considered the possibility that MS4Å might be trapping byproducts such as KF or KHCO3 formed from the reaction with base, little to no effect was observed in those cases (see ESI† for details). Therefore, we propose that MS4Å effectively scavenges HF, thereby facilitating the reaction. While the synthesis of difluoroenol phosphates has been previously reported, the methods typically involve multiple synthetic steps or rely on chlorodifluoroketones as starting materials.16 Notably, no direct transformation from trifluoromethyl ketones to difluoroenol phosphinates has been reported.17 Furthermore, this work represents the first successful isolation of the adduct 2Aa between a trifluoromethyl ketone and diphenylphosphine oxide.",
+    "source_location": "Final journal XML //body//p[7] (one-based); Final primary XML body paragraph 7; We began our investigation by synthesizing difluoroenol phosphinate (Fig. 2; Fig. 2A",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "adjacent",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "principles": [
+      "RP2",
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C090"
+    ],
+    "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc03915k",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "acceptor_match:adjacent",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch",
+      "alternative_endpoint_is_not_target_failure"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L343-02",
+    "source_id": "L343",
+    "claim": "2.5 equiv Ph2P(O)H at 130 °C gives monofluoromethyl ketone 4A in 67%; 4 equiv at 160 °C gives methyl ketone 6A in 47%. A monofluoromethyl ketone is not a monofluorovinyl C–P product.",
+    "observation_kind": "measured_alternative_endpoint",
+    "source_passage": "Building on the observation that monofluoroketones could be obtained under the conditions shown in Fig. 2A, we hypothesized that a one-pot method could be developed to selectively convert trifluoromethyl ketones into difluoromethyl ketones, monofluoromethyl ketones, or methyl ketones (Fig. 2C). By optimizing the equivalents of diphenylphosphine oxide and the reaction temperature (details provided in the ESI†), we successfully devised conditions for each transformation. Specifically, using 2.5 equiv. of diphenylphosphine oxide at 130 °C provided monofluoromethyl ketone 4A in 67% yield (Condition B). Further increasing the amount of diphenylphosphine oxide to 4.0 equiv. and raising the temperature to 160 °C resulted in the formation of methyl ketone 6A in moderate yield (47%) (Condition C).",
+    "source_location": "Final journal XML //body//p[9] (one-based); Final article Fig. 2C and adjoining Results paragraph",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "adjacent",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "principles": [
+      "RP2",
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C090"
+    ],
+    "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc03915k",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "acceptor_match:adjacent",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch",
+      "alternative_endpoint_is_not_target_failure"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L343-03",
+    "source_id": "L343",
+    "claim": "The final primary text reports failure and recovery for strongly electron-withdrawing substituted trifluoromethyl ketones. Individual identities and yields are not assigned in that paragraph. Hydration-related interference is the authors’ mechanistic explanation; the text calls the hydrate a hemiacetal, which should not be silently endorsed as exact structural terminology. Do not assign this failure to the project electrophile.",
+    "observation_kind": "measured_no_target",
+    "source_passage": "Although the methodology showed broad substrate generality, in the case of alkyl trifluoromethyl ketones and electron-deficient heteroaromatics such as pyridines, the anionic intermediate generated after the phospha-Brook rearrangement appears to be unstable. As a result, a significant amount of protonated byproduct (e.g., compound 5a) is formed, leading to reduced yields. Additionally, substrates bearing strongly electron-withdrawing groups failed to undergo the initial Pudovik addition and were recovered unchanged. This is likely due to the strong electron-withdrawing effect promoting hydration of the carbonyl group to form a hemiacetal, which interferes with the nucleophilic substitution step.",
+    "source_location": "Final journal XML //body//p[12] (one-based); Final primary XML body paragraph 12; Although the methodology showed broad substrate generality, in the case of ; Results discussion after Fig. 3",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "adjacent",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "principles": [
+      "RP2",
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C090"
+    ],
+    "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc03915k",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "acceptor_match:adjacent",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L343-04",
+    "source_id": "L343",
+    "claim": "Separately prepared protonated phospha-Brook side product 5A gives no 3A under K2CO3/80 °C conditions. This distinguishes an unproductive trapped intermediate from the productive anionic elimination sequence; it is not a failed addition of Ph2PH to project substrate A.",
+    "observation_kind": "measured_no_target",
+    "source_passage": "To elucidate the reaction mechanism underlying this defluorination process, mechanistic experiments were conducted (Fig. 4). First, separately prepared 5A was treated with potassium carbonate at 80 °C (Fig. 4A). If 5A were an intermediate, 3A would be expected as the product; however, no 3A was observed. This suggests that 5A is a side product formed via protonation before β-fluoride elimination. These findings imply that β-fluoride elimination proceeds directly from one of the anionic intermediates proposed in the mechanism.",
+    "source_location": "Final journal XML //body//p[16] (one-based); Final primary XML body paragraph 16; To elucidate the reaction mechanism underlying this defluorination process,; Fig. 4A",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "mismatch",
+    "acceptor_match": "adjacent",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "The tested input is separately prepared 5A, a protonated phospha-Brook side product, not the C090 Ph2P(O)H donor. C090 is linked only through route relevance; this is an intermediate-competence experiment, not a direct donor-reactivity comparison.",
+    "principles": [
+      "RP2",
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C090"
+    ],
+    "target_application": "Route-level intermediate-competence constraint: isolated 5A does not furnish 3A in the stated test. No direct test of C090 donor activity or project target failure.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc03915k",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "donor_form_match:mismatch",
+      "acceptor_match:adjacent",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L343-05",
+    "source_id": "L343",
+    "claim": "With Ph2P(O)H the monofluoroenol phosphinate could not be isolated and monofluoromethyl ketone formed instead. Diethyl phosphite and p-methoxy diarylphosphine oxide provide isolable enol phosphinates. The relevant retained phosphorus linkage is C–O–P; inability to isolate it cannot establish inability to form direct vinyl C–P.",
+    "observation_kind": "measured_alternative_endpoint",
+    "source_passage": "Next, 3A was subjected to the reaction conditions of Condition B, yielding monofluoromethyl ketone 4A quantitatively (Fig. 4B). This result confirms that monofluoromethyl ketones are generated via the intermediate difluoromethyl ketones. To further investigate, we examined the formation of enol phosphinates as intermediates. When MS4Å was added under Condition B, the desired monofluoromethyl ketones were replaced by enol phosphinates, which were obtained as E/Z mixtures. These E and Z isomers were easily separable by silica gel column chromatography, and their structures were determined by NOE analysis. Using diethyl phosphite as the phosphorus reagent afforded 12Bb in high yield, while diarylphosphine oxide (Ar = p-MeOC6H4-) also yielded the corresponding enol phosphinate 12Bd, albeit in moderate yield. However, when diphenylphosphine oxide was used, the enol phosphinate could not be isolated, likely due to the weaker O–P bond. Instead, complete conversion to monofluoromethyl ketone 4A was observed, preventing the isolation of the desired enol phosphinate. Although enol phosphinates have been previously reported,19 their synthesis typically involves lengthy and multi-step procedures. In contrast, our approach enables the direct, one-pot synthesis of these compounds starting from difluoromethyl ketones, significantly simplifying the process.",
+    "source_location": "Final journal XML //body//p[17] (one-based); Final primary XML body paragraph 17; Next, 3A was subjected to the reaction conditions of Condition B, yielding ; Fig. 4B",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "adjacent",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "principles": [
+      "RP2",
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C089",
+      "C090"
+    ],
+    "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc03915k",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "acceptor_match:adjacent",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch",
+      "alternative_endpoint_is_not_target_failure"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L343-06",
+    "source_id": "L343",
+    "claim": "Under condition A, competing RCOCF3 reacts while difluoromethyl ketone 3A is recovered in 84% and 4A is not formed. Under stronger conditions the same class can proceed further. Failure is therefore condition/endpoint specific.",
+    "observation_kind": "measured_no_target",
+    "source_passage": "We also performed a competition experiment (Fig. 4C). Structurally similar trifluoromethyl ketone 1W and difluoromethyl ketone 3A were reacted under Condition A, which is optimized for the synthesis of difluoromethyl ketones. The results revealed that only 1W was converted into difluoromethyl ketone 3W, while 3A was recovered in 84% yield, and no monofluoromethyl ketone 4A was formed. This indicates that under these reaction conditions, difluoromethyl ketones do not undergo further transformations.",
+    "source_location": "Final journal XML //body//p[18] (one-based); Final primary XML body paragraph 18; We also performed a competition experiment (Fig. 4C). Structurally similar ; Fig. 4C",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "adjacent",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "principles": [
+      "RP2",
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C090"
+    ],
+    "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc03915k",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "acceptor_match:adjacent",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L343-07",
+    "source_id": "L343",
+    "claim": "The authors propose P-centred Pudovik addition, phospha-Brook migration of phosphorus from carbon to oxygen, beta-fluoride elimination and HF-dependent endpoint selection.",
+    "observation_kind": "author_mechanistic_interpretation",
+    "source_passage": "To monitor the reaction progress, time-course experiments were conducted using 19F NMR spectroscopy (Fig. 4D). Shortly after the reaction began, an addition product 13, which we attribute to 13 was observed, and it was nearly consumed within 90 min. By 30 min, difluoroenol phosphinate 2Aa, the desired difluoromethyl ketone 3A, and phospha-Brook rearrangement product 5A were already detected. Over time, 2Aa was gradually consumed as the yield of 3A increased, while the amount of 5A remained relatively constant. Additionally, small amounts of fluorinated byproducts 14 containing phosphorus, along with aldol adducts 15 and 16 were observed but were eventually consumed. Based on these results, the proposed reaction pathway is depicted in Fig. 4E. Trifluoromethyl ketones undergo Pudovik addition followed by a phospha-Brook rearrangement, leading to β-fluoride elimination and the formation of enol phosphinate and HF. In the presence of MS4Å, HF is efficiently trapped, favoring the formation of difluoroenol phosphinate 2Aa. In the absence of a trapping agent, protonation occurs, yielding difluoromethyl ketone 3A. The significant reactivity difference between 1 and 3 ensures that under mild conditions (Condition A), the reaction halts at this stage. However, increasing the equivalents of phosphine oxide and raising the temperature drives a second β-fluoride elimination, forming monofluorophosphinate 12, which leads to monofluoromethyl ketone 4. Under harsher conditions, further defluorination occurs, resulting in the formation of methyl ketone 6.",
+    "source_location": "Final journal XML //body//p[20]; Fig. 4E",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "adjacent",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "",
+    "principles": [
+      "RP1",
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C090"
+    ],
+    "target_application": "Mechanistic rationale for a possible competing pathway, not an observed target-system mechanism.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc03915k",
+    "target_negative": false,
+    "assessment": "unsupported_transfer",
+    "reasons": [
+      "acceptor_match:adjacent",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch",
+      "interpretation_is_not_a_measured_outcome"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L367-01",
+    "source_id": "L367",
+    "claim": "The accessible author abstract reports preparation of the reagent and its use to obtain dimethylphosphinoyl-derived nitriles, amines, acetone, acetic-acid and acetoacetic-acid derivatives. Exact substrates, conditions, atom-of-attack, fluorination state and individual yields require the full text; no project monofluorovinyl product can be assigned from the abstract.",
+    "observation_kind": "measured_positive",
+    "source_passage": "The synthetic potential of the latter was exemplified by the preparation of dimethylphosphinoyl-derived nitriles",
+    "source_location": "Author abstract, reproduced identically in OpenAlex and Semantic Scholar",
+    "source_access": "primary_author_abstract",
+    "scope": "tested_reaction",
+    "donor_form_match": "mismatch",
+    "acceptor_match": "unknown",
+    "activation_match": "unknown",
+    "endpoint_match": "mismatch",
+    "match_rationale": "Me2P–O–SiMe3 contains no P–H bond; exact substrates, mechanisms and conditions cannot be recovered from this abstract.",
+    "principles": [
+      "RP2"
+    ],
+    "candidate_ids": [],
+    "target_application": "Positive precursor chemistry illustrates why donor forms must be distinguished; it supplies no negative experiment.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1080/10426507.2021.2025054",
+    "target_negative": false,
+    "assessment": "unresolved",
+    "reasons": [
+      "donor_form_match:mismatch",
+      "acceptor_match:unknown",
+      "activation_match:unknown",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L368-01",
+    "source_id": "L368",
+    "claim": "The chapter identity and phosphorus-species topic are verified; no reaction passage or target-specific failure has been obtained.",
+    "observation_kind": "metadata_only",
+    "source_passage": "Product Class 7: Dialkylphosphinous Acids and Derivatives",
+    "source_location": "Crossref chapter title; full chapter text unavailable",
+    "source_access": "metadata_only",
+    "scope": "donor_class_hypothesis",
+    "donor_form_match": "unknown",
+    "acceptor_match": "unknown",
+    "activation_match": "unknown",
+    "endpoint_match": "unknown",
+    "match_rationale": "Title/classification is not evidence of nucleophilic failure; no RP support edge is admitted.",
+    "principles": [],
+    "candidate_ids": [],
+    "target_application": "",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1055/sos-sd-042-00209",
+    "target_negative": false,
+    "assessment": "unresolved",
+    "reasons": [
+      "donor_form_match:unknown",
+      "acceptor_match:unknown",
+      "activation_match:unknown",
+      "endpoint_match:unknown",
+      "source_access:metadata_only"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L369-01",
+    "source_id": "L369",
+    "claim": "Title establishes an alcohol-oxidation topic only; free PhSeH coupling failure is not verified.",
+    "observation_kind": "metadata_only",
+    "source_passage": "Selective oxidation of hydroxy groups of phenylthio and phenylseleno alcohols",
+    "source_location": "Original article title; Crossref message.title and publisher coredata dc:title",
+    "source_access": "metadata_only",
+    "scope": "donor_class_hypothesis",
+    "donor_form_match": "unknown",
+    "acceptor_match": "unknown",
+    "activation_match": "unknown",
+    "endpoint_match": "unknown",
+    "match_rationale": "The phenylseleno substituent in an alcohol is not an identified free PhSeH donor; actual conditions and products are unknown.",
+    "principles": [],
+    "candidate_ids": [],
+    "target_application": "",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1016/s0040-4039(01)90493-9",
+    "target_negative": false,
+    "assessment": "unresolved",
+    "reasons": [
+      "donor_form_match:unknown",
+      "acceptor_match:unknown",
+      "activation_match:unknown",
+      "endpoint_match:unknown",
+      "source_access:metadata_only"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L344-01",
+    "source_id": "L344",
+    "claim": "PhSeH failed to give the desired beta-selenide in the specified nonfluorinated NiH reaction; no calibrated zero yield is assigned.",
+    "observation_kind": "measured_no_target",
+    "source_passage": "To realize this design principle, we sought to identify a selenium source compatible with single‐electron transfer (SET) processes under NiH catalysis [32, 33, 34, 35, 36, 37, 38, 39, 40, 41]. We initiated our investigation by evaluating various selenium‐transfer reagents for the asymmetric hydroselenylation of N‐phenylbut‐3‐enamide (1a) using NiBr2·glyme (10 mol%) and L* (12 mol%) in the presence of (MeO)2MeSiH, Na2CO3 (2.0 equiv), and the additive BnBr (1.0 equiv) and NaBF4 (1.0 equiv) in THF at 25°C (Table 1 and Tables S1–S5). Crucially, despite the presence of the trapping agent and salt additive—the latter of which is known to promote fluoride‐assisted silane activation and accelerate Ni─H formation [37, 38, 39, 40, 42, 43], conventional electrophilic selenium sources proved completely unreactive. Nucleophilic phenyl selenol ([Se]‐1) and traditional electrophilic selenyl halides ([Se]‐2 and [Se]‐3) failed to deliver any of the desired product (Table 1, entries 1–3). This lack of reactivity underscores their fundamental incompatibility with the highly reducing NiH manifold. Selenols readily generate strongly coordinating selenolate species that form catalytically dead‐end off‐cycle Ni─Se species, while selenyl halides are prone to rapid, unproductive reduction or the formation of robust, stable Ni─Se/Ni─X coordinates under these basic, reducing conditions [44]. Similarly, phthalimide‐ and tosyl‐substituted selenium sources ([Se]‐5 and [Se]‐6) were entirely unproductive under these fully optimized conditions (Table 1, entries 5 and 6). In stark contrast, diphenyl diselenide ([Se]‐4) emerged as a uniquely competent reagent, furnishing the desired β‐selenide 3a in an excellent 91% yield with outstanding regioselectivity (18:1 rr) and enantiomeric ratio (97:3 er) (Table 1, entry 4). These outcomes clearly demonstrate that the unique SET‐active architecture of the diselenide framework is strictly required to engage with the active NiH catalyst and enable efficient catalytic turnover. This finding effectively reconciles the apparent limitation of atom economy; while a diselenide theoretically offers lower atom efficiency than selenyl halides, the latter is chemically inert within this catalytic system, making the diselenide framework an indispensable choice for successful hydroselenylation. To further probe the roles of the individual reaction components, a series of control experiments was conducted using diphenyl diselenide ([Se]‐4) as the standard selenium source. Omitting the benzyl bromide scavenger resulted in a dramatic collapse in efficiency, yielding only 11% of the product (Table 1, entry 7). This observation strongly supports our hypothesis that single‐electron reduction of the diselenide generates an equivalent of a nucleophilic selenolate anion (Se−) that poisons the nickel catalyst; the presence of benzyl bromide is therefore essential to cleanly intercept this transient byproduct as benzyl phenyl selenide and maintain catalyst viability. Similarly, replacing NaBF4 with simple fluoride salts such as NaF or CsF afforded 3a in only 8% yield (Table 1, entry 8), corresponding to less than one turnover under the standard catalyst loading. These results support the importance of the weakly coordinating BF4− counteranion in maintaining cationic nickel intermediates and enabling efficient catalyst regeneration. Reducing the catalyst loading to 5.0 mol% Ni and 6.0 mol% L* marginally decreased the yield to 87% (Table 1, entry 9). Substituting NiBr2·glyme for NiCl2·glyme or replacing (MeO)2MeSiH with Ph2SiH2 led to slightly diminished yields of 89% and 81%, respectively (Table 1, entries 10 and 11), while maintaining high stereoselectivities. Optimization was finalized by increasing the BnBr loading to 2.0 equivalents, which provided 3a in an exceptional 95% isolated yield without compromising the regio‐ or enantioselectivity (17:1 rr, 97:3 er, Table 1, entry 12). The inclusion of Na2CO3 was found to be essential, as its omission led to severe suppression of the reaction, presumably by preventing protonation of transient selenium intermediates into inhibitory selenol species. Omitting either the nickel catalyst or the silane completely halted the reaction (Table 1, entry 13), confirming the necessity of the NiH system. Finally, replacing diphenyl diselenide with diphenyl disulfide afforded the corresponding hydrothiolation product in only 7% yield (Scheme S1). The diminished reactivity is consistent with the more negative reduction potential of PhSSPh and the greater strength of the S─S bond, identifying sulfur electrophiles as a current limitation of the catalytic system.",
+    "source_location": "Primary XML //body//p[5]; Table 1",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "mismatch",
+    "activation_match": "mismatch",
+    "endpoint_match": "mismatch",
+    "match_rationale": "Source compares selenium donor forms within a nonfluorinated NiH/silane manifold; project uses RCOCH2CF3 and a different recorded catalyst regime.",
+    "principles": [
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Donor/catalyst compatibility and turnover constraint; not a project-specific negative observation.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1002/advs.77070",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "acceptor_match:mismatch",
+      "activation_match:mismatch",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L344-02",
+    "source_id": "L344",
+    "claim": "Diphenyl diselenide furnished the beta-selenide in 91% NMR yield under the compared NiH conditions.",
+    "observation_kind": "measured_positive",
+    "source_passage": "To realize this design principle, we sought to identify a selenium source compatible with single‐electron transfer (SET) processes under NiH catalysis [32, 33, 34, 35, 36, 37, 38, 39, 40, 41]. We initiated our investigation by evaluating various selenium‐transfer reagents for the asymmetric hydroselenylation of N‐phenylbut‐3‐enamide (1a) using NiBr2·glyme (10 mol%) and L* (12 mol%) in the presence of (MeO)2MeSiH, Na2CO3 (2.0 equiv), and the additive BnBr (1.0 equiv) and NaBF4 (1.0 equiv) in THF at 25°C (Table 1 and Tables S1–S5). Crucially, despite the presence of the trapping agent and salt additive—the latter of which is known to promote fluoride‐assisted silane activation and accelerate Ni─H formation [37, 38, 39, 40, 42, 43], conventional electrophilic selenium sources proved completely unreactive. Nucleophilic phenyl selenol ([Se]‐1) and traditional electrophilic selenyl halides ([Se]‐2 and [Se]‐3) failed to deliver any of the desired product (Table 1, entries 1–3). This lack of reactivity underscores their fundamental incompatibility with the highly reducing NiH manifold. Selenols readily generate strongly coordinating selenolate species that form catalytically dead‐end off‐cycle Ni─Se species, while selenyl halides are prone to rapid, unproductive reduction or the formation of robust, stable Ni─Se/Ni─X coordinates under these basic, reducing conditions [44]. Similarly, phthalimide‐ and tosyl‐substituted selenium sources ([Se]‐5 and [Se]‐6) were entirely unproductive under these fully optimized conditions (Table 1, entries 5 and 6). In stark contrast, diphenyl diselenide ([Se]‐4) emerged as a uniquely competent reagent, furnishing the desired β‐selenide 3a in an excellent 91% yield with outstanding regioselectivity (18:1 rr) and enantiomeric ratio (97:3 er) (Table 1, entry 4). These outcomes clearly demonstrate that the unique SET‐active architecture of the diselenide framework is strictly required to engage with the active NiH catalyst and enable efficient catalytic turnover. This finding effectively reconciles the apparent limitation of atom economy; while a diselenide theoretically offers lower atom efficiency than selenyl halides, the latter is chemically inert within this catalytic system, making the diselenide framework an indispensable choice for successful hydroselenylation. To further probe the roles of the individual reaction components, a series of control experiments was conducted using diphenyl diselenide ([Se]‐4) as the standard selenium source. Omitting the benzyl bromide scavenger resulted in a dramatic collapse in efficiency, yielding only 11% of the product (Table 1, entry 7). This observation strongly supports our hypothesis that single‐electron reduction of the diselenide generates an equivalent of a nucleophilic selenolate anion (Se−) that poisons the nickel catalyst; the presence of benzyl bromide is therefore essential to cleanly intercept this transient byproduct as benzyl phenyl selenide and maintain catalyst viability. Similarly, replacing NaBF4 with simple fluoride salts such as NaF or CsF afforded 3a in only 8% yield (Table 1, entry 8), corresponding to less than one turnover under the standard catalyst loading. These results support the importance of the weakly coordinating BF4− counteranion in maintaining cationic nickel intermediates and enabling efficient catalyst regeneration. Reducing the catalyst loading to 5.0 mol% Ni and 6.0 mol% L* marginally decreased the yield to 87% (Table 1, entry 9). Substituting NiBr2·glyme for NiCl2·glyme or replacing (MeO)2MeSiH with Ph2SiH2 led to slightly diminished yields of 89% and 81%, respectively (Table 1, entries 10 and 11), while maintaining high stereoselectivities. Optimization was finalized by increasing the BnBr loading to 2.0 equivalents, which provided 3a in an exceptional 95% isolated yield without compromising the regio‐ or enantioselectivity (17:1 rr, 97:3 er, Table 1, entry 12). The inclusion of Na2CO3 was found to be essential, as its omission led to severe suppression of the reaction, presumably by preventing protonation of transient selenium intermediates into inhibitory selenol species. Omitting either the nickel catalyst or the silane completely halted the reaction (Table 1, entry 13), confirming the necessity of the NiH system. Finally, replacing diphenyl diselenide with diphenyl disulfide afforded the corresponding hydrothiolation product in only 7% yield (Scheme S1). The diminished reactivity is consistent with the more negative reduction potential of PhSSPh and the greater strength of the S─S bond, identifying sulfur electrophiles as a current limitation of the catalytic system.",
+    "source_location": "Primary XML //body//p[5]; Table 1",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "mismatch",
+    "acceptor_match": "mismatch",
+    "activation_match": "mismatch",
+    "endpoint_match": "mismatch",
+    "match_rationale": "Source compares selenium donor forms within a nonfluorinated NiH/silane manifold; project uses RCOCH2CF3 and a different recorded catalyst regime.",
+    "principles": [
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Donor/catalyst compatibility and turnover constraint; not a project-specific negative observation.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1002/advs.77070",
+    "target_negative": false,
+    "assessment": "unsupported_transfer",
+    "reasons": [
+      "donor_form_match:mismatch",
+      "acceptor_match:mismatch",
+      "activation_match:mismatch",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L344-03",
+    "source_id": "L344",
+    "claim": "Omitting BnBr reduced the reported NMR yield from 91% to 11%; this is a condition effect, not absence of C–Se chemistry.",
+    "observation_kind": "measured_condition_effect",
+    "source_passage": "To realize this design principle, we sought to identify a selenium source compatible with single‐electron transfer (SET) processes under NiH catalysis [32, 33, 34, 35, 36, 37, 38, 39, 40, 41]. We initiated our investigation by evaluating various selenium‐transfer reagents for the asymmetric hydroselenylation of N‐phenylbut‐3‐enamide (1a) using NiBr2·glyme (10 mol%) and L* (12 mol%) in the presence of (MeO)2MeSiH, Na2CO3 (2.0 equiv), and the additive BnBr (1.0 equiv) and NaBF4 (1.0 equiv) in THF at 25°C (Table 1 and Tables S1–S5). Crucially, despite the presence of the trapping agent and salt additive—the latter of which is known to promote fluoride‐assisted silane activation and accelerate Ni─H formation [37, 38, 39, 40, 42, 43], conventional electrophilic selenium sources proved completely unreactive. Nucleophilic phenyl selenol ([Se]‐1) and traditional electrophilic selenyl halides ([Se]‐2 and [Se]‐3) failed to deliver any of the desired product (Table 1, entries 1–3). This lack of reactivity underscores their fundamental incompatibility with the highly reducing NiH manifold. Selenols readily generate strongly coordinating selenolate species that form catalytically dead‐end off‐cycle Ni─Se species, while selenyl halides are prone to rapid, unproductive reduction or the formation of robust, stable Ni─Se/Ni─X coordinates under these basic, reducing conditions [44]. Similarly, phthalimide‐ and tosyl‐substituted selenium sources ([Se]‐5 and [Se]‐6) were entirely unproductive under these fully optimized conditions (Table 1, entries 5 and 6). In stark contrast, diphenyl diselenide ([Se]‐4) emerged as a uniquely competent reagent, furnishing the desired β‐selenide 3a in an excellent 91% yield with outstanding regioselectivity (18:1 rr) and enantiomeric ratio (97:3 er) (Table 1, entry 4). These outcomes clearly demonstrate that the unique SET‐active architecture of the diselenide framework is strictly required to engage with the active NiH catalyst and enable efficient catalytic turnover. This finding effectively reconciles the apparent limitation of atom economy; while a diselenide theoretically offers lower atom efficiency than selenyl halides, the latter is chemically inert within this catalytic system, making the diselenide framework an indispensable choice for successful hydroselenylation. To further probe the roles of the individual reaction components, a series of control experiments was conducted using diphenyl diselenide ([Se]‐4) as the standard selenium source. Omitting the benzyl bromide scavenger resulted in a dramatic collapse in efficiency, yielding only 11% of the product (Table 1, entry 7). This observation strongly supports our hypothesis that single‐electron reduction of the diselenide generates an equivalent of a nucleophilic selenolate anion (Se−) that poisons the nickel catalyst; the presence of benzyl bromide is therefore essential to cleanly intercept this transient byproduct as benzyl phenyl selenide and maintain catalyst viability. Similarly, replacing NaBF4 with simple fluoride salts such as NaF or CsF afforded 3a in only 8% yield (Table 1, entry 8), corresponding to less than one turnover under the standard catalyst loading. These results support the importance of the weakly coordinating BF4− counteranion in maintaining cationic nickel intermediates and enabling efficient catalyst regeneration. Reducing the catalyst loading to 5.0 mol% Ni and 6.0 mol% L* marginally decreased the yield to 87% (Table 1, entry 9). Substituting NiBr2·glyme for NiCl2·glyme or replacing (MeO)2MeSiH with Ph2SiH2 led to slightly diminished yields of 89% and 81%, respectively (Table 1, entries 10 and 11), while maintaining high stereoselectivities. Optimization was finalized by increasing the BnBr loading to 2.0 equivalents, which provided 3a in an exceptional 95% isolated yield without compromising the regio‐ or enantioselectivity (17:1 rr, 97:3 er, Table 1, entry 12). The inclusion of Na2CO3 was found to be essential, as its omission led to severe suppression of the reaction, presumably by preventing protonation of transient selenium intermediates into inhibitory selenol species. Omitting either the nickel catalyst or the silane completely halted the reaction (Table 1, entry 13), confirming the necessity of the NiH system. Finally, replacing diphenyl diselenide with diphenyl disulfide afforded the corresponding hydrothiolation product in only 7% yield (Scheme S1). The diminished reactivity is consistent with the more negative reduction potential of PhSSPh and the greater strength of the S─S bond, identifying sulfur electrophiles as a current limitation of the catalytic system.",
+    "source_location": "Primary XML //body//p[5]; Table 1",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "mismatch",
+    "acceptor_match": "mismatch",
+    "activation_match": "mismatch",
+    "endpoint_match": "mismatch",
+    "match_rationale": "Source compares selenium donor forms within a nonfluorinated NiH/silane manifold; project uses RCOCH2CF3 and a different recorded catalyst regime.",
+    "principles": [
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Donor/catalyst compatibility and turnover constraint; not a project-specific negative observation.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1002/advs.77070",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "donor_form_match:mismatch",
+      "acceptor_match:mismatch",
+      "activation_match:mismatch",
+      "endpoint_match:mismatch",
+      "condition_effect_is_not_an_observed_zero"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L344-04",
+    "source_id": "L344",
+    "claim": "The authors attribute PhSeH incompatibility to coordinating selenolate/off-cycle nickel species; the detailed causal mechanism is an interpretation.",
+    "observation_kind": "author_mechanistic_interpretation",
+    "source_passage": "To realize this design principle, we sought to identify a selenium source compatible with single‐electron transfer (SET) processes under NiH catalysis [32, 33, 34, 35, 36, 37, 38, 39, 40, 41]. We initiated our investigation by evaluating various selenium‐transfer reagents for the asymmetric hydroselenylation of N‐phenylbut‐3‐enamide (1a) using NiBr2·glyme (10 mol%) and L* (12 mol%) in the presence of (MeO)2MeSiH, Na2CO3 (2.0 equiv), and the additive BnBr (1.0 equiv) and NaBF4 (1.0 equiv) in THF at 25°C (Table 1 and Tables S1–S5). Crucially, despite the presence of the trapping agent and salt additive—the latter of which is known to promote fluoride‐assisted silane activation and accelerate Ni─H formation [37, 38, 39, 40, 42, 43], conventional electrophilic selenium sources proved completely unreactive. Nucleophilic phenyl selenol ([Se]‐1) and traditional electrophilic selenyl halides ([Se]‐2 and [Se]‐3) failed to deliver any of the desired product (Table 1, entries 1–3). This lack of reactivity underscores their fundamental incompatibility with the highly reducing NiH manifold. Selenols readily generate strongly coordinating selenolate species that form catalytically dead‐end off‐cycle Ni─Se species, while selenyl halides are prone to rapid, unproductive reduction or the formation of robust, stable Ni─Se/Ni─X coordinates under these basic, reducing conditions [44]. Similarly, phthalimide‐ and tosyl‐substituted selenium sources ([Se]‐5 and [Se]‐6) were entirely unproductive under these fully optimized conditions (Table 1, entries 5 and 6). In stark contrast, diphenyl diselenide ([Se]‐4) emerged as a uniquely competent reagent, furnishing the desired β‐selenide 3a in an excellent 91% yield with outstanding regioselectivity (18:1 rr) and enantiomeric ratio (97:3 er) (Table 1, entry 4). These outcomes clearly demonstrate that the unique SET‐active architecture of the diselenide framework is strictly required to engage with the active NiH catalyst and enable efficient catalytic turnover. This finding effectively reconciles the apparent limitation of atom economy; while a diselenide theoretically offers lower atom efficiency than selenyl halides, the latter is chemically inert within this catalytic system, making the diselenide framework an indispensable choice for successful hydroselenylation. To further probe the roles of the individual reaction components, a series of control experiments was conducted using diphenyl diselenide ([Se]‐4) as the standard selenium source. Omitting the benzyl bromide scavenger resulted in a dramatic collapse in efficiency, yielding only 11% of the product (Table 1, entry 7). This observation strongly supports our hypothesis that single‐electron reduction of the diselenide generates an equivalent of a nucleophilic selenolate anion (Se−) that poisons the nickel catalyst; the presence of benzyl bromide is therefore essential to cleanly intercept this transient byproduct as benzyl phenyl selenide and maintain catalyst viability. Similarly, replacing NaBF4 with simple fluoride salts such as NaF or CsF afforded 3a in only 8% yield (Table 1, entry 8), corresponding to less than one turnover under the standard catalyst loading. These results support the importance of the weakly coordinating BF4− counteranion in maintaining cationic nickel intermediates and enabling efficient catalyst regeneration. Reducing the catalyst loading to 5.0 mol% Ni and 6.0 mol% L* marginally decreased the yield to 87% (Table 1, entry 9). Substituting NiBr2·glyme for NiCl2·glyme or replacing (MeO)2MeSiH with Ph2SiH2 led to slightly diminished yields of 89% and 81%, respectively (Table 1, entries 10 and 11), while maintaining high stereoselectivities. Optimization was finalized by increasing the BnBr loading to 2.0 equivalents, which provided 3a in an exceptional 95% isolated yield without compromising the regio‐ or enantioselectivity (17:1 rr, 97:3 er, Table 1, entry 12). The inclusion of Na2CO3 was found to be essential, as its omission led to severe suppression of the reaction, presumably by preventing protonation of transient selenium intermediates into inhibitory selenol species. Omitting either the nickel catalyst or the silane completely halted the reaction (Table 1, entry 13), confirming the necessity of the NiH system. Finally, replacing diphenyl diselenide with diphenyl disulfide afforded the corresponding hydrothiolation product in only 7% yield (Scheme S1). The diminished reactivity is consistent with the more negative reduction potential of PhSSPh and the greater strength of the S─S bond, identifying sulfur electrophiles as a current limitation of the catalytic system.",
+    "source_location": "Primary XML //body//p[5]; Table 1",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "mismatch",
+    "activation_match": "mismatch",
+    "endpoint_match": "mismatch",
+    "match_rationale": "Source compares selenium donor forms within a nonfluorinated NiH/silane manifold; project uses RCOCH2CF3 and a different recorded catalyst regime.",
+    "principles": [
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Donor/catalyst compatibility and turnover constraint; not a project-specific negative observation.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1002/advs.77070",
+    "target_negative": false,
+    "assessment": "unsupported_transfer",
+    "reasons": [
+      "acceptor_match:mismatch",
+      "activation_match:mismatch",
+      "endpoint_match:mismatch",
+      "interpretation_is_not_a_measured_outcome"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L345-01",
+    "source_id": "L345",
+    "claim": "PhSeH gives the nonfluorinated selenylative alkoxycarbonylation product in 88% GC yield under optimized Pd/CO conditions.",
+    "observation_kind": "measured_positive",
+    "source_passage": "The reaction conditions for the synthesis of β-selenyl acrylate 4aaa were systematically optimized using phenylacetylene (1a, 2.5 equiv), phenylselenol (2a, 1.0 equiv), ethanol (3a, 4.0 equiv), and carbon monoxide (Table ). Initial screening with PdCl2 (10 mol %) and PPh3 (20 mol %) in 1,4-dioxane under 15 bar of CO at 120 °C for 15 h afforded 4aaa in 88% GC yield (entry 1). Control experiments confirmed the indispensability of PdCl2, as its exclusion resulted in complete suppression of product formation (entry 2). Subsequent ligand screening established PPh3 as the optimal ligand (entries 7–19). Electron-deficient ligands such as P­(p-F-C6H4)3 (entry 18) and bidentate DPPF (entry 15) demonstrated moderate catalytic activity, whereas sterically encumbered ligands ( t Bu3P) and flexible diphosphines (DPPBz) significantly impeded the reaction (entries 10 and 11, respectively). Evaluation of palladium precursors revealed that (PhCN)2PdCl2 delivered 4aaa in 77% GC yield (entry 6), while Pd­(OAc)2, Pd­(TFA)2, and Pd­(acac)2 exhibited inferior performance (entries 3–5, respectively). Solvent studies emphasized the critical importance of 1,4-dioxane; substitutions with xylene, THF, DCM, and acetonitrile diminished yields by 13–75% (entries 20–23, respectively), and polar aprotic solvents (DMF and DMSO) resulted in negligible product formation (entries 24 and 25, respectively). Notably, employing ethanol (3a) as the solvent drastically reduced the efficiency (entry 26, 16% GC yield). Further optimization of the CO pressure determined the optimal condition to be 15 bar, with deviations to 10 or 20 bar leading to diminished yields (entry 27 or 28, respectively). Intriguingly, the addition of bases (Na2CO3, Et3N, etc.) suppressed catalytic activity (entries 29–32), indicating that external activation of the nucleophilic species is unnecessary.",
+    "source_location": "Primary XML //body//p[4]",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "mismatch",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "PhSeH and Pd are chemically relevant, but alkyne/CO/ethanol, high CO pressure and products differ from the fluorinated-carbonyl target.",
+    "principles": [
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Condition-specific compatibility concern with explicit positive counterevidence.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1021/acs.orglett.5c02491",
+    "target_negative": false,
+    "assessment": "unsupported_transfer",
+    "reasons": [
+      "acceptor_match:mismatch",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L345-02",
+    "source_id": "L345",
+    "claim": "Added bases including Na2CO3 and Et3N suppress catalytic activity; DMF and DMSO give negligible product in this Pd/CO reaction.",
+    "observation_kind": "measured_condition_effect",
+    "source_passage": "The reaction conditions for the synthesis of β-selenyl acrylate 4aaa were systematically optimized using phenylacetylene (1a, 2.5 equiv), phenylselenol (2a, 1.0 equiv), ethanol (3a, 4.0 equiv), and carbon monoxide (Table ). Initial screening with PdCl2 (10 mol %) and PPh3 (20 mol %) in 1,4-dioxane under 15 bar of CO at 120 °C for 15 h afforded 4aaa in 88% GC yield (entry 1). Control experiments confirmed the indispensability of PdCl2, as its exclusion resulted in complete suppression of product formation (entry 2). Subsequent ligand screening established PPh3 as the optimal ligand (entries 7–19). Electron-deficient ligands such as P­(p-F-C6H4)3 (entry 18) and bidentate DPPF (entry 15) demonstrated moderate catalytic activity, whereas sterically encumbered ligands ( t Bu3P) and flexible diphosphines (DPPBz) significantly impeded the reaction (entries 10 and 11, respectively). Evaluation of palladium precursors revealed that (PhCN)2PdCl2 delivered 4aaa in 77% GC yield (entry 6), while Pd­(OAc)2, Pd­(TFA)2, and Pd­(acac)2 exhibited inferior performance (entries 3–5, respectively). Solvent studies emphasized the critical importance of 1,4-dioxane; substitutions with xylene, THF, DCM, and acetonitrile diminished yields by 13–75% (entries 20–23, respectively), and polar aprotic solvents (DMF and DMSO) resulted in negligible product formation (entries 24 and 25, respectively). Notably, employing ethanol (3a) as the solvent drastically reduced the efficiency (entry 26, 16% GC yield). Further optimization of the CO pressure determined the optimal condition to be 15 bar, with deviations to 10 or 20 bar leading to diminished yields (entry 27 or 28, respectively). Intriguingly, the addition of bases (Na2CO3, Et3N, etc.) suppressed catalytic activity (entries 29–32), indicating that external activation of the nucleophilic species is unnecessary.",
+    "source_location": "Primary XML //body//p[4]",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "mismatch",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "PhSeH and Pd are chemically relevant, but alkyne/CO/ethanol, high CO pressure and products differ from the fluorinated-carbonyl target.",
+    "principles": [
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Condition-specific compatibility concern with explicit positive counterevidence.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1021/acs.orglett.5c02491",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "acceptor_match:mismatch",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch",
+      "condition_effect_is_not_an_observed_zero"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L345-03",
+    "source_id": "L345",
+    "claim": "Dimethyl diselenide gives less than 5% product under standard conditions, distinct from the productive PhSeH donor.",
+    "observation_kind": "measured_condition_effect",
+    "source_passage": "To assess the versatility of this alkoxycarbonylation platform, we first investigated various alcohols and phenylselenols (Scheme ). Primary alcohols exhibited excellent reactivity, with methanol (3b), ethanol (3a), and n-butanol (3c) delivering β-selenyl acrylates 4aaa–4aac, respectively, in 81–88% isolated yields. Secondary alcohols demonstrated moderate efficiency, as evidenced by isopropyl alcohol (3d, 71%) and iso-butanol (3e, 69%), while cyclohexanol (3f) retained high reactivity (87% yield), indicating that the cyclic structure did not significantly impede reactivity. Notably, tertiary alcohol 3g remained compatible, affording 4aag in 63% yield, despite inherent steric constraints. The methodology tolerated diverse functional groups on aliphatic chains. Ethylene glycol monoethyl ether (3h) containing an ethoxy group provided 4aah in 58% yield, while halogenated alcohols bearing -F, -CF2H, -Br, -Cl, and -CCl3 substituents efficiently generated 4aai–4aam, respectively, with products displaying potential for downstream derivatization. Additionally, but-3-en-1-ol (3n) delivered 4aan in 66% yield. Substituted benzyl alcohols also performed effectively, with p-phenylbenzyl alcohol (3o) and p-methoxybenzyl alcohol (3p) affording 4aao (50%) and 4aap (73%), respectively. However, no desired product was detected when phenol was tested as the substrate here. Finally, we also extended the scope to some substituted phenylselenols. 4-Fluorophenylselenol (2b) and 4-chlorophenylselenol (2c) furnished compounds 4aba and 4aca, respectively, in 81–83% yields. In contrast, dimethyl diselenide (2d) displayed negligible reactivity (<5% yield) under the standard conditions perhaps due to its low reactivity toward oxidative addition with palladium.",
+    "source_location": "Primary XML //body//p[6]",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "mismatch",
+    "acceptor_match": "mismatch",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "PhSeH and Pd are chemically relevant, but alkyne/CO/ethanol, high CO pressure and products differ from the fluorinated-carbonyl target.",
+    "principles": [
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Condition-specific compatibility concern with explicit positive counterevidence.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1021/acs.orglett.5c02491",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "donor_form_match:mismatch",
+      "acceptor_match:mismatch",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch",
+      "condition_effect_is_not_an_observed_zero"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L345-04",
+    "source_id": "L345",
+    "claim": "PhSeSePh formed from PhSeH affords the carbonylated product in 91%; diselenide formation is not automatic deactivation.",
+    "observation_kind": "measured_positive",
+    "source_passage": "Mechanistic investigations were conducted to elucidate the reaction pathway (Scheme , section 3). Under the standard conditions without ethanol, phenylacetylene (1a) and phenylselenol (2a) underwent hydroselenation to afford phenyl­(styryl)­selane (7) as a potential intermediate. However, subjecting 7 to the catalytic system with ethanol failed to generate 4aaa, excluding its role as an intermediate (Scheme , section 3b). Similarly, (Z)-(1-phenylethene-1,2-diyl)­bis­(phenylselane) (8) did not produce 4aaa when reacted with ethanol and CO (Scheme , section 3c). Notably, phenylselenol (2a) self-coupled to form 1,2-diphenyldiselane (2e) in the absence of an alkyne and alcohol. This reaction may start with oxidative addition between LPd(0) and PhSeH to give PhSe-LPd-H and then X-ligand exchange with another molecule of PhSeH to give PeSe-Pd-SePh that will release PhSeSePh after reductive elimination. Crucially, 2e reacted efficiently with phenylacetylene (1a), CO, and ethanol under the standard conditions, delivering 4aaa in 91% yield (Scheme , section 3a), implicating 2e as a plausible catalytic intermediate. Finally, pathways involving prealkoxycarbonylation of the alkyne followed by selenation were conclusively ruled out (Scheme , section 3d).",
+    "source_location": "Primary XML //body//p[13]",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "mismatch",
+    "acceptor_match": "mismatch",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "PhSeH and Pd are chemically relevant, but alkyne/CO/ethanol, high CO pressure and products differ from the fluorinated-carbonyl target.",
+    "principles": [
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Condition-specific compatibility concern with explicit positive counterevidence.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1021/acs.orglett.5c02491",
+    "target_negative": false,
+    "assessment": "unsupported_transfer",
+    "reasons": [
+      "donor_form_match:mismatch",
+      "acceptor_match:mismatch",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L347-01",
+    "source_id": "L347",
+    "claim": "Diphenyl diselenide changes hydroazolation selectivity and is not consumed by a hydroselenolation side reaction under the reported photocatalytic conditions.",
+    "observation_kind": "measured_condition_effect",
+    "source_passage": "In the initial reaction design, we aimed to generate azole radicals that would react with gem-difluoroalkenes to afford carbon-centered radical intermediate 8, which, after quenching by a hydrogen atom transfer (HAT) step, would deliver the desired (azole)N–CF2R (11). This strategy was inspired by previous reports of gem-difluoroalkene hydrothiolation that are initiated by a photocatalyst-mediated oxidation/PCET of thiols that generates thiyl radicals.45–47 To test this hypothesis, photocatalysts spanning a range of excited state reduction potentials were reacted with benzimidazole and electron-rich gem-difluorostyrene 10a as model substrates on a 50 μmol scale (Table 1, entries 1–6). Conversion of the gem-difluorostyrene occurred only when photocatalysts with excited state reduction potentials greater than +0.45 V were employed; however, only trace product formed (entries 4–6). Instead, these reactions formed monofluorovinyl azole side-product 12, suggesting that the system lacked an adequate hydrogen atom source to quench presumed radical intermediate 8 (see Scheme S5 for a mechanistic proposal for the formation of side-products 12 and 13). Initial attempts to identify catalytic additives that could donate hydrogen atoms and generate desired product 11aa (e.g., arylamines, N-hydroxyphthalimide (NHP), silanes, and thiols) failed to increase selectivity for the desired (azole)N–CF2R 11aa (entries 7–10). However, dichalcogenide additives improved the reaction (entries 11–14), with the best yield and selectivity observed with (PhSe)2 (entry 14). Notably, (PhSe)2 was not consumed by a hydroselenolation side-reaction with gem-difluorostyrene 10a, which distinguishes the diselenide from a more common disulfide additive (entry 11).48,49 Reduction of (PhSe)2 loading from 20% to 5% further improved reaction performance (entry 15). Final optimization on a 0.50 mmol scale revealed optimal loadings of reagents [1.2 equiv. azole, 5% (PhSe)2, and 5% PC-I], solvent (DCE, Table S2), and concentration (0.25 M). Additionally, while the presence of H2O (up to 1 equiv.) had no deleterious effect on the reaction, O2 was detrimental. In parallel efforts, an alternate set of conditions derived from a previously reported gem-difluoroalkene hydroalkoxylation reaction44 were developed for the more strongly oxidizing PC-II [1.2 equiv. azole, 5% (PhSe)2, 3% PC-II, 0.25 M PhMe, Table S4] and would eventually be essential for certain substrates. Control experiments verified that photocatalyst, visible light, and (PhSe)2 were all necessary for successful hydroazolation of gem-difluorostyrenes (Table S1).",
+    "source_location": "Primary XML //body//p[6]",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "mismatch",
+    "acceptor_match": "adjacent",
+    "activation_match": "mismatch",
+    "endpoint_match": "mismatch",
+    "match_rationale": "The coupling nucleophile is an azole; selenium is a cocatalyst/HAT participant. Photoredox CF2 retention does not test direct project C–Se formation.",
+    "principles": [
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Competing donor roles and fluorination-endpoint control, without assigning target PhSeH failure.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc04074d",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "donor_form_match:mismatch",
+      "acceptor_match:adjacent",
+      "activation_match:mismatch",
+      "endpoint_match:mismatch",
+      "condition_effect_is_not_an_observed_zero"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L347-02",
+    "source_id": "L347",
+    "claim": "Benzimidazole affords the CF2-retaining product in 87%; several azaindoles instead furnish monofluorovinyl products.",
+    "observation_kind": "measured_alternative_endpoint",
+    "source_passage": "A range of azoles successfully reacted with gem-difluorostyrene 10a using the optimized PC-I conditions (Table 2). Specifically, unsubstituted benzimidazole reacted to afford product 11aa in 87% yield. 5-Monosubstituted benzimidazoles bearing electron-withdrawing –Cl, –Br, –CO2Me, and –NO2 groups reacted with moderate to excellent yield (11ab–ae, 40–91%). A mixture of N-regioisomers was generated, but the 6-substituted products predominated, for which the major regioisomer was assigned by a combination of X-ray crystallography (see Data availability on p. 8) and 1H{19F} Nuclear Overhauser Effect (NOE) NMR. Other benzannulated azoles, such as indazoles (11af and 11ag, 92% and 61%) and benzotriazole (11ah, 96%) reacted with good yield and near exclusive regioselectivities. Notably, the high N2-regioselectivity for indazoles 11af and 11ag supports a process involving nucleophilic C–N bond formation from a neutral indazole molecule.50 Additionally, the FDA-approved drugs theophylline and triclabendazole were reacted with these conditions (11ai and 11aj, 43% and 86%). 7-Azaindoles also coupled successfully with slight alterations to the standard conditions, albeit in low yields and with long reaction times (11ak and 11al, 13% and 20%, 46 h and 44 h). Interestingly, these reactions exhibit exclusive N-regioselectivity for functionalization at the pyridyl nitrogen rather than the indole nitrogen, which is consistent with the observed inability of indoles to react in this system. However, 6-, 5-, and 4-azaindoles do not achieve net hydrofunctionalization and instead form monofluorovinyl azaindole products (ArCH = CFN(azaindole), 7).",
+    "source_location": "Primary XML //body//p[11]",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "mismatch",
+    "acceptor_match": "adjacent",
+    "activation_match": "mismatch",
+    "endpoint_match": "mismatch",
+    "match_rationale": "The coupling nucleophile is an azole; selenium is a cocatalyst/HAT participant. Photoredox CF2 retention does not test direct project C–Se formation.",
+    "principles": [
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Competing donor roles and fluorination-endpoint control, without assigning target PhSeH failure.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc04074d",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "donor_form_match:mismatch",
+      "acceptor_match:adjacent",
+      "activation_match:mismatch",
+      "endpoint_match:mismatch",
+      "alternative_endpoint_is_not_target_failure"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L347-03",
+    "source_id": "L347",
+    "claim": "The authors propose that selenium-derived intermediates regenerate the photocatalyst, remove a proton and transfer a hydrogen atom, directing formation of the CF2-retaining product.",
+    "observation_kind": "author_mechanistic_interpretation",
+    "source_passage": "Notably, in this process, PhSe-containing intermediates facilitate a polar/radical crossover event by acting as (1) an oxidant to turn over ground-state photocatalyst (17 → 18), (2) a Brønsted base (18 → 19), and (3) a hydrogen atom source (19 → 17), respectively, as supported by a variety of physicochemical measurements. Specifically, blue light initiates the homolytic fragmentation of (PhSe)2 to form selenyl radical 17,55,56 which serves as an oxidant for reduced-state photocatalysts PC-I [E1/2(PC-IIII/PC-III) = −1.07 V]41 or PC-II [E1/2(PC-II+/PC-II˙) = −0.97 V]42 to regenerate ground-state photocatalysts PC-I/II and form selenolate 18. (PhSe)2 does not directly oxidize the reduced-state photocatalysts given its low measured reduction potential (Ep = −1.8 V). Subsequently, selenolate 18 (pKa = 4.60 in H2O)57 sequesters the proton from radical cation 15 to generate carbon-centered radical 16 and selenol 19. Finally, hydrogen atom abstraction from selenol 19 [BDE = 78 ± 4 kcal mol−1 (H–SePh)]58 by radical 16 [BDE = ∼85–96 kcal mol−1 (H–C)]59 affords (azole)N–CF2R product 11 and regenerates selenyl radical 17. Interestingly, multiple radical traps did not inhibit the reaction (Table S7), which could indicate that the sequence of 15 + 18 → 16 + 19 → 17 + 11 occurs rapidly within the solvent cage.",
+    "source_location": "Primary XML //body//p[26]",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "mismatch",
+    "acceptor_match": "adjacent",
+    "activation_match": "mismatch",
+    "endpoint_match": "mismatch",
+    "match_rationale": "The coupling nucleophile is an azole; selenium is a cocatalyst/HAT participant. Photoredox CF2 retention does not test direct project C–Se formation.",
+    "principles": [
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C100"
+    ],
+    "target_application": "Competing donor roles and fluorination-endpoint control, without assigning target PhSeH failure.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d5sc04074d",
+    "target_negative": false,
+    "assessment": "unsupported_transfer",
+    "reasons": [
+      "donor_form_match:mismatch",
+      "acceptor_match:adjacent",
+      "activation_match:mismatch",
+      "endpoint_match:mismatch",
+      "interpretation_is_not_a_measured_outcome"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L370-01",
+    "source_id": "L370",
+    "claim": "Ph2PH gives no desired coupling with the tested nonfluorinated terminal allene.",
+    "observation_kind": "measured_no_target",
+    "source_passage": "In a control experiment using a non-fluorinated terminal allene, no desired coupling was observed, which further substantiated the critical role of the gem-difluoro group to ensure reactivity (Scheme 6b).",
+    "source_location": "Author-hosted PDF p. 4; normalized extracted text",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "mismatch",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "P(III)–H form is matched to the stated candidate; Pd catalyst and ligand/temperature manifold are not the project Pd168 conditions; allene and CF2 endpoint differ.",
+    "principles": [
+      "RP1",
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C095"
+    ],
+    "target_application": "Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1021/acs.orglett.3c02031",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "acceptor_match:mismatch",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L370-02",
+    "source_id": "L370",
+    "claim": "Cy2PH and tBu2PH showed no reactivity under varied conditions; substrate inhibition is the authors' proposed explanation.",
+    "observation_kind": "measured_no_target",
+    "source_passage": "In contrast, no reactivity was observed for dialkylphsophines such as Cy 2 PH and t Bu 2 PH under various reaction conditions, possibly due to substrate inhibition.",
+    "source_location": "Author-hosted PDF p. 3; normalized extracted text",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "mismatch",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "P(III)–H form is matched to the stated candidate; Pd catalyst and ligand/temperature manifold are not the project Pd168 conditions; allene and CF2 endpoint differ.",
+    "principles": [
+      "RP1",
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C094"
+    ],
+    "target_application": "Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1021/acs.orglett.3c02031",
+    "target_negative": false,
+    "assessment": "conditional_caution",
+    "reasons": [
+      "acceptor_match:mismatch",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": false,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L370-03",
+    "source_id": "L370",
+    "claim": "The optimized gem-difluoroallene/Ph2PH reaction affords product in 83% isolated yield after oxidation; the source reports a CF2-retaining allylic phosphorus product.",
+    "observation_kind": "measured_positive",
+    "source_passage": "Finally, the reaction was subjected to −20 °C for a prolonged reaction time, delivering the target product 3aa in 83% isolated yield and 95:5 e.r. (entry 13). In all cases, only the γ-selective product was detected.",
+    "source_location": "Author-hosted PDF p. 2; normalized extracted text",
+    "source_access": "primary_full_text",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "mismatch",
+    "activation_match": "adjacent",
+    "endpoint_match": "mismatch",
+    "match_rationale": "P(III)–H form is matched to the stated candidate; Pd catalyst and ligand/temperature manifold are not the project Pd168 conditions; allene and CF2 endpoint differ.",
+    "principles": [
+      "RP1",
+      "RP2",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C095"
+    ],
+    "target_application": "Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1021/acs.orglett.3c02031",
+    "target_negative": false,
+    "assessment": "unsupported_transfer",
+    "reasons": [
+      "acceptor_match:mismatch",
+      "activation_match:adjacent",
+      "endpoint_match:mismatch"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  },
+  {
+    "record_id": "L350-01",
+    "source_id": "L350",
+    "claim": "Ph2PH affords a fluorovinyl phosphine in 37% yield before unsuccessful subsequent HF addition. The first-stage C–P product is positive evidence in its reported scaffold.",
+    "observation_kind": "measured_positive",
+    "source_passage": "diphenylphosphine undergoes the addition/elimination sequence with 1 to afford the corresponding fluorovinyl phosphine interemediate in moderate yield (37% yield) under standard conditions",
+    "source_location": "SI S15, III, Phosphine pronucleophiles",
+    "source_access": "primary_supporting_information",
+    "scope": "tested_reaction",
+    "donor_form_match": "exact",
+    "acceptor_match": "adjacent",
+    "activation_match": "adjacent",
+    "endpoint_match": "adjacent",
+    "match_rationale": "Same Ph2PH donor and local monofluorovinyl C–P motif, but different aliphatic CF3 scaffold and no project carbonyl; downstream HF failure is a different endpoint.",
+    "principles": [
+      "RP3",
+      "RP4"
+    ],
+    "candidate_ids": [
+      "C095"
+    ],
+    "target_application": "Mandatory counterevidence to phosphorus-wide exclusion; direct target transfer remains conditional.",
+    "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
+    "doi": "10.1039/d6sc01042c",
+    "target_negative": false,
+    "assessment": "unsupported_transfer",
+    "reasons": [
+      "acceptor_match:adjacent",
+      "activation_match:adjacent",
+      "endpoint_match:adjacent"
+    ],
+    "preserve_positive_evidence": true,
+    "validated_model_prediction": false
+  }
+]

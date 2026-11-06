@@ -1,0 +1,6 @@
+# Portable analysis tested with Python 3.12.14. Original archive requires NumPy only.
+numpy==2.3.5
+# Artwork and PDF integrity checks; no vendored dependencies or font files.
+matplotlib==3.10.7
+Pillow==12.0.0
+pypdf==6.2.0

@@ -1,0 +1,14 @@
+[
+  {
+    "error": "Responses API failure status=None type=TimeoutError code=None: The read operation timed out",
+    "lens": "nitrogen"
+  },
+  {
+    "error": "Responses API failure status=None type=TimeoutError code=None: The read operation timed out",
+    "lens": "oxygen"
+  },
+  {
+    "error": "Responses API failure status=None type=TimeoutError code=None: The read operation timed out",
+    "lens": "sulfur"
+  }
+]

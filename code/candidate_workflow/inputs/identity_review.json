@@ -1,0 +1,665 @@
+{
+  "input_pool_digest": "d84f1bf516636e310736e8d013a67cb6814da3258bf52ebe82ee58a45a184c46",
+  "policy": {
+    "reviewer": "Codex chemistry analyst; name/structure consistency review, not supplier or experimental verification",
+    "default_scope": "Names and submitted SMILES read together; retain explicit precursor structures, preserve all hypotheses and unknown reaction compatibility",
+    "exceptions": {
+      "c1ccc(SSc2ccccc2)cc1": {
+        "decision": "retain",
+        "display_name": "二苯二硫化物",
+        "reason": "Symmetric diphenyl disulfide; equivalent sulfur atoms retained as the source hypothesis, one reagent identity."
+      },
+      "OB(O)c1ccncc1": {
+        "decision": "name_corrected",
+        "display_name": "吡啶-4-硼酸",
+        "reason": "Submitted structure has the ring nitrogen para to the boronic acid position; original name said pyridin-3-yl. Preserve structure and correct display name; do not silently move the boron position."
+      },
+      "C=C[Si](C)(C)C": {
+        "decision": "identity_unresolved",
+        "display_name": "乙烯基三甲基硅烷结构／烯丙基名称冲突",
+        "reason": "Submitted structure lacks the allylic CH2 required by both original name and allylic-transfer rationale. Quarantine rather than inventing a corrected reactive structure or changing the claimed mechanism."
+      },
+      "CS(=O)[O-].[Na+]": {
+        "decision": "name_corrected",
+        "display_name": "甲基亚磺酸钠",
+        "reason": "One S=O and one anionic O identify methanesulfinate, not methanesulfonate; original label mixed the two names."
+      },
+      "[Na+].[O-]O": {
+        "decision": "name_corrected",
+        "display_name": "氢过氧化钠（NaOOH）",
+        "reason": "The explicit submitted structure is sodium hydroperoxide, not sodium peroxide. Formulation, stability and operational compatibility remain unverified."
+      },
+      "CCOC(=S)[S-].[K+]": {
+        "decision": "retain",
+        "display_name": "乙基黄原酸钾",
+        "reason": "Same reagent proposed at two sulfur sites; keep both atom-specific hypotheses but one reagent identity."
+      },
+      "CSSc1ccccc1": {
+        "decision": "retain",
+        "display_name": "甲基苯基二硫化物",
+        "reason": "Mixed disulfide is one reagent; retain separate methylthio and phenylthio transfer hypotheses without duplicate molecule count."
+      },
+      "C=C(C)[O-].[Li+]": {
+        "decision": "retain",
+        "display_name": "丙酮烯醇锂（显式离子形式）",
+        "reason": "Keep O- and C-bonding hypotheses for the same enolate precursor; aggregation and actual reactive state are not established by this structure."
+      }
+    },
+    "not_validated": [
+      "commercial availability",
+      "purity or solution formulation",
+      "reaction success",
+      "all regioselectivity claims",
+      "safe common condition set"
+    ],
+    "screening_safety_note": "Air-sensitive organometallics, reactive phosphines, diazonium, azide and peroxide reagents require separate trained-laboratory risk review; do not use the generated blank templates as dosing instructions."
+  },
+  "decisions": [
+    {
+      "candidate_id": "CP-000143ee94b8982f",
+      "decision": "retain",
+      "display_name": "亚磷酸二乙酯",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-02287a1de385889e",
+      "decision": "retain",
+      "display_name": "乙硫醇",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-04e1450f7a0596df",
+      "decision": "retain",
+      "display_name": "烯丙醇",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-08db38349537cc05",
+      "decision": "retain",
+      "display_name": "苯甲酰胺",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-0a28c29fb4c274be",
+      "decision": "retain",
+      "display_name": "烯丙基三甲基硅烷",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-0dde3cbcb235c563",
+      "decision": "retain",
+      "display_name": "2,2,6,6-四甲基哌啶-1-氧自由基（TEMPO）",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-127aad8ad7de9e0a",
+      "decision": "name_corrected",
+      "display_name": "甲基亚磺酸钠",
+      "reason": "One S=O and one anionic O identify methanesulfinate, not methanesulfonate; original label mixed the two names."
+    },
+    {
+      "candidate_id": "CP-13af80fd720ea87f",
+      "decision": "retain",
+      "display_name": "二苯基膦氧化物",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-15984a39bb896abc",
+      "decision": "retain",
+      "display_name": "三叔丁基膦",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-15eeea50cbe27556",
+      "decision": "retain",
+      "display_name": "咪唑",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-168a0c2e4c8e139f",
+      "decision": "retain",
+      "display_name": "吡啶N-氧化物",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-17d78fd2ceec8c4c",
+      "decision": "retain",
+      "display_name": "甲磺酰胺",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-17e086b041c039f5",
+      "decision": "retain",
+      "display_name": "邻苯二甲酰亚胺钾",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-1b58b081277f4aff",
+      "decision": "retain",
+      "display_name": "苯胺锂",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-1f98fe5f121fd9a1",
+      "decision": "name_corrected",
+      "display_name": "吡啶-4-硼酸",
+      "reason": "Submitted structure has the ring nitrogen para to the boronic acid position; original name said pyridin-3-yl. Preserve structure and correct display name; do not silently move the boron position."
+    },
+    {
+      "candidate_id": "CP-205f9fb18ebd4ed6",
+      "decision": "retain",
+      "display_name": "乙基乙烯醚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-2461405780c80fb1",
+      "decision": "retain",
+      "display_name": "2,6-二甲基苯硼酸",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-254b9aa19ec37938",
+      "decision": "retain",
+      "display_name": "哌啶",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-265c0f19c5eb5e56",
+      "decision": "retain",
+      "display_name": "三甲胺",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-2a6be0fb49e1f64e",
+      "decision": "retain",
+      "display_name": "二苯基硫代膦氧化物",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-2ad90a72deb18e8b",
+      "decision": "retain",
+      "display_name": "呋喃",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-2f18674cdee060d7",
+      "decision": "retain",
+      "display_name": "次磷酸钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-3222b1c46b10eff8",
+      "decision": "retain",
+      "display_name": "三苯基膦",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-383b50ba8f0aa496",
+      "decision": "retain",
+      "display_name": "吲哚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-39fbeda7a0fbf2ea",
+      "decision": "retain",
+      "display_name": "氨基氰",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-3a23ccb632c9f44d",
+      "decision": "retain",
+      "display_name": "苯酚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-3be0de0ba1e8a796",
+      "decision": "retain",
+      "display_name": "溴甲基环丙烷",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-3bfd35b3a7b890f1",
+      "decision": "retain",
+      "display_name": "苯硒酚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-3ca04501f77d577c",
+      "decision": "retain",
+      "display_name": "硫氰酸钾",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-48cbdd3aac3823f7",
+      "decision": "retain",
+      "display_name": "三甲基硅醇钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-4adad89fe53a73a6",
+      "decision": "retain",
+      "display_name": "1,3-二甲氧基苯",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-4d2aaa7bf4b8ca67",
+      "decision": "retain",
+      "display_name": "二甲硫醚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-4f781cc37b739293",
+      "decision": "retain",
+      "display_name": "二环己基膦",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-52f3e8b4011bbac2",
+      "decision": "retain",
+      "display_name": "苯乙酮三甲基硅烯醇醚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-586e1196c67c1811",
+      "decision": "retain",
+      "display_name": "亚磷酸二甲酯",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-5934af04c3f8aeb9",
+      "decision": "retain",
+      "display_name": "硝基甲烷钠盐",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-5bf56c0fb6340187",
+      "decision": "retain",
+      "display_name": "叔丁基碘",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-5d0333041aebff88",
+      "decision": "retain",
+      "display_name": "2-萘酚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-60ed269cc272def9",
+      "decision": "retain",
+      "display_name": "苯重氮四氟硼酸盐",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-64837e30f7127abc",
+      "decision": "retain",
+      "display_name": "4-(三氟甲基)苯酚钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-66013c6cea267de7",
+      "decision": "retain",
+      "display_name": "丙酮钠烯醇盐",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-68d791fe27d0090d",
+      "decision": "retain",
+      "display_name": "三正丁基膦",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-6f96d085ca3320a4",
+      "decision": "retain",
+      "display_name": "三甲基氰硅烷",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-7010fb8ed62e0e37",
+      "decision": "retain",
+      "display_name": "二苯基膦",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-719c8ad385fb72f6",
+      "decision": "retain",
+      "display_name": "吡咯",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-71ce6823ee7e14cc",
+      "decision": "retain",
+      "display_name": "苯亚磺酸钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-735e0b557cdf0e0c",
+      "decision": "retain",
+      "display_name": "硫代乙酸钾",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-757e317decd6724d",
+      "decision": "retain",
+      "display_name": "4-溴苯硫酚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-7647ff2ce0052a54",
+      "decision": "retain",
+      "display_name": "二苯二硫化物",
+      "reason": "Symmetric diphenyl disulfide; equivalent sulfur atoms retained as the source hypothesis, one reagent identity."
+    },
+    {
+      "candidate_id": "CP-790a21c83fa3ce0d",
+      "decision": "retain",
+      "display_name": "乙基黄原酸钾",
+      "reason": "Same reagent proposed at two sulfur sites; keep both atom-specific hypotheses but one reagent identity."
+    },
+    {
+      "candidate_id": "CP-7953343be0b435d5",
+      "decision": "retain",
+      "display_name": "噻吩",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-7f278f5db1892723",
+      "decision": "identity_unresolved",
+      "display_name": "乙烯基三甲基硅烷结构／烯丙基名称冲突",
+      "reason": "Submitted structure lacks the allylic CH2 required by both original name and allylic-transfer rationale. Quarantine rather than inventing a corrected reactive structure or changing the claimed mechanism."
+    },
+    {
+      "candidate_id": "CP-7ff7c801adbfac54",
+      "decision": "retain",
+      "display_name": "丙酮烯醇锂（显式离子形式）",
+      "reason": "Keep O- and C-bonding hypotheses for the same enolate precursor; aggregation and actual reactive state are not established by this structure."
+    },
+    {
+      "candidate_id": "CP-8125e5fbd7a0556e",
+      "decision": "retain",
+      "display_name": "溴化苄基锌",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-822684332936c797",
+      "decision": "retain",
+      "display_name": "叔丁醇钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-85359065fe28e8d0",
+      "decision": "retain",
+      "display_name": "苯硫酚钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-8680b11837f9690e",
+      "decision": "retain",
+      "display_name": "甲硫醇铜(I)",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-869e3eb72168d724",
+      "decision": "retain",
+      "display_name": "2-甲基呋喃",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-8af179673435d8d7",
+      "decision": "retain",
+      "display_name": "甲基锂",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-8d11fd6c0d4e62a7",
+      "decision": "retain",
+      "display_name": "苯胺",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-8de27f136fedbba8",
+      "decision": "retain",
+      "display_name": "甲醇钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-9531200cd700e862",
+      "decision": "retain",
+      "display_name": "丙二酸二甲酯钠盐",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-95e4c6bd10d240e3",
+      "decision": "retain",
+      "display_name": "叔丁硫醇",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-9965bc6fbd9116ca",
+      "decision": "retain",
+      "display_name": "亚磷酸三(2,2,2-三氟乙基)酯",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-a48a48bf32050f7b",
+      "decision": "name_corrected",
+      "display_name": "氢过氧化钠（NaOOH）",
+      "reason": "The explicit submitted structure is sodium hydroperoxide, not sodium peroxide. Formulation, stability and operational compatibility remain unverified."
+    },
+    {
+      "candidate_id": "CP-a71435752beee4c8",
+      "decision": "retain",
+      "display_name": "N,N-二甲基乙烯胺",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-a84a97ef9479980c",
+      "decision": "retain",
+      "display_name": "2,3-二氢呋喃",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-a85d32e4db2ff39c",
+      "decision": "retain",
+      "display_name": "甲醇",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-ab85a340b88a5fa0",
+      "decision": "retain",
+      "display_name": "N-羟基邻苯二甲酰亚胺乙酸酯",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-abed28aa627f8929",
+      "decision": "retain",
+      "display_name": "苯甲硫醚（硫代苯甲醚）",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-ae66431c2fbd5738",
+      "decision": "retain",
+      "display_name": "2,2,2-三氟乙醇钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-b18c4945d055e0a6",
+      "decision": "retain",
+      "display_name": "苯硫酚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-b2cf6b111cd50f59",
+      "decision": "retain",
+      "display_name": "1,2,4-三唑",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-b49e6492b8f3b97f",
+      "decision": "retain",
+      "display_name": "苯并噻吩",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-b56d476fec2f52a2",
+      "decision": "retain",
+      "display_name": "正丁胺",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-ba958c6f38d5a527",
+      "decision": "retain",
+      "display_name": "环丙基硼酸",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-c65a9b3d8c110ddb",
+      "decision": "retain",
+      "display_name": "吡唑",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-c92cc6151bc3008b",
+      "decision": "retain",
+      "display_name": "亚磷酸三甲酯",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-cb20f7766b730a70",
+      "decision": "retain",
+      "display_name": "甲醇锂",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-ccb45c231c905174",
+      "decision": "retain",
+      "display_name": "吗啉",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-cda39527d578a1f4",
+      "decision": "retain",
+      "display_name": "三(三甲基硅基)膦",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-d0c9b289504a201f",
+      "decision": "retain",
+      "display_name": "4-(三氟甲基)苯胺",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-d0eb12604107d80c",
+      "decision": "retain",
+      "display_name": "苯乙烯",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-d2ba4020b787a8b0",
+      "decision": "retain",
+      "display_name": "苄基三氟硼酸钾",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-d62c2f4634cac93c",
+      "decision": "retain",
+      "display_name": "甲氧基二苯基膦",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-dab7493e2905b4fb",
+      "decision": "retain",
+      "display_name": "三甲基膦",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-db052eb259749c35",
+      "decision": "retain",
+      "display_name": "甲基苯基二硫化物",
+      "reason": "Mixed disulfide is one reagent; retain separate methylthio and phenylthio transfer hypotheses without duplicate molecule count."
+    },
+    {
+      "candidate_id": "CP-dc11a678a5813bfb",
+      "decision": "retain",
+      "display_name": "苯酚钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-deb4973b3faf0625",
+      "decision": "retain",
+      "display_name": "苯甲醚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-deed3268ff7bd041",
+      "decision": "retain",
+      "display_name": "三环己基膦",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-df56f80eb64eca43",
+      "decision": "retain",
+      "display_name": "1,3,5-三甲氧基苯",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-e61c7ae663276e1e",
+      "decision": "retain",
+      "display_name": "四氢噻吩",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-e7c338a1b0ff4640",
+      "decision": "retain",
+      "display_name": "二苯基锌",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-e81dc06beaa39499",
+      "decision": "retain",
+      "display_name": "水",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-ecb0e8b377ec42c8",
+      "decision": "retain",
+      "display_name": "二苯基磷化锂",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-efe8367638b4b0e2",
+      "decision": "retain",
+      "display_name": "硫脲",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-f0b88f6468f852c8",
+      "decision": "retain",
+      "display_name": "三甲基硅基叠氮",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-f34be542835fcb08",
+      "decision": "retain",
+      "display_name": "1-甲基吲哚",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-f7328591687088c5",
+      "decision": "retain",
+      "display_name": "烯丙醇钠",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-f9dfd61493ca94a4",
+      "decision": "retain",
+      "display_name": "氨",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    },
+    {
+      "candidate_id": "CP-fe84fbfeaab6ca84",
+      "decision": "retain",
+      "display_name": "乙酸甲酯三甲基硅烯酮缩醛",
+      "reason": "Analyst reviewed name and explicit SMILES; chemical compatibility and formulation not established."
+    }
+  ]
+}

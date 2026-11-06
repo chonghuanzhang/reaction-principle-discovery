@@ -1,0 +1,17 @@
+{
+  "study_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1",
+  "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+  "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F",
+  "variable_role": "reaction partner with open competing bond-forming atoms",
+  "bundle": "bundle.json",
+  "model": "gpt-5.6-sol",
+  "panel_budget": 48,
+  "candidate_count": 6,
+  "evidence_per_lens": 8,
+  "per_source_cap": 2,
+  "workers": 2,
+  "lenses": [
+    {"id":"neutral_ambident_aromatics","description":"Coverage expansion: neutral electron-rich aromatic partners, monocyclic and fused bicyclic scaffolds; oxygen-, nitrogen- and sulfur-bearing aromatics; competing carbon versus heteroatom bond formation. Do not restrict to preformed anions.","patterns":["phenol|naphth|heteroarom|aromatic nucleophil|Friedel|electron.rich","fluor|carbonyl|nucleophil"]},
+    {"id":"precursor_state_pairs","description":"Coverage expansion across neutral and ionic precursors: O-H, N-H, S-H, P-H and cleavable element-element donors. Prefer interpretable precursor/state pairs and mixed versus symmetric donors; identify which atom could form the target bond.","patterns":["hydroxyl|phenoxide|thiolate|disulfide|phosphine|amine","activation|base|oxid|fluor"]}
+  ]
+}

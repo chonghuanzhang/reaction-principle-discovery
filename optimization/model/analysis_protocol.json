@@ -1,0 +1,65 @@
+{
+  "version": "validated_v2",
+  "analysis_type": "retrospective_batch_policy_benchmark",
+  "historical_order_claim": false,
+  "original_chemsci_algorithm_reproduced": false,
+  "configuration_status": "fixed before v2 run; project outcomes and exploratory v1 results already known; not preregistered",
+  "routes": [
+    "SH",
+    "NH",
+    "OH"
+  ],
+  "pools": [
+    "SH_PL33",
+    "SH_PL39",
+    "SH_PL40",
+    "NH_PL35",
+    "NH_PL36",
+    "OH_PL34",
+    "OH_PL37",
+    "OH_PL38"
+  ],
+  "initial_batch_size": 12,
+  "subsequent_batch_size": 12,
+  "initial_design": "uniform random without replacement; identical indices for paired BO and random runs",
+  "replicate_seeds": "0..99",
+  "reference_seed": 0,
+  "surrogate": "Bayesian linear regression with normal-inverse-gamma prior, expressed as a finite feature kernel",
+  "prior": {
+    "intercept_variance_factor": 10,
+    "feature_variance_factor": 1,
+    "inverse_gamma_shape": 2,
+    "inverse_gamma_scale": 1
+  },
+  "observed_response_transform": "center and scale only currently revealed responses; unit scale if constant",
+  "acquisition": "posterior latent mean + 1.96 * posterior latent standard deviation",
+  "batch_selection": "top 12 UCB from frozen posterior; seeded random tie-breaking; no within-batch outcome updates",
+  "feature_groups_grid": [
+    "base one-hot",
+    "solvent one-hot",
+    "base-solvent pair one-hot"
+  ],
+  "feature_groups_panel": [
+    "catalyst family one-hot",
+    "SMILES token-count descriptors and simple structural token descriptors, standardized using the unlabeled candidate pool only"
+  ],
+  "primary_evaluation_budget": 48,
+  "metrics": [
+    "batch-end budget to exact pool best",
+    "batch-end budget to 95 percent of pool best",
+    "batch-end budget to actual route condition",
+    "success probability by budget",
+    "paired mean budget saving and bootstrap interval"
+  ],
+  "bootstrap_replicates": 2000,
+  "stopping": "exhaust measured pool; global optimum used only by evaluator, never by optimizer or stopping rule",
+  "exclusions": "PL30 records with different protocols and all substrate-expansion rows excluded from optimization; retained in data audit",
+  "scope": "three independent catalyst panels and five separate condition grids; no unmeasured cross-product oracle; no fabricated end-to-end catalyst-to-grid transition",
+  "known_limitations": [
+    "single measurement per candidate; algorithmic repeats are not wet-lab replicates",
+    "instrument responses are not calibrated yields",
+    "later grids are conditioned on historical catalyst selection",
+    "no new literature provenance reconstruction or new mechanistic validation in this benchmark"
+  ],
+  "implementation_note": "The implemented finite feature kernel is X @ X.T with no independent random-intercept variance. The historical intercept_variance_factor field is not used by bo_core.posterior; revealed responses are centered at each update."
+}

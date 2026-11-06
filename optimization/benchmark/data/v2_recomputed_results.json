@@ -1,0 +1,773 @@
+{
+  "source_workbook": "/Users/chonghuanzhang/Dropbox/reaction_principle/实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
+  "source_sha256": "836f5a17429d0ab5198f0f28038e60df0992787cf9b76ed649c4abf7c7047c16",
+  "analysis_type": "retrospective_batch_policy_benchmark",
+  "algorithm": "conjugate Bayesian linear regression in kernel form + batch UCB",
+  "n_replicates": 100,
+  "n_init": 12,
+  "batch_size": 12,
+  "primary_budget": 48,
+  "paired_initial_design": true,
+  "historical_order_claim": false,
+  "routes": {
+    "SH": {
+      "condition_grids": {
+        "PL39": {
+          "summary": {
+            "n_records": 96,
+            "observed_best": 1.62597402597403,
+            "threshold": 1.5446753246753284,
+            "BO-UCB": {
+              "near_budget": {
+                "median": 24.0,
+                "mean": 24.96
+              },
+              "exact_budget": {
+                "median": 24.0,
+                "mean": 27.72
+              },
+              "target_budget": {
+                "median": null,
+                "mean": null,
+                "reach_fraction": null
+              }
+            },
+            "random": {
+              "near_budget": {
+                "median": 24.0,
+                "mean": 34.8
+              },
+              "exact_budget": {
+                "median": 60.0,
+                "mean": 52.8
+              },
+              "target_budget": {
+                "median": null,
+                "mean": null,
+                "reach_fraction": null
+              }
+            },
+            "paired_near_budget": {
+              "bo_median": 24.0,
+              "random_median": 24.0,
+              "bo_mean": 24.96,
+              "random_mean": 34.8,
+              "median_saving_random_minus_bo": 0.0,
+              "mean_saving_random_minus_bo": 9.84,
+              "bo_success_by_budget": 1.0,
+              "random_success_by_budget": 0.83,
+              "paired_bootstrap_95ci_saving": [
+                6.5969999999999995,
+                13.44
+              ]
+            },
+            "paired_exact_budget": {
+              "bo_median": 24.0,
+              "random_median": 60.0,
+              "bo_mean": 27.72,
+              "random_mean": 52.8,
+              "median_saving_random_minus_bo": 24.0,
+              "mean_saving_random_minus_bo": 25.08,
+              "bo_success_by_budget": 1.0,
+              "random_success_by_budget": 0.49,
+              "paired_bootstrap_95ci_saving": [
+                20.4,
+                29.642999999999983
+              ]
+            }
+          },
+          "observed_best": {
+            "well": "CFC124009-19-PL39-W66",
+            "response": 1.62597402597403,
+            "catalyst": "Ag6",
+            "smiles": "[Ag+].[F-]",
+            "cat": "Ag6",
+            "ligand": "PPh3",
+            "base": "CsOH/2",
+            "solvent": "DCE"
+          },
+          "final_condition_rank": null,
+          "final_condition_rows": []
+        },
+        "PL40": {
+          "summary": {
+            "n_records": 96,
+            "observed_best": 3.20446096654275,
+            "threshold": 3.0442379182156123,
+            "BO-UCB": {
+              "near_budget": {
+                "median": 24.0,
+                "mean": 26.04
+              },
+              "exact_budget": {
+                "median": 24.0,
+                "mean": 26.04
+              },
+              "target_budget": {
+                "median": 24.0,
+                "mean": 26.04,
+                "reach_fraction": 1.0
+              }
+            },
+            "random": {
+              "near_budget": {
+                "median": 48.0,
+                "mean": 51.84
+              },
+              "exact_budget": {
+                "median": 48.0,
+                "mean": 51.84
+              },
+              "target_budget": {
+                "median": 48.0,
+                "mean": 51.84,
+                "reach_fraction": 1.0
+              }
+            },
+            "paired_near_budget": {
+              "bo_median": 24.0,
+              "random_median": 48.0,
+              "bo_mean": 26.04,
+              "random_mean": 51.84,
+              "median_saving_random_minus_bo": 24.0,
+              "mean_saving_random_minus_bo": 25.8,
+              "bo_success_by_budget": 1.0,
+              "random_success_by_budget": 0.51,
+              "paired_bootstrap_95ci_saving": [
+                20.88,
+                30.602999999999984
+              ]
+            },
+            "paired_exact_budget": {
+              "bo_median": 24.0,
+              "random_median": 48.0,
+              "bo_mean": 26.04,
+              "random_mean": 51.84,
+              "median_saving_random_minus_bo": 24.0,
+              "mean_saving_random_minus_bo": 25.8,
+              "bo_success_by_budget": 1.0,
+              "random_success_by_budget": 0.51,
+              "paired_bootstrap_95ci_saving": [
+                20.88,
+                30.602999999999984
+              ]
+            },
+            "paired_target_budget": {
+              "bo_median": 24.0,
+              "random_median": 48.0,
+              "bo_mean": 26.04,
+              "random_mean": 51.84,
+              "median_saving_random_minus_bo": 24.0,
+              "mean_saving_random_minus_bo": 25.8,
+              "bo_success_by_budget": 1.0,
+              "random_success_by_budget": 0.51,
+              "paired_bootstrap_95ci_saving": [
+                20.88,
+                30.602999999999984
+              ]
+            }
+          },
+          "observed_best": {
+            "well": "CFC124009-19-PL40-W66",
+            "response": 3.20446096654275,
+            "catalyst": "Cu9",
+            "smiles": "[Cu+].[Cl-]",
+            "cat": "Cu9",
+            "ligand": "PPh3",
+            "base": "CsOH/2",
+            "solvent": "DCE"
+          },
+          "final_condition_rank": 1,
+          "final_condition_rows": [
+            {
+              "well": "CFC124009-19-PL40-W66",
+              "response": 3.20446096654275,
+              "catalyst": "Cu9",
+              "smiles": "[Cu+].[Cl-]",
+              "cat": "Cu9",
+              "ligand": "PPh3",
+              "base": "CsOH/2",
+              "solvent": "DCE"
+            }
+          ]
+        }
+      },
+      "final_condition": {
+        "cat": "Cu9",
+        "ligand": "PPh3",
+        "base": "CsOH/2",
+        "solvent": "DCE"
+      },
+      "initial_panel": {
+        "plate": "PL33",
+        "n_records": 145,
+        "actual_followup_catalyst_ranks": [
+          {
+            "catalyst": "Ag6",
+            "rank": 5
+          },
+          {
+            "catalyst": "Cu9",
+            "rank": 1
+          }
+        ],
+        "summary": {
+          "n_records": 145,
+          "observed_best": 0.96602658788774,
+          "threshold": 0.917725258493353,
+          "BO-UCB": {
+            "near_budget": {
+              "median": 72.0,
+              "mean": 65.16
+            },
+            "exact_budget": {
+              "median": 72.0,
+              "mean": 65.16
+            },
+            "target_budget": {
+              "median": 60.0,
+              "mean": 56.4,
+              "reach_fraction": 1.0
+            }
+          },
+          "random": {
+            "near_budget": {
+              "median": 84.0,
+              "mean": 78.6
+            },
+            "exact_budget": {
+              "median": 84.0,
+              "mean": 78.6
+            },
+            "target_budget": {
+              "median": 60.0,
+              "mean": 57.0,
+              "reach_fraction": 1.0
+            }
+          },
+          "paired_near_budget": {
+            "bo_median": 72.0,
+            "random_median": 84.0,
+            "bo_mean": 65.16,
+            "random_mean": 78.6,
+            "median_saving_random_minus_bo": 12.0,
+            "mean_saving_random_minus_bo": 13.44,
+            "bo_success_by_budget": 0.16,
+            "random_success_by_budget": 0.29,
+            "paired_bootstrap_95ci_saving": [
+              6.48,
+              20.282999999999983
+            ]
+          },
+          "paired_exact_budget": {
+            "bo_median": 72.0,
+            "random_median": 84.0,
+            "bo_mean": 65.16,
+            "random_mean": 78.6,
+            "median_saving_random_minus_bo": 12.0,
+            "mean_saving_random_minus_bo": 13.44,
+            "bo_success_by_budget": 0.16,
+            "random_success_by_budget": 0.29,
+            "paired_bootstrap_95ci_saving": [
+              6.48,
+              20.282999999999983
+            ]
+          },
+          "paired_target_budget": {
+            "bo_median": 60.0,
+            "random_median": 60.0,
+            "bo_mean": 56.4,
+            "random_mean": 57.0,
+            "median_saving_random_minus_bo": 0.0,
+            "mean_saving_random_minus_bo": 0.6,
+            "bo_success_by_budget": 0.27,
+            "random_success_by_budget": 0.48,
+            "paired_bootstrap_95ci_saving": [
+              -5.28,
+              6.6
+            ]
+          }
+        }
+      }
+    },
+    "NH": {
+      "condition_grids": {
+        "PL36": {
+          "summary": {
+            "n_records": 96,
+            "observed_best": 1.03780376396515,
+            "threshold": 0.9859135757668925,
+            "BO-UCB": {
+              "near_budget": {
+                "median": 36.0,
+                "mean": 41.16
+              },
+              "exact_budget": {
+                "median": 36.0,
+                "mean": 41.16
+              },
+              "target_budget": {
+                "median": 36.0,
+                "mean": 41.16,
+                "reach_fraction": 1.0
+              }
+            },
+            "random": {
+              "near_budget": {
+                "median": 60.0,
+                "mean": 57.6
+              },
+              "exact_budget": {
+                "median": 60.0,
+                "mean": 57.6
+              },
+              "target_budget": {
+                "median": 60.0,
+                "mean": 57.6,
+                "reach_fraction": 1.0
+              }
+            },
+            "paired_near_budget": {
+              "bo_median": 36.0,
+              "random_median": 60.0,
+              "bo_mean": 41.16,
+              "random_mean": 57.6,
+              "median_saving_random_minus_bo": 12.0,
+              "mean_saving_random_minus_bo": 16.44,
+              "bo_success_by_budget": 0.64,
+              "random_success_by_budget": 0.45,
+              "paired_bootstrap_95ci_saving": [
+                11.52,
+                21.482999999999983
+              ]
+            },
+            "paired_exact_budget": {
+              "bo_median": 36.0,
+              "random_median": 60.0,
+              "bo_mean": 41.16,
+              "random_mean": 57.6,
+              "median_saving_random_minus_bo": 12.0,
+              "mean_saving_random_minus_bo": 16.44,
+              "bo_success_by_budget": 0.64,
+              "random_success_by_budget": 0.45,
+              "paired_bootstrap_95ci_saving": [
+                11.52,
+                21.482999999999983
+              ]
+            },
+            "paired_target_budget": {
+              "bo_median": 36.0,
+              "random_median": 60.0,
+              "bo_mean": 41.16,
+              "random_mean": 57.6,
+              "median_saving_random_minus_bo": 12.0,
+              "mean_saving_random_minus_bo": 16.44,
+              "bo_success_by_budget": 0.64,
+              "random_success_by_budget": 0.45,
+              "paired_bootstrap_95ci_saving": [
+                11.52,
+                21.482999999999983
+              ]
+            }
+          },
+          "observed_best": {
+            "well": "CFC124009-19-PL36-W82",
+            "response": 1.03780376396515,
+            "catalyst": "Ag13",
+            "smiles": "[Ag+].[O-]S([O-])(=O)=O",
+            "cat": "Ag13",
+            "ligand": "PPh3",
+            "base": "NaH",
+            "solvent": "DCE"
+          },
+          "final_condition_rank": 1,
+          "final_condition_rows": [
+            {
+              "well": "CFC124009-19-PL36-W82",
+              "response": 1.03780376396515,
+              "catalyst": "Ag13",
+              "smiles": "[Ag+].[O-]S([O-])(=O)=O",
+              "cat": "Ag13",
+              "ligand": "PPh3",
+              "base": "NaH",
+              "solvent": "DCE"
+            }
+          ]
+        }
+      },
+      "final_condition": {
+        "cat": "Ag13",
+        "ligand": "PPh3",
+        "base": "NaH",
+        "solvent": "DCE"
+      },
+      "initial_panel": {
+        "plate": "PL35",
+        "n_records": 145,
+        "actual_followup_catalyst_ranks": [
+          {
+            "catalyst": "Ag13",
+            "rank": 2
+          }
+        ],
+        "summary": {
+          "n_records": 145,
+          "observed_best": 1.54697139066581,
+          "threshold": 1.4696228211325195,
+          "BO-UCB": {
+            "near_budget": {
+              "median": 72.0,
+              "mean": 64.56
+            },
+            "exact_budget": {
+              "median": 72.0,
+              "mean": 70.44
+            },
+            "target_budget": {
+              "median": 96.0,
+              "mean": 84.24,
+              "reach_fraction": 1.0
+            }
+          },
+          "random": {
+            "near_budget": {
+              "median": 60.0,
+              "mean": 63.24
+            },
+            "exact_budget": {
+              "median": 84.0,
+              "mean": 83.53
+            },
+            "target_budget": {
+              "median": 96.0,
+              "mean": 87.99,
+              "reach_fraction": 1.0
+            }
+          },
+          "paired_near_budget": {
+            "bo_median": 72.0,
+            "random_median": 60.0,
+            "bo_mean": 64.56,
+            "random_mean": 63.24,
+            "median_saving_random_minus_bo": 0.0,
+            "mean_saving_random_minus_bo": -1.32,
+            "bo_success_by_budget": 0.28,
+            "random_success_by_budget": 0.43,
+            "paired_bootstrap_95ci_saving": [
+              -7.563,
+              4.68
+            ]
+          },
+          "paired_exact_budget": {
+            "bo_median": 72.0,
+            "random_median": 84.0,
+            "bo_mean": 70.44,
+            "random_mean": 83.53,
+            "median_saving_random_minus_bo": 12.0,
+            "mean_saving_random_minus_bo": 13.09,
+            "bo_success_by_budget": 0.19,
+            "random_success_by_budget": 0.3,
+            "paired_bootstrap_95ci_saving": [
+              5.41,
+              20.88
+            ]
+          },
+          "paired_target_budget": {
+            "bo_median": 96.0,
+            "random_median": 96.0,
+            "bo_mean": 84.24,
+            "random_mean": 87.99,
+            "median_saving_random_minus_bo": 0.0,
+            "mean_saving_random_minus_bo": 3.75,
+            "bo_success_by_budget": 0.12,
+            "random_success_by_budget": 0.24,
+            "paired_bootstrap_95ci_saving": [
+              -3.4725,
+              10.83025
+            ]
+          }
+        }
+      }
+    },
+    "OH": {
+      "condition_grids": {
+        "PL37": {
+          "summary": {
+            "n_records": 96,
+            "observed_best": 1.15495867768595,
+            "threshold": 1.0972107438016525,
+            "BO-UCB": {
+              "near_budget": {
+                "median": 24.0,
+                "mean": 26.4
+              },
+              "exact_budget": {
+                "median": 24.0,
+                "mean": 26.4
+              },
+              "target_budget": {
+                "median": null,
+                "mean": null,
+                "reach_fraction": null
+              }
+            },
+            "random": {
+              "near_budget": {
+                "median": 48.0,
+                "mean": 51.72
+              },
+              "exact_budget": {
+                "median": 48.0,
+                "mean": 51.72
+              },
+              "target_budget": {
+                "median": null,
+                "mean": null,
+                "reach_fraction": null
+              }
+            },
+            "paired_near_budget": {
+              "bo_median": 24.0,
+              "random_median": 48.0,
+              "bo_mean": 26.4,
+              "random_mean": 51.72,
+              "median_saving_random_minus_bo": 24.0,
+              "mean_saving_random_minus_bo": 25.32,
+              "bo_success_by_budget": 1.0,
+              "random_success_by_budget": 0.54,
+              "paired_bootstrap_95ci_saving": [
+                20.757,
+                30.122999999999983
+              ]
+            },
+            "paired_exact_budget": {
+              "bo_median": 24.0,
+              "random_median": 48.0,
+              "bo_mean": 26.4,
+              "random_mean": 51.72,
+              "median_saving_random_minus_bo": 24.0,
+              "mean_saving_random_minus_bo": 25.32,
+              "bo_success_by_budget": 1.0,
+              "random_success_by_budget": 0.54,
+              "paired_bootstrap_95ci_saving": [
+                20.757,
+                30.122999999999983
+              ]
+            }
+          },
+          "observed_best": {
+            "well": "CFC124009-19-PL37-W2",
+            "response": 1.15495867768595,
+            "catalyst": "Cu66",
+            "smiles": "CC#N.CC#N.CC#N.CC#N.F[P-](F)(F)(F)(F)F.[Cu+]",
+            "cat": "Cu66",
+            "ligand": "",
+            "base": "K3PO4",
+            "solvent": "DCE"
+          },
+          "final_condition_rank": null,
+          "final_condition_rows": []
+        },
+        "PL38": {
+          "summary": {
+            "n_records": 96,
+            "observed_best": 1.44247787610619,
+            "threshold": 1.3703539823008806,
+            "BO-UCB": {
+              "near_budget": {
+                "median": 36.0,
+                "mean": 31.2
+              },
+              "exact_budget": {
+                "median": 36.0,
+                "mean": 31.2
+              },
+              "target_budget": {
+                "median": 36.0,
+                "mean": 31.2,
+                "reach_fraction": 1.0
+              }
+            },
+            "random": {
+              "near_budget": {
+                "median": 54.0,
+                "mean": 54.96
+              },
+              "exact_budget": {
+                "median": 54.0,
+                "mean": 54.96
+              },
+              "target_budget": {
+                "median": 54.0,
+                "mean": 54.96,
+                "reach_fraction": 1.0
+              }
+            },
+            "paired_near_budget": {
+              "bo_median": 36.0,
+              "random_median": 54.0,
+              "bo_mean": 31.2,
+              "random_mean": 54.96,
+              "median_saving_random_minus_bo": 24.0,
+              "mean_saving_random_minus_bo": 23.76,
+              "bo_success_by_budget": 0.98,
+              "random_success_by_budget": 0.5,
+              "paired_bootstrap_95ci_saving": [
+                18.96,
+                28.56299999999998
+              ]
+            },
+            "paired_exact_budget": {
+              "bo_median": 36.0,
+              "random_median": 54.0,
+              "bo_mean": 31.2,
+              "random_mean": 54.96,
+              "median_saving_random_minus_bo": 24.0,
+              "mean_saving_random_minus_bo": 23.76,
+              "bo_success_by_budget": 0.98,
+              "random_success_by_budget": 0.5,
+              "paired_bootstrap_95ci_saving": [
+                18.96,
+                28.56299999999998
+              ]
+            },
+            "paired_target_budget": {
+              "bo_median": 36.0,
+              "random_median": 54.0,
+              "bo_mean": 31.2,
+              "random_mean": 54.96,
+              "median_saving_random_minus_bo": 24.0,
+              "mean_saving_random_minus_bo": 23.76,
+              "bo_success_by_budget": 0.98,
+              "random_success_by_budget": 0.5,
+              "paired_bootstrap_95ci_saving": [
+                18.96,
+                28.56299999999998
+              ]
+            }
+          },
+          "observed_best": {
+            "well": "CFC124009-19-PL38-W10",
+            "response": 1.44247787610619,
+            "catalyst": "Ni203",
+            "smiles": "COCCOC.[Ni+2].[Cl-].[Cl-]",
+            "cat": "Ni203",
+            "ligand": "",
+            "base": "DIPEA",
+            "solvent": "DCE"
+          },
+          "final_condition_rank": 1,
+          "final_condition_rows": [
+            {
+              "well": "CFC124009-19-PL38-W10",
+              "response": 1.44247787610619,
+              "catalyst": "Ni203",
+              "smiles": "COCCOC.[Ni+2].[Cl-].[Cl-]",
+              "cat": "Ni203",
+              "ligand": "",
+              "base": "DIPEA",
+              "solvent": "DCE"
+            }
+          ]
+        }
+      },
+      "final_condition": {
+        "cat": "Ni203",
+        "ligand": "",
+        "base": "DIPEA",
+        "solvent": "DCE"
+      },
+      "initial_panel": {
+        "plate": "PL34",
+        "n_records": 145,
+        "actual_followup_catalyst_ranks": [
+          {
+            "catalyst": "Cu66",
+            "rank": 2
+          },
+          {
+            "catalyst": "Ni203",
+            "rank": 1
+          }
+        ],
+        "summary": {
+          "n_records": 145,
+          "observed_best": 1.09119010819165,
+          "threshold": 1.0366306027820673,
+          "BO-UCB": {
+            "near_budget": {
+              "median": 120.0,
+              "mean": 101.16
+            },
+            "exact_budget": {
+              "median": 120.0,
+              "mean": 101.16
+            },
+            "target_budget": {
+              "median": 84.0,
+              "mean": 75.6,
+              "reach_fraction": 1.0
+            }
+          },
+          "random": {
+            "near_budget": {
+              "median": 60.0,
+              "mean": 68.28
+            },
+            "exact_budget": {
+              "median": 60.0,
+              "mean": 68.28
+            },
+            "target_budget": {
+              "median": 36.0,
+              "mean": 46.2,
+              "reach_fraction": 1.0
+            }
+          },
+          "paired_near_budget": {
+            "bo_median": 120.0,
+            "random_median": 60.0,
+            "bo_mean": 101.16,
+            "random_mean": 68.28,
+            "median_saving_random_minus_bo": -30.0,
+            "mean_saving_random_minus_bo": -32.88,
+            "bo_success_by_budget": 0.15,
+            "random_success_by_budget": 0.41,
+            "paired_bootstrap_95ci_saving": [
+              -41.28,
+              -24.59700000000002
+            ]
+          },
+          "paired_exact_budget": {
+            "bo_median": 120.0,
+            "random_median": 60.0,
+            "bo_mean": 101.16,
+            "random_mean": 68.28,
+            "median_saving_random_minus_bo": -30.0,
+            "mean_saving_random_minus_bo": -32.88,
+            "bo_success_by_budget": 0.15,
+            "random_success_by_budget": 0.41,
+            "paired_bootstrap_95ci_saving": [
+              -41.28,
+              -24.59700000000002
+            ]
+          },
+          "paired_target_budget": {
+            "bo_median": 84.0,
+            "random_median": 36.0,
+            "bo_mean": 75.6,
+            "random_mean": 46.2,
+            "median_saving_random_minus_bo": -24.0,
+            "mean_saving_random_minus_bo": -29.4,
+            "bo_success_by_budget": 0.23,
+            "random_success_by_budget": 0.62,
+            "paired_bootstrap_95ci_saving": [
+              -36.48,
+              -22.56
+            ]
+          }
+        }
+      }
+    }
+  }
+}

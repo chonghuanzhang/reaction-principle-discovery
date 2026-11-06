@@ -1,0 +1,145 @@
+# Preregistered, answer-independent mechanistic axes for the fixed SR001
+# electrophile. These labels describe physical-organic behavior rather than
+# named reagent families. Final family discovery remains open.
+coordinate_vocabulary:
+  nucleophilic_center:
+    - carbon_center
+    - nitrogen_center
+    - oxygen_center
+    - sulfur_center
+    - phosphorus_center
+    - other_main_group_center
+    - radical_center
+  reactive_state:
+    - neutral_lone_pair_or_pi_state
+    - anionic_state
+    - organometallic_state
+    - radical_state
+    - sigma_bond_transfer_state
+  bond_forming_mode:
+    - polar_addition_elimination
+    - conjugate_or_vinylic_addition
+    - transition_metal_mediated_coupling
+    - radical_addition
+    - group_transfer
+  activation_mode:
+    - intrinsic_nucleophilicity
+    - base_activation
+    - transition_metal_activation
+    - redox_activation
+    - photo_or_radical_activation
+  attack_topology:
+    - carbonyl_carbon
+    - fluorinated_alkene_carbon
+    - metal_bound_carbon_fragment
+    - allylic_or_vinylic_substitution_site
+  target_termination:
+    - selective_fluoride_elimination
+    - protonation_then_selective_fluoride_elimination
+    - reductive_elimination_with_fluoride_control
+    - radical_termination_with_fluoride_control
+    - non_target_or_unresolved_termination
+
+# These are broad mechanistic pathway cells, not reagent-family targets. They
+# begin unknown and must be dispositioned from traceable evidence after open
+# discovery. Additional observed combinations are retained rather than forced
+# into one of these cells.
+relevant_coordinate_cells:
+  - coordinate_id: polar_neutral_pi_capture
+    nucleophilic_center: carbon_center
+    reactive_state: neutral_lone_pair_or_pi_state
+    bond_forming_mode: conjugate_or_vinylic_addition
+    activation_mode: intrinsic_nucleophilicity
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: protonation_then_selective_fluoride_elimination
+    disposition: unknown
+    rationale: Pre-registered neutral pi-donor capture pathway; evidence not yet adjudicated.
+  - coordinate_id: polar_anionic_carbon_capture
+    nucleophilic_center: carbon_center
+    reactive_state: anionic_state
+    bond_forming_mode: polar_addition_elimination
+    activation_mode: base_activation
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: selective_fluoride_elimination
+    disposition: unknown
+    rationale: Pre-registered anionic carbon pathway; evidence not yet adjudicated.
+  - coordinate_id: organometallic_carbon_coupling
+    nucleophilic_center: carbon_center
+    reactive_state: organometallic_state
+    bond_forming_mode: transition_metal_mediated_coupling
+    activation_mode: transition_metal_activation
+    attack_topology: metal_bound_carbon_fragment
+    target_termination: reductive_elimination_with_fluoride_control
+    disposition: unknown
+    rationale: Pre-registered organometallic transfer pathway; evidence not yet adjudicated.
+  - coordinate_id: polar_nitrogen_capture
+    nucleophilic_center: nitrogen_center
+    reactive_state: anionic_state
+    bond_forming_mode: polar_addition_elimination
+    activation_mode: base_activation
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: protonation_then_selective_fluoride_elimination
+    disposition: unknown
+    rationale: Pre-registered nitrogen-centered polar pathway; evidence not yet adjudicated.
+  - coordinate_id: polar_oxygen_capture
+    nucleophilic_center: oxygen_center
+    reactive_state: anionic_state
+    bond_forming_mode: polar_addition_elimination
+    activation_mode: base_activation
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: protonation_then_selective_fluoride_elimination
+    disposition: unknown
+    rationale: Pre-registered oxygen-centered polar pathway; evidence not yet adjudicated.
+  - coordinate_id: polar_sulfur_capture
+    nucleophilic_center: sulfur_center
+    reactive_state: anionic_state
+    bond_forming_mode: polar_addition_elimination
+    activation_mode: base_activation
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: protonation_then_selective_fluoride_elimination
+    disposition: unknown
+    rationale: Pre-registered sulfur-centered polar pathway; evidence not yet adjudicated.
+  - coordinate_id: sulfur_group_transfer
+    nucleophilic_center: sulfur_center
+    reactive_state: sigma_bond_transfer_state
+    bond_forming_mode: group_transfer
+    activation_mode: redox_activation
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: selective_fluoride_elimination
+    disposition: unknown
+    rationale: Pre-registered main-group transfer pathway using a sulfur center; evidence not yet adjudicated.
+  - coordinate_id: polar_phosphorus_capture
+    nucleophilic_center: phosphorus_center
+    reactive_state: neutral_lone_pair_or_pi_state
+    bond_forming_mode: polar_addition_elimination
+    activation_mode: intrinsic_nucleophilicity
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: selective_fluoride_elimination
+    disposition: unknown
+    rationale: Pre-registered phosphorus-centered polar pathway; evidence not yet adjudicated.
+  - coordinate_id: radical_capture
+    nucleophilic_center: radical_center
+    reactive_state: radical_state
+    bond_forming_mode: radical_addition
+    activation_mode: photo_or_radical_activation
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: radical_termination_with_fluoride_control
+    disposition: unknown
+    rationale: Pre-registered radical pathway; evidence not yet adjudicated.
+  - coordinate_id: carbonyl_direct_capture
+    nucleophilic_center: other_main_group_center
+    reactive_state: anionic_state
+    bond_forming_mode: polar_addition_elimination
+    activation_mode: base_activation
+    attack_topology: carbonyl_carbon
+    target_termination: non_target_or_unresolved_termination
+    disposition: unknown
+    rationale: Pre-registered competing carbonyl-addition pathway; evidence not yet adjudicated.
+
+family_convergence_dispositions: []
+
+saturation:
+  maximum_new_family_rate: 0.05
+  maximum_material_taxonomy_change_rate: 0.0
+  required_consecutive_low_novelty_rounds: 2
+  minimum_independent_lanes: 2

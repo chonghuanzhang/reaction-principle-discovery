@@ -1,0 +1,22 @@
+version: "3.0"
+network_access: "disabled_in_tests"
+providers:
+  - "crossref"
+  - "openalex"
+  - "semantic_scholar"
+  - "publisher"
+evidence_locations:
+  discovery_and_screening:
+    - "metadata"
+    - "abstract"
+  decision_critical:
+    - "full_text"
+    - "supporting_information"
+full_text_request_effects:
+  - "top_rank"
+  - "hard_blocker"
+  - "negative_boundary"
+  - "critical_condition"
+provenance:
+  require_query_inputs_in_leakage_policy: true
+  require_manifest_query_ids: true

@@ -1,0 +1,49 @@
+# Answer-independent operational coordinates. Values are abstract labels, never
+# named reagent families or their synonyms.
+coordinate_vocabulary:
+  nucleophilic_center:
+    - center_alpha
+    - center_beta
+  reactive_state:
+    - state_alpha
+    - state_beta
+  bond_forming_mode:
+    - mode_alpha
+    - mode_beta
+  activation_mode:
+    - activation_alpha
+    - activation_beta
+  attack_topology:
+    - topology_alpha
+    - topology_beta
+  target_termination:
+    - termination_alpha
+    - termination_beta
+
+# Each relevant cell is dispositioned in advance. A cell cannot silently count
+# as a failed or incompatible case when its evidence is missing.
+relevant_coordinate_cells:
+  - coordinate_id: coordinate_alpha
+    nucleophilic_center: center_alpha
+    reactive_state: state_alpha
+    bond_forming_mode: mode_alpha
+    activation_mode: activation_alpha
+    attack_topology: topology_alpha
+    target_termination: termination_alpha
+    disposition: unknown
+    rationale: No evidence batch has yet resolved this pre-registered cell.
+  - coordinate_id: coordinate_beta
+    nucleophilic_center: center_beta
+    reactive_state: state_beta
+    bond_forming_mode: mode_beta
+    activation_mode: activation_beta
+    attack_topology: topology_beta
+    target_termination: termination_beta
+    disposition: unknown
+    rationale: No evidence batch has yet resolved this pre-registered cell.
+
+saturation:
+  maximum_new_family_rate: 0.05
+  maximum_material_taxonomy_change_rate: 0.0
+  required_consecutive_low_novelty_rounds: 2
+  minimum_independent_lanes: 2

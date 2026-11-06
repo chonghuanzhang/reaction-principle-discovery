@@ -1,0 +1,230 @@
+[
+  {
+    "claim": "The authors report that the best experimentally observed condition for the model coupling was Pd168/KHCO₃/DCE at 80 °C, giving 65% yield; Pd168 is reported only as an identifier here.",
+    "evidence": {
+      "evidence_id": "SE001",
+      "evidence_label": "EXPERIMENTAL FACT",
+      "locator": "paragraph:0030",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "The discrete-table design also ensured that every recommended condition was immediately executable, avoiding the need to translate continuous model suggestions into practical experimental settings. In the second Bayesian optimization round,",
+      "quotation_character_count": 822,
+      "quotation_sha256_utf8": "380227bfe50fcddda345306b9c0528d352c57d5110478409fcba1e037a1ba27e"
+    },
+    "normalized_claim_type": "condition_window",
+    "provenance": {
+      "raw_evidence_type": "first-party condition-optimization result"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/0"
+  },
+  {
+    "claim": "The standard microscale HTE procedure combined trifluoroethyl carbonyl compounds with boronic acid derivatives and heated the reactions at 80 °C for 12 h under the stated plate workflow.",
+    "evidence": {
+      "evidence_id": "SE002",
+      "evidence_label": "EXPERIMENTAL FACT",
+      "locator": "paragraph:3265",
+      "source_id": "SI_0701.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "First, bases and additives were accurately dispensed into a 96-well metal reaction plate using a high-throughput solid weighing workstation (So-Wo). The Pd catalyst was loaded onto glass beads and dispensed into the plate using a chembead d",
+      "quotation_character_count": 935,
+      "quotation_sha256_utf8": "2f1785c121444664923a5a7ed12458cddf9a57dfc04dd2873486979703ec4a65"
+    },
+    "normalized_claim_type": "condition_window",
+    "provenance": {
+      "raw_evidence_type": "first-party experimental procedure"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/1"
+  },
+  {
+    "claim": "Product formation was reported to depend strongly on both Pd catalyst and KHCO₃; attempted detection or trapping of the proposed gem-difluoroenone was inconclusive.",
+    "evidence": {
+      "evidence_id": "SE003",
+      "evidence_label": "EXPERIMENTAL FACT",
+      "locator": "paragraph:0052",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "To gain preliminary mechanistic insight, several control experiments were performed. Product formation was strongly dependent on Pd catalyst and KHCO₃, indicating that both components are essential for the productive defluorinative coupling",
+      "quotation_character_count": 720,
+      "quotation_sha256_utf8": "d9b076b000faf1c24b50b281b5a2239f4e460bf0f6cce9021e025a76d245d980"
+    },
+    "normalized_claim_type": "reactive_intermediate",
+    "provenance": {
+      "raw_evidence_type": "first-party mechanistic control experiments"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/2"
+  },
+  {
+    "claim": "TEMPO completely inhibited the reaction, while BHT and 1,1-diphenylethylene only partially reduced yield; the authors explicitly state that these inhibition results do not establish a purely radical pathway.",
+    "evidence": {
+      "evidence_id": "SE004",
+      "evidence_label": "EXPERIMENTAL FACT",
+      "locator": "paragraph:0052",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "To gain preliminary mechanistic insight, several control experiments were performed. Product formation was strongly dependent on Pd catalyst and KHCO₃, indicating that both components are essential for the productive defluorinative coupling",
+      "quotation_character_count": 720,
+      "quotation_sha256_utf8": "d9b076b000faf1c24b50b281b5a2239f4e460bf0f6cce9021e025a76d245d980"
+    },
+    "normalized_claim_type": "failure_boundary",
+    "provenance": {
+      "raw_evidence_type": "first-party inhibition experiments and stated interpretive limitation"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/3"
+  },
+  {
+    "claim": "The manuscript proposes, tentatively, carbonyl-assisted Pd activation, a chelated five-membered Pd intermediate, β-F elimination to a gem-difluoroenone and Pd-H, migratory insertion, organoboron transmetalation, and a further β-F elimination that furnishes the monofluoroalkene and regenerates active Pd.",
+    "evidence": {
+      "evidence_id": "SE005",
+      "evidence_label": "AUTHOR HYPOTHESIS",
+      "locator": "paragraph:0053",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "On the basis of the experimental results and related literature precedents, a plausible mechanism for this Pd-catalyzed defluorinative coupling is proposed, as shown in the Fig. 6B. Initially, the carbonyl group of trifluoroethyl carbonyl c",
+      "quotation_character_count": 1653,
+      "quotation_sha256_utf8": "92f07091b67b39f227244993a6f649b18a5628c8e5a85b21fba86193a85a5b6e"
+    },
+    "normalized_claim_type": "reactive_intermediate",
+    "provenance": {
+      "raw_evidence_type": "tentative author-proposed mechanism"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/4"
+  },
+  {
+    "claim": "Conversion of a trifluoroethyl carbonyl substrate into a monofluoroalkene retaining one fluorine entails net loss of two fluorines from the CF₃-derived center, not a single defluorination event.",
+    "evidence": {
+      "evidence_id": "SE006",
+      "evidence_label": "MODEL INFERENCE",
+      "locator": "paragraph:0007",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "Monofluoroalkenes are privileged fluorinated motifs in medicinal chemistry, but their selective synthesis through C–F bond activation remains challenging because of the high strength of C–F bonds and the condition-sensitive nature of defluo",
+      "quotation_character_count": 1816,
+      "quotation_sha256_utf8": "048d36f38fa96862e97e34ce2805af7c8cca26aa6d23de0e5d176006d202dc37"
+    },
+    "normalized_claim_type": "selectivity",
+    "provenance": {
+      "raw_evidence_type": "stoichiometric inference from stated trifluoroethyl reactant and monofluoroalkene product"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/5"
+  },
+  {
+    "claim": "The manuscript reports an over-defluorinated alkene under stronger base or higher temperature and hypothesizes that condition* suppresses this competing pathway.",
+    "evidence": {
+      "evidence_id": "SE007",
+      "evidence_label": "AUTHOR HYPOTHESIS",
+      "locator": "paragraph:0053",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "On the basis of the experimental results and related literature precedents, a plausible mechanism for this Pd-catalyzed defluorinative coupling is proposed, as shown in the Fig. 6B. Initially, the carbonyl group of trifluoroethyl carbonyl c",
+      "quotation_character_count": 1653,
+      "quotation_sha256_utf8": "92f07091b67b39f227244993a6f649b18a5628c8e5a85b21fba86193a85a5b6e"
+    },
+    "normalized_claim_type": "failure_boundary",
+    "provenance": {
+      "raw_evidence_type": "reported competing product with tentative mechanistic interpretation"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/6"
+  },
+  {
+    "claim": "The authors infer that productive reactivity depends jointly on electronic, steric, and coordinating features of both the trifluoroethyl carbonyl substrate and the organoboron partner.",
+    "evidence": {
+      "evidence_id": "SE008",
+      "evidence_label": "MODEL INFERENCE",
+      "locator": "paragraph:0049",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "Overall, the scope analysis revealed pronounced substrate-matching behavior across different combinations of trifluoroethyl carbonyl compounds and organoboron reagents. These scope boundaries indicate that productive reactivity is not deter",
+      "quotation_character_count": 507,
+      "quotation_sha256_utf8": "26b24b96e73726d4f6761e8671082fd480ba4ee2dfb6b673c25df5b3fa84511f"
+    },
+    "normalized_claim_type": "electronic_requirement",
+    "provenance": {
+      "raw_evidence_type": "author interpretation of first-party scope data"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/7"
+  },
+  {
+    "claim": "The manuscript reports limited compatibility for highly electron-deficient heteroaryl boron reagents, strongly coordinating substrates, and sterically congested ortho-disubstituted arylboron partners, and reports no desired product for alkyl organoboron reagents under the stated conditions.",
+    "evidence": {
+      "evidence_id": "SE009",
+      "evidence_label": "EXPERIMENTAL FACT",
+      "locator": "paragraph:0047",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "Arylboronic acids also served as competent coupling partners, although their structural diversity was comparatively narrower than that of the boronic esters. Electron-rich anisole-derived boronic acids 2cg and 2ch, halogenated arylboronic a",
+      "quotation_character_count": 935,
+      "quotation_sha256_utf8": "7d8353ba929637d5db86e7f53ad64db35abb9c14a9dddcd61a824e234054fa06"
+    },
+    "normalized_claim_type": "failure_boundary",
+    "provenance": {
+      "raw_evidence_type": "first-party reported failed or diminished scope"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/8"
+  },
+  {
+    "claim": "The model reaction is described as using an N-Boc-protected piperidinyl boronic ester and as giving detectable desired product in initial experiments, creating an unresolved tension with the broader statement that alkyl organoboron reagents were unreactive.",
+    "evidence": {
+      "evidence_id": "SE010",
+      "evidence_label": "EXPERIMENTAL FACT",
+      "locator": "paragraph:0023",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "We began our study by selecting a model reaction between a phenacyl-type trifluoroethyl ketone and an N-Boc-protected piperidinyl boronic ester as a representative defluorinative C–C bond-forming transformation, as shown in Fig. 2a. This su",
+      "quotation_character_count": 1150,
+      "quotation_sha256_utf8": "43b23f66c8b8369d0afaf6eaef57a571ba3fc2a3ef04325ff3d3b0464c7dcf67"
+    },
+    "normalized_claim_type": "nucleophile_requirement",
+    "provenance": {
+      "raw_evidence_type": "first-party model-reaction observation relevant to an internal scope contradiction"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/9"
+  },
+  {
+    "claim": "The supplied manuscript reports palladium-catalysed C-C coupling of trifluoroethyl ketones, esters and amides with organoboron reagents to deliver monofluoroalkenes.",
+    "evidence": {
+      "evidence_id": "SE-REACTION-CLASS",
+      "evidence_label": "EXPERIMENTAL FACT",
+      "locator": "paragraph:0007",
+      "source_id": "manuscript.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "Monofluoroalkenes are privileged fluorinated motifs in medicinal chemistry, but their selective synthesis through C–F bond activation remains challenging because of the high strength of C–F bonds and the condition-sensitive nature of defluo",
+      "quotation_character_count": 1816,
+      "quotation_sha256_utf8": "048d36f38fa96862e97e34ce2805af7c8cca26aa6d23de0e5d176006d202dc37"
+    },
+    "normalized_claim_type": "reaction_center",
+    "provenance": {
+      "raw_evidence_type": "first-party reported reaction class and reaction center"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/10"
+  },
+  {
+    "claim": "The supplied SI condition table associates the catalyst code Pd168 with CAS 205319-06-8. This is a reagent identifier, not proof of the active catalytic species.",
+    "evidence": {
+      "evidence_id": "SE-PD-CAS-ROW",
+      "evidence_label": "EXPERIMENTAL FACT",
+      "locator": "word/document.xml table:1 row:105",
+      "source_id": "SI_0701.docx",
+      "source_type": "seed",
+      "quotation_excerpt": "104 | Pd168 | ‘205319-06-8 | K₃PO₄ | toluene",
+      "quotation_character_count": 44,
+      "quotation_sha256_utf8": "2a7459bed6526007be5d4e74bc84a754df9039eab68c169dd6d46e2d29e9e175"
+    },
+    "normalized_claim_type": "catalyst_role",
+    "provenance": {
+      "raw_evidence_type": "source-verified precatalyst metadata"
+    },
+    "reviewer_status": "accepted",
+    "record_pointer": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json#/seed_evidence/11"
+  }
+]

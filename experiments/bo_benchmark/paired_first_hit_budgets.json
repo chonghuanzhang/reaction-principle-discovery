@@ -1,0 +1,602 @@
+[
+  {
+    "replicate_index": "0",
+    "seed": "5000",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "1",
+    "seed": "5001",
+    "bo_exact_budget": "48",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "2",
+    "seed": "5002",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "3",
+    "seed": "5003",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "4",
+    "seed": "5004",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "5",
+    "seed": "5005",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "6",
+    "seed": "5006",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "7",
+    "seed": "5007",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "8",
+    "seed": "5008",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "9",
+    "seed": "5009",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "10",
+    "seed": "5010",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "48"
+  },
+  {
+    "replicate_index": "11",
+    "seed": "5011",
+    "bo_exact_budget": "48",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "12",
+    "seed": "5012",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "13",
+    "seed": "5013",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "14",
+    "seed": "5014",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "15",
+    "seed": "5015",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "16",
+    "seed": "5016",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "17",
+    "seed": "5017",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "18",
+    "seed": "5018",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "19",
+    "seed": "5019",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "20",
+    "seed": "5020",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "21",
+    "seed": "5021",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "22",
+    "seed": "5022",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "23",
+    "seed": "5023",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "24",
+    "seed": "5024",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "25",
+    "seed": "5025",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "26",
+    "seed": "5026",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "27",
+    "seed": "5027",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "28",
+    "seed": "5028",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "29",
+    "seed": "5029",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "48"
+  },
+  {
+    "replicate_index": "30",
+    "seed": "5030",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "31",
+    "seed": "5031",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "32",
+    "seed": "5032",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "33",
+    "seed": "5033",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "34",
+    "seed": "5034",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "35",
+    "seed": "5035",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "36",
+    "seed": "5036",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "37",
+    "seed": "5037",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "38",
+    "seed": "5038",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "39",
+    "seed": "5039",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "40",
+    "seed": "5040",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "41",
+    "seed": "5041",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "42",
+    "seed": "5042",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "43",
+    "seed": "5043",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "44",
+    "seed": "5044",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "48"
+  },
+  {
+    "replicate_index": "45",
+    "seed": "5045",
+    "bo_exact_budget": "48",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "46",
+    "seed": "5046",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "47",
+    "seed": "5047",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "48",
+    "seed": "5048",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "49",
+    "seed": "5049",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "50",
+    "seed": "5050",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "51",
+    "seed": "5051",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "52",
+    "seed": "5052",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "53",
+    "seed": "5053",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "54",
+    "seed": "5054",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "55",
+    "seed": "5055",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "56",
+    "seed": "5056",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "57",
+    "seed": "5057",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "58",
+    "seed": "5058",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "59",
+    "seed": "5059",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "60",
+    "seed": "5060",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "48"
+  },
+  {
+    "replicate_index": "61",
+    "seed": "5061",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "62",
+    "seed": "5062",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "63",
+    "seed": "5063",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "64",
+    "seed": "5064",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "65",
+    "seed": "5065",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "66",
+    "seed": "5066",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "67",
+    "seed": "5067",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "48"
+  },
+  {
+    "replicate_index": "68",
+    "seed": "5068",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "69",
+    "seed": "5069",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "70",
+    "seed": "5070",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "71",
+    "seed": "5071",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "72",
+    "seed": "5072",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "73",
+    "seed": "5073",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "74",
+    "seed": "5074",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "75",
+    "seed": "5075",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "96"
+  },
+  {
+    "replicate_index": "76",
+    "seed": "5076",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "77",
+    "seed": "5077",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "78",
+    "seed": "5078",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "79",
+    "seed": "5079",
+    "bo_exact_budget": "48",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "80",
+    "seed": "5080",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "81",
+    "seed": "5081",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "82",
+    "seed": "5082",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "83",
+    "seed": "5083",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "84",
+    "seed": "5084",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "48"
+  },
+  {
+    "replicate_index": "85",
+    "seed": "5085",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "86",
+    "seed": "5086",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "87",
+    "seed": "5087",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "84"
+  },
+  {
+    "replicate_index": "88",
+    "seed": "5088",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "89",
+    "seed": "5089",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "90",
+    "seed": "5090",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "91",
+    "seed": "5091",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "92",
+    "seed": "5092",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "60"
+  },
+  {
+    "replicate_index": "93",
+    "seed": "5093",
+    "bo_exact_budget": "36",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "94",
+    "seed": "5094",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "48"
+  },
+  {
+    "replicate_index": "95",
+    "seed": "5095",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "72"
+  },
+  {
+    "replicate_index": "96",
+    "seed": "5096",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "24"
+  },
+  {
+    "replicate_index": "97",
+    "seed": "5097",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  },
+  {
+    "replicate_index": "98",
+    "seed": "5098",
+    "bo_exact_budget": "24",
+    "random_exact_budget": "36"
+  },
+  {
+    "replicate_index": "99",
+    "seed": "5099",
+    "bo_exact_budget": "12",
+    "random_exact_budget": "12"
+  }
+]

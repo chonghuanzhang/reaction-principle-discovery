@@ -1,0 +1,472 @@
+{
+  "accepted": [
+    {
+      "activation": "先以中性水作低活性边界探针；分别比较无外加碱、弱碱辅助和预先生成可信偕二氟烯酮的分步条件。不假定需要原Seed的Pd循环。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "O",
+      "center": "O",
+      "citations": [],
+      "diagnostic": "使用H2-18O平行实验，并以LC-MS/HRMS及19F NMR确认18O是否进入CF3来源且保留一个F的烯碳；同时比较水解、羰基水合和完全脱氟产物。",
+      "family": "中性氧孤对亲核体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "水",
+      "reactive_form": "中性H2O；成键原子为唯一的氧原子。",
+      "reason": "覆盖最小、最不位阻的中性氧供体，并检验目标中心是否能在不预制强烷氧负离子的情况下形成C-O键。这是边界假设，不由Seed结果证明。",
+      "risks": [
+        "可能主要引起羰基水合、水解或催化剂物种变化",
+        "水可能改变碱、氟离子和Pd的溶解或离子配对",
+        "质子转移可能截获加成中间体而不给出目标单氟烯醇结构",
+        "延长暴露可能增加完全脱氟或产物分解"
+      ],
+      "route": "以Seed三氟乙基羰基底物直接筛选，并与独立制备或原位定量生成的可信偕二氟烯酮分步捕获实验配对；目标为在CF3来源烯碳形成C-O键并保留一个F。",
+      "smiles": "O",
+      "structure_key": "e81dc06beaa39499",
+      "success_probability": null
+    },
+    {
+      "activation": "可直接作为中性亲核体测试，也可由温和非亲核碱少量原位转化为甲氧负离子；应把中性甲醇与预制甲氧盐分开比较。",
+      "atom_indices": [
+        1
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "CO",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-0ab81afddd146d0f0e2a",
+          "quote": "We assumed that methanol could also be used as the nucleophile to realize the oxo-difluoroalkylation of alkynes, and the product 7 was generated in 47% yield."
+        }
+      ],
+      "diagnostic": "比较CH3OH、CH3OD和预制CH3O-条件下目标C(F)-OCH3产物的形成速率、氘分布及单氟/完全脱氟比；由此区分中性捕获、去质子化后进攻和单纯质子供体效应。",
+      "family": "中性醇",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "甲醇",
+      "reactive_form": "中性甲醇；成键原子是索引1的羟基氧。",
+      "reason": "甲醇为最小醇类探针。所引证体系证明甲醇可在另一种氟化反应网络中充当氧亲核体，但电亲试剂、光化学过程和目标连接关系均不同，因此这里只作局部外推。",
+      "risks": [
+        "可能发生缩酮化、酯交换或羰基加成",
+        "可质子化阴离子中间体并抑制脱氟",
+        "可能改变DCE体系极性及Pd配位环境",
+        "目标烯醚可能继续脱氟、异构化或水解"
+      ],
+      "route": "测试对原三氟底物的一锅捕获，并测试甲醇对可信偕二氟烯酮的直接加成-消除；只将CF3来源碳上的C-OCH3形成且同碳保留F计为目标连接。",
+      "smiles": "CO",
+      "structure_key": "a85d32e4db2ff39c",
+      "success_probability": null
+    },
+    {
+      "activation": "以预制甲醇钠或经分析确认的无水甲氧负离子形式测试；不要把其碱作用与亲核作用合并解释。",
+      "atom_indices": [
+        1
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "C[O-].[Na+]",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-96934ea0dd931848bee3",
+          "quote": "All reactions with sodium and lithium alkoxides carried out took place as in Scheme 1."
+        }
+      ],
+      "diagnostic": "与甲醇、甲醇锂及相同钠离子但非亲核碱的对照比较；定量目标C(F)-OMe、完全脱氟烯烃、羰基副产物和氟离子，以判断甲氧负离子转移是否超过单纯强碱效应。",
+      "family": "碱金属烷氧负离子",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "甲醇钠",
+      "reactive_form": "形式上的游离或离子对甲氧负离子；索引1为成键氧，索引2为钠反离子。",
+      "reason": "提供小体积、高亲核性的O-端点。引证仅支持钠/锂烷氧负离子在不同二氟丁烯内酯上的局部乙烯基氟置换，不能证明Seed底物或Pd条件兼容。",
+      "risks": [
+        "强碱性可能促进剩余C-F键继续消除",
+        "可能与羰基发生可逆加成或缩合",
+        "钠盐溶解度和聚集态可能控制表观结果",
+        "可能改变或失活Pd催化物种"
+      ],
+      "route": "优先在独立可信偕二氟烯酮上测试直接O-加成/氟离子消除，同时以Seed一锅体系作为兼容性支线；不要求有机硼转金属步骤。",
+      "smiles": "C[O-].[Na+]",
+      "structure_key": "8de27f136fedbba8",
+      "success_probability": null
+    },
+    {
+      "activation": "以预制甲醇锂测试，并严格匹配甲醇钠实验的溶剂、水含量和总离子强度；必要时用配位添加剂作为离子对扰动，而非默认生成自由离子。",
+      "atom_indices": [
+        1
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "C[O-].[Li+]",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-da015cbe2893e2c9bd0a",
+          "quote": "In all cases, nitro-substitution with sodium alkoxides is faster than the same reaction of the potassium alkoxides."
+        }
+      ],
+      "diagnostic": "与甲醇钠作成对比较，并测定盐的溶解/持留、底物转化、C(F)-OMe选择性和完全脱氟比例；若加入冠醚或供体溶剂，需同时做无甲氧盐对照以分离离子对效应。",
+      "family": "锂烷氧负离子与反离子探针",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "甲醇锂",
+      "reactive_form": "锂配对的甲氧负离子；索引1为候选成键氧，索引2为锂。",
+      "reason": "与甲醇钠构成反离子和聚集态边界。引证显示另一亲核取代体系存在反离子相关速率差，但方向不可转移到本体系。",
+      "risks": [
+        "锂离子可能强配位羰基并改变底物构象",
+        "聚集和溶剂化可导致非线性浓度效应",
+        "碱性可能带来过度脱氟或烯醇化",
+        "可能与Pd或配体形成不活泼聚集物"
+      ],
+      "route": "在同一目标中心比较Li/Na甲氧盐对可信偕二氟烯酮的捕获，并平行测试完整Seed底物；形成的连接仍限定为CF3来源碳-O键且该碳保留F。",
+      "smiles": "C[O-].[Li+]",
+      "structure_key": "cb20f7766b730a70",
+      "success_probability": null
+    },
+    {
+      "activation": "使用预制无水2,2,2-三氟乙醇钠，或以经验证不会直接消耗电亲底物的碱原位生成；需要单独确认该盐在所选溶剂中的存在形式。",
+      "atom_indices": [
+        5
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "[Na+].[O-]CC(F)(F)F",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-42b5ae4dd5da4a11d07b",
+          "quote": "Sodium alkoxides, sodium phenoxides, sodium thiolates, and neutral amines (instead of lith- ium amides) as well as various Grignard reagents were effective nucleophiles under these mild reaction conditions."
+        }
+      ],
+      "diagnostic": "与甲醇钠进行匹配比较，并通过19F NMR同时区分底物/产物上的氟与三氟乙氧基氟信号；检测目标C(F)-OCH2CF3、完全脱氟产物和供体分解。",
+      "family": "电子贫化烷氧负离子",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "2,2,2-三氟乙醇钠",
+      "reactive_form": "2,2,2-三氟乙氧负离子；索引5为成键氧，索引0、2、3为供体自身的氟，不是成键原子。",
+      "reason": "以较低碱性和较低亲核性的含氟烷氧负离子扩展电子范围，并提供可由19F NMR独立追踪的供体。引证来自磺酰基活化二氟丙烯体系，只能支持类别级局部类比。",
+      "risks": [
+        "亲核性可能不足而只表现为碱或配体",
+        "额外含氟片段会增加19F谱归属复杂度",
+        "可能发生供体分解或质子交换",
+        "羰基配位和Pd兼容性未知"
+      ],
+      "route": "直接捕获可信偕二氟烯酮，或在能产生该物种的分步体系中加入；无需沿用有机硼伙伴或其转金属过程。",
+      "smiles": "FC(F)(F)C[O-].[Na+]",
+      "structure_key": "ae66431c2fbd5738",
+      "success_probability": null
+    },
+    {
+      "activation": "以预制叔丁醇钠测试；由于碱性和位阻均高，应采用条件梯度而非简单提高温度，并设置等碱性非亲核碱对照。",
+      "atom_indices": [
+        4
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "CC(C)(C)[O-].[Na+]",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-2dc64a76aad27b044a9c",
+          "quote": "only monosubstituted product, fluorinated vinyl ether, was obtained in 62% yield"
+        }
+      ],
+      "diagnostic": "与甲醇钠比较目标C(F)-OtBu、底物消耗及完全脱氟比例；再将独立获得的候选C(F)-OtBu产物重投反应混合物，以判断体积较大的烷氧基是否改善单氟停止点。",
+      "family": "位阻烷氧负离子",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "叔丁醇钠",
+      "reactive_form": "叔丁氧负离子；索引4为成键氧，索引0、2、3为三个甲基碳。",
+      "reason": "这是位阻边界探针，可区分亲核加成受阻与强碱促进脱氟。引证中的叔丁氧负离子在另一氟代烯烃上给出单取代氟代乙烯醚，但不能外推其区域选择性或Seed兼容性。",
+      "risks": [
+        "可能主要诱导消除和完全脱氟",
+        "大位阻可能阻止对目标烯碳进攻",
+        "可能引发羰基烯醇化或缩合",
+        "强碱可能快速改变Pd物种"
+      ],
+      "route": "在可信偕二氟烯酮和原Seed底物两个层级测试，目标仅为CF3来源烯碳与叔丁氧基氧形成键并同碳保留一个F。",
+      "smiles": "CC(C)(C)[O-].[Na+]",
+      "structure_key": "822684332936c797",
+      "success_probability": null
+    },
+    {
+      "activation": "使用预制无水苯酚钠；若原位生成，应把苯酚本身和平行非亲核碱对照纳入，以分辨中性酚、酚氧负离子和碱效应。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "[Na+].[O-]c1ccccc1",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-7da5e9669723a5b61f27",
+          "quote": "Vinyl substitution products 3–9 were prepared by the stoi- chiometric addition of substituted sodium phenoxides to aryl TFVEs 1-bromo-4-(triﬂuorovinyloxy)benzene (1) and 1-methoxy- 4-(triﬂuorovinyloxy)benzene (2) in anhydrous DMF at 60 ◦Cf o r 1 h (Table 1)."
+        }
+      ],
+      "diagnostic": "用LC-MS和19F NMR寻找C(F)-OPh产物，并与甲醇钠比较；检测芳基C键形成、羰基加成及完全脱氟，以排除把非目标产物误作乙烯基O取代。",
+      "family": "酚氧负离子",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "苯酚钠",
+      "reactive_form": "苯氧负离子；索引0为唯一氧并为候选成键原子，索引7为钠。",
+      "reason": "将脂肪烷氧负离子扩展到共振稳定的芳氧负离子。引证为芳基三氟乙烯醚上的直接乙烯基取代，目标电亲片段及同碳保留F关系与本研究不完全相同。",
+      "risks": [
+        "酚氧负离子可能配位或抑制Pd",
+        "亲核性低于简单烷氧负离子",
+        "产物芳基乙烯醚可能发生E/Z异构化",
+        "较强碱或长时间可能导致进一步脱氟"
+      ],
+      "route": "以无需Pd的可信偕二氟烯酮直接取代作为主要路线，并以Seed一锅体系评价条件兼容性；不要求有机硼伙伴。",
+      "smiles": "[O-]c1ccccc1.[Na+]",
+      "structure_key": "dc11a678a5813bfb",
+      "success_probability": null
+    },
+    {
+      "activation": "使用预制4-(三氟甲基)苯酚钠，或在温和碱下原位生成并验证持留；与苯酚钠使用相同分析窗口。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "[Na+].[O-]c1ccc(C(F)(F)F)cc1",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-7da5e9669723a5b61f27",
+          "quote": "The optimized preparation of vinyl substituted products3–9 proceeded in quantitative conversion as observed by19F NMR and in modest to good isolated yields (50–86%) as a mixture of ( E)- and ( Z)- isomers."
+        }
+      ],
+      "diagnostic": "与苯酚钠作一因素电子比较；同时追踪供体CF3和底物来源氟信号，并确认新C-O键位于Seed的CF3来源碳而非芳环或羰基碳。",
+      "family": "电子贫化酚氧负离子",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "4-(三氟甲基)苯酚钠",
+      "reactive_form": "对三氟甲基苯氧负离子；索引0为成键氧，索引6、7、8是取代基氟，索引11为钠。",
+      "reason": "测试较弱亲核、较低碱性的芳氧负离子能否改善化学选择性，并覆盖电子贫化边界。引证只显示取代苯氧盐在不同三氟乙烯醚体系中的乙烯基取代及E/Z混合物。",
+      "risks": [
+        "低亲核性可能导致无反应但供体仍稳定",
+        "供体自身CF3使19F谱重叠风险增加",
+        "芳氧负离子可能改变金属配位环境",
+        "目标产物可能形成难分离的E/Z异构体"
+      ],
+      "route": "主要在独立可信偕二氟烯酮上评价C-O成键；随后才测试原Seed底物的一锅兼容性，避免把催化循环失配误判为亲核体失效。",
+      "smiles": "[O-]c1ccc(C(F)(F)F)cc1.[Na+]",
+      "structure_key": "64837e30f7127abc",
+      "success_probability": null
+    },
+    {
+      "activation": "先测试中性烯丙醇，再与预制烯丙醇钠配对；中性条件若无转化，再用温和碱原位提高O亲核性。",
+      "atom_indices": [
+        3
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "C=CCO",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-f127936b9e1695cc9eb4",
+          "quote": "The remaining ﬂuoro groups of 23 were replaced by allyloxy groups in the reaction with the alkoxide of allyl alcohol"
+        }
+      ],
+      "diagnostic": "确认产物中新键由索引3的氧而不是烯丙基双键碳形成；可用氘代羟基或13C标记烯丙基端碳区分O-烯丙氧化、碳加成和自由基加成。",
+      "family": "含中性π键的醇",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "烯丙醇",
+      "reactive_form": "中性烯丙醇；索引3为羟基氧，索引0和1构成可能竞争的π体系。",
+      "reason": "同时覆盖氧孤对亲核体和带有可竞争π反应位点的伙伴。引证涉及另一含氟芳香体系中烯丙醇盐替换氟，故只支持烯丙氧基转移的局部可能性。",
+      "risks": [
+        "烯丙基双键可能发生Pd配位、异构化或加成",
+        "中性醇可能只作质子源",
+        "可能出现O/C化学选择性竞争",
+        "产物烯丙基醚可能在反应或分析过程中重排"
+      ],
+      "route": "在可信偕二氟烯酮上测试中性捕获，并与一锅Seed体系比较；目标连接为CF3来源烯碳-O-烯丙基。",
+      "smiles": "C=CCO",
+      "structure_key": "04e1450f7a0596df",
+      "success_probability": null
+    },
+    {
+      "activation": "以预制烯丙醇钠测试，并与中性烯丙醇严格配对；应避免用可能直接参与烯丙基化或还原的活化剂。",
+      "atom_indices": [
+        3
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "C=CC[O-].[Na+]",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-96934ea0dd931848bee3",
+          "quote": "The oxyanions attacked the b-carbon in diﬂuorobutenolides 1 or 2 with complete regio- selectivity to give products ( 4–10) of vinylic displacement of ﬂuorine (Scheme 1)."
+        }
+      ],
+      "diagnostic": "比较烯丙醇钠、烯丙醇和甲醇钠；用二维NMR确认C(F)-OCH2CH=CH2连接，并搜索由烯丙基末端碳成键、双键迁移或完全脱氟产生的异构体。",
+      "family": "不饱和烷氧负离子",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "烯丙醇钠",
+      "reactive_form": "烯丙氧负离子；索引3为成键氧，索引0为烯丙基末端碳但不是本提案的成键原子。",
+      "reason": "比中性烯丙醇更直接地测试O-进攻，同时保留可诊断的π配位和C/O选择性竞争。引证的区域选择性属于二氟丁烯内酯，不能直接转移到Seed中心。",
+      "risks": [
+        "强碱性可能推动过度脱氟",
+        "烯丙基双键可能捕获金属或发生异构化",
+        "可能形成C成键副产物",
+        "钠盐聚集和溶解度可能掩盖内在反应性"
+      ],
+      "route": "对可信偕二氟烯酮进行直接O-加成/氟消除，并独立评价在原Seed Pd混合物中的兼容性。",
+      "smiles": "C=CC[O-].[Na+]",
+      "structure_key": "f7328591687088c5",
+      "success_probability": null
+    },
+    {
+      "activation": "以预制三甲基硅醇钠测试；其既可作为O亲核体又可强烈捕获氟，因此必须设置不含可反应氧供体的硅基氟捕获对照。",
+      "atom_indices": [
+        4
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "C[Si](C)(C)[O-].[Na+]",
+      "center": "O",
+      "citations": [],
+      "diagnostic": "同时测定C(F)-OSiMe3候选产物、Me3SiF和游离氟；与等碱性烷氧盐及单纯氟捕获添加剂比较，以区分真正的硅氧基转移与仅由氟清除促进的脱氟。",
+      "family": "硅醇盐与σ键辅助氧供体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "三甲基硅醇钠",
+      "reactive_form": "三甲基硅氧负离子；索引4为成键氧，索引1为硅，索引5为钠。",
+      "reason": "覆盖具有强Si-F形成驱动力的特殊O-供体，可能通过亲核加成后氟捕获改变局部能量学。这是机制边界假设，没有供应证据证明其能给出目标产物。",
+      "risks": [
+        "可能只生成Me3SiF而不发生C-O成键",
+        "可硅基化羰基氧、痕量水或其他亲核位点",
+        "产物烯醇硅醚可能在后处理时水解",
+        "可能显著改变Pd、碱及氟离子物种"
+      ],
+      "route": "优先采用可信偕二氟烯酮的无Pd分步试验；若观察到目标硅氧基化，再评价原三氟底物的一锅路径。",
+      "smiles": "C[Si](C)(C)[O-].[Na+]",
+      "structure_key": "48cbdd3aac3823f7",
+      "success_probability": null
+    },
+    {
+      "activation": "以中性吡啶N-氧化物直接测试；不预设需要去质子化。可比较无Pd和含Seed Pd条件，以确定是否发生O进攻或仅有金属配位。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "[O-][n+]1ccccc1",
+      "center": "O",
+      "citations": [],
+      "diagnostic": "寻找CF3来源碳-O-N+(吡啶)连接的O-乙烯基吡啶鎓产物，并通过15N标记或N-O键特征分析与N-乙烯基化产物区分；同步检测N-氧化物还原和Pd抑制。",
+      "family": "中性N-氧化物氧供体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "吡啶N-氧化物",
+      "reactive_form": "电荷分离的中性N-氧化物；索引0为负电性氧并是唯一提议成键原子，索引1为相邻吡啶鎓氮。",
+      "reason": "提供不需外加强碱的强氧孤对边界探针，并明确区分成键氧与分子中的氮。形成的O-乙烯基N-氧化物可能只是可转化中间体，因此需直接鉴定。",
+      "risks": [
+        "可能强配位并抑制Pd",
+        "可能发生N-O键断裂或氧转移而非稳定C-O成键",
+        "可能出现氮端反应或芳环反应",
+        "候选O-乙烯基产物可能热不稳定"
+      ],
+      "route": "在可信偕二氟烯酮上测试直接亲核取代，并与Seed一锅体系作兼容性比较；不依赖有机硼伙伴。",
+      "smiles": "[O-][n+]1ccccc1",
+      "structure_key": "168a0c2e4c8e139f",
+      "success_probability": null
+    },
+    {
+      "activation": "以经确认组成的无水过氧化钠单加合形式测试；因氧化性和安全风险，应仅作为低规模边界筛选，并避免与不相容的还原剂或高负载金属体系直接组合。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "[Na+].[O-]O",
+      "center": "O",
+      "citations": [],
+      "diagnostic": "用18O标记过氧化物确定新C-O键来源，并定量目标C(F)-OOH或其可验证衍生物、普通醇/酮氧化产物及O2释放；自由基抑制剂结果只能与暗反应和无底物对照联合解释。",
+      "family": "过氧阴离子",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "过氧化氢钠",
+      "reactive_form": "氢过氧负离子HO-O-的钠盐；索引0为形式负电并提议成键的末端氧，索引1为带氢氧，索引2为钠。",
+      "reason": "覆盖比烷氧负离子更软且可发生单电子或双电子反应的O-供体。目标是探查C-O过氧键形成边界，不假设它沿Seed Pd循环反应。",
+      "risks": [
+        "氧化性物质存在放热和分解危险",
+        "可能氧化Pd、配体、底物或产物",
+        "可能发生自由基链过程并损害选择性",
+        "C(F)-OOH产物可能不稳定并在分析或后处理时重排"
+      ],
+      "route": "优先在不含Pd的可信偕二氟烯酮体系中试探直接加成/氟离子消除；只有在材料和热安全评估后才评价Seed混合物兼容性。",
+      "smiles": "[O-]O.[Na+]",
+      "structure_key": "a48a48bf32050f7b",
+      "success_probability": null
+    },
+    {
+      "activation": "以预制并经谱学或滴定确认的锂丙酮烯醇盐测试；低温生成与升温反应应分开，避免把原位成盐副反应误作目标捕获。",
+      "atom_indices": [
+        3
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "C=C(C)[O-].[Li+]",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-0147381122c8de5e5910",
+          "quote": "The mechanism can be formulated (Scheme 1) as a 1,4-addition followed by the expulsion of ﬂuoride ion from the intermediate metal enolate 3, which appeared to be unable to abstract proton from the super- ﬂuous methanol present in the mixture."
+        }
+      ],
+      "diagnostic": "本提案专门寻找O端成键的C(F)-O-C(=C)CH3或其互变异构产物；与同一SMILES的碳端提案平行，通过13C标记末端烯醇碳及二维NMR定量O/C成键比。",
+      "family": "ambident烯醇盐的氧端反应",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "锂丙酮烯醇盐，O端成键提案",
+      "reactive_form": "形式烯醇氧负离子；索引3为本提案的成键氧，索引0为竞争的亲核碳，索引4为锂。",
+      "reason": "直接覆盖氧/碳双位亲核体，并把O端连接作为独立假设。引证只提出另一体系中的金属烯醇盐与氟离子排出，不能证明该烯醇盐会在目标中心O-烯醇化。",
+      "risks": [
+        "C端烷基化可能压倒O端成键",
+        "可对Seed羰基发生1,2-加成或引发烯醇交换",
+        "强碱性可能促进完全脱氟",
+        "O端初生产物可能快速发生Claisen型重排或水解"
+      ],
+      "route": "使用可信偕二氟烯酮进行无Pd直接捕获，并与碳端映射实验成对分析；目标位点仍为原CF3来源烯碳。",
+      "smiles": "C=C(C)[O-].[Li+]",
+      "structure_key": "7ff7c801adbfac54",
+      "success_probability": null
+    },
+    {
+      "activation": "使用与O端提案完全相同且经确认的锂丙酮烯醇盐条件；这里只改变被检验的成键原子归属，不另行改变试剂或条件。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "C=C(C)[O-].[Li+]",
+      "center": "C",
+      "citations": [],
+      "diagnostic": "通过末端烯醇碳的13C标记确认是否形成CF3来源碳-C(烯醇盐)键；与索引3的O端产物定量比较，从而避免把ambident反应误归为氧成键。",
+      "family": "ambident烯醇盐的碳端边界",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "oxygen",
+      "name": "锂丙酮烯醇盐，C端竞争提案",
+      "reactive_form": "同一锂烯醇盐的碳端共振形式；索引0为本提案的成键碳，索引3为未成键的烯醇氧，索引4为锂。",
+      "reason": "该提案不是把碳亲核体当作氧亲核体，而是为oxygen镜头保留并明确映射同一ambident试剂的竞争碳端结果。它能判别观察到的转化是否真正支持C-O键形成。",
+      "risks": [
+        "C端产物会偏离期望的C-O键类型但仍占用目标电亲位点",
+        "后续互变异构可能掩盖初始成键原子",
+        "羰基1,2-加成可能产生相同分子量副产物",
+        "强碱和锂配位可能改变脱氟计数"
+      ],
+      "route": "与O端提案共享同一分步试验；仅将索引0与CF3来源烯碳形成的新C-C键计为该竞争假设的阳性结果。",
+      "smiles": "C=C(C)[O-].[Li+]",
+      "structure_key": "7ff7c801adbfac54",
+      "success_probability": null
+    }
+  ],
+  "input_digest": "6fc51236e90c55ddf380645fc08fcb550396e56ece9715a8cca462bd21400a18",
+  "rejected": [],
+  "uncovered": [
+    "Seed固定组分的确切分子身份和可操作的可信偕二氟烯酮模型尚未给出，因此所有目标位点映射都需要在选定真实底物后重新核对。",
+    "现有直接氧证据主要是其他氟代烯烃上的局部乙烯基取代；供应材料明确指出丁烯内酯先例中伙伴O与保留F不在同一烯碳，不能视为目标C(F)-O连接的直接验证。",
+    "没有证据确定原三氟底物先失去第一个F后再被氧亲核体捕获，还是发生直接加成、取代或完全不同的无金属路径。",
+    "中性醇、水、N-氧化物、硅醇盐和过氧阴离子在Seed底物上的条件兼容性均未知；未知兼容性没有被当作排除理由。",
+    "羧酸盐具有两个共振相关氧原子，若无同位素映射难以满足明确成键原子归属，因此未纳入本有限面板。",
+    "未覆盖多齿二醇盐、儿茶酚盐和羟肟酸盐，因为其多个潜在成键氧会扩大原子映射与金属螯合变量；可在首轮结果后建立独立子面板。",
+    "未覆盖手性醇盐及系统性E/Z控制；应在确认任何C-O连接后再开展立体化学扩展。",
+    "没有给出可直接迁移的投料量、浓度或催化剂负载；需要先确认真实Seed模型、盐的溶解/聚集状态及热安全边界。",
+    "单氟产物是否为动力学停止点仍未知；每个阳性候选都需要时间过程和纯产物重投实验，以区分初始成键与后续完全脱氟。"
+  ]
+}

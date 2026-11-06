@@ -1,0 +1,3770 @@
+[
+  {
+    "candidate_id": "CP-ab85a340b88a5fa0",
+    "hypothesis_id": "CP-ab85a340b88a5fa0-H01",
+    "activation": "光氧化还原单电子还原并脱羧；需要能够还原该活化酯且不会快速还原 Seed 羰基的光催化体系。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CC(=O)ON1C(=O)c2ccccc2C1=O",
+    "center": "C",
+    "diagnostic": "用同位素标记的甲基或定量气体分析确认脱羧，同时比较无光、无光催化剂及加入自由基捕获剂的结果；检测甲基化单氟烯烃与简单氢脱氟产物。",
+    "family": "N-羟基邻苯二甲酰亚胺氧化还原活性酯",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "N-羟基邻苯二甲酰亚胺乙酸酯",
+    "reactive_form": "还原裂解和脱羧后形成的甲基自由基；乙酰基甲基 atom 0 为拟成键原子。",
+    "reason": "以最小烷基自由基探测烷基 C–C 键形成，避免把 Seed 中有争议的烷基有机硼边界外推为所有烷基转移方式的失败。",
+    "risks": [
+      "活化酯可能水解或被碱直接分解",
+      "甲基自由基可能优先夺氢",
+      "还原条件可能引起羰基还原、脱羰或非选择性连续脱氟"
+    ],
+    "route": "独立产生甲基自由基并使其与 Seed 反应中心结合，再通过还原-消除或自由基链终止形成保留一个氟的烯烃；不要求 Pd 或原有机硼伙伴。",
+    "smiles": "CC(=O)ON1C(=O)c2ccccc2C1=O",
+    "structure_key": "ab85a340b88a5fa0",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/0/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-15eeea50cbe27556",
+    "hypothesis_id": "CP-15eeea50cbe27556-H01",
+    "activation": "以中性咪唑测试吡啶型 N 的直接孤对电子进攻；并行比较无碱和温和碱条件，以区分中性 N 进攻与去质子化后路径。无需预先形成金属咪唑盐。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "c1c[nH]cn1",
+    "center": "N",
+    "diagnostic": "用 19F NMR 监测单氟烯烃形成，用 15N-HMBC（可行时）或完整的 1H/13C HMBC 确认新键连接 atom 1；比较 N1/N3 互变异构相关产物、盐型加合物和仅配位抑制。底物消耗但无 C-N 产物将把配位抑制与成键分开。",
+    "family": "单环含氮杂芳族；咪唑型中性 N 亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "neutral_ambident_aromatics",
+    "name": "咪唑",
+    "reactive_form": "中性咪唑的吡啶型氮 atom 1；另一 [nH] 氮不是本提案的成键原子，但其质子转移会影响实际反应形式。",
+    "reason": "这是紧凑的杂芳 N 成键探针，用于探索带保留 F 的烯碳-N 连接。它也是强配位边界探针：可检验 C-N 成键、单纯催化剂抑制和酸碱活化之间的区别；没有将局部 gem-CF2 氨基去氟先例冒充当前 CF3/羰基体系的证据。",
+    "risks": [
+      "咪唑可能强烈配位并改变金属或 Lewis 酸物种",
+      "互变异构和质子转移会使有效亲核位点依赖条件",
+      "可能形成稳定盐或可逆加合物而非净失氟产物",
+      "强碱和高温可能促进过度脱氟或羰基副反应"
+    ],
+    "route": "探索 atom 1 的 N 与带保留 F 的 CF3 衍生烯碳形成 C-N 键，保持羰基骨架并达到净损失两个 F 的目标连接。",
+    "smiles": "c1ncc[nH]1",
+    "structure_key": "15eeea50cbe27556",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/1/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-15eeea50cbe27556",
+    "hypothesis_id": "CP-15eeea50cbe27556-H02",
+    "activation": "优先比较中性咪唑与温和碱活化条件；不预设需要原Seed的Pd循环。可另用经鉴定的Seed相关gem-CF2烯酮进行直接截获，以区分前体生成与C-N成键。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "c1c[nH]cn1",
+    "center": "N",
+    "diagnostic": "同时比较母体CF3底物和独立制备的相应gem-CF2中间体；用定量19F NMR/LC-MS寻找保留一个F且在原CF3碳形成C-N键的产物，并以无咪唑、无碱和产物再暴露实验判别截获、过度脱氟及分解。",
+    "family": "芳香性唑类N-H亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "咪唑",
+    "reactive_form": "中性咪唑或由N-H去质子化得到的咪唑负离子；成键位点为提交SMILES中的[nH]氮，而非吡啶型氮。",
+    "reason": "供应的局部修正给出咪唑在另一种gem-CF2烯烃上形成同碳C(F)-N连接的实例，但该底物不是羰基共轭Seed中间体，因此这里只外推局部加成-消除能力。咪唑兼具中等亲核性和较低位阻，适合作为首要截获探针。",
+    "risks": [
+      "咪唑的另一氮可能强配位并改变Pd或其他路易斯酸的物种分布。",
+      "较强碱或较高温度可能增加过度脱氟、烯酮聚合或产物异构化。",
+      "观察到抑制不能单独证明咪唑未发生C-N成键。"
+    ],
+    "route": "假设先由CF3片段形成Seed相关gem-CF2烯酮，再由咪唑N加成并消除F-，得到在原CF3碳同时连接N和保留F的羰基共轭烯烃；也应探索不依赖原Pd体系的直接碱促取代。",
+    "smiles": "c1ncc[nH]1",
+    "structure_key": "15eeea50cbe27556",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/1/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-3ca04501f77d577c",
+    "hypothesis_id": "CP-3ca04501f77d577c-H01",
+    "activation": "硫氰酸钾已提供阴离子；需要通过溶剂和反离子调节暴露，并设置异硫氰酸酯/氰化物分析以识别重排或裂解。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "N#C[S-].[K+]",
+    "center": "S",
+    "diagnostic": "用 19F NMR 与 IR/LC-MS 确认目标为 C(F)-SCN 而非 C(F)-NCS，并进行 13C 标记或 MS/MS 连接性验证。若仅得到 N 连接异构体，则明确否定 atom 1 的 S 成键提案。",
+    "family": "无机拟卤硫阴离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "硫氰酸钾",
+    "reactive_form": "atom 1 的硫氰酸根硫端进攻；atom 3 的氮是竞争端，但本提案只评价 S 成键。",
+    "reason": "小型、线性、双端负离子边界探针；S 端成键可给可继续转化的氟代烯基硫氰酸酯，并强烈检验位点选择性。",
+    "risks": [
+      "可能发生 N 端成键形成异硫氰酸酯连接",
+      "盐在低极性溶剂中溶解度有限",
+      "可能配位或改变金属物种",
+      "产物可能水解、重排或继续脱氟"
+    ],
+    "route": "探索对固定 gem-二氟烯酮或完整底物的 S 端亲核取代，在原 CF3 碳形成 C-SCN 并保留一个 F。",
+    "smiles": "[K+].[S-]C#N",
+    "structure_key": "3ca04501f77d577c",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/2/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-fe84fbfeaab6ca84",
+    "hypothesis_id": "CP-fe84fbfeaab6ca84-H01",
+    "activation": "需要与硅烯醇醚相容的Lewis酸或亲氟活化剂；应设置无活化剂、仅Lewis酸和含氟底物三组稳定性对照。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C=C(OC)O[Si](C)(C)C",
+    "center": "C",
+    "diagnostic": "确认末端碳成键，并定量甲酯/羧酸衍生水解物、脱硅物及单氟/无氟烯烃；与苯乙酮硅烯醇醚比较可判别亲核性与产物稳定性。",
+    "family": "硅基烯酮缩醛π亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "乙酸甲酯三甲基硅烯酮缩醛",
+    "reactive_form": "中性硅基烯酮缩醛；指定末端烯碳成键，两个氧及硅均不作为目标成键中心。",
+    "reason": "这是更富电子且带潜在酯功能的碳π供体，可扩展羰基稳定碳亲核体的电子范围，并检验氟亲和脱硅能否协助后续脱氟。",
+    "risks": [
+      "快速脱硅或水解导致失活",
+      "可能发生O-成键、酰基转移或多步缩合",
+      "生成的多羰基产物可能不稳定",
+      "氟硅反应会显著改变有效氟离子活度"
+    ],
+    "route": "末端烯碳进行Mukaiyama型C-C加成，随后脱硅及选择性消除，使新碳片段连接到保留F的原CF3衍生烯碳。",
+    "smiles": "COC(=C)O[Si](C)(C)C",
+    "structure_key": "fe84fbfeaab6ca84",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/3/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-fe84fbfeaab6ca84",
+    "hypothesis_id": "CP-fe84fbfeaab6ca84-H02",
+    "activation": "通常需要 Lewis 酸或亲电金属物种活化电受体；应控制水和氟离子，因为它们可裂解硅烯醚。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C=C(OC)O[Si](C)(C)C",
+    "center": "C",
+    "diagnostic": "用标记的末端烯碳确认 C-C 键，并同时搜索 O-连接、简单水解及 Mukaiyama 醛醇产物；比较无 Lewis 酸和不同 Lewis 酸可判断真正电受体活化。",
+    "family": "硅基烯酮缩醛",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "1-甲氧基-1-(三甲基硅氧基)乙烯",
+    "reactive_form": "Lewis 酸活化条件下的硅基烯酮缩醛；拟成键原子是末端烯碳，两个氧均不是目标成键中心。",
+    "reason": "这是预组织的中性烯醇等价体，可降低强碱导致完全脱氟的风险，同时探测对假定 gem-二氟烯酮的 Mukaiyama 型共轭加成。",
+    "risks": [
+      "痕量水导致快速水解",
+      "可能优先发生羰基加成",
+      "Lewis 酸可能引起底物分解或 E/Z 异构化",
+      "硅对氟的亲和力可能促使非选择性多重失氟"
+    ],
+    "route": "使末端烯碳进攻 CF3 衍生烯碳，再利用 Si-F 形成帮助单次消除；是否能实现净两次失氟需实测。",
+    "smiles": "COC(=C)O[Si](C)(C)C",
+    "structure_key": "fe84fbfeaab6ca84",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/3/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-9965bc6fbd9116ca",
+    "hypothesis_id": "CP-9965bc6fbd9116ca-H01",
+    "activation": "以中性 P(III) 形式筛选，必要时采用独立 Lewis 酸氟抽取分支；需严格控制水。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "FC(F)(F)COP(OCC(F)(F)F)OCC(F)(F)F",
+    "center": "P",
+    "diagnostic": "与亚磷酸三甲酯并行比较，定量 C(F)–P 产物、P–F 物种和水解物；若含氟烷氧基版本只在强活化条件下反应，可把差异归因于降低的 P 亲核性而不是简单的亚磷酸酯家族结论。",
+    "family": "含氟烷基亚磷酸酯",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "亚磷酸三(2,2,2-三氟乙基)酯",
+    "reactive_form": "中性 P(III) 中心；目标成键原子为 P，不是分子中任一 F、O 或三氟乙基碳。",
+    "reason": "电子贫化的亚磷酸酯边界探针，可测试强吸电子烷氧基对 P 成键和后续去烷基化的影响。引证反应支持该精确亚磷酸酯曾表现为亲核体，但并非碳酰基邻位 gem-二氟烯体系。",
+    "risks": [
+      "P 中心亲核性较低",
+      "可能释放或交换含氟醇盐，干扰氟平衡",
+      "水解和氧化会改变磷物种分布",
+      "多重含氟信号增加 19F 质量平衡解析难度"
+    ],
+    "route": "经亲电活化后由 P(III) 进攻，形成 C–P 膦鎓物种并脱氟；后续去烷基化/氧化可给出单氟烯基膦酸酯。",
+    "smiles": "P(OCC(F)(F)F)(OCC(F)(F)F)OCC(F)(F)F",
+    "structure_key": "9965bc6fbd9116ca",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/4/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-3a23ccb632c9f44d",
+    "hypothesis_id": "CP-3a23ccb632c9f44d-H01",
+    "activation": "先以中性苯酚筛选；另设温和碱对照以判断是否需要原位生成少量苯氧负离子。不预设 Pd、硼试剂或 Seed 催化循环为必要条件。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "Oc1ccccc1",
+    "center": "O",
+    "diagnostic": "用定量 19F NMR 跟踪 CF3、可能的 gem-CF2 中间体、目标 C(F)-O 烯烃及完全脱氟产物；用 HMBC 或经验证的 MS/MS 区分 O-连接产物与芳环 C-连接异构体，并比较无碱与温和碱条件。",
+    "family": "单环含氧芳香族；中性酚型孤对电子供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "neutral_ambident_aromatics",
+    "name": "苯酚",
+    "reactive_form": "中性苯酚的氧孤对电子为提交的成键形式；可能存在条件依赖的原位去质子化，但不把预制苯氧盐作为所购试剂。",
+    "reason": "最小型 O/C 双位点芳香探针。本提案专门考察氧原子与保留 F 的 CF3 衍生烯碳成键；所引文献只提供不同氟代烯体系中酚亲核体的局部类比，不证明当前羰基底物或两次失氟过程可行。",
+    "risks": [
+      "酸碱状态和含水量可能改变 O/C 选择性",
+      "较强碱或升温可能促进完全脱氟",
+      "苯酚可能与催化剂或路易斯酸形成配位复合物",
+      "目标烯醚可能发生水解、异构化或后续加成"
+    ],
+    "route": "保持 Seed 羰基骨架，探索中性 O 进攻或加成-消除，使苯氧基最终连接到带保留 F 的 CF3 衍生烯碳，并实现净损失两个 F。",
+    "smiles": "Oc1ccccc1",
+    "structure_key": "3a23ccb632c9f44d",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/5/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-3a23ccb632c9f44d",
+    "hypothesis_id": "CP-3a23ccb632c9f44d-H02",
+    "activation": "比较中性苯酚与碱原位生成的苯氧负离子；需要筛查碱强度、含水量及是否必须保留 Seed 的 Pd 体系。苯酚本身也可作为较弱的中性 O 亲核体边界探针。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "Oc1ccccc1",
+    "center": "O",
+    "diagnostic": "用定量 19F NMR 和 LC-MS 区分目标 C(F)-O 单氟烯烃、完全脱氟产物与未反应底物；将苯酚、预制苯氧化钠和无亲核体对照并列，检验活性是否随苯氧负离子浓度出现。",
+    "family": "O-H 给体／酚类",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "precursor_state_pairs",
+    "name": "苯酚",
+    "reactive_form": "中性苯酚或由其原位形成的苯氧负离子；候选成键原子是氧 atom 0。",
+    "reason": "提供最简单的芳氧基转移探针，并可与预制苯氧化钠构成明确的中性／离子前体对。所引证事实涉及不同的三氟甲基卡宾插入体系，仅支持醇氧形成含氟烯基醚的局部类比，不证明本 Seed 羰基底物或 Pd 条件兼容。",
+    "risks": [
+      "酚可能竞争配位 Pd 或改变其配体状态",
+      "碱促进的过度脱氟可能快于 C-O 成键",
+      "质子转移可能淬灭假设的阴离子或金属化中间体",
+      "生成的烯基醚可能水解、异构化或继续脱氟"
+    ],
+    "route": "保持 Seed 羰基骨架与 CF3 来源反应中心不变，探索在该碳上形成 C-O 键并保留一个烯基氟；分别考察无 Pd 的亲核取代路径及完整 Seed 催化混合物中的捕获路径。",
+    "smiles": "Oc1ccccc1",
+    "structure_key": "3a23ccb632c9f44d",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/5/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-17d78fd2ceec8c4c",
+    "hypothesis_id": "CP-17d78fd2ceec8c4c-H01",
+    "activation": "需要碱生成甲磺酰胺负离子；碱身份和水含量应独立考察。",
+    "atom_indices": [
+      2
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CS(N)(=O)=O",
+    "center": "N",
+    "diagnostic": "通过15N NMR或晶体/二维NMR排除磺酰氧取代；与N,N-二甲基甲磺酰胺负对照比较，并进行目标产物再暴露以评估继续脱氟。",
+    "family": "磺酰胺N-H亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "甲磺酰胺",
+    "reactive_form": "去质子化甲磺酰胺；二号N为成键原子，两个磺酰氧仅为电荷离域位点。",
+    "reason": "甲磺酰胺负离子比普通胺更弱亲核且高度离域，是对电亲性和离去基能力的严格边界测试；若成功可给出较稳定的N-磺酰烯胺连接。",
+    "risks": [
+      "需要的碱性可能引发过度脱氟。",
+      "可能出现O-取代或仅形成紧密离子对。",
+      "磺酰胺盐的溶解度可能成为速率控制因素。"
+    ],
+    "route": "预形成或原位形成甲磺酰胺负离子，对Seed相关gem-CF2烯酮进行N加成和F-消除，保持羰基骨架。",
+    "smiles": "CS(N)(=O)=O",
+    "structure_key": "17d78fd2ceec8c4c",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/6/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-04e1450f7a0596df",
+    "hypothesis_id": "CP-04e1450f7a0596df-H01",
+    "activation": "先测试中性烯丙醇，再与预制烯丙醇钠配对；中性条件若无转化，再用温和碱原位提高O亲核性。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "C=CCO",
+    "center": "O",
+    "diagnostic": "确认产物中新键由索引3的氧而不是烯丙基双键碳形成；可用氘代羟基或13C标记烯丙基端碳区分O-烯丙氧化、碳加成和自由基加成。",
+    "family": "含中性π键的醇",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "烯丙醇",
+    "reactive_form": "中性烯丙醇；索引3为羟基氧，索引0和1构成可能竞争的π体系。",
+    "reason": "同时覆盖氧孤对亲核体和带有可竞争π反应位点的伙伴。引证涉及另一含氟芳香体系中烯丙醇盐替换氟，故只支持烯丙氧基转移的局部可能性。",
+    "risks": [
+      "烯丙基双键可能发生Pd配位、异构化或加成",
+      "中性醇可能只作质子源",
+      "可能出现O/C化学选择性竞争",
+      "产物烯丙基醚可能在反应或分析过程中重排"
+    ],
+    "route": "在可信偕二氟烯酮上测试中性捕获，并与一锅Seed体系比较；目标连接为CF3来源烯碳-O-烯丙基。",
+    "smiles": "C=CCO",
+    "structure_key": "04e1450f7a0596df",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/7/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-f0b88f6468f852c8",
+    "hypothesis_id": "CP-f0b88f6468f852c8-H01",
+    "activation": "可由光氧化还原、氧化剂或金属催化生成叠氮自由基/叠氮转移物；也可测试 Lewis 酸促进的极性叠氮转移。",
+    "atom_indices": [
+      6
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C[Si](C)(C)N=[N+]=[N-]",
+    "center": "N",
+    "diagnostic": "通过 15N 标记的末端氮确认 atom 6 的连接位置，并检测 TMSF、叠氮自由基捕获物和 C(F)–N3 产物；自由基捕获剂和无光对照用于区分路径。",
+    "family": "叠氮基主族转移试剂",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "三甲基硅基叠氮",
+    "reactive_form": "末端氮参与成键的叠氮转移体或 N3•；远离硅的末端氮 atom 6 为拟与 Seed 碳成键的原子。",
+    "reason": "探索 C–N3 键形成，既覆盖氮自由基又覆盖由 Si–F 形成驱动的极性叠氮转移；它不要求复用 Pd/有机硼循环。",
+    "risks": [
+      "叠氮试剂及有机叠氮产物具有分解和安全风险，需要小尺度热稳定性评估",
+      "可能仅生成 TMSF 和非选择性分解物",
+      "叠氮基可能与金属催化剂或羰基相关中间体发生旁路反应"
+    ],
+    "route": "以 atom 6 为固定连接端筛选自由基和极性活化模式，目标为 CF3 衍生碳上的 C(F)–N3 单氟烯烃。",
+    "smiles": "C[Si](C)(C)N=[N+]=[N-]",
+    "structure_key": "f0b88f6468f852c8",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/8/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-1f98fe5f121fd9a1",
+    "hypothesis_id": "CP-1f98fe5f121fd9a1-H01",
+    "activation": "以温和碱产生硼酸盐；应平行考察完整 Seed 条件和能降低游离吡啶配位影响的催化环境。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "OB(O)c1ccncc1",
+    "center": "C",
+    "diagnostic": "加入等量吡啶作为外部抑制对照，并监测硼试剂存留和 Pd 失活；若游离吡啶抑制苯硼酸而本试剂又被快速消耗，可区分配位抑制与供体分解。",
+    "family": "杂芳基硼酸",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "吡啶-3-硼酸",
+    "reactive_form": "吡啶-3-基硼酸盐或相应金属杂芳基物种；环氮不是拟成键原子。",
+    "reason": "同时探测缺电子杂芳基和配位风险。拟成键位置是与硼相连的 3-吡啶基碳，不是吡啶氮。",
+    "risks": [
+      "吡啶氮可能配位并改变 Pd 物种",
+      "杂芳基硼酸可能快速原硼化",
+      "碱和水含量可改变试剂形态",
+      "低产率可能来自催化剂抑制而非 C-C 成键本身"
+    ],
+    "route": "通过转移 3-吡啶基保持目标烯碳连接方式，同时把配位能力作为独立变量。",
+    "smiles": "OB(O)c1ccncc1",
+    "structure_key": "1f98fe5f121fd9a1",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/9/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-869e3eb72168d724",
+    "hypothesis_id": "CP-869e3eb72168d724-H01",
+    "activation": "采用可控Lewis酸或Brønsted酸活化，并与未取代呋喃匹配比较；甲基封闭一个α位后不需要额外生成阴离子。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "Cc1ccco1",
+    "center": "C",
+    "diagnostic": "确认新键位于未被甲基占据的另一α-碳；与呋喃比较区域异构体数量、初始速率和聚合损失，可检验位点封闭效应。",
+    "family": "取代氧杂芳香π亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "2-甲基呋喃",
+    "reactive_form": "中性芳香π亲核体；指定未取代的另一个α-碳成键，氧和甲基均不是成键中心。",
+    "reason": "甲基提高电子密度并封闭一个α位，可能改善分析上的区域选择性；同时增加位阻，是电子促进与局部拥挤的成对探针。",
+    "risks": [
+      "仍可能酸促聚合或开环",
+      "甲基可能促进竞争质子化或烯丙位副反应",
+      "空间拥挤可能减慢目标进攻",
+      "产物可能发生第二次亲电取代"
+    ],
+    "route": "未占据的呋喃α-碳进攻CF3衍生烯基亲电体，芳构化后受控脱氟形成C(F)-杂芳基连接。",
+    "smiles": "Cc1ccco1",
+    "structure_key": "869e3eb72168d724",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/10/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-869e3eb72168d724",
+    "hypothesis_id": "CP-869e3eb72168d724-H02",
+    "activation": "需要把 Seed 片段转化为足够亲电的 gem-二氟烯酮、金属配位烯烃或自由基受体；2-甲基呋喃本身不预先去质子化。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "Cc1ccco1",
+    "center": "C",
+    "diagnostic": "确认连接发生在呋喃 5 位，并比较暗反应、Lewis 酸及光催化条件；检测呋喃低聚、氧化和其他区域异构体，以区分真正的 π 加成与非选择性消耗。",
+    "family": "富电子杂芳烃 π 核试剂",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "2-甲基呋喃",
+    "reactive_form": "中性 2-甲基呋喃 π 系统；拟成键原子为未取代的 5 位碳，环氧不是成键中心。",
+    "reason": "覆盖无需预成碳负离子或转金属化的中性 π 核试剂。它是 Friedel-Crafts 型或自由基极性交叉加成的边界假设。",
+    "risks": [
+      "可能需要过强活化而导致 Seed 羰基分解",
+      "呋喃易聚合、氧化或发生多位点反应",
+      "目标单氟烯烃可能继续接受亲核加成",
+      "低转化不能排除其他富电子 π 核试剂"
+    ],
+    "route": "尝试由呋喃 5 位直接在 CF3 衍生烯碳形成 C-C 键，随后通过失氟恢复共轭烯烃。",
+    "smiles": "Cc1ccco1",
+    "structure_key": "869e3eb72168d724",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/10/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-b49e6492b8f3b97f",
+    "hypothesis_id": "CP-b49e6492b8f3b97f-H01",
+    "activation": "先以中性苯并噻吩测试 C2 的直接杂芳亲核加成；可考察温和 Lewis 酸或其他能够提高氟代烯亲电性的活化方式，但不要求预制硫负离子或有机金属试剂。",
+    "atom_indices": [
+      5
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "c1ccc2sccc2c1",
+    "center": "C",
+    "diagnostic": "用定量 19F NMR 和 GC/LC-HRMS 建立氟质量平衡，再以 HMBC 区分 C2、C3 与硫连接产物；加入噻吩或萘作为匹配对照，可判别稠合硫杂环的电子和配位效应。",
+    "family": "稠合双环含硫芳香族；苯并噻吩型碳亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "neutral_ambident_aromatics",
+    "name": "苯并噻吩",
+    "reactive_form": "中性苯并噻吩，提交噻吩环 C2（atom 5）为成键位点；环内硫可竞争配位，但不是本提案的成键中心。",
+    "reason": "覆盖稠合含硫芳香骨架及 C2 碳成键，并可与吲哚比较 N/S 杂原子对直接芳香加成的影响。引文只说明另一 Rh/硼酸体系中噻吩基团可兼容，不是苯并噻吩直接亲核反应或 Seed 条件成功的证据。",
+    "risks": [
+      "硫可能与软金属中心结合并抑制或改写催化状态",
+      "C2/C3 区域选择性可能混合",
+      "Lewis 酸可能优先结合羰基或硫",
+      "目标单氟烯烃可能进一步脱氟、异构化或聚合"
+    ],
+    "route": "由苯并噻吩 C2 连接带保留 F 的 CF3 衍生烯碳，形成 C-C 键并在保持羰基骨架的同时净损失两个 F。",
+    "smiles": "c1ccc2sccc2c1",
+    "structure_key": "b49e6492b8f3b97f",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/11/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-60ed269cc272def9",
+    "hypothesis_id": "CP-60ed269cc272def9-H01",
+    "activation": "可见光/光氧化还原单电子还原以脱去 N2；光催化剂和还原剂需按实际 Seed 底物的还原窗口筛选。",
+    "atom_indices": [
+      2
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "F[B-](F)(F)F.N#[N+]c1ccccc1",
+    "center": "C",
+    "diagnostic": "同步监测 N2 释放、芳基自由基捕获物、目标单氟烯烃和过度脱氟产物；加入低比例自由基钟或进行明暗交替实验，区分持续自由基链与单纯光催化过程。",
+    "family": "芳基重氮盐自由基前体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "苯重氮四氟硼酸盐",
+    "reactive_form": "失去 N2 后形成的苯基自由基；提交 SMILES 中与重氮基相连的芳环碳 atom 2 是拟成键原子。",
+    "reason": "提供不依赖原 Pd/有机硼转金属化循环的芳基自由基入口，用于检验 CF3 衍生中心能否经自由基加成或自由基-极性交叉形成目标 C–C 键并停在单氟烯烃。",
+    "risks": [
+      "重氮盐可能热分解或发生还原性脱重氮副反应",
+      "芳基自由基可能夺氢、二聚或加成到羰基氧而非目标碳",
+      "光催化剂或阴离子可能改变脱氟数目和产物 E/Z 比"
+    ],
+    "route": "在独立光化学条件中产生苯基自由基，测试其对 Seed 底物或经确认的 Seed 相关 gem-二氟烯酮的加成，随后考察单电子还原/氟离子消除能否给出固定的 C(F)–Ph 连通性。",
+    "smiles": "N#[N+]c1ccccc1.[B-](F)(F)(F)F",
+    "structure_key": "60ed269cc272def9",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/12/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-5934af04c3f8aeb9",
+    "hypothesis_id": "CP-5934af04c3f8aeb9-H01",
+    "activation": "需要无水条件下生成或使用预成的硝基甲烷钠盐；可通过改变阳离子和极性溶剂调节离子对及 C/O 反应。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "[CH2-][N+](=O)[O-].[Na+]",
+    "center": "C",
+    "diagnostic": "使用 13CH3NO2 来源的盐确认碳连接，并搜索硝酸酯型 O-连接物；与丙二酸酯盐比较可判别软硬性和碱性，而非只比较转化率。",
+    "family": "硝基稳定化碳负离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "硝基甲烷钠盐",
+    "reactive_form": "硝基甲烷的碳负离子/硝酸根式共振离子对；拟成键原子为碳。",
+    "reason": "小型、强极化且双位反应的碳供体，用于覆盖非羰基稳定化阴离子。它可能通过直接 vinylic 取代或加成-失氟引入硝基甲基。",
+    "risks": [
+      "C/O 双位反应",
+      "在强碱或受热条件下分解",
+      "可能发生单电子过程或复杂盐效应",
+      "碱性条件可放大 Seed 过度脱氟"
+    ],
+    "route": "将硝基甲基碳接到 CF3 衍生烯碳，并以 C/O 连接分析作为主要判据。",
+    "smiles": "[Na+].[CH2-][N+](=O)[O-]",
+    "structure_key": "5934af04c3f8aeb9",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/13/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-efe8367638b4b0e2",
+    "hypothesis_id": "CP-efe8367638b4b0e2-H01",
+    "activation": "硫脲可直接以硫孤对进攻形成异硫脲鎓型加合物；后续温和水解或解保护应作为独立阶段评价，不应假定自动发生。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "NC(N)=S",
+    "center": "S",
+    "diagnostic": "先捕获并表征 C(F)-S-C(N)N 型异硫脲鎓/异硫脲产物，再单独测试其是否可转化为 C(F)-SH 或其他硫衍生物。使用脲作为非硫对照可判断是否仅为氢键或碱效应。",
+    "family": "中性硫代酰胺型硫供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "硫脲",
+    "reactive_form": "atom 3 的硫为拟议成键原子；两个氮可能配位或参与质子转移，但不是本提案的成键中心。",
+    "reason": "高极化、非硫醇型中性硫亲核体，可作为引入潜在可解保护硫基的边界探针；同时强烈测试额外氮供体对 Seed 金属体系的抑制。",
+    "risks": [
+      "两个氮可能强配位或改变酸碱平衡",
+      "可能只形成可逆盐或共轭加成物",
+      "后续水解可能破坏氟代烯烃",
+      "高极性导致与 DCE 的相容性有限"
+    ],
+    "route": "用硫脲硫端捕获固定 gem-二氟烯酮并失氟，先保留异硫脲连接性；是否进一步释放硫醇另行测试。",
+    "smiles": "NC(N)=S",
+    "structure_key": "efe8367638b4b0e2",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/14/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-68d791fe27d0090d",
+    "hypothesis_id": "CP-68d791fe27d0090d-H01",
+    "activation": "可先直接使用；并行考察自由基引发、光照以及非自由基 Lewis 酸活化，以确定是两电子亲核加成还是单电子路径。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "CCCCP(CCCC)CCCC",
+    "center": "P",
+    "diagnostic": "在严格匹配条件下比较三正丁基膦与三苯基膦的初速、膦氧化物生成量和 C(F)–P/C–P 膦鎓物种比例；加入自由基钟或分别使用 TEMPO、BHT时，只把差异性结果作为路径判别而非单独证据。",
+    "family": "三烷基膦",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "三正丁基膦",
+    "reactive_form": "中性三正丁基膦的 P(III) 孤对电子中心。",
+    "reason": "比三甲基膦更易操作且仍具较强亲核性，用于覆盖柔性烷基膦区域。所引证据只说明 Bu3P 可作为可测量的膦亲核体；向 Seed 的净双脱氟 C–P 成键属于局部外推。",
+    "risks": [
+      "空气氧化生成三正丁基膦氧化物",
+      "可能与 Pd 强配位并抑制原路径",
+      "烷基膦可能发生自由基副反应或烷基裂解",
+      "疏水性和盐效应可能改变相行为"
+    ],
+    "route": "中性磷亲核加成至 CF3 来源碳，随后逐步失去氟离子；备选路径是原位生成磷中心自由基后加成，再经氧化/消除到达相同 C(F)–P 连接关系。",
+    "smiles": "P(CCCC)(CCCC)CCCC",
+    "structure_key": "68d791fe27d0090d",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/15/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-757e317decd6724d",
+    "hypothesis_id": "CP-757e317decd6724d-H01",
+    "activation": "比较中性硫醇、弱碱原位生成硫负离子及预制盐；溴取代基还要求无 Pd 对照，以排除芳基溴参与交叉偶联。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "Sc1ccc(Br)cc1",
+    "center": "S",
+    "diagnostic": "除 19F NMR 和质量分析外，确认芳基溴仍完整；与苯硫酚配对比较。若只观察到脱溴或芳基交叉偶联而没有固定中心的 C-S 键，则否定所设硫转移。",
+    "family": "电子较弱且带正交把手的芳基硫醇",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "4-溴苯硫酚",
+    "reactive_form": "中性 4-溴苯硫酚或其硫负离子；成键位点为 atom 0 的硫。",
+    "reason": "在芳基硫醇基准上加入吸电子且可追踪的对位溴，测试硫亲核性降低、Pd 氧化加成竞争及产物后续衍生可能性。引用仅是局部 C-F 被亲核体取代和硫醇/Pd 风险的类比。",
+    "risks": [
+      "芳基溴可能与 Pd 发生竞争性氧化加成",
+      "硫醇可能毒化 Pd",
+      "氧化成二硫化物",
+      "更低的硫亲核性可能导致底物仅脱氟或分解"
+    ],
+    "route": "探索固定 CF3 衍生碳上的脱氟 C-S 键形成，优先用原位硫负离子和无 Pd 条件判断是否存在直接 vinylic SNV 型路径。",
+    "smiles": "Sc1ccc(Br)cc1",
+    "structure_key": "757e317decd6724d",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/16/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-d0c9b289504a201f",
+    "hypothesis_id": "CP-d0c9b289504a201f-H01",
+    "activation": "先使用中性胺；若无截获，再与苯胺负离子条件分开比较，避免仅通过提高温度补偿低亲核性。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "Nc1ccc(C(F)(F)F)cc1",
+    "center": "N",
+    "diagnostic": "与苯胺进行同一分析平台下的竞争或平行实验；若CF3取代只降低C-N产物而gem-CF2中间体积累，将支持N进攻电子需求，而非底物生成差异。",
+    "family": "电子贫化芳香族伯胺",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "4-(三氟甲基)苯胺",
+    "reactive_form": "中性芳胺或其受控生成的苯胺负离子；零号N为成键位点，芳环CF3不参与成键。",
+    "reason": "该分子是苯胺电子贫化边界探针，用于检验中性N亲核性降低是否可由去质子化补偿，同时避免增加额外配位杂原子。",
+    "risks": [
+      "中性形式可能过慢，导致误判为家族不相容。",
+      "强碱活化可能加速目标底物或产物过度脱氟。",
+      "低溶解度或盐的离子对可能影响比较。"
+    ],
+    "route": "比较中性芳胺加成-消除与预活化芳胺负离子取代两种路径，目标连接均为原CF3碳上的C(F)-N。",
+    "smiles": "Nc1ccc(C(F)(F)F)cc1",
+    "structure_key": "d0c9b289504a201f",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/17/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-66013c6cea267de7",
+    "hypothesis_id": "CP-66013c6cea267de7-H01",
+    "activation": "预先制备或原位形成钠烯醇盐，并严格控制质子源；可对独立制备的 Seed 相关 gem-二氟烯酮进行低温加成后升温失氟测试。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "[CH2-]C(C)=O.[Na+]",
+    "center": "C",
+    "diagnostic": "用 13C 标记烯醇盐端碳或二维 NMR确认新键位置，同时定量 C-加成、O-加成、质子化和醛醇副产物；改变 Na/Li 与溶剂以检验 C/O 选择性。",
+    "family": "酮烯醇盐",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "丙酮钠烯醇盐",
+    "reactive_form": "以碳中心表示的丙酮钠烯醇盐；实际为 C/O 离域且可能聚集的离子对。",
+    "reason": "直接测试碳负离子对 Seed 或其假定 gem-二氟烯酮的加成-失氟路径。拟成键原子是末端烯醇碳，不是氧。",
+    "risks": [
+      "可能优先加成羰基而破坏目标骨架",
+      "C/O 双位反应及离子对依赖性",
+      "质子化、醛醇缩合或底物烯醇化",
+      "强碱可能促使完全脱氟"
+    ],
+    "route": "使烯醇碳在 CF3 衍生烯碳成键，随后检验是否能停在保留一个 F 的共轭烯烃。",
+    "smiles": "[Na+].[CH2-]C(=O)C",
+    "structure_key": "66013c6cea267de7",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/18/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-8125e5fbd7a0556e",
+    "hypothesis_id": "CP-8125e5fbd7a0556e-H01",
+    "activation": "通常以预形成有机锌溶液直接转金属化，或配合 Cu/Ni 等催化剂；需严格无水无氧，并避免默认 Pd168 适用。",
+    "atom_indices": [
+      2
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "[Br][Zn][CH2]c1ccccc1",
+    "center": "C",
+    "diagnostic": "测定有机锌剩余量、甲苯、联苄、羰基加成醇和目标苄基化单氟烯烃；比较无催化剂、Cu/Ni 催化及低温条件以区分直接加成和催化转移。",
+    "family": "有机锌金属转移前体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "溴化苄基锌",
+    "reactive_form": "苄基锌、转金属化后的苄基金属物种或单电子过程产生的苄基自由基；与 Zn 相连的苄基碳 atom 2 为拟成键原子。",
+    "reason": "提供不含硼的金属转移入口，检验 Seed 的 C–C 成键是否可由较极性的苄基供体实现，同时把直接羰基加成作为明确竞争路径。",
+    "risks": [
+      "强烈水氧敏感，实际物种可能聚集或发生 Schlenk 型平衡",
+      "可能优先对羰基 1,2-加成",
+      "转金属化或单电子过程可能生成联苄、甲苯及过度脱氟产物"
+    ],
+    "route": "在匹配的无水体系中直接测试或经 Cu/Ni 转移 atom 2；不要求原有机硼伙伴或原 Pd 循环，目标仍为 CF3 衍生碳与苄基碳的固定连接。",
+    "smiles": "Br[Zn]Cc1ccccc1",
+    "structure_key": "8125e5fbd7a0556e",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/19/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-3bfd35b3a7b890f1",
+    "hypothesis_id": "CP-3bfd35b3a7b890f1-H01",
+    "activation": "可采用温和光氧化形成苯硒自由基，或碱生成苯硒负离子；需严格控制氧和水。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "[SeH]c1ccccc1",
+    "center": "Se",
+    "diagnostic": "比较苯硒醇与预形成二苯二硒的行为，定量二硒化物、C(F)–SePh 产物和过度脱氟物；捕获剂敏感性及 Se–H/Se–D 同位素实验可区分自由基与质子转移。",
+    "family": "硒醇/硒自由基供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "苯硒酚",
+    "reactive_form": "苯硒自由基 PhSe•、苯硒负离子 PhSe− 或中性硒醇；硒 atom 0 为拟成键原子。",
+    "reason": "作为硫的较软、较易氧化同系边界探针，探索 C–Se 键。引文来自不同卡宾插入体系，不能证明与 Seed 羰基、脱两个氟或所需区域选择性兼容。",
+    "risks": [
+      "极易氧化为二苯二硒或更高氧化态物种",
+      "硒物种可能毒害金属催化剂",
+      "Se–H 供氢可能与 C–Se 成键竞争并导致氢脱氟"
+    ],
+    "route": "独立比较自由基 Se 转移与阴离子型 Se 取代，目标连接原子始终是 Se atom 0。",
+    "smiles": "[SeH]c1ccccc1",
+    "structure_key": "3bfd35b3a7b890f1",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "Se"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/20/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-e61c7ae663276e1e",
+    "hypothesis_id": "CP-e61c7ae663276e1e-H01",
+    "activation": "四氢噻吩无需预先去质子化；可通过底物 Lewis 酸活化或直接捕获 gem-二氟烯酮形成环状锍盐。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C1CCSC1",
+    "center": "S",
+    "diagnostic": "用 NMR 和高分辨 MS 查找保持完整四碳环的氟代烯基四氢噻吩鎓盐，并与二甲硫醚比较。若只观察环开裂或聚合而没有 C(F)-S 键，则判为负边界。",
+    "family": "环状中性硫醚孤对供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "四氢噻吩",
+    "reactive_form": "atom 3 的环内中性硫形成新 C-S 键，预期初始形态为锍盐。",
+    "reason": "比二甲硫醚挥发性低，并通过环结构减少简单脱烷基路径，可区分“形成锍键”与“随后脱甲基得到中性硫醚”两个阶段。",
+    "risks": [
+      "可能停留在锍盐而不形成可分离中性产物",
+      "强活化条件下可能环开裂",
+      "硫醚可能抑制 Pd",
+      "盐型产物的分离回收可能与真实转化不一致"
+    ],
+    "route": "在不要求 Seed 催化循环的条件下捕获固定 gem-二氟烯酮，形成原 CF3 碳与环硫之间的键并保留一个 F。",
+    "smiles": "C1CCSC1",
+    "structure_key": "e61c7ae663276e1e",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/21/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-ccb45c231c905174",
+    "hypothesis_id": "CP-ccb45c231c905174-H01",
+    "activation": "先测试中性吗啉；若反应不足，再比较非亲核碱辅助条件。无需先生成N-金属试剂。",
+    "atom_indices": [
+      5
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "C1COCCN1",
+    "center": "N",
+    "diagnostic": "将吗啉与N-甲基吗啉平行比较：只有含N-H的吗啉产生C(F)-N产物将支持加成-消除/脱质子过程；同步监测可能的氨基炔、完全脱氟产物和吗啉加成物。",
+    "family": "环状仲胺",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "吗啉",
+    "reactive_form": "中性仲胺；五号N为成键原子，环内O仅为调电子和潜在配位位点。",
+    "reason": "供应证据提出吗啉对另一gem-CF2烯烃的碱促加成-消除，虽后续产物路径不同，但支持把吗啉作为局部C-N截获探针。环氧使其碱性低于哌啶，可探查亲核性与催化剂配位之间的平衡。",
+    "risks": [
+      "吗啉及其氧原子可能竞争配位。",
+      "可能形成暂态加成物后转化为炔烃或其他完全脱氟物。",
+      "强碱可能使目标单氟烯烃继续失氟。"
+    ],
+    "route": "中性吗啉进攻Seed相关gem-CF2烯酮的末端含氟碳，随后质子转移和F-消除，形成同碳C(F)-N连接。",
+    "smiles": "C1COCCN1",
+    "structure_key": "ccb45c231c905174",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/22/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-ccb45c231c905174",
+    "hypothesis_id": "CP-ccb45c231c905174-H02",
+    "activation": "吗啉可作为中性二级胺直接测试，也可在温和碱存在下形成更高比例的 N 亲核活性态；应单独评估无 Pd、Seed Pd 体系及不同弱碱条件。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "C1COCCN1",
+    "center": "N",
+    "diagnostic": "用 19F NMR 检测新的单氟烯烃信号，并以 MS/MS 或分离后的 NMR 确认 C-N 键而非吗啉氧成键；加入 N-甲基吗啉作为无 N-H 对照，以区分脱质子路径和普通路易斯碱作用。",
+    "family": "N-H 给体／二级胺",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "precursor_state_pairs",
+    "name": "吗啉",
+    "reactive_form": "中性吗啉氮或其去质子化 N 态；目标成键原子为氮 atom 0。环内氧 atom 3 仅作为潜在竞争配位位点，不指定为目标成键原子。",
+    "reason": "提供小型、非芳香 N-H 亲核体，同时用环氧暴露配位竞争这一边界。引证是分子内 N 进攻 gem-二氟烯并发生 β-F 消除的局部先例；本提案外推至分子间吗啉捕获和 Seed 羰基共轭中心，不转移其成环几何或催化循环。",
+    "risks": [
+      "氮和氧均可能强配位 Pd，造成催化剂抑制或物种切换",
+      "胺可能与羰基发生缩合、加成或促进底物分解",
+      "碱性增强可能同时增加完全脱氟",
+      "可能观察到 O 成键、N 成键或盐形成的混合结果"
+    ],
+    "route": "探索吗啉氮在 CF3 来源碳上形成 C-N 键并保留一个氟的分子间脱氟胺化；允许经离子型加成／消除路径，不要求 Seed 有机硼伙伴或其转金属化过程。",
+    "smiles": "N1CCOCC1",
+    "structure_key": "ccb45c231c905174",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/22/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-5bf56c0fb6340187",
+    "hypothesis_id": "CP-5bf56c0fb6340187-H01",
+    "activation": "可采用光氧化还原、低价金属或其他经验证的 C–I 单电子裂解方式；避免预设必须使用 Seed 的 Pd 催化剂。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CC(C)(C)I",
+    "center": "C",
+    "diagnostic": "检测异丁烷、异丁烯、偶联二聚体及目标叔丁基化产物；比较自由基捕获剂、暗反应和不含活化剂的对照，以判断 C–I 均裂是否与产物形成相关。",
+    "family": "叔烷基卤化物自由基前体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "叔丁基碘",
+    "reactive_form": "C–I 单电子裂解后形成的叔丁基自由基；中心叔碳 atom 1 为拟成键原子。",
+    "reason": "作为高度取代烷基自由基和显著位阻边界探针，可区分自由基加成能力与原有机硼转金属化的位阻限制。",
+    "risks": [
+      "易发生还原脱卤或消除生成异丁烯",
+      "叔丁基自由基可能大量夺氢或二聚",
+      "位阻可能降低目标碳捕获速率并放大过度脱氟或底物分解"
+    ],
+    "route": "在独立单电子活化条件下生成叔丁基自由基，探测其是否能在 CF3 衍生碳建立 C–C 键并经后续氟离子损失达到单氟烯烃。",
+    "smiles": "CC(C)(C)I",
+    "structure_key": "5bf56c0fb6340187",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/23/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-0dde3cbcb235c563",
+    "hypothesis_id": "CP-0dde3cbcb235c563-H01",
+    "activation": "TEMPO 本身是持久氮氧自由基；可直接加入或与光/热自由基生成体系配合，不需要额外生成 O 自由基。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CC1(C)CCCC(C)(C)N1[O]",
+    "center": "O",
+    "diagnostic": "定量 TEMPO 加合物、羟胺化 TEMPO、底物转化和所有含氟产物；比较低转化率下的化学计量加合与单纯反应抑制，避免把抑制本身当作自由基证据。",
+    "family": "持久氮氧自由基/氧转移边界探针",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "2,2,6,6-四甲基哌啶-1-氧自由基（TEMPO）",
+    "reactive_form": "氧中心持久自由基；氧 atom 0 是拟与 Seed 碳成键的原子。",
+    "reason": "既是 C–O 键形成的边界候选，也是捕获 CF3 衍生碳自由基的机制探针。只有分离或正交确认固定 C(F)–O–TEMPO 连通性才视为成键结果。",
+    "risks": [
+      "可能氧化或抑制催化剂而不形成目标加合物",
+      "TEMPO 加合物可能发生 β-裂解或继续脱氟",
+      "高浓度持久自由基可能改变链长和整体氟质量平衡"
+    ],
+    "route": "直接捕获反应过程中可能形成的 Seed 碳自由基；目标是 O atom 0 与 CF3 衍生碳成键并最终保留一个氟，而非仅观察反应被抑制。",
+    "smiles": "[O]N1C(C)(C)CCCC1(C)C",
+    "structure_key": "0dde3cbcb235c563",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/24/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-586e1196c67c1811",
+    "hypothesis_id": "CP-586e1196c67c1811-H01",
+    "activation": "通过光氧化、过氧化物、Mn/Cu 等单电子体系产生磷酰自由基，或以碱促进 P–H 加成；活化模式需分开比较。",
+    "atom_indices": [
+      2
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CO[PH](=O)OC",
+    "center": "P",
+    "diagnostic": "使用氘代 P–D 类似物追踪氢转移；31P/19F NMR 同时检测 C–P 单氟烯烃、磷酸酯氧化物和氢脱氟产物，并设置无引发剂和自由基捕获对照。",
+    "family": "P–H 磷酰基转移前体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "亚磷酸二甲酯",
+    "reactive_form": "磷中心自由基、磷负离子等效体或中性 P–H 加成体；磷 atom 2 是拟成键原子。",
+    "reason": "提供与 C、S、Se 不同的主族成键中心，检验 C–P 键形成后是否能通过还原-消除停在 C(F)–P(O)(OMe)2 单氟烯烃。",
+    "risks": [
+      "可能发生 P–H 氢原子转移而非 C–P 成键",
+      "碱或水会改变磷试剂形态并促进 Seed 分解",
+      "氧化条件可能把试剂转为不活泼或不同价态的磷物种"
+    ],
+    "route": "分别测试自由基磷酰化和阴离子/极性 P 加成，不依赖原有机硼伙伴；接受标准是 P atom 2 与 CF3 衍生碳直接相连。",
+    "smiles": "COP(=O)(OC)[H]",
+    "structure_key": "586e1196c67c1811",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/25/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-cda39527d578a1f4",
+    "hypothesis_id": "CP-cda39527d578a1f4-H01",
+    "activation": "需要断裂或转移 P–Si 键；可比较氟离子、温和亲电活化剂和无活化对照，但必须监控氟硅烷形成。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C[Si](C)(C)P([Si](C)(C)C)[Si](C)(C)C",
+    "center": "P",
+    "diagnostic": "同步定量 Me3SiF 与 C(F)–P 产物。若 Me3SiF 形成而无 C–P 键，说明仅发生氟捕获；若 C–P 形成与 Me3SiF 同步且无 Pd 条件也成立，则支持硅驱动的 P 转移/脱氟路径。",
+    "family": "硅基磷转移试剂",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "三(三甲基硅基)膦",
+    "reactive_form": "P(SiMe3)3；索引 0 的 P 是拟转移和成键中心，Si 主要提供亲氟驱动力。",
+    "reason": "这是金属自由的 P 键转移前体，可把强 Si–F 形成与 C–P 构建耦合。它检验氟捕获是否能驱动 Seed 中间体在保留一个 F 时停止，属于高信息量但高反应性的边界假设。",
+    "risks": [
+      "高度水敏和空气敏感",
+      "可能只消耗氟形成硅氟化物而不成 C–P 键",
+      "可能发生多次 P–Si 断裂及复杂磷物种歧化",
+      "强氟亲和性可能推动完全脱氟"
+    ],
+    "route": "氟离子诱导 P–Si 裂解生成亲核性磷物种，同时 Me3SiF 捕获离去氟；磷对 CF3 来源碳成键并再消除一个氟，形成固定 C(F)–P 连接。",
+    "smiles": "P([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C",
+    "structure_key": "cda39527d578a1f4",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/26/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-a48a48bf32050f7b",
+    "hypothesis_id": "CP-a48a48bf32050f7b-H01",
+    "activation": "以经确认组成的无水过氧化钠单加合形式测试；因氧化性和安全风险，应仅作为低规模边界筛选，并避免与不相容的还原剂或高负载金属体系直接组合。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "[Na+].[O-]O",
+    "center": "O",
+    "diagnostic": "用18O标记过氧化物确定新C-O键来源，并定量目标C(F)-OOH或其可验证衍生物、普通醇/酮氧化产物及O2释放；自由基抑制剂结果只能与暗反应和无底物对照联合解释。",
+    "family": "过氧阴离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "过氧化氢钠",
+    "reactive_form": "氢过氧负离子HO-O-的钠盐；索引0为形式负电并提议成键的末端氧，索引1为带氢氧，索引2为钠。",
+    "reason": "覆盖比烷氧负离子更软且可发生单电子或双电子反应的O-供体。目标是探查C-O过氧键形成边界，不假设它沿Seed Pd循环反应。",
+    "risks": [
+      "氧化性物质存在放热和分解危险",
+      "可能氧化Pd、配体、底物或产物",
+      "可能发生自由基链过程并损害选择性",
+      "C(F)-OOH产物可能不稳定并在分析或后处理时重排"
+    ],
+    "route": "优先在不含Pd的可信偕二氟烯酮体系中试探直接加成/氟离子消除；只有在材料和热安全评估后才评价Seed混合物兼容性。",
+    "smiles": "[O-]O.[Na+]",
+    "structure_key": "a48a48bf32050f7b",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/27/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-127aad8ad7de9e0a",
+    "hypothesis_id": "CP-127aad8ad7de9e0a-H01",
+    "activation": "氧化生成甲磺酰自由基，或在适当电化学/光氧化条件下直接转移 SO2Me；具体氧化剂需根据 Seed 底物稳定性筛选。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "CS(=O)[O-].[Na+]",
+    "center": "S",
+    "diagnostic": "以 LC-MS、硫质量平衡和 19F NMR 区分 C–S 偶联、简单氧化、SO2 挤出及过度脱氟；加入自由基捕获剂并检测甲磺酰捕获物。",
+    "family": "亚磺酸盐磺酰自由基前体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "甲磺酸钠（甲基亚磺酸钠）",
+    "reactive_form": "氧化后形成的甲磺酰自由基 CH3SO2•；硫 atom 1 是与 Seed 碳形成 C–S 键的原子。",
+    "reason": "直接探索 C–S(O)2Me 新键。引文是 α-三氟甲基芳基烯烃与其他磺酰自由基前体的局部类比，不建立本亚磺酸盐、羰基 Seed 或净失去两个氟的适用性。",
+    "risks": [
+      "亚磺酸盐可能被过氧化为磺酸盐",
+      "磺酰自由基可能脱 SO2 转为甲基自由基",
+      "氧化条件可能损伤 Seed 羰基或促进非选择性脱氟"
+    ],
+    "route": "在独立光氧化或电化学条件中生成甲磺酰自由基，使 S atom 1 加到 CF3 衍生中心，再筛选还原/消除条件以获得 C(F)–S(O)2Me 连通性。",
+    "smiles": "CS(=O)[O-].[Na+]",
+    "structure_key": "127aad8ad7de9e0a",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/28/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-7ff7c801adbfac54",
+    "hypothesis_id": "CP-7ff7c801adbfac54-H01",
+    "activation": "使用与O端提案完全相同且经确认的锂丙酮烯醇盐条件；这里只改变被检验的成键原子归属，不另行改变试剂或条件。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C=C(C)[O-].[Li+]",
+    "center": "C",
+    "diagnostic": "通过末端烯醇碳的13C标记确认是否形成CF3来源碳-C(烯醇盐)键；与索引3的O端产物定量比较，从而避免把ambident反应误归为氧成键。",
+    "family": "ambident烯醇盐的碳端边界",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "锂丙酮烯醇盐，C端竞争提案",
+    "reactive_form": "同一锂烯醇盐的碳端共振形式；索引0为本提案的成键碳，索引3为未成键的烯醇氧，索引4为锂。",
+    "reason": "该提案不是把碳亲核体当作氧亲核体，而是为oxygen镜头保留并明确映射同一ambident试剂的竞争碳端结果。它能判别观察到的转化是否真正支持C-O键形成。",
+    "risks": [
+      "C端产物会偏离期望的C-O键类型但仍占用目标电亲位点",
+      "后续互变异构可能掩盖初始成键原子",
+      "羰基1,2-加成可能产生相同分子量副产物",
+      "强碱和锂配位可能改变脱氟计数"
+    ],
+    "route": "与O端提案共享同一分步试验；仅将索引0与CF3来源烯碳形成的新C-C键计为该竞争假设的阳性结果。",
+    "smiles": "C=C(C)[O-].[Li+]",
+    "structure_key": "7ff7c801adbfac54",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/29/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-7ff7c801adbfac54",
+    "hypothesis_id": "CP-7ff7c801adbfac54-H02",
+    "activation": "以预制并经谱学或滴定确认的锂丙酮烯醇盐测试；低温生成与升温反应应分开，避免把原位成盐副反应误作目标捕获。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "C=C(C)[O-].[Li+]",
+    "center": "O",
+    "diagnostic": "本提案专门寻找O端成键的C(F)-O-C(=C)CH3或其互变异构产物；与同一SMILES的碳端提案平行，通过13C标记末端烯醇碳及二维NMR定量O/C成键比。",
+    "family": "ambident烯醇盐的氧端反应",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "锂丙酮烯醇盐，O端成键提案",
+    "reactive_form": "形式烯醇氧负离子；索引3为本提案的成键氧，索引0为竞争的亲核碳，索引4为锂。",
+    "reason": "直接覆盖氧/碳双位亲核体，并把O端连接作为独立假设。引证只提出另一体系中的金属烯醇盐与氟离子排出，不能证明该烯醇盐会在目标中心O-烯醇化。",
+    "risks": [
+      "C端烷基化可能压倒O端成键",
+      "可对Seed羰基发生1,2-加成或引发烯醇交换",
+      "强碱性可能促进完全脱氟",
+      "O端初生产物可能快速发生Claisen型重排或水解"
+    ],
+    "route": "使用可信偕二氟烯酮进行无Pd直接捕获，并与碳端映射实验成对分析；目标位点仍为原CF3来源烯碳。",
+    "smiles": "C=C(C)[O-].[Li+]",
+    "structure_key": "7ff7c801adbfac54",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/29/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-c65a9b3d8c110ddb",
+    "hypothesis_id": "CP-c65a9b3d8c110ddb-H01",
+    "activation": "比较中性吡唑和预先受控去质子化的吡唑；碱强度应与过度脱氟窗口分开筛选。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "c1cn[nH]c1",
+    "center": "N",
+    "diagnostic": "用15N标记或二维NMR确认C-N连接发生在原[nH]氮；与N-甲基吡唑负对照及咪唑平行比较，以判别N-H活化需求和单纯配位抑制。",
+    "family": "芳香性唑类N-H亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "吡唑",
+    "reactive_form": "吡唑或吡唑负离子；指定成键原子为零号[nH]氮，邻位吡啶型氮仅视为潜在配位位点。",
+    "reason": "吡唑较咪唑具有不同的N-N相邻电子结构和酸性，可覆盖去质子化容易但亲核性、配位性不同的边界。没有供应证据直接证明其适用于Seed连接。",
+    "risks": [
+      "N-N唑可能形成强配位络合物并抑制金属介导的前体生成。",
+      "互变异构可能造成区域归属困难。",
+      "碱活化可能与烯酮过度脱氟同时发生。"
+    ],
+    "route": "以吡唑负离子对Seed相关gem-CF2烯酮进行加成-消除，形成C(F)-N吡唑基烯烃；母体CF3底物的一锅转化仅作为独立探索路线。",
+    "smiles": "[nH]1nccc1",
+    "structure_key": "c65a9b3d8c110ddb",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/30/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-9531200cd700e862",
+    "hypothesis_id": "CP-9531200cd700e862-H01",
+    "activation": "由丙二酸二甲酯受控去质子化得到该钠盐；优先在较低温度与非质子溶剂中评估，随后逐步升温观察失氟。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "COC(=O)[CH-]C(=O)OC.[Na+]",
+    "center": "C",
+    "diagnostic": "比较预成盐、原位成盐和未加碱三组，定量 C-连接产物、O-连接物、Michael 加成物及脱羧产物；同位素标记中心碳可直接确认连接。",
+    "family": "稳定化丙二酸酯碳负离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "丙二酸二甲酯钠盐",
+    "reactive_form": "丙二酸二甲酯中心碳负离子及其钠离子对；两个酯氧不是拟成键原子。",
+    "reason": "比简单酮烯醇盐更稳定、碱性较低，可检验亲核性与过度脱氟之间的窗口。中心次甲基碳形成目标 C-C 键。",
+    "risks": [
+      "亲核性可能不足以进攻目标烯碳",
+      "酯交换、水解或脱羧",
+      "可能发生 O-反应或羰基加成",
+      "较高温度补偿可能引起进一步脱氟"
+    ],
+    "route": "以稳定化中心碳进行 vinylic 加成-消除或对 gem-二氟烯酮的共轭加成，保持最终连接在 CF3 衍生碳。",
+    "smiles": "[Na+].[CH-](C(=O)OC)C(=O)OC",
+    "structure_key": "9531200cd700e862",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/31/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-db052eb259749c35",
+    "hypothesis_id": "CP-db052eb259749c35-H01",
+    "activation": "甲基苯基二硫化物需要 S-S 键选择性活化，可比较光诱导单电子、还原裂解和金属辅助转移；本提案只跟踪甲硫基端。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "CSSc1ccccc1",
+    "center": "S",
+    "diagnostic": "使用一端同位素标记的非对称二硫化物，分别定量 C(F)-SMe 与 C(F)-SPh；同时检测互换生成的对称二硫化物。甲硫基选择性随自由基或还原条件改变可区分 S-S 均裂、异裂和硫交换。",
+    "family": "非对称二硫化物甲硫基 sigma 键供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "甲基苯基二硫化物（甲硫基转移提案）",
+    "reactive_form": "atom 1 是与甲基相连的拟转移硫；atom 2 的苯硫基端作为独立提案处理。",
+    "reason": "S-S sigma 键供体避免游离硫醇，同时用非对称结构一次检验两个硫片段的转移偏好。引用仅证明二硫化物能够参与硫成键过程，不证明本底物或目标连接性。",
+    "risks": [
+      "快速硫交换可能抹去端选择性",
+      "可能同时生成甲硫基和苯硫基产物",
+      "自由基条件可能攻击羰基或引发完全脱氟",
+      "二硫化物或产物可能使金属催化剂失活"
+    ],
+    "route": "活化 S-S 键产生甲硫基自由基、阴离子或金属硫物种，使 atom 1 在原 CF3 碳成键并形成 C(F)-SMe。",
+    "smiles": "CSSc1ccccc1",
+    "structure_key": "db052eb259749c35",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/32/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-db052eb259749c35",
+    "hypothesis_id": "CP-db052eb259749c35-H02",
+    "activation": "与甲硫基提案使用同一非对称二硫化物，但分析聚焦苯硫基端；比较光、还原及金属辅助 S-S 活化。",
+    "atom_indices": [
+      2
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "CSSc1ccccc1",
+    "center": "S",
+    "diagnostic": "对 atom 2 端进行选择性同位素标记，定量 C(F)-SPh/C(F)-SMe 比值和二硫化物交换。与苯硫酚及苯硫酚钠比较，可判断二硫化物是否仅是原位苯硫负离子来源。",
+    "family": "非对称二硫化物苯硫基 sigma 键供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "甲基苯基二硫化物（苯硫基转移提案）",
+    "reactive_form": "atom 2 是与苯基相连的拟转移硫；atom 1 的甲硫基端在另一提案中评价。",
+    "reason": "对同一 S-S 键的另一方向进行原子明确的测试，覆盖更稳定的苯硫基自由基/阴离子转移假说。",
+    "risks": [
+      "端选择性可能因硫交换而不可解释",
+      "可能发生两种硫基的竞争转移",
+      "光或还原条件可能改变脱氟计数",
+      "苯硫基物种可能强配位金属"
+    ],
+    "route": "通过 S-S 键活化将 atom 2 苯硫基转移到原 CF3 碳，目标为保持羰基骨架的 C(F)-SPh 单氟烯烃。",
+    "smiles": "CSSc1ccccc1",
+    "structure_key": "db052eb259749c35",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/32/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-2a6be0fb49e1f64e",
+    "hypothesis_id": "CP-2a6be0fb49e1f64e-H01",
+    "activation": "优先采用自由基引发或光化学 H 抽取；另设温和碱和无活化对照，判断 P=S 是否仍允许 P 中心成键。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "S=[PH](c1ccccc1)c1ccccc1",
+    "center": "P",
+    "diagnostic": "与二苯基膦氧化物做直接配对，比较自由基钟响应、C(F)–P 形成和保留两个 F 的加成物；31P NMR 与硫分析用于排除先脱硫后由另一磷物种反应。",
+    "family": "二级硫代膦氧化物",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "二苯基硫代膦氧化物",
+    "reactive_form": "S=[PH](Ph)2；SMILES 中 S 为索引 0、P 为索引 1，新键应形成在 P 而不是 S。可能活性形式为 Ph2P(S)•。",
+    "reason": "P=S 类似物测试磷中心自由基的极性和后续脱氟需求；所引证据支持硫代磷酰自由基对 1,1-二氟烯加成，但不证明会在 Seed 上完成净双脱氟。",
+    "risks": [
+      "可能发生 S-成键或硫转移竞争",
+      "可能只形成保留两个 F 的自由基加成物",
+      "氧化、脱硫或 P=S/P–S 物种交换会复杂化分析",
+      "自由基条件可能降低单氟停止选择性"
+    ],
+    "route": "P–H 均裂或氢原子转移生成 Ph2P(S)•，在 CF3 来源碳形成 C–P 键，再经还原/氧化和氟消除得到 C(F)–P(S)Ph2。",
+    "smiles": "S=[PH](c1ccccc1)c1ccccc1",
+    "structure_key": "2a6be0fb49e1f64e",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/33/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-08db38349537cc05",
+    "hypothesis_id": "CP-08db38349537cc05-H01",
+    "activation": "苯甲酰胺通常需要去质子化为酰胺负离子；应以可控碱活化并设置未活化酰胺对照。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "NC(=O)c1ccccc1",
+    "center": "N",
+    "diagnostic": "使用15N标记或HMBC确认生成N-烯基化而非O-烯基化产物；同时加入N-甲基苯甲酰胺作为无N-H对照，并监测羰基交换或水解。",
+    "family": "羧酰胺N-H亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "苯甲酰胺",
+    "reactive_form": "苯甲酰胺负离子；指定零号N成键，酰胺氧是潜在竞争O-成键位点但不作为本提案目标。",
+    "reason": "酰胺负离子将面板扩展到共振稳定、潜在N/O两可的亲核体，可检验目标烯基碳是否支持较弱N亲核体的直接取代。",
+    "risks": [
+      "可能优先O-烯基化，必须结构鉴定而不能只凭质量数。",
+      "所需强碱可能超出单氟产物的稳定窗口。",
+      "酰胺可能与金属形成惰性配合物。"
+    ],
+    "route": "由苯甲酰胺负离子在经验证的gem-CF2烯酮上进行N选择性加成-消除，形成烯基酰胺C(F)-N连接；不调用有机硼转金属步骤。",
+    "smiles": "NC(=O)c1ccccc1",
+    "structure_key": "08db38349537cc05",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/34/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-f9dfd61493ca94a4",
+    "hypothesis_id": "CP-f9dfd61493ca94a4-H01",
+    "activation": "氨可作为中性亲核体测试，也可通过铵盐/碱对原位控制游离氨；不建议默认使用极强碱。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "N",
+    "center": "N",
+    "diagnostic": "采用15NH3确认C-N来源，并定量一级氨基单取代、二次烯基化、亚胺化和完全脱氟产物；游离氨与铵盐/碱对照可判别有效活性形式。",
+    "family": "最小中性N亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "氨",
+    "reactive_form": "中性NH3，零号N为成键原子。",
+    "reason": "氨是位阻最小的N亲核体，可检验目标碳是否能够形成直接C(F)-NH2连接，并提供与伯胺中烷基电子效应和羰基缩合倾向不同的边界。",
+    "risks": [
+      "初生一级胺产物可能比氨更亲核并发生二次取代。",
+      "氨或铵盐可能改变酸碱平衡、盐溶解度和氟离子活度。",
+      "可能形成羰基亚胺或导致难以闭合的氮/氟质量平衡。"
+    ],
+    "route": "氨对经验证的Seed相关gem-CF2烯酮直接加成并消除F-，目标为原CF3碳上的C(F)-NH2；同时以母体CF3底物检验是否存在不依赖Pd的一锅两次脱氟路线。",
+    "smiles": "N",
+    "structure_key": "f9dfd61493ca94a4",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/35/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-3be0de0ba1e8a796",
+    "hypothesis_id": "CP-3be0de0ba1e8a796-H01",
+    "activation": "通过光氧化还原或低价金属实现 C–Br 单电子裂解；条件应允许时间分辨分析，以观察自由基重排。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "BrCC1CC1",
+    "center": "C",
+    "diagnostic": "分别定量未重排的环丙甲基连接产物和开环高烯基产物；开环/未开环比及其对捕获剂浓度的依赖可作为自由基寿命的判别信号。",
+    "family": "自由基钟型烷基卤化物",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "溴甲基环丙烷",
+    "reactive_form": "C–Br 裂解产生的环丙甲基自由基；溴甲基碳 atom 1 是固定目标连通性下的拟成键原子。",
+    "reason": "兼作小型烷基转移试剂和自由基钟。若形成目标键前存在寿命足够长的游离自由基，可能观察到竞争性环丙环开裂。",
+    "risks": [
+      "自由基快速开环会生成与预定未重排连通性不同的副产物",
+      "可能发生还原脱溴或亲核取代",
+      "环丙基结构可能在强酸、强 Lewis 酸或金属条件下发生非自由基开环"
+    ],
+    "route": "独立生成环丙甲基自由基，目标仍定义为 Seed CF3 衍生碳与 atom 1 成键；开环产物仅作为机制诊断副产物，不视为目标连通性成功。",
+    "smiles": "BrCC1CC1",
+    "structure_key": "3be0de0ba1e8a796",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/36/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-8af179673435d8d7",
+    "hypothesis_id": "CP-8af179673435d8d7-H01",
+    "activation": "作为高反应性边界探针，应在低温下分步加入并使用可独立生成的 Seed 相关烯烃中间体；不与完整 Pd 催化混合物直接等同。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "[CH3-].[Li+]",
+    "center": "C",
+    "diagnostic": "低温快速淬灭时间过程同时寻找羰基加成醇、目标甲基化单氟烯烃和重排产物；与较软的甲基锌或甲基硼供体比较，可区分硬碳负离子加成与可控碳转移。",
+    "family": "有机锂",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "甲基锂",
+    "reactive_form": "高度聚集、溶剂化的甲基锂；SMILES 以离子对表示，成键原子为甲基碳。",
+    "reason": "高碱性硬碳负离子的极端边界。所引文献观察到甲基锂可改走重排路径，因此这里是有意的机制压力测试，不是成功先例。",
+    "risks": [
+      "优先羰基 1,2-加成并破坏骨架",
+      "快速去质子化、还原或重排",
+      "与 Pd 前催化剂直接反应",
+      "升温后多重失氟和低质量平衡"
+    ],
+    "route": "先测试对独立 gem-二氟烯酮的受控甲基加成-失氟；仅在显示骨架保持后再考虑与 Seed 原位活化衔接。",
+    "smiles": "[Li+].[CH3-]",
+    "structure_key": "8af179673435d8d7",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/37/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-265c0f19c5eb5e56",
+    "hypothesis_id": "CP-265c0f19c5eb5e56-H01",
+    "activation": "中性三甲胺可直接作为孤对电子供体；无需去质子化。应在能够观察短寿命加成物的条件下评估。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CN(C)C",
+    "center": "N",
+    "diagnostic": "低转化时程中搜索烯基三甲基铵盐，并用外加亲核体或离子交换测试其可逆性；与空间更大、非亲核叔胺对照可区分亲核加成和单纯碱/配位作用。",
+    "family": "叔胺孤对电子供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "三甲胺",
+    "reactive_form": "中性叔胺，一号N以孤对电子形成第四个C-N键，预期初级产物为季铵型物种。",
+    "reason": "叔胺不能通过N-H去质子化，因而是区分直接孤对进攻与N-H辅助加成-消除的边界探针。预期产物电荷状态与其他候选不同，可能是可分离产物，也可能只是离去基或催化中间体。",
+    "risks": [
+      "季铵加成物可能可逆或继续消除，不能仅凭底物消耗判断。",
+      "三甲胺可作为碱促进非选择性脱氟。",
+      "挥发性和盐形成会使有效浓度难以保持。"
+    ],
+    "route": "三甲胺直接进攻gem-CF2烯酮的目标碳并伴随F-离去，形成保留一个F的烯基三甲基铵连接；这是探索性终点，不假定其为中性稳定产物。",
+    "smiles": "CN(C)C",
+    "structure_key": "265c0f19c5eb5e56",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/38/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-8680b11837f9690e",
+    "hypothesis_id": "CP-8680b11837f9690e-H01",
+    "activation": "该盐提供金属结合的甲硫负离子；可测试直接转硫、与独立 gem-二氟烯酮反应及与 Pd 共存三种模式。必须确认铜盐真实溶解/聚集状态，不能由 SMILES 推断溶液结构。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C[S-].[Cu+]",
+    "center": "S",
+    "diagnostic": "比较甲硫醇盐、铜(I)甲硫醇盐和二甲二硫化物；监测铜沉淀、硫交换及 C(F)-SMe。若只有铜盐有效且速率依赖铜而不依赖 Pd，支持金属转移路径；若都等效，则更符合自由硫负离子路径。",
+    "family": "铜结合硫醇盐转移前体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "甲硫醇铜(I)",
+    "reactive_form": "atom 1 的甲硫基硫为转移原子；atom 2 的 Cu(I) 是载体，不是成键中心。提交式表示 1:1 组成，不声称其固态或溶液核数。",
+    "reason": "具体的金属-硫转移前体，可探索直接 C-S 转移并绕开游离硫醇对 Pd 的质子和毒化效应；其聚集体身份与条件兼容性均属未知。",
+    "risks": [
+      "铜硫醇盐可能是聚合或难溶物种",
+      "可能与 Pd 发生金属交换并形成失活硫化物",
+      "空气氧化可生成二硫化物",
+      "可能只促进底物脱氟而不转移甲硫基"
+    ],
+    "route": "探索铜辅助甲硫基转移到 CF3 衍生烯碳，并以氟离子离去形成 C(F)-SMe；不要求原有机硼转金属步骤。",
+    "smiles": "C[S-].[Cu+]",
+    "structure_key": "8680b11837f9690e",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/39/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-a84a97ef9479980c",
+    "hypothesis_id": "CP-a84a97ef9479980c-H01",
+    "activation": "需要温和电亲化条件；可把环状烯醚与乙基乙烯醚成对测试，以比较构象约束是否有利于后续消除。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C1=COCC1",
+    "center": "C",
+    "diagnostic": "用二维NMR确定外来键位于烯醚β-碳，并检查四氢呋喃酮、开环羟基醛及聚合物；产物再暴露实验用于识别二次脱氟。",
+    "family": "环状烯醚π亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "2,3-二氢呋喃",
+    "reactive_form": "中性环状烯醚；指定不直接连接氧的烯碳形成新键。",
+    "reason": "环状烯醚限制了烯烃几何和进攻后构象，可检验是否需要特定的加成-脱氟排列，同时保持分子简单。",
+    "risks": [
+      "酸促开环或聚合",
+      "形成稳定缩醛型加合物而不发生目标消除",
+      "环张力和构象可能改变区域选择性",
+      "氧配位可能抑制金属活化"
+    ],
+    "route": "β-烯碳对含氟烯基亲电中心加成，随后由环氧鎓样中间体发生质子/氟离子转移和消除，力求保留一个烯基F。",
+    "smiles": "C1=CCCO1",
+    "structure_key": "a84a97ef9479980c",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/40/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-e81dc06beaa39499",
+    "hypothesis_id": "CP-e81dc06beaa39499-H01",
+    "activation": "先以中性水作低活性边界探针；分别比较无外加碱、弱碱辅助和预先生成可信偕二氟烯酮的分步条件。不假定需要原Seed的Pd循环。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "O",
+    "center": "O",
+    "diagnostic": "使用H2-18O平行实验，并以LC-MS/HRMS及19F NMR确认18O是否进入CF3来源且保留一个F的烯碳；同时比较水解、羰基水合和完全脱氟产物。",
+    "family": "中性氧孤对亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "水",
+    "reactive_form": "中性H2O；成键原子为唯一的氧原子。",
+    "reason": "覆盖最小、最不位阻的中性氧供体，并检验目标中心是否能在不预制强烷氧负离子的情况下形成C-O键。这是边界假设，不由Seed结果证明。",
+    "risks": [
+      "可能主要引起羰基水合、水解或催化剂物种变化",
+      "水可能改变碱、氟离子和Pd的溶解或离子配对",
+      "质子转移可能截获加成中间体而不给出目标单氟烯醇结构",
+      "延长暴露可能增加完全脱氟或产物分解"
+    ],
+    "route": "以Seed三氟乙基羰基底物直接筛选，并与独立制备或原位定量生成的可信偕二氟烯酮分步捕获实验配对；目标为在CF3来源烯碳形成C-O键并保留一个F。",
+    "smiles": "O",
+    "structure_key": "e81dc06beaa39499",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/41/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-deed3268ff7bd041",
+    "hypothesis_id": "CP-deed3268ff7bd041-H01",
+    "activation": "直接筛选中性膦，并单独设置无 Pd 条件；Lewis 酸活化仅作为独立机制分支。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1",
+    "center": "P",
+    "diagnostic": "比较 PCy3、PPh3 与 P(n-Bu)3 的目标 C–P 形成和底物消耗，并通过 31P NMR 判断 PCy3 是被氧化、形成 Pd 配合物还是形成新 C–P 物种；无 Pd 对照用于识别其是否可独立促成活化。",
+    "family": "位阻型三烷基膦",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "三环己基膦",
+    "reactive_form": "中性三环己基膦的 P(III) 孤对电子中心。",
+    "reason": "兼具高电子密度和较大位阻，可探测“高亲核性是否足以补偿进入反应中心的空间代价”。引证反应是炔烃酰氟化中的催化作用，不证明 Seed C–P 成键，仅支持 PCy3 具有特殊反应性窗口。",
+    "risks": [
+      "可能优先成为强 Pd 配体并重构催化剂",
+      "位阻可能阻止磷对目标碳进攻",
+      "易氧化",
+      "可能促进与目标无关的脱氟或氢转移"
+    ],
+    "route": "高电子密度 P(III) 对活化的 CF3 来源碳进行加成/消除；另一假设是先通过膦介导的氟转移生成膦鎓中间体。",
+    "smiles": "P(C1CCCCC1)(C1CCCCC1)C1CCCCC1",
+    "structure_key": "deed3268ff7bd041",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/42/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-168a0c2e4c8e139f",
+    "hypothesis_id": "CP-168a0c2e4c8e139f-H01",
+    "activation": "以中性吡啶N-氧化物直接测试；不预设需要去质子化。可比较无Pd和含Seed Pd条件，以确定是否发生O进攻或仅有金属配位。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "[O-][n+]1ccccc1",
+    "center": "O",
+    "diagnostic": "寻找CF3来源碳-O-N+(吡啶)连接的O-乙烯基吡啶鎓产物，并通过15N标记或N-O键特征分析与N-乙烯基化产物区分；同步检测N-氧化物还原和Pd抑制。",
+    "family": "中性N-氧化物氧供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "吡啶N-氧化物",
+    "reactive_form": "电荷分离的中性N-氧化物；索引0为负电性氧并是唯一提议成键原子，索引1为相邻吡啶鎓氮。",
+    "reason": "提供不需外加强碱的强氧孤对边界探针，并明确区分成键氧与分子中的氮。形成的O-乙烯基N-氧化物可能只是可转化中间体，因此需直接鉴定。",
+    "risks": [
+      "可能强配位并抑制Pd",
+      "可能发生N-O键断裂或氧转移而非稳定C-O成键",
+      "可能出现氮端反应或芳环反应",
+      "候选O-乙烯基产物可能热不稳定"
+    ],
+    "route": "在可信偕二氟烯酮上测试直接亲核取代，并与Seed一锅体系作兼容性比较；不依赖有机硼伙伴。",
+    "smiles": "[O-][n+]1ccccc1",
+    "structure_key": "168a0c2e4c8e139f",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/43/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-790a21c83fa3ce0d",
+    "hypothesis_id": "CP-790a21c83fa3ce0d-H01",
+    "activation": "黄原酸盐已经具有亲核末端硫；可比较暗反应、热反应和单电子激活条件，以区分离子型取代与黄原酸基自由基加成。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CCOC(=S)[S-].[K+]",
+    "center": "S",
+    "diagnostic": "确认新键连接到末端 atom 1，而不是硫代羰基 atom 3；使用 13C 标记黄原酸羰基、MS/MS 和产物衍生验证。自由基抑制剂只作为差异性对照，不单独作为机制证明。",
+    "family": "黄原酸盐末端硫亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "乙基黄原酸钾（末端硫成键提案）",
+    "reactive_form": "atom 1 的阴离子末端硫成键；atom 3 是独立评价的硫代羰基硫。",
+    "reason": "兼具稳定硫阴离子和潜在自由基转移能力，可覆盖离子型与单电子型 C-S 构建，同时保留可进一步裂解的黄原酸基。",
+    "risks": [
+      "两个硫位点可能造成连接异构或硫交换",
+      "可能发生自由基链转移和非选择性加成",
+      "盐的溶解度及反离子效应显著",
+      "黄原酸基或目标氟代烯烃可能热分解"
+    ],
+    "route": "使末端硫在原 CF3 碳成键，随后失氟得到 C(F)-S-C(=S)OEt；不要求有机硼或 Seed 转金属步骤。",
+    "smiles": "[K+].[S-]C(=S)OCC",
+    "structure_key": "790a21c83fa3ce0d",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/44/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-790a21c83fa3ce0d",
+    "hypothesis_id": "CP-790a21c83fa3ce0d-H02",
+    "activation": "本提案针对黄原酸盐的硫代羰基硫；可能需要光氧化、金属配位或其他单电子激活才能使该位点参与，不能假定其与末端硫等效。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CCOC(=S)[S-].[K+]",
+    "center": "S",
+    "diagnostic": "与同一分子 atom 1 成键提案并行；通过同位素标记、二维 NMR 和选择性水解区分两种连接异构体。未观察到 atom 3 连接而 atom 1 连接明显，将界定黄原酸盐的位点边界。",
+    "family": "黄原酸盐硫代羰基硫边界探针",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "乙基黄原酸钾（硫代羰基硫成键提案）",
+    "reactive_form": "atom 3 的中性硫代羰基硫是候选成键原子；阴离子 atom 1 为主要竞争位点。",
+    "reason": "同一具体分子中的第二个化学不等价硫位点，用于检验活化后是否发生硫位点反转、重排或硫原子转移；这是高不确定性的边界假说。",
+    "risks": [
+      "更可能由 atom 1 成键而使本提案失败",
+      "活化可能导致 C-S 键裂解或硫交换",
+      "单电子条件可能破坏固定羰基骨架",
+      "产物连接性分析较困难"
+    ],
+    "route": "探索活化的硫代羰基硫向 CF3 衍生碳转移并伴随失氟；必须以原子连接性证据判定，而不能仅凭总分子式。",
+    "smiles": "[K+].[S-]C(=S)OCC",
+    "structure_key": "790a21c83fa3ce0d",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/44/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-ba958c6f38d5a527",
+    "hypothesis_id": "CP-ba958c6f38d5a527-H01",
+    "activation": "需要碱或羟基促进环丙基硼酸形成可转金属化物种；可比较 Pd 转金属化条件与其他已知能接受烷基硼供体的催化体系。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "OB(O)C1CC1",
+    "center": "C",
+    "diagnostic": "定量比较目标环丙基化产物、开环产物、原硼化环丙烷和过度脱氟物；加入自由基钟对照或检查开环只作为路径判别，不把抑制本身视为自由基证据。",
+    "family": "烷基硼酸",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "环丙基硼酸",
+    "reactive_form": "环丙基硼酸盐、金属环丙基或可能的环丙基自由基；具体形式须由条件确定。",
+    "reason": "简单烷基硼边界探针，直接测试所述烷基范围矛盾。成键原子是与硼相连的环丙基碳；环丙基还提供潜在开环路径信息。",
+    "risks": [
+      "烷基转金属化可能慢于芳基转移",
+      "环丙基中间体可能开环",
+      "原硼化或氧化分解",
+      "自由基捕获剂也可能直接抑制催化剂"
+    ],
+    "route": "尝试将完整环丙基转移到 CF3 衍生烯碳，不要求复现原始芳基硼循环。",
+    "smiles": "OB(O)C1CC1",
+    "structure_key": "ba958c6f38d5a527",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/45/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-df56f80eb64eca43",
+    "hypothesis_id": "CP-df56f80eb64eca43-H01",
+    "activation": "优先采用低温、低酸度或可滴定Lewis酸活化；另设无金属和Seed Pd条件，以检验是否存在不依赖原有催化循环的直接芳基化。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "COc1cc(OC)cc(OC)c1",
+    "center": "C",
+    "diagnostic": "检查单芳基化、双芳基化与芳环质子损失；用对称性简化的NMR和HRMS确认只引入一个芳基，并做产物再暴露试验判断第二次脱氟是否为顺序过程。",
+    "family": "高度富电子芳烃",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "1,3,5-三甲氧基苯",
+    "reactive_form": "中性、高电子密度芳香π亲核体；三个未取代芳环碳等价，提交原子3作为代表成键位点。",
+    "reason": "作为高亲核性端点，它可检验中性芳环捕获是否主要受亲核性控制；对称结构也便于分析，但比二甲氧基苯更容易越过单取代停止点。",
+    "risks": [
+      "快速双取代可能消耗剩余烯基F",
+      "酸敏感甲氧基和富电子芳环可能发生分解或氧化",
+      "强吸附或配位可能改变催化剂状态"
+    ],
+    "route": "直接Friedel-Crafts型捕获含氟烯基亲电体，在目标烯碳形成芳基C-C键，随后控制脱氟数目使产物保留一个F。",
+    "smiles": "COc1cc(OC)cc(OC)c1",
+    "structure_key": "df56f80eb64eca43",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/46/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-4d2aaa7bf4b8ca67",
+    "hypothesis_id": "CP-4d2aaa7bf4b8ca67-H01",
+    "activation": "二甲硫醚可直接以孤对电子进攻；也可比较 Lewis 酸活化的氟化底物，但需避免把 Lewis 酸导致的完全脱氟误判为硫转移。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "CSC",
+    "center": "S",
+    "diagnostic": "寻找并表征氟代烯基二甲基锍盐，同时检测脱甲基后中性 C(F)-SMe 产物；使用标记二甲硫醚区分甲基转移和硫原子保留。无二甲硫醚的 Lewis 酸对照用于量化非特异脱氟。",
+    "family": "中性硫醚孤对供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "二甲硫醚",
+    "reactive_form": "atom 1 的中性二价硫以孤对电子成键，初始产物可能是锍盐；两个甲基碳不是拟议成键位点。",
+    "reason": "覆盖不含 S-H 的中性孤对供体，可先形成 C-S 锍键再脱甲基得到甲硫基产物。引用是不同 CF3 芳烃/Lewis 酸体系的作者机理假说，仅支持这种活化模式值得检验。",
+    "risks": [
+      "可能形成稳定锍盐而不能脱甲基",
+      "Lewis 酸可能与羰基强配位并改变底物路径",
+      "过度连续脱氟可破坏单氟终点",
+      "二甲硫醚挥发且易氧化"
+    ],
+    "route": "尝试孤对进攻活化的 CF3 衍生中心或 gem-二氟烯酮，形成 C-S 锍中间体，再评估受控脱甲基是否给 C(F)-SMe。",
+    "smiles": "CSC",
+    "structure_key": "4d2aaa7bf4b8ca67",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/main_panel/47/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-000143ee94b8982f",
+    "hypothesis_id": "CP-000143ee94b8982f-H01",
+    "activation": "用温和碱生成磷中心亲核形式，或使用可控自由基引发生成二乙氧基磷酰自由基；两条路径分别评价。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "CCO[PH](=O)OCC",
+    "center": "P",
+    "diagnostic": "用 P–D 亚磷酸二乙酯和自由基钟区分阴离子与自由基路径；定量目标单氟烯基膦酸酯、保留两个 F 的简单加成物和完全脱氟物。无碱、无引发剂以及仅加氟盐的对照用于分解各因素。",
+    "family": "二烷基亚磷酸酯",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "亚磷酸二乙酯",
+    "reactive_form": "[PH](=O)(OEt)2；可能以去质子化磷中心亲核体或 (EtO)2P(O)• 反应，成键原子为索引 0 的 P。",
+    "reason": "覆盖稳定、易分析的 P(V)–H 型 σ 键供体/自由基前体。引证显示二烷基磷酰自由基可加成 1,1-二氟烯，但未显示 Seed 型羰基共轭体系的第二次脱氟，故属于局部外推。",
+    "risks": [
+      "可能只得到保留两个 F 的饱和加成物",
+      "碱促进水解或酯交换",
+      "自由基条件可能造成羰基还原或聚合",
+      "生成的磷酸酯盐可能改变 Pd 和氟离子活度"
+    ],
+    "route": "磷酰自由基或磷负离子对 CF3 来源碳成键，之后通过氧化还原/去质子化和 β-氟消除形成 C(F)–P(O)(OEt)2。",
+    "smiles": "[PH](=O)(OCC)OCC",
+    "structure_key": "000143ee94b8982f",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/0/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-02287a1de385889e",
+    "hypothesis_id": "CP-02287a1de385889e-H01",
+    "activation": "比较中性乙硫醇与温和去质子化状态；因挥发性和质子供体效应，需要密闭且设置非亲核质子源对照。",
+    "atom_indices": [
+      2
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CCS",
+    "center": "S",
+    "diagnostic": "用 19F NMR、GC-MS 和含硫选择性检测确认 C(F)-SEt；与苯硫酚及等酸度非硫质子源比较。若乙硫醇只改变脱氟数而不引入乙硫基，说明主要作用可能是质子转移。",
+    "family": "一级烷基硫醇",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "乙硫醇",
+    "reactive_form": "中性乙硫醇或乙硫负离子；atom 2 的硫形成新键。",
+    "reason": "最简单的一级烷基硫边界之一，可将烷基硫亲核性、β-H 存在和芳基硫效应分开。该分子并非已知 Seed 成功试剂。",
+    "risks": [
+      "高挥发性导致实际暴露量漂移",
+      "游离硫醇与 Pd 强配位",
+      "可能作为质子源形成氢脱氟产物",
+      "乙硫基产物可能继续氧化或异构化"
+    ],
+    "route": "测试亲核加成-氟消除或金属辅助硫醇化，使 SEt 接到原 CF3 碳并停留在单氟烯烃。",
+    "smiles": "CCS",
+    "structure_key": "02287a1de385889e",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/1/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-0a28c29fb4c274be",
+    "hypothesis_id": "CP-0a28c29fb4c274be-H01",
+    "activation": "可测试Lewis酸、电亲性Pd或预形成含氟烯酮；无需预金属化，但可能需要亲氟活化剂促进加成后的脱硅。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C=CC[Si](C)(C)C",
+    "center": "C",
+    "diagnostic": "通过HMBC和必要的同位素标记确认远离硅的烯丙基末端碳成键；检测烯丙基区域异构、脱硅质子化物和聚合物，以区别Sakurai型加成与普通烯烃加成。",
+    "family": "烯丙基硅烷π/σ协同碳供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "烯丙基三甲基硅烷",
+    "reactive_form": "中性烯丙基硅烷；指定远离硅的末端烯碳成键，C-Si σ键通过β-硅效应增强π进攻但硅不转移为目标连接。",
+    "reason": "该试剂覆盖π键与C-Si σ键协同供电子的边界，可通过Sakurai型路径建立C-C键，不需要Seed的硼转金属步骤。",
+    "risks": [
+      "可能生成非共轭烯丙基加成物而无法达到固定目标烯烃",
+      "氟离子促脱硅可能导致质子化副产物",
+      "区域选择性和双键迁移复杂",
+      "强Lewis酸下可能低聚"
+    ],
+    "route": "远端烯碳对CF3衍生亲电碳进行Sakurai型加成，β-硅稳定中间体后脱硅；再经选择性脱氟/重排形成目标C(F)-烯丙基连接。",
+    "smiles": "C=CC[Si](C)(C)C",
+    "structure_key": "0a28c29fb4c274be",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/2/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-13af80fd720ea87f",
+    "hypothesis_id": "CP-13af80fd720ea87f-H01",
+    "activation": "优先考察自由基引发或光化学生成 Ph2P(O)•；另设温和碱促进的 P(V) 亲核路径和无引发剂对照。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "center": "P",
+    "diagnostic": "使用 P–D 和烯基自由基钟，比较有/无引发剂、光照和自由基抑制剂；通过 31P/19F NMR 与 HRMS 确认 C(F)–P(O)Ph2，而不是 O-加成物。自由基钟重排与 P–D 去向需联合解释。",
+    "family": "二级膦氧化物",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "二苯基膦氧化物",
+    "reactive_form": "O=[PH](Ph)2；可能的活性形式为磷中心自由基 Ph2P(O)• 或去质子化的 P 中心亲核体。SMILES 中 P 为索引 1，O 为索引 0，目标新键明确形成在 P。",
+    "reason": "这是最直接覆盖磷中心自由基加成至 gem-二氟烯碳的探针。引证支持该局部加成模式，但其报道结果是氢膦酰化而非 Seed 所要求的净两次失氟，因此必须验证是否能到达固定单氟烯基连接。",
+    "risks": [
+      "可能停留在饱和氢膦酰化产物",
+      "自由基链可能引起非选择性还原或聚合",
+      "P/O 互变和阴离子离域可能造成 O-成键竞争",
+      "过氧化物或光照可能破坏羰基底物"
+    ],
+    "route": "由 P–H 产生 Ph2P(O)•，在 CF3 来源碳形成 C–P 键，随后经电子转移、去质子化及氟离子消除形成 C(F)–P(O)Ph2 烯烃。",
+    "smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "structure_key": "13af80fd720ea87f",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/3/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-13af80fd720ea87f",
+    "hypothesis_id": "CP-13af80fd720ea87f-H02",
+    "activation": "需要触发 P-H 均裂或受控去质子化／互变异构化；可分别考察自由基引发条件和非自由基碱性条件，并设置无引发剂、自由基抑制剂及无 Pd 对照。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "center": "P",
+    "diagnostic": "用 19F 与 31P NMR 联合时间过程寻找同一新产物，并比较自由基引发剂、抑制剂和黑暗／光照条件；确认目标是 C-P 键形成且烯基 F 保留，而不是单纯氢脱氟、P 氧化或 P-O 加成。",
+    "family": "P-H 给体／次膦氧化物",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "precursor_state_pairs",
+    "name": "二苯基氧化膦",
+    "reactive_form": "含 P-H 的二苯基氧化膦、其膦中心自由基或去质子化 P 亲核态；候选成键原子为磷 atom 1，氧 atom 0 不是指定成键中心。",
+    "reason": "同时探测 σ(P-H) 供体、P 亲核体和 P 中心自由基三种可能状态，扩大到不依赖 Seed 转金属化的新键类型。引证明确属于作者提出的自由基链机理；它仅支持 P 中心自由基进攻 gem-二氟烯碳的可检验假设，不证明 Seed 体系存在自由基。",
+    "risks": [
+      "自由基条件可能改变 Seed 底物的脱氟路径或引发聚合",
+      "P 供体可能结合 Pd 并改变催化剂配体组成",
+      "P-H 可能主要造成氢脱氟而非 C-P 成键",
+      "氧化态、互变异构和 31P 信号重叠可能使活性态归属困难"
+    ],
+    "route": "探索在目标 CF3 来源烯基碳上形成 C-P 键并保留 F；可采用独立自由基或离子活化，不要求原有 Pd／有机硼循环，但以匹配对照评估 Seed Pd 是否有帮助或干扰。",
+    "smiles": "O=P(c1ccccc1)c1ccccc1",
+    "structure_key": "13af80fd720ea87f",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/3/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-15984a39bb896abc",
+    "hypothesis_id": "CP-15984a39bb896abc-H01",
+    "activation": "作为强位阻 P(III) 边界探针直接筛选；必要时仅在无 Pd、较强亲电活化分支中考察。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CC(C)(C)P(C(C)(C)C)C(C)(C)C",
+    "center": "P",
+    "diagnostic": "与 PCy3 做匹配比较：监测是否形成 P–F、P=O 或膦鎓物种而没有 C–P 产物；若只发生氟捕获，则说明位阻允许外层氟转移但不允许目标碳进攻。",
+    "family": "强位阻三烷基膦",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "三叔丁基膦",
+    "reactive_form": "中性三叔丁基膦的 P(III) 中心；成键假设针对 P 原子。",
+    "reason": "用于分离电子效应与空间效应。其强给电子性可能促进氟离子转移或单电子过程，而极大位阻可能抑制直接 C–P 成键，因此是有判别力的边界探针。",
+    "risks": [
+      "高度空气敏感且可能自燃，需按相应安全规范操作",
+      "极强 Pd 配位和还原能力可能导致催化剂失活",
+      "空间位阻可能完全阻断目标加成",
+      "可能只生成氟膦或氧化物"
+    ],
+    "route": "假设的外层氟离子抽取/膦鎓化后形成 C(F)–P 连接；与较小膦的结果比较可判断直接近程进攻是否关键。",
+    "smiles": "P(C(C)(C)C)(C(C)(C)C)C(C)(C)C",
+    "structure_key": "15984a39bb896abc",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/4/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-17e086b041c039f5",
+    "hypothesis_id": "CP-17e086b041c039f5-H01",
+    "activation": "以预形成的邻苯二甲酰亚胺钾直接提供N阴离子；不再依赖反应体系原位去质子化。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "O=C1[N-]C(=O)c2ccccc21.[K+]",
+    "center": "N",
+    "diagnostic": "与中性邻苯二甲酰亚胺平行比较，并改变阳离子络合环境；若只有钾盐反应且形成经NMR确认的N-烯基酰亚胺，可支持阴离子截获而非中性加成。",
+    "family": "预形成酰亚胺盐",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "邻苯二甲酰亚胺钾",
+    "reactive_form": "离散的酰亚胺N阴离子钾盐；三号[N-]为成键原子，羰基氧不作为目标成键位点。",
+    "reason": "该试剂是具体、稳定的预形成N阴离子，覆盖无需体系内强碱生成亲核体的路线，并可通过后续脱保护潜在转化为一级氨基连接。",
+    "risks": [
+      "钾盐可能在非极性介质中溶解度不足。",
+      "离子对或聚集状态可能控制反应性。",
+      "可能发生O-烯基化、羰基交换或单氟产物继续消除。"
+    ],
+    "route": "酰亚胺N阴离子直接取代gem-CF2烯酮上的一个F，经加成-消除得到同碳C(F)-N邻苯二甲酰亚胺产物。",
+    "smiles": "[K+].O=C1[N-]C(=O)c2ccccc21",
+    "structure_key": "17e086b041c039f5",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/5/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-1b58b081277f4aff",
+    "hypothesis_id": "CP-1b58b081277f4aff-H01",
+    "activation": "苯胺锂已是预活化N阴离子；需要严格控制质子源和离子对，不再额外加入强碱作为默认条件。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "[Li+].[NH-]c1ccccc1",
+    "center": "N",
+    "diagnostic": "与中性苯胺在相同有效苯胺基浓度下比较，并使用氘代淬灭测定未反应苯胺负离子；若苯胺锂快速消耗gem-CF2中间体但不给C-N产物，应重点检查羰基加成和过度脱氟。",
+    "family": "N-锂化芳胺",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "苯胺锂",
+    "reactive_form": "预形成的苯胺N-锂盐；一号[NH-]为C-N成键原子，锂仅为反离子/配位中心。",
+    "reason": "这是苯胺的明确金属化亲核形式，用于区分中性芳胺亲核性不足与体系不支持C-N取代。引证涉及强碱活化的其他脱氟体系，只提供局部类比。",
+    "risks": [
+      "强碱和高亲核性可能直接进攻Seed羰基。",
+      "对水和质子杂质高度敏感，实际活性浓度易漂移。",
+      "锂离子配位可能改变烯酮构象、聚集或脱氟选择性。"
+    ],
+    "route": "苯胺N-锂试剂直接向经鉴定的Seed相关gem-CF2烯酮转移N亲核体，随后F-消除；这是独立的阴离子路线，不要求Pd或有机硼循环。",
+    "smiles": "[Li+].[NH-]c1ccccc1",
+    "structure_key": "1b58b081277f4aff",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/6/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-205f9fb18ebd4ed6",
+    "hypothesis_id": "CP-205f9fb18ebd4ed6-H01",
+    "activation": "可测试Lewis酸、电亲化金属或直接热加成窗口；水和质子源必须受控，以免烯醚先水解。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C=COCC",
+    "center": "C",
+    "diagnostic": "用13C标记或HMBC确认末端烯碳与CF3衍生碳成键；监测乙醛/乙醇、水解物和低聚物，并比较有无捕获性碱来判断是否经历氧鎓离子。",
+    "family": "非芳香烯醚π亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "乙基乙烯醚",
+    "reactive_form": "中性烯醚；指定远离氧的末端β-烯碳成键，氧只稳定进攻后形成的氧鎓/碳正离子特征中间体。",
+    "reason": "它将搜索从芳香取代扩展到简单中性烯烃π供体，可通过直接亲电加成形成新C-C键，不要求有机硼转金属。",
+    "risks": [
+      "酸促水解或阳离子聚合",
+      "可能形成饱和加合物而不能消除至目标共轭烯烃",
+      "区域选择性可能反转",
+      "烯醚可能消耗Lewis酸"
+    ],
+    "route": "末端β-烯碳进攻活化的CF3衍生碳，形成氧鎓稳定的C-C加合物；随后通过氟离子/质子消除和双键重排达到目标单氟烯烃连接性。",
+    "smiles": "CCOC=C",
+    "structure_key": "205f9fb18ebd4ed6",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/7/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-2461405780c80fb1",
+    "hypothesis_id": "CP-2461405780c80fb1-H01",
+    "activation": "需要形成可转金属化硼酸盐；除 Seed 条件外，可把较强转金属化促进体系作为独立机制探索，但不应直接提高碱强度而忽略过度脱氟。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "Cc1cccc(C)c1B(O)O",
+    "center": "C",
+    "diagnostic": "与苯硼酸和单邻位取代类似物比较初速、硼试剂消耗及目标/完全脱氟比；若试剂持续存在而碳转移很慢，支持空间阻碍位于转金属化或成键步骤。",
+    "family": "位阻芳基硼酸",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "2,6-二甲基苯硼酸",
+    "reactive_form": "2,6-二甲基苯基硼酸盐或相应金属芳基物种。",
+    "reason": "明确的邻位双取代空间边界探针；成键原子仍为与硼相连的芳基碳。用于区分空间阻碍、硼试剂分解和产物不稳定性。",
+    "risks": [
+      "邻位位阻可能减慢转金属化或 C-C 成键",
+      "加热补偿可能增加完全脱氟",
+      "原硼化和硼氧烷形成",
+      "低转化不能单独证明芳基家族不适用"
+    ],
+    "route": "尝试把 2,6-二甲基苯基接到 CF3 衍生烯碳，以最大化与简单苯基之间的空间差异。",
+    "smiles": "OB(O)c1c(C)cccc1C",
+    "structure_key": "2461405780c80fb1",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/8/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-254b9aa19ec37938",
+    "hypothesis_id": "CP-254b9aa19ec37938-H01",
+    "activation": "优先测试中性哌啶与温和外加碱条件；必要时通过酸碱对调节游离胺比例。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "C1CCNCC1",
+    "center": "N",
+    "diagnostic": "与吗啉进行匹配比较，并测量反应前后游离胺和底物浓度；若哌啶只造成底物消耗或催化抑制而经鉴定gem-CF2中间体也不生成C-N产物，可区分前体生成问题与截获失败。",
+    "family": "环状仲胺",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "哌啶",
+    "reactive_form": "中性仲胺，零号N为唯一成键杂原子。",
+    "reason": "哌啶比吗啉更碱性、通常也更亲核，提供环状仲胺电子性质的正交比较。所引证范围涉及其他烯丙基gem-二氟体系，不能直接证明Seed兼容性。",
+    "risks": [
+      "强碱性胺可能促进非选择性消除和过度脱氟。",
+      "游离胺可能使Pd或路易斯酸催化剂中毒。",
+      "可能发生羰基缩合、烯酮共轭加成或多次加成。"
+    ],
+    "route": "通过中性胺对经确认的gem-CF2烯酮加成并脱氟，或在不含原Seed催化循环的碱促体系中直接形成C(F)-N哌啶基烯烃。",
+    "smiles": "N1CCCCC1",
+    "structure_key": "254b9aa19ec37938",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/9/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-2ad90a72deb18e8b",
+    "hypothesis_id": "CP-2ad90a72deb18e8b-H01",
+    "activation": "需要Lewis酸或阳离子π活化使含氟烯碳足够亲电；应避免会直接开环或聚合呋喃的强酸条件。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "c1ccoc1",
+    "center": "C",
+    "diagnostic": "GC/LC-MS结合19F NMR追踪α-C加合物、开环物和聚合损失；与2-甲基呋喃比较区域选择性及反应速率。",
+    "family": "氧杂芳香π亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "呋喃",
+    "reactive_form": "中性芳香π亲核体；指定与氧相邻的α-碳形成C-C键，氧原子仅参与电子给体效应。",
+    "reason": "呋喃覆盖含氧杂芳环的碳亲核性，电子丰富但比吡咯更易出现酸促开环，能测试活化强度与试剂稳定性的平衡。",
+    "risks": [
+      "酸促聚合或开环",
+      "可能形成双加成或Diels-Alder型副产物",
+      "氧配位可能改变Lewis酸或金属有效浓度",
+      "目标单氟烯烃可能不稳定"
+    ],
+    "route": "呋喃α-碳对活化的CF3衍生烯碳进行亲电芳香取代，随后芳构化与受控脱氟。",
+    "smiles": "o1cccc1",
+    "structure_key": "2ad90a72deb18e8b",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/10/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-2f18674cdee060d7",
+    "hypothesis_id": "CP-2f18674cdee060d7-H01",
+    "activation": "可经单电子氧化或氢原子转移生成 H2P(O)•，也可在温和碱下评价其阴离子形式；需与无活化对照并行。",
+    "atom_indices": [
+      2
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "O=[PH2][O-].[Na+]",
+    "center": "P",
+    "diagnostic": "采用氘代次磷酸盐并追踪 D 去向；用 31P NMR/HRMS 判断形成的是 C(F)–P(O)H2、进一步取代的多 C–P 产物还是单纯还原产物。改变底物与试剂接触时间可检验产物是否继续发生第二次 P–H 官能化。",
+    "family": "无机 P–H σ 键供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "次磷酸钠",
+    "reactive_form": "[Na+][H2P(O)O−]；SMILES 中 Na、双键 O、P、阴离子 O 的索引依次为 0、1、2、3，目标成键原子明确为索引 2 的 P。",
+    "reason": "最小型 P–H/P(O) 供体，覆盖无芳基、无烷氧基的极性端点。它可通过磷中心自由基或亲核路径形成 C–P 键，但没有直接 Seed 先例，因此主要用于判别反应中心对小型磷供体的可达性。",
+    "risks": [
+      "盐在 DCE 等低极性介质中的溶解度可能很低",
+      "P–H 可能造成净还原或氢脱氟",
+      "形成的一级膦酸衍生物可能继续反应",
+      "水合状态和离子对会显著改变有效反应形式"
+    ],
+    "route": "生成 H2P(O)• 或相应磷亲核体后在 CF3 来源碳成键，再经电子转移和氟消除形成单氟烯基次膦酸盐连接。",
+    "smiles": "[Na+].O=[PH2][O-]",
+    "structure_key": "2f18674cdee060d7",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/11/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-3222b1c46b10eff8",
+    "hypothesis_id": "CP-3222b1c46b10eff8-H01",
+    "activation": "直接作为中性 P(III) 亲核体筛选；若只观察到配位抑制，则转入无 Pd 的 Lewis 酸/氟离子受体分支。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "c1ccc(P(c2ccccc2)c2ccccc2)cc1",
+    "center": "P",
+    "diagnostic": "以三正丁基膦为配对参照，测量起始物消耗、目标单氟 C–P 产物、完全脱氟产物及三苯基膦氧化物；若无 Pd 分支形成目标物而 Pd 分支仅抑制转化，可支持独立亲核取代路径。",
+    "family": "三芳基膦",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "三苯基膦",
+    "reactive_form": "中性三苯基膦的 P(III) 孤对电子中心；三个苯环碳不是本提案的成键原子。",
+    "reason": "提供较弱亲核、较强 π 接受和易分析的芳基膦基准。其 31P 信号和膦氧化物副产物便于追踪，但没有证据表明它在 Seed 上必然成键。",
+    "risks": [
+      "可能成为 Pd 配体而非反应伙伴",
+      "氧化成三苯基膦氧化物",
+      "生成稳定但不继续消除的烯基膦鎓盐",
+      "芳基膦体积可能降低对拥挤反应中心的进攻"
+    ],
+    "route": "对 gem-二氟烯酮或经氟离子抽取生成的亲电中心进行 P-加成，再经氟离子消除形成 C(F)–PPh3 型膦鎓烯烃；后续是否需要还原或去烷基化应由产物结构决定。",
+    "smiles": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+    "structure_key": "3222b1c46b10eff8",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/12/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-383b50ba8f0aa496",
+    "hypothesis_id": "CP-383b50ba8f0aa496-H01",
+    "activation": "可从温和Lewis酸、π酸或电亲化Pd盐条件筛选，也应测试不含Pd的酸活化；避免一开始使用强碱，因为吲哚N-H可能改变反应形态。",
+    "atom_indices": [
+      6
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "c1ccc2[nH]ccc2c1",
+    "center": "C",
+    "diagnostic": "通过2D NMR区分C3碳成键与N烯基化；加入N-甲基吲哚对照，并比较有无Pd和不同酸度，以判断C-进攻是否需要含氟烯烃电亲化。",
+    "family": "两亲性富电子杂芳烃",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "吲哚",
+    "reactive_form": "中性杂芳香π亲核体；指定吲哚C3碳成键，环上N-H不是目标成键原子。",
+    "reason": "吲哚C3是经典高电子密度碳位点，可覆盖杂芳环C-亲核性；N-H同时提供配位、去质子化和竞争N-成键风险，因而能判别位点选择性。",
+    "risks": [
+      "可能发生N-烯基化而不是C3成键",
+      "N-H可能结合碱或催化剂并改变底物活化",
+      "酸下可能低聚或多取代",
+      "产物可能继续脱氟"
+    ],
+    "route": "吲哚C3对活化的CF3衍生烯碳进攻，去质子化恢复芳香性，再经必要的脱氟形成目标C(F)-C3连接。",
+    "smiles": "c1ccc2[nH]ccc2c1",
+    "structure_key": "383b50ba8f0aa496",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/13/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-383b50ba8f0aa496",
+    "hypothesis_id": "CP-383b50ba8f0aa496-H02",
+    "activation": "先测试中性吲哚的直接 C3 亲核加成；按需要比较温和 Lewis 酸或 Brønsted 酸活化。应设无金属条件和催化条件对照，因为吲哚可与金属中心配位。",
+    "atom_indices": [
+      6
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "c1ccc2[nH]ccc2c1",
+    "center": "C",
+    "diagnostic": "用 19F NMR 与 LC-HRMS 联合寻找 C3 加合和两次失氟产物；用吲哚 C2/C3 的 HMBC/NOE 关系确认区域选择性，同时检查 N-连接异构体。酸依赖而金属不依赖的 C3 产物将支持直接芳香亲核路径。",
+    "family": "稠合双环含氮芳香族；吲哚型碳亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "neutral_ambident_aromatics",
+    "name": "吲哚",
+    "reactive_form": "中性 1H-吲哚，提交 C3（atom 6）为成键中心；吡咯型 N-H 是竞争配位、去质子化或 N-成键位点。",
+    "reason": "吲哚提供高亲核性的稠合 N-杂芳环，能检验 C3 芳香取代是否可绕开有机硼转移。引文仅说明吲哚支架在另一种氟代烯偶联中被纳入产物，当前固定羰基连接和净两次失氟均属外推。",
+    "risks": [
+      "N-H 可能导致催化剂结合或酸碱副反应",
+      "C2/C3 或 N 位成键可能竞争",
+      "吲哚可能发生低聚、氧化或多次烷基化",
+      "较苛刻条件可能使目标单氟烯烃继续脱氟"
+    ],
+    "route": "由吲哚 C3 与带保留 F 的 CF3 衍生烯碳形成 C-C 键，同时保持羰基骨架并实现净损失两个 F。",
+    "smiles": "c1ccc2[nH]ccc2c1",
+    "structure_key": "383b50ba8f0aa496",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/13/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-39fbeda7a0fbf2ea",
+    "hypothesis_id": "CP-39fbeda7a0fbf2ea-H01",
+    "activation": "可先测试中性氨基氰；其N-H酸性允许在温和至中等碱下形成氨基氰负离子。",
+    "atom_indices": [
+      2
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "N#CN",
+    "center": "N",
+    "diagnostic": "用13C/15N标记和HMBC确认成键原子为氨基N而非腈N；比较中性与去质子化条件，并搜索碳二亚胺化、聚合和完全脱氟产物。",
+    "family": "氰胺型N亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "氨基氰",
+    "reactive_form": "中性氨基氰或由二号氨基N去质子化形成的阴离子；零号腈N不作为本提案成键中心。",
+    "reason": "氨基氰体积小、电子贫化且具有明确的非成键腈氮，可测试小型离域N亲核体，并满足对分子内不同氮角色的区分。",
+    "risks": [
+      "可能发生聚合或转化为碳二亚胺相关物。",
+      "两个氮造成光谱归属和金属配位复杂性。",
+      "碱活化可能与目标烯烃的进一步脱氟竞争。"
+    ],
+    "route": "氨基N对Seed相关gem-CF2烯酮加成并消除F-，形成C(F)-NH-CN连接；不假定原Seed催化剂可兼容。",
+    "smiles": "N#CN",
+    "structure_key": "39fbeda7a0fbf2ea",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/14/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-48cbdd3aac3823f7",
+    "hypothesis_id": "CP-48cbdd3aac3823f7-H01",
+    "activation": "以预制三甲基硅醇钠测试；其既可作为O亲核体又可强烈捕获氟，因此必须设置不含可反应氧供体的硅基氟捕获对照。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C[Si](C)(C)[O-].[Na+]",
+    "center": "O",
+    "diagnostic": "同时测定C(F)-OSiMe3候选产物、Me3SiF和游离氟；与等碱性烷氧盐及单纯氟捕获添加剂比较，以区分真正的硅氧基转移与仅由氟清除促进的脱氟。",
+    "family": "硅醇盐与σ键辅助氧供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "三甲基硅醇钠",
+    "reactive_form": "三甲基硅氧负离子；索引4为成键氧，索引1为硅，索引5为钠。",
+    "reason": "覆盖具有强Si-F形成驱动力的特殊O-供体，可能通过亲核加成后氟捕获改变局部能量学。这是机制边界假设，没有供应证据证明其能给出目标产物。",
+    "risks": [
+      "可能只生成Me3SiF而不发生C-O成键",
+      "可硅基化羰基氧、痕量水或其他亲核位点",
+      "产物烯醇硅醚可能在后处理时水解",
+      "可能显著改变Pd、碱及氟离子物种"
+    ],
+    "route": "优先采用可信偕二氟烯酮的无Pd分步试验；若观察到目标硅氧基化，再评价原三氟底物的一锅路径。",
+    "smiles": "C[Si](C)(C)[O-].[Na+]",
+    "structure_key": "48cbdd3aac3823f7",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/15/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-4adad89fe53a73a6",
+    "hypothesis_id": "CP-4adad89fe53a73a6-H01",
+    "activation": "需要把底物直接转化为足够亲电的含氟烯酮/偕二氟烯酮状态；优先比较温和Lewis酸或Brønsted酸活化与完整Seed Pd/KHCO3条件，不能预设后者可产生同一亲电体。",
+    "atom_indices": [
+      9
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "COc1cccc(OC)c1",
+    "center": "C",
+    "diagnostic": "用19F NMR时间序列区分起始CF3、单氟烯烃和完全脱氟产物，并用HMBC确认新键连接到两个甲氧基之间的芳环碳；平行比较有酸、无酸和Seed条件可判别Friedel-Crafts型路径。",
+    "family": "富电子芳烃",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "1,3-二甲氧基苯",
+    "reactive_form": "中性芳香π亲核体；拟由两个甲氧基共同活化的芳环碳进攻CF3衍生的烯碳。",
+    "reason": "这是与所供分子间含氟烯酮芳基化观察最接近的局部外推。目标位点电子丰富且位阻较低，适合作为中性芳环能否直接形成目标C-C键的首要探针；并不假定沿用Seed的有机硼转金属步骤。",
+    "risks": [
+      "酸条件可能促进第二次芳基取代或完全脱氟",
+      "强酸或Lewis酸可能引起底物分解、聚合或羰基副反应",
+      "在Seed弱碱/Pd条件下可能无法生成所需亲电体"
+    ],
+    "route": "芳环在原CF3衍生碳上发生Friedel-Crafts型C-C成键，随后脱氟/消除形成保留一个F的共轭烯烃；要求最终芳基与保留F位于同一烯碳。",
+    "smiles": "COc1cccc(OC)c1",
+    "structure_key": "4adad89fe53a73a6",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/16/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-4f781cc37b739293",
+    "hypothesis_id": "CP-4f781cc37b739293-H01",
+    "activation": "以 P–H 去质子化或温和自由基生成作为两条独立分支；先评价无活化条件下的稳定性。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C1CCC(PC2CCCCC2)CC1",
+    "center": "P",
+    "diagnostic": "采用 P–D 标记并比较二苯基膦；测量 C–P 成键位置、D 去向和 E/Z 比。若二环己基膦只抑制 Pd 而无新 C–P 信号，则用无 Pd 活化分支判断这是配位问题还是本征空间限制。",
+    "family": "二级烷基膦",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "二环己基膦",
+    "reactive_form": "中性二环己基膦 P(III)–H，或其去质子化/均裂产生的 P 中心活性形式；成键位点为 P。",
+    "reason": "与二苯基膦形成电子和自由基稳定性的对照，同时保留 P–H σ 键。它检验烷基取代磷是否能在不借助原有机硼循环的情况下形成固定 C(F)–P 连接。",
+    "risks": [
+      "空气敏感",
+      "较大位阻可能降低加成",
+      "强 Pd 配位可能导致催化剂抑制",
+      "P–H 可引发氢转移、还原或完全脱氟副反应"
+    ],
+    "route": "经磷负离子或磷中心自由基对 CF3 来源碳加成，随后脱氟；备选为先氢膦化再通过碱或催化剂完成选择性消除。",
+    "smiles": "[PH](C1CCCCC1)C1CCCCC1",
+    "structure_key": "4f781cc37b739293",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/17/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-52f3e8b4011bbac2",
+    "hypothesis_id": "CP-52f3e8b4011bbac2-H01",
+    "activation": "通常需要Lewis酸活化含氟烯酮并促进Mukaiyama型加成；水含量需严格分层测试，因为少量水既可能促水解也可能改变脱氟。",
+    "atom_indices": [
+      6
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C=C(O[Si](C)(C)C)c1ccccc1",
+    "center": "C",
+    "diagnostic": "用标记或HMBC确认末端烯醇碳成键；同步检测脱硅、苯乙酮再生、简单羟醛加成物和目标单氟烯烃，以判断是否完成加成后消除。",
+    "family": "硅烯醇醚π亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "苯乙酮三甲基硅烯醇醚",
+    "reactive_form": "中性硅烯醇醚；指定末端烯醇碳成键，氧和硅不是目标成键原子。",
+    "reason": "该试剂提供稳定、可操作的烯醇碳π亲核性，并能测试Mukaiyama型加成是否可与脱氟串联；它不要求Seed有机硼转金属步骤。",
+    "risks": [
+      "氟离子会快速脱硅并改变反应网络",
+      "可能只得到羰基加成物而不能形成目标烯烃",
+      "Lewis酸可能导致自缩合或底物分解",
+      "新生成的二羰基体系可能继续反应"
+    ],
+    "route": "末端烯醇碳对CF3衍生烯碳加成，氟离子捕获硅并促进脱硅；后续消除需恢复与原羰基共轭且保留一个F的烯烃。",
+    "smiles": "C[Si](C)(C)OC(=C)c1ccccc1",
+    "structure_key": "52f3e8b4011bbac2",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/18/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-5d0333041aebff88",
+    "hypothesis_id": "CP-5d0333041aebff88-H01",
+    "activation": "以中性 2-萘酚进行直接芳环亲核性筛选；可比较弱 Brønsted 酸、温和 Lewis 酸或不加活化剂的条件，以测试 Friedel-Crafts 型 C 成键。避免先验要求 Seed 的 Pd/有机硼转金属化步骤。",
+    "atom_indices": [
+      10
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "Oc1ccc2ccccc2c1",
+    "center": "C",
+    "diagnostic": "用 19F NMR 测定失氟数目，并用 2D NMR 确认新键位于提交的邻羟基萘碳而非氧；与苯酚 O-成键探针并行比较，可判别 C/O 竞争及稠环效应。",
+    "family": "稠合双环含氧芳香族；萘酚型碳亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "neutral_ambident_aromatics",
+    "name": "2-萘酚",
+    "reactive_form": "中性 2-萘酚的富电子芳环；提交 atom 10 作为邻羟基的候选 C 成键位点，羟基氧是未提交但需分析的竞争位点。",
+    "reason": "覆盖稠合双环和 Friedel-Crafts 型碳成键，并与苯酚的 O 成键提案形成正交比较。引文中的萘基只来自不同的去氟偶联体系，因此这里只作支架级外推，不代表该精确分子或该位点已有成功先例。",
+    "risks": [
+      "可能形成多个区域异构体",
+      "去质子化可能把路径切换到 O 成键",
+      "酸或 Lewis 酸可能与羰基竞争配位并改变底物状态",
+      "高温、强碱或长停留时间可能增加过度脱氟和产物异构化"
+    ],
+    "route": "保持羰基连接关系，以 atom 10 的芳环碳连接到带保留 F 的 CF3 衍生烯碳，目标为净两次失氟的 C-芳基化单氟烯烃。",
+    "smiles": "Oc1ccc2ccccc2c1",
+    "structure_key": "5d0333041aebff88",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/19/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-64837e30f7127abc",
+    "hypothesis_id": "CP-64837e30f7127abc-H01",
+    "activation": "使用预制4-(三氟甲基)苯酚钠，或在温和碱下原位生成并验证持留；与苯酚钠使用相同分析窗口。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "[Na+].[O-]c1ccc(C(F)(F)F)cc1",
+    "center": "O",
+    "diagnostic": "与苯酚钠作一因素电子比较；同时追踪供体CF3和底物来源氟信号，并确认新C-O键位于Seed的CF3来源碳而非芳环或羰基碳。",
+    "family": "电子贫化酚氧负离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "4-(三氟甲基)苯酚钠",
+    "reactive_form": "对三氟甲基苯氧负离子；索引0为成键氧，索引6、7、8是取代基氟，索引11为钠。",
+    "reason": "测试较弱亲核、较低碱性的芳氧负离子能否改善化学选择性，并覆盖电子贫化边界。引证只显示取代苯氧盐在不同三氟乙烯醚体系中的乙烯基取代及E/Z混合物。",
+    "risks": [
+      "低亲核性可能导致无反应但供体仍稳定",
+      "供体自身CF3使19F谱重叠风险增加",
+      "芳氧负离子可能改变金属配位环境",
+      "目标产物可能形成难分离的E/Z异构体"
+    ],
+    "route": "主要在独立可信偕二氟烯酮上评价C-O成键；随后才测试原Seed底物的一锅兼容性，避免把催化循环失配误判为亲核体失效。",
+    "smiles": "[O-]c1ccc(C(F)(F)F)cc1.[Na+]",
+    "structure_key": "64837e30f7127abc",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/20/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-6f96d085ca3320a4",
+    "hypothesis_id": "CP-6f96d085ca3320a4-H01",
+    "activation": "用 Lewis 酸或氟亲和试剂释放低稳态浓度的氰离子；也可在无金属条件下测试直接 vinylic 加成-消除。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C[Si](C)(C)C#N",
+    "center": "C",
+    "diagnostic": "通过 13C 标记氰基碳和 IR/LC-MS 确认 C-CN 连接，并检查是否形成羰基氰醇；比较 TMSCN 与 KCN 可区分缓释、阳离子和硅捕氟效应。",
+    "family": "硅基氰化物",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "三甲基氰硅烷",
+    "reactive_form": "活化后释放的氰碳亲核体或金属氰基物种；成键端为氰基碳，氮不是拟成键原子。",
+    "reason": "最小的杂原子取代碳供体，能测试直接 vinylic 氰化是否可在目标碳发生并保留一个 F；不要求原始 Pd/硼循环。",
+    "risks": [
+      "优先对羰基形成氰醇并改变骨架",
+      "氰根可能强烈配位并抑制金属催化剂",
+      "TMSCN 和酸性活化剂具有显著操作危险",
+      "强 Si-F 驱动力可能导致超过目标次数的脱氟"
+    ],
+    "route": "缓释氰碳对含氟烯碳进行 C-C 成键，以氰醇形成作为关键竞争路径对照。",
+    "smiles": "N#C[Si](C)(C)C",
+    "structure_key": "6f96d085ca3320a4",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/21/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-7010fb8ed62e0e37",
+    "hypothesis_id": "CP-7010fb8ed62e0e37-H01",
+    "activation": "利用 P–H 键：比较碱促进的磷负离子路径、自由基引发路径及无活化对照；不预设必须保留 Pd。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "c1ccc(Pc2ccccc2)cc1",
+    "center": "P",
+    "diagnostic": "使用 P–D 对应物进行平行实验并定位 D；若 C–P 形成伴随 D 转移到邻位碳，支持氢膦化型路径，若只形成 C(F)–P 且 D 不进入目标骨架，则更符合脱质子加成/消除。同步记录单氟与完全脱氟产物。",
+    "family": "二级芳基膦",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "二苯基膦",
+    "reactive_form": "中性二苯基膦的 P(III)–H 中心，或经温和去质子化生成的二苯基磷负离子；两者的成键原子均为 P。",
+    "reason": "P–H 同时提供亲核、自由基和 σ 键转移三种可区分入口。引证体系是 gem-二氟丙二烯的 Pd 催化氢膦化，不能证明 Seed 兼容性，但支持将二级膦作为 C–P 成键探针。",
+    "risks": [
+      "强烈空气敏感并易氧化",
+      "可毒化或重构 Pd 催化剂",
+      "P–H 可能导致普通氢膦化而不发生目标双脱氟",
+      "碱或高温可能增加完全脱氟"
+    ],
+    "route": "P–H 直接氢膦化后再脱氟，或先生成 Ph2P−/Ph2P• 对 CF3 来源碳成键，随后消除至保留一个 F 的烯烃。",
+    "smiles": "[PH](c1ccccc1)c1ccccc1",
+    "structure_key": "7010fb8ed62e0e37",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/22/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-719c8ad385fb72f6",
+    "hypothesis_id": "CP-719c8ad385fb72f6-H01",
+    "activation": "宜采用低温、短接触时间的温和酸或Lewis酸窗口；同时设置无活化剂对照，因为吡咯对强酸和氧化条件高度敏感。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "c1cc[nH]c1",
+    "center": "C",
+    "diagnostic": "定量比较单一α-C取代产物、N取代物和低聚物；使用N-氘代吡咯或独立N-保护对照可检验芳香取代中的质子转移。",
+    "family": "五元富电子杂芳烃",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "吡咯",
+    "reactive_form": "中性芳香π亲核体；指定与氮相邻的α-碳成键，吡咯氮不是目标原子。",
+    "reason": "吡咯提供比吲哚更小、更强但稳定性更差的π亲核体，可探测快速碳捕获能否胜过聚合及N位副反应。",
+    "risks": [
+      "酸催化聚合或树脂化",
+      "可能发生N-成键或多位点取代",
+      "易氧化且可能强烈影响Pd物种",
+      "产物分析可能受区域异构体干扰"
+    ],
+    "route": "吡咯α-碳捕获CF3衍生烯基亲电中心，脱质子恢复芳香性，并通过脱氟形成保留一个F的目标烯烃。",
+    "smiles": "[nH]1cccc1",
+    "structure_key": "719c8ad385fb72f6",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/23/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-719c8ad385fb72f6",
+    "hypothesis_id": "CP-719c8ad385fb72f6-H02",
+    "activation": "通常需要碱生成吡咯负离子；中性吡咯应作为低反应性对照，避免把C位反应误作N成键。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "c1cc[nH]c1",
+    "center": "N",
+    "diagnostic": "使用N-氘代吡咯及二维NMR区分N-烯基化与吡咯C2/C5加成；与N-甲基吡咯对照，并比较分子间反应与引证的分子内偏好。",
+    "family": "芳香性吡咯N-H亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "吡咯",
+    "reactive_form": "由零号[nH]去质子化形成的吡咯负离子；环碳是潜在竞争C亲核位点。",
+    "reason": "引证支持分子内N进攻gem-CF2烯烃并消除F-，但同时强调了几何预组织。分子间吡咯是有意设置的边界探针，用于检验缺少环化驱动力时是否仍可形成固定的C(F)-N连接。",
+    "risks": [
+      "可能优先发生吡咯环C位官能化而非N位成键。",
+      "分子间路径可能因缺少预组织而过慢。",
+      "强碱可能引发吡咯聚合或单氟产物继续失氟。"
+    ],
+    "route": "吡咯负离子分子间进攻Seed相关gem-CF2烯酮并消除F-；该提案仅外推局部N加成-消除，不外推引证中的五元环化。",
+    "smiles": "[nH]1cccc1",
+    "structure_key": "719c8ad385fb72f6",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/23/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-71ce6823ee7e14cc",
+    "hypothesis_id": "CP-71ce6823ee7e14cc-H01",
+    "activation": "苯亚磺酸钠可经单电子氧化生成磺酰基自由基，也可直接作为阴离子参与；应平行比较暗态离子条件和可控光/氧化条件。",
+    "atom_indices": [
+      2
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "O=S([O-])c1ccccc1.[Na+]",
+    "center": "S",
+    "diagnostic": "通过 19F NMR、HRMS 和硫氧化态分析确认新键为 C-SO2Ph，而非脱磺酰后的 C-H/C-Ph 产物。自由基时钟或光开关实验可作判别，但须同时监测试剂氧化和底物分解。",
+    "family": "亚磺酸盐磺酰基供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "苯亚磺酸钠",
+    "reactive_form": "atom 2 的六价硫形成 C-S 键；atom 1 和 atom 3 的氧均不是拟议成键位点。",
+    "reason": "把硫中心氧化态扩展到磺酰基，检验极性反转或自由基加成-失氟是否可在不依赖 Seed 有机硼循环的情况下实现固定连接。",
+    "risks": [
+      "可能氧化为磺酸盐或还原/脱磺酰",
+      "磺酰基自由基可能加到羰基共轭烯烃的另一碳",
+      "盐溶解度和水含量可能控制表观结果",
+      "生成物可能继续消除或发生 E/Z 异构化"
+    ],
+    "route": "使 PhSO2 基通过硫端加到原 CF3 衍生碳，随后失氟达到 C(F)-SO2Ph；也可直接测试已验证的 gem-二氟烯酮。",
+    "smiles": "[Na+].O=S([O-])c1ccccc1",
+    "structure_key": "71ce6823ee7e14cc",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/24/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-735e0b557cdf0e0c",
+    "hypothesis_id": "CP-735e0b557cdf0e0c-H01",
+    "activation": "硫代乙酸钾已经是硫负离子，可直接用于亲核取代；需要严格比较无 Pd、Seed Pd 和独立 gem-二氟烯酮条件。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CC(=O)[S-].[K+]",
+    "center": "S",
+    "diagnostic": "定量并确认 C(F)-SAc，而不是 O-乙酰化、C(F)-OAc 或水解后的 C(F)-SH；可用选择性脱乙酰和二维 NMR验证。与乙酸钾对照可判别 S/O 化学选择性。",
+    "family": "硫代羧酸盐掩蔽硫醇供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "硫代乙酸钾",
+    "reactive_form": "atom 4 的阴离子硫形成新键；atom 3 的羰基氧是潜在竞争配位位点，但不是拟议成键原子。",
+    "reason": "提供可解保护的 SAc 基，并在不使用游离硫醇的情况下测试直接 vinylic 硫取代；与芳基硫负离子和拟卤硫阴离子形成电子与结构对照。",
+    "risks": [
+      "可能发生 O/S 位点竞争或酰基转移",
+      "痕量水导致硫代乙酸盐水解",
+      "强亲核条件可能促进过度脱氟",
+      "SAc 产物在反应或后处理期间可能脱乙酰或氧化"
+    ],
+    "route": "使硫代乙酸根在原 CF3 碳通过加成-氟消除形成 C(F)-SAc，保持羰基骨架；后续脱保护不作为初筛成功判据。",
+    "smiles": "[K+].CC(=O)[S-]",
+    "structure_key": "735e0b557cdf0e0c",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/25/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-7647ff2ce0052a54",
+    "hypothesis_id": "CP-7647ff2ce0052a54-H01",
+    "activation": "需要 S-S 键的选择性还原、氧化或金属辅助裂解以产生可转移的苯硫基／苯硫负离子状态；应与苯硫酚并列测试以判断二硫化物是否只是其储库。",
+    "atom_indices": [
+      0,
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "c1ccc(SSc2ccccc2)cc1",
+    "center": "S",
+    "diagnostic": "使用标记或交叉二硫化物对照追踪 S-S 裂解，并比较二苯二硫醚与苯硫酚的诱导期和产物时间曲线；定量 C(F)-S 产物、残余二硫化物、硫酚及完全脱氟产物。",
+    "family": "可裂解元素-元素供体／对称二硫化物",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "precursor_state_pairs",
+    "name": "二苯二硫醚",
+    "reactive_form": "S-S 裂解产生的苯硫基、苯硫负离子或金属硫醇盐等原位状态；atom 0 和 atom 1 是对称等价的潜在成键硫原子，因此共同列出，芳环碳不是指定转移中心。",
+    "reason": "作为对称、可裂解 S-S 供体，它与苯硫酚形成还原态／氧化态来源对，并检验无需游离 S-H 的硫转移。引证中的二硫化物捕获 aminium radical 与本目标反应不同，只说明自由基硫转移是一项可检验类比；不据此假定 Seed 中存在自由基。",
+    "risks": [
+      "S-S 裂解方式和活性硫物种可能随 Pd、碱、氧或还原剂改变",
+      "二硫化物及裂解产物均可能钝化 Pd",
+      "可能产生硫自由基副反应、芳环硫化或底物分解",
+      "对称性使两个 S 原子的来源无法仅靠未标记产物区分"
+    ],
+    "route": "通过独立的 S-S 活化，在固定 CF3 来源碳上形成 C-S 键并保留一个 F；该路线不要求有机硼伙伴，也不预设二硫化物进入 Seed 催化循环。",
+    "smiles": "S(Sc1ccccc1)c1ccccc1",
+    "structure_key": "7647ff2ce0052a54",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S",
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/26/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-7953343be0b435d5",
+    "hypothesis_id": "CP-7953343be0b435d5-H01",
+    "activation": "优先比较软Lewis酸/π酸与Seed Pd条件；硫可能强配位，因此需要催化剂预混和后加试剂两种次序作为机理控制。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "c1ccsc1",
+    "center": "C",
+    "diagnostic": "检测α-C取代、S-烯基化和未反应底物；通过催化剂预孵育抑制实验及加入非亲核硫醚对照，区分碳反应性与硫配位毒化。",
+    "family": "硫杂芳香π亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "噻吩",
+    "reactive_form": "中性芳香π亲核体；指定噻吩α-碳成键，硫不是目标成键原子。",
+    "reason": "噻吩的碳π亲核性和硫配位性并存，可扩展软杂芳环空间并直接测试强配位风险是否掩盖潜在C-C成键。",
+    "risks": [
+      "硫可能抑制或重构Pd催化剂",
+      "区域异构和多取代",
+      "强活化条件下氧化或聚合",
+      "低转化不能单独归因于碳亲核性不足"
+    ],
+    "route": "噻吩α-碳捕获活化含氟烯碳并恢复芳香性，之后完成达到C(F)-噻吩连接所需的脱氟。",
+    "smiles": "s1cccc1",
+    "structure_key": "7953343be0b435d5",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/27/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-822684332936c797",
+    "hypothesis_id": "CP-822684332936c797-H01",
+    "activation": "以预制叔丁醇钠测试；由于碱性和位阻均高，应采用条件梯度而非简单提高温度，并设置等碱性非亲核碱对照。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "CC(C)(C)[O-].[Na+]",
+    "center": "O",
+    "diagnostic": "与甲醇钠比较目标C(F)-OtBu、底物消耗及完全脱氟比例；再将独立获得的候选C(F)-OtBu产物重投反应混合物，以判断体积较大的烷氧基是否改善单氟停止点。",
+    "family": "位阻烷氧负离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "叔丁醇钠",
+    "reactive_form": "叔丁氧负离子；索引4为成键氧，索引0、2、3为三个甲基碳。",
+    "reason": "这是位阻边界探针，可区分亲核加成受阻与强碱促进脱氟。引证中的叔丁氧负离子在另一氟代烯烃上给出单取代氟代乙烯醚，但不能外推其区域选择性或Seed兼容性。",
+    "risks": [
+      "可能主要诱导消除和完全脱氟",
+      "大位阻可能阻止对目标烯碳进攻",
+      "可能引发羰基烯醇化或缩合",
+      "强碱可能快速改变Pd物种"
+    ],
+    "route": "在可信偕二氟烯酮和原Seed底物两个层级测试，目标仅为CF3来源烯碳与叔丁氧基氧形成键并同碳保留一个F。",
+    "smiles": "CC(C)(C)[O-].[Na+]",
+    "structure_key": "822684332936c797",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/28/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-85359065fe28e8d0",
+    "hypothesis_id": "CP-85359065fe28e8d0-H01",
+    "activation": "作为预制硫负离子使用，不需要先断 S-H；需筛查离子对、溶剂极性及冠醚等离子解离变量，但不预设其有利方向。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "[Na+].[S-]c1ccccc1",
+    "center": "S",
+    "diagnostic": "在匹配水含量下比较苯硫酚/碱与苯硫酚钠；监测苯硫酚盐持久性、氟离子释放和 C(F)-SPh 形成。无 Pd 条件下的成键将直接支持阴离子取代假说。",
+    "family": "预制芳基硫负离子盐",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "苯硫酚钠",
+    "reactive_form": "atom 1 的苯硫负离子；钠仅为反离子。",
+    "reason": "把硫亲核体的生成从 Seed 碱和 Pd 状态中解耦，直接检验阴离子是否能捕获原位或独立制备的 gem-二氟烯酮。",
+    "risks": [
+      "在 DCE 中溶解度和离子配对可能限制反应",
+      "痕量水会质子化硫负离子",
+      "可能快速结合 Pd 或形成难溶金属硫化物",
+      "高局部碱性可能促进完全脱氟"
+    ],
+    "route": "优先测试对 gem-二氟烯酮的直接亲核加成-氟消除，再与完整 CF3 底物比较，以判断首个 C-F 活化是否仍需其他体系。",
+    "smiles": "[Na+].[S-]c1ccccc1",
+    "structure_key": "85359065fe28e8d0",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/29/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-8d11fd6c0d4e62a7",
+    "hypothesis_id": "CP-8d11fd6c0d4e62a7-H01",
+    "activation": "可直接测试中性苯胺，并与较温和的非亲核碱组合；若需要，可比较预形成苯胺负离子作为单独候选。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "Nc1ccccc1",
+    "center": "N",
+    "diagnostic": "与正丁胺和对三氟甲基苯胺作电子梯度比较；定量母体、gem-CF2中间体、目标C(F)-N产物和完全脱氟产物，以确定电子效应落在前体形成还是N进攻步骤。",
+    "family": "芳香族伯胺",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "苯胺",
+    "reactive_form": "中性苯胺，零号氨基N为成键原子。",
+    "reason": "苯胺提供较低碱性、共振削弱的N亲核体，并有其他含氟烯烃加成和gem-二氟脱氟体系的局部类比；这些证据均不固定Seed羰基连接，也不证明净失两个F。",
+    "risks": [
+      "苯胺可能配位或参与羰基缩合。",
+      "较低亲核性可能使gem-CF2中间体先分解或聚合。",
+      "Pd存在时可能切换为与目标无关的烯烃加成路径。"
+    ],
+    "route": "苯胺直接截获Seed相关gem-CF2烯酮并经F-消除形成烯基C-N键；同时测试无Pd路线以避免把原Seed循环设为前提。",
+    "smiles": "Nc1ccccc1",
+    "structure_key": "8d11fd6c0d4e62a7",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/30/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-8de27f136fedbba8",
+    "hypothesis_id": "CP-8de27f136fedbba8-H01",
+    "activation": "以预制甲醇钠或经分析确认的无水甲氧负离子形式测试；不要把其碱作用与亲核作用合并解释。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "C[O-].[Na+]",
+    "center": "O",
+    "diagnostic": "与甲醇、甲醇锂及相同钠离子但非亲核碱的对照比较；定量目标C(F)-OMe、完全脱氟烯烃、羰基副产物和氟离子，以判断甲氧负离子转移是否超过单纯强碱效应。",
+    "family": "碱金属烷氧负离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "甲醇钠",
+    "reactive_form": "形式上的游离或离子对甲氧负离子；索引1为成键氧，索引2为钠反离子。",
+    "reason": "提供小体积、高亲核性的O-端点。引证仅支持钠/锂烷氧负离子在不同二氟丁烯内酯上的局部乙烯基氟置换，不能证明Seed底物或Pd条件兼容。",
+    "risks": [
+      "强碱性可能促进剩余C-F键继续消除",
+      "可能与羰基发生可逆加成或缩合",
+      "钠盐溶解度和聚集态可能控制表观结果",
+      "可能改变或失活Pd催化物种"
+    ],
+    "route": "优先在独立可信偕二氟烯酮上测试直接O-加成/氟离子消除，同时以Seed一锅体系作为兼容性支线；不要求有机硼转金属步骤。",
+    "smiles": "C[O-].[Na+]",
+    "structure_key": "8de27f136fedbba8",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/31/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-95e4c6bd10d240e3",
+    "hypothesis_id": "CP-95e4c6bd10d240e3-H01",
+    "activation": "需要比较中性叔丁硫醇和其硫负离子；可降低温度或缩短暴露时间以检验空间位阻是否主要影响成键而非底物分解。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CC(C)(C)S",
+    "center": "S",
+    "diagnostic": "与乙硫醇进行匹配竞争或平行实验，定量 C(F)-StBu、完全脱氟物和未反应底物。若两者消耗底物相似但只有乙硫醇成键，支持成键位阻边界。",
+    "family": "位阻烷基硫醇",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "叔丁硫醇",
+    "reactive_form": "中性叔丁硫醇或叔丁硫负离子；atom 4 的硫为成键位点。",
+    "reason": "提供明显位阻且没有额外杂原子的边界探针，用于检验拥挤的氟代烯碳能否接受硫亲核体。",
+    "risks": [
+      "显著空间位阻可能抑制取代",
+      "硫醇/Pd 配位或催化剂失活",
+      "强碱生成硫负离子时可能加速过度脱氟",
+      "可能出现异丁烯或含硫分解物"
+    ],
+    "route": "通过直接 vinylic 加成-消除或硫醇化路线建立 C(F)-StBu；不假定 Seed 的有机硼转金属步骤。",
+    "smiles": "CC(C)(C)S",
+    "structure_key": "95e4c6bd10d240e3",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/32/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-a71435752beee4c8",
+    "hypothesis_id": "CP-a71435752beee4c8-H01",
+    "activation": "可用温和Lewis酸或直接与预生成的含氟烯酮接触；必须避免强酸使烯胺完全质子化，也应比较无Pd条件。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C=CN(C)C",
+    "center": "C",
+    "diagnostic": "确认末端烯碳成键而非氮烷基化；测定质子化烯胺、胺盐和水解羰基副产物，并用相应烯醚作电子/杂原子对照。",
+    "family": "烯胺π亲核体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "N,N-二甲基乙烯胺",
+    "reactive_form": "中性烯胺；指定远离氮的末端β-烯碳成键，氮孤对电子仅提高π亲核性。",
+    "reason": "烯胺代表强中性碳π亲核体，可在不依赖有机硼或预制碳负离子的情况下捕获电亲性含氟烯碳，并测试C/N两亲性。",
+    "risks": [
+      "优先N-成键或氮配位抑制催化剂",
+      "酸下质子化失去碳亲核性",
+      "易水解、氧化或聚合",
+      "加成物可能发生亚胺交换而破坏固定骨架"
+    ],
+    "route": "烯胺β-碳对CF3衍生亲电碳加成，继而经氟离子消除和烯胺水解或双键迁移形成目标C-C连接；必须确认碳骨架未裂解。",
+    "smiles": "CN(C)C=C",
+    "structure_key": "a71435752beee4c8",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/33/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-a85d32e4db2ff39c",
+    "hypothesis_id": "CP-a85d32e4db2ff39c-H01",
+    "activation": "可直接作为中性亲核体测试，也可由温和非亲核碱少量原位转化为甲氧负离子；应把中性甲醇与预制甲氧盐分开比较。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "CO",
+    "center": "O",
+    "diagnostic": "比较CH3OH、CH3OD和预制CH3O-条件下目标C(F)-OCH3产物的形成速率、氘分布及单氟/完全脱氟比；由此区分中性捕获、去质子化后进攻和单纯质子供体效应。",
+    "family": "中性醇",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "甲醇",
+    "reactive_form": "中性甲醇；成键原子是索引1的羟基氧。",
+    "reason": "甲醇为最小醇类探针。所引证体系证明甲醇可在另一种氟化反应网络中充当氧亲核体，但电亲试剂、光化学过程和目标连接关系均不同，因此这里只作局部外推。",
+    "risks": [
+      "可能发生缩酮化、酯交换或羰基加成",
+      "可质子化阴离子中间体并抑制脱氟",
+      "可能改变DCE体系极性及Pd配位环境",
+      "目标烯醚可能继续脱氟、异构化或水解"
+    ],
+    "route": "测试对原三氟底物的一锅捕获，并测试甲醇对可信偕二氟烯酮的直接加成-消除；只将CF3来源碳上的C-OCH3形成且同碳保留F计为目标连接。",
+    "smiles": "CO",
+    "structure_key": "a85d32e4db2ff39c",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/34/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-abed28aa627f8929",
+    "hypothesis_id": "CP-abed28aa627f8929-H01",
+    "activation": "以中性硫醚直接测试硫孤对电子进攻；可比较无活化、温和 Lewis 酸活化及弱碱条件。该边界探针不要求预制硫负离子，但预期初级产物可能是可逆或离子型硫鎓物种。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CSc1ccccc1",
+    "center": "S",
+    "diagnostic": "低温和反应温度下分别用 19F NMR/LC-HRMS 搜索含 S 的单氟烯基硫鎓物种，并做时间序列判断其是否转化为稳定 C-S 产物；与二苯硫醚或苯并噻吩对照有助于区分硫成键、芳环 C 成键和单纯配位。",
+    "family": "单环芳基硫醚；中性硫孤对电子供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "neutral_ambident_aromatics",
+    "name": "苯甲硫醚（硫代苯甲醚）",
+    "reactive_form": "中性二价硫 atom 1 的孤对电子；初始成键后可能形成三配位硫鎓中心，是否发生后续脱烷基或稳定化需实验决定。",
+    "reason": "提供与苯并噻吩 C2 探针互补的明确 S 成键假设，并覆盖中性软亲核体。稳定硫鎓连接并非已知结果，而是用于判别亲电中心可接近性及杂原子成键边界的探索性提案。",
+    "risks": [
+      "可能只形成可逆硫鎓加合物",
+      "硫醚可能毒化软金属催化剂或被氧化",
+      "后续脱甲基可改变表观产物连接关系",
+      "酸、卤化物、含水量和温度可能强烈影响离子对与产物寿命",
+      "较强碱或高温可能增加完全脱氟"
+    ],
+    "route": "探索硫 atom 1 与带保留 F 的 CF3 衍生烯碳直接形成 C-S 键；目标仍保持羰基骨架并净损失两个 F，初级产物允许为可表征的烯基硫鎓边界物种。",
+    "smiles": "CSc1ccccc1",
+    "structure_key": "abed28aa627f8929",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/35/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-ae66431c2fbd5738",
+    "hypothesis_id": "CP-ae66431c2fbd5738-H01",
+    "activation": "使用预制无水2,2,2-三氟乙醇钠，或以经验证不会直接消耗电亲底物的碱原位生成；需要单独确认该盐在所选溶剂中的存在形式。",
+    "atom_indices": [
+      5
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "[Na+].[O-]CC(F)(F)F",
+    "center": "O",
+    "diagnostic": "与甲醇钠进行匹配比较，并通过19F NMR同时区分底物/产物上的氟与三氟乙氧基氟信号；检测目标C(F)-OCH2CF3、完全脱氟产物和供体分解。",
+    "family": "电子贫化烷氧负离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "2,2,2-三氟乙醇钠",
+    "reactive_form": "2,2,2-三氟乙氧负离子；索引5为成键氧，索引0、2、3为供体自身的氟，不是成键原子。",
+    "reason": "以较低碱性和较低亲核性的含氟烷氧负离子扩展电子范围，并提供可由19F NMR独立追踪的供体。引证来自磺酰基活化二氟丙烯体系，只能支持类别级局部类比。",
+    "risks": [
+      "亲核性可能不足而只表现为碱或配体",
+      "额外含氟片段会增加19F谱归属复杂度",
+      "可能发生供体分解或质子交换",
+      "羰基配位和Pd兼容性未知"
+    ],
+    "route": "直接捕获可信偕二氟烯酮，或在能产生该物种的分步体系中加入；无需沿用有机硼伙伴或其转金属过程。",
+    "smiles": "FC(F)(F)C[O-].[Na+]",
+    "structure_key": "ae66431c2fbd5738",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/36/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-b18c4945d055e0a6",
+    "hypothesis_id": "CP-b18c4945d055e0a6-H01",
+    "activation": "比较中性硫酚、温和碱原位形成的硫酚盐以及必要时预制硫酚盐的行为；避免把氧化生成二苯二硫醚误判为有效活化。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "Sc1ccccc1",
+    "center": "S",
+    "diagnostic": "并行定量目标 C(F)-S 单氟烯烃、二苯二硫醚和完全脱氟产物；用无碱、弱碱及受控少量氧化剂三组对照判断实际供体是硫酚／硫酚盐还是原位二硫化物。",
+    "family": "S-H 给体／硫酚",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "precursor_state_pairs",
+    "name": "苯硫酚",
+    "reactive_form": "中性 S-H 供体或原位苯硫负离子；成键原子为硫 atom 0。",
+    "reason": "硫的高极化性使其成为与 O、N 明显不同的亲核边界探针。引证涉及铁卟啉和三氟甲基卡宾体系，只支持硫醇能够参与含氟乙烯基硫醚形成的局部类比；本候选仍是对 Seed 固定连接方式的外推。",
+    "risks": [
+      "易氧化为二苯二硫醚，导致活性物种不清楚",
+      "硫可能强烈结合或毒化 Pd",
+      "硫酚盐可能诱发多次脱氟或非选择性取代",
+      "挥发性、气味和氧化敏感性增加操作及物料衡算难度"
+    ],
+    "route": "在保持羰基骨架的条件下，使硫 atom 0 与 CF3 来源且保留 F 的烯基碳成键；同时比较无金属亲核取代和 Pd 存在下捕获两种路线。",
+    "smiles": "Sc1ccccc1",
+    "structure_key": "b18c4945d055e0a6",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/37/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-b18c4945d055e0a6",
+    "hypothesis_id": "CP-b18c4945d055e0a6-H02",
+    "activation": "通过光氧化、过氧化物或金属介导的 S–H 均裂形成苯硫自由基；也可作为中性硫孤对亲核体测试离子型取代。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "Sc1ccccc1",
+    "center": "S",
+    "diagnostic": "比较自由基氧化条件、温和碱去质子化条件和无活化对照；检测二苯二硫、加氢产物及 C(F)–SPh 产物，以判断硫自由基和硫负离子路线。",
+    "family": "硫醇/硫自由基供体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "苯硫酚",
+    "reactive_form": "苯硫自由基 PhS•、苯硫负离子 PhS− 或中性硫醇；硫 atom 0 为拟成键原子。",
+    "reason": "同时覆盖自由基硫转移和孤对亲核取代两种机制。引文涉及不同的 α-三氟甲基卡宾形式插入体系，因此只是 C–S/C–Se 成键的局部外推。",
+    "risks": [
+      "易空气氧化为二苯二硫",
+      "硫醇和硫负离子可能强烈配位并抑制金属催化剂",
+      "可能发生羰基加成、氢原子转移或产物继续脱氟"
+    ],
+    "route": "分别以 S–H 均裂和去质子化方式激活，不要求沿用 Seed Pd；固定目标为硫 atom 0 与 CF3 衍生烯碳成键并保留一个氟。",
+    "smiles": "[SH]c1ccccc1",
+    "structure_key": "b18c4945d055e0a6",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/37/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-b18c4945d055e0a6",
+    "hypothesis_id": "CP-b18c4945d055e0a6-H03",
+    "activation": "可先比较中性苯硫酚、原位弱碱去质子化以及预制硫负离子三种状态；分别设置无金属、Seed Pd 条件和不依赖 Pd 的碱促加成-消除条件。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "Sc1ccccc1",
+    "center": "S",
+    "diagnostic": "用定量 19F NMR/LC-MS 区分目标 C(F)-SPh 单氟烯烃、仅一次脱氟的二氟物和完全脱氟物；并比较苯硫酚、苯硫酚盐及无硫对照。若预制硫负离子在无 Pd 条件下形成同一连接产物，而中性硫醇仅抑制 Pd，则支持亲核取代而非 Pd 转硫路径。",
+    "family": "芳基硫醇",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "sulfur",
+    "name": "苯硫酚",
+    "reactive_form": "中性硫醇或苯硫负离子；成键原子是硫，不是芳环碳。",
+    "reason": "小而无额外配位基的基准芳基硫供体。可检验先生成羰基共轭 gem-二氟烯烃、再由硫亲核体取代一个氟的局部外推；文献事实仅支持其他氟化体系中的硫醇反应性，不证明 Seed 兼容性。",
+    "risks": [
+      "游离硫醇可能强烈结合或毒化 Pd",
+      "碱度过高或升温可能增加完全脱氟",
+      "硫醇氧化为二硫化物",
+      "可能发生共轭加成、质子化或 E/Z 异构化"
+    ],
+    "route": "以固定羰基底物为起点，探索直接脱氟硫化，或先独立生成/加入可信的 gem-二氟烯酮后进行加成-消除；目标是在原 CF3 碳形成 C-SPh 并保留一个 F。",
+    "smiles": "Sc1ccccc1",
+    "structure_key": "b18c4945d055e0a6",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "S"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/37/hypotheses/2"
+  },
+  {
+    "candidate_id": "CP-b2cf6b111cd50f59",
+    "hypothesis_id": "CP-b2cf6b111cd50f59-H01",
+    "activation": "通常需要碱促进N-H去质子化；应使用碱身份矩阵，而不是默认沿用Seed的KHCO3或Pd。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "c1nnc[nH]1",
+    "center": "N",
+    "diagnostic": "比较1,2,4-三唑、中性N-甲基三唑对照及预形成三唑盐；通过19F NMR与LC-HRMS判断是目标C(F)-N产物、过度脱氟还是仅底物回收。",
+    "family": "富氮芳香唑类",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "1,2,4-三唑",
+    "reactive_form": "由零号[nH]氮去质子化形成的三唑负离子；其余两个氮为竞争配位位点。",
+    "reason": "高氮含量降低单个N位点的亲核性但增强酸性和配位能力，是区分“易生成阴离子”与“阴离子足够亲核”的边界探针。",
+    "risks": [
+      "多齿配位可能显著改变催化剂物种。",
+      "可能得到区域异构N-烯基化产物。",
+      "盐析、溶解度和离子对效应可能掩盖本征反应性。"
+    ],
+    "route": "三唑负离子截获经独立验证的gem-CF2烯酮，随后失去F-并保持羰基共轭骨架；不要求原有机硼转金属步骤。",
+    "smiles": "[nH]1cnnc1",
+    "structure_key": "b2cf6b111cd50f59",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/38/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-b56d476fec2f52a2",
+    "hypothesis_id": "CP-b56d476fec2f52a2-H01",
+    "activation": "可直接使用游离正丁胺；通过弱酸缓冲或低游离胺活度条件评估其高碱性和高亲核性影响。",
+    "atom_indices": [
+      4
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "CCCCN",
+    "center": "N",
+    "diagnostic": "采用短时程定量分析并检查双加成、亚胺/烯胺和完全脱氟副产物；以正丁胺盐加外碱与游离胺对照，判断有效变量是亲核体浓度还是总体碱性。",
+    "family": "脂肪族伯胺",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "nitrogen",
+    "name": "正丁胺",
+    "reactive_form": "中性伯胺，四号末端N为成键原子。",
+    "reason": "正丁胺代表无额外杂原子的强亲核伯胺。引证仅证明其能在另一多氟羰基芳环上发生氨基脱氟，电亲性和连接位置均不同，因此属于局部反应类别外推。",
+    "risks": [
+      "伯胺可与羰基形成亚胺或烯胺，破坏固定羰基骨架。",
+      "高胺活度可能导致多重取代或完全脱氟。",
+      "挥发性和盐形成会改变实际游离胺浓度。"
+    ],
+    "route": "优先在独立制备的Seed相关gem-CF2烯酮上测试直接加成-消除；目标是原CF3碳上的C(F)-NHBu连接，而非羰基亚胺化。",
+    "smiles": "CCCCN",
+    "structure_key": "b56d476fec2f52a2",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "N"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/39/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-c92cc6151bc3008b",
+    "hypothesis_id": "CP-c92cc6151bc3008b-H01",
+    "activation": "先作为中性亚磷酸酯直接筛选；若亲核性不足，可比较 Lewis 酸活化，但避免预设 Arbuzov 型后处理一定发生。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "COP(OC)OC",
+    "center": "P",
+    "diagnostic": "用 31P NMR 和高分辨 MS 区分未反应亚磷酸酯、磷酸酯、P–F 物种、膦鎓加成物及最终 C(F)–P(O)(OR)2 类产物；通过捕获或定量离去的甲基衍生物判断是否发生去烷基化。",
+    "family": "三烷基亚磷酸酯",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "亚磷酸三甲酯",
+    "reactive_form": "中性 P(III) 亚磷酸三甲酯；成键原子为 P，三个 O 原子仅调节电子性质并可能参与后续重排。",
+    "reason": "覆盖较弱、氧配体稳定的 P(III) 亲核体。文献引证证明某些亚磷酸酯可作为 P(III) 亲核体，但底物并非 Seed；此处外推到单氟烯基膦酸酯形成。",
+    "risks": [
+      "可能优先发生氧化或水解",
+      "可能形成 O-加成或磷酸酯副产物",
+      "亲核性可能不足以进攻未充分活化的中间体",
+      "Lewis 酸可能同时分解 Seed 羰基底物"
+    ],
+    "route": "P(III) 对 CF3 来源碳加成形成磷鎓中间体，随后脱氟并发生去烷基化或氧转移，给出保持目标碳骨架的 C(F)–P(O)(OMe)2 类连接。",
+    "smiles": "P(OC)(OC)OC",
+    "structure_key": "c92cc6151bc3008b",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/40/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-cb20f7766b730a70",
+    "hypothesis_id": "CP-cb20f7766b730a70-H01",
+    "activation": "以预制甲醇锂测试，并严格匹配甲醇钠实验的溶剂、水含量和总离子强度；必要时用配位添加剂作为离子对扰动，而非默认生成自由离子。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "C[O-].[Li+]",
+    "center": "O",
+    "diagnostic": "与甲醇钠作成对比较，并测定盐的溶解/持留、底物转化、C(F)-OMe选择性和完全脱氟比例；若加入冠醚或供体溶剂，需同时做无甲氧盐对照以分离离子对效应。",
+    "family": "锂烷氧负离子与反离子探针",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "甲醇锂",
+    "reactive_form": "锂配对的甲氧负离子；索引1为候选成键氧，索引2为锂。",
+    "reason": "与甲醇钠构成反离子和聚集态边界。引证显示另一亲核取代体系存在反离子相关速率差，但方向不可转移到本体系。",
+    "risks": [
+      "锂离子可能强配位羰基并改变底物构象",
+      "聚集和溶剂化可导致非线性浓度效应",
+      "碱性可能带来过度脱氟或烯醇化",
+      "可能与Pd或配体形成不活泼聚集物"
+    ],
+    "route": "在同一目标中心比较Li/Na甲氧盐对可信偕二氟烯酮的捕获，并平行测试完整Seed底物；形成的连接仍限定为CF3来源碳-O键且该碳保留F。",
+    "smiles": "C[O-].[Li+]",
+    "structure_key": "cb20f7766b730a70",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/41/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-d0eb12604107d80c",
+    "hypothesis_id": "CP-d0eb12604107d80c-H01",
+    "activation": "需要足以电亲化含氟烯酮但不过度引发苯乙烯聚合的条件；适合从低温Lewis酸或短时阳离子金属活化开始，并设置自由基抑制剂对照但不据此预设自由基机理。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "C=Cc1ccccc1",
+    "center": "C",
+    "diagnostic": "确认新键位于苯乙烯末端碳并检查苄位区域异构体；SEC/GC用于评估聚合，自由基钟或抑制剂仅作为与离子加成区分的组合证据。",
+    "family": "简单芳基烯烃边界探针",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "苯乙烯",
+    "reactive_form": "中性碳碳双键π亲核体；指定末端烯碳成键，使正电荷或金属特征优先稳定在苄位碳。",
+    "reason": "苯乙烯比烯醚和烯胺弱，但结构简单，可作为普通中性烯烃是否足以捕获活化含氟中心的边界探针。",
+    "risks": [
+      "酸或金属诱导聚合",
+      "可能发生Heck型、氢官能化或异构化而偏离固定连接性",
+      "可能形成饱和加成物而不消除",
+      "低转化可能来自底物未被充分电亲化"
+    ],
+    "route": "末端烯碳进攻CF3衍生亲电碳，形成苄位稳定中间体；随后质子和氟离子消除必须恢复原羰基共轭的单氟烯烃。",
+    "smiles": "C=Cc1ccccc1",
+    "structure_key": "d0eb12604107d80c",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/42/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-d2ba4020b787a8b0",
+    "hypothesis_id": "CP-d2ba4020b787a8b0-H01",
+    "activation": "先筛查盐在候选溶剂中的溶解性；可在光氧化还原条件下单电子活化，也可测试能转金属化有机三氟硼酸盐的金属体系。",
+    "atom_indices": [
+      5
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "F[B-](F)(F)Cc1ccccc1.[K+]",
+    "center": "C",
+    "diagnostic": "比较开灯/关灯、无光催化剂及自由基钟条件，并测定苄基偶联、苄基二聚、原位脱硼和氢化产物；只有光依赖且伴随自由基钟响应才支持自由基碳转移。",
+    "family": "有机三氟硼酸盐",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "苄基三氟硼酸钾",
+    "reactive_form": "由三氟硼酸盐产生的苄基金属物种或苄基自由基；两条路线应分开验证。",
+    "reason": "从文献中的四芳基硼酸盐自由基前体外推到具体苄基三氟硼酸盐，不声称相同活化效率。与硼相连的苄基碳形成新键。",
+    "risks": [
+      "DCE 中盐溶解度可能不足",
+      "光氧化还原条件可能还原或氧化 Seed 底物",
+      "苄基自由基二聚或夺氢",
+      "水和氟离子活度会改变有机三氟硼酸盐水解"
+    ],
+    "route": "分别探索自由基加成后失氟和金属介导苄基转移，两者都以同一目标 C-C 连接为终点。",
+    "smiles": "[K+].[B-](F)(F)(F)Cc1ccccc1",
+    "structure_key": "d2ba4020b787a8b0",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/43/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-d2ba4020b787a8b0",
+    "hypothesis_id": "CP-d2ba4020b787a8b0-H02",
+    "activation": "可尝试光氧化单电子转移、自由基诱导硼酸盐裂解，或与 Seed 不同的金属转移体系；需先确认盐在所选溶剂中的溶解和持久性。",
+    "atom_indices": [
+      5
+    ],
+    "basis": "source_system",
+    "canonical_smiles": "F[B-](F)(F)Cc1ccccc1.[K+]",
+    "center": "C",
+    "diagnostic": "同时测定胆基三氟硼酸盐残留、苄基二聚体、甲苯、目标苄基化单氟烯烃及氟离子；比较光活化和金属转移条件可区分自由基与极性转移。",
+    "family": "有机三氟硼酸盐碳转移前体",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "radical_other",
+    "name": "苄基三氟硼酸钾",
+    "reactive_form": "经单电子氧化形成的苄基自由基，或经金属转移形成的苄基金属物种；与 B 相连的苄基碳 atom 5 为拟成键原子。",
+    "reason": "保留有机硼这一 Seed 邻近特征，但把芳基/烷基硼酸酯转金属化扩展为苄基自由基或其他金属转移。所引文仅支持另一硼酸盐自由基体系中的末端 β-氟消除，不证明本试剂或 Seed 底物可行。",
+    "risks": [
+      "可能发生原硼、质子脱硼或氧化性分解",
+      "苄基自由基可能二聚或夺氢",
+      "氟硼酸盐和释放的氟化物可能改变催化剂或硅试剂物种"
+    ],
+    "route": "平行测试光氧化和非原 Pd 的金属转移入口，要求最终仅接受 CF3 衍生碳与 atom 5 相连且保留一个烯基氟的产物。",
+    "smiles": "[K+].F[B-](F)(F)Cc1ccccc1",
+    "structure_key": "d2ba4020b787a8b0",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/43/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-d62c2f4634cac93c",
+    "hypothesis_id": "CP-d62c2f4634cac93c-H01",
+    "activation": "直接作为中性 P(III) 亲核体筛选；同时设置无 Pd 条件，以避免把配体作用误判为成键作用。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "COP(c1ccccc1)c1ccccc1",
+    "center": "P",
+    "diagnostic": "以 31P NMR 分辨起始 P(III)、P(V) 氧化物和 C–P 膦鎓物种，并用同位素标记甲氧基或产物分析判断甲氧基是否离去；与 PPh3 比较可检验 P–OMe 是否有助于成键后的重排。",
+    "family": "烷氧基二芳基膦",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "甲氧基二苯基膦",
+    "reactive_form": "中性 P(III) 的磷孤对电子中心；P 为成键原子，甲氧基 O 不作为目标成键位点。",
+    "reason": "位于三芳基膦和亚磷酸酯之间的电子/结构区域，并具有潜在可离去的甲氧基。引证反应确认其可作为 P(III) 亲核体，但向 Seed 的 C(F)–P 成键及双脱氟结果仍是外推。",
+    "risks": [
+      "可能强配位 Pd",
+      "P–OMe 键可能发生非目标裂解",
+      "易氧化成膦酸酯或膦氧化物",
+      "可能形成稳定膦鎓中间体而停止"
+    ],
+    "route": "P(III) 亲核加成后脱氟，并通过甲氧基离去或氧转移形成中性单氟烯基膦氧化物；也允许直接分离膦鎓态作为路径证据。",
+    "smiles": "P(OC)(c1ccccc1)c1ccccc1",
+    "structure_key": "d62c2f4634cac93c",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/44/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-dab7493e2905b4fb",
+    "hypothesis_id": "CP-dab7493e2905b4fb-H01",
+    "activation": "先以中性 P(III) 形式直接筛选；另设温和 Lewis 酸或可控氟离子受体条件，判断是否需先促进 C–F 离解。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "CP(C)C",
+    "center": "P",
+    "diagnostic": "用定量 19F/31P NMR 和 LC–MS 同时寻找目标 C(F)–P 烯烃及膦鎓型加成物；比较无活化剂、Lewis 酸和氟离子受体三组，并对观察到的膦鎓物种做独立后处理，区分直接取代与分步加成/消除。",
+    "family": "三烷基膦",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "三甲基膦",
+    "reactive_form": "具有磷孤对电子的中性三甲基膦；成键原子是 P，而不是甲基碳。",
+    "reason": "小体积、高亲核性的 P(III) 边界探针。它可直接进攻暂态 gem-二氟烯酮或经氟离子抽取形成的烯丙基/烯基亲电中心；这是从磷亲核性向 Seed 固定 C(F)–P 连接关系的外推，不要求原有机硼转金属循环。",
+    "risks": [
+      "易氧化，水和氧会改变有效浓度",
+      "可能强配位或还原 Pd，造成催化剂失活或机理切换",
+      "可能形成稳定膦鎓盐而不能完成第二次脱氟",
+      "挥发性和高反应性增加操作及定量难度"
+    ],
+    "route": "P(III) 孤对电子对 CF3 来源碳进行亲核加成，随后脱氟形成保留一个 F 的 C(F)–P 烯烃；也可能先形成可分离或可观测的膦鎓中间体。",
+    "smiles": "P(C)(C)C",
+    "structure_key": "dab7493e2905b4fb",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/45/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-dc11a678a5813bfb",
+    "hypothesis_id": "CP-dc11a678a5813bfb-H01",
+    "activation": "使用预制无水苯酚钠；若原位生成，应把苯酚本身和平行非亲核碱对照纳入，以分辨中性酚、酚氧负离子和碱效应。",
+    "atom_indices": [
+      0
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "[Na+].[O-]c1ccccc1",
+    "center": "O",
+    "diagnostic": "用LC-MS和19F NMR寻找C(F)-OPh产物，并与甲醇钠比较；检测芳基C键形成、羰基加成及完全脱氟，以排除把非目标产物误作乙烯基O取代。",
+    "family": "酚氧负离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "苯酚钠",
+    "reactive_form": "苯氧负离子；索引0为唯一氧并为候选成键原子，索引7为钠。",
+    "reason": "将脂肪烷氧负离子扩展到共振稳定的芳氧负离子。引证为芳基三氟乙烯醚上的直接乙烯基取代，目标电亲片段及同碳保留F关系与本研究不完全相同。",
+    "risks": [
+      "酚氧负离子可能配位或抑制Pd",
+      "亲核性低于简单烷氧负离子",
+      "产物芳基乙烯醚可能发生E/Z异构化",
+      "较强碱或长时间可能导致进一步脱氟"
+    ],
+    "route": "以无需Pd的可信偕二氟烯酮直接取代作为主要路线，并以Seed一锅体系评价条件兼容性；不要求有机硼伙伴。",
+    "smiles": "[O-]c1ccccc1.[Na+]",
+    "structure_key": "dc11a678a5813bfb",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/46/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-dc11a678a5813bfb",
+    "hypothesis_id": "CP-dc11a678a5813bfb-H02",
+    "activation": "作为预制离子态直接引入；应控制水和质子源，并与等摩尔苯酚加相同钠盐或碱的对照比较，以分离亲核体状态效应和盐效应。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "[Na+].[O-]c1ccccc1",
+    "center": "O",
+    "diagnostic": "以苯酚／苯氧化钠配对时间过程监测起始物、C(F)-O 产物和完全脱氟产物；另加不含苯氧负离子的匹配钠盐对照，判断结果是否来自 O 亲核性而非离子强度或 Pd 盐析。",
+    "family": "阴离子 O 亲核体／酚盐",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "precursor_state_pairs",
+    "name": "苯氧化钠",
+    "reactive_form": "游离或离子对形式的苯氧负离子；成键原子为氧 atom 1，atom 0 是钠反离子而不是成键中心。",
+    "reason": "与苯酚构成可解释的前体／状态对，可检验 C-O 成键是否要求预先存在的阴离子。引证只提供其他催化体系中醇氧形成二氟乙烯基醚的类比；这里外推到 Seed 固定羰基骨架和目标同碳 C(F)-O 连接。",
+    "risks": [
+      "在 DCE 中溶解度或离子聚集状态不确定",
+      "强亲核或强碱条件可能引起直接羰基反应",
+      "钠盐可能沉淀、置换 Pd 配体或加速过度脱氟",
+      "痕量水会改变有效苯氧负离子浓度"
+    ],
+    "route": "测试预形成 O 阴离子对假设的 gem-二氟烯酮型中间体或其他 Seed 派生亲电态的直接捕获；不要求沿用原有有机硼转金属化步骤。",
+    "smiles": "[Na+].[O-]c1ccccc1",
+    "structure_key": "dc11a678a5813bfb",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/46/hypotheses/1"
+  },
+  {
+    "candidate_id": "CP-deb4973b3faf0625",
+    "hypothesis_id": "CP-deb4973b3faf0625-H01",
+    "activation": "分别测试酸/Lewis酸诱导的含氟烯酮活化和Seed条件；较1,3-二甲氧基苯可能需要更强的电亲化，但不应直接通过提高温度补偿。",
+    "atom_indices": [
+      5
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "COc1ccccc1",
+    "center": "C",
+    "diagnostic": "与1,3-二甲氧基苯进行等条件竞争或独立平行实验；通过回收率、含氟中间体分布和对位C-C连接性判断是亲核性阈值、催化剂抑制还是底物活化不足。",
+    "family": "富电子芳烃边界探针",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "苯甲醚",
+    "reactive_form": "中性芳香π亲核体；指定甲氧基对位碳形成新键。",
+    "reason": "所供来源中苯甲醚在另一分子间含氟烯酮Friedel-Crafts体系不反应，因此它是有依据的低亲核性边界探针，而不是对本研究体系的失败预言。",
+    "risks": [
+      "可能仅回收原料",
+      "更强活化可能转向多取代、裂解或聚合",
+      "苯甲醚或产物可能改变Pd物种而混淆电子效应"
+    ],
+    "route": "经芳香亲电取代在CF3衍生烯碳与苯甲醚对位碳之间成键，再经受控脱氟达到单氟烯烃停止点。",
+    "smiles": "COc1ccccc1",
+    "structure_key": "deb4973b3faf0625",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/47/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-e7c338a1b0ff4640",
+    "hypothesis_id": "CP-e7c338a1b0ff4640-H01",
+    "activation": "需要保持二苯基锌的无水、无氧状态；可测试盐添加和兼容的 Ni/Pd 转金属化体系，但催化剂选择不从 Seed 强制继承。",
+    "atom_indices": [
+      1,
+      7
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "c1cc[c]([Zn][c]2ccccc2)cc1",
+    "center": "C",
+    "diagnostic": "设置无盐、LiBr 和 Mg 盐平行组，测定目标苯基化物、联苯、苯及氟硅烷或其他捕氟产物；盐效应应与有机锌存留和选择性同时解释。",
+    "family": "有机锌",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_transfer",
+    "name": "二苯基锌",
+    "reactive_form": "溶剂化二苯基锌或转金属化生成的金属-苯基物种；两个 Zn-C 碳对称等价。",
+    "reason": "以较低碱性的金属转移前体覆盖非硼路径，减少游离硬碳负离子对羰基的直接攻击。引文仅说明无 Li/Mg 盐的 ZnPh2 表现可显著改变，属于局部盐效应类比。",
+    "risks": [
+      "盐和溶剂强烈影响聚集与转金属化",
+      "可能生成联苯或原位质子解产生苯",
+      "有机锌对痕量水敏感",
+      "不同催化剂可能改变脱氟停止点"
+    ],
+    "route": "通过 Negishi 型苯基转移在同一 CF3 衍生烯碳成键，独立于原始有机硼循环。",
+    "smiles": "[Zn](c1ccccc1)c1ccccc1",
+    "structure_key": "e7c338a1b0ff4640",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C",
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/48/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-ecb0e8b377ec42c8",
+    "hypothesis_id": "CP-ecb0e8b377ec42c8-H01",
+    "activation": "作为预成形磷负离子使用，不依赖 Seed 的 Pd/有机硼体系；比较直接加入与低温预混亲电底物后升温两种时序。",
+    "atom_indices": [
+      1
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "[Li+].c1ccc([P-]c2ccccc2)cc1",
+    "center": "P",
+    "diagnostic": "快速淬灭时间序列并用低温 31P/19F NMR 搜索 P-加成的二氟阴离子中间体；比较质子化回收、单氟 C–P 产物及完全脱氟物。加入等量 Li 盐但使用中性二苯基膦的对照可分辨阳离子/离子强度效应。",
+    "family": "金属磷化物",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "phosphorus",
+    "name": "二苯基磷化锂",
+    "reactive_form": "离子对 [Li+][PPh2−]；SMILES 中 Li 为索引 0，实际形成新键的是索引 1 的 P。",
+    "reason": "预成形 P 阴离子可直接测试 gem-二氟烯酮加成/脱氟假设，完全绕开未知 Pd 转金属步骤。它是高反应性边界探针，重点在判断 C–P 成键是否可由单纯亲核加成实现。",
+    "risks": [
+      "强碱性可能引发羰基加成、烯醇化或底物分解",
+      "对水和氧极敏感",
+      "锂离子配位可能改变区域选择性",
+      "快速连续脱氟可能越过目标单氟停止点"
+    ],
+    "route": "PPh2− 对暂态或独立生成的 gem-二氟烯酮之 CF2 碳直接加成，所得 β-氟碳负离子消除 LiF，形成目标 C(F)–PPh2 烯烃。",
+    "smiles": "[Li+].[P-](c1ccccc1)c1ccccc1",
+    "structure_key": "ecb0e8b377ec42c8",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "P"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/49/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-f34be542835fcb08",
+    "hypothesis_id": "CP-f34be542835fcb08-H01",
+    "activation": "测试温和Lewis酸或阳离子型π活化条件；由于没有N-H，可与吲哚使用严格匹配的条件直接比较。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "model_hypothesis",
+    "canonical_smiles": "Cn1ccc2ccccc21",
+    "center": "C",
+    "diagnostic": "用HMBC/NOE确认新键位于吲哚C3；与吲哚的初速、物料衡算和Pd抑制程度比较，可区分N-H促进作用与N-H毒化作用。",
+    "family": "N-封闭富电子杂芳烃",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "carbon_pi",
+    "name": "1-甲基吲哚",
+    "reactive_form": "中性杂芳香π亲核体；指定C3碳成键，甲基化氮仅调节电子性质和配位能力。",
+    "reason": "去除N-H竞争后仍保持强C3亲核性，可判别吲哚结果是否源于碳π进攻，而不是N去质子化或N成键。",
+    "risks": [
+      "仍可能通过氮孤对电子影响Lewis酸或Pd物种",
+      "高电亲化条件下可能多取代或聚合",
+      "C3加成后若芳构化缓慢可能产生复杂非芳香加合物"
+    ],
+    "route": "C3对活化含氟烯碳进行Friedel-Crafts型进攻，随后芳构化和受控脱氟，建立目标C-C键。",
+    "smiles": "Cn1ccc2ccccc21",
+    "structure_key": "f34be542835fcb08",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "C"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/50/hypotheses/0"
+  },
+  {
+    "candidate_id": "CP-f7328591687088c5",
+    "hypothesis_id": "CP-f7328591687088c5-H01",
+    "activation": "以预制烯丙醇钠测试，并与中性烯丙醇严格配对；应避免用可能直接参与烯丙基化或还原的活化剂。",
+    "atom_indices": [
+      3
+    ],
+    "basis": "local_analogy",
+    "canonical_smiles": "C=CC[O-].[Na+]",
+    "center": "O",
+    "diagnostic": "比较烯丙醇钠、烯丙醇和甲醇钠；用二维NMR确认C(F)-OCH2CH=CH2连接，并搜索由烯丙基末端碳成键、双键迁移或完全脱氟产生的异构体。",
+    "family": "不饱和烷氧负离子",
+    "identity_status": "SMILES validated; name association requires review",
+    "lens": "oxygen",
+    "name": "烯丙醇钠",
+    "reactive_form": "烯丙氧负离子；索引3为成键氧，索引0为烯丙基末端碳但不是本提案的成键原子。",
+    "reason": "比中性烯丙醇更直接地测试O-进攻，同时保留可诊断的π配位和C/O选择性竞争。引证的区域选择性属于二氟丁烯内酯，不能直接转移到Seed中心。",
+    "risks": [
+      "强碱性可能推动过度脱氟",
+      "烯丙基双键可能捕获金属或发生异构化",
+      "可能形成C成键副产物",
+      "钠盐聚集和溶解度可能掩盖内在反应性"
+    ],
+    "route": "对可信偕二氟烯酮进行直接O-加成/氟消除，并独立评价在原Seed Pd混合物中的兼容性。",
+    "smiles": "C=CC[O-].[Na+]",
+    "structure_key": "f7328591687088c5",
+    "success_probability": null,
+    "atom_index_validation": "consistent",
+    "atom_elements": [
+      "O"
+    ],
+    "record_pointer": "output/reusable_workflow/候选试剂集合_100种.json#/reserve/51/hypotheses/0"
+  }
+]

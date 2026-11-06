@@ -1,0 +1,206 @@
+{
+  "accepted": [
+    {
+      "activation": "比较中性苯酚与碱原位生成的苯氧负离子；需要筛查碱强度、含水量及是否必须保留 Seed 的 Pd 体系。苯酚本身也可作为较弱的中性 O 亲核体边界探针。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "Oc1ccccc1",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-04055776926d615e33b8",
+          "quote": "insertion reaction with amines or alcohols, delivering gem -difluoroenamines 4–3 and difluorovinyl ethers 4–4 in moderate to good yields."
+        }
+      ],
+      "diagnostic": "用定量 19F NMR 和 LC-MS 区分目标 C(F)-O 单氟烯烃、完全脱氟产物与未反应底物；将苯酚、预制苯氧化钠和无亲核体对照并列，检验活性是否随苯氧负离子浓度出现。",
+      "family": "O-H 给体／酚类",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "precursor_state_pairs",
+      "name": "苯酚",
+      "reactive_form": "中性苯酚或由其原位形成的苯氧负离子；候选成键原子是氧 atom 0。",
+      "reason": "提供最简单的芳氧基转移探针，并可与预制苯氧化钠构成明确的中性／离子前体对。所引证事实涉及不同的三氟甲基卡宾插入体系，仅支持醇氧形成含氟烯基醚的局部类比，不证明本 Seed 羰基底物或 Pd 条件兼容。",
+      "risks": [
+        "酚可能竞争配位 Pd 或改变其配体状态",
+        "碱促进的过度脱氟可能快于 C-O 成键",
+        "质子转移可能淬灭假设的阴离子或金属化中间体",
+        "生成的烯基醚可能水解、异构化或继续脱氟"
+      ],
+      "route": "保持 Seed 羰基骨架与 CF3 来源反应中心不变，探索在该碳上形成 C-O 键并保留一个烯基氟；分别考察无 Pd 的亲核取代路径及完整 Seed 催化混合物中的捕获路径。",
+      "smiles": "Oc1ccccc1",
+      "structure_key": "3a23ccb632c9f44d",
+      "success_probability": null
+    },
+    {
+      "activation": "作为预制离子态直接引入；应控制水和质子源，并与等摩尔苯酚加相同钠盐或碱的对照比较，以分离亲核体状态效应和盐效应。",
+      "atom_indices": [
+        1
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "[Na+].[O-]c1ccccc1",
+      "center": "O",
+      "citations": [
+        {
+          "evidence_id": "EV-04055776926d615e33b8",
+          "quote": "insertion reaction with amines or alcohols, delivering gem -difluoroenamines 4–3 and difluorovinyl ethers 4–4 in moderate to good yields."
+        }
+      ],
+      "diagnostic": "以苯酚／苯氧化钠配对时间过程监测起始物、C(F)-O 产物和完全脱氟产物；另加不含苯氧负离子的匹配钠盐对照，判断结果是否来自 O 亲核性而非离子强度或 Pd 盐析。",
+      "family": "阴离子 O 亲核体／酚盐",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "precursor_state_pairs",
+      "name": "苯氧化钠",
+      "reactive_form": "游离或离子对形式的苯氧负离子；成键原子为氧 atom 1，atom 0 是钠反离子而不是成键中心。",
+      "reason": "与苯酚构成可解释的前体／状态对，可检验 C-O 成键是否要求预先存在的阴离子。引证只提供其他催化体系中醇氧形成二氟乙烯基醚的类比；这里外推到 Seed 固定羰基骨架和目标同碳 C(F)-O 连接。",
+      "risks": [
+        "在 DCE 中溶解度或离子聚集状态不确定",
+        "强亲核或强碱条件可能引起直接羰基反应",
+        "钠盐可能沉淀、置换 Pd 配体或加速过度脱氟",
+        "痕量水会改变有效苯氧负离子浓度"
+      ],
+      "route": "测试预形成 O 阴离子对假设的 gem-二氟烯酮型中间体或其他 Seed 派生亲电态的直接捕获；不要求沿用原有有机硼转金属化步骤。",
+      "smiles": "[Na+].[O-]c1ccccc1",
+      "structure_key": "dc11a678a5813bfb",
+      "success_probability": null
+    },
+    {
+      "activation": "吗啉可作为中性二级胺直接测试，也可在温和碱存在下形成更高比例的 N 亲核活性态；应单独评估无 Pd、Seed Pd 体系及不同弱碱条件。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "C1COCCN1",
+      "center": "N",
+      "citations": [
+        {
+          "evidence_id": "EV-01ab08e007d538959aa8",
+          "quote": "gem-Difluoroalkene 143 underwent a base-promoted 5-endo-trig intramolecular nucleophilic attack by N and subsequent β-fluoride elimination to generate a diverse array of 2-fluoroindoles 144."
+        }
+      ],
+      "diagnostic": "用 19F NMR 检测新的单氟烯烃信号，并以 MS/MS 或分离后的 NMR 确认 C-N 键而非吗啉氧成键；加入 N-甲基吗啉作为无 N-H 对照，以区分脱质子路径和普通路易斯碱作用。",
+      "family": "N-H 给体／二级胺",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "precursor_state_pairs",
+      "name": "吗啉",
+      "reactive_form": "中性吗啉氮或其去质子化 N 态；目标成键原子为氮 atom 0。环内氧 atom 3 仅作为潜在竞争配位位点，不指定为目标成键原子。",
+      "reason": "提供小型、非芳香 N-H 亲核体，同时用环氧暴露配位竞争这一边界。引证是分子内 N 进攻 gem-二氟烯并发生 β-F 消除的局部先例；本提案外推至分子间吗啉捕获和 Seed 羰基共轭中心，不转移其成环几何或催化循环。",
+      "risks": [
+        "氮和氧均可能强配位 Pd，造成催化剂抑制或物种切换",
+        "胺可能与羰基发生缩合、加成或促进底物分解",
+        "碱性增强可能同时增加完全脱氟",
+        "可能观察到 O 成键、N 成键或盐形成的混合结果"
+      ],
+      "route": "探索吗啉氮在 CF3 来源碳上形成 C-N 键并保留一个氟的分子间脱氟胺化；允许经离子型加成／消除路径，不要求 Seed 有机硼伙伴或其转金属化过程。",
+      "smiles": "N1CCOCC1",
+      "structure_key": "ccb45c231c905174",
+      "success_probability": null
+    },
+    {
+      "activation": "比较中性硫酚、温和碱原位形成的硫酚盐以及必要时预制硫酚盐的行为；避免把氧化生成二苯二硫醚误判为有效活化。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "Sc1ccccc1",
+      "center": "S",
+      "citations": [
+        {
+          "evidence_id": "EV-04055776926d615e33b8",
+          "quote": "Under iron porphyrin catalysis, thiols and selenols reacted smoothly with 4–1 to afford the corresponding gem -difluorovinyl sulfides and selenides 4–2 in high yields."
+        }
+      ],
+      "diagnostic": "并行定量目标 C(F)-S 单氟烯烃、二苯二硫醚和完全脱氟产物；用无碱、弱碱及受控少量氧化剂三组对照判断实际供体是硫酚／硫酚盐还是原位二硫化物。",
+      "family": "S-H 给体／硫酚",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "precursor_state_pairs",
+      "name": "苯硫酚",
+      "reactive_form": "中性 S-H 供体或原位苯硫负离子；成键原子为硫 atom 0。",
+      "reason": "硫的高极化性使其成为与 O、N 明显不同的亲核边界探针。引证涉及铁卟啉和三氟甲基卡宾体系，只支持硫醇能够参与含氟乙烯基硫醚形成的局部类比；本候选仍是对 Seed 固定连接方式的外推。",
+      "risks": [
+        "易氧化为二苯二硫醚，导致活性物种不清楚",
+        "硫可能强烈结合或毒化 Pd",
+        "硫酚盐可能诱发多次脱氟或非选择性取代",
+        "挥发性、气味和氧化敏感性增加操作及物料衡算难度"
+      ],
+      "route": "在保持羰基骨架的条件下，使硫 atom 0 与 CF3 来源且保留 F 的烯基碳成键；同时比较无金属亲核取代和 Pd 存在下捕获两种路线。",
+      "smiles": "Sc1ccccc1",
+      "structure_key": "b18c4945d055e0a6",
+      "success_probability": null
+    },
+    {
+      "activation": "需要触发 P-H 均裂或受控去质子化／互变异构化；可分别考察自由基引发条件和非自由基碱性条件，并设置无引发剂、自由基抑制剂及无 Pd 对照。",
+      "atom_indices": [
+        1
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+      "center": "P",
+      "citations": [
+        {
+          "evidence_id": "EV-02d0fdb64e035df834f5",
+          "quote": "followed by regioselective addition of P-centered radical 2a′ to the difluorinated position of the gem-difluoroalkene (1) to give carbon-centered radical intermediate 7."
+        }
+      ],
+      "diagnostic": "用 19F 与 31P NMR 联合时间过程寻找同一新产物，并比较自由基引发剂、抑制剂和黑暗／光照条件；确认目标是 C-P 键形成且烯基 F 保留，而不是单纯氢脱氟、P 氧化或 P-O 加成。",
+      "family": "P-H 给体／次膦氧化物",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "precursor_state_pairs",
+      "name": "二苯基氧化膦",
+      "reactive_form": "含 P-H 的二苯基氧化膦、其膦中心自由基或去质子化 P 亲核态；候选成键原子为磷 atom 1，氧 atom 0 不是指定成键中心。",
+      "reason": "同时探测 σ(P-H) 供体、P 亲核体和 P 中心自由基三种可能状态，扩大到不依赖 Seed 转金属化的新键类型。引证明确属于作者提出的自由基链机理；它仅支持 P 中心自由基进攻 gem-二氟烯碳的可检验假设，不证明 Seed 体系存在自由基。",
+      "risks": [
+        "自由基条件可能改变 Seed 底物的脱氟路径或引发聚合",
+        "P 供体可能结合 Pd 并改变催化剂配体组成",
+        "P-H 可能主要造成氢脱氟而非 C-P 成键",
+        "氧化态、互变异构和 31P 信号重叠可能使活性态归属困难"
+      ],
+      "route": "探索在目标 CF3 来源烯基碳上形成 C-P 键并保留 F；可采用独立自由基或离子活化，不要求原有 Pd／有机硼循环，但以匹配对照评估 Seed Pd 是否有帮助或干扰。",
+      "smiles": "O=P(c1ccccc1)c1ccccc1",
+      "structure_key": "13af80fd720ea87f",
+      "success_probability": null
+    },
+    {
+      "activation": "需要 S-S 键的选择性还原、氧化或金属辅助裂解以产生可转移的苯硫基／苯硫负离子状态；应与苯硫酚并列测试以判断二硫化物是否只是其储库。",
+      "atom_indices": [
+        0,
+        1
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "c1ccc(SSc2ccccc2)cc1",
+      "center": "S",
+      "citations": [
+        {
+          "evidence_id": "EV-0253e4f35bdf034af28e",
+          "quote": "The aminium radical intermediate subsequently reacts with the disulfide to generate the sulfenamide."
+        }
+      ],
+      "diagnostic": "使用标记或交叉二硫化物对照追踪 S-S 裂解，并比较二苯二硫醚与苯硫酚的诱导期和产物时间曲线；定量 C(F)-S 产物、残余二硫化物、硫酚及完全脱氟产物。",
+      "family": "可裂解元素-元素供体／对称二硫化物",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "precursor_state_pairs",
+      "name": "二苯二硫醚",
+      "reactive_form": "S-S 裂解产生的苯硫基、苯硫负离子或金属硫醇盐等原位状态；atom 0 和 atom 1 是对称等价的潜在成键硫原子，因此共同列出，芳环碳不是指定转移中心。",
+      "reason": "作为对称、可裂解 S-S 供体，它与苯硫酚形成还原态／氧化态来源对，并检验无需游离 S-H 的硫转移。引证中的二硫化物捕获 aminium radical 与本目标反应不同，只说明自由基硫转移是一项可检验类比；不据此假定 Seed 中存在自由基。",
+      "risks": [
+        "S-S 裂解方式和活性硫物种可能随 Pd、碱、氧或还原剂改变",
+        "二硫化物及裂解产物均可能钝化 Pd",
+        "可能产生硫自由基副反应、芳环硫化或底物分解",
+        "对称性使两个 S 原子的来源无法仅靠未标记产物区分"
+      ],
+      "route": "通过独立的 S-S 活化，在固定 CF3 来源碳上形成 C-S 键并保留一个 F；该路线不要求有机硼伙伴，也不预设二硫化物进入 Seed 催化循环。",
+      "smiles": "S(Sc1ccccc1)c1ccccc1",
+      "structure_key": "7647ff2ce0052a54",
+      "success_probability": null
+    }
+  ],
+  "input_digest": "90e733b89b0aa8900091d4ae1abbb812e67bfd5e3bce2d7b898339086feafba7",
+  "rejected": [],
+  "uncovered": [
+    "未纳入不对称混合二硫化物；其两个不等价硫原子可能分别给出不同 C-S 产物，按要求应拆成独立提案并进行原子来源追踪。",
+    "未单列预制硫酚盐、氮阴离子或磷阴离子；当前面板只通过原位活化考察这些离子态。",
+    "未覆盖 S-Se、Se-Se、Si-Si、B-B 等其他可裂解元素-元素供体。",
+    "所有候选对精确 Seed 羰基底物、Pd168/KHCO3/DCE 条件及目标两次净脱氟的兼容性仍未知；引用均是局部类比而非成功保证。",
+    "二苯二硫醚的两个硫在所提交结构中对称等价，无法用普通未标记实验判定具体 atom 0 或 atom 1 成键；需要同位素或不对称交叉供体实验。"
+  ]
+}

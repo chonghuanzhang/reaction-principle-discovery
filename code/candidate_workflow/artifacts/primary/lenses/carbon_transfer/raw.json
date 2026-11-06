@@ -1,0 +1,400 @@
+{
+  "input_digest": "b286ea9c9468ac97a3335f50eeb5ad90c1be43f7c40fd1ab21b445e9d0ccb3d8",
+  "model_output": {
+    "candidates": [
+      {
+        "activation": "以温和碱和受控水量形成可转金属化的硼酸盐；先在完整 Seed Pd168/KHCO3 条件中评估，同时设置无 Pd 对照。",
+        "atom_indices": [
+          3
+        ],
+        "basis": "source_system",
+        "center": "C",
+        "citations": [],
+        "diagnostic": "用定量 19F NMR/LC-MS 时间过程同时测定目标单氟烯烃、完全脱氟烯烃、原料及联苯；无 Pd 对照可区分 Pd 转金属化与非催化加成。",
+        "family": "芳基硼酸",
+        "lens": "carbon_transfer",
+        "name": "苯硼酸",
+        "reactive_form": "原位生成的苯基硼酸盐或 Pd-苯基物种；实际硼物种及水解状态未知。",
+        "reason": "最直接的芳基碳转移基准，拟由与硼直接相连的碳形成目标 C-C 键。该精确分子与所给结构校正中的苯基转移相符，但不能据此假定 Seed 催化剂窗口或底物身份完全相同。",
+        "risks": [
+          "硼酸脱水形成硼氧烷或发生原位水解平衡",
+          "原硼化、联苯形成及 Pd 黑生成",
+          "较强碱或较高温度可能增加完全脱氟",
+          "水含量可能同时改变硼物种与 Pd 物种"
+        ],
+        "route": "按 Suzuki 型碳转移假设，使苯基在 CF3 衍生烯碳形成新键，并比较目标两次失氟终点与过度脱氟。",
+        "smiles": "OB(O)c1ccccc1"
+      },
+      {
+        "activation": "需要碱促硼酸盐形成；可先使用完整 Seed 条件，再通过水量和碱身份的小矩阵判断转金属化是否受限。",
+        "atom_indices": [
+          3
+        ],
+        "basis": "local_analogy",
+        "center": "C",
+        "citations": [],
+        "diagnostic": "与苯硼酸作匹配对照，分别测定硼试剂存留、偶联产物、原硼化物及完全脱氟产物；电子效应应表现为转化或产物分布差异，而不只是总回收率变化。",
+        "family": "缺电子芳基硼酸",
+        "lens": "carbon_transfer",
+        "name": "4-(三氟甲基)苯硼酸",
+        "reactive_form": "4-(三氟甲基)苯基硼酸盐或相应 Pd-芳基物种。",
+        "reason": "电子贫化边界探针；由硼连接的芳基碳转移。它检验所述高度缺电子伙伴限制是否可扩展到非杂芳基体系，而不是把该限制视为家族失败。",
+        "risks": [
+          "转金属化可能较慢",
+          "原硼化可能掩盖真实碳转移能力",
+          "额外 CF3 基团使 19F 谱归属更复杂",
+          "延长反应时间可能放大过度脱氟或底物分解"
+        ],
+        "route": "保持目标连接方式不变，以对位 CF3 仅调节转移芳基电子性质。",
+        "smiles": "OB(O)c1ccc(C(F)(F)F)cc1"
+      },
+      {
+        "activation": "需要形成可转金属化硼酸盐；除 Seed 条件外，可把较强转金属化促进体系作为独立机制探索，但不应直接提高碱强度而忽略过度脱氟。",
+        "atom_indices": [
+          3
+        ],
+        "basis": "model_hypothesis",
+        "center": "C",
+        "citations": [],
+        "diagnostic": "与苯硼酸和单邻位取代类似物比较初速、硼试剂消耗及目标/完全脱氟比；若试剂持续存在而碳转移很慢，支持空间阻碍位于转金属化或成键步骤。",
+        "family": "位阻芳基硼酸",
+        "lens": "carbon_transfer",
+        "name": "2,6-二甲基苯硼酸",
+        "reactive_form": "2,6-二甲基苯基硼酸盐或相应金属芳基物种。",
+        "reason": "明确的邻位双取代空间边界探针；成键原子仍为与硼相连的芳基碳。用于区分空间阻碍、硼试剂分解和产物不稳定性。",
+        "risks": [
+          "邻位位阻可能减慢转金属化或 C-C 成键",
+          "加热补偿可能增加完全脱氟",
+          "原硼化和硼氧烷形成",
+          "低转化不能单独证明芳基家族不适用"
+        ],
+        "route": "尝试把 2,6-二甲基苯基接到 CF3 衍生烯碳，以最大化与简单苯基之间的空间差异。",
+        "smiles": "OB(O)c1c(C)cccc1C"
+      },
+      {
+        "activation": "以温和碱产生硼酸盐；应平行考察完整 Seed 条件和能降低游离吡啶配位影响的催化环境。",
+        "atom_indices": [
+          3
+        ],
+        "basis": "model_hypothesis",
+        "center": "C",
+        "citations": [],
+        "diagnostic": "加入等量吡啶作为外部抑制对照，并监测硼试剂存留和 Pd 失活；若游离吡啶抑制苯硼酸而本试剂又被快速消耗，可区分配位抑制与供体分解。",
+        "family": "杂芳基硼酸",
+        "lens": "carbon_transfer",
+        "name": "吡啶-3-硼酸",
+        "reactive_form": "吡啶-3-基硼酸盐或相应金属杂芳基物种；环氮不是拟成键原子。",
+        "reason": "同时探测缺电子杂芳基和配位风险。拟成键位置是与硼相连的 3-吡啶基碳，不是吡啶氮。",
+        "risks": [
+          "吡啶氮可能配位并改变 Pd 物种",
+          "杂芳基硼酸可能快速原硼化",
+          "碱和水含量可改变试剂形态",
+          "低产率可能来自催化剂抑制而非 C-C 成键本身"
+        ],
+        "route": "通过转移 3-吡啶基保持目标烯碳连接方式，同时把配位能力作为独立变量。",
+        "smiles": "OB(O)c1ccncc1"
+      },
+      {
+        "activation": "需要碱或羟基促进环丙基硼酸形成可转金属化物种；可比较 Pd 转金属化条件与其他已知能接受烷基硼供体的催化体系。",
+        "atom_indices": [
+          3
+        ],
+        "basis": "model_hypothesis",
+        "center": "C",
+        "citations": [],
+        "diagnostic": "定量比较目标环丙基化产物、开环产物、原硼化环丙烷和过度脱氟物；加入自由基钟对照或检查开环只作为路径判别，不把抑制本身视为自由基证据。",
+        "family": "烷基硼酸",
+        "lens": "carbon_transfer",
+        "name": "环丙基硼酸",
+        "reactive_form": "环丙基硼酸盐、金属环丙基或可能的环丙基自由基；具体形式须由条件确定。",
+        "reason": "简单烷基硼边界探针，直接测试所述烷基范围矛盾。成键原子是与硼相连的环丙基碳；环丙基还提供潜在开环路径信息。",
+        "risks": [
+          "烷基转金属化可能慢于芳基转移",
+          "环丙基中间体可能开环",
+          "原硼化或氧化分解",
+          "自由基捕获剂也可能直接抑制催化剂"
+        ],
+        "route": "尝试将完整环丙基转移到 CF3 衍生烯碳，不要求复现原始芳基硼循环。",
+        "smiles": "OB(O)C1CC1"
+      },
+      {
+        "activation": "先筛查盐在候选溶剂中的溶解性；可在光氧化还原条件下单电子活化，也可测试能转金属化有机三氟硼酸盐的金属体系。",
+        "atom_indices": [
+          5
+        ],
+        "basis": "local_analogy",
+        "center": "C",
+        "citations": [
+          {
+            "evidence_id": "EV-008e6a67f6d4aeeda23a",
+            "quote": "using sodium tetraphenylborate 12a as the aryl radical precursor under the Ir [dF(CF3)ppy]2(dtbbpy)PF6 catalysis, with irradiation from a 36 W blue LEDs at room temperature (Scheme 12)."
+          }
+        ],
+        "diagnostic": "比较开灯/关灯、无光催化剂及自由基钟条件，并测定苄基偶联、苄基二聚、原位脱硼和氢化产物；只有光依赖且伴随自由基钟响应才支持自由基碳转移。",
+        "family": "有机三氟硼酸盐",
+        "lens": "carbon_transfer",
+        "name": "苄基三氟硼酸钾",
+        "reactive_form": "由三氟硼酸盐产生的苄基金属物种或苄基自由基；两条路线应分开验证。",
+        "reason": "从文献中的四芳基硼酸盐自由基前体外推到具体苄基三氟硼酸盐，不声称相同活化效率。与硼相连的苄基碳形成新键。",
+        "risks": [
+          "DCE 中盐溶解度可能不足",
+          "光氧化还原条件可能还原或氧化 Seed 底物",
+          "苄基自由基二聚或夺氢",
+          "水和氟离子活度会改变有机三氟硼酸盐水解"
+        ],
+        "route": "分别探索自由基加成后失氟和金属介导苄基转移，两者都以同一目标 C-C 连接为终点。",
+        "smiles": "[K+].[B-](F)(F)(F)Cc1ccccc1"
+      },
+      {
+        "activation": "预先制备或原位形成钠烯醇盐，并严格控制质子源；可对独立制备的 Seed 相关 gem-二氟烯酮进行低温加成后升温失氟测试。",
+        "atom_indices": [
+          1
+        ],
+        "basis": "local_analogy",
+        "center": "C",
+        "citations": [
+          {
+            "evidence_id": "EV-042e7656e39b0b731f85",
+            "quote": "The site of attack in enolate anions depends on the structure of the enolate as well as the nature of the electrophile, the solvent, and the counterion.[114]"
+          }
+        ],
+        "diagnostic": "用 13C 标记烯醇盐端碳或二维 NMR确认新键位置，同时定量 C-加成、O-加成、质子化和醛醇副产物；改变 Na/Li 与溶剂以检验 C/O 选择性。",
+        "family": "酮烯醇盐",
+        "lens": "carbon_transfer",
+        "name": "丙酮钠烯醇盐",
+        "reactive_form": "以碳中心表示的丙酮钠烯醇盐；实际为 C/O 离域且可能聚集的离子对。",
+        "reason": "直接测试碳负离子对 Seed 或其假定 gem-二氟烯酮的加成-失氟路径。拟成键原子是末端烯醇碳，不是氧。",
+        "risks": [
+          "可能优先加成羰基而破坏目标骨架",
+          "C/O 双位反应及离子对依赖性",
+          "质子化、醛醇缩合或底物烯醇化",
+          "强碱可能促使完全脱氟"
+        ],
+        "route": "使烯醇碳在 CF3 衍生烯碳成键，随后检验是否能停在保留一个 F 的共轭烯烃。",
+        "smiles": "[Na+].[CH2-]C(=O)C"
+      },
+      {
+        "activation": "由丙二酸二甲酯受控去质子化得到该钠盐；优先在较低温度与非质子溶剂中评估，随后逐步升温观察失氟。",
+        "atom_indices": [
+          1
+        ],
+        "basis": "local_analogy",
+        "center": "C",
+        "citations": [
+          {
+            "evidence_id": "EV-042e7656e39b0b731f85",
+            "quote": "Their C-alkylation is an important method for the construction of carbon–carbon bonds, whereas O-alkylation with formation of enol ethers is often used for the protection of carbonyl groups. [113]"
+          }
+        ],
+        "diagnostic": "比较预成盐、原位成盐和未加碱三组，定量 C-连接产物、O-连接物、Michael 加成物及脱羧产物；同位素标记中心碳可直接确认连接。",
+        "family": "稳定化丙二酸酯碳负离子",
+        "lens": "carbon_transfer",
+        "name": "丙二酸二甲酯钠盐",
+        "reactive_form": "丙二酸二甲酯中心碳负离子及其钠离子对；两个酯氧不是拟成键原子。",
+        "reason": "比简单酮烯醇盐更稳定、碱性较低，可检验亲核性与过度脱氟之间的窗口。中心次甲基碳形成目标 C-C 键。",
+        "risks": [
+          "亲核性可能不足以进攻目标烯碳",
+          "酯交换、水解或脱羧",
+          "可能发生 O-反应或羰基加成",
+          "较高温度补偿可能引起进一步脱氟"
+        ],
+        "route": "以稳定化中心碳进行 vinylic 加成-消除或对 gem-二氟烯酮的共轭加成，保持最终连接在 CF3 衍生碳。",
+        "smiles": "[Na+].[CH-](C(=O)OC)C(=O)OC"
+      },
+      {
+        "activation": "需要无水条件下生成或使用预成的硝基甲烷钠盐；可通过改变阳离子和极性溶剂调节离子对及 C/O 反应。",
+        "atom_indices": [
+          1
+        ],
+        "basis": "model_hypothesis",
+        "center": "C",
+        "citations": [],
+        "diagnostic": "使用 13CH3NO2 来源的盐确认碳连接，并搜索硝酸酯型 O-连接物；与丙二酸酯盐比较可判别软硬性和碱性，而非只比较转化率。",
+        "family": "硝基稳定化碳负离子",
+        "lens": "carbon_transfer",
+        "name": "硝基甲烷钠盐",
+        "reactive_form": "硝基甲烷的碳负离子/硝酸根式共振离子对；拟成键原子为碳。",
+        "reason": "小型、强极化且双位反应的碳供体，用于覆盖非羰基稳定化阴离子。它可能通过直接 vinylic 取代或加成-失氟引入硝基甲基。",
+        "risks": [
+          "C/O 双位反应",
+          "在强碱或受热条件下分解",
+          "可能发生单电子过程或复杂盐效应",
+          "碱性条件可放大 Seed 过度脱氟"
+        ],
+        "route": "将硝基甲基碳接到 CF3 衍生烯碳，并以 C/O 连接分析作为主要判据。",
+        "smiles": "[Na+].[CH2-][N+](=O)[O-]"
+      },
+      {
+        "activation": "作为高反应性边界探针，应在低温下分步加入并使用可独立生成的 Seed 相关烯烃中间体；不与完整 Pd 催化混合物直接等同。",
+        "atom_indices": [
+          1
+        ],
+        "basis": "local_analogy",
+        "center": "C",
+        "citations": [
+          {
+            "evidence_id": "EV-0748fe7f1f6b8426a523",
+            "quote": "Methyllithium and phenyllithium surprisingly 1 afforded compounds 27 and 28 as the end products in reactions with 1 (Scheme 2)."
+          }
+        ],
+        "diagnostic": "低温快速淬灭时间过程同时寻找羰基加成醇、目标甲基化单氟烯烃和重排产物；与较软的甲基锌或甲基硼供体比较，可区分硬碳负离子加成与可控碳转移。",
+        "family": "有机锂",
+        "lens": "carbon_transfer",
+        "name": "甲基锂",
+        "reactive_form": "高度聚集、溶剂化的甲基锂；SMILES 以离子对表示，成键原子为甲基碳。",
+        "reason": "高碱性硬碳负离子的极端边界。所引文献观察到甲基锂可改走重排路径，因此这里是有意的机制压力测试，不是成功先例。",
+        "risks": [
+          "优先羰基 1,2-加成并破坏骨架",
+          "快速去质子化、还原或重排",
+          "与 Pd 前催化剂直接反应",
+          "升温后多重失氟和低质量平衡"
+        ],
+        "route": "先测试对独立 gem-二氟烯酮的受控甲基加成-失氟；仅在显示骨架保持后再考虑与 Seed 原位活化衔接。",
+        "smiles": "[Li+].[CH3-]"
+      },
+      {
+        "activation": "需要保持二苯基锌的无水、无氧状态；可测试盐添加和兼容的 Ni/Pd 转金属化体系，但催化剂选择不从 Seed 强制继承。",
+        "atom_indices": [
+          1,
+          7
+        ],
+        "basis": "local_analogy",
+        "center": "C",
+        "citations": [
+          {
+            "evidence_id": "EV-3f742eacde1a2390370d",
+            "quote": "Incontrast,thereactionusingisolatedZnPh2(under Li-andMg-freeconditions)deliveredthedesiredproductina lowyield(entry7)."
+          }
+        ],
+        "diagnostic": "设置无盐、LiBr 和 Mg 盐平行组，测定目标苯基化物、联苯、苯及氟硅烷或其他捕氟产物；盐效应应与有机锌存留和选择性同时解释。",
+        "family": "有机锌",
+        "lens": "carbon_transfer",
+        "name": "二苯基锌",
+        "reactive_form": "溶剂化二苯基锌或转金属化生成的金属-苯基物种；两个 Zn-C 碳对称等价。",
+        "reason": "以较低碱性的金属转移前体覆盖非硼路径，减少游离硬碳负离子对羰基的直接攻击。引文仅说明无 Li/Mg 盐的 ZnPh2 表现可显著改变，属于局部盐效应类比。",
+        "risks": [
+          "盐和溶剂强烈影响聚集与转金属化",
+          "可能生成联苯或原位质子解产生苯",
+          "有机锌对痕量水敏感",
+          "不同催化剂可能改变脱氟停止点"
+        ],
+        "route": "通过 Negishi 型苯基转移在同一 CF3 衍生烯碳成键，独立于原始有机硼循环。",
+        "smiles": "[Zn](c1ccccc1)c1ccccc1"
+      },
+      {
+        "activation": "可用 Lewis 酸、亲电金属中间体或光生自由基受体模式活化 Seed 片段；三甲基烯丙基硅烷本身作为中性 π/σ 协同碳供体。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "model_hypothesis",
+        "center": "C",
+        "citations": [],
+        "diagnostic": "比较有无 Lewis 酸或光催化剂，并用氟硅烷生成、烯丙基区域选择性及自由基钟响应区分 SE' 型转移、自由基加成和非反应性。",
+        "family": "烯丙基硅烷",
+        "lens": "carbon_transfer",
+        "name": "三甲基烯丙基硅烷",
+        "reactive_form": "被 Lewis 酸或亲电中间体活化的烯丙基硅烷；远离 Si 的末端烯碳为拟成键原子。",
+        "reason": "中性 π 核试剂兼具 C-Si σ 键驱动力，提供不依赖硼转金属化的烯丙基碳转移假设。",
+        "risks": [
+          "可能发生不同烯丙基区域连接",
+          "Lewis 酸也可能活化或分解羰基底物",
+          "生成的单氟烯烃可能继续反应",
+          "氟硅烷形成并不能单独证明目标 C-C 成键"
+        ],
+        "route": "探索烯丙基硅烷对活化含氟烯碳的 SE' 型或自由基型加成，随后失氟得到固定连接。",
+        "smiles": "C=C[Si](C)(C)C"
+      },
+      {
+        "activation": "通常需要 Lewis 酸或亲电金属物种活化电受体；应控制水和氟离子，因为它们可裂解硅烯醚。",
+        "atom_indices": [
+          3
+        ],
+        "basis": "model_hypothesis",
+        "center": "C",
+        "citations": [
+          {
+            "evidence_id": "EV-042e7656e39b0b731f85",
+            "quote": "The site of attack in enolate anions depends on the structure of the enolate as well as the nature of the electrophile, the solvent, and the counterion.[114]"
+          }
+        ],
+        "diagnostic": "用标记的末端烯碳确认 C-C 键，并同时搜索 O-连接、简单水解及 Mukaiyama 醛醇产物；比较无 Lewis 酸和不同 Lewis 酸可判断真正电受体活化。",
+        "family": "硅基烯酮缩醛",
+        "lens": "carbon_transfer",
+        "name": "1-甲氧基-1-(三甲基硅氧基)乙烯",
+        "reactive_form": "Lewis 酸活化条件下的硅基烯酮缩醛；拟成键原子是末端烯碳，两个氧均不是目标成键中心。",
+        "reason": "这是预组织的中性烯醇等价体，可降低强碱导致完全脱氟的风险，同时探测对假定 gem-二氟烯酮的 Mukaiyama 型共轭加成。",
+        "risks": [
+          "痕量水导致快速水解",
+          "可能优先发生羰基加成",
+          "Lewis 酸可能引起底物分解或 E/Z 异构化",
+          "硅对氟的亲和力可能促使非选择性多重失氟"
+        ],
+        "route": "使末端烯碳进攻 CF3 衍生烯碳，再利用 Si-F 形成帮助单次消除；是否能实现净两次失氟需实测。",
+        "smiles": "COC(=C)O[Si](C)(C)C"
+      },
+      {
+        "activation": "用 Lewis 酸或氟亲和试剂释放低稳态浓度的氰离子；也可在无金属条件下测试直接 vinylic 加成-消除。",
+        "atom_indices": [
+          1
+        ],
+        "basis": "model_hypothesis",
+        "center": "C",
+        "citations": [],
+        "diagnostic": "通过 13C 标记氰基碳和 IR/LC-MS 确认 C-CN 连接，并检查是否形成羰基氰醇；比较 TMSCN 与 KCN 可区分缓释、阳离子和硅捕氟效应。",
+        "family": "硅基氰化物",
+        "lens": "carbon_transfer",
+        "name": "三甲基氰硅烷",
+        "reactive_form": "活化后释放的氰碳亲核体或金属氰基物种；成键端为氰基碳，氮不是拟成键原子。",
+        "reason": "最小的杂原子取代碳供体，能测试直接 vinylic 氰化是否可在目标碳发生并保留一个 F；不要求原始 Pd/硼循环。",
+        "risks": [
+          "优先对羰基形成氰醇并改变骨架",
+          "氰根可能强烈配位并抑制金属催化剂",
+          "TMSCN 和酸性活化剂具有显著操作危险",
+          "强 Si-F 驱动力可能导致超过目标次数的脱氟"
+        ],
+        "route": "缓释氰碳对含氟烯碳进行 C-C 成键，以氰醇形成作为关键竞争路径对照。",
+        "smiles": "N#C[Si](C)(C)C"
+      },
+      {
+        "activation": "需要把 Seed 片段转化为足够亲电的 gem-二氟烯酮、金属配位烯烃或自由基受体；2-甲基呋喃本身不预先去质子化。",
+        "atom_indices": [
+          4
+        ],
+        "basis": "model_hypothesis",
+        "center": "C",
+        "citations": [],
+        "diagnostic": "确认连接发生在呋喃 5 位，并比较暗反应、Lewis 酸及光催化条件；检测呋喃低聚、氧化和其他区域异构体，以区分真正的 π 加成与非选择性消耗。",
+        "family": "富电子杂芳烃 π 核试剂",
+        "lens": "carbon_transfer",
+        "name": "2-甲基呋喃",
+        "reactive_form": "中性 2-甲基呋喃 π 系统；拟成键原子为未取代的 5 位碳，环氧不是成键中心。",
+        "reason": "覆盖无需预成碳负离子或转金属化的中性 π 核试剂。它是 Friedel-Crafts 型或自由基极性交叉加成的边界假设。",
+        "risks": [
+          "可能需要过强活化而导致 Seed 羰基分解",
+          "呋喃易聚合、氧化或发生多位点反应",
+          "目标单氟烯烃可能继续接受亲核加成",
+          "低转化不能排除其他富电子 π 核试剂"
+        ],
+        "route": "尝试由呋喃 5 位直接在 CF3 衍生烯碳形成 C-C 键，随后通过失氟恢复共轭烯烃。",
+        "smiles": "Cc1ccco1"
+      }
+    ],
+    "uncovered": [
+      "未纳入需原位制备且结构不明确的 Pd、Ni、Cu 或其他金属中间体作为可购试剂。",
+      "未覆盖烷基硼酸频哪醇酯与 MIDA 硼酸酯的保护形式效应；有限面板优先比较硼酸、三氟硼酸盐和非硼供体。",
+      "未覆盖有机锡和有机汞碳转移试剂，主要因为毒性与废物负担，不代表其本征反应性结论。",
+      "未覆盖烷基锰、烷基铝和烷基钛试剂；这些可作为后续更强亲金属转移边界，但与羰基和痕量水的兼容性需专门设计。",
+      "未覆盖 CO、异氰化物或卡宾的一碳插入，因为它们会改变目标连接拓扑或引入插入型羰基连接，而非简单把伙伴碳接到指定 CF3 衍生烯碳。",
+      "Seed 固定组分的精确结构、可独立制备的 gem-二氟烯酮身份以及 Pd168 的详细结构仍需操作确认；这限制了区域选择性和物料衡算的预先判断。",
+      "所有候选都需要以氟质量平衡、目标单氟烯烃/完全脱氟烯烃比、供体存留和骨架保持为共同读数；仅用终点分离收率不足以区分机制。"
+    ]
+  },
+  "response_id": "resp_097ce0282e376a5c016a9e992b262487d0a948d32e91c585f5",
+  "returned_model": "gpt-5.6-sol",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 25966,
+    "output_tokens": 9139,
+    "total_tokens": 35105
+  }
+}

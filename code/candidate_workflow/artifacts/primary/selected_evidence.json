@@ -1,0 +1,460 @@
+{
+  "EV-00dea1ae22867f2f1015": {
+    "additional_pdf_pages": [],
+    "attribution": "author_hypothesis",
+    "bibliography": {
+      "authors": [
+        "Marcus So¨derstro¨m",
+        "Esther Olaniran Håkansson",
+        "Luke R. Odell"
+      ],
+      "doi": "10.1039/d4cc05540c",
+      "journal": "Chem. Commun.",
+      "title": "Defluorinative thio-functionalization: direct synthesis of methyl-dithioesters from trifluoromethylarenes",
+      "year": 2025
+    },
+    "claim": "The authors propose sequential Lewis-acid-mediated defluorination, SMe2 attack, and demethylation events, including an SN1-type initial activation and possible alternative routes to a fluorothioacetal intermediate, followed by a third defluorination and final demethylation.",
+    "evidence_id": "EV-00dea1ae22867f2f1015",
+    "evidence_label": "AUTHOR HYPOTHESIS",
+    "evidence_strength": "hypothesis",
+    "pdf_page": 3,
+    "quotation": "The mechanism of the defluorination/thioester synthesis is thought to proceed via an initial defluorination of the trifluor- omethyl group by BF 3, followed by attack from SMe 2, resulting in intermediate I (Scheme 1).\nThe higher reactivity of electron- rich substrates suggest that this occurs via an S N1-type mecha- nism in accordance with other Lewis acid mediated defluorina- tion processes.15 Following this, demethylation of the thionium ion occurs to give II, followed by abstraction of a second fluorine, resulting in intermediate III.\nIntermediate III should be highly electrophilic, and react readily with a second SMe 2 molecule, which after demethylation results in the fluoro- thioacetal intermediate IV.\nAlternatively, intermediate IV can also be formed by an S N2-type attack by SMe2 on intermediate II followed by demethylation (Scheme 1, dotted line).\nIntermedi- ate IV is then converted into V via a third defluorination and this is followed by a final demethylation to form the methyl- dithioester product, compound 1b.",
+    "reviewer_status": "accepted",
+    "section_context": "Proposed reaction mechanism",
+    "source_id": "Tier 2/Defluorinative thio-functionalization direct synthesis of methyl-dithioesters from trifluoromethylarenes.pdf",
+    "source_sha256": "4751b2ccfb0f63c8050a9f644566020c6c49a84c0825fab9849b2071ed8f7a7d",
+    "source_span_ids": [
+      "P003-S011",
+      "P003-S012",
+      "P003-S013",
+      "P003-S014",
+      "P003-S015"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": null
+  },
+  "EV-0147381122c8de5e5910": {
+    "additional_pdf_pages": [],
+    "attribution": "author_hypothesis",
+    "bibliography": {
+      "authors": [
+        "Oldřich Paleta",
+        "Andrew Pelter",
+        "Josef Kebrle",
+        "Zdeněk Duda",
+        "Jan Hajduch"
+      ],
+      "doi": null,
+      "journal": "Tetrahedron",
+      "title": "Fluorine-Containing Butanolides and Butenolides. Vinylic Fluorine Displacement in 4,4-Dialkyl-2,3-difluoro-2-buten-4-olides and a Novel Rearrangement Induced by Organolithium Addition to a Carbonyl Group",
+      "year": 2000
+    },
+    "claim": "The authors formulate the oxyanion substitution as 1,4-addition followed by fluoride expulsion from a metal-enolate intermediate.",
+    "evidence_id": "EV-0147381122c8de5e5910",
+    "evidence_label": "AUTHOR HYPOTHESIS",
+    "evidence_strength": "hypothesis",
+    "pdf_page": 2,
+    "quotation": "The mechanism can be formulated (Scheme 1) as a 1,4-addition followed by the expulsion of ﬂuoride ion from the intermediate metal enolate 3, which appeared to be unable to abstract proton from the super- ﬂuous methanol present in the mixture.",
+    "reviewer_status": "accepted",
+    "section_context": "Results and discussion: proposed mechanism for oxyanion substitution",
+    "source_id": "Tier 1/1-s2.0-S0040402000001678-main.pdf",
+    "source_sha256": "2625d4986e49e6f360bd23ea2863d40abc7c5918a1ce3c438b0de386dad77171",
+    "source_span_ids": [
+      "P002-S007"
+    ],
+    "tier": "tier_1",
+    "visual_review_reference": "Scheme 1 on PDF page 2"
+  },
+  "EV-0147fcfd57979092286d": {
+    "additional_pdf_pages": [],
+    "attribution": "author_hypothesis",
+    "bibliography": {
+      "authors": [
+        "Yaojia Jiang",
+        "Gaohui Liang",
+        "Cong Zhang",
+        "Teck-Peng Loh"
+      ],
+      "doi": "10.1002/ejoc.201600588",
+      "journal": "European Journal of Organic Chemistry",
+      "title": "Palladium-Catalyzed C–S Bond Formation of Stable Enamines with Arene/Alkanethiols: Highly Regioselective Synthesis of β-Amino Sulfides",
+      "year": 2016
+    },
+    "claim": "作者推测低收率可能源于硫醇对钯催化剂的毒化。",
+    "evidence_id": "EV-0147fcfd57979092286d",
+    "evidence_label": "AUTHOR HYPOTHESIS",
+    "evidence_strength": "hypothesis",
+    "pdf_page": 2,
+    "quotation": "The geometrical configuration of coupling product 3 was supported by NOESY analysis ( 3aa) and was fur- ther confirmed by single-crystal X-ray diffraction analysis (Table 2/Figure 2, 3ba).[13] The low yield was probably due to poisoning of the palladium catalyst by the thiol.",
+    "reviewer_status": "revised",
+    "section_context": "Results and Discussion; interpretation of ligand effects and sulfur compatibility",
+    "source_id": "Tier 4/Eur J Org Chem - 2016 - Jiang - Palladium‐Catalyzed C S Bond Formation of Stable Enamines with Arene Alkanethiols  Highly.pdf",
+    "source_sha256": "83b60281319816373b25cee2398f38865a8a656b10fc3e2a3ab05ca46fd7e11e",
+    "source_span_ids": [
+      "P002-S005"
+    ],
+    "tier": "tier_4",
+    "visual_review_reference": null
+  },
+  "EV-01ab08e007d538959aa8": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Suvajit Koley",
+        "Ryan A. Altman"
+      ],
+      "doi": "10.1002/ijch.201900173",
+      "journal": "PubMed Central",
+      "title": "Recent Advances in Transition Metal‐Catalyzed Functionalization of gem‐Difluoroalkenes",
+      "year": 2020
+    },
+    "claim": "A base-promoted intramolecular nitrogen attack on a gem-difluoroalkene followed by beta-fluoride elimination generated N-substituted 2-fluoroindoles, but formation of the required amino-difluorovinyl precursor first used a Pd-catalyzed Buchwald-Hartwig coupling.",
+    "evidence_id": "EV-01ab08e007d538959aa8",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "indirect",
+    "pdf_page": 4,
+    "quotation": "In another report, reaction of primary arylamines 142 with 1-halo-2-(2,2-difluorovinyl)benzene (halo = Br or Cl) 141 delivered a variety of N-substituted-2-fluoroindoles (Scheme 38).37 The first step of this reaction involved a Pd-catalyzed Buchwald-Hartwig coupling that would generated 2-amino-(2,2-difluorovinyl)benzene 143. gem-Difluoroalkene 143 underwent a base-promoted 5-endo-trig intramolecular nucleophilic attack by N and subsequent β-fluoride elimination to generate a diverse array of 2-fluoroindoles 144.",
+    "reviewer_status": "accepted",
+    "section_context": "Heterocycle formation involving nitrogen attack on a gem-difluoroalkene",
+    "source_id": "https://www.ncbi.nlm.nih.gov/pmc/articles/7286626",
+    "source_sha256": "655478b7359ce6c029f5ccaf72d2bd02448e499d868cb960dca54192a3114243",
+    "source_span_ids": [
+      "P004-S005"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": null
+  },
+  "EV-04055776926d615e33b8": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Kewei Chen",
+        "Abdulla Yusuf",
+        "Xinfang Xu"
+      ],
+      "doi": "10.1002/cctc.202501604",
+      "journal": "ChemCatChem",
+      "title": "Recent Advance in Defluorinative Transformations of α-Trifluoromethyl Carbene Intermediates",
+      "year": 2026
+    },
+    "claim": "Thiols and selenols react under iron porphyrin catalysis to give gem-difluorovinyl sulfides and selenides in high yields, while copper-based systems enable analogous reactions of amines and alcohols to give gem-difluoroenamines and difluorovinyl ethers in moderate to good yields.",
+    "evidence_id": "EV-04055776926d615e33b8",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 3,
+    "quotation": "Under iron porphyrin catalysis, thiols and selenols reacted smoothly with 4–1 to afford the corresponding gem -difluorovinyl sulfides and selenides 4–2 in high yields.\nFurthermore, copper-based catalytic systems proved SCHEME 3 Three-component coupling reaction of N-tosylhydra- zones with terminal alkynes and azides. to be effective for the analogous insertion reaction with amines or alcohols, delivering gem -difluoroenamines 4–3 and difluorovinyl ethers 4–4 in moderate to good yields.",
+    "reviewer_status": "accepted",
+    "section_context": "Formal insertion reactions; catalyst and nucleophile-class differentiation",
+    "source_id": "Tier 2/Recent Advance in Defluorinative Transformations of Œ±‚ÄêTrifluoromethyl Carbene Intermediates.pdf",
+    "source_sha256": "2f9ac0b704f6c6e52b9286fb6de0da586e724957ecad26eff7b0868e76ed7601",
+    "source_span_ids": [
+      "P003-S005",
+      "P003-S006"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": "Scheme 4 on PDF page 4 should be reviewed for individual catalysts, reagents, and conditions."
+  },
+  "EV-042e7656e39b0b731f85": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Herbert Mayr",
+        "Martin Breugst",
+        "Armin R. Ofial"
+      ],
+      "doi": "10.1002/anie.201007100",
+      "journal": "Angewandte Chemie International Edition",
+      "title": "Farewell to the HSAB Treatment of Ambident Reactivity",
+      "year": 2011
+    },
+    "claim": "For enolates, the site of electrophilic attack depends on enolate structure, electrophile, solvent, and counterion, so selectivity cannot be assigned from nucleophile identity alone.",
+    "evidence_id": "EV-042e7656e39b0b731f85",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 23,
+    "quotation": "Their C-alkylation is an important method for the construction of carbon–carbon bonds, whereas O-alkylation with formation of enol ethers is often used for the protection of carbonyl groups. [113] The site of attack in enolate anions depends on the structure of the enolate as well as the nature of the electrophile, the solvent, and the counterion.[114] The regioselectivities of the alkylation reactions were again mostly interpreted on the basis of the HSAB principle that predicts O-alkylation with hard and C- alkylation with soft electrophiles.",
+    "reviewer_status": "accepted",
+    "section_context": "Enolate anions; variables governing C/O selectivity.",
+    "source_id": "Tier 4/Angew Chem Int Ed - 2011 - Mayr - Farewell to the HSAB Treatment of Ambident Reactivity.pdf",
+    "source_sha256": "30e0d79ad4a06ded1d10286a86191eef28dcdaef506a441bd95045ad6ab7c462",
+    "source_span_ids": [
+      "P023-S004"
+    ],
+    "tier": "tier_4",
+    "visual_review_reference": null
+  },
+  "EV-0748fe7f1f6b8426a523": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Oldřich Paleta",
+        "Andrew Pelter",
+        "Josef Kebrle",
+        "Zdeněk Duda",
+        "Jan Hajduch"
+      ],
+      "doi": null,
+      "journal": "Tetrahedron",
+      "title": "Fluorine-Containing Butanolides and Butenolides. Vinylic Fluorine Displacement in 4,4-Dialkyl-2,3-difluoro-2-buten-4-olides and a Novel Rearrangement Induced by Organolithium Addition to a Carbonyl Group",
+      "year": 2000
+    },
+    "claim": "Methyllithium and phenyllithium followed a different reaction pathway from the modified Grignard reagents, producing rearranged compounds 27 and 28 that lacked the starting butenolide-ring carbonyl signature and contained a ketone group.",
+    "evidence_id": "EV-0748fe7f1f6b8426a523",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 3,
+    "quotation": "1 Reactions of hard carbanions and a novel rearrangement Methyllithium and phenyllithium surprisingly 1 afforded compounds 27 and 28 as the end products in reactions with 1 (Scheme 2).\nCompounds 27 and 28 were isomeric with the products 25 and 26, but did not contain the 2-buten-4-olide ring as shown by the absence of bands at ca.\n1775–1780 cm 21 in their IR spectra.\nInstead, each contained a ketone group ( dC ca.\n195–198 ppm; nmax 1706–1723 cm 21).",
+    "reviewer_status": "accepted",
+    "section_context": "Results and discussion: hard carbanions and rearrangement",
+    "source_id": "Tier 1/1-s2.0-S0040402000001678-main.pdf",
+    "source_sha256": "2625d4986e49e6f360bd23ea2863d40abc7c5918a1ce3c438b0de386dad77171",
+    "source_span_ids": [
+      "P003-S010",
+      "P003-S011",
+      "P003-S012",
+      "P003-S013",
+      "P003-S014"
+    ],
+    "tier": "tier_1",
+    "visual_review_reference": null
+  },
+  "EV-074d492dbd8a30e03023": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Ol’ga A. Zakharova",
+        "Leonid I. Goryunov",
+        "Nadezhda M. Troshkova",
+        "Ludmila P. Ovchinnikova",
+        "Vitalij D. Shteingarts",
+        "Georgy A. Nevinsky"
+      ],
+      "doi": "10.1016/j.ejmech.2009.10.006",
+      "journal": "European Journal of Medicinal Chemistry",
+      "title": "Cytotoxicity of new n-butylamino and sulfur-containing derivatives of polyfluorinated 1,4-naphthoquinone",
+      "year": 2010
+    },
+    "claim": "Compounds 1–6 were synthesized by amino-defluorination of hexafluoro-1,4-naphthoquinone with n-butylamine, 2-methylthioethylamine, or 2,2′-dithiodiethylamine, establishing C–N bond formation with loss of fluorine on a polyfluorinated quinone electrophile.",
+    "evidence_id": "EV-074d492dbd8a30e03023",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 2,
+    "quotation": "Chemistry Syntheses of compounds 1–4, 5, and 6 were based on amino- deﬂuorination of hexaﬂuoro-1,4-naphthoquinone [18] 7 with n-butyl-, 2-methylthioethyl-, and 2,2 0-dithiodiethylamine, respec- tively (Scheme 1 ).",
+    "reviewer_status": "accepted",
+    "section_context": "Chemistry: reaction-class definition and substrate/nucleophile classes.",
+    "source_id": "Tier 1/1-s2.0-S022352340900508X-main.pdf",
+    "source_sha256": "1aafbcdeed707a1d61eeab70a896308958bb9538bfe3551c2263fc32c46126fd",
+    "source_span_ids": [
+      "P002-S008"
+    ],
+    "tier": "tier_1",
+    "visual_review_reference": null
+  },
+  "EV-0ab81afddd146d0f0e2a": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Zhong Zhang",
+        "Xiangqian Li",
+        "Dayong Shi"
+      ],
+      "doi": "10.1002/adsc.202100289",
+      "journal": "Advanced Synthesis & Catalysis",
+      "title": "Visible-Light-Promoted Oxy-difluoroalkylation of Aryl Alkynes for the Synthesis of β-Fluoroenones and α-Difluoroalkyl Ketones",
+      "year": 2021
+    },
+    "claim": "Methanol was tested as an oxygen nucleophile and generated product 7 in 47% yield, demonstrating capture by an oxygen nucleophile other than water under this reaction manifold.",
+    "evidence_id": "EV-0ab81afddd146d0f0e2a",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 4,
+    "quotation": "We assumed that methanol could also be used as the nucleophile to realize the oxo-difluoroalkylation of alkynes, and the product 7 was generated in 47% yield.",
+    "reviewer_status": "accepted",
+    "section_context": "Mechanistic investigation: probing other nucleophiles",
+    "source_id": "Tier 1/Adv Synth Catal - 2021 - Zhang - Visible‐Light‐Promoted Oxy‐difluoroalkylation of Aryl Alkynes for the Synthesis of .pdf",
+    "source_sha256": "7bb34b2330c4f3b32c39f954156442d80ac0dcb99ca8bd2db753025c512813cb",
+    "source_span_ids": [
+      "P004-S006"
+    ],
+    "tier": "tier_1",
+    "visual_review_reference": "Scheme 2 on PDF page 4 must be visually reviewed to establish the structure and bond connectivity of product 7."
+  },
+  "EV-1b3e449817b7a8af6763": {
+    "additional_pdf_pages": [
+      8
+    ],
+    "attribution": "author_hypothesis",
+    "bibliography": {
+      "authors": [
+        "Tzu-Yu Huang",
+        "Mario Djugovski",
+        "Sweta Adhikari",
+        "Destinee L. Manning",
+        "Sudeshna Roy"
+      ],
+      "doi": "10.3762/bjoc.19.111",
+      "journal": "Beilstein Journal of Organic Chemistry",
+      "title": "Morpholine-mediated defluorinative cycloaddition of gem-difluoroalkenes and organic azides",
+      "year": 2023
+    },
+    "claim": "The authors propose initial base-mediated nucleophilic addition–elimination of morpholine to form INT-1, followed either by an aminoalkyne cycloaddition pathway or by vinylic azide substitution, cyclization, and aromatization.",
+    "evidence_id": "EV-1b3e449817b7a8af6763",
+    "evidence_label": "AUTHOR HYPOTHESIS",
+    "evidence_strength": "hypothesis",
+    "pdf_page": 7,
+    "quotation": "Based on these experiments and literature reports [28,33], we propose a base-mediated nucleophilic addition–elimination of morpholine to gem-difluoroalkene 1 affording INT-1, which can generate product 3 via two routes (Figure 5).\nRoute A entails the formation of an aminoalkyne intermediate, INT-2, which can participate in a [3 + 2] azide–alkyne cycloaddition to\nFigure 6: Scale-up experiment. form the final product 3.\nAlternatively, vinylic azido amine intermediate INT-3 can be formed via vinylic substitution of INT-1 with an azide which can cyclize to form INT-4 that subsequently aromatizes to afford product 3 (route B).",
+    "reviewer_status": "accepted",
+    "section_context": "Results and Discussion; proposed mechanism",
+    "source_id": "Tier 2/Morpholine mediated defluorinative c .pdf",
+    "source_sha256": "a72b6e8cf7c9836049ddbc2f0095ad5c0b0dae69f660d6181b6b33e5adde458c",
+    "source_span_ids": [
+      "P007-S016",
+      "P007-S017",
+      "P008-S006",
+      "P008-S007"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": "Figure 5, PDF page 8, is required to inspect the proposed intermediate structures."
+  },
+  "EV-3624092cf4a449b4ab75": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Yanyan He",
+        "Leiyang Lv",
+        "Zhenhua Jia",
+        "Teck-Peng Loh"
+      ],
+      "doi": "10.1039/d5qo01732g",
+      "journal": "Organic Chemistry Frontiers",
+      "title": "Recent advances in visible-light-induced defluorinative functionalization of α-trifluoromethyl arylalkenes",
+      "year": 2026
+    },
+    "claim": "The review reports C–S bond formation through photo/Ni dual-catalyzed radical defluorinative sulfonylation of α-trifluoromethyl arylalkenes, producing gem-difluoroallylsulfones in moderate to good yields in MeCN at room temperature under blue light.",
+    "evidence_id": "EV-3624092cf4a449b4ab75",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 8,
+    "quotation": "workers developed a study for synthesizing a range of gem- difluoroallylsulfones 18c with moderate to good yields through a photo/Ni dual-catalyzed radical defluorinative sulfonylation of α-trifluoromethyl arylalkenes 18b.13a They selected aryl sulfonium salts 18a as sulfonyl radical precursors for this transformation employing a dual catalytic system comprising photocatalyst Ru(bpy)3(PF6)2 and nickel catalyst Ni(bpy) 3Cl2 in MeCN at room temperature under blue LEDs irradiation.",
+    "reviewer_status": "accepted",
+    "section_context": "Ru-based photocatalysis; photo/Ni defluorinative sulfonylation",
+    "source_id": "Tier 2/Recent advances in visible-light-induced defluorinative functionalization of Œ±-trifluoromethyl arylalkenes.pdf",
+    "source_sha256": "696b87ec75e71fc2dfedb6d1c9cd26f177e40117507baa85af9053440c52caa0",
+    "source_span_ids": [
+      "P008-S001"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": null
+  },
+  "EV-4d92eba46fd9ebc390ce": {
+    "additional_pdf_pages": [
+      4
+    ],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Shipan Xu",
+        "Jun Xie",
+        "Yu Liu",
+        "Weifeng Xu",
+        "Ke-Wen Tang",
+        "Biquan Xiong",
+        "Wai-Yeung Wong"
+      ],
+      "doi": "10.1021/acs.joc.1c01703",
+      "journal": "The Journal of Organic Chemistry",
+      "title": "Silver-Catalyzed Regioselective Phosphorylation of para-Quinone Methides with P(III)-Nucleophiles",
+      "year": 2021
+    },
+    "claim": "所给引文报告三苄基亚磷酸酯、两种含氟烷基亚磷酸酯、甲氧基/乙氧基/异丙氧基二苯基膦以及若干取代乙氧基二芳基膦可生成预期产物；其中给出数值的收率为78-88%或81-87%。叔丁氧基二苯基膦则未检出目标产物。",
+    "evidence_id": "EV-4d92eba46fd9ebc390ce",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 3,
+    "quotation": "In addition, tribenzyl phosphite ( 2f), tris(2,2,2- triﬂuoroethyl) phosphite ( 2g), and tris(1,1,1,3,3,3-hexa ﬂuoro- propan-2-yl) phosphite ( 2h) proved to be suitable nucleo- philes for the reaction, producing the expected products 4e−4g in 81 −87% yields.\nWhen methoxydiphenylphosphine ( 2i), ethoxydiphenylphosphine ( 2j), and isopropoxydiphenyl- phosphine ( 2k) were employed as the nucleophiles, the corresponding product of ((3,5-di- tert -butyl-4-hydroxy- phenyl)(phenyl)methyl) diphenylphos-phine oxide ( 4h)i s generated in the 78 −88% yield range.\nIn the case of tert- butoxydiphenylphosphine (2l), we have not detected the target product after the reaction, plausibly due to the steric Table 1.\nhindrance.\nDelightfully, di ﬀerent kinds of ethoxydiaryl- phosphine such as ethoxydi- p-tolylphosphine (2m), ethoxybis- (4-methoxyphenyl)phosphine ( 2n), ethoxybis(3- ﬂuoro- phenyl)phosphine ( 2o), and ethoxydi(naphthalen-1-yl)- phosphine ( 2p) also showed positive results for this transformation, a ﬀording the expected phosphorylation prod- ucts 4i−4l in good yields.",
+    "reviewer_status": "revised",
+    "section_context": "Results and Discussion: P(III)-nucleophile scope and failed sterically hindered nucleophile",
+    "source_id": "Tier 3/Silver-Catalyzed Regioselective Phosphorylation of para-Quinone Methides with P(III)-Nucleophiles.pdf",
+    "source_sha256": "06ad2dcd922f6ccdd4936d4f5df7b8dc3a6867bc733e2625bccbf09d704ff7ec",
+    "source_span_ids": [
+      "P003-S018",
+      "P003-S019",
+      "P003-S020",
+      "P004-S001",
+      "P004-S002"
+    ],
+    "tier": "tier_3",
+    "visual_review_reference": null
+  },
+  "EV-4fab030258a88044b80e": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Hayato Fujimoto",
+        "Takuya Kodama",
+        "Masahiro Yamanaka",
+        "Mamoru Tobisu"
+      ],
+      "doi": "10.1021/jacs.0c08928",
+      "journal": "Journal of the American Chemical Society",
+      "title": "Phosphine-Catalyzed Intermolecular Acylfluorination of Alkynes via a P(V) Intermediate",
+      "year": 2020
+    },
+    "claim": "PCy3 was uniquely effective in catalyst screening; the other tested phosphines, DMAP, DABCO, and an N-heterocyclic carbene failed to promote the carbofluorination.",
+    "evidence_id": "EV-4fab030258a88044b80e",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 1,
+    "quotation": "Intensive screening resulted in the identi ﬁcation of PCy 3 as a uniquely e ﬀective catalyst, whereas other phosphines, amines (DMAP and DABCO), and N-heterocyclic carbenes failed to promote this carbo ﬂuorination.",
+    "reviewer_status": "accepted",
+    "section_context": "Catalyst optimization and catalyst-class boundary",
+    "source_id": "Tier 1/Phosphine-Catalyzed Intermolecular Acylfluorination of Alkynes via a P(V) Intermediate.pdf",
+    "source_sha256": "0a3cae3c868aa6acecee5289f9dcbc75819b688455ea11e2859033e57cc83ded",
+    "source_span_ids": [
+      "P001-S024"
+    ],
+    "tier": "tier_1",
+    "visual_review_reference": null
+  },
+  "EV-96934ea0dd931848bee3": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Oldřich Paleta",
+        "Andrew Pelter",
+        "Josef Kebrle",
+        "Zdeněk Duda",
+        "Jan Hajduch"
+      ],
+      "doi": null,
+      "journal": "Tetrahedron",
+      "title": "Fluorine-Containing Butanolides and Butenolides. Vinylic Fluorine Displacement in 4,4-Dialkyl-2,3-difluoro-2-buten-4-olides and a Novel Rearrangement Induced by Organolithium Addition to a Carbonyl Group",
+      "year": 2000
+    },
+    "claim": "Sodium and lithium alkoxides displaced vinylic fluorine in difluorobutenolides 1 and 2 with complete regioselectivity at the beta carbon, affording products 4–10.",
+    "evidence_id": "EV-96934ea0dd931848bee3",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 2,
+    "quotation": "Results and discussion Reactions of oxyanions All reactions with sodium and lithium alkoxides carried out took place as in Scheme 1.\nThe oxyanions attacked the b-carbon in diﬂuorobutenolides 1 or 2 with complete regio- selectivity to give products ( 4–10) of vinylic displacement of ﬂuorine (Scheme 1).",
+    "reviewer_status": "accepted",
+    "section_context": "Results and discussion: reactions of oxyanions",
+    "source_id": "Tier 1/1-s2.0-S0040402000001678-main.pdf",
+    "source_sha256": "2625d4986e49e6f360bd23ea2863d40abc7c5918a1ce3c438b0de386dad77171",
+    "source_span_ids": [
+      "P002-S005",
+      "P002-S006"
+    ],
+    "tier": "tier_1",
+    "visual_review_reference": null
+  }
+}

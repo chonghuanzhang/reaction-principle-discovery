@@ -1,0 +1,702 @@
+{
+  "SH_PL33": {
+    "pool_id": "SH_PL33",
+    "route": "SH",
+    "stage": "catalyst_panel",
+    "plate": "PL33",
+    "seed_base": 1000,
+    "n_records": 145,
+    "observed_best": 0.96602658788774,
+    "near_threshold": 0.917725258493353,
+    "actual_target_count": 2,
+    "metrics": {
+      "near_budget": {
+        "bo_median": 72.0,
+        "random_median": 84.0,
+        "bo_mean": 65.16,
+        "random_mean": 78.6,
+        "median_saving_random_minus_bo": 12.0,
+        "mean_saving_random_minus_bo": 13.44,
+        "bo_success_by_budget": 0.16,
+        "random_success_by_budget": 0.29,
+        "paired_mean_saving_bootstrap_95ci": [
+          6.48,
+          20.282999999999983
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          60.72,
+          69.36
+        ],
+        "bo_hits_by_48": 16,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          70.44,
+          86.76
+        ],
+        "random_hits_by_48": 29,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "exact_budget": {
+        "bo_median": 72.0,
+        "random_median": 84.0,
+        "bo_mean": 65.16,
+        "random_mean": 78.6,
+        "median_saving_random_minus_bo": 12.0,
+        "mean_saving_random_minus_bo": 13.44,
+        "bo_success_by_budget": 0.16,
+        "random_success_by_budget": 0.29,
+        "paired_mean_saving_bootstrap_95ci": [
+          6.48,
+          20.282999999999983
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          60.72,
+          69.36
+        ],
+        "bo_hits_by_48": 16,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          70.44,
+          86.76
+        ],
+        "random_hits_by_48": 29,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "target_budget": {
+        "bo_median": 60.0,
+        "random_median": 60.0,
+        "bo_mean": 56.4,
+        "random_mean": 57.0,
+        "median_saving_random_minus_bo": 0.0,
+        "mean_saving_random_minus_bo": 0.6,
+        "bo_success_by_budget": 0.27,
+        "random_success_by_budget": 0.48,
+        "paired_mean_saving_bootstrap_95ci": [
+          -5.28,
+          6.6
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          51.6,
+          60.72
+        ],
+        "bo_hits_by_48": 27,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          50.16,
+          63.60299999999999
+        ],
+        "random_hits_by_48": 48,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      }
+    }
+  },
+  "SH_PL39": {
+    "pool_id": "SH_PL39",
+    "route": "SH",
+    "stage": "condition_grid",
+    "plate": "PL39",
+    "seed_base": 4000,
+    "n_records": 96,
+    "observed_best": 1.62597402597403,
+    "near_threshold": 1.5446753246753284,
+    "actual_target_count": 0,
+    "metrics": {
+      "near_budget": {
+        "bo_median": 24.0,
+        "random_median": 24.0,
+        "bo_mean": 24.96,
+        "random_mean": 34.8,
+        "median_saving_random_minus_bo": 0.0,
+        "mean_saving_random_minus_bo": 9.84,
+        "bo_success_by_budget": 1.0,
+        "random_success_by_budget": 0.83,
+        "paired_mean_saving_bootstrap_95ci": [
+          6.5969999999999995,
+          13.44
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          23.16,
+          26.642999999999983
+        ],
+        "bo_hits_by_48": 100,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          31.08,
+          38.64
+        ],
+        "random_hits_by_48": 83,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "exact_budget": {
+        "bo_median": 24.0,
+        "random_median": 60.0,
+        "bo_mean": 27.72,
+        "random_mean": 52.8,
+        "median_saving_random_minus_bo": 24.0,
+        "mean_saving_random_minus_bo": 25.08,
+        "bo_success_by_budget": 1.0,
+        "random_success_by_budget": 0.49,
+        "paired_mean_saving_bootstrap_95ci": [
+          20.4,
+          29.642999999999983
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          26.04,
+          29.52
+        ],
+        "bo_hits_by_48": 100,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          47.64,
+          57.84
+        ],
+        "random_hits_by_48": 49,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "target_budget": null
+    }
+  },
+  "SH_PL40": {
+    "pool_id": "SH_PL40",
+    "route": "SH",
+    "stage": "condition_grid",
+    "plate": "PL40",
+    "seed_base": 5000,
+    "n_records": 96,
+    "observed_best": 3.20446096654275,
+    "near_threshold": 3.0442379182156123,
+    "actual_target_count": 1,
+    "metrics": {
+      "near_budget": {
+        "bo_median": 24.0,
+        "random_median": 48.0,
+        "bo_mean": 26.04,
+        "random_mean": 51.84,
+        "median_saving_random_minus_bo": 24.0,
+        "mean_saving_random_minus_bo": 25.8,
+        "bo_success_by_budget": 1.0,
+        "random_success_by_budget": 0.51,
+        "paired_mean_saving_bootstrap_95ci": [
+          20.88,
+          30.602999999999984
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          24.36,
+          27.72
+        ],
+        "bo_hits_by_48": 100,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          46.437,
+          57.24
+        ],
+        "random_hits_by_48": 51,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "exact_budget": {
+        "bo_median": 24.0,
+        "random_median": 48.0,
+        "bo_mean": 26.04,
+        "random_mean": 51.84,
+        "median_saving_random_minus_bo": 24.0,
+        "mean_saving_random_minus_bo": 25.8,
+        "bo_success_by_budget": 1.0,
+        "random_success_by_budget": 0.51,
+        "paired_mean_saving_bootstrap_95ci": [
+          20.88,
+          30.602999999999984
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          24.36,
+          27.72
+        ],
+        "bo_hits_by_48": 100,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          46.437,
+          57.24
+        ],
+        "random_hits_by_48": 51,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "target_budget": {
+        "bo_median": 24.0,
+        "random_median": 48.0,
+        "bo_mean": 26.04,
+        "random_mean": 51.84,
+        "median_saving_random_minus_bo": 24.0,
+        "mean_saving_random_minus_bo": 25.8,
+        "bo_success_by_budget": 1.0,
+        "random_success_by_budget": 0.51,
+        "paired_mean_saving_bootstrap_95ci": [
+          20.88,
+          30.602999999999984
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          24.36,
+          27.72
+        ],
+        "bo_hits_by_48": 100,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          46.437,
+          57.24
+        ],
+        "random_hits_by_48": 51,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      }
+    }
+  },
+  "NH_PL35": {
+    "pool_id": "NH_PL35",
+    "route": "NH",
+    "stage": "catalyst_panel",
+    "plate": "PL35",
+    "seed_base": 2000,
+    "n_records": 145,
+    "observed_best": 1.54697139066581,
+    "near_threshold": 1.4696228211325195,
+    "actual_target_count": 1,
+    "metrics": {
+      "near_budget": {
+        "bo_median": 72.0,
+        "random_median": 60.0,
+        "bo_mean": 64.56,
+        "random_mean": 63.24,
+        "median_saving_random_minus_bo": 0.0,
+        "mean_saving_random_minus_bo": -1.32,
+        "bo_success_by_budget": 0.28,
+        "random_success_by_budget": 0.43,
+        "paired_mean_saving_bootstrap_95ci": [
+          -7.563,
+          4.68
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          59.88,
+          68.76
+        ],
+        "bo_hits_by_48": 28,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          56.4,
+          69.72
+        ],
+        "random_hits_by_48": 43,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "exact_budget": {
+        "bo_median": 72.0,
+        "random_median": 84.0,
+        "bo_mean": 70.44,
+        "random_mean": 83.53,
+        "median_saving_random_minus_bo": 12.0,
+        "mean_saving_random_minus_bo": 13.09,
+        "bo_success_by_budget": 0.19,
+        "random_success_by_budget": 0.3,
+        "paired_mean_saving_bootstrap_95ci": [
+          5.41,
+          20.88
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          66.6,
+          73.92
+        ],
+        "bo_hits_by_48": 19,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          75.73,
+          91.24
+        ],
+        "random_hits_by_48": 30,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "target_budget": {
+        "bo_median": 96.0,
+        "random_median": 96.0,
+        "bo_mean": 84.24,
+        "random_mean": 87.99,
+        "median_saving_random_minus_bo": 0.0,
+        "mean_saving_random_minus_bo": 3.75,
+        "bo_success_by_budget": 0.12,
+        "random_success_by_budget": 0.24,
+        "paired_mean_saving_bootstrap_95ci": [
+          -3.4725,
+          10.83025
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          78.6,
+          89.16
+        ],
+        "bo_hits_by_48": 12,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          80.05,
+          95.54349999999998
+        ],
+        "random_hits_by_48": 24,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      }
+    }
+  },
+  "NH_PL36": {
+    "pool_id": "NH_PL36",
+    "route": "NH",
+    "stage": "condition_grid",
+    "plate": "PL36",
+    "seed_base": 6000,
+    "n_records": 96,
+    "observed_best": 1.03780376396515,
+    "near_threshold": 0.9859135757668925,
+    "actual_target_count": 1,
+    "metrics": {
+      "near_budget": {
+        "bo_median": 36.0,
+        "random_median": 60.0,
+        "bo_mean": 41.16,
+        "random_mean": 57.6,
+        "median_saving_random_minus_bo": 12.0,
+        "mean_saving_random_minus_bo": 16.44,
+        "bo_success_by_budget": 0.64,
+        "random_success_by_budget": 0.45,
+        "paired_mean_saving_bootstrap_95ci": [
+          11.52,
+          21.482999999999983
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          37.2,
+          45.12
+        ],
+        "bo_hits_by_48": 64,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          52.56,
+          62.88299999999999
+        ],
+        "random_hits_by_48": 45,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "exact_budget": {
+        "bo_median": 36.0,
+        "random_median": 60.0,
+        "bo_mean": 41.16,
+        "random_mean": 57.6,
+        "median_saving_random_minus_bo": 12.0,
+        "mean_saving_random_minus_bo": 16.44,
+        "bo_success_by_budget": 0.64,
+        "random_success_by_budget": 0.45,
+        "paired_mean_saving_bootstrap_95ci": [
+          11.52,
+          21.482999999999983
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          37.2,
+          45.12
+        ],
+        "bo_hits_by_48": 64,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          52.56,
+          62.88299999999999
+        ],
+        "random_hits_by_48": 45,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "target_budget": {
+        "bo_median": 36.0,
+        "random_median": 60.0,
+        "bo_mean": 41.16,
+        "random_mean": 57.6,
+        "median_saving_random_minus_bo": 12.0,
+        "mean_saving_random_minus_bo": 16.44,
+        "bo_success_by_budget": 0.64,
+        "random_success_by_budget": 0.45,
+        "paired_mean_saving_bootstrap_95ci": [
+          11.52,
+          21.482999999999983
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          37.2,
+          45.12
+        ],
+        "bo_hits_by_48": 64,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          52.56,
+          62.88299999999999
+        ],
+        "random_hits_by_48": 45,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      }
+    }
+  },
+  "OH_PL34": {
+    "pool_id": "OH_PL34",
+    "route": "OH",
+    "stage": "catalyst_panel",
+    "plate": "PL34",
+    "seed_base": 3000,
+    "n_records": 145,
+    "observed_best": 1.09119010819165,
+    "near_threshold": 1.0366306027820673,
+    "actual_target_count": 2,
+    "metrics": {
+      "near_budget": {
+        "bo_median": 120.0,
+        "random_median": 60.0,
+        "bo_mean": 101.16,
+        "random_mean": 68.28,
+        "median_saving_random_minus_bo": -30.0,
+        "mean_saving_random_minus_bo": -32.88,
+        "bo_success_by_budget": 0.15,
+        "random_success_by_budget": 0.41,
+        "paired_mean_saving_bootstrap_95ci": [
+          -41.28,
+          -24.59700000000002
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          93.717,
+          108.12
+        ],
+        "bo_hits_by_48": 15,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          60.72,
+          76.68
+        ],
+        "random_hits_by_48": 41,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "exact_budget": {
+        "bo_median": 120.0,
+        "random_median": 60.0,
+        "bo_mean": 101.16,
+        "random_mean": 68.28,
+        "median_saving_random_minus_bo": -30.0,
+        "mean_saving_random_minus_bo": -32.88,
+        "bo_success_by_budget": 0.15,
+        "random_success_by_budget": 0.41,
+        "paired_mean_saving_bootstrap_95ci": [
+          -41.28,
+          -24.59700000000002
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          93.717,
+          108.12
+        ],
+        "bo_hits_by_48": 15,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          60.72,
+          76.68
+        ],
+        "random_hits_by_48": 41,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "target_budget": {
+        "bo_median": 84.0,
+        "random_median": 36.0,
+        "bo_mean": 75.6,
+        "random_mean": 46.2,
+        "median_saving_random_minus_bo": -24.0,
+        "mean_saving_random_minus_bo": -29.4,
+        "bo_success_by_budget": 0.23,
+        "random_success_by_budget": 0.62,
+        "paired_mean_saving_bootstrap_95ci": [
+          -36.48,
+          -22.56
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          68.4,
+          82.44
+        ],
+        "bo_hits_by_48": 23,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          40.437,
+          52.32
+        ],
+        "random_hits_by_48": 62,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      }
+    }
+  },
+  "OH_PL37": {
+    "pool_id": "OH_PL37",
+    "route": "OH",
+    "stage": "condition_grid",
+    "plate": "PL37",
+    "seed_base": 7000,
+    "n_records": 96,
+    "observed_best": 1.15495867768595,
+    "near_threshold": 1.0972107438016525,
+    "actual_target_count": 0,
+    "metrics": {
+      "near_budget": {
+        "bo_median": 24.0,
+        "random_median": 48.0,
+        "bo_mean": 26.4,
+        "random_mean": 51.72,
+        "median_saving_random_minus_bo": 24.0,
+        "mean_saving_random_minus_bo": 25.32,
+        "bo_success_by_budget": 1.0,
+        "random_success_by_budget": 0.54,
+        "paired_mean_saving_bootstrap_95ci": [
+          20.757,
+          30.122999999999983
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          24.84,
+          27.84
+        ],
+        "bo_hits_by_48": 100,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          46.32,
+          56.76
+        ],
+        "random_hits_by_48": 54,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "exact_budget": {
+        "bo_median": 24.0,
+        "random_median": 48.0,
+        "bo_mean": 26.4,
+        "random_mean": 51.72,
+        "median_saving_random_minus_bo": 24.0,
+        "mean_saving_random_minus_bo": 25.32,
+        "bo_success_by_budget": 1.0,
+        "random_success_by_budget": 0.54,
+        "paired_mean_saving_bootstrap_95ci": [
+          20.757,
+          30.122999999999983
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          24.84,
+          27.84
+        ],
+        "bo_hits_by_48": 100,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          46.32,
+          56.76
+        ],
+        "random_hits_by_48": 54,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "target_budget": null
+    }
+  },
+  "OH_PL38": {
+    "pool_id": "OH_PL38",
+    "route": "OH",
+    "stage": "condition_grid",
+    "plate": "PL38",
+    "seed_base": 8000,
+    "n_records": 96,
+    "observed_best": 1.44247787610619,
+    "near_threshold": 1.3703539823008806,
+    "actual_target_count": 1,
+    "metrics": {
+      "near_budget": {
+        "bo_median": 36.0,
+        "random_median": 54.0,
+        "bo_mean": 31.2,
+        "random_mean": 54.96,
+        "median_saving_random_minus_bo": 24.0,
+        "mean_saving_random_minus_bo": 23.76,
+        "bo_success_by_budget": 0.98,
+        "random_success_by_budget": 0.5,
+        "paired_mean_saving_bootstrap_95ci": [
+          18.96,
+          28.56299999999998
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          29.04,
+          33.48
+        ],
+        "bo_hits_by_48": 98,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          49.68,
+          60.24
+        ],
+        "random_hits_by_48": 50,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "exact_budget": {
+        "bo_median": 36.0,
+        "random_median": 54.0,
+        "bo_mean": 31.2,
+        "random_mean": 54.96,
+        "median_saving_random_minus_bo": 24.0,
+        "mean_saving_random_minus_bo": 23.76,
+        "bo_success_by_budget": 0.98,
+        "random_success_by_budget": 0.5,
+        "paired_mean_saving_bootstrap_95ci": [
+          18.96,
+          28.56299999999998
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          29.04,
+          33.48
+        ],
+        "bo_hits_by_48": 98,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          49.68,
+          60.24
+        ],
+        "random_hits_by_48": 50,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      },
+      "target_budget": {
+        "bo_median": 36.0,
+        "random_median": 54.0,
+        "bo_mean": 31.2,
+        "random_mean": 54.96,
+        "median_saving_random_minus_bo": 24.0,
+        "mean_saving_random_minus_bo": 23.76,
+        "bo_success_by_budget": 0.98,
+        "random_success_by_budget": 0.5,
+        "paired_mean_saving_bootstrap_95ci": [
+          18.96,
+          28.56299999999998
+        ],
+        "bo_mean_budget_bootstrap_95ci": [
+          29.04,
+          33.48
+        ],
+        "bo_hits_by_48": 98,
+        "bo_n_replicates": 100,
+        "random_mean_budget_bootstrap_95ci": [
+          49.68,
+          60.24
+        ],
+        "random_hits_by_48": 50,
+        "random_n_replicates": 100,
+        "bootstrap_estimand": "mean of paired per-replicate (random budget - BO budget)"
+      }
+    }
+  }
+}

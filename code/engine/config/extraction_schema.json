@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "bibliography": {
+      "additionalProperties": false,
+      "properties": {
+        "authors": {"items": {"type": "string"}, "type": "array"},
+        "doi": {"type": ["string", "null"]},
+        "journal": {"type": "string"},
+        "title": {"type": "string"},
+        "year": {"type": ["integer", "null"]}
+      },
+      "required": ["title", "authors", "journal", "year", "doi"],
+      "type": "object"
+    },
+    "contradictions": {"items": {"type": "string"}, "type": "array"},
+    "evidence_items": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "attribution": {"enum": ["author_observation", "author_hypothesis", "model_inference", "source_metadata"], "type": "string"},
+          "additional_pdf_pages": {"items": {"minimum": 1, "type": "integer"}, "type": "array"},
+          "claim": {"type": "string"},
+          "evidence_id": {"type": "string"},
+          "evidence_label": {"enum": ["EXPERIMENTAL FACT", "KNOWN RETROSPECTIVE ANSWER", "LITERATURE FACT", "AUTHOR HYPOTHESIS", "MODEL INFERENCE", "WORKING HYPOTHESIS", "UNKNOWN"], "type": "string"},
+          "evidence_strength": {"enum": ["direct", "indirect", "hypothesis", "inference", "unknown"], "type": "string"},
+          "pdf_page": {"type": ["integer", "null"]},
+          "quotation": {"type": ["string", "null"]},
+          "reviewer_status": {"enum": ["pending", "accepted", "revised", "rejected", "not_assessable"], "type": "string"},
+          "section_context": {"type": "string"},
+          "source_span_ids": {"items": {"pattern": "^P[0-9]{3}-S[0-9]{3}$", "type": "string"}, "type": "array"},
+          "visual_review_reference": {"type": ["string", "null"]}
+        },
+        "required": ["evidence_id", "claim", "evidence_label", "quotation", "source_span_ids", "pdf_page", "additional_pdf_pages", "section_context", "attribution", "evidence_strength", "visual_review_reference", "reviewer_status"],
+        "type": "object"
+      },
+      "maxItems": 12,
+      "type": "array"
+    },
+    "evidence_types": {"items": {"type": "string"}, "type": "array"},
+    "paper_id": {"type": "string"},
+    "primary_tier": {"enum": ["tier_1", "tier_2", "tier_3", "tier_4"], "type": "string"},
+    "reaction_summary": {
+      "additionalProperties": false,
+      "properties": {
+        "activation_mode": {"type": "string"},
+        "base": {"type": "string"},
+        "catalyst": {"type": "string"},
+        "electrophile": {"type": "string"},
+        "failed_scope": {"items": {"type": "string"}, "type": "array"},
+        "ligand": {"type": "string"},
+        "new_bond": {"type": "string"},
+        "nu_atom": {"type": "string"},
+        "nu_subclass": {"type": "string"},
+        "nucleophile_or_partner": {"type": "string"},
+        "product_type": {"type": "string"},
+        "proposed_intermediate": {"type": "string"},
+        "reaction_class": {"type": "string"},
+        "relevance_to_seed_reaction": {"type": "string"},
+        "selectivity": {"type": "string"},
+        "side_reactions": {"items": {"type": "string"}, "type": "array"},
+        "solvent": {"type": "string"},
+        "successful_scope": {"items": {"type": "string"}, "type": "array"},
+        "temperature": {"type": "string"},
+        "transferability_assessment": {"type": "string"}
+      },
+      "required": ["reaction_class", "electrophile", "nucleophile_or_partner", "nu_atom", "nu_subclass", "new_bond", "catalyst", "ligand", "base", "solvent", "temperature", "product_type", "selectivity", "proposed_intermediate", "activation_mode", "successful_scope", "failed_scope", "side_reactions", "relevance_to_seed_reaction", "transferability_assessment"],
+      "type": "object"
+    },
+    "review_status": {"enum": ["pending", "accepted", "revised", "rejected", "not_assessable"], "type": "string"},
+    "secondary_tiers": {"items": {"enum": ["tier_1", "tier_2", "tier_3", "tier_4"], "type": "string"}, "type": "array"},
+    "sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+    "source_file": {"type": "string"},
+    "uncertainties": {"items": {"type": "string"}, "type": "array"},
+    "visual_review_pages": {"items": {"minimum": 1, "type": "integer"}, "type": "array"}
+  },
+  "required": ["paper_id", "source_file", "sha256", "bibliography", "primary_tier", "secondary_tiers", "evidence_types", "reaction_summary", "evidence_items", "uncertainties", "contradictions", "visual_review_pages", "review_status"],
+  "title": "PaperEvidenceExtraction",
+  "type": "object"
+}

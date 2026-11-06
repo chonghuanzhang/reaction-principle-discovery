@@ -1,0 +1,71 @@
+{
+  "coverage": {
+    "S-H": {
+      "selected": [
+        {
+          "id": "CP-757e317decd6724d",
+          "name": "4-溴苯硫酚",
+          "smiles": "Sc1ccc(Br)cc1"
+        }
+      ],
+      "reserve": [
+        {
+          "id": "CP-02287a1de385889e",
+          "name": "乙硫醇",
+          "smiles": "CCS"
+        },
+        {
+          "id": "CP-95e4c6bd10d240e3",
+          "name": "叔丁硫醇",
+          "smiles": "CC(C)(C)S"
+        },
+        {
+          "id": "CP-b18c4945d055e0a6",
+          "name": "苯硫酚",
+          "smiles": "Sc1ccccc1"
+        }
+      ]
+    },
+    "indole": {
+      "selected": [],
+      "reserve": [
+        {
+          "id": "CP-383b50ba8f0aa496",
+          "name": "吲哚",
+          "smiles": "c1ccc2[nH]ccc2c1"
+        }
+      ]
+    },
+    "naphthol": {
+      "selected": [],
+      "reserve": [
+        {
+          "id": "CP-5d0333041aebff88",
+          "name": "2-萘酚",
+          "smiles": "Oc1ccc2ccccc2c1"
+        }
+      ]
+    },
+    "S-S": {
+      "selected": [
+        {
+          "id": "CP-db052eb259749c35",
+          "name": "甲基苯基二硫化物",
+          "smiles": "CSSc1ccccc1"
+        }
+      ],
+      "reserve": [
+        {
+          "id": "CP-7647ff2ce0052a54",
+          "name": "二苯二硫化物",
+          "smiles": "c1ccc(SSc2ccccc2)cc1"
+        }
+      ]
+    }
+  },
+  "reader_summary": "对生成后的集合进行结构检查，含S-H前体在集合中有4种，其中主面板1种、备选3种。游离N-H吲哚骨架在集合中有1种，其中主面板0种、备选1种。萘酚骨架在集合中有1种，其中主面板0种、备选1种。二硫键前体在集合中有2种，其中主面板1种、备选1种。",
+  "performed_after_selection": true,
+  "fed_back_into_selection": false,
+  "does_not_prove_compatibility_or_blind_discovery": true,
+  "pattern_limitations": "Specified motifs only; positional/tautomer alternatives may need explicit additional structure comparison"
+}

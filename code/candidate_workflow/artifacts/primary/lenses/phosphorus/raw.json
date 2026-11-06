@@ -1,0 +1,442 @@
+{
+  "input_digest": "d2708611df56f83232ff2ec9cff73d6c76281b917d21fe811324afa7cddac02a",
+  "model_output": {
+    "candidates": [
+      {
+        "activation": "先以中性 P(III) 形式直接筛选；另设温和 Lewis 酸或可控氟离子受体条件，判断是否需先促进 C–F 离解。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "model_hypothesis",
+        "center": "P",
+        "citations": [],
+        "diagnostic": "用定量 19F/31P NMR 和 LC–MS 同时寻找目标 C(F)–P 烯烃及膦鎓型加成物；比较无活化剂、Lewis 酸和氟离子受体三组，并对观察到的膦鎓物种做独立后处理，区分直接取代与分步加成/消除。",
+        "family": "三烷基膦",
+        "lens": "phosphorus",
+        "name": "三甲基膦",
+        "reactive_form": "具有磷孤对电子的中性三甲基膦；成键原子是 P，而不是甲基碳。",
+        "reason": "小体积、高亲核性的 P(III) 边界探针。它可直接进攻暂态 gem-二氟烯酮或经氟离子抽取形成的烯丙基/烯基亲电中心；这是从磷亲核性向 Seed 固定 C(F)–P 连接关系的外推，不要求原有机硼转金属循环。",
+        "risks": [
+          "易氧化，水和氧会改变有效浓度",
+          "可能强配位或还原 Pd，造成催化剂失活或机理切换",
+          "可能形成稳定膦鎓盐而不能完成第二次脱氟",
+          "挥发性和高反应性增加操作及定量难度"
+        ],
+        "route": "P(III) 孤对电子对 CF3 来源碳进行亲核加成，随后脱氟形成保留一个 F 的 C(F)–P 烯烃；也可能先形成可分离或可观测的膦鎓中间体。",
+        "smiles": "P(C)(C)C"
+      },
+      {
+        "activation": "可先直接使用；并行考察自由基引发、光照以及非自由基 Lewis 酸活化，以确定是两电子亲核加成还是单电子路径。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-4158ec0d9401ca35bf8b",
+            "quote": "The data in Table 1 now show that the DFT-calculated MAA values for 1 (Table 1) are linearly related with their electrophilic reactivities towards the investigated R 3P nucleophiles, that is, Bu 3P and Ph 3P (ESI, † Fig.\nS1 and S2)."
+          }
+        ],
+        "diagnostic": "在严格匹配条件下比较三正丁基膦与三苯基膦的初速、膦氧化物生成量和 C(F)–P/C–P 膦鎓物种比例；加入自由基钟或分别使用 TEMPO、BHT时，只把差异性结果作为路径判别而非单独证据。",
+        "family": "三烷基膦",
+        "lens": "phosphorus",
+        "name": "三正丁基膦",
+        "reactive_form": "中性三正丁基膦的 P(III) 孤对电子中心。",
+        "reason": "比三甲基膦更易操作且仍具较强亲核性，用于覆盖柔性烷基膦区域。所引证据只说明 Bu3P 可作为可测量的膦亲核体；向 Seed 的净双脱氟 C–P 成键属于局部外推。",
+        "risks": [
+          "空气氧化生成三正丁基膦氧化物",
+          "可能与 Pd 强配位并抑制原路径",
+          "烷基膦可能发生自由基副反应或烷基裂解",
+          "疏水性和盐效应可能改变相行为"
+        ],
+        "route": "中性磷亲核加成至 CF3 来源碳，随后逐步失去氟离子；备选路径是原位生成磷中心自由基后加成，再经氧化/消除到达相同 C(F)–P 连接关系。",
+        "smiles": "P(CCCC)(CCCC)CCCC"
+      },
+      {
+        "activation": "直接作为中性 P(III) 亲核体筛选；若只观察到配位抑制，则转入无 Pd 的 Lewis 酸/氟离子受体分支。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-4158ec0d9401ca35bf8b",
+            "quote": "The data in Table 1 now show that the DFT-calculated MAA values for 1 (Table 1) are linearly related with their electrophilic reactivities towards the investigated R 3P nucleophiles, that is, Bu 3P and Ph 3P (ESI, † Fig.\nS1 and S2)."
+          }
+        ],
+        "diagnostic": "以三正丁基膦为配对参照，测量起始物消耗、目标单氟 C–P 产物、完全脱氟产物及三苯基膦氧化物；若无 Pd 分支形成目标物而 Pd 分支仅抑制转化，可支持独立亲核取代路径。",
+        "family": "三芳基膦",
+        "lens": "phosphorus",
+        "name": "三苯基膦",
+        "reactive_form": "中性三苯基膦的 P(III) 孤对电子中心；三个苯环碳不是本提案的成键原子。",
+        "reason": "提供较弱亲核、较强 π 接受和易分析的芳基膦基准。其 31P 信号和膦氧化物副产物便于追踪，但没有证据表明它在 Seed 上必然成键。",
+        "risks": [
+          "可能成为 Pd 配体而非反应伙伴",
+          "氧化成三苯基膦氧化物",
+          "生成稳定但不继续消除的烯基膦鎓盐",
+          "芳基膦体积可能降低对拥挤反应中心的进攻"
+        ],
+        "route": "对 gem-二氟烯酮或经氟离子抽取生成的亲电中心进行 P-加成，再经氟离子消除形成 C(F)–PPh3 型膦鎓烯烃；后续是否需要还原或去烷基化应由产物结构决定。",
+        "smiles": "P(c1ccccc1)(c1ccccc1)c1ccccc1"
+      },
+      {
+        "activation": "直接筛选中性膦，并单独设置无 Pd 条件；Lewis 酸活化仅作为独立机制分支。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-4fab030258a88044b80e",
+            "quote": "Intensive screening resulted in the identi ﬁcation of PCy 3 as a uniquely e ﬀective catalyst, whereas other phosphines, amines (DMAP and DABCO), and N-heterocyclic carbenes failed to promote this carbo ﬂuorination."
+          }
+        ],
+        "diagnostic": "比较 PCy3、PPh3 与 P(n-Bu)3 的目标 C–P 形成和底物消耗，并通过 31P NMR 判断 PCy3 是被氧化、形成 Pd 配合物还是形成新 C–P 物种；无 Pd 对照用于识别其是否可独立促成活化。",
+        "family": "位阻型三烷基膦",
+        "lens": "phosphorus",
+        "name": "三环己基膦",
+        "reactive_form": "中性三环己基膦的 P(III) 孤对电子中心。",
+        "reason": "兼具高电子密度和较大位阻，可探测“高亲核性是否足以补偿进入反应中心的空间代价”。引证反应是炔烃酰氟化中的催化作用，不证明 Seed C–P 成键，仅支持 PCy3 具有特殊反应性窗口。",
+        "risks": [
+          "可能优先成为强 Pd 配体并重构催化剂",
+          "位阻可能阻止磷对目标碳进攻",
+          "易氧化",
+          "可能促进与目标无关的脱氟或氢转移"
+        ],
+        "route": "高电子密度 P(III) 对活化的 CF3 来源碳进行加成/消除；另一假设是先通过膦介导的氟转移生成膦鎓中间体。",
+        "smiles": "P(C1CCCCC1)(C1CCCCC1)C1CCCCC1"
+      },
+      {
+        "activation": "作为强位阻 P(III) 边界探针直接筛选；必要时仅在无 Pd、较强亲电活化分支中考察。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "model_hypothesis",
+        "center": "P",
+        "citations": [],
+        "diagnostic": "与 PCy3 做匹配比较：监测是否形成 P–F、P=O 或膦鎓物种而没有 C–P 产物；若只发生氟捕获，则说明位阻允许外层氟转移但不允许目标碳进攻。",
+        "family": "强位阻三烷基膦",
+        "lens": "phosphorus",
+        "name": "三叔丁基膦",
+        "reactive_form": "中性三叔丁基膦的 P(III) 中心；成键假设针对 P 原子。",
+        "reason": "用于分离电子效应与空间效应。其强给电子性可能促进氟离子转移或单电子过程，而极大位阻可能抑制直接 C–P 成键，因此是有判别力的边界探针。",
+        "risks": [
+          "高度空气敏感且可能自燃，需按相应安全规范操作",
+          "极强 Pd 配位和还原能力可能导致催化剂失活",
+          "空间位阻可能完全阻断目标加成",
+          "可能只生成氟膦或氧化物"
+        ],
+        "route": "假设的外层氟离子抽取/膦鎓化后形成 C(F)–P 连接；与较小膦的结果比较可判断直接近程进攻是否关键。",
+        "smiles": "P(C(C)(C)C)(C(C)(C)C)C(C)(C)C"
+      },
+      {
+        "activation": "先作为中性亚磷酸酯直接筛选；若亲核性不足，可比较 Lewis 酸活化，但避免预设 Arbuzov 型后处理一定发生。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-4d92eba46fd9ebc390ce",
+            "quote": "In addition, tribenzyl phosphite ( 2f), tris(2,2,2- triﬂuoroethyl) phosphite ( 2g), and tris(1,1,1,3,3,3-hexa ﬂuoro- propan-2-yl) phosphite ( 2h) proved to be suitable nucleo- philes for the reaction, producing the expected products 4e−4g in 81 −87% yields."
+          }
+        ],
+        "diagnostic": "用 31P NMR 和高分辨 MS 区分未反应亚磷酸酯、磷酸酯、P–F 物种、膦鎓加成物及最终 C(F)–P(O)(OR)2 类产物；通过捕获或定量离去的甲基衍生物判断是否发生去烷基化。",
+        "family": "三烷基亚磷酸酯",
+        "lens": "phosphorus",
+        "name": "亚磷酸三甲酯",
+        "reactive_form": "中性 P(III) 亚磷酸三甲酯；成键原子为 P，三个 O 原子仅调节电子性质并可能参与后续重排。",
+        "reason": "覆盖较弱、氧配体稳定的 P(III) 亲核体。文献引证证明某些亚磷酸酯可作为 P(III) 亲核体，但底物并非 Seed；此处外推到单氟烯基膦酸酯形成。",
+        "risks": [
+          "可能优先发生氧化或水解",
+          "可能形成 O-加成或磷酸酯副产物",
+          "亲核性可能不足以进攻未充分活化的中间体",
+          "Lewis 酸可能同时分解 Seed 羰基底物"
+        ],
+        "route": "P(III) 对 CF3 来源碳加成形成磷鎓中间体，随后脱氟并发生去烷基化或氧转移，给出保持目标碳骨架的 C(F)–P(O)(OMe)2 类连接。",
+        "smiles": "P(OC)(OC)OC"
+      },
+      {
+        "activation": "以中性 P(III) 形式筛选，必要时采用独立 Lewis 酸氟抽取分支；需严格控制水。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-4d92eba46fd9ebc390ce",
+            "quote": "In addition, tribenzyl phosphite ( 2f), tris(2,2,2- triﬂuoroethyl) phosphite ( 2g), and tris(1,1,1,3,3,3-hexa ﬂuoro- propan-2-yl) phosphite ( 2h) proved to be suitable nucleo- philes for the reaction, producing the expected products 4e−4g in 81 −87% yields."
+          }
+        ],
+        "diagnostic": "与亚磷酸三甲酯并行比较，定量 C(F)–P 产物、P–F 物种和水解物；若含氟烷氧基版本只在强活化条件下反应，可把差异归因于降低的 P 亲核性而不是简单的亚磷酸酯家族结论。",
+        "family": "含氟烷基亚磷酸酯",
+        "lens": "phosphorus",
+        "name": "亚磷酸三(2,2,2-三氟乙基)酯",
+        "reactive_form": "中性 P(III) 中心；目标成键原子为 P，不是分子中任一 F、O 或三氟乙基碳。",
+        "reason": "电子贫化的亚磷酸酯边界探针，可测试强吸电子烷氧基对 P 成键和后续去烷基化的影响。引证反应支持该精确亚磷酸酯曾表现为亲核体，但并非碳酰基邻位 gem-二氟烯体系。",
+        "risks": [
+          "P 中心亲核性较低",
+          "可能释放或交换含氟醇盐，干扰氟平衡",
+          "水解和氧化会改变磷物种分布",
+          "多重含氟信号增加 19F 质量平衡解析难度"
+        ],
+        "route": "经亲电活化后由 P(III) 进攻，形成 C–P 膦鎓物种并脱氟；后续去烷基化/氧化可给出单氟烯基膦酸酯。",
+        "smiles": "P(OCC(F)(F)F)(OCC(F)(F)F)OCC(F)(F)F"
+      },
+      {
+        "activation": "直接作为中性 P(III) 亲核体筛选；同时设置无 Pd 条件，以避免把配体作用误判为成键作用。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-4d92eba46fd9ebc390ce",
+            "quote": "When methoxydiphenylphosphine ( 2i), ethoxydiphenylphosphine ( 2j), and isopropoxydiphenyl- phosphine ( 2k) were employed as the nucleophiles, the corresponding product of ((3,5-di- tert -butyl-4-hydroxy- phenyl)(phenyl)methyl) diphenylphos-phine oxide ( 4h)i s generated in the 78 −88% yield range."
+          }
+        ],
+        "diagnostic": "以 31P NMR 分辨起始 P(III)、P(V) 氧化物和 C–P 膦鎓物种，并用同位素标记甲氧基或产物分析判断甲氧基是否离去；与 PPh3 比较可检验 P–OMe 是否有助于成键后的重排。",
+        "family": "烷氧基二芳基膦",
+        "lens": "phosphorus",
+        "name": "甲氧基二苯基膦",
+        "reactive_form": "中性 P(III) 的磷孤对电子中心；P 为成键原子，甲氧基 O 不作为目标成键位点。",
+        "reason": "位于三芳基膦和亚磷酸酯之间的电子/结构区域，并具有潜在可离去的甲氧基。引证反应确认其可作为 P(III) 亲核体，但向 Seed 的 C(F)–P 成键及双脱氟结果仍是外推。",
+        "risks": [
+          "可能强配位 Pd",
+          "P–OMe 键可能发生非目标裂解",
+          "易氧化成膦酸酯或膦氧化物",
+          "可能形成稳定膦鎓中间体而停止"
+        ],
+        "route": "P(III) 亲核加成后脱氟，并通过甲氧基离去或氧转移形成中性单氟烯基膦氧化物；也允许直接分离膦鎓态作为路径证据。",
+        "smiles": "P(OC)(c1ccccc1)c1ccccc1"
+      },
+      {
+        "activation": "利用 P–H 键：比较碱促进的磷负离子路径、自由基引发路径及无活化对照；不预设必须保留 Pd。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-307199e244a61dbf5ab4",
+            "quote": "This approach uti- lizes the P( III)–H as the nucleophile, e ﬀectively overcoming the strong inhibitory e ﬀect (catalyst poisoning) of the reagent."
+          }
+        ],
+        "diagnostic": "使用 P–D 对应物进行平行实验并定位 D；若 C–P 形成伴随 D 转移到邻位碳，支持氢膦化型路径，若只形成 C(F)–P 且 D 不进入目标骨架，则更符合脱质子加成/消除。同步记录单氟与完全脱氟产物。",
+        "family": "二级芳基膦",
+        "lens": "phosphorus",
+        "name": "二苯基膦",
+        "reactive_form": "中性二苯基膦的 P(III)–H 中心，或经温和去质子化生成的二苯基磷负离子；两者的成键原子均为 P。",
+        "reason": "P–H 同时提供亲核、自由基和 σ 键转移三种可区分入口。引证体系是 gem-二氟丙二烯的 Pd 催化氢膦化，不能证明 Seed 兼容性，但支持将二级膦作为 C–P 成键探针。",
+        "risks": [
+          "强烈空气敏感并易氧化",
+          "可毒化或重构 Pd 催化剂",
+          "P–H 可能导致普通氢膦化而不发生目标双脱氟",
+          "碱或高温可能增加完全脱氟"
+        ],
+        "route": "P–H 直接氢膦化后再脱氟，或先生成 Ph2P−/Ph2P• 对 CF3 来源碳成键，随后消除至保留一个 F 的烯烃。",
+        "smiles": "[PH](c1ccccc1)c1ccccc1"
+      },
+      {
+        "activation": "以 P–H 去质子化或温和自由基生成作为两条独立分支；先评价无活化条件下的稳定性。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "model_hypothesis",
+        "center": "P",
+        "citations": [],
+        "diagnostic": "采用 P–D 标记并比较二苯基膦；测量 C–P 成键位置、D 去向和 E/Z 比。若二环己基膦只抑制 Pd 而无新 C–P 信号，则用无 Pd 活化分支判断这是配位问题还是本征空间限制。",
+        "family": "二级烷基膦",
+        "lens": "phosphorus",
+        "name": "二环己基膦",
+        "reactive_form": "中性二环己基膦 P(III)–H，或其去质子化/均裂产生的 P 中心活性形式；成键位点为 P。",
+        "reason": "与二苯基膦形成电子和自由基稳定性的对照，同时保留 P–H σ 键。它检验烷基取代磷是否能在不借助原有机硼循环的情况下形成固定 C(F)–P 连接。",
+        "risks": [
+          "空气敏感",
+          "较大位阻可能降低加成",
+          "强 Pd 配位可能导致催化剂抑制",
+          "P–H 可引发氢转移、还原或完全脱氟副反应"
+        ],
+        "route": "经磷负离子或磷中心自由基对 CF3 来源碳加成，随后脱氟；备选为先氢膦化再通过碱或催化剂完成选择性消除。",
+        "smiles": "[PH](C1CCCCC1)C1CCCCC1"
+      },
+      {
+        "activation": "优先考察自由基引发或光化学生成 Ph2P(O)•；另设温和碱促进的 P(V) 亲核路径和无引发剂对照。",
+        "atom_indices": [
+          1
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-02d0fdb64e035df834f5",
+            "quote": "Next, •CH3 (6) abstracts a hydrogen atom from diphenylphosphine oxide (P−H bond dissociationenergy=83.3kcal/mol)25 togenerateCH4 (C−H bond dissociation energy = 104.8 kcal/mol),26 followed by regioselective addition of P-centered radical 2a′ to the difluorinated position of the gem-difluoroalkene (1) to give carbon-centered radical intermediate 7."
+          }
+        ],
+        "diagnostic": "使用 P–D 和烯基自由基钟，比较有/无引发剂、光照和自由基抑制剂；通过 31P/19F NMR 与 HRMS 确认 C(F)–P(O)Ph2，而不是 O-加成物。自由基钟重排与 P–D 去向需联合解释。",
+        "family": "二级膦氧化物",
+        "lens": "phosphorus",
+        "name": "二苯基膦氧化物",
+        "reactive_form": "O=[PH](Ph)2；可能的活性形式为磷中心自由基 Ph2P(O)• 或去质子化的 P 中心亲核体。SMILES 中 P 为索引 1，O 为索引 0，目标新键明确形成在 P。",
+        "reason": "这是最直接覆盖磷中心自由基加成至 gem-二氟烯碳的探针。引证支持该局部加成模式，但其报道结果是氢膦酰化而非 Seed 所要求的净两次失氟，因此必须验证是否能到达固定单氟烯基连接。",
+        "risks": [
+          "可能停留在饱和氢膦酰化产物",
+          "自由基链可能引起非选择性还原或聚合",
+          "P/O 互变和阴离子离域可能造成 O-成键竞争",
+          "过氧化物或光照可能破坏羰基底物"
+        ],
+        "route": "由 P–H 产生 Ph2P(O)•，在 CF3 来源碳形成 C–P 键，随后经电子转移、去质子化及氟离子消除形成 C(F)–P(O)Ph2 烯烃。",
+        "smiles": "O=[PH](c1ccccc1)c1ccccc1"
+      },
+      {
+        "activation": "用温和碱生成磷中心亲核形式，或使用可控自由基引发生成二乙氧基磷酰自由基；两条路径分别评价。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-052ef9a9800401396c8b",
+            "quote": "Generation of dialkyl phosphonyl and thiophosphonyl radicals in the presence of 1,1- difluoroolefins furnishes regioadducts 1, thereby providing the first general synthesis of 2,2-di- substituted-l,l-difluorophosphonates and -phosphonothioates."
+          }
+        ],
+        "diagnostic": "用 P–D 亚磷酸二乙酯和自由基钟区分阴离子与自由基路径；定量目标单氟烯基膦酸酯、保留两个 F 的简单加成物和完全脱氟物。无碱、无引发剂以及仅加氟盐的对照用于分解各因素。",
+        "family": "二烷基亚磷酸酯",
+        "lens": "phosphorus",
+        "name": "亚磷酸二乙酯",
+        "reactive_form": "[PH](=O)(OEt)2；可能以去质子化磷中心亲核体或 (EtO)2P(O)• 反应，成键原子为索引 0 的 P。",
+        "reason": "覆盖稳定、易分析的 P(V)–H 型 σ 键供体/自由基前体。引证显示二烷基磷酰自由基可加成 1,1-二氟烯，但未显示 Seed 型羰基共轭体系的第二次脱氟，故属于局部外推。",
+        "risks": [
+          "可能只得到保留两个 F 的饱和加成物",
+          "碱促进水解或酯交换",
+          "自由基条件可能造成羰基还原或聚合",
+          "生成的磷酸酯盐可能改变 Pd 和氟离子活度"
+        ],
+        "route": "磷酰自由基或磷负离子对 CF3 来源碳成键，之后通过氧化还原/去质子化和 β-氟消除形成 C(F)–P(O)(OEt)2。",
+        "smiles": "[PH](=O)(OCC)OCC"
+      },
+      {
+        "activation": "作为预成形磷负离子使用，不依赖 Seed 的 Pd/有机硼体系；比较直接加入与低温预混亲电底物后升温两种时序。",
+        "atom_indices": [
+          1
+        ],
+        "basis": "model_hypothesis",
+        "center": "P",
+        "citations": [],
+        "diagnostic": "快速淬灭时间序列并用低温 31P/19F NMR 搜索 P-加成的二氟阴离子中间体；比较质子化回收、单氟 C–P 产物及完全脱氟物。加入等量 Li 盐但使用中性二苯基膦的对照可分辨阳离子/离子强度效应。",
+        "family": "金属磷化物",
+        "lens": "phosphorus",
+        "name": "二苯基磷化锂",
+        "reactive_form": "离子对 [Li+][PPh2−]；SMILES 中 Li 为索引 0，实际形成新键的是索引 1 的 P。",
+        "reason": "预成形 P 阴离子可直接测试 gem-二氟烯酮加成/脱氟假设，完全绕开未知 Pd 转金属步骤。它是高反应性边界探针，重点在判断 C–P 成键是否可由单纯亲核加成实现。",
+        "risks": [
+          "强碱性可能引发羰基加成、烯醇化或底物分解",
+          "对水和氧极敏感",
+          "锂离子配位可能改变区域选择性",
+          "快速连续脱氟可能越过目标单氟停止点"
+        ],
+        "route": "PPh2− 对暂态或独立生成的 gem-二氟烯酮之 CF2 碳直接加成，所得 β-氟碳负离子消除 LiF，形成目标 C(F)–PPh2 烯烃。",
+        "smiles": "[Li+].[P-](c1ccccc1)c1ccccc1"
+      },
+      {
+        "activation": "需要断裂或转移 P–Si 键；可比较氟离子、温和亲电活化剂和无活化对照，但必须监控氟硅烷形成。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "model_hypothesis",
+        "center": "P",
+        "citations": [],
+        "diagnostic": "同步定量 Me3SiF 与 C(F)–P 产物。若 Me3SiF 形成而无 C–P 键，说明仅发生氟捕获；若 C–P 形成与 Me3SiF 同步且无 Pd 条件也成立，则支持硅驱动的 P 转移/脱氟路径。",
+        "family": "硅基磷转移试剂",
+        "lens": "phosphorus",
+        "name": "三(三甲基硅基)膦",
+        "reactive_form": "P(SiMe3)3；索引 0 的 P 是拟转移和成键中心，Si 主要提供亲氟驱动力。",
+        "reason": "这是金属自由的 P 键转移前体，可把强 Si–F 形成与 C–P 构建耦合。它检验氟捕获是否能驱动 Seed 中间体在保留一个 F 时停止，属于高信息量但高反应性的边界假设。",
+        "risks": [
+          "高度水敏和空气敏感",
+          "可能只消耗氟形成硅氟化物而不成 C–P 键",
+          "可能发生多次 P–Si 断裂及复杂磷物种歧化",
+          "强氟亲和性可能推动完全脱氟"
+        ],
+        "route": "氟离子诱导 P–Si 裂解生成亲核性磷物种，同时 Me3SiF 捕获离去氟；磷对 CF3 来源碳成键并再消除一个氟，形成固定 C(F)–P 连接。",
+        "smiles": "P([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C"
+      },
+      {
+        "activation": "可经单电子氧化或氢原子转移生成 H2P(O)•，也可在温和碱下评价其阴离子形式；需与无活化对照并行。",
+        "atom_indices": [
+          2
+        ],
+        "basis": "model_hypothesis",
+        "center": "P",
+        "citations": [],
+        "diagnostic": "采用氘代次磷酸盐并追踪 D 去向；用 31P NMR/HRMS 判断形成的是 C(F)–P(O)H2、进一步取代的多 C–P 产物还是单纯还原产物。改变底物与试剂接触时间可检验产物是否继续发生第二次 P–H 官能化。",
+        "family": "无机 P–H σ 键供体",
+        "lens": "phosphorus",
+        "name": "次磷酸钠",
+        "reactive_form": "[Na+][H2P(O)O−]；SMILES 中 Na、双键 O、P、阴离子 O 的索引依次为 0、1、2、3，目标成键原子明确为索引 2 的 P。",
+        "reason": "最小型 P–H/P(O) 供体，覆盖无芳基、无烷氧基的极性端点。它可通过磷中心自由基或亲核路径形成 C–P 键，但没有直接 Seed 先例，因此主要用于判别反应中心对小型磷供体的可达性。",
+        "risks": [
+          "盐在 DCE 等低极性介质中的溶解度可能很低",
+          "P–H 可能造成净还原或氢脱氟",
+          "形成的一级膦酸衍生物可能继续反应",
+          "水合状态和离子对会显著改变有效反应形式"
+        ],
+        "route": "生成 H2P(O)• 或相应磷亲核体后在 CF3 来源碳成键，再经电子转移和氟消除形成单氟烯基次膦酸盐连接。",
+        "smiles": "[Na+].O=[PH2][O-]"
+      },
+      {
+        "activation": "优先采用自由基引发或光化学 H 抽取；另设温和碱和无活化对照，判断 P=S 是否仍允许 P 中心成键。",
+        "atom_indices": [
+          1
+        ],
+        "basis": "local_analogy",
+        "center": "P",
+        "citations": [
+          {
+            "evidence_id": "EV-052ef9a9800401396c8b",
+            "quote": "Generation of dialkyl phosphonyl and thiophosphonyl radicals in the presence of 1,1- difluoroolefins furnishes regioadducts 1, thereby providing the first general synthesis of 2,2-di- substituted-l,l-difluorophosphonates and -phosphonothioates."
+          }
+        ],
+        "diagnostic": "与二苯基膦氧化物做直接配对，比较自由基钟响应、C(F)–P 形成和保留两个 F 的加成物；31P NMR 与硫分析用于排除先脱硫后由另一磷物种反应。",
+        "family": "二级硫代膦氧化物",
+        "lens": "phosphorus",
+        "name": "二苯基硫代膦氧化物",
+        "reactive_form": "S=[PH](Ph)2；SMILES 中 S 为索引 0、P 为索引 1，新键应形成在 P 而不是 S。可能活性形式为 Ph2P(S)•。",
+        "reason": "P=S 类似物测试磷中心自由基的极性和后续脱氟需求；所引证据支持硫代磷酰自由基对 1,1-二氟烯加成，但不证明会在 Seed 上完成净双脱氟。",
+        "risks": [
+          "可能发生 S-成键或硫转移竞争",
+          "可能只形成保留两个 F 的自由基加成物",
+          "氧化、脱硫或 P=S/P–S 物种交换会复杂化分析",
+          "自由基条件可能降低单氟停止选择性"
+        ],
+        "route": "P–H 均裂或氢原子转移生成 Ph2P(S)•，在 CF3 来源碳形成 C–P 键，再经还原/氧化和氟消除得到 C(F)–P(S)Ph2。",
+        "smiles": "S=[PH](c1ccccc1)c1ccccc1"
+      }
+    ],
+    "uncovered": [
+      "未纳入需要原位制备且结构未明确的低价磷金属配合物，因为不能把未指定中间体当作可购买试剂。",
+      "未覆盖磷叶立德的碳端成键；该路径会优先形成目标碳–碳键而不是本面板用于判别的目标碳–磷键，并可能改变固定连接关系。",
+      "未覆盖预成形烯基磷鎓盐的偶联，因为其通常转移烯基或作为配体/离去基，不能直接保证 P 原子连接到 CF3 来源碳。",
+      "Seed 精确底物身份、暂态 gem-二氟烯酮的可获得性以及目标 E/Z 定义尚未确认，因此所有候选都需要先做原子映射和产物结构确认。",
+      "强碱性磷负离子、自由基引发条件、Lewis 酸氟抽取条件与 Seed 的 Pd168/KHCO3/DCE 窗口均可能不兼容；这些是独立机制分支而不是可直接移植的条件。",
+      "面板未穷尽手性二级膦、膦硼烷保护体、环状亚磷酸酯及膦杂环；应根据首轮中 P(III)、P(V)–H、磷负离子和硅基转移四类的分化结果再展开。",
+      "单氟烯基 C–P 产物可能在反应或后处理阶段继续脱氟、氧化、质子化或发生 E/Z 异构化；必须进行独立产物重投和含氟质量平衡。"
+    ]
+  },
+  "response_id": "resp_0f1bc7b30a153f5e016a9e9ca9b30887d08e0402b385a10b41",
+  "returned_model": "gpt-5.6-sol",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 25591,
+    "output_tokens": 9953,
+    "total_tokens": 35544
+  }
+}

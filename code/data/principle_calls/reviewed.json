@@ -1,0 +1,444 @@
+{
+  "accepted": [
+    {
+      "principle_id": "RP-SR001-SS-01",
+      "principle_layer": "seed_specific",
+      "title": "Condition-bounded two-fluorine stopping point",
+      "status": "accepted",
+      "claim": "Within the grounded Seed system, productive coupling is a condition-bounded net conversion that forms a C-C bond at the CF3-derived carbon while stopping after loss of two fluorines at a monofluoroalkene; stronger base or higher temperature is predicted to increase the competing fully defluorinated alkene rather than simply improve productive conversion.",
+      "mechanistic_basis": [
+        "The Seed establishes only the net two-fluorine-loss outcome and condition dependence.",
+        "Sequential beta-fluoride eliminations and a Pd-H-mediated over-defluorination branch are AUTHOR HYPOTHESES, not established steps.",
+        "Transferred assessments support condition control of defluorination count but do not transfer their hydrodefluorination mechanisms."
+      ],
+      "applicable_electrophile_families": [
+        "Seed carbonyl-adjacent trifluoroethyl carbonyl substrates only"
+      ],
+      "applicable_nucleophile_families": [
+        "Seed-tested organoboron carbon-transfer partners only"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Organoboron carbon donors"
+      ],
+      "required_reactive_form": "A Seed carbonyl-adjacent trifluoroethyl substrate, an operative organoboron species of unknown speciation, and a catalytically competent but structurally unresolved Pd state.",
+      "catalyst_requirements": [
+        "The reported Pd168 identifier and KHCO3 are required under the grounded model conditions.",
+        "The active Pd species, oxidation state, nuclearity, ligand retention, and molecular role of KHCO3 remain unknown."
+      ],
+      "condition_window": [
+        "Pd168 identifier, KHCO3, DCE, 80 °C, N2.",
+        "Best reported model yield: 65%.",
+        "HTE setup: 12 h and 250 μL total volume.",
+        "Catalyst loading, reactant equivalents, concentrations, and detailed catalyst identity are unknown.",
+        "Stronger base and higher temperature lie outside the reported selective window."
+      ],
+      "structural_promoters": [
+        "A carbonyl group adjacent to the trifluoroethyl reaction center, without asserting that coordination is operative.",
+        "A coupling partner able to transfer carbon under the grounded Pd/base conditions."
+      ],
+      "structural_inhibitors": [
+        "Features that promote product reinsertion or further C-F loss.",
+        "Unresolved product instability under reaction or workup conditions."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE002",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE008",
+        "SE-REACTION-CLASS",
+        "SE-PD-CAS-ROW"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-0108d952d30b1d1f",
+        "TA-05555bbbf61a6c35",
+        "TA-0d63c8335aba7bcf",
+        "TA-10ebccfbd07d4938"
+      ],
+      "contradictory_evidence": [],
+      "known_exceptions": [
+        "No quantitative base-strength or temperature threshold is established.",
+        "The reported relation may be substrate-specific.",
+        "Conversion and isolated yield may diverge because product persistence and workup recovery are not established."
+      ],
+      "predicted_failure_modes": [
+        "Over-defluorination at elevated temperature or with stronger base.",
+        "Unproductive substrate consumption or poor mass balance.",
+        "Product loss, isomerization, or decomposition during prolonged reaction or workup."
+      ],
+      "confidence": "low",
+      "experimental_consequence": "A base-identity, base-loading, and temperature matrix should change the ratio of desired monofluoroalkene to fully defluorinated alkene, with harsher conditions favoring over-defluorination even when total conversion rises.",
+      "falsifying_experiment": "Run quantitative time courses at the grounded condition and at systematically stronger-base or higher-temperature conditions, measuring starting material, coupled monofluoroalkene, fully defluorinated alkene, other fluorinated products, and fluorine mass balance. Invariant mono/over-defluorination ratios, or monotonic improvement without increased over-defluorination, would falsify the principle.",
+      "review_status": "accepted",
+      "provenance": {
+        "run_id": "SR001-grounded-transfer-bundle",
+        "model": null,
+        "prompt_version": null,
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "freeze_version": null
+    },
+    {
+      "principle_id": "RP-SR001-SS-02",
+      "principle_layer": "seed_specific",
+      "title": "Multivariable organoboron scope boundary",
+      "status": "revised",
+      "claim": "Under the grounded Seed conditions, coupling-partner performance may depend jointly on electronics, coordination, steric congestion, and the organoboron reactive form. The reported limitations for highly electron-deficient heteroaryl, strongly coordinating, sterically congested, and ortho-disubstituted partners are Seed-specific risk boundaries, while a blanket alkyl-organoboron exclusion is unsupported because the supplied Seed account also reports a productive N-Boc-protected piperidinyl boronic-ester model result.",
+      "mechanistic_basis": [
+        "The Seed reports combined electronic and steric dependence but supplies no quantitative thresholds.",
+        "The operative organoboron species and whether KHCO3 activates it are unknown.",
+        "Conditional transferred assessments support organoboron carbon-transfer competence while preserving catalyst, electrophile, and condition mismatches.",
+        "Transferred negative scope observations are condition-specific and do not establish family-wide exclusion."
+      ],
+      "applicable_electrophile_families": [
+        "Seed carbonyl-adjacent trifluoroethyl carbonyl substrates only"
+      ],
+      "applicable_nucleophile_families": [
+        "Organoboron partners evaluated under the complete Seed conditions"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Organoboron carbon donors"
+      ],
+      "required_reactive_form": "A transmetalation-competent organoboron species generated or maintained in the complete Seed Pd168/KHCO3/DCE mixture; its molecular identity is unknown.",
+      "catalyst_requirements": [
+        "Use the complete grounded Pd168/KHCO3 system when evaluating scope.",
+        "Do not infer that a scope failure identifies a catalyst-independent or family-wide boundary."
+      ],
+      "condition_window": [
+        "Pd168 identifier, KHCO3, DCE, 80 °C, N2, with the reported 12 h model setup.",
+        "Partners must be compared at matched loading, concentration, water content, and workup.",
+        "Partner boron speciation and the molecular role of KHCO3 remain unknown."
+      ],
+      "structural_promoters": [
+        "Demonstrated persistence of the organoboron reagent under Seed conditions.",
+        "Accessible carbon transfer without strong competitive Pd binding."
+      ],
+      "structural_inhibitors": [
+        "Strongly coordinating donor sites under the Seed conditions.",
+        "Highly electron-deficient heteroaryl substitution under the Seed conditions.",
+        "Severe steric congestion or ortho-disubstitution.",
+        "Structures or conditions that accelerate organoboron decomposition."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE006",
+        "SE007",
+        "SE008",
+        "SE009",
+        "SE-REACTION-CLASS",
+        "SE-PD-CAS-ROW"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-045aa91b705d973f",
+        "TA-046aa067fd0433f1",
+        "TA-08460c06a45a7126",
+        "TA-0a80429642690515",
+        "TA-111ffd381af67de3",
+        "TA-06fb6d7132cb3399"
+      ],
+      "contradictory_evidence": [],
+      "known_exceptions": [
+        "The productive protected piperidinyl boronic-ester model conflicts with the manuscript's alkyl-organoboron failure statement.",
+        "Selected heteroaryl or electronically varied partners working in other catalytic systems do not establish Seed compatibility.",
+        "A low yield under one ligand or condition does not establish intrinsic partner incompatibility."
+      ],
+      "predicted_failure_modes": [
+        "Coordination-associated Pd inhibition or altered catalyst speciation.",
+        "Slow or absent carbon transfer from an insufficiently activated organoboron species.",
+        "Sterically inhibited coupling.",
+        "Protodeboronation or other donor decomposition.",
+        "Misclassification of a condition-specific failure as an intrinsic family exclusion."
+      ],
+      "confidence": "low",
+      "experimental_consequence": "Matched Seed-condition comparisons that vary one partner feature at a time should determine whether the reported limitations track electronics, coordination, steric congestion, reactive-form stability, or interactions among those variables; no aryl-versus-alkyl boundary is established in advance.",
+      "falsifying_experiment": "Under otherwise matched Seed conditions, test organoboron partners that independently vary steric congestion, coordination ability, and electronics, including matched cyclic carbon donors with and without the reported protecting-group environment. Quantify reagent persistence, desired coupling, protodeboronation, and over-defluorination. Reproducible performance independent of all varied features would falsify the proposed multivariable dependence, while a resolved and exception-free alkyl boundary would falsify the claim that the family boundary remains unresolved.",
+      "review_status": "revised",
+      "provenance": {
+        "run_id": "SR001-grounded-transfer-bundle",
+        "model": null,
+        "prompt_version": null,
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "freeze_version": null
+    },
+    {
+      "principle_id": "RP-SR001-SS-03",
+      "principle_layer": "seed_specific",
+      "title": "Kinetic-competence requirement for Seed intermediates",
+      "status": "revised",
+      "claim": "If the proposed carbonyl-bound Pd intermediate, gem-difluoroenone, Pd-H species, or sequential insertion/transmetalation/beta-fluoride-elimination sequence lies on the productive Seed pathway, the relevant intermediate must be structurally supported and kinetically competent under conditions demonstrably connected to the grounded reaction. The supplied net chemistry and inconclusive trapping do not currently establish any complete catalytic sequence.",
+      "mechanistic_basis": [
+        "All detailed Seed elementary steps are explicitly tentative AUTHOR HYPOTHESES.",
+        "Attempted detection or trapping of the proposed gem-difluoroenone was inconclusive.",
+        "Transferred Pd-alkene coordination and beta-fluoride-elimination precedents are conditional and use different substrates, nucleophiles, catalysts, or conditions.",
+        "Transferred alternatives show that bimetallic, cationic, and metathesis interpretations require discriminating evidence."
+      ],
+      "applicable_electrophile_families": [
+        "Seed carbonyl-adjacent trifluoroethyl carbonyl substrates and independently prepared faithful Seed intermediates"
+      ],
+      "applicable_nucleophile_families": [
+        "Seed organoboron carbon-transfer partners"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Organoboron carbon donors"
+      ],
+      "required_reactive_form": "An authenticated or orthogonally characterized Seed-relevant intermediate whose kinetic competence is tested under the complete grounded catalytic mixture or under conditions explicitly bridged to it.",
+      "catalyst_requirements": [
+        "Pd is experimentally required for the reported Seed outcome.",
+        "No specific Pd coordination geometry, oxidation state, hydride, ligand state, or aggregation state is established."
+      ],
+      "condition_window": [
+        "Mechanistic tests should reproduce Pd168, KHCO3, DCE, 80 °C, and N2 where feasible.",
+        "Stoichiometric, trapping, or lower-temperature conditions require explicit condition-mismatch controls.",
+        "Intermediate detection must be time-resolved and orthogonally validated."
+      ],
+      "structural_promoters": [
+        "A carbonyl-adjacent fluorinated reaction center capable of reproducing the Seed atom map.",
+        "A fluorinated alkene geometry compatible with a directly tested Pd interaction."
+      ],
+      "structural_inhibitors": [
+        "Substitutions that prevent the hypothesized elimination geometry, if that geometry is shown to matter.",
+        "Strong ligands or probes that sequester Pd.",
+        "Probe structures that do not preserve the Seed reaction center."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE002",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE007",
+        "SE008",
+        "SE010",
+        "SE-REACTION-CLASS",
+        "SE-PD-CAS-ROW"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-01db0c67185d44fb",
+        "TA-0d9699af22959ec0",
+        "TA-0eafe7123b5b9f92",
+        "TA-115306a777aa9488",
+        "TA-010ecc1804f1667a",
+        "TA-01acc5b70a495a53"
+      ],
+      "contradictory_evidence": [
+        "TA-01f30125b73aef0b",
+        "TA-03475a492989a49a",
+        "TA-09524409e597b505"
+      ],
+      "known_exceptions": [
+        "Failure to accumulate an intermediate does not exclude fast reversible formation.",
+        "Spectral similarity alone does not establish intermediate identity.",
+        "TEMPO inhibition alone does not establish a radical step.",
+        "A different Pd nuclearity or ligand state may operate without changing the net bond changes."
+      ],
+      "predicted_failure_modes": [
+        "Off-pathway formation of a detectable fluorinated alkene.",
+        "Catalyst inhibition by a probe or added ligand.",
+        "Misassignment of gas-phase, spectrometric, or transient species as solution intermediates.",
+        "Non-diagnostic radical-trap suppression.",
+        "Condition-induced switching to a pathway absent under the grounded reaction."
+      ],
+      "confidence": "low",
+      "experimental_consequence": "An independently prepared or generated Seed-relevant gem-difluoroenone can support an on-pathway assignment only if it enters product formation under grounded or explicitly bridged conditions at a rate compatible with turnover; tests of Pd nuclearity, carbonyl involvement, labeling, and radical behavior must distinguish the proposed sequence from supplied alternatives.",
+      "falsifying_experiment": "Independently prepare or generate a faithful gem-difluoroenone, establish its identity and concentration by orthogonal analysis, and compare its product-forming rate with that of the parent Seed substrate under grounded conditions. Failure to form the Seed product at a kinetically competent rate would falsify its assignment as an obligatory productive intermediate; Pd-order, carbonyl-perturbation, isotope-label, and radical-clock results incompatible with the proposed sequence would falsify the corresponding elementary-step assignments.",
+      "review_status": "revised",
+      "provenance": {
+        "run_id": "SR001-grounded-transfer-bundle",
+        "model": null,
+        "prompt_version": null,
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "freeze_version": null
+    },
+    {
+      "principle_id": "RP-SR001-TS-01",
+      "principle_layer": "transferable_super",
+      "title": "Local beta-fluoride-elimination liability",
+      "status": "revised",
+      "claim": "In the supplied conditional analogies, a suitably configured beta-fluoro carbon-metal or carbanion-like addition intermediate may undergo beta-fluoride elimination to a fluorinated alkene. Transfer is limited to this local elementary-step hypothesis and requires independent demonstration of the intermediate, its elimination geometry, and its kinetic competence; it does not establish the Seed's initial activation, complete cycle, or sequential loss of two fluorines.",
+      "mechanistic_basis": [
+        "Conditional transfer assessments identify proposed or observed beta-fluoride elimination after nucleophilic addition, carbometalation, or insertion.",
+        "The common transferable content is limited to local intermediate geometry and fluorine loss, not catalyst identity or a complete mechanism.",
+        "Seed net atom mapping is compatible with sequential C-F loss but does not prove this elementary route."
+      ],
+      "applicable_electrophile_families": [
+        "Fluorinated addition intermediates bearing a carbon-metal or carbanion-like center beta to fluorine",
+        "Carbonyl-conjugated gem-difluoroalkenes when the relevant reactive form is demonstrated"
+      ],
+      "applicable_nucleophile_families": [
+        "Carbon-transfer partners shown to generate the required beta-fluoro addition intermediate"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Conditionally activated carbon donors"
+      ],
+      "required_reactive_form": "A structurally verified beta-fluoro carbon-metal or carbanion-like intermediate with an accessible elimination geometry; formal substrate similarity alone is insufficient.",
+      "catalyst_requirements": [
+        "A catalyst or reagent system experimentally shown to form the required beta-fluoro addition intermediate.",
+        "No particular metal, ligand, initial activation step, or complete catalytic cycle transfers without direct compatibility evidence."
+      ],
+      "condition_window": [
+        "The intermediate must have a feasible beta-fluoride-elimination geometry and sufficient anionic or metal-associated character.",
+        "Catalyst, ligand, base, solvent, and temperature effects must be re-established for each system.",
+        "The first productive C-F loss must be distinguished from further loss through product reinsertion, reduction, or another pathway."
+      ],
+      "structural_promoters": [
+        "Stabilization sufficient to form but not indefinitely trap the beta-fluoro intermediate.",
+        "A geometry enabling C-C bond formation and subsequent fluoride loss.",
+        "A product alkene resistant to further catalyst engagement."
+      ],
+      "structural_inhibitors": [
+        "Absence of beta fluorine relative to the reactive carbon center.",
+        "Geometry that prevents elimination.",
+        "Rapid protonation, hydrolysis, or competing beta-hydrogen elimination.",
+        "Product structures susceptible to immediate reinsertion or further C-F loss."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE002",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE008",
+        "SE-REACTION-CLASS"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-01db0c67185d44fb",
+        "TA-029e918657a2428f",
+        "TA-047b923db0de83a2",
+        "TA-0c62321b8fca1b14",
+        "TA-0d9699af22959ec0",
+        "TA-104265a14fb879c7",
+        "TA-10ebccfbd07d4938"
+      ],
+      "contradictory_evidence": [],
+      "known_exceptions": [
+        "A beta hydrogen may enable competing beta-hydrogen elimination.",
+        "Protic media may redirect the intermediate to hydrofunctionalization, substitution, decomposition, or complete defluorination.",
+        "Fluorine migration and ambident O/C substitution are not evidence for beta-fluoride elimination.",
+        "The required Seed intermediate has not been established."
+      ],
+      "predicted_failure_modes": [
+        "Beta-hydrogen elimination.",
+        "Protonation or hydrolysis before fluoride loss.",
+        "Further defluorination of the first fluorinated-alkene product.",
+        "Alternative direct vinylic substitution.",
+        "Failure to generate or verify the required intermediate."
+      ],
+      "confidence": "low",
+      "experimental_consequence": "A structurally verified beta-fluoro intermediate should produce a fluorinated alkene with mapped fluoride loss under validated conditions if the local elimination hypothesis applies; matched changes that remove the beta relationship or prevent the required geometry should perturb that behavior.",
+      "falsifying_experiment": "Prepare matched, atom-mapped intermediates with and without the beta-fluoro arrangement, verify that the proposed reactive forms are generated, and expose them to otherwise identical validated conditions. Absence of beta-fluoride elimination from the verified beta-fluoro intermediate, or indistinguishable fluoride loss and alkene connectivity from controls lacking the required beta relationship or geometry, would falsify the local transfer for that system.",
+      "review_status": "revised",
+      "provenance": {
+        "run_id": "SR001-grounded-transfer-bundle",
+        "model": null,
+        "prompt_version": null,
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "freeze_version": null
+    },
+    {
+      "principle_id": "RP-SR001-TS-02",
+      "principle_layer": "transferable_super",
+      "title": "Partial defluorination as a conditional kinetic stopping point",
+      "status": "revised",
+      "claim": "Where a partially defluorinated intermediate or product remains reactive in the operative mixture, the desired fluorination state can be a kinetic stopping point rather than an intrinsic endpoint. The Seed and conditional transferred evidence justify testing temperature, base, reagent stoichiometry, fluoride activity, water content, and residence time as system-specific variables, but they do not establish a universal direction or magnitude for those effects.",
+      "mechanistic_basis": [
+        "The Seed reports more over-defluorination with stronger base or higher temperature.",
+        "Conditional assessments support system-specific control of defluorination count by conditions without transferring their catalytic cycles.",
+        "Unknown and non-transferable assessments identify water, salt, stoichiometry, stereochemical evolution, and workup recovery as testable cautions rather than established shared mechanisms."
+      ],
+      "applicable_electrophile_families": [
+        "Fluorinated substrates for which sequential partial and further defluorination are observed or directly tested",
+        "Fluorinated alkene products shown to remain susceptible to the operative reaction mixture"
+      ],
+      "applicable_nucleophile_families": [
+        "Carbon donors compatible with the tested catalytic mixture"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Conditionally activated carbon donors"
+      ],
+      "required_reactive_form": "A verified partially defluorinated product or intermediate that remains exposed to a reagent or catalyst capable of further C-F loss or pathway diversion.",
+      "catalyst_requirements": [
+        "A catalyst system capable of the desired bond construction and partial defluorination.",
+        "Catalyst speciation must be assessed across condition changes; no cross-metal catalyst substitution or complete mechanism is implied."
+      ],
+      "condition_window": [
+        "Begin from a productive baseline and vary condition dimensions independently where feasible.",
+        "Use ion-pair, salt, and scavenger controls before assigning an effect to fluoride activity.",
+        "Control water content and distinguish effects on donor activation, catalyst speciation, hydrolysis, and elimination.",
+        "Use time-resolved calibrated product measurements and product-resubjection controls rather than endpoint isolated yield alone."
+      ],
+      "structural_promoters": [
+        "A partially defluorinated product with low affinity for the active catalyst.",
+        "Features that slow subsequent activation without blocking initial bond construction.",
+        "Conditions that remove or quench the product before further reaction."
+      ],
+      "structural_inhibitors": [
+        "Products shown to undergo catalyst reinsertion, reduction, hydrolysis, or nucleophilic addition.",
+        "Structures whose remaining C-F bond is activated under the productive conditions.",
+        "Functional groups shown to impair workup persistence."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE002",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE006",
+        "SE008",
+        "SE009",
+        "SE-REACTION-CLASS",
+        "SE-PD-CAS-ROW"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-0108d952d30b1d1f",
+        "TA-0198e7a58aa3a739",
+        "TA-02986091a467e200",
+        "TA-032913cb276683b9",
+        "TA-03500fd4a915ddec",
+        "TA-04dda32dc08c40e3",
+        "TA-05555bbbf61a6c35",
+        "TA-0d63c8335aba7bcf",
+        "TA-12546bed8bdfc652"
+      ],
+      "contradictory_evidence": [],
+      "known_exceptions": [
+        "Some fluorinated products may be persistent across the tested window.",
+        "Water or salts may affect organoboron or catalyst speciation without directly controlling fluoride loss.",
+        "Stoichiometric effects may reflect conversion or catalyst concentration rather than sequential product reaction.",
+        "Transferred systems establish condition sensitivity only in their own bounded settings.",
+        "The supplied product-recovery failure is explicitly structure-specific and cannot be generalized to all monofluoroalkenes."
+      ],
+      "predicted_failure_modes": [
+        "Further defluorination during prolonged catalyst exposure.",
+        "Hydrolysis, protic addition, or decomposition after initial product formation.",
+        "Organoboron decomposition under altered water or salt conditions.",
+        "Misleading isolated yields caused by structure-specific workup instability.",
+        "Incorrect selectivity estimates from uncalibrated analytical response."
+      ],
+      "confidence": "low",
+      "experimental_consequence": "For an applicable system, time or condition changes should alter the distribution between partial defluorination, further defluorination, and decomposition independently of total conversion; the direction must be established experimentally for that system.",
+      "falsifying_experiment": "Starting from a productive baseline, perform time courses that independently vary temperature, base identity or loading, donor-to-electrophile ratio, controlled water, and selected fluoride scavengers. Include isolated-product resubjection and calibrated crude-versus-isolated analysis. If the verified partially defluorinated species is not consumed and fluorination-state distributions remain invariant across the validated window, the kinetic-stopping-point principle is falsified for that system.",
+      "review_status": "revised",
+      "provenance": {
+        "run_id": "SR001-grounded-transfer-bundle",
+        "model": null,
+        "prompt_version": null,
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "freeze_version": null
+    }
+  ],
+  "rejected": [],
+  "reviewer": "independent model review plus deterministic source-reference checks; not human review"
+}

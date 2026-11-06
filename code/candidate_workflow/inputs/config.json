@@ -1,0 +1,70 @@
+{
+  "study_id": "trifluoroethyl-carbonyl-exploration-v1",
+  "fixed_component": "Seed trifluoroethyl carbonyl; exact chosen model identity requires operational confirmation",
+  "target": "Preserve intended carbonyl scaffold; introduce variable partner onto CF3-derived alkene carbon retaining one F, net two F loss.",
+  "variable_role": "reaction partner; allow new bond types and mechanisms",
+  "bundle": "bundle.json",
+  "model": "gpt-5.6-sol",
+  "panel_budget": 48,
+  "evidence_per_lens": 24,
+  "per_source_cap": 2,
+  "workers": 3,
+  "lenses": [
+    {
+      "id": "carbon_pi",
+      "description": "Neutral carbon pi nucleophiles and ambident aromatic systems",
+      "patterns": [
+        "\\bpi\\b|π|aromatic nucleophil|electron.rich.*arom|heteroarom|Friedel",
+        "fluor|carbonyl|electrophil"
+      ]
+    },
+    {
+      "id": "carbon_transfer",
+      "description": "Carbon anions and organometallic carbon transfer",
+      "patterns": [
+        "carbanion|enolate|organoboron|transmetal",
+        "fluor|carbonyl|palladium"
+      ]
+    },
+    {
+      "id": "nitrogen",
+      "description": "Neutral or base-activated nitrogen bond formation",
+      "patterns": [
+        "amine|nitrogen nucleophil|N.nucleophil|amidate",
+        "fluor|coordina|base"
+      ]
+    },
+    {
+      "id": "oxygen",
+      "description": "Oxygen lone-pair and oxygen-anion bond formation; preserve ambident carbon options",
+      "patterns": [
+        "alkoxide|phenoxide|oxyanion|oxygen nucleophil",
+        "fluor|counterion|base"
+      ]
+    },
+    {
+      "id": "sulfur",
+      "description": "Sulfur lone-pair, anionic, metal-bound and sigma-bond transfer precursors",
+      "patterns": [
+        "sulfur|thiol|sulfide|S.S|disulf",
+        "fluor|palladium|oxid"
+      ]
+    },
+    {
+      "id": "phosphorus",
+      "description": "Phosphorus nucleophiles and phosphorus bond-transfer precursors",
+      "patterns": [
+        "phosphine|phosphorus|phosphonium|phosphonate",
+        "fluor|nucleophil|palladium"
+      ]
+    },
+    {
+      "id": "radical_other",
+      "description": "Radical and other main-group group-transfer precursors",
+      "patterns": [
+        "radical precursor|radical addition|silane|borane|selen",
+        "fluor|carbonyl|transfer"
+      ]
+    }
+  ]
+}

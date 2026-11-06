@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying article and these research materials."
+title: "Research materials for Large Language Model-Driven Knowledge Transfer Enables Selective Defluorinative Reaction Discovery"
+type: dataset
+authors:
+  - name: "Reaction principle discovery contributors"
+repository-code: "https://github.com/chonghuanzhang/reaction-principle-discovery"
+url: "https://github.com/chonghuanzhang/reaction-principle-discovery"
+license: MIT
+abstract: "Literature references, chemical evidence, 100 recommended molecules with novelty assessments, reaction screening data and computational methods for selective defluorinative reaction discovery."

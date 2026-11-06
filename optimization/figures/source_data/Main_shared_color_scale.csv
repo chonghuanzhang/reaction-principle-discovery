@@ -1,0 +1,5 @@
+pool,channel,reference_kind,normalization_reference,raw_surface_min,raw_surface_max,relative_surface_min,relative_surface_max,clipped_values,original_vertex_height_max_error
+SH_PL40,UV response,complete measured grid maximum,3.20446096654275,0.0,3.20446096654275,0.0,1.0,0,0.0
+NH_PL36,MS response,highest selected measured response,0.655297435746774,0.001078074846428051,0.6512855329696513,0.001645168724335815,0.9938777377137898,0,0.0
+OH_PL37,UV response,highest selected measured response,1.15495867768595,0.0015023695201562548,1.1470012793587514,0.0013007993698669546,0.9931102311442502,0,0.0
+OH_PL38,UV response,highest selected measured response,1.44247787610619,0.01888172559262613,1.4321143205586442,0.013089785226789937,0.99281544922164,0,0.0

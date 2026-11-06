@@ -1,0 +1,229 @@
+{
+  "EV-01ab08e007d538959aa8": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Suvajit Koley",
+        "Ryan A. Altman"
+      ],
+      "doi": "10.1002/ijch.201900173",
+      "journal": "PubMed Central",
+      "title": "Recent Advances in Transition Metal‐Catalyzed Functionalization of gem‐Difluoroalkenes",
+      "year": 2020
+    },
+    "claim": "A base-promoted intramolecular nitrogen attack on a gem-difluoroalkene followed by beta-fluoride elimination generated N-substituted 2-fluoroindoles, but formation of the required amino-difluorovinyl precursor first used a Pd-catalyzed Buchwald-Hartwig coupling.",
+    "evidence_id": "EV-01ab08e007d538959aa8",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "indirect",
+    "pdf_page": 4,
+    "quotation": "In another report, reaction of primary arylamines 142 with 1-halo-2-(2,2-difluorovinyl)benzene (halo = Br or Cl) 141 delivered a variety of N-substituted-2-fluoroindoles (Scheme 38).37 The first step of this reaction involved a Pd-catalyzed Buchwald-Hartwig coupling that would generated 2-amino-(2,2-difluorovinyl)benzene 143. gem-Difluoroalkene 143 underwent a base-promoted 5-endo-trig intramolecular nucleophilic attack by N and subsequent β-fluoride elimination to generate a diverse array of 2-fluoroindoles 144.",
+    "reviewer_status": "accepted",
+    "section_context": "Heterocycle formation involving nitrogen attack on a gem-difluoroalkene",
+    "source_id": "https://www.ncbi.nlm.nih.gov/pmc/articles/7286626",
+    "source_sha256": "655478b7359ce6c029f5ccaf72d2bd02448e499d868cb960dca54192a3114243",
+    "source_span_ids": [
+      "P004-S005"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": null
+  },
+  "EV-0253e4f35bdf034af28e": {
+    "additional_pdf_pages": [],
+    "attribution": "author_hypothesis",
+    "bibliography": {
+      "authors": [
+        "Gabriele Laudadio",
+        "Efstathios Barmpoutsis",
+        "Christiane Schotten",
+        "Lisa Struik",
+        "Sebastian Govaerts",
+        "Duncan L. Browne",
+        "Timothy Noël"
+      ],
+      "doi": "10.1021/jacs.9b02266",
+      "journal": "Journal of the American Chemical Society",
+      "title": "Sulfonamide Synthesis through Electrochemical Oxidative Coupling of Amines and Thiols",
+      "year": 2019
+    },
+    "claim": "The authors propose that an aminium radical reacts with the disulfide to form a sulfenamide, followed by two oxidation steps through a sulfinamide intermediate to the sulfonamide; isolation and resubjection of the sulfenamide supports, but does not independently establish, the complete proposed sequence.",
+    "evidence_id": "EV-0253e4f35bdf034af28e",
+    "evidence_label": "AUTHOR HYPOTHESIS",
+    "evidence_strength": "hypothesis",
+    "pdf_page": 2,
+    "quotation": "The aminium radical intermediate subsequently reacts with the disulfide to generate the sulfenamide.\nInterestingly, no Shono-type oxidation of the amines was observed under these reaction conditions.26 Next, two consecutive oxidation steps of the sulfenamide take place and the targeted sulfonamide is formed via a sulfinamide intermediate.27 Indeed, we were able to isolate the sulfenamide intermediate and, by subjecting this compound to our reaction protocol, the corresponding sulfonamide was generated effectively (Figure 3C). including information on the oxidation potentials of the different coupling partners and intermediates, a series of cyclovoltammetry studies were carried out (Figure 3B).",
+    "reviewer_status": "accepted",
+    "section_context": "Proposed mechanism and intermediate evaluation",
+    "source_id": "https://doi.org/10.1021/jacs.9b02266",
+    "source_sha256": "de9199a868423566f81e257c5f63c21d77f4d450c2846a24d65a83c3b32c685a",
+    "source_span_ids": [
+      "P002-S018",
+      "P002-S019"
+    ],
+    "tier": "tier_4",
+    "visual_review_reference": null
+  },
+  "EV-02d0fdb64e035df834f5": {
+    "additional_pdf_pages": [],
+    "attribution": "author_hypothesis",
+    "bibliography": {
+      "authors": [
+        "Andrew J. Intelli",
+        "Ryan T. Lee",
+        "Ryan A. Altman"
+      ],
+      "doi": "10.1021/acs.joc.3c01562",
+      "journal": "The Journal of Organic Chemistry",
+      "title": "Peroxide-Initiated Hydrophosphinylation of gem-Difluoroalkenes",
+      "year": 2023
+    },
+    "claim": "The authors propose a free-radical chain mechanism in which a methyl radical abstracts hydrogen from diphenylphosphine oxide, the resulting phosphorus-centered radical adds regioselectively at the difluorinated alkene carbon, and the carbon-centered radical abstracts hydrogen from another equivalent of diphenylphosphine oxide to form product and propagate the chain.",
+    "evidence_id": "EV-02d0fdb64e035df834f5",
+    "evidence_label": "AUTHOR HYPOTHESIS",
+    "evidence_strength": "hypothesis",
+    "pdf_page": 3,
+    "quotation": "Based on the literature precedent and physicochemical data, we propose that the hydrophosphinylation reaction proceeds by a free-radical chain mechanism (Scheme 1).\nNext, •CH3 (6) abstracts a hydrogen atom from diphenylphosphine oxide (P−H bond dissociationenergy=83.3kcal/mol)25 togenerateCH4 (C−H bond dissociation energy = 104.8 kcal/mol),26 followed by regioselective addition of P-centered radical 2a′ to the difluorinated position of the gem-difluoroalkene (1) to give carbon-centered radical intermediate 7.27 The radical inter- mediate (7) then abstracts H• from an equivalent of diphenylphosphine oxide to deliver the final product and propagate the phosphorus-centered radical 2a′ for further iterations of the sequence.19,27 Of note, the poor reactivity of alkyl-trisubstituted gem-difluoroalkenes likely arises from the poor radical stability of the carbon-centered radical inter- mediate, as compared to the corresponding benzylic-stabilized",
+    "reviewer_status": "revised",
+    "section_context": "Proposed mechanism",
+    "source_id": "Tier 2/Intelli 等 - 2023 - Peroxide-initiated hydrophosphinylation of gem -difluoroalkenes.pdf",
+    "source_sha256": "88f5d5d5a0636156767053a28d8411c1737437c7827a5cd21219581ee9d915c2",
+    "source_span_ids": [
+      "P003-S005",
+      "P003-S007"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": null
+  },
+  "EV-03d67effee574e6eac65": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Peter Bellotti",
+        "Huan‐Ming Huang",
+        "Teresa Faber",
+        "Ranjini Laskar",
+        "Frank Glorius"
+      ],
+      "doi": "10.1039/d2sc02732a",
+      "journal": "Chemical Science",
+      "title": "Catalytic defluorinative ketyl–olefin coupling by halogen-atom transfer",
+      "year": 2022
+    },
+    "claim": "A range of substituted α-trifluoromethylstyrenes was coupled successfully, but electron-withdrawing substituents promoted substantial trifluoromethylated side products through competitive protonation of the proposed anionic intermediate IX.",
+    "evidence_id": "EV-03d67effee574e6eac65",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 2,
+    "quotation": "As shown below, a wide range of olefin derivatives could couple with hexanal 1a to generate the corresponding products (3, 33–46) in good to excellent yields. para-Substituted trifluoromethyl styrenes bearing methoxyl (3), phenoxyl (33), trifluoromethoxyl (34), thiomethyl (35), chloride (40), trifluoromethyl (36), trimethylsilyl (37), and hydroxyl (38) successfully delivered the corresponding products in moderate to good yields.\nPolysubstituted systems bearing 3,5-dimethoxy (39), 2-methoxy-4-chloro (40), 3,4-dimethoxy (41) and 3-fluoro-4-phenyl (42) substituents were well tolerated.\n2-Naphthyl (43), indole (44), pyridine (45) and 1,3-benzodioxole (46) were successfully incorporated into the final product.\nα-Trifluoromethyl styrenes featuring electron-withdrawing groups afforded—as reported by Wang13a and Molander11d—substantial amounts of trifluoromethylated side products from competitive protonation of IX (for details see the ESI†).",
+    "reviewer_status": "accepted",
+    "section_context": "Olefin scope and competitive side reaction",
+    "source_id": "https://pubs.rsc.org/en/content/articlepdf/2022/sc/d2sc02732a",
+    "source_sha256": "d64c40ea1d941326cebdeaf4a01920765354aa116267d2036da0aa1fb760d86e",
+    "source_span_ids": [
+      "P002-S022",
+      "P002-S023",
+      "P002-S024",
+      "P002-S025"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": null
+  },
+  "EV-04055776926d615e33b8": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Kewei Chen",
+        "Abdulla Yusuf",
+        "Xinfang Xu"
+      ],
+      "doi": "10.1002/cctc.202501604",
+      "journal": "ChemCatChem",
+      "title": "Recent Advance in Defluorinative Transformations of α-Trifluoromethyl Carbene Intermediates",
+      "year": 2026
+    },
+    "claim": "Thiols and selenols react under iron porphyrin catalysis to give gem-difluorovinyl sulfides and selenides in high yields, while copper-based systems enable analogous reactions of amines and alcohols to give gem-difluoroenamines and difluorovinyl ethers in moderate to good yields.",
+    "evidence_id": "EV-04055776926d615e33b8",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 3,
+    "quotation": "Under iron porphyrin catalysis, thiols and selenols reacted smoothly with 4–1 to afford the corresponding gem -difluorovinyl sulfides and selenides 4–2 in high yields.\nFurthermore, copper-based catalytic systems proved SCHEME 3 Three-component coupling reaction of N-tosylhydra- zones with terminal alkynes and azides. to be effective for the analogous insertion reaction with amines or alcohols, delivering gem -difluoroenamines 4–3 and difluorovinyl ethers 4–4 in moderate to good yields.",
+    "reviewer_status": "accepted",
+    "section_context": "Formal insertion reactions; catalyst and nucleophile-class differentiation",
+    "source_id": "Tier 2/Recent Advance in Defluorinative Transformations of Œ±‚ÄêTrifluoromethyl Carbene Intermediates.pdf",
+    "source_sha256": "2f9ac0b704f6c6e52b9286fb6de0da586e724957ecad26eff7b0868e76ed7601",
+    "source_span_ids": [
+      "P003-S005",
+      "P003-S006"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": "Scheme 4 on PDF page 4 should be reviewed for individual catalysts, reagents, and conditions."
+  },
+  "EV-0dfdbeb1b62f2091d0ae": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Justin D. Moody",
+        "Don VanDerveer",
+        "Dennis W. Smith Jr.",
+        "Scott T. Iacono"
+      ],
+      "doi": "10.1039/c1ob05041a",
+      "journal": "Organic & Biomolecular Chemistry",
+      "title": "Synthesis of internal fluorinated alkenes via facile aryloxylation of substituted phenols with aryl trifluorovinyl ethers",
+      "year": 2011
+    },
+    "claim": "NaOEt 与芳基 TFVE 1 反应得到乙烯基取代产物 11，其 (Z)/(E) 异构体比为 2.45/1。",
+    "evidence_id": "EV-0dfdbeb1b62f2091d0ae",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 4,
+    "quotation": "To rule out p–p electronic interactions or the presence of phe- nonium ion intermediates, 47 addition to 1 with sodium ethoxide (NaOEt) was performed.\nThis afforded vinyl substituted product 11 with a higher 2.45/1 (Z)/(E) isomer ratio compared to phenol nucleophiles (Scheme 3).",
+    "reviewer_status": "revised",
+    "section_context": "Mechanistic probe using an aliphatic oxygen nucleophile",
+    "source_id": "Tier 2/Synthesis of internal fluorinated alkenes via facile aryloxylation of substituted phenols with aryl trifluorovinyl ethers.pdf",
+    "source_sha256": "2b4664dc613092c54f990f72e123458902cb47a244873e2e7eabb6f75c5f8395",
+    "source_span_ids": [
+      "P004-S019",
+      "P004-S020"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": null
+  },
+  "EV-10948532de92a99f70bf": {
+    "additional_pdf_pages": [],
+    "attribution": "author_observation",
+    "bibliography": {
+      "authors": [
+        "Hao Tan",
+        "Yuwei Zong",
+        "Yihan Tang",
+        "Gavin Chit Tsui"
+      ],
+      "doi": "10.1021/acs.orglett.3c00108",
+      "journal": "Organic Letters",
+      "title": "Stereoselective Rhodium(I)-Catalyzed C−F Bond Arylation of Tri- and Tetrasubstituted gem-Difluoroalkenes with Boronic Acids",
+      "year": 2023
+    },
+    "claim": "The tetrasubstituted scope tolerated electron-rich and electron-poor aryl groups, sensitive halogen groups, biphenyl, thiophene, and heteroaryl combinations; products 2a–l were obtained as single E diastereomers.",
+    "evidence_id": "EV-10948532de92a99f70bf",
+    "evidence_label": "LITERATURE FACT",
+    "evidence_strength": "direct",
+    "pdf_page": 2,
+    "quotation": "Substrates containing different aryl substituent groups, including electron-rich (2e), electron-poor (2f and2g), and sensitive halogen(2h) groups, were tolerated.\nBiphenyl (2i) and thiophene (2j) moieties were compatible.\nWith the choice of the desired boronic acid and substrate, different combinations of functional groups can be installed in the products, including those containing electron-poor aryl/ electron-rich aryl (2k) and heteroaryl/heteroaryl (2l).\nNote that all of these tetrasubstituted monofluoroalkenes (2a−l) with trans-stilbene motifs were obtained as single diaster- eomers in the E configuration.",
+    "reviewer_status": "accepted",
+    "section_context": "Successful tetrasubstituted substrate scope and stereoselectivity",
+    "source_id": "Tier 2/Tan 等 - 2023 - Stereoselective rhodium(I)-catalyzed C–F bond arylation of tri- and tetrasubstituted gem -dif.pdf",
+    "source_sha256": "e3448b08ca44ecc81734f5f1946e2e8034f010b2dd242197536bfa62ac759ae1",
+    "source_span_ids": [
+      "P002-S020",
+      "P002-S021",
+      "P002-S022",
+      "P002-S023"
+    ],
+    "tier": "tier_2",
+    "visual_review_reference": null
+  }
+}

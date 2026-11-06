@@ -1,0 +1,100 @@
+{
+  "seed_reaction_id": "SR001",
+  "reaction_center": [
+    "The carbonyl-adjacent trifluoroethyl fragment of the electrophile, especially the CF₃-derived carbon that becomes the fluorinated alkene carbon.",
+    "The carbon attached to boron in the organoboron coupling partner, which is transferred to form the new C–C bond.",
+    "The adjacent carbonyl group, proposed tentatively to direct or assist Pd activation.",
+    "The two C–F bonds lost during net conversion of a CF₃-derived center into a product retaining one fluorine."
+  ],
+  "electrophile_state": [
+    "Trifluoroethyl carbonyl compound, represented in the mechanism as compound 1.",
+    "Tentative AUTHOR HYPOTHESIS: a carbonyl-coordinated, chelated five-membered palladium intermediate A.",
+    "Tentative AUTHOR HYPOTHESIS: a gem-difluoroenone intermediate B formed by β-F elimination; attempted detection or trapping was inconclusive.",
+    "The exact palladium-bound electrophile geometry, oxidation state, and stereochemical course are unknown."
+  ],
+  "nucleophile_state": [
+    "Organoboron reagent 2 is the carbon-transfer coupling partner.",
+    "Tentative AUTHOR HYPOTHESIS: the organoboron reagent undergoes transmetalation with Pd-containing intermediate E to form intermediate F.",
+    "The operative boron species, its aggregation or hydrolysis state, and whether KHCO₃ directly activates it are unknown.",
+    "No nucleophile family beyond organoboron reagents is inferred."
+  ],
+  "bond_changes": [
+    "Net formation of a C–C bond between the CF₃-derived alkene carbon of the trifluoroethyl carbonyl substrate and the carbon transferred from the organoboron reagent.",
+    "Net conversion of the carbonyl-adjacent trifluoroethyl unit into a monofluoroalkene, requiring net cleavage/loss of two C–F bonds because the product retains one fluorine.",
+    "Formation of a C=C bond conjugated with the carbonyl group.",
+    "Tentative proposed sequence: a first β-F elimination gives a gem-difluoroenone, and a later β-F elimination after organoboron incorporation gives the monofluoroalkene.",
+    "Competing over-defluorination would remove the remaining alkene fluorine to furnish a fully defluorinated alkene."
+  ],
+  "reactive_intermediates": [
+    "Tentative chelated five-membered palladium intermediate A.",
+    "Tentative gem-difluoroenone intermediate B; trapping or detection was inconclusive.",
+    "Tentative Pd-H intermediate C.",
+    "Tentative Pd(II) over-defluorination intermediate D.",
+    "Tentative migratory-insertion intermediate E.",
+    "Tentative post-transmetalation intermediate F.",
+    "No radical intermediate has been established."
+  ],
+  "elementary_steps": [
+    "Tentative AUTHOR HYPOTHESIS: carbonyl coordination to Pd and polarization of adjacent C–F bonds.",
+    "Tentative AUTHOR HYPOTHESIS: formation of chelated five-membered palladium intermediate A.",
+    "Tentative AUTHOR HYPOTHESIS: base-associated β-F elimination from A to gem-difluoroenone B and Pd-H C.",
+    "Tentative AUTHOR HYPOTHESIS: conversion of B into migratory-insertion intermediate E.",
+    "Tentative AUTHOR HYPOTHESIS: transmetalation of E with organoboron reagent 2 to intermediate F.",
+    "Tentative AUTHOR HYPOTHESIS: β-F elimination from F forms the C–C-coupled monofluoroalkene 3 and regenerates active Pd.",
+    "Tentative competing AUTHOR HYPOTHESIS: insertion of product 3 with Pd-H C gives Pd(II) intermediate D, followed by β-F elimination to fully defluorinated alkene 4.",
+    "No elementary radical step is established by the inhibition experiments."
+  ],
+  "electronic_requirements": [
+    "The authors infer that productive reactivity depends on the combined electronic features of both coupling partners; this is an empirical scope interpretation, not a quantified mechanistic requirement.",
+    "Highly electron-deficient heteroaryl boron reagents are reported to have limited compatibility.",
+    "Strongly coordinating substrates are reported to have limited compatibility.",
+    "Tentative AUTHOR HYPOTHESIS: carbonyl coordination to Pd polarizes the adjacent C–F bonds.",
+    "No redox-potential, acidity, orbital, or quantitative electronic threshold is established."
+  ],
+  "steric_requirements": [
+    "The authors infer a combined steric dependence involving both coupling partners.",
+    "Sterically congested and ortho-disubstituted arylboron partners are reported to show diminished or limited reactivity.",
+    "No quantitative steric threshold or required coordination geometry is established."
+  ],
+  "catalyst_roles": [
+    "Pd catalyst is required in the reported controls. SI associates Pd168 with CAS 205319-06-8. Active species and ligand retention remain UNKNOWN; external name resolution is separately audited, not a first-party mechanistic observation.",
+    "Tentative AUTHOR HYPOTHESIS: Pd coordinates to the substrate carbonyl and polarizes adjacent C–F bonds.",
+    "Tentative AUTHOR HYPOTHESIS: Pd supports β-F elimination, migratory insertion, organoboron transmetalation, product-forming β-F elimination, and regeneration of an active palladium species.",
+    "KHCO₃ is experimentally required with Pd under condition*, but its precise molecular role, including whether it activates the organoboron reagent, promotes elimination, or controls Pd speciation, is unknown."
+  ],
+  "condition_window": [
+    "Best reported model-reaction condition: Pd168 identifier, KHCO₃, DCE, 80 °C, 65% yield.",
+    "The standard HTE setup reports 80 °C for 12 h in a 250 μL total reaction volume.",
+    "Reactions were set up under N₂ in a glovebox according to the SI general information.",
+    "Stronger base or higher temperature is associated with over-defluorinated alkene formation in the manuscript discussion.",
+    "Catalyst loading, substrate equivalents, base equivalents, concentrations of each reactant, and the detailed active catalyst identity are not established in the quoted condition paragraphs."
+  ],
+  "successful_scope": [],
+  "failed_scope": [
+    "Reported limited compatibility with highly electron-deficient heteroaryl boron reagents.",
+    "Reported limited compatibility with strongly coordinating substrates.",
+    "Reported limited compatibility or lower efficiency for sterically congested and ortho-disubstituted arylboron partners.",
+    "The manuscript reports alkyl organoboron reagents as unreactive with no desired product, but this boundary is internally inconsistent or insufficiently defined because the model reaction uses an N-Boc-protected piperidinyl boronic ester and gives detectable product."
+  ],
+  "competing_pathways": [
+    "Tentative path I: the monofluoroalkene product undergoes further insertion with a proposed Pd-H species, followed by β-F elimination to the fully defluorinated alkene.",
+    "Over-defluorination is reported under stronger base or higher temperature; the authors tentatively infer that condition* suppresses this pathway.",
+    "A radical pathway remains unresolved: TEMPO inhibition occurred, but differential inhibition by BHT and 1,1-diphenylethylene means the trapping experiments do not establish a radical mechanism.",
+    "The manuscript statement that alkyl organoboron reagents were unreactive conflicts with its productive N-Boc-protected piperidinyl boronic-ester model reaction; the classification or boundary intended by 'alkyl organoboron' is unresolved."
+  ],
+  "evidence_ids": [
+    "SE001",
+    "SE002",
+    "SE003",
+    "SE004",
+    "SE005",
+    "SE006",
+    "SE007",
+    "SE008",
+    "SE009",
+    "SE010",
+    "SE-REACTION-CLASS",
+    "SE-PD-CAS-ROW"
+  ],
+  "confidence": "low"
+}

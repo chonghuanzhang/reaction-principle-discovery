@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "decisions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "enum": [
+              "direct_precedent",
+              "shared_reaction_manifold",
+              "physical_organic_support",
+              "failure_boundary",
+              "unrelated",
+              "uncertain"
+            ],
+            "type": "string"
+          },
+          "confidence": {
+            "enum": ["low", "medium", "high"],
+            "type": "string"
+          },
+          "matched_dimensions": {
+            "items": {"type": "string"},
+            "type": "array"
+          },
+          "rationale": {"minLength": 1, "type": "string"},
+          "sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+          "source_path": {"minLength": 1, "type": "string"}
+        },
+        "required": [
+          "source_path",
+          "sha256",
+          "category",
+          "confidence",
+          "rationale",
+          "matched_dimensions"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": ["decisions"],
+  "type": "object"
+}

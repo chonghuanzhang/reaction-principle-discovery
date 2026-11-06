@@ -1,0 +1,1626 @@
+[
+  {
+    "display_id": "C001",
+    "paragraphs": [
+      "S5.4.1 C001  N-Hydroxyphthalimide acetate",
+      "Identity: C10H7NO4; Redox-active ester; proposed centre(s) C.",
+      "Input SMILES: CC(=O)ON1C(=O)c2ccccc2C1=O",
+      "Activation hypothesis: Reductive cleavage and decarboxylation can release a methyl radical.",
+      "Chemical rationale and competing outcomes: Tests the smallest alkyl-radical donor without assuming organoboron transfer; hydrogen abstraction and carbonyl reduction compete.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 1R; NR 2. Comparison references: V20, V22.",
+      "Later comparison references: V20 (L152 [59]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-ab85a340b88a5fa0::H01; zero-based input atom(s) 0; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 001-H01-O01: CC(F)=CC(=O)c1ccccc1 | NP 1R; NR 2; registry status hit; references V22, V20."
+    ]
+  },
+  {
+    "display_id": "C002",
+    "paragraphs": [
+      "S5.4.2 C002  Methyl acetate trimethylsilyl ketene acetal",
+      "Identity: C6H14O2Si; Silyl ketene acetal; proposed centre(s) C.",
+      "Input SMILES: C=C(OC)O[Si](C)(C)C",
+      "Activation hypothesis: Lewis-acid or silicon-directed activation can expose the terminal carbon nucleophile.",
+      "Chemical rationale and competing outcomes: Tests a neutral ester-enolate equivalent; hydrolysis, desilylation and direct carbonyl addition compete.",
+      "Original source links: L242 [30]",
+      "Novelty assessment: NP 2, 2; NR 3, 3. Comparison references: V20.",
+      "Later comparison references: V20 (L152 [59])",
+      "Reactive-site hypotheses: CP-fe84fbfeaab6ca84::H01; zero-based input atom(s) 3; C; CP-fe84fbfeaab6ca84::H02; zero-based input atom(s) 3; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 002-H01-O01: COC(=O)CC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20.",
+      "Proposed option 002-H02-O01: COC(=O)CC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20."
+    ]
+  },
+  {
+    "display_id": "C003",
+    "paragraphs": [
+      "S5.4.3 C003  Pyridin-4-ylboronic acid",
+      "Identity: C5H6BNO2; Heteroarylboronic acid; proposed centre(s) C.",
+      "Input SMILES: OB(O)c1ccncc1",
+      "Activation hypothesis: Base-assisted boronate formation and compatible metal transfer are proposed.",
+      "Chemical rationale and competing outcomes: Tests electron-poor heteroaryl transfer and pyridine coordination; the recorded structure is the 4-pyridyl isomer.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 1. Comparison references: V22.",
+      "Later comparison references: V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-1f98fe5f121fd9a1::H01; zero-based input atom(s) 3; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 003-H01-O01: O=C(C=C(F)c1ccncc1)c1ccccc1 | NP 2; NR 1; registry status no_match; references V22."
+    ]
+  },
+  {
+    "display_id": "C004",
+    "paragraphs": [
+      "S5.4.4 C004  2-Methylfuran",
+      "Identity: C5H6O; Neutral heteroaromatic pi donor; proposed centre(s) C.",
+      "Input SMILES: Cc1ccco1",
+      "Activation hypothesis: Electrophile activation can enable attack at the unblocked alpha carbon.",
+      "Chemical rationale and competing outcomes: Pairs electron donation with blocking of one furan alpha position; regioselectivity and acid sensitivity require testing.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2, 2; NR 3, 3. Comparison references: V19, V22.",
+      "Later comparison references: V19 (L240 [34]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-869e3eb72168d724::H01; zero-based input atom(s) 4; C; CP-869e3eb72168d724::H02; zero-based input atom(s) 4; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 004-H01-O01: Cc1ccc(C(F)=CC(=O)c2ccccc2)o1 | NP 2; NR 3; registry status no_match; references V19, V22.",
+      "Proposed option 004-H02-O01: Cc1ccc(C(F)=CC(=O)c2ccccc2)o1 | NP 2; NR 3; registry status no_match; references V19, V22."
+    ]
+  },
+  {
+    "display_id": "C005",
+    "paragraphs": [
+      "S5.4.5 C005  Benzo[b]thiophene",
+      "Identity: C8H6S; Neutral heteroaromatic pi donor; proposed centre(s) C.",
+      "Input SMILES: c1ccc2sccc2c1",
+      "Activation hypothesis: Electrophile activation is proposed for carbon attack at the thiophene ring.",
+      "Chemical rationale and competing outcomes: Tests fused sulfur heteroaromatic carbon transfer; sulfur coordination is a competing role.",
+      "Original source links: L180 [31]",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V19, V22.",
+      "Later comparison references: V19 (L240 [34]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-b49e6492b8f3b97f::H01; zero-based input atom(s) 5; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 005-H01-O01: O=C(C=C(F)c1cc2ccccc2s1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V19, V22."
+    ]
+  },
+  {
+    "display_id": "C006",
+    "paragraphs": [
+      "S5.4.6 C006  Benzenediazonium tetrafluoroborate",
+      "Identity: C6H5BF4N2; Aryl-radical precursor; proposed centre(s) C.",
+      "Input SMILES: F[B-](F)(F)F.N#[N+]c1ccccc1",
+      "Activation hypothesis: Single-electron reduction and nitrogen extrusion can release a phenyl radical.",
+      "Chemical rationale and competing outcomes: Provides an aryl entry independent of boron transmetalation; radical capture and the retained-fluorine endpoint remain hypotheses.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 1R; NR 2. Comparison references: V22.",
+      "Later comparison references: V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-60ed269cc272def9::H01; zero-based input atom(s) 2; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 006-H01-O01: O=C(C=C(F)c1ccccc1)c1ccccc1 | NP 1R; NR 2; registry status hit; references V22."
+    ]
+  },
+  {
+    "display_id": "C007",
+    "paragraphs": [
+      "S5.4.7 C007  Sodium nitromethanide",
+      "Identity: CH2NNaO2; Nitro-stabilized carbon anion; proposed centre(s) C.",
+      "Input SMILES: [CH2-][N+](=O)[O-].[Na+]",
+      "Activation hypothesis: The preformed salt provides a resonance-delocalized C/O nucleophile.",
+      "Chemical rationale and competing outcomes: Tests a non-carbonyl-stabilized carbon donor and C/O site competition, including ion-pair effects.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V20, V22.",
+      "Later comparison references: V20 (L152 [59]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-5934af04c3f8aeb9::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 007-H01-O01: O=C(C=C(F)C[N+](=O)[O-])c1ccccc1 | NP 2; NR 3; registry status no_match; references V20, V22."
+    ]
+  },
+  {
+    "display_id": "C008",
+    "paragraphs": [
+      "S5.4.8 C008  Sodium acetone enolate",
+      "Identity: C3H5NaO; Carbonyl-stabilized carbon anion; proposed centre(s) C.",
+      "Input SMILES: [CH2-]C(C)=O.[Na+]",
+      "Activation hypothesis: A preformed or generated enolate can attack through carbon.",
+      "Chemical rationale and competing outcomes: Tests carbon addition against O attack, protonation and excessive defluorination.",
+      "Original source links: L242 [30]",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V20.",
+      "Later comparison references: V20 (L152 [59])",
+      "Reactive-site hypotheses: CP-66013c6cea267de7::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 008-H01-O01: CC(=O)CC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20."
+    ]
+  },
+  {
+    "display_id": "C009",
+    "paragraphs": [
+      "S5.4.9 C009  Benzylzinc bromide",
+      "Identity: C7H7BrZn; Organozinc transfer precursor; proposed centre(s) C.",
+      "Input SMILES: [Br][Zn][CH2]c1ccccc1",
+      "Activation hypothesis: Compatible metal transfer or single-electron activation can transfer the benzyl fragment.",
+      "Chemical rationale and competing outcomes: Tests a non-boron benzyl donor; direct carbonyl addition remains a competing pathway.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V22.",
+      "Later comparison references: V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-8125e5fbd7a0556e::H01; zero-based input atom(s) 2; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 009-H01-O01: O=C(C=C(F)Cc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V22."
+    ]
+  },
+  {
+    "display_id": "C010",
+    "paragraphs": [
+      "S5.4.10 C010  tert-Butyl iodide",
+      "Identity: C4H9I; Alkyl-radical precursor; proposed centre(s) C.",
+      "Input SMILES: CC(C)(C)I",
+      "Activation hypothesis: Single-electron C-I cleavage can release a tert-butyl radical.",
+      "Chemical rationale and competing outcomes: Tests a crowded tertiary alkyl fragment without equating radical capture with organoboron transfer.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V22.",
+      "Later comparison references: V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-5bf56c0fb6340187::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 010-H01-O01: CC(C)(C)C(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V22."
+    ]
+  },
+  {
+    "display_id": "C011",
+    "paragraphs": [
+      "S5.4.11 C011  Lithium acetone enolate",
+      "Identity: C3H5LiO; Ambident enolate; proposed centre(s) C, O.",
+      "Input SMILES: C=C(C)[O-].[Li+]",
+      "Activation hypothesis: The same lithium enolate supports distinct proposed C- and O-bonding branches.",
+      "Chemical rationale and competing outcomes: Separates reactive-site assignment from reagent identity; ion pairing, aggregation and protonation can change selectivity.",
+      "Original source links: L294 [25]",
+      "Novelty assessment: NP 2, 2; NR 3, 3. Comparison references: V05, V10, V20.",
+      "Later comparison references: V05 (L350 [10]), V10 (L352 [61]), V20 (L152 [59])",
+      "Reactive-site hypotheses: CP-7ff7c801adbfac54::H01; zero-based input atom(s) 0; C; CP-7ff7c801adbfac54::H02; zero-based input atom(s) 3; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 011-H01-O01: CC(=O)CC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20.",
+      "Proposed option 011-H02-O01: C=C(C)OC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V05, V10."
+    ]
+  },
+  {
+    "display_id": "C012",
+    "paragraphs": [
+      "S5.4.12 C012  Sodium dimethyl malonate",
+      "Identity: C5H7NaO4; Stabilized carbon anion; proposed centre(s) C.",
+      "Input SMILES: COC(=O)[CH-]C(=O)OC.[Na+]",
+      "Activation hypothesis: Controlled deprotonation supplies the central malonate carbon nucleophile.",
+      "Chemical rationale and competing outcomes: Tests lower basicity and increased delocalization relative to a ketone enolate.",
+      "Original source links: L242 [30]",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V20.",
+      "Later comparison references: V20 (L152 [59])",
+      "Reactive-site hypotheses: CP-9531200cd700e862::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 012-H01-O01: COC(=O)C(C(=O)OC)C(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20."
+    ]
+  },
+  {
+    "display_id": "C013",
+    "paragraphs": [
+      "S5.4.13 C013  (Bromomethyl)cyclopropane",
+      "Identity: C4H7Br; Radical-clock precursor; proposed centre(s) C.",
+      "Input SMILES: BrCC1CC1",
+      "Activation hypothesis: Single-electron C-Br cleavage can generate a cyclopropylmethyl radical.",
+      "Chemical rationale and competing outcomes: Tests an alkyl-radical entry with ring opening as a possible competing diagnostic; no radical result is assumed.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V22.",
+      "Later comparison references: V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-3be0de0ba1e8a796::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 013-H01-O01: O=C(C=C(F)CC1CC1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V22."
+    ]
+  },
+  {
+    "display_id": "C014",
+    "paragraphs": [
+      "S5.4.14 C014  Methyllithium",
+      "Identity: CH3Li; Organolithium carbon donor; proposed centre(s) C.",
+      "Input SMILES: [CH3-].[Li+]",
+      "Activation hypothesis: The supplied ion-pair representation specifies a strongly basic methyl donor.",
+      "Chemical rationale and competing outcomes: Tests a hard carbon nucleophile at the boundary of compatibility; carbonyl addition and deprotonation are prominent alternatives.",
+      "Original source links: L294 [25]",
+      "Novelty assessment: NP 1R; NR 2. Comparison references: V20, V22.",
+      "Later comparison references: V20 (L152 [59]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-8af179673435d8d7::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 014-H01-O01: CC(F)=CC(=O)c1ccccc1 | NP 1R; NR 2; registry status hit; references V22, V20."
+    ]
+  },
+  {
+    "display_id": "C015",
+    "paragraphs": [
+      "S5.4.15 C015  2,3-Dihydrofuran",
+      "Identity: C4H6O; Cyclic enol ether; proposed centre(s) C.",
+      "Input SMILES: C1=COCC1",
+      "Activation hypothesis: Electrophile activation can enable carbon attack by the enol-ether pi system.",
+      "Chemical rationale and competing outcomes: Tests a cyclic neutral carbon donor; acid-mediated decomposition and alternative addition sites compete.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V19, V20.",
+      "Later comparison references: V19 (L240 [34]), V20 (L152 [59])",
+      "Reactive-site hypotheses: CP-a84a97ef9479980c::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 015-H01-O01: O=C(C=C(F)C1=COCC1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V19, V20.",
+      "Proposed option 015-H01-O02: O=C(C=C(F)C1CCOC1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V19, V20."
+    ]
+  },
+  {
+    "display_id": "C016",
+    "paragraphs": [
+      "S5.4.16 C016  Cyclopropylboronic acid",
+      "Identity: C3H7BO2; Alkylboronic acid; proposed centre(s) C.",
+      "Input SMILES: OB(O)C1CC1",
+      "Activation hypothesis: Compatible boronate activation and metal transfer are proposed.",
+      "Chemical rationale and competing outcomes: Tests a compact alkylboron fragment and the transfer limits of the starting carbon-coupling platform.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 1. Comparison references: V22.",
+      "Later comparison references: V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-ba958c6f38d5a527::H01; zero-based input atom(s) 3; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 016-H01-O01: O=C(C=C(F)C1CC1)c1ccccc1 | NP 2; NR 1; registry status no_match; references V22."
+    ]
+  },
+  {
+    "display_id": "C017",
+    "paragraphs": [
+      "S5.4.17 C017  1,3,5-Trimethoxybenzene",
+      "Identity: C9H12O3; Electron-rich arene; proposed centre(s) C.",
+      "Input SMILES: COc1cc(OC)cc(OC)c1",
+      "Activation hypothesis: Electrophile activation can enable aromatic carbon capture.",
+      "Chemical rationale and competing outcomes: Tests a strongly activated arene without a preformed carbon anion, with positional symmetry simplifying site assignment.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V19.",
+      "Later comparison references: V19 (L240 [34])",
+      "Reactive-site hypotheses: CP-df56f80eb64eca43::H01; zero-based input atom(s) 3; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 017-H01-O01: COc1cc(OC)c(C(F)=CC(=O)c2ccccc2)c(OC)c1 | NP 2; NR 3; registry status no_match; references V19."
+    ]
+  },
+  {
+    "display_id": "C018",
+    "paragraphs": [
+      "S5.4.18 C018  Allyltrimethylsilane",
+      "Identity: C6H14Si; Allylsilane; proposed centre(s) C.",
+      "Input SMILES: C=CC[Si](C)(C)C",
+      "Activation hypothesis: Electrophile activation and silicon-assisted allyl transfer are proposed.",
+      "Chemical rationale and competing outcomes: Tests a neutral allyl donor and silicon-fluoride formation, with allylic regiochemistry treated separately.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V20, V22.",
+      "Later comparison references: V20 (L152 [59]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-0a28c29fb4c274be::H01; zero-based input atom(s) 0; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 018-H01-O01: C=CCC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20, V22."
+    ]
+  },
+  {
+    "display_id": "C019",
+    "paragraphs": [
+      "S5.4.19 C019  Ethyl vinyl ether",
+      "Identity: C4H8O; Enol ether; proposed centre(s) C.",
+      "Input SMILES: C=COCC",
+      "Activation hypothesis: Electrophile activation can enable attack through the terminal vinyl carbon.",
+      "Chemical rationale and competing outcomes: Tests neutral carbon pi nucleophilicity; O coordination, hydrolysis and polymerization can compete.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V20.",
+      "Later comparison references: V20 (L152 [59])",
+      "Reactive-site hypotheses: CP-205f9fb18ebd4ed6::H01; zero-based input atom(s) 4; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 019-H01-O01: CCOC=CC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20.",
+      "Proposed option 019-H01-O02: O=CCC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20."
+    ]
+  },
+  {
+    "display_id": "C020",
+    "paragraphs": [
+      "S5.4.20 C020  2,6-Dimethylphenylboronic acid",
+      "Identity: C8H11BO2; Sterically hindered arylboronic acid; proposed centre(s) C.",
+      "Input SMILES: Cc1cccc(C)c1B(O)O",
+      "Activation hypothesis: Base-assisted boronate activation and metal transfer are proposed.",
+      "Chemical rationale and competing outcomes: Tests ortho steric demand at an otherwise familiar aryl-transfer precursor.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 1. Comparison references: V22.",
+      "Later comparison references: V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-2461405780c80fb1::H01; zero-based input atom(s) 3; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 020-H01-O01: Cc1cccc(C)c1C(F)=CC(=O)c1ccccc1 | NP 2; NR 1; registry status no_match; references V22."
+    ]
+  },
+  {
+    "display_id": "C021",
+    "paragraphs": [
+      "S5.4.21 C021  Furan",
+      "Identity: C4H4O; Neutral heteroaromatic pi donor; proposed centre(s) C.",
+      "Input SMILES: c1ccoc1",
+      "Activation hypothesis: Electrophile activation can enable alpha-carbon attack.",
+      "Chemical rationale and competing outcomes: Provides the unsubstituted comparator for 2-methylfuran; ring degradation and multiple reactive sites remain possible.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V19, V22.",
+      "Later comparison references: V19 (L240 [34]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-2ad90a72deb18e8b::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 021-H01-O01: O=C(C=C(F)c1ccco1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V19, V22."
+    ]
+  },
+  {
+    "display_id": "C022",
+    "paragraphs": [
+      "S5.4.22 C022  Indole",
+      "Identity: C8H7N; Ambident electron-rich heteroarene; proposed centre(s) C.",
+      "Input SMILES: c1ccc2[nH]ccc2c1",
+      "Activation hypothesis: The recorded hypotheses specify carbon attack by the indole pi system.",
+      "Chemical rationale and competing outcomes: Tests C3-type capture while preserving N-H as a competing proton-transfer or bonding site.",
+      "Original source links: L263 [33], https://pubs.rsc.org/en/content/articlepdf/2022/sc/d2sc02732a",
+      "Novelty assessment: NP 2, 2; NR 3, 3. Comparison references: V19, V22.",
+      "Later comparison references: V19 (L240 [34]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-383b50ba8f0aa496::H01; zero-based input atom(s) 6; C; CP-383b50ba8f0aa496::H02; zero-based input atom(s) 6; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 022-H01-O01: O=C(C=C(F)c1c[nH]c2ccccc12)c1ccccc1 | NP 2; NR 3; registry status no_match; references V19, V22.",
+      "Proposed option 022-H02-O01: O=C(C=C(F)c1c[nH]c2ccccc12)c1ccccc1 | NP 2; NR 3; registry status no_match; references V19, V22."
+    ]
+  },
+  {
+    "display_id": "C023",
+    "paragraphs": [
+      "S5.4.23 C023  1,3-Dimethoxybenzene",
+      "Identity: C8H10O2; Electron-rich arene; proposed centre(s) C.",
+      "Input SMILES: COc1cccc(OC)c1",
+      "Activation hypothesis: Electrophile activation can enable aromatic carbon attack.",
+      "Chemical rationale and competing outcomes: Varies arene electron donation relative to anisole and trimethoxybenzene, while retaining regioselectivity questions.",
+      "Original source links: L240 [34]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V19.",
+      "Later comparison references: V19 (L240 [34])",
+      "Reactive-site hypotheses: CP-4adad89fe53a73a6::H01; zero-based input atom(s) 9; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 023-H01-O01: COc1cccc(OC)c1C(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V19."
+    ]
+  },
+  {
+    "display_id": "C024",
+    "paragraphs": [
+      "S5.4.24 C024  Acetophenone trimethylsilyl enol ether",
+      "Identity: C11H16OSi; Silyl enol ether; proposed centre(s) C.",
+      "Input SMILES: C=C(O[Si](C)(C)C)c1ccccc1",
+      "Activation hypothesis: Lewis-acid or silicon-directed activation can enable terminal-carbon attack.",
+      "Chemical rationale and competing outcomes: Tests a neutral ketone-enolate equivalent; direct carbonyl addition and desilylation remain competing events.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V20.",
+      "Later comparison references: V20 (L152 [59])",
+      "Reactive-site hypotheses: CP-52f3e8b4011bbac2::H01; zero-based input atom(s) 6; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 024-H01-O01: O=C(C=C(F)CC(=O)c1ccccc1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20."
+    ]
+  },
+  {
+    "display_id": "C025",
+    "paragraphs": [
+      "S5.4.25 C025  2-Naphthol",
+      "Identity: C10H8O; Ambident phenolic arene; proposed centre(s) C.",
+      "Input SMILES: Oc1ccc2ccccc2c1",
+      "Activation hypothesis: The recorded candidate hypothesis specifies aromatic carbon attack.",
+      "Chemical rationale and competing outcomes: Tests fused aromatic carbon capture while distinguishing it from the competing oxygen-centred branch.",
+      "Original source links: https://pubs.rsc.org/en/content/articlepdf/2022/sc/d2sc02732a",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V19.",
+      "Later comparison references: V19 (L240 [34])",
+      "Reactive-site hypotheses: CP-5d0333041aebff88::H01; zero-based input atom(s) 10; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 025-H01-O01: O=C(C=C(F)c1c(O)ccc2ccccc12)c1ccccc1 | NP 2; NR 3; registry status no_match; references V19."
+    ]
+  },
+  {
+    "display_id": "C026",
+    "paragraphs": [
+      "S5.4.26 C026  Trimethylsilyl cyanide",
+      "Identity: C4H9NSi; Cyanide-transfer precursor; proposed centre(s) C.",
+      "Input SMILES: C[Si](C)(C)C#N",
+      "Activation hypothesis: Silicon-directed or Lewis-acid activation can expose carbon-end cyanide transfer.",
+      "Chemical rationale and competing outcomes: Tests a compact carbon donor; cyanohydrin formation, catalyst binding and alternative connectivity compete.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V21.",
+      "Later comparison references: V21 (L360 [29])",
+      "Reactive-site hypotheses: CP-6f96d085ca3320a4::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 026-H01-O01: N#CC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V21."
+    ]
+  },
+  {
+    "display_id": "C027",
+    "paragraphs": [
+      "S5.4.27 C027  Pyrrole",
+      "Identity: C4H5N; Ambident heteroarene; proposed centre(s) C, N.",
+      "Input SMILES: c1cc[nH]c1",
+      "Activation hypothesis: Distinct recorded hypotheses specify aromatic C attack and N-H-derived N attack.",
+      "Chemical rationale and competing outcomes: Makes C/N site competition explicit rather than counting the same molecule as two reagents.",
+      "Original source links: https://www.ncbi.nlm.nih.gov/pmc/articles/7286626",
+      "Novelty assessment: NP 2, 2; NR 3, 2. Comparison references: V02, V03, V19, V22.",
+      "Later comparison references: V02 (L203 [62]), V03 (L348 [63]), V19 (L240 [34]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-719c8ad385fb72f6::H01; zero-based input atom(s) 1; C; CP-719c8ad385fb72f6::H02; zero-based input atom(s) 0; N",
+      "Actual-input association: Structural Analogue: AP004, AP005, AP006, AP009, AP012, AP017, AP018, AP019, AP020, AP022, AP023, AP024, AP025, AP026, AP027, AP032, AP036, AP041, AP042, AP043.",
+      "Proposed option 027-H01-O01: O=C(C=C(F)c1ccc[nH]1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V19, V22.",
+      "Proposed option 027-H02-O01: O=C(C=C(F)n1cccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V31, V02, V03."
+    ]
+  },
+  {
+    "display_id": "C028",
+    "paragraphs": [
+      "S5.4.28 C028  Thiophene",
+      "Identity: C4H4S; Neutral heteroaromatic pi donor; proposed centre(s) C.",
+      "Input SMILES: c1ccsc1",
+      "Activation hypothesis: Electrophile activation can enable alpha-carbon attack.",
+      "Chemical rationale and competing outcomes: Tests sulfur heteroaromatic carbon capture, with sulfur coordination distinguished from C-S bond formation.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V19, V22.",
+      "Later comparison references: V19 (L240 [34]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-7953343be0b435d5::H01; zero-based input atom(s) 1; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 028-H01-O01: O=C(C=C(F)c1cccs1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V19, V22."
+    ]
+  },
+  {
+    "display_id": "C029",
+    "paragraphs": [
+      "S5.4.29 C029  N,N-Dimethylvinylamine",
+      "Identity: C4H9N; Enamine; proposed centre(s) C.",
+      "Input SMILES: C=CN(C)C",
+      "Activation hypothesis: The neutral enamine can attack through the terminal carbon of its pi system.",
+      "Chemical rationale and competing outcomes: Tests an electron-rich carbon donor while retaining C/N ambident behaviour and hydrolysis as boundaries.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V20.",
+      "Later comparison references: V20 (L152 [59])",
+      "Reactive-site hypotheses: CP-a71435752beee4c8::H01; zero-based input atom(s) 4; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 029-H01-O01: CN(C)C=CC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20.",
+      "Proposed option 029-H01-O02: O=CCC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V20."
+    ]
+  },
+  {
+    "display_id": "C030",
+    "paragraphs": [
+      "S5.4.30 C030  Styrene",
+      "Identity: C8H8; Alkene pi donor; proposed centre(s) C.",
+      "Input SMILES: C=Cc1ccccc1",
+      "Activation hypothesis: Electrophile activation is proposed to enable terminal-carbon capture.",
+      "Chemical rationale and competing outcomes: Tests whether a simple aryl alkene has sufficient nucleophilicity; polymerization and alternative radical addition compete.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V20, V22.",
+      "Later comparison references: V20 (L152 [59]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-d0eb12604107d80c::H01; zero-based input atom(s) 0; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 030-H01-O01: O=C(C=C(F)C=Cc1ccccc1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V22, V20.",
+      "Proposed option 030-H01-O02: O=C(C=C(F)CCc1ccccc1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V22, V20."
+    ]
+  },
+  {
+    "display_id": "C031",
+    "paragraphs": [
+      "S5.4.31 C031  Potassium benzyltrifluoroborate",
+      "Identity: C7H7BF3K; Organotrifluoroborate; proposed centre(s) C.",
+      "Input SMILES: F[B-](F)(F)Cc1ccccc1.[K+]",
+      "Activation hypothesis: Single-electron oxidation or compatible metal transfer can release a benzyl species.",
+      "Chemical rationale and competing outcomes: Tests an organoboron precursor beyond the original transfer form; solubility and activation efficiency require verification.",
+      "Original source links: L250 [36]",
+      "Novelty assessment: NP 2, 2; NR 2, 2. Comparison references: V22.",
+      "Later comparison references: V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-d2ba4020b787a8b0::H01; zero-based input atom(s) 5; C; CP-d2ba4020b787a8b0::H02; zero-based input atom(s) 5; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 031-H01-O01: O=C(C=C(F)Cc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V22.",
+      "Proposed option 031-H02-O01: O=C(C=C(F)Cc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V22."
+    ]
+  },
+  {
+    "display_id": "C032",
+    "paragraphs": [
+      "S5.4.32 C032  Anisole",
+      "Identity: C7H8O; Weakly activated arene; proposed centre(s) C.",
+      "Input SMILES: COc1ccccc1",
+      "Activation hypothesis: Electrophile activation is proposed for aromatic carbon attack.",
+      "Chemical rationale and competing outcomes: Provides a lower-nucleophilicity boundary relative to methoxy-rich arenes; a negative neighbouring precedent is not a project outcome.",
+      "Original source links: L240 [34]",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V19.",
+      "Later comparison references: V19 (L240 [34])",
+      "Reactive-site hypotheses: CP-deb4973b3faf0625::H01; zero-based input atom(s) 5; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 032-H01-O01: COc1ccc(C(F)=CC(=O)c2ccccc2)cc1 | NP 2; NR 3; registry status no_match; references V19."
+    ]
+  },
+  {
+    "display_id": "C033",
+    "paragraphs": [
+      "S5.4.33 C033  Diphenylzinc",
+      "Identity: C12H10Zn; Organozinc transfer precursor; proposed centre(s) C.",
+      "Input SMILES: c1cc[c]([Zn][c]2ccccc2)cc1",
+      "Activation hypothesis: Compatible metal transfer from the represented Zn-C bonds is proposed.",
+      "Chemical rationale and competing outcomes: Tests non-boron aryl transfer and salt sensitivity; the depicted molecular representation does not establish solution aggregation.",
+      "Original source links: L280 [37]",
+      "Novelty assessment: NP 1R; NR 2. Comparison references: V22.",
+      "Later comparison references: V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-e7c338a1b0ff4640::H01; zero-based input atom(s) 1,7; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 033-H01-O01: O=C(C=C(F)c1ccccc1)c1ccccc1 | NP 1R; NR 2; registry status hit; references V22."
+    ]
+  },
+  {
+    "display_id": "C034",
+    "paragraphs": [
+      "S5.4.34 C034  1-Methylindole",
+      "Identity: C9H9N; N-blocked heteroarene; proposed centre(s) C.",
+      "Input SMILES: Cn1ccc2ccccc21",
+      "Activation hypothesis: Electrophile activation can enable indole carbon attack without an N-H bond.",
+      "Chemical rationale and competing outcomes: Provides a matched boundary for separating carbon capture from N-H activation.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V19, V22.",
+      "Later comparison references: V19 (L240 [34]), V22 (L361 [60])",
+      "Reactive-site hypotheses: CP-f34be542835fcb08::H01; zero-based input atom(s) 3; C",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 034-H01-O01: Cn1cc(C(F)=CC(=O)c2ccccc2)c2ccccc21 | NP 2; NR 3; registry status no_match; references V19, V22."
+    ]
+  },
+  {
+    "display_id": "C035",
+    "paragraphs": [
+      "S5.4.35 C035  Imidazole",
+      "Identity: C3H4N2; Ambident aromatic nitrogen donor; proposed centre(s) N.",
+      "Input SMILES: c1c[nH]cn1",
+      "Activation hypothesis: Separate recorded hypotheses target the neutral pyridine-like N and the N-H-derived nitrogen.",
+      "Chemical rationale and competing outcomes: Tests small heteroaromatic N capture while distinguishing proton transfer, competing N sites and catalyst binding.",
+      "Original source links: L149 [38]",
+      "Novelty assessment: NP 2, 2; NR 2, 2. Comparison references: V01, V02, V03.",
+      "Later comparison references: V01 (L334 [64]), V02 (L203 [62]), V03 (L348 [63])",
+      "Reactive-site hypotheses: CP-15eeea50cbe27556::H01; zero-based input atom(s) 1; N; CP-15eeea50cbe27556::H02; zero-based input atom(s) 4; N",
+      "Actual-input association: Structural Analogue: AP001, AP028.",
+      "Proposed option 035-H01-O01: O=C(C=C(F)[n+]1cc[nH]c1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V31, V01, V02, V03.",
+      "Proposed option 035-H02-O01: O=C(C=C(F)n1ccnc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V31, V01, V02, V03."
+    ]
+  },
+  {
+    "display_id": "C036",
+    "paragraphs": [
+      "S5.4.36 C036  Methanesulfonamide",
+      "Identity: CH5NO2S; Sulfonamide N-H donor; proposed centre(s) N.",
+      "Input SMILES: CS(N)(=O)=O",
+      "Activation hypothesis: Base activation can generate a delocalized nitrogen nucleophile.",
+      "Chemical rationale and competing outcomes: Tests the trade-off between acidity and attenuated N nucleophilicity; O coordination and catalyst inhibition may compete.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V09.",
+      "Later comparison references: V09 (L351 [65])",
+      "Reactive-site hypotheses: CP-17d78fd2ceec8c4c::H01; zero-based input atom(s) 2; N",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 036-H01-O01: CS(=O)(=O)NC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V09."
+    ]
+  },
+  {
+    "display_id": "C037",
+    "paragraphs": [
+      "S5.4.37 C037  Trimethylsilyl azide",
+      "Identity: C3H9N3Si; Azide-transfer precursor; proposed centre(s) N.",
+      "Input SMILES: C[Si](C)(C)N=[N+]=[N-]",
+      "Activation hypothesis: Polar silicon-assisted transfer or a separately activated azidyl-radical branch is proposed.",
+      "Chemical rationale and competing outcomes: Tests terminal-N delivery; polar and radical pathways are alternatives, not an established shared mechanism.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V08.",
+      "Later comparison references: V08 (L291 [39])",
+      "Reactive-site hypotheses: CP-f0b88f6468f852c8::H01; zero-based input atom(s) 6; N",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 037-H01-O01: [N-]=[N+]=NC(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V08."
+    ]
+  },
+  {
+    "display_id": "C038",
+    "paragraphs": [
+      "S5.4.38 C038  4-(Trifluoromethyl)aniline",
+      "Identity: C7H6F3N; Electron-poor arylamine; proposed centre(s) N.",
+      "Input SMILES: Nc1ccc(C(F)(F)F)cc1",
+      "Activation hypothesis: Neutral-amine capture is compared conceptually with controlled deprotonation.",
+      "Chemical rationale and competing outcomes: Tests whether reduced N nucleophilicity limits coupling, without adding a second coordinating heteroatom.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V04, V05.",
+      "Later comparison references: V04 (L349 [66]), V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-d0c9b289504a201f::H01; zero-based input atom(s) 0; N",
+      "Actual-input association: Structural Analogue: AP011, AP016, AP035, AP038.",
+      "Proposed option 038-H01-O01: O=C(C=C(F)Nc1ccc(C(F)(F)F)cc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05, V04."
+    ]
+  },
+  {
+    "display_id": "C039",
+    "paragraphs": [
+      "S5.4.39 C039  Morpholine",
+      "Identity: C4H9NO; Cyclic secondary amine; proposed centre(s) N.",
+      "Input SMILES: C1COCCN1",
+      "Activation hypothesis: Neutral amine capture and condition-dependent proton transfer are proposed.",
+      "Chemical rationale and competing outcomes: Tests an aliphatic N donor whose ring oxygen alters basicity and provides a competing coordination site.",
+      "Original source links: L291 [39], https://www.ncbi.nlm.nih.gov/pmc/articles/7286626",
+      "Novelty assessment: NP 2, 2; NR 1, 1. Comparison references: V04, V08.",
+      "Later comparison references: V04 (L349 [66]), V08 (L291 [39])",
+      "Reactive-site hypotheses: CP-ccb45c231c905174::H01; zero-based input atom(s) 5; N; CP-ccb45c231c905174::H02; zero-based input atom(s) 0; N",
+      "Actual-input association: Structural Analogue: AP010, AP014, AP015, AP033, AP034, AP037.",
+      "Proposed option 039-H01-O01: O=C(C=C(F)N1CCOCC1)c1ccccc1 | NP 2; NR 1; registry status no_match; references V08, V04.",
+      "Proposed option 039-H02-O01: O=C(C=C(F)N1CCOCC1)c1ccccc1 | NP 2; NR 1; registry status no_match; references V08, V04."
+    ]
+  },
+  {
+    "display_id": "C040",
+    "paragraphs": [
+      "S5.4.40 C040  Pyrazole",
+      "Identity: C3H4N2; Aromatic N-H donor; proposed centre(s) N.",
+      "Input SMILES: c1cn[nH]c1",
+      "Activation hypothesis: Neutral and controlled N-H-deprotonation branches are proposed.",
+      "Chemical rationale and competing outcomes: Varies N-N adjacency, acidity and coordination relative to imidazole; N-site identity must remain explicit.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V02, V03.",
+      "Later comparison references: V02 (L203 [62]), V03 (L348 [63])",
+      "Reactive-site hypotheses: CP-c65a9b3d8c110ddb::H01; zero-based input atom(s) 0; N",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 040-H01-O01: O=C(C=C(F)n1cccn1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V31, V02, V03."
+    ]
+  },
+  {
+    "display_id": "C041",
+    "paragraphs": [
+      "S5.4.41 C041  Benzamide",
+      "Identity: C7H7NO; Amide N-H donor; proposed centre(s) N.",
+      "Input SMILES: NC(=O)c1ccccc1",
+      "Activation hypothesis: Base activation can access an amidate-like nucleophile.",
+      "Chemical rationale and competing outcomes: Tests a resonance-deactivated N donor with C/O/N connectivity and coordination boundaries.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V09.",
+      "Later comparison references: V09 (L351 [65])",
+      "Reactive-site hypotheses: CP-08db38349537cc05::H01; zero-based input atom(s) 0; N",
+      "Actual-input association: Structural Analogue: AP008, AP013, AP029, AP031.",
+      "Proposed option 041-H01-O01: O=C(C=C(F)NC(=O)c1ccccc1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V09."
+    ]
+  },
+  {
+    "display_id": "C042",
+    "paragraphs": [
+      "S5.4.42 C042  Ammonia",
+      "Identity: H3N; Small neutral nitrogen donor; proposed centre(s) N.",
+      "Input SMILES: N",
+      "Activation hypothesis: Neutral ammonia or a controlled acid-base form is proposed.",
+      "Chemical rationale and competing outcomes: Tests minimal N substitution; multiple substitution, volatility and catalyst binding can complicate interpretation.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V05, V08.",
+      "Later comparison references: V05 (L350 [10]), V08 (L291 [39])",
+      "Reactive-site hypotheses: CP-f9dfd61493ca94a4::H01; zero-based input atom(s) 0; N",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 042-H01-O01: NC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V05, V08."
+    ]
+  },
+  {
+    "display_id": "C043",
+    "paragraphs": [
+      "S5.4.43 C043  Trimethylamine",
+      "Identity: C3H9N; Tertiary-amine lone-pair donor; proposed centre(s) N.",
+      "Input SMILES: CN(C)C",
+      "Activation hypothesis: Direct neutral-N capture would initially produce an ammonium-type connection.",
+      "Chemical rationale and competing outcomes: Tests N bonding without an N-H bond; stable neutral-product formation must not be assumed.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V08.",
+      "Later comparison references: V08 (L291 [39])",
+      "Reactive-site hypotheses: CP-265c0f19c5eb5e56::H01; zero-based input atom(s) 1; N",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 043-H01-O01: C[N+](C)(C)C(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V08."
+    ]
+  },
+  {
+    "display_id": "C044",
+    "paragraphs": [
+      "S5.4.44 C044  Potassium phthalimide",
+      "Identity: C8H4KNO2; Preformed imide salt; proposed centre(s) N.",
+      "Input SMILES: O=C1[N-]C(=O)c2ccccc21.[K+]",
+      "Activation hypothesis: The supplied salt specifies a resonance-stabilized N anion.",
+      "Chemical rationale and competing outcomes: Tests a defined ionic N precursor relative to neutral N-H donors; ion pairing and O competition remain possible.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V09.",
+      "Later comparison references: V09 (L351 [65])",
+      "Reactive-site hypotheses: CP-17e086b041c039f5::H01; zero-based input atom(s) 3; N",
+      "Actual-input association: Structural Analogue: AP003, AP030.",
+      "Proposed option 044-H01-O01: O=C(C=C(F)N1C(=O)c2ccccc2C1=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V09."
+    ]
+  },
+  {
+    "display_id": "C045",
+    "paragraphs": [
+      "S5.4.45 C045  Lithium anilide",
+      "Identity: C6H6LiN; Preformed nitrogen anion; proposed centre(s) N.",
+      "Input SMILES: [Li+].[NH-]c1ccccc1",
+      "Activation hypothesis: The supplied salt specifies an anilide ion pair.",
+      "Chemical rationale and competing outcomes: Separates precursor deprotonation from subsequent bond formation; strong-base and counterion effects require controls.",
+      "Original source links: L149 [38]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-1b58b081277f4aff::H01; zero-based input atom(s) 1; N",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 045-H01-O01: O=C(C=C(F)Nc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C046",
+    "paragraphs": [
+      "S5.4.46 C046  Piperidine",
+      "Identity: C5H11N; Cyclic secondary amine; proposed centre(s) N.",
+      "Input SMILES: C1CCNCC1",
+      "Activation hypothesis: Direct neutral-amine capture with proton transfer is proposed.",
+      "Chemical rationale and competing outcomes: Provides an aliphatic secondary-amine comparison to morpholine without an additional ring oxygen.",
+      "Original source links: L149 [38]",
+      "Novelty assessment: NP 2; NR 1. Comparison references: V04, V05, V08.",
+      "Later comparison references: V04 (L349 [66]), V05 (L350 [10]), V08 (L291 [39])",
+      "Reactive-site hypotheses: CP-254b9aa19ec37938::H01; zero-based input atom(s) 0; N",
+      "Actual-input association: Structural Analogue: AP010, AP014, AP015, AP033, AP034, AP037.",
+      "Proposed option 046-H01-O01: O=C(C=C(F)N1CCCCC1)c1ccccc1 | NP 2; NR 1; registry status no_match; references V08, V04, V05."
+    ]
+  },
+  {
+    "display_id": "C047",
+    "paragraphs": [
+      "S5.4.47 C047  Cyanamide",
+      "Identity: CH2N2; Delocalized N-H donor; proposed centre(s) N.",
+      "Input SMILES: N#CN",
+      "Activation hypothesis: Neutral or deprotonated amino-N capture is proposed.",
+      "Chemical rationale and competing outcomes: Tests a compact nitrile-conjugated N donor while distinguishing its amino and nitrile nitrogens.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V03, V09.",
+      "Later comparison references: V03 (L348 [63]), V09 (L351 [65])",
+      "Reactive-site hypotheses: CP-39fbeda7a0fbf2ea::H01; zero-based input atom(s) 2; N",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 047-H01-O01: N#CNC(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V09, V03."
+    ]
+  },
+  {
+    "display_id": "C048",
+    "paragraphs": [
+      "S5.4.48 C048  Aniline",
+      "Identity: C6H7N; Aryl primary amine; proposed centre(s) N.",
+      "Input SMILES: Nc1ccccc1",
+      "Activation hypothesis: Neutral-amine capture and controlled deprotonation are alternative proposed states.",
+      "Chemical rationale and competing outcomes: Provides the parent arylamine for electronic comparison; condensation and additional substitution can compete.",
+      "Original source links: L149 [38], L188 [40]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V04, V05.",
+      "Later comparison references: V04 (L349 [66]), V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-8d11fd6c0d4e62a7::H01; zero-based input atom(s) 0; N",
+      "Actual-input association: Structural Analogue: AP007, AP011, AP016, AP021, AP035, AP038, AP039, AP040, AP044.",
+      "Proposed option 048-H01-O01: O=C(C=C(F)Nc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05, V04."
+    ]
+  },
+  {
+    "display_id": "C049",
+    "paragraphs": [
+      "S5.4.49 C049  1,2,4-Triazole",
+      "Identity: C2H3N3; Nitrogen-rich aromatic N-H donor; proposed centre(s) N.",
+      "Input SMILES: c1nnc[nH]1",
+      "Activation hypothesis: Controlled N-H deprotonation can supply a triazolide.",
+      "Chemical rationale and competing outcomes: Tests the distinction between easy anion formation, useful nucleophilicity and strong coordination.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V02, V03.",
+      "Later comparison references: V02 (L203 [62]), V03 (L348 [63])",
+      "Reactive-site hypotheses: CP-b2cf6b111cd50f59::H01; zero-based input atom(s) 0; N",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 049-H01-O01: O=C(C=C(F)n1cnnc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V31, V02, V03."
+    ]
+  },
+  {
+    "display_id": "C050",
+    "paragraphs": [
+      "S5.4.50 C050  Butan-1-amine",
+      "Identity: C4H11N; Aliphatic primary amine; proposed centre(s) N.",
+      "Input SMILES: CCCCN",
+      "Activation hypothesis: The neutral amine supplies the proposed N-centred nucleophile.",
+      "Chemical rationale and competing outcomes: Tests a strongly nucleophilic primary amine without extra heteroatoms; condensation and multiple substitution compete.",
+      "Original source links: L164 [41]",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V04, V05.",
+      "Later comparison references: V04 (L349 [66]), V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-b56d476fec2f52a2::H01; zero-based input atom(s) 4; N",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 050-H01-O01: CCCCNC(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V05, V04."
+    ]
+  },
+  {
+    "display_id": "C051",
+    "paragraphs": [
+      "S5.4.51 C051  Phenol",
+      "Identity: C6H6O; Neutral phenolic oxygen donor; proposed centre(s) O.",
+      "Input SMILES: Oc1ccccc1",
+      "Activation hypothesis: Neutral phenol and in situ phenoxide are separate proposed reactive states.",
+      "Chemical rationale and competing outcomes: Pairs with sodium phenoxide to test precursor state, while aromatic C attack remains a competing site.",
+      "Original source links: L339 [42], L143 [43]",
+      "Novelty assessment: NP 2, 2; NR 2, 2. Comparison references: V01, V05, V10.",
+      "Later comparison references: V01 (L334 [64]), V05 (L350 [10]), V10 (L352 [61])",
+      "Reactive-site hypotheses: CP-3a23ccb632c9f44d::H01; zero-based input atom(s) 0; O; CP-3a23ccb632c9f44d::H02; zero-based input atom(s) 0; O",
+      "Actual-input association: Structural Analogue: AP046, AP047, AP048, AP049, AP051, AP056, AP057, AP060, AP061, AP062, AP063, AP064, AP065, AP066, AP067, AP068, AP077, AP078, AP079, AP080, AP081, AP082, AP084, AP085, AP086; Exact Molecular Match: AP083.",
+      "Proposed option 051-H01-O01: O=C(C=C(F)Oc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V10, V05, V01.",
+      "Proposed option 051-H02-O01: O=C(C=C(F)Oc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V10, V05, V01."
+    ]
+  },
+  {
+    "display_id": "C052",
+    "paragraphs": [
+      "S5.4.52 C052  Allyl alcohol",
+      "Identity: C3H6O; Unsaturated alcohol; proposed centre(s) O.",
+      "Input SMILES: C=CCO",
+      "Activation hypothesis: Neutral alcohol and in situ alkoxide capture are proposed.",
+      "Chemical rationale and competing outcomes: Pairs with sodium allyloxide while retaining a potentially competing alkene or coordination site.",
+      "Original source links: L328 [44]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-04e1450f7a0596df::H01; zero-based input atom(s) 3; O",
+      "Actual-input association: Structural Analogue: AP050, AP052, AP053, AP054, AP055, AP059, AP066, AP069, AP070, AP071, AP072, AP073, AP074, AP075, AP076.",
+      "Proposed option 052-H01-O01: C=CCOC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C053",
+    "paragraphs": [
+      "S5.4.53 C053  TEMPO",
+      "Identity: C9H18NO; Persistent nitroxyl radical; proposed centre(s) O.",
+      "Input SMILES: CC1(C)CCCC(C)(C)N1[O]",
+      "Activation hypothesis: The supplied radical has a proposed oxygen-centred capture pathway.",
+      "Chemical rationale and competing outcomes: Tests O-radical trapping and connectivity; radical inhibition alone would not establish the target C-O bond.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-0dde3cbcb235c563::H01; zero-based input atom(s) 0; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 053-H01-O01: CC1(C)CCCC(C)(C)N1OC(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C054",
+    "paragraphs": [
+      "S5.4.54 C054  Sodium hydroperoxide",
+      "Identity: HNaO2; Hydroperoxide anion; proposed centre(s) O.",
+      "Input SMILES: [Na+].[O-]O",
+      "Activation hypothesis: The supplied salt specifies a terminal oxygen nucleophile.",
+      "Chemical rationale and competing outcomes: Tests peroxide O transfer as a boundary hypothesis; oxidation, decomposition and incompatible redox chemistry can compete.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-a48a48bf32050f7b::H01; zero-based input atom(s) 0; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 054-H01-O01: O=C(C=C(F)OO)c1ccccc1 | NP 3; NR 3; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C055",
+    "paragraphs": [
+      "S5.4.55 C055  Water",
+      "Identity: H2O; Neutral oxygen donor; proposed centre(s) O.",
+      "Input SMILES: O",
+      "Activation hypothesis: Neutral water or condition-dependent hydroxide capture is proposed.",
+      "Chemical rationale and competing outcomes: Tests the smallest O donor; hydration, protonation and hydrolysis must be distinguished from the desired connection.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 1T; NR 3. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-e81dc06beaa39499::H01; zero-based input atom(s) 0; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 055-H01-O01: O=C(C=C(O)F)c1ccccc1 | NP 1T; NR 3; registry status hit; references V05."
+    ]
+  },
+  {
+    "display_id": "C056",
+    "paragraphs": [
+      "S5.4.56 C056  Pyridine N-oxide",
+      "Identity: C5H5NO; Oxygen lone-pair donor; proposed centre(s) O.",
+      "Input SMILES: [O-][n+]1ccccc1",
+      "Activation hypothesis: O attack by the N-oxide is the proposed bond-forming branch.",
+      "Chemical rationale and competing outcomes: Tests a charged, delocalized oxygen donor with strong coordination and potential rearrangement pathways.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-168a0c2e4c8e139f::H01; zero-based input atom(s) 0; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 056-H01-O01: O=C(C=C(F)O[n+]1ccccc1)c1ccccc1 | NP 3; NR 3; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C057",
+    "paragraphs": [
+      "S5.4.57 C057  Sodium trimethylsilanolate",
+      "Identity: C3H9NaOSi; Preformed silanolate; proposed centre(s) O.",
+      "Input SMILES: C[Si](C)(C)[O-].[Na+]",
+      "Activation hypothesis: The supplied salt provides an oxygen-centred anion.",
+      "Chemical rationale and competing outcomes: Tests a silicon-bearing O donor and fluoride affinity, while siloxane formation and desilylation compete.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-48cbdd3aac3823f7::H01; zero-based input atom(s) 4; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 057-H01-O01: C[Si](C)(C)OC(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C058",
+    "paragraphs": [
+      "S5.4.58 C058  Sodium 4-(trifluoromethyl)phenoxide",
+      "Identity: C7H4F3NaO; Electron-poor phenoxide; proposed centre(s) O.",
+      "Input SMILES: [Na+].[O-]c1ccc(C(F)(F)F)cc1",
+      "Activation hypothesis: The preformed salt supplies the proposed O-centred nucleophile.",
+      "Chemical rationale and competing outcomes: Varies phenoxide electron density without relying on in situ deprotonation; ion pairing remains relevant.",
+      "Original source links: L143 [43]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05, V10.",
+      "Later comparison references: V05 (L350 [10]), V10 (L352 [61])",
+      "Reactive-site hypotheses: CP-64837e30f7127abc::H01; zero-based input atom(s) 0; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 058-H01-O01: O=C(C=C(F)Oc1ccc(C(F)(F)F)cc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V10, V05."
+    ]
+  },
+  {
+    "display_id": "C059",
+    "paragraphs": [
+      "S5.4.59 C059  Sodium tert-butoxide",
+      "Identity: C4H9NaO; Sterically hindered alkoxide; proposed centre(s) O.",
+      "Input SMILES: CC(C)(C)[O-].[Na+]",
+      "Activation hypothesis: The preformed salt supplies an O anion with strong basicity.",
+      "Chemical rationale and competing outcomes: Tests steric access against deprotonation, elimination and excessive defluorination.",
+      "Original source links: L320 [45]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-822684332936c797::H01; zero-based input atom(s) 4; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 059-H01-O01: CC(C)(C)OC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C060",
+    "paragraphs": [
+      "S5.4.60 C060  Sodium methoxide",
+      "Identity: CH3NaO; Preformed alkoxide; proposed centre(s) O.",
+      "Input SMILES: C[O-].[Na+]",
+      "Activation hypothesis: The supplied salt provides methoxide rather than neutral methanol.",
+      "Chemical rationale and competing outcomes: Pairs with methanol and lithium methoxide to separate precursor-state and counterion effects.",
+      "Original source links: L294 [25]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-8de27f136fedbba8::H01; zero-based input atom(s) 1; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 060-H01-O01: COC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C061",
+    "paragraphs": [
+      "S5.4.61 C061  Methanol",
+      "Identity: CH4O; Neutral alcohol; proposed centre(s) O.",
+      "Input SMILES: CO",
+      "Activation hypothesis: Neutral methanol or a small in situ alkoxide population can attack through oxygen.",
+      "Chemical rationale and competing outcomes: Provides the smallest alkyl-alcohol comparison; the literature analogy does not establish target-system compatibility.",
+      "Original source links: L171 [46]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-a85d32e4db2ff39c::H01; zero-based input atom(s) 1; O",
+      "Actual-input association: Structural Analogue: AP050, AP052, AP053, AP054, AP055, AP059, AP066, AP069, AP070, AP071, AP072, AP073, AP074, AP075, AP076.",
+      "Proposed option 061-H01-O01: COC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C062",
+    "paragraphs": [
+      "S5.4.62 C062  Sodium 2,2,2-trifluoroethoxide",
+      "Identity: C2H2F3NaO; Electron-poor alkoxide; proposed centre(s) O.",
+      "Input SMILES: [Na+].[O-]CC(F)(F)F",
+      "Activation hypothesis: The supplied salt provides an oxygen-centred anion.",
+      "Chemical rationale and competing outcomes: Tests lower basicity and nucleophilicity relative to methoxide, with donor fluorines separately traceable from substrate fluorines.",
+      "Original source links: L030 [47]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-ae66431c2fbd5738::H01; zero-based input atom(s) 5; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 062-H01-O01: O=C(C=C(F)OCC(F)(F)F)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C063",
+    "paragraphs": [
+      "S5.4.63 C063  Lithium methoxide",
+      "Identity: CH3LiO; Counterion variant of methoxide; proposed centre(s) O.",
+      "Input SMILES: C[O-].[Li+]",
+      "Activation hypothesis: The supplied salt specifies a lithium-associated O anion.",
+      "Chemical rationale and competing outcomes: Pairs with sodium methoxide to test ion pairing and aggregation without assuming a transferable rate direction.",
+      "Original source links: L075 [48]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-cb20f7766b730a70::H01; zero-based input atom(s) 1; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 063-H01-O01: COC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C064",
+    "paragraphs": [
+      "S5.4.64 C064  Sodium phenoxide",
+      "Identity: C6H5NaO; Preformed phenoxide; proposed centre(s) O.",
+      "Input SMILES: [Na+].[O-]c1ccccc1",
+      "Activation hypothesis: The supplied salt specifies an O-centred anion.",
+      "Chemical rationale and competing outcomes: Pairs with phenol to distinguish neutral and ionic precursor states; C/O competition and salt effects remain explicit.",
+      "Original source links: L339 [42], L143 [43]",
+      "Novelty assessment: NP 2, 2; NR 2, 2. Comparison references: V05, V10.",
+      "Later comparison references: V05 (L350 [10]), V10 (L352 [61])",
+      "Reactive-site hypotheses: CP-dc11a678a5813bfb::H01; zero-based input atom(s) 0; O; CP-dc11a678a5813bfb::H02; zero-based input atom(s) 1; O",
+      "Actual-input association: Structural Analogue: AP046, AP047, AP048, AP049, AP051, AP056, AP057, AP060, AP061, AP062, AP063, AP064, AP065, AP066, AP067, AP068, AP077, AP078, AP079, AP080, AP081, AP082, AP084, AP085, AP086; Reactive-form Analogue: AP083.",
+      "Proposed option 064-H01-O01: O=C(C=C(F)Oc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V10, V05.",
+      "Proposed option 064-H02-O01: O=C(C=C(F)Oc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V10, V05."
+    ]
+  },
+  {
+    "display_id": "C065",
+    "paragraphs": [
+      "S5.4.65 C065  Sodium allyloxide",
+      "Identity: C3H5NaO; Unsaturated alkoxide; proposed centre(s) O.",
+      "Input SMILES: C=CC[O-].[Na+]",
+      "Activation hypothesis: The supplied salt specifies oxygen-centred capture.",
+      "Chemical rationale and competing outcomes: Pairs with allyl alcohol while retaining an alkene that may coordinate or undergo competing chemistry.",
+      "Original source links: L294 [25]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-f7328591687088c5::H01; zero-based input atom(s) 3; O",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 065-H01-O01: C=CCOC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C066",
+    "paragraphs": [
+      "S5.4.66 C066  Potassium thiocyanate",
+      "Identity: CKNS; Ambident pseudohalide anion; proposed centre(s) S.",
+      "Input SMILES: N#C[S-].[K+]",
+      "Activation hypothesis: The recorded hypothesis specifies sulfur-end thiocyanate attack.",
+      "Chemical rationale and competing outcomes: Tests a compact S donor while keeping N-end bonding, rearrangement and fragmentation as alternatives.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V06, V12.",
+      "Later comparison references: V06 (L324 [67]), V12 (L354 [68])",
+      "Reactive-site hypotheses: CP-3ca04501f77d577c::H01; zero-based input atom(s) 1; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 066-H01-O01: N#CSC(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V12, V06."
+    ]
+  },
+  {
+    "display_id": "C067",
+    "paragraphs": [
+      "S5.4.67 C067  Thiourea",
+      "Identity: CH4N2S; Neutral thioamide sulfur donor; proposed centre(s) S.",
+      "Input SMILES: NC(N)=S",
+      "Activation hypothesis: Sulfur lone-pair attack can initially give an isothiouronium-type connection.",
+      "Chemical rationale and competing outcomes: Tests a non-thiol S precursor; subsequent deprotection is a separate hypothesis and N coordination may inhibit turnover.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V15.",
+      "Later comparison references: V15 (L222 [69])",
+      "Reactive-site hypotheses: CP-efe8367638b4b0e2::H01; zero-based input atom(s) 3; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 067-H01-O01: NC(=[NH2+])SC(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V15."
+    ]
+  },
+  {
+    "display_id": "C068",
+    "paragraphs": [
+      "S5.4.68 C068  4-Bromobenzenethiol",
+      "Identity: C6H5BrS; Substituted aryl thiol; proposed centre(s) S.",
+      "Input SMILES: Sc1ccc(Br)cc1",
+      "Activation hypothesis: Neutral thiol or controlled thiolate formation supplies the proposed S donor.",
+      "Chemical rationale and competing outcomes: Varies sulfur electronics and adds an aryl-bromide handle that may undergo competing metal-mediated chemistry.",
+      "Original source links: L140 [49], L010 [50]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V01, V12, V14.",
+      "Later comparison references: V01 (L334 [64]), V12 (L354 [68]), V14 (L356 [70])",
+      "Reactive-site hypotheses: CP-757e317decd6724d::H01; zero-based input atom(s) 0; S",
+      "Actual-input association: Structural Analogue: AP089, AP090, AP095, AP096, AP097, AP098, AP100, AP103, AP104, AP108.",
+      "Proposed option 068-H01-O01: O=C(C=C(F)Sc1ccc(Br)cc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V01, V12, V14."
+    ]
+  },
+  {
+    "display_id": "C069",
+    "paragraphs": [
+      "S5.4.69 C069  Tetrahydrothiophene",
+      "Identity: C4H8S; Cyclic thioether; proposed centre(s) S.",
+      "Input SMILES: C1CCSC1",
+      "Activation hypothesis: Direct sulfur lone-pair capture can initially form a sulfonium centre.",
+      "Chemical rationale and competing outcomes: Tests neutral S capture without an S-H bond and separates initial bonding from any later dealkylation.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V11, V15.",
+      "Later comparison references: V11 (L353 [71]), V15 (L222 [69])",
+      "Reactive-site hypotheses: CP-e61c7ae663276e1e::H01; zero-based input atom(s) 3; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 069-H01-O01: O=C(C=C(F)[S+]1CCCC1)c1ccccc1 | NP 3; NR 3; registry status no_match; references V11, V15."
+    ]
+  },
+  {
+    "display_id": "C070",
+    "paragraphs": [
+      "S5.4.70 C070  Sodium methanesulfinate",
+      "Identity: CH3NaO2S; Sulfinate precursor; proposed centre(s) S.",
+      "Input SMILES: CS(=O)[O-].[Na+]",
+      "Activation hypothesis: Oxidative activation can generate a methanesulfonyl radical.",
+      "Chemical rationale and competing outcomes: Tests S(O)2Me transfer; the sulfonyl-radical analogy does not establish compatibility with the carbonyl substrate.",
+      "Original source links: L250 [36]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V06.",
+      "Later comparison references: V06 (L324 [67])",
+      "Reactive-site hypotheses: CP-127aad8ad7de9e0a::H01; zero-based input atom(s) 1; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 070-H01-O01: CS(=O)(=O)C(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V06."
+    ]
+  },
+  {
+    "display_id": "C071",
+    "paragraphs": [
+      "S5.4.71 C071  Methyl phenyl disulfide",
+      "Identity: C7H8S2; Unsymmetrical disulfide; proposed centre(s) S.",
+      "Input SMILES: CSSc1ccccc1",
+      "Activation hypothesis: S-S activation can release either the methylthio or phenylthio fragment.",
+      "Chemical rationale and competing outcomes: Retains two explicit fragment-transfer hypotheses for one molecule and tests selectivity without free thiol.",
+      "Original source links: https://doi.org/10.1021/jacs.9b02266",
+      "Novelty assessment: NP 2, 2; NR 2, 2. Comparison references: V11, V12.",
+      "Later comparison references: V11 (L353 [71]), V12 (L354 [68])",
+      "Reactive-site hypotheses: CP-db052eb259749c35::H01; zero-based input atom(s) 1; S; CP-db052eb259749c35::H02; zero-based input atom(s) 2; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 071-H01-O01: CSC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V11, V12.",
+      "Proposed option 071-H02-O01: O=C(C=C(F)Sc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V11, V12."
+    ]
+  },
+  {
+    "display_id": "C072",
+    "paragraphs": [
+      "S5.4.72 C072  Copper(I) methanethiolate",
+      "Identity: CH3CuS; Metal thiolate; proposed centre(s) S.",
+      "Input SMILES: C[S-].[Cu+]",
+      "Activation hypothesis: The represented copper thiolate supplies a metal-associated sulfur donor.",
+      "Chemical rationale and competing outcomes: Tests the combined roles of sulfur transfer, metal identity and aggregation rather than assuming a free thiolate.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V11, V12.",
+      "Later comparison references: V11 (L353 [71]), V12 (L354 [68])",
+      "Reactive-site hypotheses: CP-8680b11837f9690e::H01; zero-based input atom(s) 1; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 072-H01-O01: CSC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V11, V12."
+    ]
+  },
+  {
+    "display_id": "C073",
+    "paragraphs": [
+      "S5.4.73 C073  Potassium ethyl xanthate",
+      "Identity: C3H5KOS2; Xanthate anion; proposed centre(s) S.",
+      "Input SMILES: CCOC(=S)[S-].[K+]",
+      "Activation hypothesis: The anionic sulfur terminus is the proposed transfer site.",
+      "Chemical rationale and competing outcomes: Tests a resonance-stabilized sulfur donor with possible radical transfer, fragmentation and competing sites.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3, 3; NR 3, 3. Comparison references: V11, V15.",
+      "Later comparison references: V11 (L353 [71]), V15 (L222 [69])",
+      "Reactive-site hypotheses: CP-790a21c83fa3ce0d::H01; zero-based input atom(s) 1; S; CP-790a21c83fa3ce0d::H02; zero-based input atom(s) 3; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 073-H01-O01: CCOC(=S)SC(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V11, V15.",
+      "Proposed option 073-H02-O01: CCOC(=S)SC(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V11, V15."
+    ]
+  },
+  {
+    "display_id": "C074",
+    "paragraphs": [
+      "S5.4.74 C074  Dimethyl sulfide",
+      "Identity: C2H6S; Neutral thioether; proposed centre(s) S.",
+      "Input SMILES: CSC",
+      "Activation hypothesis: Direct sulfur capture would initially form a sulfonium connection.",
+      "Chemical rationale and competing outcomes: Tests small neutral S bonding without S-H activation; neutral-product formation or demethylation is not assumed.",
+      "Original source links: L179 [52]",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V11, V15.",
+      "Later comparison references: V11 (L353 [71]), V15 (L222 [69])",
+      "Reactive-site hypotheses: CP-4d2aaa7bf4b8ca67::H01; zero-based input atom(s) 1; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 074-H01-O01: C[S+](C)C(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V11, V15."
+    ]
+  },
+  {
+    "display_id": "C075",
+    "paragraphs": [
+      "S5.4.75 C075  Ethanethiol",
+      "Identity: C2H6S; Alkyl thiol; proposed centre(s) S.",
+      "Input SMILES: CCS",
+      "Activation hypothesis: Neutral thiol, thiolate or separately activated thiyl pathways are proposed.",
+      "Chemical rationale and competing outcomes: Tests an aliphatic sulfur donor relative to aryl thiols, with oxidation and hydrogen transfer as alternatives.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05, V11, V12.",
+      "Later comparison references: V05 (L350 [10]), V11 (L353 [71]), V12 (L354 [68])",
+      "Reactive-site hypotheses: CP-02287a1de385889e::H01; zero-based input atom(s) 2; S",
+      "Actual-input association: Structural Analogue: AP091, AP092, AP093, AP094, AP099, AP101, AP102, AP106, AP107.",
+      "Proposed option 075-H01-O01: CCSC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05, V11, V12."
+    ]
+  },
+  {
+    "display_id": "C076",
+    "paragraphs": [
+      "S5.4.76 C076  Sodium benzenesulfinate",
+      "Identity: C6H5NaO2S; Aryl sulfinate; proposed centre(s) S.",
+      "Input SMILES: O=S([O-])c1ccccc1.[Na+]",
+      "Activation hypothesis: Oxidative activation can generate a phenylsulfonyl radical.",
+      "Chemical rationale and competing outcomes: Pairs with methanesulfinate to test sulfonyl-fragment identity while retaining distinct S- and O-bonding possibilities.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V06.",
+      "Later comparison references: V06 (L324 [67])",
+      "Reactive-site hypotheses: CP-71ce6823ee7e14cc::H01; zero-based input atom(s) 2; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 076-H01-O01: O=C(C=C(F)S(=O)(=O)c1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V06."
+    ]
+  },
+  {
+    "display_id": "C077",
+    "paragraphs": [
+      "S5.4.77 C077  Potassium thioacetate",
+      "Identity: C2H3KOS; Protected thiolate equivalent; proposed centre(s) S.",
+      "Input SMILES: CC(=O)[S-].[K+]",
+      "Activation hypothesis: The supplied anion specifies sulfur-end capture.",
+      "Chemical rationale and competing outcomes: Tests a less basic protected sulfur donor; subsequent hydrolysis and deprotection require independent verification.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V11, V15.",
+      "Later comparison references: V11 (L353 [71]), V15 (L222 [69])",
+      "Reactive-site hypotheses: CP-735e0b557cdf0e0c::H01; zero-based input atom(s) 4; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 077-H01-O01: CC(=O)SC(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V11, V15."
+    ]
+  },
+  {
+    "display_id": "C078",
+    "paragraphs": [
+      "S5.4.78 C078  Diphenyl disulfide",
+      "Identity: C12H10S2; Disulfide precursor; proposed centre(s) S.",
+      "Input SMILES: c1ccc(SSc2ccccc2)cc1",
+      "Activation hypothesis: Reductive, photochemical or metal-assisted S-S activation can transfer a phenylthio fragment.",
+      "Chemical rationale and competing outcomes: Tests a precursor without free S-H while retaining activation and fluorination endpoint as separate questions.",
+      "Original source links: https://doi.org/10.1021/jacs.9b02266",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V11, V12.",
+      "Later comparison references: V11 (L353 [71]), V12 (L354 [68])",
+      "Reactive-site hypotheses: CP-7647ff2ce0052a54::H01; zero-based input atom(s) 0,1; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 078-H01-O01: O=C(C=C(F)Sc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V11, V12."
+    ]
+  },
+  {
+    "display_id": "C079",
+    "paragraphs": [
+      "S5.4.79 C079  Sodium benzenethiolate",
+      "Identity: C6H5NaS; Preformed aryl thiolate; proposed centre(s) S.",
+      "Input SMILES: [Na+].[S-]c1ccccc1",
+      "Activation hypothesis: The supplied salt specifies a sulfur-centred anion.",
+      "Chemical rationale and competing outcomes: Pairs with benzenethiol and diphenyl disulfide to distinguish donor state from the transferred group.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V01, V12, V14.",
+      "Later comparison references: V01 (L334 [64]), V12 (L354 [68]), V14 (L356 [70])",
+      "Reactive-site hypotheses: CP-85359065fe28e8d0::H01; zero-based input atom(s) 1; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 079-H01-O01: O=C(C=C(F)Sc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V01, V12, V14."
+    ]
+  },
+  {
+    "display_id": "C080",
+    "paragraphs": [
+      "S5.4.80 C080  tert-Butanethiol",
+      "Identity: C4H10S; Sterically hindered alkyl thiol; proposed centre(s) S.",
+      "Input SMILES: CC(C)(C)S",
+      "Activation hypothesis: Neutral thiol or controlled thiolate formation supplies the proposed S donor.",
+      "Chemical rationale and competing outcomes: Tests steric demand and alkyl substitution at sulfur while retaining oxidation and hydrogen-transfer alternatives.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05, V11, V12.",
+      "Later comparison references: V05 (L350 [10]), V11 (L353 [71]), V12 (L354 [68])",
+      "Reactive-site hypotheses: CP-95e4c6bd10d240e3::H01; zero-based input atom(s) 4; S",
+      "Actual-input association: Structural Analogue: AP091, AP092, AP093, AP094, AP099, AP101, AP102, AP106, AP107.",
+      "Proposed option 080-H01-O01: CC(C)(C)SC(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05, V11, V12."
+    ]
+  },
+  {
+    "display_id": "C081",
+    "paragraphs": [
+      "S5.4.81 C081  Thioanisole",
+      "Identity: C7H8S; Neutral aryl alkyl sulfide; proposed centre(s) S.",
+      "Input SMILES: CSc1ccccc1",
+      "Activation hypothesis: Sulfur lone-pair attack can initially form a sulfonium centre.",
+      "Chemical rationale and competing outcomes: Tests S bonding distinct from heteroaromatic carbon attack; any subsequent demethylation remains unproven.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V11, V15.",
+      "Later comparison references: V11 (L353 [71]), V15 (L222 [69])",
+      "Reactive-site hypotheses: CP-abed28aa627f8929::H01; zero-based input atom(s) 1; S",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 081-H01-O01: C[S+](C(F)=CC(=O)c1ccccc1)c1ccccc1 | NP 3; NR 3; registry status no_match; references V11, V15."
+    ]
+  },
+  {
+    "display_id": "C082",
+    "paragraphs": [
+      "S5.4.82 C082  Benzenethiol",
+      "Identity: C6H6S; Aryl thiol; proposed centre(s) S.",
+      "Input SMILES: Sc1ccccc1",
+      "Activation hypothesis: Neutral, thiolate and separately activated thiyl forms are recorded alternatives.",
+      "Chemical rationale and competing outcomes: Provides a parent aryl-sulfur probe without extra donor atoms; source-local reactivity does not prove the complete target sequence.",
+      "Original source links: L339 [42], L010 [50]",
+      "Novelty assessment: NP 2, 2, 2; NR 2, 2, 2. Comparison references: V01, V11, V12, V14.",
+      "Later comparison references: V01 (L334 [64]), V11 (L353 [71]), V12 (L354 [68]), V14 (L356 [70])",
+      "Reactive-site hypotheses: CP-b18c4945d055e0a6::H01; zero-based input atom(s) 0; S; CP-b18c4945d055e0a6::H02; zero-based input atom(s) 0; S; CP-b18c4945d055e0a6::H03; zero-based input atom(s) 0; S",
+      "Actual-input association: Structural Analogue: AP089, AP090, AP095, AP096, AP097, AP098, AP100, AP103, AP104, AP108.",
+      "Proposed option 082-H01-O01: O=C(C=C(F)Sc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V01, V12, V14, V11.",
+      "Proposed option 082-H02-O01: O=C(C=C(F)Sc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V01, V12, V14, V11.",
+      "Proposed option 082-H03-O01: O=C(C=C(F)Sc1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V01, V12, V14, V11."
+    ]
+  },
+  {
+    "display_id": "C083",
+    "paragraphs": [
+      "S5.4.83 C083  Tris(2,2,2-trifluoroethyl) phosphite",
+      "Identity: C6H6F9O3P; Electron-poor P(III) donor; proposed centre(s) P.",
+      "Input SMILES: FC(F)(F)COP(OCC(F)(F)F)OCC(F)(F)F",
+      "Activation hypothesis: Direct neutral-P capture or a separately activated electrophile is proposed.",
+      "Chemical rationale and competing outcomes: Tests electron-withdrawing alkoxy groups and possible dealkylation without treating all phosphorus precursors as equivalent.",
+      "Original source links: L128 [53]",
+      "Novelty assessment: NP 3/2; NR 3. Comparison references: V16, V24.",
+      "Later comparison references: V16 (L357 [20]), V24 (L128 [53])",
+      "Reactive-site hypotheses: CP-9965bc6fbd9116ca::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 083-H01-O01: O=C(C=C(F)[P+](OCC(F)(F)F)(OCC(F)(F)F)OCC(F)(F)F)c1ccccc1 | NP 3; NR 3; registry status no_match; references V24, V16.",
+      "Proposed option 083-H01-O02: O=C(C=C(F)P(=O)(OCC(F)(F)F)OCC(F)(F)F)c1ccccc1 | NP 2; NR 3; registry status no_match; references V24, V16."
+    ]
+  },
+  {
+    "display_id": "C084",
+    "paragraphs": [
+      "S5.4.84 C084  Tri-n-butylphosphine",
+      "Identity: C12H27P; Trialkylphosphine; proposed centre(s) P.",
+      "Input SMILES: CCCCP(CCCC)CCCC",
+      "Activation hypothesis: Neutral P(III) lone-pair attack is proposed; radical activation is a separate possibility.",
+      "Chemical rationale and competing outcomes: Tests a flexible alkylphosphine whose ligand behaviour may compete with C-P bonding.",
+      "Original source links: L205 [54]",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V05, V25.",
+      "Later comparison references: V05 (L350 [10]), V25 (L205 [54])",
+      "Reactive-site hypotheses: CP-68d791fe27d0090d::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 084-H01-O01: CCCC[P+](CCCC)(CCCC)C(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V25, V05."
+    ]
+  },
+  {
+    "display_id": "C085",
+    "paragraphs": [
+      "S5.4.85 C085  Dimethyl phosphite",
+      "Identity: C2H7O3P; P(O)-H precursor; proposed centre(s) P.",
+      "Input SMILES: CO[PH](=O)OC",
+      "Activation hypothesis: Polar P-H activation and radical phosphoryl transfer are distinct proposed routes.",
+      "Chemical rationale and competing outcomes: Tests phosphorus-centred transfer while requiring separate assignment of the retained-fluorine endpoint.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V16, V17.",
+      "Later comparison references: V16 (L357 [20]), V17 (L358 [72])",
+      "Reactive-site hypotheses: CP-586e1196c67c1811::H01; zero-based input atom(s) 2; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 085-H01-O01: COP(=O)(OC)C(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V16, V17."
+    ]
+  },
+  {
+    "display_id": "C086",
+    "paragraphs": [
+      "S5.4.86 C086  Tris(trimethylsilyl)phosphine",
+      "Identity: C9H27PSi3; Silyl phosphorus-transfer precursor; proposed centre(s) P.",
+      "Input SMILES: C[Si](C)(C)P([Si](C)(C)C)[Si](C)(C)C",
+      "Activation hypothesis: P-Si cleavage or transfer can be driven by silicon-directed activation.",
+      "Chemical rationale and competing outcomes: Tests phosphorus transfer coupled to fluoride affinity, with precursor breakdown and endpoint control unresolved.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP unresolved; NR 3. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-cda39527d578a1f4::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 086-H01-O01: C[Si](C)(C)P(C(F)=CC(=O)c1ccccc1)[Si](C)(C)C | NP unresolved; NR 3; registry status no_match; references V05.",
+      "Proposed option 086-H01-O02: C[Si](C)(C)PC(F)=CC(=O)c1ccccc1 | NP unresolved; NR 3; registry status no_match; references V05.",
+      "Proposed option 086-H01-O03: O=C(C=C(F)P)c1ccccc1 | NP unresolved; NR 3; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C087",
+    "paragraphs": [
+      "S5.4.87 C087  Diphenylphosphine sulfide",
+      "Identity: C12H11PS; P(S)-H precursor; proposed centre(s) P.",
+      "Input SMILES: S=[PH](c1ccccc1)c1ccccc1",
+      "Activation hypothesis: Controlled polar or radical P-H activation is proposed.",
+      "Chemical rationale and competing outcomes: Varies the phosphorus chalcogen environment relative to the oxide; P/S site identity and oxidation state require verification.",
+      "Original source links: L085 [55]",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V16, V28.",
+      "Later comparison references: V16 (L357 [20]), V28 (L085 [55])",
+      "Reactive-site hypotheses: CP-2a6be0fb49e1f64e::H01; zero-based input atom(s) 1; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 087-H01-O01: O=C(C=C(F)P(=S)(c1ccccc1)c1ccccc1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V28, V16."
+    ]
+  },
+  {
+    "display_id": "C088",
+    "paragraphs": [
+      "S5.4.88 C088  Tricyclohexylphosphine",
+      "Identity: C18H33P; Bulky trialkylphosphine; proposed centre(s) P.",
+      "Input SMILES: C1CCC(P(C2CCCCC2)C2CCCCC2)CC1",
+      "Activation hypothesis: Neutral P(III) lone-pair capture is proposed.",
+      "Chemical rationale and competing outcomes: Tests a bulky, strongly coordinating phosphorus donor; binding and productive C-P formation are distinct outcomes.",
+      "Original source links: L342 [56]",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V05, V29.",
+      "Later comparison references: V05 (L350 [10]), V29 (L342 [56])",
+      "Reactive-site hypotheses: CP-deed3268ff7bd041::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 088-H01-O01: O=C(C=C(F)[P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)c1ccccc1 | NP 3; NR 3; registry status no_match; references V29, V05."
+    ]
+  },
+  {
+    "display_id": "C089",
+    "paragraphs": [
+      "S5.4.89 C089  Diethyl phosphite",
+      "Identity: C4H11O3P; P(O)-H precursor; proposed centre(s) P.",
+      "Input SMILES: CCO[PH](=O)OCC",
+      "Activation hypothesis: Polar P-H activation and radical phosphoryl transfer are separate hypotheses.",
+      "Chemical rationale and competing outcomes: Tests an alkoxy-substituted P-H donor with documented source-specific limitations; no universal phosphorus failure is inferred.",
+      "Original source links: L085 [55]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V16, V23, V28.",
+      "Later comparison references: V16 (L357 [20]), V23 (L133 [21]), V28 (L085 [55])",
+      "Reactive-site hypotheses: CP-000143ee94b8982f::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 089-H01-O01: CCOP(=O)(OCC)C(F)=CC(=O)c1ccccc1 | NP 2; NR 2; registry status no_match; references V16, V23, V28."
+    ]
+  },
+  {
+    "display_id": "C090",
+    "paragraphs": [
+      "S5.4.90 C090  Diphenylphosphine oxide",
+      "Identity: C12H11OP; P(O)-H precursor; proposed centre(s) P.",
+      "Input SMILES: O=[PH](c1ccccc1)c1ccccc1",
+      "Activation hypothesis: Polar or radical P-H activation can provide different phosphorus-centred reactive states.",
+      "Chemical rationale and competing outcomes: Tests how activation mode can change fluoride elimination versus fluorine retention in neighbouring literature systems.",
+      "Original source links: L133 [21]",
+      "Novelty assessment: NP 2, 2; NR 2, 2. Comparison references: V16, V17, V23.",
+      "Later comparison references: V16 (L357 [20]), V17 (L358 [72]), V23 (L133 [21])",
+      "Reactive-site hypotheses: CP-13af80fd720ea87f::H01; zero-based input atom(s) 1; P; CP-13af80fd720ea87f::H02; zero-based input atom(s) 1; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 090-H01-O01: O=C(C=C(F)P(=O)(c1ccccc1)c1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V16, V17, V23.",
+      "Proposed option 090-H02-O01: O=C(C=C(F)P(=O)(c1ccccc1)c1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V16, V17, V23."
+    ]
+  },
+  {
+    "display_id": "C091",
+    "paragraphs": [
+      "S5.4.91 C091  Tri-tert-butylphosphine",
+      "Identity: C12H27P; Very bulky trialkylphosphine; proposed centre(s) P.",
+      "Input SMILES: CC(C)(C)P(C(C)(C)C)C(C)(C)C",
+      "Activation hypothesis: Neutral P(III) lone-pair capture is proposed.",
+      "Chemical rationale and competing outcomes: Tests steric restriction against high donor strength and strong metal binding.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-15984a39bb896abc::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 091-H01-O01: CC(C)(C)[P+](C(F)=CC(=O)c1ccccc1)(C(C)(C)C)C(C)(C)C | NP 3; NR 3; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C092",
+    "paragraphs": [
+      "S5.4.92 C092  Sodium hypophosphite",
+      "Identity: H2NaO2P; Ionic P-H precursor; proposed centre(s) P.",
+      "Input SMILES: O=[PH2][O-].[Na+]",
+      "Activation hypothesis: Controlled P-H activation can generate a phosphorus-centred donor.",
+      "Chemical rationale and competing outcomes: Tests a small, ionic phosphorus precursor with multiple P-H bonds and competing reduction chemistry.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V16, V28.",
+      "Later comparison references: V16 (L357 [20]), V28 (L085 [55])",
+      "Reactive-site hypotheses: CP-2f18674cdee060d7::H01; zero-based input atom(s) 2; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 092-H01-O01: O=C(C=C(F)[PH](=O)[O-])c1ccccc1 | NP 2; NR 3; registry status no_match; references V28, V16."
+    ]
+  },
+  {
+    "display_id": "C093",
+    "paragraphs": [
+      "S5.4.93 C093  Triphenylphosphine",
+      "Identity: C18H15P; Triarylphosphine; proposed centre(s) P.",
+      "Input SMILES: c1ccc(P(c2ccccc2)c2ccccc2)cc1",
+      "Activation hypothesis: Neutral P(III) capture can initially produce a phosphonium-type connection.",
+      "Chemical rationale and competing outcomes: Distinguishes a potential reagent role from a familiar ligand role; stable target-product formation is unproven.",
+      "Original source links: L205 [54]",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V05, V25.",
+      "Later comparison references: V05 (L350 [10]), V25 (L205 [54])",
+      "Reactive-site hypotheses: CP-3222b1c46b10eff8::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 093-H01-O01: O=C(C=C(F)[P+](c1ccccc1)(c1ccccc1)c1ccccc1)c1ccccc1 | NP 3; NR 3; registry status no_match; references V25, V05."
+    ]
+  },
+  {
+    "display_id": "C094",
+    "paragraphs": [
+      "S5.4.94 C094  Dicyclohexylphosphine",
+      "Identity: C12H23P; Secondary alkylphosphine; proposed centre(s) P.",
+      "Input SMILES: C1CCC(PC2CCCCC2)CC1",
+      "Activation hypothesis: Neutral, deprotonated or radical P-H-derived forms are alternatives.",
+      "Chemical rationale and competing outcomes: Tests an alkyl-substituted secondary phosphine with steric and catalyst-binding effects.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-4f781cc37b739293::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 094-H01-O01: O=C(C=C(F)P(C1CCCCC1)C1CCCCC1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C095",
+    "paragraphs": [
+      "S5.4.95 C095  Diphenylphosphine",
+      "Identity: C12H11P; Secondary arylphosphine; proposed centre(s) P.",
+      "Input SMILES: c1ccc(Pc2ccccc2)cc1",
+      "Activation hypothesis: Neutral, deprotonated or radical P-H-derived forms are alternatives.",
+      "Chemical rationale and competing outcomes: Provides the exact donor in the two recoverable PH combinations; a positive neighbouring C-P precedent and project negative report have different scopes.",
+      "Original source links: L274 [57]",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05, V30.",
+      "Later comparison references: V05 (L350 [10]), V30 (L274 [57])",
+      "Reactive-site hypotheses: CP-7010fb8ed62e0e37::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: Exact Molecular Match: AP087, AP088.",
+      "Proposed option 095-H01-O01: O=C(C=C(F)P(c1ccccc1)c1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05, V30."
+    ]
+  },
+  {
+    "display_id": "C096",
+    "paragraphs": [
+      "S5.4.96 C096  Trimethyl phosphite",
+      "Identity: C3H9O3P; P(III) phosphite; proposed centre(s) P.",
+      "Input SMILES: COP(OC)OC",
+      "Activation hypothesis: Direct neutral-P capture or compatible electrophile activation is proposed.",
+      "Chemical rationale and competing outcomes: Tests an oxygen-substituted P(III) donor; subsequent Arbuzov-type dealkylation must be demonstrated separately.",
+      "Original source links: L128 [53]",
+      "Novelty assessment: NP 3/2; NR 3. Comparison references: V16, V24.",
+      "Later comparison references: V16 (L357 [20]), V24 (L128 [53])",
+      "Reactive-site hypotheses: CP-c92cc6151bc3008b::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 096-H01-O01: CO[P+](OC)(OC)C(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V24, V16.",
+      "Proposed option 096-H01-O02: COP(=O)(OC)C(F)=CC(=O)c1ccccc1 | NP 2; NR 3; registry status no_match; references V24, V16."
+    ]
+  },
+  {
+    "display_id": "C097",
+    "paragraphs": [
+      "S5.4.97 C097  Methoxydiphenylphosphine",
+      "Identity: C13H13OP; Mixed alkoxy/aryl P(III) donor; proposed centre(s) P.",
+      "Input SMILES: COP(c1ccccc1)c1ccccc1",
+      "Activation hypothesis: Direct neutral-phosphorus capture is proposed.",
+      "Chemical rationale and competing outcomes: Interpolates between phosphines and phosphites while distinguishing reagent and metal-ligand behaviour.",
+      "Original source links: L128 [53]",
+      "Novelty assessment: NP 3/2; NR 3. Comparison references: V16, V24.",
+      "Later comparison references: V16 (L357 [20]), V24 (L128 [53])",
+      "Reactive-site hypotheses: CP-d62c2f4634cac93c::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 097-H01-O01: CO[P+](C(F)=CC(=O)c1ccccc1)(c1ccccc1)c1ccccc1 | NP 3; NR 3; registry status no_match; references V24, V16.",
+      "Proposed option 097-H01-O02: O=C(C=C(F)P(=O)(c1ccccc1)c1ccccc1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V24, V16."
+    ]
+  },
+  {
+    "display_id": "C098",
+    "paragraphs": [
+      "S5.4.98 C098  Trimethylphosphine",
+      "Identity: C3H9P; Small trialkylphosphine; proposed centre(s) P.",
+      "Input SMILES: CP(C)C",
+      "Activation hypothesis: Neutral P(III) lone-pair capture is proposed.",
+      "Chemical rationale and competing outcomes: Tests low steric demand and high donor strength; phosphonium formation, binding and endpoint control remain separate questions.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 3; NR 3. Comparison references: V05.",
+      "Later comparison references: V05 (L350 [10])",
+      "Reactive-site hypotheses: CP-dab7493e2905b4fb::H01; zero-based input atom(s) 0; P",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 098-H01-O01: C[P+](C)(C)C(F)=CC(=O)c1ccccc1 | NP 3; NR 3; registry status no_match; references V05."
+    ]
+  },
+  {
+    "display_id": "C099",
+    "paragraphs": [
+      "S5.4.99 C099  Lithium diphenylphosphide",
+      "Identity: C12H10LiP; Preformed phosphorus anion; proposed centre(s) P.",
+      "Input SMILES: [Li+].c1ccc([P-]c2ccccc2)cc1",
+      "Activation hypothesis: The supplied ion pair permits a direct P-centred nucleophilic branch.",
+      "Chemical rationale and competing outcomes: Bypasses uncertain in situ P-H activation while exposing strong-base, ion-pairing and carbonyl-compatibility boundaries.",
+      "Original source links: No original molecule-linked source citation",
+      "Novelty assessment: NP 2; NR 2. Comparison references: V05, V16.",
+      "Later comparison references: V05 (L350 [10]), V16 (L357 [20])",
+      "Reactive-site hypotheses: CP-ecb0e8b377ec42c8::H01; zero-based input atom(s) 1; P",
+      "Actual-input association: Reactive-form Analogue: AP087, AP088.",
+      "Proposed option 099-H01-O01: O=C(C=C(F)P(c1ccccc1)c1ccccc1)c1ccccc1 | NP 2; NR 2; registry status no_match; references V05, V16."
+    ]
+  },
+  {
+    "display_id": "C100",
+    "paragraphs": [
+      "S5.4.100 C100  Benzeneselenol",
+      "Identity: C6H6Se; Selenium donor; proposed centre(s) Se.",
+      "Input SMILES: [SeH]c1ccccc1",
+      "Activation hypothesis: Neutral selenol, selenolate and separately generated selenyl-radical forms are alternatives.",
+      "Chemical rationale and competing outcomes: Provides the sulfur/selenium comparison; author-reported negative trials lack a recoverable sample-linked selenium row in these source records.",
+      "Original source links: L339 [42]",
+      "Novelty assessment: NP 2; NR 3. Comparison references: V18, V26, V27.",
+      "Later comparison references: V18 (L359 [22]), V26 (L346 [23]), V27 (L344 [6])",
+      "Reactive-site hypotheses: CP-3bfd35b3a7b890f1::H01; zero-based input atom(s) 0; Se",
+      "Actual-input association: none in the bounded route-compatible mapping.",
+      "Proposed option 100-H01-O01: O=C(C=C(F)[Se]c1ccccc1)c1ccccc1 | NP 2; NR 3; registry status no_match; references V18, V26, V27."
+    ]
+  }
+]

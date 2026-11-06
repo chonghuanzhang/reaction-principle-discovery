@@ -1,0 +1,109 @@
+Pair / route,Primary relation,Candidate IDs (secondary RF stated),NP,NR
+AP001 / NH,Structural Analogue,C035,2,2
+AP002 / NH,Unmatched,none,not applicable,not applicable
+AP003 / NH,Structural Analogue,C044,2,3
+AP004 / NH,Structural Analogue,C027,2,2
+AP005 / NH,Structural Analogue,C027,2,2
+AP006 / NH,Structural Analogue,C027,2,2
+AP007 / NH,Structural Analogue,C048,2,2
+AP008 / NH,Structural Analogue,C041,2,3
+AP009 / NH,Structural Analogue,C027,2,2
+AP010 / NH,Structural Analogue,"C039, C046",2,1
+AP011 / NH,Structural Analogue,"C038, C048",2,2
+AP012 / NH,Structural Analogue,C027,2,2
+AP013 / NH,Structural Analogue,C041,2,3
+AP014 / NH,Structural Analogue,"C039, C046",2,1
+AP015 / NH,Structural Analogue,"C039, C046",2,1
+AP016 / NH,Structural Analogue,"C038, C048",2,2
+AP017 / NH,Structural Analogue,C027,2,2
+AP018 / NH,Structural Analogue,C027,2,2
+AP019 / NH,Structural Analogue,C027,2,2
+AP020 / NH,Structural Analogue,C027,2,2
+AP021 / NH,Structural Analogue,C048,2,2
+AP022 / NH,Structural Analogue,C027,2,2
+AP023 / NH,Structural Analogue,C027,2,2
+AP024 / NH,Structural Analogue,C027,2,2
+AP025 / NH,Structural Analogue,C027,2,2
+AP026 / NH,Structural Analogue,C027,2,2
+AP027 / NH,Structural Analogue,C027,2,2
+AP028 / NH,Structural Analogue,C035,2,2
+AP029 / NH,Structural Analogue,C041,2,3
+AP030 / NH,Structural Analogue,C044,2,3
+AP031 / NH,Structural Analogue,C041,2,3
+AP032 / NH,Structural Analogue,C027,2,2
+AP033 / NH,Structural Analogue,"C039, C046",2,1
+AP034 / NH,Structural Analogue,"C039, C046",2,1
+AP035 / NH,Structural Analogue,"C038, C048",2,2
+AP036 / NH,Structural Analogue,C027,2,2
+AP037 / NH,Structural Analogue,"C039, C046",2,1
+AP038 / NH,Structural Analogue,"C038, C048",2,2
+AP039 / NH,Structural Analogue,C048,2,2
+AP040 / NH,Structural Analogue,C048,2,2
+AP041 / NH,Structural Analogue,C027,2,2
+AP042 / NH,Structural Analogue,C027,2,2
+AP043 / NH,Structural Analogue,C027,1R,unresolved
+AP044 / NH,Structural Analogue,C048,2,2
+AP045 / OH,Unmatched,none,not applicable,not applicable
+AP046 / OH,Structural Analogue,"C051, C064",2,2
+AP047 / OH,Structural Analogue,"C051, C064",2,2
+AP048 / OH,Structural Analogue,"C051, C064",2,2
+AP049 / OH,Structural Analogue,"C051, C064",2,2
+AP050 / OH,Structural Analogue,"C052, C061",2,2
+AP051 / OH,Structural Analogue,"C051, C064",2,2
+AP052 / OH,Structural Analogue,"C052, C061",2,2
+AP053 / OH,Structural Analogue,"C052, C061",2,2
+AP054 / OH,Structural Analogue,"C052, C061",2,2
+AP055 / OH,Structural Analogue,"C052, C061",2,2
+AP056 / OH,Structural Analogue,"C051, C064",2,2
+AP057 / OH,Structural Analogue,"C051, C064",2,2
+AP058 / OH,Unmatched,none,3,3
+AP059 / OH,Structural Analogue,"C052, C061",2,2
+AP060 / OH,Structural Analogue,"C051, C064",2,2
+AP061 / OH,Structural Analogue,"C051, C064",2,2
+AP062 / OH,Structural Analogue,"C051, C064",2,2
+AP063 / OH,Structural Analogue,"C051, C064",2,2
+AP064 / OH,Structural Analogue,"C051, C064",3/2,2–3
+AP065 / OH,Structural Analogue,"C051, C064",2,2
+AP066 / OH,Structural Analogue,"C051, C052, C061, C064",2,2
+AP067 / OH,Structural Analogue,"C051, C064",2,2
+AP068 / OH,Structural Analogue,"C051, C064",2,2
+AP069 / OH,Structural Analogue,"C052, C061",2,2
+AP070 / OH,Structural Analogue,"C052, C061",2,2
+AP071 / OH,Structural Analogue,"C052, C061",2,2
+AP072 / OH,Structural Analogue,"C052, C061",2,2
+AP073 / OH,Structural Analogue,"C052, C061",2,2
+AP074 / OH,Structural Analogue,"C052, C061",2,2
+AP075 / OH,Structural Analogue,"C052, C061",2,2
+AP076 / OH,Structural Analogue,"C052, C061",2,2
+AP077 / OH,Structural Analogue,"C051, C064",2,2
+AP078 / OH,Structural Analogue,"C051, C064",2,2
+AP079 / OH,Structural Analogue,"C051, C064",2,2
+AP080 / OH,Structural Analogue,"C051, C064",2,2
+AP081 / OH,Structural Analogue,"C051, C064",2,2
+AP082 / OH,Structural Analogue,"C051, C064",2,2
+AP083 / OH,Exact Molecular Match,C051; RF C064,2,2
+AP084 / OH,Structural Analogue,"C051, C064",2,2
+AP085 / OH,Structural Analogue,"C051, C064",2,2
+AP086 / OH,Structural Analogue,"C051, C064",2,2
+AP087 / PH,Exact Molecular Match,C095; RF C099,2,2
+AP088 / PH,Exact Molecular Match,C095; RF C099,2,2
+AP089 / SH,Structural Analogue,"C068, C082",2,2
+AP090 / SH,Structural Analogue,"C068, C082",2,2
+AP091 / SH,Structural Analogue,"C075, C080",2,2
+AP092 / SH,Structural Analogue,"C075, C080",2,2
+AP093 / SH,Structural Analogue,"C075, C080",2,2
+AP094 / SH,Structural Analogue,"C075, C080",2,2
+AP095 / SH,Structural Analogue,"C068, C082",2,2
+AP096 / SH,Structural Analogue,"C068, C082",1R,2
+AP097 / SH,Structural Analogue,"C068, C082",2,2
+AP098 / SH,Structural Analogue,"C068, C082",2,2
+AP099 / SH,Structural Analogue,"C075, C080",2,2
+AP100 / SH,Structural Analogue,"C068, C082",2,2
+AP101 / SH,Structural Analogue,"C075, C080",2,2
+AP102 / SH,Structural Analogue,"C075, C080",2,2
+AP103 / SH,Structural Analogue,"C068, C082",2,2
+AP104 / SH,Structural Analogue,"C068, C082",1R,2
+AP105 / SH,Unmatched,none,not applicable,not applicable
+AP106 / SH,Structural Analogue,"C075, C080",2,2
+AP107 / SH,Structural Analogue,"C075, C080",2,2
+AP108 / SH,Structural Analogue,"C068, C082",2,2

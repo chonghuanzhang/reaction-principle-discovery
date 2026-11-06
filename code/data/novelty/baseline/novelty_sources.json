@@ -1,0 +1,944 @@
+[
+  {
+    "source_id": "NOS01",
+    "doi": "10.1016/j.checat.2022.03.021",
+    "title": "Reductive quenching-initiated catalyst-controlled divergent alkylation of α-CF3-olefins",
+    "authors": [
+      "Yunxiao Zhang",
+      "Yizhi Zhang",
+      "Youyuan Guo",
+      "Shanshan Liu",
+      "Xiao Shen"
+    ],
+    "year": 2022,
+    "in_347_source_registry": true,
+    "original_source_id": "P-f7f4d8a4d04a5a37",
+    "access_url": "https://doi.org/10.1016/j.checat.2022.03.021",
+    "local_path": "literature/Tier 2/Reductive quenching-initiated catalyst-controlled divergent alkylation of Œ±-CF3-olefins.pdf",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V01",
+    "registry_source_id": "P-f7f4d8a4d04a5a37"
+  },
+  {
+    "source_id": "NOS02",
+    "doi": "10.1021/jacs.5c08791",
+    "title": "Defluorinative Coupling of (NH)-Heteroarenes and Unactivated Vinyl Fluorides Enabled by Metal–Organic Frameworks",
+    "authors": [
+      "Kaitlyn T. Keasler",
+      "Jaehwan Kim",
+      "Julia C. Pitolaj",
+      "Phillip J. Milner"
+    ],
+    "year": 2025,
+    "in_347_source_registry": true,
+    "original_source_id": "P-90fa30024c07e779",
+    "access_url": "https://doi.org/10.1021/jacs.5c08791",
+    "local_path": "literature/Tier 2/Defluorinative Coupling of (NH)-Heteroarenes and Unactivated Vinyl Fluorides Enabled by Metal‚ÄìOrganic Frameworks.pdf",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V02",
+    "registry_source_id": "P-90fa30024c07e779"
+  },
+  {
+    "source_id": "NOS03",
+    "doi": "10.1021/jo5005845",
+    "title": "Synthesis of N-(α-Fluorovinyl)azoles by the Reaction of Difluoroalkenes with Azoles",
+    "authors": [
+      "Xiong Y",
+      "Zhang X",
+      "Huang T",
+      "Cao S"
+    ],
+    "year": "2014",
+    "in_347_source_registry": false,
+    "original_source_id": null,
+    "access_url": "https://doi.org/10.1021/jo5005845",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/nos/web/jo5005845_epmc_core.json",
+    "access_level": "primary_abstract_plus_local_review",
+    "access_date": "2026-10-21",
+    "reference_code": "V03",
+    "registry_source_id": "NV-4a3b7fde4bf33a9a"
+  },
+  {
+    "source_id": "NOS04",
+    "doi": "10.1126/sciadv.aea4120",
+    "title": "β-Acyloxyl alkenyl amide synthesis via multiple defluorination: α-Trifluoromethyl ketone–amine as synergystic peptide coupling reagent",
+    "authors": [
+      "Cao Sufang",
+      "Guo Haijin",
+      "Zhong Zukang",
+      "Chen Demao",
+      "Song Wenli",
+      "Liu Yunyun",
+      "Wan Jie-Ping"
+    ],
+    "year": "2025",
+    "in_347_source_registry": false,
+    "original_source_id": null,
+    "access_url": "https://doi.org/10.1126/sciadv.aea4120",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/nos/web/sciadv_aea4120.xml",
+    "access_level": "primary_full_text_HRMS_supported_proposed_intermediate",
+    "access_date": "2026-10-21",
+    "reference_code": "V04",
+    "registry_source_id": "NV-43dfa094aa481927"
+  },
+  {
+    "source_id": "NOS05",
+    "doi": "10.1039/d6sc01042c",
+    "title": "A Brønsted acid–base approach for the net monoselective C–F substitution of (trifluoromethyl)alkanes",
+    "authors": [
+      "Coradi Nicholas J",
+      "Bandar Jeffrey S"
+    ],
+    "year": "2026",
+    "in_347_source_registry": false,
+    "original_source_id": null,
+    "access_url": "https://doi.org/10.1039/d6sc01042c",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/nos/web/d6sc01042c.xml",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V05",
+    "registry_source_id": "NV-daba246b91177e46"
+  },
+  {
+    "source_id": "NOS06",
+    "doi": "10.1021/acs.joc.1c00490",
+    "title": "Highly E-Selective Synthesis of α-Fluoro-β-arylalkenyl Sulfones from gem-Difluoroalkenes with Sodium Sulfinates",
+    "authors": [
+      "Yuxiu Li",
+      "Xiangqian Li",
+      "Xiaowei Li",
+      "Dayong Shi"
+    ],
+    "year": 2021,
+    "in_347_source_registry": true,
+    "original_source_id": "P-f2409a86a34c76f1",
+    "access_url": "https://doi.org/10.1021/acs.joc.1c00490",
+    "local_path": "literature/Tier 2/Li 等 - 2021 - Highly E -selective synthesis of α-fluoro-β-arylalkenyl sulfones from gem -difluoroalk.pdf",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V06",
+    "registry_source_id": "P-f2409a86a34c76f1"
+  },
+  {
+    "source_id": "NOS07",
+    "doi": "10.1021/acs.joc.2c02343",
+    "title": "A General Co-Catalytic Hydrothiolation of gem-Difluoroalkenes",
+    "authors": [
+      "Jacob P. Sorrentino",
+      "Ryan M. Herrick",
+      "Mohammed K. Abd El-Gaber",
+      "Ahmed Z. Abdelazem",
+      "Ankit Kumar",
+      "Ryan A. Altman"
+    ],
+    "year": 2022,
+    "in_347_source_registry": true,
+    "original_source_id": "P-5001f6189858cbd1",
+    "access_url": "https://doi.org/10.1021/acs.joc.2c02343",
+    "local_path": "literature/Tier 2/A General Co-Catalytic Hydrothiolation of gem-Difluoroalkenes.pdf",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V07",
+    "registry_source_id": "P-5001f6189858cbd1"
+  },
+  {
+    "source_id": "NOS08",
+    "doi": "10.3762/bjoc.19.111",
+    "title": "Morpholine-mediated defluorinative cycloaddition of gem-difluoroalkenes and organic azides",
+    "authors": [
+      "Tzu-Yu Huang",
+      "Mario Djugovski",
+      "Sweta Adhikari",
+      "Destinee L. Manning",
+      "Sudeshna Roy"
+    ],
+    "year": 2023,
+    "in_347_source_registry": true,
+    "original_source_id": "P-d3f250700c9a0144",
+    "access_url": "https://doi.org/10.3762/bjoc.19.111",
+    "local_path": "literature/Tier 2/Morpholine mediated defluorinative c .pdf",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V08",
+    "registry_source_id": "P-d3f250700c9a0144"
+  },
+  {
+    "source_id": "NOS09",
+    "doi": "10.1080/14756366.2018.1461097",
+    "title": "Fluoroenesulphonamides: N-sulphonylurea isosteres showing nanomolar selective cancer-related transmembrane human carbonic anhydrase inhibition",
+    "authors": [
+      "Métayer Benoit",
+      "Angeli Andrea",
+      "Mingot Agnès",
+      "Jouvin Kévin",
+      "Evano Gwilherm",
+      "Supuran Claudiu T.",
+      "Thibaudeau Sébastien"
+    ],
+    "year": "2018",
+    "in_347_source_registry": false,
+    "original_source_id": null,
+    "access_url": "https://doi.org/10.1080/14756366.2018.1461097",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/nos/web/fluoroenamide_2018.xml",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V09",
+    "registry_source_id": "NV-f6f46ae0328290d5"
+  },
+  {
+    "source_id": "NOS10",
+    "doi": "10.3762/bjoc.20.226",
+    "title": "Synthesis of fluoroalkenes and fluoroenynes via cross-coupling reactions using novel multihalogenated vinyl ethers",
+    "authors": [
+      "Karuo Yukiko",
+      "Hirata Keita",
+      "Tarui Atsushi",
+      "Sato Kazuyuki",
+      "Kawai Kentaro",
+      "Omote Masaaki"
+    ],
+    "year": "2024",
+    "in_347_source_registry": false,
+    "original_source_id": null,
+    "access_url": "https://doi.org/10.3762/bjoc.20.226",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/nos/web/halothane_phenols_2024.xml",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V10",
+    "registry_source_id": "NV-4ab41c3447eacabb"
+  },
+  {
+    "source_id": "NOS11",
+    "doi": "10.3762/bjoc.11.205",
+    "title": "Lewis acid-promoted hydrofluorination of alkynyl sulfides to generate α-fluorovinyl thioethers",
+    "authors": [
+      "Davide Bello",
+      "David O’Hagan"
+    ],
+    "year": 2015,
+    "in_347_source_registry": false,
+    "original_source_id": null,
+    "access_url": "https://doi.org/10.3762/bjoc.11.205",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/nos/web/bjoc11_205.html",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V11",
+    "registry_source_id": "NV-901c331bffb75583"
+  },
+  {
+    "source_id": "NOS12",
+    "doi": "10.1021/acs.joc.6c01159",
+    "title": "Stereoselective Defluorinative Thiolation of gem-Difluoroalkenes with Thiols via Nucleophilic Substitution",
+    "authors": [
+      "Guo X",
+      "Xia D",
+      "Guo H",
+      "Zhou PP",
+      "Jia J"
+    ],
+    "year": "2026",
+    "in_347_source_registry": false,
+    "original_source_id": null,
+    "access_url": "https://doi.org/10.1021/acs.joc.6c01159",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/nos/web/acs_joc_6c01159_epmc.json",
+    "access_level": "primary_abstract_only",
+    "access_date": "2026-10-21",
+    "reference_code": "V12",
+    "registry_source_id": "NV-3ebce843b524dc0a"
+  },
+  {
+    "source_id": "NOS13",
+    "doi": "10.1021/acs.orglett.3c02235",
+    "title": "Defluorinative Thiolation of gem-Difluoroalkenes by Convergent Paired Electrolysis",
+    "authors": [
+      "Pan Z",
+      "Wang X",
+      "Zhao S",
+      "Deng H",
+      "Ma M",
+      "Xue F"
+    ],
+    "year": "2023",
+    "in_347_source_registry": false,
+    "original_source_id": null,
+    "access_url": "https://doi.org/10.1021/acs.orglett.3c02235",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/nos/web/acs_orglett_3c02235_epmc.json",
+    "access_level": "primary_abstract_only",
+    "access_date": "2026-10-21",
+    "reference_code": "V13",
+    "registry_source_id": "NV-ab3f738d743e5634"
+  },
+  {
+    "source_id": "NOS14",
+    "doi": "10.1039/c7ob00599g",
+    "title": "N-Heterocyclic carbene-catalyzed stereoselective construction of olefinic carbon–sulfur bonds via cross-coupling reaction of gem-difluoroalkenes and thiols",
+    "authors": [
+      "Cong ZS",
+      "Li YG",
+      "Chen L",
+      "Xing F",
+      "Du GF",
+      "Gu CZ",
+      "He L"
+    ],
+    "year": "2017",
+    "in_347_source_registry": false,
+    "original_source_id": null,
+    "access_url": "https://doi.org/10.1039/c7ob00599g",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/nos/web/c7ob00599g_epmc.json",
+    "access_level": "primary_abstract_plus_cited_reference",
+    "access_date": "2026-10-21",
+    "reference_code": "V14",
+    "registry_source_id": "NV-5aabc3c97457b5da"
+  },
+  {
+    "source_id": "NOS15",
+    "doi": "10.1021/jacs.4c03826",
+    "title": "Silver-Catalyzed (Z)-β-Fluoro-vinyl Iodonium Salts from Alkynes: Efficient and Selective Syntheses of Z-Monofluoroalkenes",
+    "authors": [
+      "Alexi T. Sedikides",
+      "Alastair J. J. Lennox"
+    ],
+    "year": 2024,
+    "in_347_source_registry": true,
+    "original_source_id": "P-9cef2ff67ed51c3e",
+    "access_url": "https://doi.org/10.1021/jacs.4c03826",
+    "local_path": "literature/Tier 2/Silver-Catalyzed (Z) -Œ≤-Fluoro-vinyl Iodonium Salts from Alkynes Efficient and Selective Syntheses of Z -Monofluoroalkenes.pdf",
+    "access_level": "primary_full_text",
+    "access_date": "2026-10-21",
+    "reference_code": "V15",
+    "registry_source_id": "P-9cef2ff67ed51c3e"
+  },
+  {
+    "source_id": "NOV-PSE-P2019",
+    "doi": "10.1002/ejoc.201801602",
+    "title": "Metal‐Free Access to (E/Z)‐α‐Fluorovinyl Phosphorus Compounds from gem‐Difluorostyrenes",
+    "authors": [
+      "Yingyuan Peng",
+      "Xiaofei Zhang",
+      "Xueyu Qi",
+      "Qian He",
+      "Bin Zhang",
+      "Jian Hao",
+      "Chunhao Yang"
+    ],
+    "journal": "European Journal of Organic Chemistry",
+    "year": 2019,
+    "volume": "2019",
+    "issue": "5",
+    "pages": "1170-1177",
+    "in_347_registry": false,
+    "source_access": "publisher-deposited Crossref abstract",
+    "full_text_access": "primary main text/SI not retrieved; HTTP403 or zero-content202 documented",
+    "local_metadata": "outputs/2026-10-21_novelty_completion/agents/pse/fulltext/p2019_crossref.json",
+    "url": "https://doi.org/10.1002/ejoc.201801602",
+    "adopted_for_scoring": true,
+    "source_locator": "Abstract (no PDF page claimed)",
+    "abstract": "A facile and efficient method for the synthesis of (E/Z)‐α‐fluorovinyl phosphorus compounds from gem‐difluorostyrenes with diphenylphosphine oxide/dialkyl phosphate and DBU at room temperature was developed. A series of 1‐fluorovinyl phosphine oxides/phosphonates were obtained with moderate to excellent yields in these reactions. Additionally, most isomers (E/Z type) of the target compounds could be easily separated and purified by column chromatography.",
+    "reference_code": "V16",
+    "registry_source_id": "NV-980ca633ca28bd92"
+  },
+  {
+    "source_id": "NOV-PSE-P2023",
+    "doi": "10.1021/acs.orglett.3c00631",
+    "title": "Stereoselective Synthesis of Monofluoroalkenylphosphine Oxides via Photoinduced Decarboxylative Coupling of α-Fluoroacrylic Acids with P(O)H Compounds",
+    "authors": [
+      "Xiao-Yu Lu",
+      "Hong-Ye Pan",
+      "Rui Huang",
+      "Kang Yang",
+      "Xiang Zhang",
+      "Zi-Zhen Wang",
+      "Qian-Qian Tao",
+      "Gui-Xian Yang",
+      "Xiao-Juan Wang",
+      "Hai-Pin Zhou"
+    ],
+    "journal": "Organic Letters",
+    "year": 2023,
+    "volume": "25",
+    "issue": "14",
+    "pages": "2476-2481",
+    "in_347_registry": false,
+    "source_access": "PubMed/EuropePMC author abstract + Crossref bibliography",
+    "full_text_access": "primary main text/SI not retrieved; HTTP403 or zero-content202 documented",
+    "local_metadata": "outputs/2026-10-21_novelty_completion/agents/pse/fulltext/p2023_crossref.json",
+    "url": "https://doi.org/10.1021/acs.orglett.3c00631",
+    "adopted_for_scoring": true,
+    "source_locator": "Abstract (no PDF page claimed)",
+    "abstract": "Herein, a practical and efficient method for synthesizing monofluoroalkenyl phosphine oxides via photoinduced decarboxylative/dehydrogenative coupling of α-fluoroacrylic acids with phosphine oxides and phosphonates has been developed. Various α-fluoroacrylic acids and P(O)H compounds containing relevant functional groups, including tetrafluorobenzene and pentafluorobenzene, were converted into corresponding products with excellent E-stereoselectivity in satisfactory yields. This method can be extended to achieve the synthesis of monofluoroalkenyl silanes under similar conditions.",
+    "reference_code": "V17",
+    "registry_source_id": "NV-72b9ee1b8755f326"
+  },
+  {
+    "source_id": "NOV-PSE-SE2019",
+    "doi": "10.1021/acs.joc.9b01387",
+    "title": "Nickel-Catalyzed Defluorinative Reductive Cross-Coupling Reaction of\n                    gem-\n                    Difluoroalkenes with Thiosulfonate or Selenium Sulfonate",
+    "authors": [
+      "Jian Li",
+      "Weidong Rao",
+      "Shun-Yi Wang",
+      "Shun-Jun Ji"
+    ],
+    "journal": "The Journal of Organic Chemistry",
+    "year": 2019,
+    "volume": "84",
+    "issue": "18",
+    "pages": "11542-11552",
+    "in_347_registry": false,
+    "source_access": "PubMed/EuropePMC author abstract + Crossref bibliography",
+    "full_text_access": "primary main text/SI not retrieved; HTTP403 or zero-content202 documented",
+    "local_metadata": "outputs/2026-10-21_novelty_completion/agents/pse/fulltext/se2019_crossref.json",
+    "url": "https://doi.org/10.1021/acs.joc.9b01387",
+    "adopted_for_scoring": true,
+    "source_locator": "Abstract (no PDF page claimed)",
+    "abstract": "A nickel-catalyzed defluorinative reductive cross-coupling of gem-difluoroalkenes with thiosulfonate or selenosulfonates is described. The reaction involves the formation of thiolated or selenylated monofluoroolefins via regioselective C-F bond cleavage and C-S or C-Se bond formation and features easily available substrates, mild reaction conditions, and high E-selectivity. One of the derivatives by further cross coupling with PhMgBr exhibited an aggregation-induced emission enhancement effect.",
+    "reference_code": "V18",
+    "registry_source_id": "NV-c86369413b9e4969"
+  },
+  {
+    "source_id": "P-ac272e7447145b0e",
+    "paper_key": "doi:10.1021/ol060912r",
+    "source_path": "Tier 1/friedel-crafts-type-cyclization-of-2-2-difluorovinyl-ketones-via-α-fluorocarbocations-and-its-application-in-domino.pdf",
+    "local_source_paths": [
+      "literature/Tier 1/friedel-crafts-type-cyclization-of-2-2-difluorovinyl-ketones-via-α-fluorocarbocations-and-its-application-in-domino.pdf"
+    ],
+    "source_content_sha256": "75cc03a3021580825f8480fa399ba6c3a9240ea90ac30cc311922fdfdbadb3c4",
+    "source_hash_domain": [
+      "local_file_bytes"
+    ],
+    "title": "Friedel−Crafts-Type Cyclization of 2,2-Difluorovinyl Ketones via r-Fluorocarbocations and Its Application in Domino Cyclizations",
+    "authors": [
+      "Junji Ichikawa",
+      "Mikio Kaneko",
+      "Misaki Yokota",
+      "Masaaki Itonaga",
+      "Takaharu Yokoyama"
+    ],
+    "year": 2006,
+    "journal": "Organic Letters",
+    "doi": "10.1021/ol060912r",
+    "admission_doi": "10.1021/ol060912r",
+    "admission_title": "Friedel−Crafts-Type Cyclization of 2,2-Difluorovinyl Ketones via r-Fluorocarbocations and Its Application in Domino Cyclizations",
+    "tier": "tier_1",
+    "admission_primary_tier": "tier_1",
+    "all_original_tiers": [
+      "tier_1"
+    ],
+    "admitted_evidence_count": 11,
+    "downstream_evidence_count": 11,
+    "alternate_source_evidence_excluded": 0,
+    "source_selection_rule": "most admitted items from one source_file/SHA; lexical tie-break",
+    "bibliography_audit_status": "no_usable_cached_metadata",
+    "cached_crossref_title": "",
+    "title_adjudication": null,
+    "title_adjudication_pointer": null,
+    "recorded_visual_review_pages": [
+      2,
+      3
+    ],
+    "recorded_visual_review_page_count": 2,
+    "review_scope": "archived source/claim review status; no new full-text human review in this archive",
+    "actual_access_url": null,
+    "online_source_kind": null,
+    "page_locator_semantics": "physical_pdf_page",
+    "validated_record_path": "runs/admission_rerun_2026-09-06/qualified/derived/full_corpus/papers/75cc03a3021580825f8480fa399ba6c3a9240ea90ac30cc311922fdfdbadb3c4/validated.json",
+    "selection_audit_path": "runs/admission_rerun_2026-09-06/qualified/audits/source_admission/75cc03a3021580825f8480fa399ba6c3a9240ea90ac30cc311922fdfdbadb3c4.json",
+    "uncertainties": [
+      "Only admitted text claims are supplied. Original unreviewed contradiction notes are retained in the audit; absence here is not evidence of no contradiction."
+    ],
+    "access_level": "primary_full_text",
+    "local_path": "literature/Tier 1/friedel-crafts-type-cyclization-of-2-2-difluorovinyl-ketones-via-α-fluorocarbocations-and-its-application-in-domino.pdf",
+    "reference_code": "V19",
+    "registry_source_id": "P-ac272e7447145b0e"
+  },
+  {
+    "source_id": "CAR-acs.orglett.7b03700",
+    "doi": "10.1021/acs.orglett.7b03700",
+    "title": "Copper-Catalyzed Fluoroolefination of Silyl Enol Ethers and Ketones toward the Synthesis of β-Fluoroenones",
+    "authors": [
+      "Yanlin Li",
+      "Jing Liu",
+      "Shuang Zhao",
+      "Xuzhao Du",
+      "Minjie Guo",
+      "Wentao Zhao",
+      "Xiangyang Tang",
+      "Guangwei Wang"
+    ],
+    "journal": "Organic Letters",
+    "year": 2018,
+    "abstract": "",
+    "in_prior_registry": true,
+    "original_source_id": "P-7202aef9d4ce4d5c",
+    "tier": "tier_1",
+    "access_url": "https://doi.org/10.1021/acs.orglett.7b03700",
+    "local_metadata": "outputs/2026-10-21_novelty_completion/agents/carbon/acs.orglett.7b03700_crossref.json",
+    "local_path": "literature/Tier 1/copper-catalyzed-fluoroolefination-of-silyl-enol-ethers-and-ketones-toward-the-synthesis-of-β-fluoroenones.pdf",
+    "access_level": "primary_full_text",
+    "reference_code": "V20",
+    "registry_source_id": "P-7202aef9d4ce4d5c"
+  },
+  {
+    "source_id": "CAR-acs.joc.9b00999",
+    "doi": "10.1021/acs.joc.9b00999",
+    "title": "Nucleophilic Substitution of <i>gem</i>-Difluoroalkenes with TMSNu Promoted by Catalytic Amounts of Cs<sub>2</sub>CO<sub>3</sub>",
+    "authors": [
+      "Ling-Feng Jiang",
+      "Bing-Tao Ren",
+      "Bin Li",
+      "Guang-Yi Zhang",
+      "Yi Peng",
+      "Zhen-Yu Guan",
+      "Qing-Hai Deng"
+    ],
+    "journal": "The Journal of Organic Chemistry",
+    "year": 2019,
+    "abstract": "The efficient and practical nucleophilic cyanation and trifluoromethylation with appropriate trimethylsilyl nucleophiles were developed. Catalytic amounts of cheap and nontoxic Cs<sub>2</sub>CO<sub>3</sub> were used to maintain a sufficiently high concentration of nucleophilic anion (CN<sup>-</sup> or CF<sub>3</sub><sup>-</sup>) which could begin the catalytic cycle. The present methodologies provide diverse functionalized monofluoroalkenes bearing a cyano and trifluoromethyl group with excellent to moderate stereoselectivities.",
+    "in_prior_registry": false,
+    "original_source_id": null,
+    "tier": "tier_1",
+    "access_url": "https://doi.org/10.1021/acs.joc.9b00999",
+    "local_metadata": "outputs/2026-10-21_novelty_completion/agents/carbon/acs.joc.9b00999_crossref.json",
+    "reference_code": "V21",
+    "access_level": "primary_author_abstract",
+    "local_path": "outputs/2026-10-21_novelty_completion/agents/carbon/9b00999_epmc.json",
+    "registry_source_id": "NV-749b844a3211f965"
+  },
+  {
+    "source_id": "CAR-d6sc05561c",
+    "doi": "10.1039/d6sc05561c",
+    "title": "Bayesian optimization- and high-throughput-guided synthesis of monofluoroalkenes\n                    <i>via</i>\n                    defluorinative C–C bond formation",
+    "authors": [
+      "Ge Gao",
+      "Qianghua Lin",
+      "Zhuoya Ma",
+      "Kuntai He",
+      "Yaxian Kong",
+      "Chenxi Yang",
+      "Chonghuan Zhang",
+      "Kuangbiao Liao"
+    ],
+    "journal": "Chemical Science",
+    "year": 2026,
+    "abstract": "<jats:p>Bayesian optimization and HTE identified productive Pd-catalyzed defluorinative C–C coupling conditions in 53 experiments and 970 mapped substrate–reagent combinations for model-assisted monofluoroalkene synthesis.</jats:p>",
+    "in_prior_registry": false,
+    "original_source_id": null,
+    "tier": "tier_1",
+    "access_url": "https://doi.org/10.1039/d6sc05561c",
+    "local_metadata": "outputs/2026-10-21_novelty_completion/agents/carbon/d6sc05561c_crossref.json",
+    "access_level": "primary_full_text",
+    "local_path": "outputs/2026-10-19_meeting_revision/chemical_science_review/d6sc05561c.txt",
+    "reference_code": "V22",
+    "registry_source_id": "NV-fdf091097c277bf8"
+  },
+  {
+    "source_id": "P-62bec686c23a6003",
+    "paper_key": "doi:10.1021/acs.joc.3c01562",
+    "source_path": "Tier 2/Intelli 等 - 2023 - Peroxide-initiated hydrophosphinylation of gem -difluoroalkenes.pdf",
+    "local_source_paths": [
+      "literature/Tier 2/Intelli 等 - 2023 - Peroxide-initiated hydrophosphinylation of gem -difluoroalkenes.pdf"
+    ],
+    "source_content_sha256": "88f5d5d5a0636156767053a28d8411c1737437c7827a5cd21219581ee9d915c2",
+    "source_hash_domain": [
+      "local_file_bytes"
+    ],
+    "title": "Peroxide-Initiated Hydrophosphinylation of gem-Difluoroalkenes",
+    "authors": [
+      "Andrew J. Intelli",
+      "Ryan T. Lee",
+      "Ryan A. Altman"
+    ],
+    "year": 2023,
+    "journal": "The Journal of Organic Chemistry",
+    "doi": "10.1021/acs.joc.3c01562",
+    "admission_doi": "10.1021/acs.joc.3c01562",
+    "admission_title": "Peroxide-Initiated Hydrophosphinylation of gem-Difluoroalkenes",
+    "tier": "tier_2",
+    "admission_primary_tier": "tier_2",
+    "all_original_tiers": [
+      "tier_2"
+    ],
+    "admitted_evidence_count": 11,
+    "downstream_evidence_count": 11,
+    "alternate_source_evidence_excluded": 0,
+    "source_selection_rule": "most admitted items from one source_file/SHA; lexical tie-break",
+    "bibliography_audit_status": "title_consistent",
+    "cached_crossref_title": "Peroxide-Initiated Hydrophosphinylation of <i>gem</i>-Difluoroalkenes",
+    "title_adjudication": null,
+    "title_adjudication_pointer": null,
+    "recorded_visual_review_pages": [],
+    "recorded_visual_review_page_count": 0,
+    "review_scope": "archived source/claim review status; no new full-text human review in this archive",
+    "actual_access_url": null,
+    "online_source_kind": null,
+    "page_locator_semantics": "physical_pdf_page",
+    "validated_record_path": "runs/admission_rerun_2026-09-06/qualified/derived/full_corpus/papers/88f5d5d5a0636156767053a28d8411c1737437c7827a5cd21219581ee9d915c2/validated.json",
+    "selection_audit_path": "runs/admission_rerun_2026-09-06/qualified/audits/source_admission/88f5d5d5a0636156767053a28d8411c1737437c7827a5cd21219581ee9d915c2.json",
+    "uncertainties": [
+      "Only admitted text claims are supplied. Original unreviewed contradiction notes are retained in the audit; absence here is not evidence of no contradiction."
+    ],
+    "supplement_20261020": {
+      "verified_doi": "10.1021/acs.joc.3c01562",
+      "document_path": "literature/Tier 2/Intelli 等 - 2023 - Peroxide-initiated hydrophosphinylation of gem -difluoroalkenes.pdf",
+      "record_count": 6,
+      "new_statement_count": 0
+    },
+    "reference_code": "V23",
+    "registry_source_id": "P-62bec686c23a6003"
+  },
+  {
+    "source_id": "P-5fb19873c9b7ae17",
+    "paper_key": "doi:10.1021/acs.joc.1c01703",
+    "source_path": "Tier 3/Silver-Catalyzed Regioselective Phosphorylation of para-Quinone Methides with P(III)-Nucleophiles.pdf",
+    "local_source_paths": [
+      "literature/Tier 3/Silver-Catalyzed Regioselective Phosphorylation of para-Quinone Methides with P(III)-Nucleophiles.pdf"
+    ],
+    "source_content_sha256": "06ad2dcd922f6ccdd4936d4f5df7b8dc3a6867bc733e2625bccbf09d704ff7ec",
+    "source_hash_domain": [
+      "local_file_bytes"
+    ],
+    "title": "Silver-Catalyzed Regioselective Phosphorylation of para-Quinone Methides with P(III)-Nucleophiles",
+    "authors": [
+      "Shipan Xu",
+      "Jun Xie",
+      "Yu Liu",
+      "Weifeng Xu",
+      "Ke-Wen Tang",
+      "Biquan Xiong",
+      "Wai-Yeung Wong"
+    ],
+    "year": 2021,
+    "journal": "The Journal of Organic Chemistry",
+    "doi": "10.1021/acs.joc.1c01703",
+    "admission_doi": "10.1021/acs.joc.1c01703",
+    "admission_title": "Silver-Catalyzed Regioselective Phosphorylation of para-Quinone Methides with P(III)-Nucleophiles",
+    "tier": "tier_3",
+    "admission_primary_tier": "tier_3",
+    "all_original_tiers": [
+      "tier_3"
+    ],
+    "admitted_evidence_count": 11,
+    "downstream_evidence_count": 11,
+    "alternate_source_evidence_excluded": 0,
+    "source_selection_rule": "most admitted items from one source_file/SHA; lexical tie-break",
+    "bibliography_audit_status": "title_consistent",
+    "cached_crossref_title": "Silver-Catalyzed Regioselective Phosphorylation of <i>para</i>-Quinone Methides with P(III)-Nucleophiles",
+    "title_adjudication": null,
+    "title_adjudication_pointer": null,
+    "recorded_visual_review_pages": [
+      8
+    ],
+    "recorded_visual_review_page_count": 1,
+    "review_scope": "archived source/claim review status; no new full-text human review in this archive",
+    "actual_access_url": null,
+    "online_source_kind": null,
+    "page_locator_semantics": "physical_pdf_page",
+    "validated_record_path": "runs/admission_rerun_2026-09-06/qualified/derived/full_corpus/papers/06ad2dcd922f6ccdd4936d4f5df7b8dc3a6867bc733e2625bccbf09d704ff7ec/validated.json",
+    "selection_audit_path": "runs/admission_rerun_2026-09-06/qualified/audits/source_admission/06ad2dcd922f6ccdd4936d4f5df7b8dc3a6867bc733e2625bccbf09d704ff7ec.json",
+    "uncertainties": [
+      "Only admitted text claims are supplied. Original unreviewed contradiction notes are retained in the audit; absence here is not evidence of no contradiction."
+    ],
+    "reference_code": "V24",
+    "registry_source_id": "P-5fb19873c9b7ae17"
+  },
+  {
+    "source_id": "P-944fe89ae5628f91",
+    "paper_key": "doi:10.1039/d1cc06786a",
+    "source_path": "Tier 3/Reactivities of allenic and olefinic Michael acceptors towards phosphines.pdf",
+    "local_source_paths": [
+      "literature/Tier 3/Reactivities of allenic and olefinic Michael acceptors towards phosphines.pdf"
+    ],
+    "source_content_sha256": "c94abbf716783a3aa19938cb8c2d8fa797b020d0f8d3d6073efd49745b6b1a70",
+    "source_hash_domain": [
+      "local_file_bytes"
+    ],
+    "title": "Reactivities of allenic and olefinic Michael acceptors towards phosphines",
+    "authors": [
+      "Feng An",
+      "Harish Jangra",
+      "Yin Wei",
+      "Min Shi",
+      "Hendrik Zipse",
+      "Armin R. Ofial"
+    ],
+    "year": 2022,
+    "journal": "Chem. Commun.",
+    "doi": "10.1039/d1cc06786a",
+    "admission_doi": "10.1039/d1cc06786a",
+    "admission_title": "Reactivities of allenic and olefinic Michael acceptors towards phosphines",
+    "tier": "tier_3",
+    "admission_primary_tier": "tier_3",
+    "all_original_tiers": [
+      "tier_3"
+    ],
+    "admitted_evidence_count": 11,
+    "downstream_evidence_count": 11,
+    "alternate_source_evidence_excluded": 0,
+    "source_selection_rule": "most admitted items from one source_file/SHA; lexical tie-break",
+    "bibliography_audit_status": "title_consistent",
+    "cached_crossref_title": "Reactivities of allenic and olefinic Michael acceptors towards phosphines",
+    "title_adjudication": null,
+    "title_adjudication_pointer": null,
+    "recorded_visual_review_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "recorded_visual_review_page_count": 4,
+    "review_scope": "archived source/claim review status; no new full-text human review in this archive",
+    "actual_access_url": null,
+    "online_source_kind": null,
+    "page_locator_semantics": "physical_pdf_page",
+    "validated_record_path": "runs/admission_rerun_2026-09-06/qualified/derived/full_corpus/papers/c94abbf716783a3aa19938cb8c2d8fa797b020d0f8d3d6073efd49745b6b1a70/validated.json",
+    "selection_audit_path": "runs/admission_rerun_2026-09-06/qualified/audits/source_admission/c94abbf716783a3aa19938cb8c2d8fa797b020d0f8d3d6073efd49745b6b1a70.json",
+    "uncertainties": [
+      "Only admitted text claims are supplied. Original unreviewed contradiction notes are retained in the audit; absence here is not evidence of no contradiction."
+    ],
+    "reference_code": "V25",
+    "registry_source_id": "P-944fe89ae5628f91"
+  },
+  {
+    "source_id": "P-357855f4255a109b",
+    "paper_key": "doi:10.1038/s41467-018-08253-z",
+    "title": "Use of trifluoroacetaldehyde N-tfsylhydrazone as a trifluorodiazoethane surrogate and its synthetic applications",
+    "authors": [
+      "Xinyu Zhang",
+      "Zhaohong Liu",
+      "Xiangyu Yang",
+      "Yuanqing Dong",
+      "Matteo Virelli",
+      "Giuseppe Zanoni",
+      "Edward A Anderson",
+      "Xihe Bi"
+    ],
+    "year": 2019,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-018-08253-z",
+    "tier": "tier_2",
+    "all_original_tiers": [
+      "tier_2"
+    ],
+    "source_path": "literature/supplements/2026-10-20_P_Se_sources/10.1038_s41467-018-08253-z.xml",
+    "local_source_paths": [
+      "literature/supplements/2026-10-20_P_Se_sources/10.1038_s41467-018-08253-z.xml"
+    ],
+    "source_content_sha256": "4720c6f303037ecacfadc9859a30372217b9a0fd3168f1070c9802e920469bd3",
+    "source_hash_domain": [
+      "local_file_bytes"
+    ],
+    "actual_access_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6336877/fullTextXML",
+    "admitted_evidence_count": null,
+    "downstream_evidence_count": null,
+    "supplement_20261020": {
+      "record_count": 1,
+      "new_statement_count": 0
+    },
+    "review_scope": "2026-10-20定向补充全文核对；未改写原3694条准入流程",
+    "reference_code": "V26",
+    "registry_source_id": "P-357855f4255a109b"
+  },
+  {
+    "source_id": "P-6a90022ba604a147",
+    "paper_key": "doi:10.1002/advs.77070",
+    "title": "NiH‐Catalyzed Enantio‐ and Regioselective Hydroselenylation of Unactivated Alkenes",
+    "authors": [
+      "Hyung‐Joon Kang",
+      "Jaehun Kim",
+      "Sungwoo Hong"
+    ],
+    "year": 2026,
+    "journal": "Advanced Science",
+    "doi": "10.1002/advs.77070",
+    "tier": "tier_4",
+    "all_original_tiers": [
+      "tier_4"
+    ],
+    "source_path": "literature/supplements/2026-10-20_P_Se_sources/10.1002_advs.77070.xml",
+    "local_source_paths": [
+      "literature/supplements/2026-10-20_P_Se_sources/10.1002_advs.77070.xml"
+    ],
+    "source_content_sha256": "11a831ce813a75b596a8ba95e366032f7f1ac61971ae0f14520515a1357e9f33",
+    "source_hash_domain": [
+      "local_file_bytes"
+    ],
+    "actual_access_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13460409/fullTextXML",
+    "admitted_evidence_count": null,
+    "downstream_evidence_count": null,
+    "supplement_20261020": {
+      "record_count": 2,
+      "new_statement_count": 2
+    },
+    "review_scope": "2026-10-20定向补充全文核对；未改写原3694条准入流程",
+    "reference_code": "V27",
+    "registry_source_id": "P-6a90022ba604a147"
+  },
+  {
+    "source_id": "P-42eb03389cc0dad3",
+    "paper_key": "source:896eeee11bfacc0552382d621b125042fadb7fc64fb8afffe9b47666e9833b71",
+    "source_path": "Tier 2/Piettre - 1996 - Simple and efficient synthesis of 2,2-disubstituted-1,1-difluorophosphonates and phosphonothioates.pdf",
+    "local_source_paths": [
+      "literature/Tier 2/Piettre - 1996 - Simple and efficient synthesis of 2,2-disubstituted-1,1-difluorophosphonates and phosphonothioates.pdf"
+    ],
+    "source_content_sha256": "896eeee11bfacc0552382d621b125042fadb7fc64fb8afffe9b47666e9833b71",
+    "source_hash_domain": [
+      "local_file_bytes"
+    ],
+    "title": "Simple and Efficient Synthesis of 2,2-Disubstituted-1,1-Difluorophosphonates and Phosphonothioates",
+    "authors": [
+      "Serge R. Piettre"
+    ],
+    "year": 1996,
+    "journal": "Tetrahedron Letters",
+    "doi": "10.1016/0040-4039(96)00239-0",
+    "admission_doi": null,
+    "admission_title": "Simple and Efficient Synthesis of 2,2-Disubstituted-1,1-Difluorophosphonates and Phosphonothioates",
+    "tier": "tier_2",
+    "admission_primary_tier": "tier_2",
+    "all_original_tiers": [
+      "tier_2"
+    ],
+    "admitted_evidence_count": 11,
+    "downstream_evidence_count": 11,
+    "alternate_source_evidence_excluded": 0,
+    "source_selection_rule": "most admitted items from one source_file/SHA; lexical tie-break",
+    "bibliography_audit_status": "no_usable_cached_metadata",
+    "cached_crossref_title": "",
+    "title_adjudication": null,
+    "title_adjudication_pointer": null,
+    "recorded_visual_review_pages": [
+      1,
+      2,
+      3
+    ],
+    "recorded_visual_review_page_count": 3,
+    "review_scope": "archived source/claim review status; no new full-text human review in this archive",
+    "actual_access_url": null,
+    "online_source_kind": null,
+    "page_locator_semantics": "physical_pdf_page",
+    "validated_record_path": "runs/admission_rerun_2026-09-06/qualified/derived/full_corpus/papers/896eeee11bfacc0552382d621b125042fadb7fc64fb8afffe9b47666e9833b71/validated.json",
+    "selection_audit_path": "runs/admission_rerun_2026-09-06/qualified/audits/source_admission/896eeee11bfacc0552382d621b125042fadb7fc64fb8afffe9b47666e9833b71.json",
+    "uncertainties": [
+      "Only admitted text claims are supplied. Original unreviewed contradiction notes are retained in the audit; absence here is not evidence of no contradiction."
+    ],
+    "supplement_20261020": {
+      "verified_doi": "10.1016/0040-4039(96)00239-0",
+      "document_path": "literature/Tier 2/Piettre - 1996 - Simple and efficient synthesis of 2,2-disubstituted-1,1-difluorophosphonates and phosphonothioates.pdf",
+      "record_count": 4,
+      "new_statement_count": 0,
+      "original_doi": null,
+      "doi_resolution": "按原文身份与已核对题录补齐；历史文件不变"
+    },
+    "reference_code": "V28",
+    "registry_source_id": "P-42eb03389cc0dad3"
+  },
+  {
+    "source_id": "P-ffd9925ecbd870ee",
+    "paper_key": "doi:10.1021/jacs.0c08928",
+    "source_path": "Tier 1/Phosphine-Catalyzed Intermolecular Acylfluorination of Alkynes via a P(V) Intermediate.pdf",
+    "local_source_paths": [
+      "literature/Tier 1/Phosphine-Catalyzed Intermolecular Acylfluorination of Alkynes via a P(V) Intermediate.pdf"
+    ],
+    "source_content_sha256": "0a3cae3c868aa6acecee5289f9dcbc75819b688455ea11e2859033e57cc83ded",
+    "source_hash_domain": [
+      "local_file_bytes"
+    ],
+    "title": "Phosphine-Catalyzed Intermolecular Acylfluorination of Alkynes via a P(V) Intermediate",
+    "authors": [
+      "Hayato Fujimoto",
+      "Takuya Kodama",
+      "Masahiro Yamanaka",
+      "Mamoru Tobisu"
+    ],
+    "year": 2020,
+    "journal": "Journal of the American Chemical Society",
+    "doi": "10.1021/jacs.0c08928",
+    "admission_doi": "10.1021/jacs.0c08928",
+    "admission_title": "Phosphine-Catalyzed Intermolecular Acylfluorination of Alkynes via a P(V) Intermediate",
+    "tier": "tier_1",
+    "admission_primary_tier": "tier_1",
+    "all_original_tiers": [
+      "tier_1"
+    ],
+    "admitted_evidence_count": 31,
+    "downstream_evidence_count": 11,
+    "alternate_source_evidence_excluded": 20,
+    "source_selection_rule": "most admitted items from one source_file/SHA; lexical tie-break",
+    "bibliography_audit_status": "no_usable_cached_metadata",
+    "cached_crossref_title": "",
+    "title_adjudication": null,
+    "title_adjudication_pointer": null,
+    "recorded_visual_review_pages": [
+      3,
+      4
+    ],
+    "recorded_visual_review_page_count": 2,
+    "review_scope": "archived source/claim review status; no new full-text human review in this archive",
+    "actual_access_url": null,
+    "online_source_kind": null,
+    "page_locator_semantics": "physical_pdf_page",
+    "validated_record_path": "runs/admission_rerun_2026-09-06/qualified/derived/full_corpus/papers/0a3cae3c868aa6acecee5289f9dcbc75819b688455ea11e2859033e57cc83ded/validated.json",
+    "selection_audit_path": "runs/admission_rerun_2026-09-06/qualified/audits/source_admission/0a3cae3c868aa6acecee5289f9dcbc75819b688455ea11e2859033e57cc83ded.json",
+    "uncertainties": [
+      "Only admitted text claims are supplied. Original unreviewed contradiction notes are retained in the audit; absence here is not evidence of no contradiction."
+    ],
+    "reference_code": "V29",
+    "registry_source_id": "P-ffd9925ecbd870ee"
+  },
+  {
+    "source_id": "P-caa10c451feb1a21",
+    "paper_key": "doi:10.1039/d4ob01253d",
+    "source_path": "Tier 2/gem -Difluoroallene (DFA) an emerging versatile synthetic precursor to enable diverse fluorinated molecules.pdf",
+    "local_source_paths": [
+      "literature/Tier 2/gem -Difluoroallene (DFA) an emerging versatile synthetic precursor to enable diverse fluorinated molecules.pdf"
+    ],
+    "source_content_sha256": "654dfe04cfd78861fb039a50e97d025c8751bf6fa6b20755697a12867a4b6dbf",
+    "source_hash_domain": [
+      "local_file_bytes"
+    ],
+    "title": "gem-Difluoroallene (DFA): an emerging versatile synthetic precursor to enable diverse fluorinated molecules",
+    "authors": [
+      "Kota Sathish",
+      "Swati Jain",
+      "Naveen Sihag",
+      "M. Ramu Yadav"
+    ],
+    "year": 2024,
+    "journal": "Organic & Biomolecular Chemistry",
+    "doi": "10.1039/d4ob01253d",
+    "admission_doi": "10.1039/d4ob01253d",
+    "admission_title": "gem-Difluoroallene (DFA): an emerging versatile synthetic precursor to enable diverse fluorinated molecules",
+    "tier": "tier_2",
+    "admission_primary_tier": "tier_2",
+    "all_original_tiers": [
+      "tier_2"
+    ],
+    "admitted_evidence_count": 11,
+    "downstream_evidence_count": 11,
+    "alternate_source_evidence_excluded": 0,
+    "source_selection_rule": "most admitted items from one source_file/SHA; lexical tie-break",
+    "bibliography_audit_status": "title_consistent",
+    "cached_crossref_title": "<i>gem</i>\n                    -Difluoroallene (DFA): an emerging versatile synthetic precursor to enable diverse fluorinated molecules",
+    "title_adjudication": null,
+    "title_adjudication_pointer": null,
+    "recorded_visual_review_pages": [
+      7,
+      12
+    ],
+    "recorded_visual_review_page_count": 2,
+    "review_scope": "archived source/claim review status; no new full-text human review in this archive",
+    "actual_access_url": null,
+    "online_source_kind": null,
+    "page_locator_semantics": "physical_pdf_page",
+    "validated_record_path": "runs/admission_rerun_2026-09-06/qualified/derived/full_corpus/papers/654dfe04cfd78861fb039a50e97d025c8751bf6fa6b20755697a12867a4b6dbf/validated.json",
+    "selection_audit_path": "runs/admission_rerun_2026-09-06/qualified/audits/source_admission/654dfe04cfd78861fb039a50e97d025c8751bf6fa6b20755697a12867a4b6dbf.json",
+    "uncertainties": [
+      "Only admitted text claims are supplied. Original unreviewed contradiction notes are retained in the audit; absence here is not evidence of no contradiction."
+    ],
+    "reference_code": "V30",
+    "registry_source_id": "P-caa10c451feb1a21"
+  }
+]

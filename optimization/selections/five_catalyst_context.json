@@ -1,0 +1,62 @@
+[
+  {
+    "condition_grid": "SH_PL39",
+    "historical_panel": "SH_PL33",
+    "catalyst_code": "Ag6",
+    "catalyst_name": "AgF",
+    "rank_in_original_complete_panel": 5,
+    "panel_response": 0.802527646129542,
+    "source_sheet": "亲核试剂(SH)-条件筛选",
+    "source_response_cell": "AG3",
+    "selection_reason_status": "historical choice; exact contemporaneous decision rationale not available",
+    "allowed_inference": "candidate had a relatively high recorded response; rank alone does not reconstruct why chosen"
+  },
+  {
+    "condition_grid": "SH_PL40",
+    "historical_panel": "SH_PL33",
+    "catalyst_code": "Cu9",
+    "catalyst_name": "CuCl",
+    "rank_in_original_complete_panel": 1,
+    "panel_response": 0.96602658788774,
+    "source_sheet": "亲核试剂(SH)-条件筛选",
+    "source_response_cell": "AG30",
+    "selection_reason_status": "historical choice; exact contemporaneous decision rationale not available",
+    "allowed_inference": "candidate had a relatively high recorded response; rank alone does not reconstruct why chosen"
+  },
+  {
+    "condition_grid": "NH_PL36",
+    "historical_panel": "NH_PL35",
+    "catalyst_code": "Ag13",
+    "catalyst_name": "Ag2SO4",
+    "rank_in_original_complete_panel": 2,
+    "panel_response": 1.49729627272151,
+    "source_sheet": "亲核试剂(NH)-条件筛选",
+    "source_response_cell": "AJ10",
+    "selection_reason_status": "historical choice; exact contemporaneous decision rationale not available",
+    "allowed_inference": "candidate had a relatively high recorded response; rank alone does not reconstruct why chosen"
+  },
+  {
+    "condition_grid": "OH_PL37",
+    "historical_panel": "OH_PL34",
+    "catalyst_code": "Cu66",
+    "catalyst_name": "Cu(MeCN)4PF6",
+    "rank_in_original_complete_panel": 2,
+    "panel_response": 1.02120141342756,
+    "source_sheet": "亲核试剂(OH)-条件筛选",
+    "source_response_cell": "AJ52",
+    "selection_reason_status": "historical choice; exact contemporaneous decision rationale not available",
+    "allowed_inference": "candidate had a relatively high recorded response; rank alone does not reconstruct why chosen"
+  },
+  {
+    "condition_grid": "OH_PL38",
+    "historical_panel": "OH_PL34",
+    "catalyst_code": "Ni203",
+    "catalyst_name": "NiCl2·DME",
+    "rank_in_original_complete_panel": 1,
+    "panel_response": 1.09119010819165,
+    "source_sheet": "亲核试剂(OH)-条件筛选",
+    "source_response_cell": "AJ79",
+    "selection_reason_status": "historical choice; exact contemporaneous decision rationale not available",
+    "allowed_inference": "candidate had a relatively high recorded response; rank alone does not reconstruct why chosen"
+  }
+]

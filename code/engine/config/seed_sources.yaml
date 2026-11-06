@@ -1,0 +1,17 @@
+version: "1.0"
+sources:
+  - path: "项目知识库/manuscript_0608_external_test_integrated_v5.docx"
+    role: manuscript
+    access_class: principle_building
+  - path: "项目知识库/SI_0701.docx"
+    role: supporting_information
+    access_class: principle_building
+  - path: "项目知识库/cover_letter_Chemical_Science_revised.docx"
+    role: cover_letter
+    access_class: principle_building
+  - path: "项目知识库/PL30.xlsx"
+    role: experimental_results
+    access_class: hidden_answer
+  - path: "项目知识库/新反应发现.pptx"
+    role: retrospective_reaction_notes
+    access_class: hidden_answer

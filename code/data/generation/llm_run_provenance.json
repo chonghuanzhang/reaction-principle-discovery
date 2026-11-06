@@ -1,0 +1,231 @@
+[
+  {
+    "stage": "candidate_primary",
+    "run_id": "59e2412b7072b106870d88a850e9e0c316ad3fdb576e5d3becfd4d6fe4832e90",
+    "model": "gpt-5.6-sol",
+    "prompt_sha256_utf8": "1a6e7c91f4b9bd5d5b4a35c1adc303b128969125017c6fb6ddde03f114c48b19",
+    "prompt_archive": "candidate_primary_prompt.txt",
+    "prompt_version": null,
+    "timestamp": null,
+    "timestamp_status": "not recorded in manifest; filesystem mtime not used",
+    "manifest_path": "runs/reusable_exploration_v1/results/59e2412b7072b106870d88a850e9e0c316ad3fdb576e5d3becfd4d6fe4832e90/manifest.json",
+    "config": {
+      "bundle": "bundle.json",
+      "evidence_per_lens": 24,
+      "fixed_component": "Seed trifluoroethyl carbonyl; exact chosen model identity requires operational confirmation",
+      "lenses": [
+        {
+          "description": "Neutral carbon pi nucleophiles and ambident aromatic systems",
+          "id": "carbon_pi",
+          "patterns": [
+            "\\bpi\\b|π|aromatic nucleophil|electron.rich.*arom|heteroarom|Friedel",
+            "fluor|carbonyl|electrophil"
+          ]
+        },
+        {
+          "description": "Carbon anions and organometallic carbon transfer",
+          "id": "carbon_transfer",
+          "patterns": [
+            "carbanion|enolate|organoboron|transmetal",
+            "fluor|carbonyl|palladium"
+          ]
+        },
+        {
+          "description": "Neutral or base-activated nitrogen bond formation",
+          "id": "nitrogen",
+          "patterns": [
+            "amine|nitrogen nucleophil|N.nucleophil|amidate",
+            "fluor|coordina|base"
+          ]
+        },
+        {
+          "description": "Oxygen lone-pair and oxygen-anion bond formation; preserve ambident carbon options",
+          "id": "oxygen",
+          "patterns": [
+            "alkoxide|phenoxide|oxyanion|oxygen nucleophil",
+            "fluor|counterion|base"
+          ]
+        },
+        {
+          "description": "Sulfur lone-pair, anionic, metal-bound and sigma-bond transfer precursors",
+          "id": "sulfur",
+          "patterns": [
+            "sulfur|thiol|sulfide|S.S|disulf",
+            "fluor|palladium|oxid"
+          ]
+        },
+        {
+          "description": "Phosphorus nucleophiles and phosphorus bond-transfer precursors",
+          "id": "phosphorus",
+          "patterns": [
+            "phosphine|phosphorus|phosphonium|phosphonate",
+            "fluor|nucleophil|palladium"
+          ]
+        },
+        {
+          "description": "Radical and other main-group group-transfer precursors",
+          "id": "radical_other",
+          "patterns": [
+            "radical precursor|radical addition|silane|borane|selen",
+            "fluor|carbonyl|transfer"
+          ]
+        }
+      ],
+      "model": "gpt-5.6-sol",
+      "panel_budget": 48,
+      "per_source_cap": 2,
+      "study_id": "trifluoroethyl-carbonyl-exploration-v1",
+      "target": "Preserve intended carbonyl scaffold; introduce variable partner onto CF3-derived alkene carbon retaining one F, net two F loss.",
+      "variable_role": "reaction partner; allow new bond types and mechanisms",
+      "workers": 3
+    },
+    "source_bundle_digest": "0ec80f5d4b55345873696a66bc575b31ec579046ad236a86d5c1393b9a88aefa",
+    "code_hashes": {
+      "exploration_panel.py": "5abb1c32c39c126978ddedb7626d69006454fefa40e4d243d3a7805443be5fe5",
+      "run_exploration_panel.py": "a82388c389c6333cf457a2121259b771698170c472fd5cf383bae846a2a8aefd"
+    }
+  },
+  {
+    "stage": "candidate_compact_expansion",
+    "run_id": "11549885f071d24ab133c986ba47243c791419080fa98b8cd24387e42f53ac97",
+    "model": "gpt-5.6-sol",
+    "prompt_sha256_utf8": "af087404a3ce9c33a23e470ca686d398d1492af0e38abebdc18c50c155efe513",
+    "prompt_archive": "candidate_compact_expansion_prompt.txt",
+    "prompt_version": null,
+    "timestamp": null,
+    "timestamp_status": "not recorded in manifest; filesystem mtime not used",
+    "manifest_path": "runs/reusable_exploration_v1/expansion_results/11549885f071d24ab133c986ba47243c791419080fa98b8cd24387e42f53ac97/manifest.json",
+    "config": {
+      "bundle": "bundle.json",
+      "candidate_count": 6,
+      "evidence_per_lens": 8,
+      "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+      "lenses": [
+        {
+          "description": "Coverage expansion: neutral electron-rich aromatic partners, monocyclic and fused bicyclic scaffolds; oxygen-, nitrogen- and sulfur-bearing aromatics; competing carbon versus heteroatom bond formation. Do not restrict to preformed anions.",
+          "id": "neutral_ambident_aromatics",
+          "patterns": [
+            "phenol|naphth|heteroarom|aromatic nucleophil|Friedel|electron.rich",
+            "fluor|carbonyl|nucleophil"
+          ]
+        },
+        {
+          "description": "Coverage expansion across neutral and ionic precursors: O-H, N-H, S-H, P-H and cleavable element-element donors. Prefer interpretable precursor/state pairs and mixed versus symmetric donors; identify which atom could form the target bond.",
+          "id": "precursor_state_pairs",
+          "patterns": [
+            "hydroxyl|phenoxide|thiolate|disulfide|phosphine|amine",
+            "activation|base|oxid|fluor"
+          ]
+        }
+      ],
+      "model": "gpt-5.6-sol",
+      "panel_budget": 48,
+      "per_source_cap": 2,
+      "study_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1",
+      "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F",
+      "variable_role": "reaction partner with open competing bond-forming atoms",
+      "workers": 2
+    },
+    "source_bundle_digest": "0ec80f5d4b55345873696a66bc575b31ec579046ad236a86d5c1393b9a88aefa",
+    "code_hashes": {
+      "exploration_panel.py": "5abb1c32c39c126978ddedb7626d69006454fefa40e4d243d3a7805443be5fe5",
+      "run_exploration_panel.py": "5f0146761ec0e84c4c6f829e05004d5d7c0b39642123d5084cfef1487aa083e2"
+    }
+  },
+  {
+    "stage": "corpus_calibration",
+    "run_id": "20260906T020456Z-6da93131",
+    "model": null,
+    "prompt_digest_from_manifest": "681b872ac0582f16453958edc470ae42a37f987dcf19cadb3427a6fd6327d2ce",
+    "timestamp": "2026-09-06T02:31:27.297251+00:00",
+    "timestamp_status": "manifest updated_at, not necessarily request start or finish",
+    "manifest_path": "runs/balanced_corpus_2026-09-06/runs/20260906T020456Z-6da93131/manifest.json",
+    "queue_digest": "4128ea2a81dd4b96f98a51176b4cae7763afc273d9c9d034c308f7b01c3591f5",
+    "schema_digest": "5dd5dd805880bd19fd426cb7e9d15c0703560be06dad7efdab5def09881fedc0"
+  },
+  {
+    "stage": "corpus_calibration",
+    "run_id": "20260906T025323Z-096185d9",
+    "model": null,
+    "prompt_digest_from_manifest": "681b872ac0582f16453958edc470ae42a37f987dcf19cadb3427a6fd6327d2ce",
+    "timestamp": "2026-09-06T02:54:37.589678+00:00",
+    "timestamp_status": "manifest updated_at, not necessarily request start or finish",
+    "manifest_path": "runs/balanced_corpus_2026-09-06/runs/20260906T025323Z-096185d9/manifest.json",
+    "queue_digest": "4128ea2a81dd4b96f98a51176b4cae7763afc273d9c9d034c308f7b01c3591f5",
+    "schema_digest": "5dd5dd805880bd19fd426cb7e9d15c0703560be06dad7efdab5def09881fedc0"
+  },
+  {
+    "stage": "corpus_remaining",
+    "run_id": "20260906T030217Z-4ee50f4a",
+    "model": null,
+    "prompt_digest_from_manifest": "681b872ac0582f16453958edc470ae42a37f987dcf19cadb3427a6fd6327d2ce",
+    "timestamp": "2026-09-06T12:17:20.448097+00:00",
+    "timestamp_status": "manifest updated_at, not necessarily request start or finish",
+    "manifest_path": "runs/balanced_corpus_2026-09-06/runs/20260906T030217Z-4ee50f4a/manifest.json",
+    "queue_digest": "4128ea2a81dd4b96f98a51176b4cae7763afc273d9c9d034c308f7b01c3591f5",
+    "schema_digest": "5dd5dd805880bd19fd426cb7e9d15c0703560be06dad7efdab5def09881fedc0"
+  },
+  {
+    "stage": "principle_proposal_cached_response",
+    "run_id": "774673f8e592d76abd617c2170f8aac007153f28024374f513b00ac212fa05fe",
+    "model": "gpt-5.6-sol",
+    "timestamp": null,
+    "timestamp_status": "not recorded in cached API envelope",
+    "response_id": "resp_09818ea2b3f1dd22016a9dfe848c6887d0888215caecee12b6",
+    "source_path": "runs/admission_rerun_2026-09-06/principles/cache/774673f8e592d76abd617c2170f8aac007153f28024374f513b00ac212fa05fe/raw.json",
+    "prompt_version": "admitted-principles-v1",
+    "prompt_config_recovered_from": "scripts/run_qualified_workflow.py",
+    "recovered_prompt_config": {
+      "model": "gpt-5.6-sol",
+      "prompt_version": "admitted-principles-v1",
+      "max_assessments": 120,
+      "max_per_paper": 1,
+      "prompt_text": "Induce a compact falsifiable Reaction Principle set from source-grounded Seed features and qualified Knowledge Transfer only. Include seed_specific and transferable_super layers. Do not propose named target families, use later project outcomes or assume the proposed Seed mechanism is established. Preserve conditions, contradictory Seed scope statements, negative and unknown evidence. Every principle needs supplied Seed and transfer evidence IDs, experimental consequence and falsifier. Use proposed/pending status and freeze_version=null."
+    },
+    "prompt_archive": "principle_proposal_prompt.txt",
+    "limitation": "cached returned model and saved code configuration recoverable; code is hashed but original API time and explicit frozen provenance remain missing"
+  },
+  {
+    "stage": "principle_review",
+    "model": "gpt-5.6-sol",
+    "response_id": "resp_09fff09cd33d605d016a9e00fb022887d09116e38cf4979e77",
+    "input_digest": "51e710298a8f1f5fcbde5a19b8c0aa444e5b9cfbd6e1dd4e3b837315b24f736d",
+    "source_path": "runs/admission_rerun_2026-09-06/principles/review.json",
+    "review_scope": "independent model review plus deterministic source-reference checks; not human review",
+    "timestamp": null,
+    "review_prompt_builder": "workflow_engine/scripts/synthesize_tier_supplement_principles.py#build_review_prompt",
+    "timestamp_status": "not recorded in receipt"
+  },
+  {
+    "stage": "balanced_corpus_saved_configuration",
+    "configured_model": "gpt-5.6-sol",
+    "configured_prompt_version": "answer-isolated-balanced-corpus-1.0",
+    "source_path": "workflow_engine/config/balanced_corpus_2026-09-06.yaml",
+    "api_receipts_found": 279,
+    "returned_model_counts": {
+      "gpt-5.6-sol": 279
+    },
+    "limitation": "configuration is not substituted for a missing API receipt; extraction receipt coverage is reported explicitly"
+  },
+  {
+    "stage": "transfer_aggregate",
+    "model_counts": {
+      "gpt-5.6-sol": 342
+    },
+    "timestamp": "2026-09-06T23:59:17.880586+00:00",
+    "timestamp_status": "aggregate updated_at",
+    "source_path": "runs/admission_rerun_2026-09-06/qualified/derived/principles/manifest.json",
+    "limitation": "aggregate and cached API metadata; no inference of per-call timestamps"
+  },
+  {
+    "stage": "frozen_principles",
+    "timestamp": "2026-09-07T00:12:31.424817+00:00",
+    "timestamp_status": "freeze created_at",
+    "model": null,
+    "prompt_version": null,
+    "freeze_version": "admission-rerun-v1",
+    "source_path": "runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/frozen_principles.json",
+    "source_digest": "f6de3ff69d54bb22c42c8970877473adcf603f509bc9ad3baa90d406f75cd676",
+    "scoring_digest": "5ceaf0246037b0978d06d18b1bfa06f084a243020a6471b4eb75f0af6999aa3c"
+  }
+]

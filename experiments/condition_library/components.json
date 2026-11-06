@@ -1,0 +1,351 @@
+[
+  {
+    "name": "K3PO4 — tripotassium phosphate",
+    "type": "base/additive",
+    "chemical_role": "inorganic phosphate; basicity/counterion dimension",
+    "source": "Source support: L214 [73]; 10.1002/anie.202310288; PDF p3. The α-trifluoromethylated ketone 3a underwent a Pd-catalyzed defluorination/arylation with phenylboronic acid to give fluorinated α,β-unsaturated ketone 5 in 76% yield with high Z-selectivity. The reported conditions were Pd(PPh)3Cl2 (5 mol%), K3PO4 (3 equivalents), toluene, and 110 °C. | Evidence identifier: EV-689e74275c862af525c1 | Reference: L214 [73].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact literature condition on a related CF3-ketone defluorination/arylation; source precursor/metal/temperature remain specific.",
+    "source_text": [
+      "Chemical factor: inorganic phosphate; basicity/counterion dimension. Support level: exact component in related literature or seed. Exact literature condition on a related CF3-ketone defluorination/arylation; source precursor/metal/temperature remain specific.",
+      "Source support: L214 [73]; 10.1002/anie.202310288; PDF p3. The α-trifluoromethylated ketone 3a underwent a Pd-catalyzed defluorination/arylation with phenylboronic acid to give fluorinated α,β-unsaturated ketone 5 in 76% yield with high Z-selectivity. The reported conditions were Pd(PPh)3Cl2 (5 mol%), K3PO4 (3 equivalents), toluene, and 110 °C.",
+      "Evidence identifier: EV-689e74275c862af525c1",
+      "Reference: L214 [73].",
+      "Source passage: Although the α- trifluoromethylated ketones are inherently of importance, their additional synthetic value as building blocks was documentedbytheconversionof 3atothefluorinated-α,β- unsaturated ketone 5 in 76% yield with high Z-selectivity throughaPd-catalyzeddefluorination/arylationsequence.[24] Inaddition,treatmentof 3awithKHMDSfollowedbyTs2O provided the cyano-substituted enol tosylate 6[25] as a diastereomeric mixture (suggested mechanism for the for- mation of 6, see SI), which can be further used for the synthesisofall-carbontetrasubstitutedalkenes.[26] Of note, the introduced fluoroaroylation can also be appliedtosimplestyrenesaswellas α-fluorostyrenes,anda range of mono- or di-fluoroalkyl ketones 8a–d could be obtainedin30–44%yield.Therelativeconfigurationofthe major isomer of 8aSynthetic utility. a) gem-Difluoroalkene 1 a (1.0 mmol, 170.0 mg), aroyl fluoride 2 a (2.0 mmol), [Ir(dF(CF3)ppy)2(5,5’-d(CF3)- bpy)]PF6 PC-I (2 mol %), NHC N1 (20 mol %), Cs2CO3 (12.5 mol %) and CH3CN (20 mL) under irradiation with 405 nm LEDs for 48 h. b) 3 a (0.14 mmol), PhB(OH)2 (0.1 mmol), Pd(PPh)3Cl2 (5 mol %), K3PO4 (3.0 eq.) in toluene (1.5 mL) at 110 °C. c) i) 3 a (0.1 mmol), KHMDS (2.0 eq.), THF, 20 °C, 30 min; ii) Ts2O (2.0 eq.), CH2Cl2, 20 °C, 2 h. d) Alkene 7 (0.2 mmol), benzoyl fluoride 2 a (0.4 mmol), [Ir(dF(CF3)- ppy)2(5,5’-d(CF3)bpy)]PF6 PC-I (2 mol %), NHC N1 (20 mol %), Cs2CO3 (12.5 mol %) and CH3CN (4 mL) under irradiation with 405 nm LEDs for 24 h.",
+      "Locator: PDF p3"
+    ]
+  },
+  {
+    "name": "DIPEA — N,N-diisopropylethylamine",
+    "type": "base/additive",
+    "chemical_role": "soluble hindered amine base",
+    "source": "Source support: L006 [74]; 10.1038/s41467-022-31976-z. K2CO3 (typically 2.0 equivalents) for the TpBr3Ag protocols; DIPEA (2.0 equivalents) for the stated Rh2(esp)2 alkyl-hydrazone procedure; Cs2CO3 was used for (benzo)thiophene carbinols. | Evidence identifier: CCE-0063 | Reference: L006 [74].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact component in related fluoroalkyl-ketone rearrangement; not the same reaction.",
+    "source_text": [
+      "Chemical factor: soluble hindered amine base. Support level: exact component in related literature or seed. Exact component in related fluoroalkyl-ketone rearrangement; not the same reaction.",
+      "Source support: L006 [74]; 10.1038/s41467-022-31976-z. K2CO3 (typically 2.0 equivalents) for the TpBr3Ag protocols; DIPEA (2.0 equivalents) for the stated Rh2(esp)2 alkyl-hydrazone procedure; Cs2CO3 was used for (benzo)thiophene carbinols.",
+      "Evidence identifier: CCE-0063",
+      "Reference: L006 [74].",
+      "Locator: literature/_workbook_data.json#/master/528"
+    ]
+  },
+  {
+    "name": "KHCO3 — potassium hydrogencarbonate",
+    "type": "base/additive",
+    "chemical_role": "mild bicarbonate base",
+    "source": "Source support: L160 [75]; 10.1002/adsc.202300260; PDF p4. DABCO and the identity of the bicarbonate base strongly affected reaction efficiency: alternative organic bases lowered the yield, while replacing NaHCO3 with KHCO3 gave 39% rather than 91% yield under the tabulated conditions. | Evidence identifier: EV-cd86329f995b47974a02 | Source support: SEED-ANCHOR-001; 10.1039/d6sc05561c. KHCO3 | Evidence identifier: CCE-0146 | Reference: L160.",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact seed anchor and a literature bicarbonate comparison; a poorer outcome is retained as informative evidence.",
+    "source_text": [
+      "Chemical factor: mild bicarbonate base. Support level: exact component in related literature or seed. Exact seed anchor and a literature bicarbonate comparison; a poorer outcome is retained as informative evidence.",
+      "Source support: L160 [75]; 10.1002/adsc.202300260; PDF p4. DABCO and the identity of the bicarbonate base strongly affected reaction efficiency: alternative organic bases lowered the yield, while replacing NaHCO3 with KHCO3 gave 39% rather than 91% yield under the tabulated conditions.",
+      "Evidence identifier: EV-cd86329f995b47974a02",
+      "Source support: SEED-ANCHOR-001; 10.1039/d6sc05561c. KHCO3",
+      "Evidence identifier: CCE-0146",
+      "Reference: L160.",
+      "Source passage: A significant decrease in the yields of 3 f has been observed when DABCO was replaced by other organic bases such as NEt3, PhN(Et)2, Ph2NEt, (iPr)2NEt and quinuclidine (Table 1, entries 3–7).In contrast, a quantitative decrease in the yield of 3 f has been observed by replacing NaHCO3 by KHCO3.30 Hz/90 min 47 8 Yb2O3 (1 equiv.), DABCO (0.3 equiv.) NaHCO3 (4 equiv.), r.t.30 Hz/90 min 91 9 Yb2O3 (1 equiv.), DABCO (0.3 equiv.) KHCO3 (4 equiv.), r.t.30 Hz/90 min 39 [a] Isolated yields.",
+      "Locator: PDF p4",
+      "Locator: runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json"
+    ]
+  },
+  {
+    "name": "NaHCO3 — sodium hydrogencarbonate",
+    "type": "base/additive",
+    "chemical_role": "bicarbonate/counterion contrast",
+    "source": "Source support: L160 [75]; 10.1002/adsc.202300260; PDF p4. Optimized conditions used 1.3 equivalents of CF3 substrate, 1 equivalent of Yb2O3, 4 equivalents of NaHCO3, and 0.3 equivalents of DABCO, with milling at 30 Hz for 90 minutes at room temperature. | Evidence identifier: EV-5ecc167a7bade258d105 | Reference: L160.",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact bicarbonate in mechanochemical defluorinative acylation; extrapolation from different activation.",
+    "source_text": [
+      "Chemical factor: bicarbonate/counterion contrast. Support level: exact component in related literature or seed. Exact bicarbonate in mechanochemical defluorinative acylation; extrapolation from different activation.",
+      "Source support: L160 [75]; 10.1002/adsc.202300260; PDF p4. Optimized conditions used 1.3 equivalents of CF3 substrate, 1 equivalent of Yb2O3, 4 equivalents of NaHCO3, and 0.3 equivalents of DABCO, with milling at 30 Hz for 90 minutes at room temperature.",
+      "Evidence identifier: EV-5ecc167a7bade258d105",
+      "Reference: L160.",
+      "Source passage: Thus, the new optimized reaction conditions involved the use of 1.3 equiv. of the corresponding CF3- substrate, with Yb2O3 (1 equiv.) as an additive, NaHCO3 (4 equiv.) as a base and DABCO (0.3 equiv.) by using a molecular mill with the operating frequency of 30 Hz for 90 minutes at room temperature.",
+      "Locator: PDF p4"
+    ]
+  },
+  {
+    "name": "K2CO3 — potassium carbonate",
+    "type": "base/additive",
+    "chemical_role": "carbonate base",
+    "source": "Source support: see DIPEA sources. | Evidence identifier: CCE-0063 | Source support: L050 [76]; 10.1038/s41467-020-20725-9. K2CO3 (3.0 equiv) with H2O (4.0 equiv) for the general arylboronic-acid procedure | Evidence identifier: CCE-0071 | Reference: L006 [74]. | Reference: L050 [76].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact component across multiple coupling contexts.",
+    "source_text": [
+      "Chemical factor: carbonate base. Support level: exact component in related literature or seed. Exact component across multiple coupling contexts.",
+      "Source support: see Section S6.2.2.",
+      "Evidence identifier: CCE-0063",
+      "Source support: L050 [76]; 10.1038/s41467-020-20725-9. K2CO3 (3.0 equiv) with H2O (4.0 equiv) for the general arylboronic-acid procedure",
+      "Evidence identifier: CCE-0071",
+      "Reference: L006 [74].",
+      "Locator: literature/_workbook_data.json#/master/528",
+      "Reference: L050 [76].",
+      "Locator: literature/_workbook_data.json#/master/530"
+    ]
+  },
+  {
+    "name": "K2HPO4 — dipotassium hydrogen phosphate",
+    "type": "base/additive",
+    "chemical_role": "hydrogen phosphate/acid-base buffer dimension",
+    "source": "Source support: L153 [77]; 10.1021/acs.orglett.2c02113; PDF p2. The optimized model conditions used Pd(OAc)2, a Mo(CO)6-derived CO source, acetonitrile, pH 6.5 MOPS buffer without added base, and 60 °C for 60 minutes; the table reports up to 80% LC-MS conversion for the short-DNA model. | Evidence identifier: EV-473f600eb87c114a1616 | Reference: L153 [77].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "The reported optimization includes this component among alternatives; it does not establish a productive recipe for the present reaction.",
+    "source_text": [
+      "Chemical factor: hydrogen phosphate/acid-base buffer dimension. Support level: exact component in related literature or seed. Archived optimization passage contains this component among alternatives; it does not establish a productive recipe for the current reaction.",
+      "Source support: L153 [77]; 10.1021/acs.orglett.2c02113; PDF p2. The optimized model conditions used Pd(OAc)2, a Mo(CO)6-derived CO source, acetonitrile, pH 6.5 MOPS buffer without added base, and 60 °C for 60 minutes; the table reports up to 80% LC-MS conversion for the short-DNA model.",
+      "Evidence identifier: EV-473f600eb87c114a1616",
+      "Reference: L153 [77].",
+      "Source passage: Mo(CO)6 (200) Pd(OAc)2 (10) 400 pivalicacid(100) ACN 37 26 19 11d,e K2HPO4 (400) Mo(CO)6 (200) Pd(OAc)2 (10) 400 MOPSpH6.5(500) ACN 45 8 25 12d,f − Mo(CO)6 (200) Pd(OAc)2 (10) 400 MOPSpH6.5(500) ACN 55 2 15 13d,f − Mo(CO)6 (200) Pd(OAc)2 (20) 400 MOPSpH6.5(500) ACN 48 10 20 14d,f − Mo(CO)6 (200) Pd(OAc)2 (10) 800 MOPSpH6.5(500) ACN 50 15 20 15d,f,g − Mo(CO)6 (200) Pd(OAc)2 (10) 400 MOPSpH6.5(500) ACN 80 2 12 16d,f−h − Mo(CO)6 (200) Pd(OAc)2 (5) 400 MOPSpH6.5(500) ACN 40 5 20 17d,f−h − Mo(CO)6 (200) Pd(OAc)2 (5) 400 MOPSpH6.5(500) +NaVc(20) ACN 52 2 25 18d,f−h − Mo(CO)6 (200) Pd(OAc)2 (5) 400 MOPSpH6.5(500) +NaVc(40) ACN 61 2 15 aTheconversionwasdeterminedbyLC-MS.bSeeref28.cSeeref29.dGeneralreactionconditions:DNAconjugate 1(8.0 μL,1.25mMindd water) (10 mmol), base (10 μL, stock in water),4-methyl phenyl boronic acid (5 μL, stock in ACN), source of CO (5 μL, stock in ACN), Pd(OAc)2 (2.5 μL,stockinACN),60 °Cfor60min.eThereactionwascarriedoutwithbase(5 μL,stockinwater)andadditive(5 μL,stockin water).fThereactionwascarriedoutwithoutbaseandwithadditive(10 μL,stockinwater).gOnlysupernatantfromthestockofMo(CO)6 was added. hThe reaction was conducted on elongated DNA substrate 2.Alternatively, conditions using slightlyacidicbuffers(i.e.,500equivofpH6.5MOPSbuffer) successfully suppressed formation of 1b, which was further improvedbyeliminationofthebase(entries11and12,Table 1andTableS3).IncreasingequivalentsofMo(CO)6,catalyst, orboronicaciddidnotresultinimprovedconversions(entries 9,13,and14,Table1).Mo(CO)6isinsolubleinacetonitrileor waterandwasdosedintoreactionsasaslurryinacetonitrile.",
+      "Locator: PDF p2"
+    ]
+  },
+  {
+    "name": "NaOH — sodium hydroxide",
+    "type": "base/additive",
+    "chemical_role": "hydroxide donor/catalyst-speciation test",
+    "source": "Source support: L147 [78]; 10.1039/c8sc01353e. KOH, NaOH, t-BuOK, t-BuONa, K2CO3, and Cs2CO3 were examined; stronger hydroxide and alkoxide bases generally promoted faster O–NHC coupling than carbonates. | Evidence identifier: CCE-0083 | Reference: L147 [78].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact hydroxide tested in catalyst O–NHC coupling study; source is compatibility chemistry, not target synthesis.",
+    "source_text": [
+      "Chemical factor: hydroxide donor/catalyst-speciation test. Support level: exact component in related literature or seed. Exact hydroxide tested in catalyst O–NHC coupling study; source is compatibility chemistry, not target synthesis.",
+      "Source support: L147 [78]; 10.1039/c8sc01353e. KOH, NaOH, t-BuOK, t-BuONa, K2CO3, and Cs2CO3 were examined; stronger hydroxide and alkoxide bases generally promoted faster O–NHC coupling than carbonates.",
+      "Evidence identifier: CCE-0083",
+      "Reference: L147 [78].",
+      "Locator: literature/_workbook_data.json#/master/533"
+    ]
+  },
+  {
+    "name": "Na3PO4·12H2O — trisodium phosphate dodecahydrate",
+    "type": "base/additive",
+    "chemical_role": "phosphate plus counterion/hydration dimension",
+    "source": "Source support: L321 [18]; 10.1038/s41467-024-52054-6. TBAF (6 mol%) in the general procedure; Na3PO4 and NaF were reported as comparably effective alternatives in optimization. | Evidence identifier: CCE-0031 | Source support: L176 [79]; 10.1007/s11426-021-1040-2. Protocol-dependent; supplied examples include NaH2PO4·2H2O, Na2HPO4·12H2O, LiHMDS, and unspecified base conditions | Evidence identifier: CCE-0055 | Reference: L321 [18]. | Reference: L176 [79].",
+    "evidence_level": "family only exact dodecahydrate not established",
+    "limits": "Na3PO4 and hydrated phosphate family support exists; exact dodecahydrate is not established by these citations. Na2HPO4·12H2O and Na3PO4·12H2O are distinct compounds.",
+    "source_text": [
+      "Chemical factor: phosphate plus counterion/hydration dimension. Support level: family only exact dodecahydrate not established. Na3PO4 and hydrated phosphate family support exists; exact dodecahydrate is not established by these citations. Do not conflate Na2HPO4·12H2O with Na3PO4·12H2O.",
+      "Source support: L321 [18]; 10.1038/s41467-024-52054-6. TBAF (6 mol%) in the general procedure; Na3PO4 and NaF were reported as comparably effective alternatives in optimization.",
+      "Evidence identifier: CCE-0031",
+      "Source support: L176 [79]; 10.1007/s11426-021-1040-2. Protocol-dependent; supplied examples include NaH2PO4·2H2O, Na2HPO4·12H2O, LiHMDS, and unspecified base conditions",
+      "Evidence identifier: CCE-0055",
+      "Reference: L321 [18].",
+      "Locator: literature/_workbook_data.json#/master/520",
+      "Reference: L176 [79].",
+      "Locator: literature/_workbook_data.json#/master/526"
+    ]
+  },
+  {
+    "name": "CsOH — cesium hydroxide entry; formulation unresolved",
+    "type": "base/additive",
+    "chemical_role": "cesium hydroxide family, formulation unresolved",
+    "source": "Source support: L204 [80]; 10.1038/s41467-023-44653-6. Cs2CO3 or CsOH·H2O, generally 1.2 equivalents for the two-component coupling. | Evidence identifier: CCE-0019 | Reference: L204 [80].",
+    "evidence_level": "exact formulation unresolved",
+    "limits": "Literature supports CsOH·H2O. The formulation of the present CsOH/2 entry is unresolved.",
+    "source_text": [
+      "Chemical factor: cesium hydroxide family, formulation unresolved. Support level: exact formulation unresolved. Literature supports CsOH·H2O; the original CsOH formulation is unresolved and must be retained verbatim.",
+      "Source support: L204 [80]; 10.1038/s41467-023-44653-6. Cs2CO3 or CsOH·H2O, generally 1.2 equivalents for the two-component coupling.",
+      "Evidence identifier: CCE-0019",
+      "Reference: L204 [80].",
+      "Locator: literature/_workbook_data.json#/master/517"
+    ]
+  },
+  {
+    "name": "CsF — cesium fluoride",
+    "type": "base/additive",
+    "chemical_role": "fluoride activity/latent-donor activation",
+    "source": "Source support: L071 [81]; 10.1002/chem.202101731; PDF p2. Under the selected conditions, catalytic CsF in DMF without an additive furnished coupling product 3aa in less than five minutes, with 92% analytical yield and 79% isolated yield on a 0.30 mmol scale. | Evidence identifier: EV-839d19a0aada673d0183 | Reference: L071 [81].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact component in fast coupling literature; fluoride activator/additive, not uniformly a Brønsted base.",
+    "source_text": [
+      "Chemical factor: fluoride activity/latent-donor activation. Support level: exact component in related literature or seed. Exact component in fast coupling literature; fluoride activator/additive, not uniformly a Brønsted base.",
+      "Source support: L071 [81]; 10.1002/chem.202101731; PDF p2. Under the selected conditions, catalytic CsF in DMF without an additive furnished coupling product 3aa in less than five minutes, with 92% analytical yield and 79% isolated yield on a 0.30 mmol scale.",
+      "Evidence identifier: EV-839d19a0aada673d0183",
+      "Reference: L071 [81].",
+      "Source passage: It is known that the solubility of alkali metal fluorides is generally enhanced in DMF compared to other commonly used polar aprotic solvents.[16] The reaction conducted in DMF effectively exhibited both a good selectivity and an improved reaction kinetics without additives, affording the coupling product3aa in excellent yield in less than five minutes (entry 3).Additionally, various fluoride-based catalysts were probed, albeit CsF had proven to be a competent catalyst initiating the N Si bond cleavage.[17] Alkali metal salts provided slow reaction kinetics (entry 4) or hardly any conversion (entries 5 and 6), likely owing to their insolubility.[16] In turn, the more soluble tetraalkylammo- nium fluorides rapidly mediated the reaction.Selected examples of the optimization of the fluoride-promoted preparation of polyfluorinated biaryls.[a] Entry Catalyst Solvent Time Yield [%][b] 3aa5a 6 1 CsF/18-C-6[c] THF 2 h 77 15 2 CsF THF 48 h 91 5 3 CsF DMF <5 min 92 (79)[d] 7 4[e] KF DMF 24 h 57 5 5[e] NaF DMF 24 h trace trace 6[e] LiF DMF 24 h trace trace 7 TBAT DMF <5 min 89 7 8 TMAF DMF <5 min 62 16 9[e] KOSiMe3 DMF 24 h 30 3 10[e] none DMF 24 h 0 0 [a] All reactions were performed on a 0.10 mmol scale in 0.7 mL (0.1M) of the indicated solvent. [b] Determined by calibrated GLC analysis with tetracosane as an internal standard. [c] CsF/18-crown-6 (1.0:1.2 molar ratio). [d] Yield of isolated product on a 0.30 mmol scale after flash chromatography on silica gel in parentheses. [e] Incomplete conversion of 1a.",
+      "Locator: PDF p2"
+    ]
+  },
+  {
+    "name": "NaH — sodium hydride",
+    "type": "base/additive",
+    "chemical_role": "strong deprotonation and precursor-generation dimension",
+    "source": "Source support: L294 [25]; 10.1016/s0040-4020(00)00167-8; PDF p3. The sodium/tert-butanol condition gave no detected conversion of butenolide 1, whereas the NaH/DME condition afforded product 9 in 53% yield. | Evidence identifier: EV-fa31144b55b4e4e84326",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact component in alkoxide-mediated vinylic fluoride substitution; NaH/DME enabled tert-butoxy product where Na/tBuOH did not.",
+    "source_text": [
+      "Chemical factor: strong deprotonation and precursor-generation dimension. Support level: exact component in related literature or seed. Exact component in alkoxide-mediated vinylic fluoride substitution; NaH/DME enabled tert-butoxy product where Na/tBuOH did not.",
+      "Source support: L294 [25]; 10.1016/s0040-4020(00)00167-8; PDF p3. The sodium/tert-butanol condition gave no detected conversion of butenolide 1, whereas the NaH/DME condition afforded product 9 in 53% yield.",
+      "Evidence identifier: EV-fa31144b55b4e4e84326",
+      "Source passage: Optimisation of yields in the reactions of some sodium alkoxides Entry Butenolide Alkanol Base Solvent Temperature Procedure a Yield Product 1 1 MeOH Na MeOH 55 A 29 b 4 2 1 MeOH NaH DME 55 B 39 b 4 3 1 MeOH Na MeOH rt C 72 b 4 4 1 MeOH Na MeOH reﬂux D 79 b 4 5 1 MeOH NaH DME 250 to rt E 86 b 4 6 1 ButOH Na Bu tOH reﬂux A 0 c 9 7 1 ButOH NaH DME 240 to rt C 53 b 9 8 2 MeOH Na MeOH reﬂux A 35 b 10 9 2 MeOH Na MeOH reﬂux D 83 b 10 10 2 MeOH BuLi MeOH 270 to rt 85 b 10 a For details, see Experimental. b Complete conversion of the starting material 1 or 2 as checked by 19F NMR. c No conversion of the starting material 1 was detected.",
+      "Locator: PDF p3"
+    ]
+  },
+  {
+    "name": "KOtBu — potassium tert-butoxide",
+    "type": "base/additive",
+    "chemical_role": "strong alkoxide base",
+    "source": "Source support: L168 [82]; 10.1038/s41467-024-51519-y. Condition A: MeOLi (1.0 equiv.); Condition B: MeOLi (2.0 equiv.); Condition C: t-BuOK (1.5 equiv.); Condition D: Condition C followed by t-BuOK (5.0 equiv.). | Evidence identifier: CCE-0035 | Source support: L262 [83]; 10.1038/s41467-021-24031-w. KOtBu, 4.0 equivalents | Evidence identifier: CCE-0051 | Reference: L168 [82]. | Reference: L262 [83].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact component in selective defluoroalkyne and organosilicon chemistry; effects depend on source.",
+    "source_text": [
+      "Chemical factor: strong alkoxide base. Support level: exact component in related literature or seed. Exact component in selective defluoroalkyne and organosilicon chemistry; effects depend on source.",
+      "Source support: L168 [82]; 10.1038/s41467-024-51519-y. Condition A: MeOLi (1.0 equiv.); Condition B: MeOLi (2.0 equiv.); Condition C: t-BuOK (1.5 equiv.); Condition D: Condition C followed by t-BuOK (5.0 equiv.).",
+      "Evidence identifier: CCE-0035",
+      "Source support: L262 [83]; 10.1038/s41467-021-24031-w. KOtBu, 4.0 equivalents",
+      "Evidence identifier: CCE-0051",
+      "Reference: L168 [82].",
+      "Locator: literature/_workbook_data.json#/master/521",
+      "Reference: L262 [83].",
+      "Locator: literature/_workbook_data.json#/master/525"
+    ]
+  },
+  {
+    "name": "n-hexane — n-hexane",
+    "type": "solvent",
+    "chemical_role": "nonpolar hydrocarbon medium",
+    "source": "Direct inventory precedent: the seed Chemical Science article explicitly lists n-hexane among its solvent blocks (physical PDF p. 3; DOI 10.1039/d6sc05561c). This supports the solvent identity, without establishing an optimum for the present reaction. | Reference: L361 [60].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "n-Hexane occurs explicitly in the prior Chemical Science platform solvent blocks (physical p.3). This supports the solvent identity in a related platform; it does not establish an optimum for the present reaction.",
+    "source_text": [
+      "Chemical factor: nonpolar hydrocarbon medium. Support level: exact component in related literature or seed. n-Hexane occurs explicitly in the prior Chemical Science platform solvent blocks (physical p.3). This is direct solvent-inventory precedent, not evidence of the date or rationale for choosing the present 12×8 library.",
+      "Direct inventory precedent: the seed Chemical Science article explicitly lists n-hexane among its solvent blocks (physical PDF p. 3; DOI 10.1039/d6sc05561c). This supports the solvent identity, without establishing a dated component-selection rationale.",
+      "Interpretation: n-Hexane is present in the measured grid and in the solvent blocks of the seed Chemical Science article. It provides a nonpolar-medium comparison; the original component-selection rationale is not documented.",
+      "Reference: L361 [60].",
+      "Source passage: The 1,4-dioxane, DMF, DMSO, HFIP, H2O, and NMP blocks were assigned 110 °C, whereas the THF, MeCN, DCE, MeOH, and n-hexane blocks were assigned 80 °C.",
+      "Locator: physical PDF page 3; text lines 234–239"
+    ]
+  },
+  {
+    "name": "DCE — 1,2-dichloroethane",
+    "type": "solvent",
+    "chemical_role": "weakly coordinating chlorinated medium",
+    "source": "Source support: L006 [74]; 10.1038/s41467-022-31976-z. Toluene for the standard indole-carbinol protocol; 1,2-dichloroethane for allyl and propargyl alcohols; DCM or toluene for specified heteroaryl-carbinol procedures. | Evidence identifier: CCE-0064 | Source support: SEED-ANCHOR-001; 10.1039/d6sc05561c. DCE | Evidence identifier: CCE-0147 | Reference: L006 [74].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact seed anchor and related fluoroalkyl-ketone chemistry.",
+    "source_text": [
+      "Chemical factor: weakly coordinating chlorinated medium. Support level: exact component in related literature or seed. Exact seed anchor and related fluoroalkyl-ketone chemistry.",
+      "Source support: L006 [74]; 10.1038/s41467-022-31976-z. Toluene for the standard indole-carbinol protocol; 1,2-dichloroethane for allyl and propargyl alcohols; DCM or toluene for specified heteroaryl-carbinol procedures.",
+      "Evidence identifier: CCE-0064",
+      "Source support: SEED-ANCHOR-001; 10.1039/d6sc05561c. DCE",
+      "Evidence identifier: CCE-0147",
+      "Reference: L006 [74].",
+      "Locator: literature/_workbook_data.json#/master/528",
+      "Locator: runs/admission_rerun_2026-09-06/qualified/derived/principles_v3/seed_evidence_projection.json"
+    ]
+  },
+  {
+    "name": "MeCN — acetonitrile",
+    "type": "solvent",
+    "chemical_role": "polar aprotic medium",
+    "source": "Source support: L189 [28]; 10.1038/s41467-021-23101-3. Dry acetonitrile under argon; toluene and THF gave less than 10% mono-HDF yield. | Evidence identifier: CCE-0004 | Source support: L042 [35]; 10.1002/ijch.201900173. Toluene for monosubstituted gem-difluoroalkenes and acetonitrile for disubstituted gem-difluoroalkenes in the highlighted thiol reaction. | Evidence identifier: CCE-0012 | Reference: L189 [28]. | Reference: L042 [35].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact solvent in multiple selective-defluorination/hydrothiolation sources.",
+    "source_text": [
+      "Chemical factor: polar aprotic medium. Support level: exact component in related literature or seed. Exact solvent in multiple selective-defluorination/hydrothiolation sources.",
+      "Source support: L189 [28]; 10.1038/s41467-021-23101-3. Dry acetonitrile under argon; toluene and THF gave less than 10% mono-HDF yield.",
+      "Evidence identifier: CCE-0004",
+      "Source support: L042 [35]; 10.1002/ijch.201900173. Toluene for monosubstituted gem-difluoroalkenes and acetonitrile for disubstituted gem-difluoroalkenes in the highlighted thiol reaction.",
+      "Evidence identifier: CCE-0012",
+      "Reference: L189 [28].",
+      "Locator: literature/_workbook_data.json#/master/513",
+      "Reference: L042 [35].",
+      "Locator: literature/_workbook_data.json#/master/515"
+    ]
+  },
+  {
+    "name": "THF — tetrahydrofuran",
+    "type": "solvent",
+    "chemical_role": "coordinating ether medium",
+    "source": "Source support: L168 [82]; 10.1038/s41467-024-51519-y. Condition A: THF; Condition B: CH3CN; Conditions C and first step of D: DCM; second step of D: DMF. | Evidence identifier: CCE-0036 | Source support: L314 [84]; 10.3762/bjoc.10.32. THF for the initial aldehyde olefination experiment; solvent details for the broader scope are not fully established by the supplied text. | Evidence identifier: CCE-0068 | Reference: L168 [82]. | Reference: L314 [84].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact ether solvent in relevant source procedures; some literature also reports poor performance.",
+    "source_text": [
+      "Chemical factor: coordinating ether medium. Support level: exact component in related literature or seed. Exact ether solvent in relevant source procedures; some literature also reports poor performance.",
+      "Source support: L168 [82]; 10.1038/s41467-024-51519-y. Condition A: THF; Condition B: CH3CN; Conditions C and first step of D: DCM; second step of D: DMF.",
+      "Evidence identifier: CCE-0036",
+      "Source support: L314 [84]; 10.3762/bjoc.10.32. THF for the initial aldehyde olefination experiment; solvent details for the broader scope are not fully established by the supplied text.",
+      "Evidence identifier: CCE-0068",
+      "Reference: L168 [82].",
+      "Locator: literature/_workbook_data.json#/master/521",
+      "Reference: L314 [84].",
+      "Locator: literature/_workbook_data.json#/master/529"
+    ]
+  },
+  {
+    "name": "1,4-dioxane — 1,4-dioxane",
+    "type": "solvent",
+    "chemical_role": "ether/solvation contrast",
+    "source": "Source support: L141 [85]; 10.1039/d4sc04939j. 1,4-Dioxane | Evidence identifier: CCE-0028 | Source support: L176 [79]; 10.1007/s11426-021-1040-2. Protocol-dependent; supplied examples include 1,4-dioxane and DMF; other solvents are UNKNOWN | Evidence identifier: CCE-0056 | Source support: L050 [76]; 10.1038/s41467-020-20725-9. Dioxane (0.01 M) for the general arylboronic-acid procedure | Evidence identifier: CCE-0072 | Reference: L141 [85]. | Reference: L176 [79]. | Reference: L050 [76].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact solvent or stated dioxane in relevant source records; do not equate an unexplained DIO expansion label without confirmation.",
+    "source_text": [
+      "Chemical factor: ether/solvation contrast. Support level: exact component in related literature or seed. Exact solvent or stated dioxane in relevant source records; do not equate an unexplained DIO expansion label without confirmation.",
+      "Source support: L141 [85]; 10.1039/d4sc04939j. 1,4-Dioxane",
+      "Evidence identifier: CCE-0028",
+      "Source support: L176 [79]; 10.1007/s11426-021-1040-2. Protocol-dependent; supplied examples include 1,4-dioxane and DMF; other solvents are UNKNOWN",
+      "Evidence identifier: CCE-0056",
+      "Source support: L050 [76]; 10.1038/s41467-020-20725-9. Dioxane (0.01 M) for the general arylboronic-acid procedure",
+      "Evidence identifier: CCE-0072",
+      "Reference: L141 [85].",
+      "Locator: literature/_workbook_data.json#/master/519",
+      "Reference: L176 [79].",
+      "Locator: literature/_workbook_data.json#/master/526",
+      "Reference: L050 [76].",
+      "Locator: literature/_workbook_data.json#/master/530"
+    ]
+  },
+  {
+    "name": "toluene — toluene",
+    "type": "solvent",
+    "chemical_role": "low-polarity aromatic medium",
+    "source": "Source support: see MeCN sources. | Evidence identifier: CCE-0012 | Source support: see the DCE sources. | Evidence identifier: CCE-0064 | Reference: L042 [35]. | Reference: L006 [74].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact solvent in thiol and fluoroalkyl-ketone contexts.",
+    "source_text": [
+      "Chemical factor: low-polarity aromatic medium. Support level: exact component in related literature or seed. Exact solvent in thiol and fluoroalkyl-ketone contexts.",
+      "Source support: see Section S6.2.15.",
+      "Evidence identifier: CCE-0012",
+      "Source support: see Section S6.2.14.",
+      "Evidence identifier: CCE-0064",
+      "Reference: L042 [35].",
+      "Locator: literature/_workbook_data.json#/master/515",
+      "Reference: L006 [74].",
+      "Locator: literature/_workbook_data.json#/master/528"
+    ]
+  },
+  {
+    "name": "HFIP — 1,1,1,3,3,3-hexafluoropropan-2-ol",
+    "type": "solvent",
+    "chemical_role": "protic, hydrogen-bond-donating medium",
+    "source": "Source support: L066 [86]; 10.1002/chem.202300979; PDF p2. DMSO, THF, and HFIP were detrimental relative to toluene; the optimization table reports yields of 11%, 24%, and 0%, respectively. | Evidence identifier: EV-ec14fa7cc4c53f5767a3 | Reference: L066 [86].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact tested medium; the source reports detrimental outcome relative to toluene (0%). This supports an explored boundary, not expected promotion.",
+    "source_text": [
+      "Chemical factor: protic, hydrogen-bond-donating medium. Support level: exact component in related literature or seed. Exact tested medium; archived source reports detrimental outcome relative to toluene (0%). This supports an explored boundary, not expected promotion.",
+      "Source support: L066 [86]; 10.1002/chem.202300979; PDF p2. DMSO, THF, and HFIP were detrimental relative to toluene; the optimization table reports yields of 11%, 24%, and 0%, respectively.",
+      "Evidence identifier: EV-ec14fa7cc4c53f5767a3",
+      "Reference: L066 [86].",
+      "Source passage: Replacement of toluene with other solvents, such as DMSO (polar, aprotic), THF (moderately polar, aprotic) and hexafluoroisopropanol (HFIP) (polar, protic, slightly acidic) led to detrimental results (Table 1, Scheme1.Entry solvent T / °C catalyst time / h yield 1 toluene 60 none 12 37% 2 toluene 90 none 1 83% 3 toluene reflux none 1 77% 4 toluene 90 AlCl3 1 68% 5 toluene 90 Sc(OTf)3 1 70% 6 toluene 90 2,4,6-tri-tert- butylpyridine 1 78% 7 toluene 90 phosphazene base P1-t-Bu 1 trace 8 DMSO 80 none 1 11% 9 THF 60 none 12 24% 10 HFIP 80 none 1 0% 11 mesitylene reflux none 1 75% 12 xylenes 135 none 1 81% Chemistry— A Eur opean Journal Research Article doi.org/10.1002/chem.202300979 Chem.",
+      "Locator: PDF p2"
+    ]
+  },
+  {
+    "name": "DMF — N,N-dimethylformamide",
+    "type": "solvent",
+    "chemical_role": "polar coordinating amide medium",
+    "source": "Source support: L223 [27]; 10.1002/anie.201605651. N,N-Dimethylformamide (DMF), 0.5 mL per 0.2 mmol substrate | Evidence identifier: CCE-0008 | Source support: L168 [82]; 10.1038/s41467-024-51519-y. Condition A: THF; Condition B: CH3CN; Conditions C and first step of D: DCM; second step of D: DMF. | Evidence identifier: CCE-0036 | Reference: L223 [27]. | Reference: L168 [82].",
+    "evidence_level": "exact component in related literature or seed",
+    "limits": "Exact solvent in Pd defluorinative coupling and other selective-defluorination procedures.",
+    "source_text": [
+      "Chemical factor: polar coordinating amide medium. Support level: exact component in related literature or seed. Exact solvent in Pd defluorinative coupling and other selective-defluorination procedures.",
+      "Source support: L223 [27]; 10.1002/anie.201605651. N,N-Dimethylformamide (DMF), 0.5 mL per 0.2 mmol substrate",
+      "Evidence identifier: CCE-0008",
+      "Source support: L168 [82]; 10.1038/s41467-024-51519-y. Condition A: THF; Condition B: CH3CN; Conditions C and first step of D: DCM; second step of D: DMF.",
+      "Evidence identifier: CCE-0036",
+      "Reference: L223 [27].",
+      "Locator: literature/_workbook_data.json#/master/514",
+      "Reference: L168 [82].",
+      "Locator: literature/_workbook_data.json#/master/521"
+    ]
+  }
+]

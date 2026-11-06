@@ -1,0 +1,1941 @@
+{
+  "candidate_rows": 100,
+  "distinct_candidate_structures": 100,
+  "duplicate_candidate_structures": [],
+  "actual_distinct_donor_structures": 102,
+  "actual_distinct_electrophile_structures": 5,
+  "exact_candidate_molecule_intersection": [
+    51,
+    95
+  ],
+  "distinct_actual_donors_by_primary_class": {
+    "Exact Molecular Match": 2,
+    "Structural Analogue": 96,
+    "Reactive-form Analogue": 0,
+    "Additional Experimental Candidate": 0,
+    "Unmatched": 4
+  },
+  "actual_donors": [
+    {
+      "actual_donor_id": "NU001",
+      "smiles": "Brc1ccc2[nH]c3c(c2c1)CCCC3",
+      "pair_ids": [
+        "AP004"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU002",
+      "smiles": "Brc1ccc2[nH]ccc2c1",
+      "pair_ids": [
+        "AP005"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU003",
+      "smiles": "Brc1cccc(-c2cc3ccccc3[nH]2)c1",
+      "pair_ids": [
+        "AP006"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU004",
+      "smiles": "C#CC(O)c1ccccc1",
+      "pair_ids": [
+        "AP050"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU005",
+      "smiles": "C1=COc2ccccc2N1",
+      "pair_ids": [
+        "AP007"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        48
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU006",
+      "smiles": "CC(=O)Nc1ccc(S)cc1",
+      "pair_ids": [
+        "AP089"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU007",
+      "smiles": "CC(=O)Nc1ccccc1",
+      "pair_ids": [
+        "AP008"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        41
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU008",
+      "smiles": "CC(=O)c1c[nH]c2ccccc12",
+      "pair_ids": [
+        "AP009"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU009",
+      "smiles": "CC(C)(C)c1ccc(O)cc1",
+      "pair_ids": [
+        "AP051"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU010",
+      "smiles": "CC(C)(C)c1ccc(S)cc1",
+      "pair_ids": [
+        "AP090"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU011",
+      "smiles": "CC(C)(C)c1ncc[nH]1",
+      "pair_ids": [
+        "AP001"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        35
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU012",
+      "smiles": "CC(C)(O)C(=O)c1ccccc1",
+      "pair_ids": [
+        "AP052"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU013",
+      "smiles": "CC(C)(S)CCO",
+      "pair_ids": [
+        "AP091"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        75,
+        80
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU014",
+      "smiles": "CC(O)c1ccc2ccccc2c1",
+      "pair_ids": [
+        "AP053"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU015",
+      "smiles": "CC1OCCC1S",
+      "pair_ids": [
+        "AP092"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        75,
+        80
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU016",
+      "smiles": "CCCCCO",
+      "pair_ids": [
+        "AP054"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU017",
+      "smiles": "CCCCN1CCNCC1",
+      "pair_ids": [
+        "AP010"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        39,
+        46
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU018",
+      "smiles": "CCNc1cccc2ccccc12",
+      "pair_ids": [
+        "AP011"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        38,
+        48
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU019",
+      "smiles": "CCOC(=O)C1CCc2[nH]c3ccccc3c2C1",
+      "pair_ids": [
+        "AP012"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU020",
+      "smiles": "CN(C)C(=O)C1CC(S)CN1C(=O)OCc1ccc([N+](=O)[O-])cc1",
+      "pair_ids": [
+        "AP093"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        75,
+        80
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU021",
+      "smiles": "CN1CCC(O)C1",
+      "pair_ids": [
+        "AP055"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU022",
+      "smiles": "CNC(=O)c1ccccc1",
+      "pair_ids": [
+        "AP013"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        41
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU023",
+      "smiles": "CNCc1ccccc1",
+      "pair_ids": [
+        "AP014"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        39,
+        46
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU024",
+      "smiles": "CNCc1cnn(C)c1",
+      "pair_ids": [
+        "AP015"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        39,
+        46
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU025",
+      "smiles": "CNc1ccncc1",
+      "pair_ids": [
+        "AP016"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        38,
+        48
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU026",
+      "smiles": "COC(=O)CCS",
+      "pair_ids": [
+        "AP094"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        75,
+        80
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU027",
+      "smiles": "COC(=O)c1ccccc1S",
+      "pair_ids": [
+        "AP095"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU028",
+      "smiles": "COC(=O)c1cnc(O)cn1",
+      "pair_ids": [
+        "AP056"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU029",
+      "smiles": "COc1cc(O)cc(OC)c1",
+      "pair_ids": [
+        "AP057"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU030",
+      "smiles": "COc1ccc(C(=O)O)cc1",
+      "pair_ids": [
+        "AP058"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Unmatched"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU031",
+      "smiles": "COc1ccc(CCO)cc1",
+      "pair_ids": [
+        "AP059"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU032",
+      "smiles": "COc1ccc(S)cc1",
+      "pair_ids": [
+        "AP096"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU033",
+      "smiles": "COc1ccc2c(c1)[nH]c1ccccc12",
+      "pair_ids": [
+        "AP017"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU034",
+      "smiles": "COc1ccc2ccccc2c1Br",
+      "pair_ids": [
+        "AP045"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Unmatched"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU035",
+      "smiles": "COc1cccc2[nH]ccc12",
+      "pair_ids": [
+        "AP018"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU036",
+      "smiles": "Cc1cc2ccccc2[nH]1",
+      "pair_ids": [
+        "AP019"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU037",
+      "smiles": "Cc1ccc(O)nc1",
+      "pair_ids": [
+        "AP060"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU038",
+      "smiles": "Cc1ccc(S)cc1",
+      "pair_ids": [
+        "AP097"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU039",
+      "smiles": "Cc1ccc2[nH]c3ccc(C)cc3c2c1",
+      "pair_ids": [
+        "AP020"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU040",
+      "smiles": "Cc1ccc2c(c1)CCCN2",
+      "pair_ids": [
+        "AP021"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        48
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU041",
+      "smiles": "Cc1ccc2cccc(O)c2n1",
+      "pair_ids": [
+        "AP061"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU042",
+      "smiles": "Cc1cccc(C)c1O",
+      "pair_ids": [
+        "AP062"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU043",
+      "smiles": "Cc1cccc(C)c1S",
+      "pair_ids": [
+        "AP098"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU044",
+      "smiles": "Cc1cccc2[nH]ccc12",
+      "pair_ids": [
+        "AP022",
+        "AP043"
+      ],
+      "n_distinct_pairs": 2,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU045",
+      "smiles": "Cc1cccc2cc[nH]c12",
+      "pair_ids": [
+        "AP023"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU046",
+      "smiles": "Cc1ccccc1CS",
+      "pair_ids": [
+        "AP099"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        75,
+        80
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU047",
+      "smiles": "FC(F)(F)c1ccc(S)cc1",
+      "pair_ids": [
+        "AP100"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU048",
+      "smiles": "Fc1ccc(CS)cc1",
+      "pair_ids": [
+        "AP101"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        75,
+        80
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU049",
+      "smiles": "Fc1ccc2[nH]ccc2c1",
+      "pair_ids": [
+        "AP024"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU050",
+      "smiles": "Ic1ccc2[nH]c3ccccc3c2c1",
+      "pair_ids": [
+        "AP025"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU051",
+      "smiles": "N#CCCS",
+      "pair_ids": [
+        "AP102"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        75,
+        80
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU052",
+      "smiles": "N#Cc1ccc(O)cc1",
+      "pair_ids": [
+        "AP063"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU053",
+      "smiles": "N#Cc1ccc2cc[nH]c2c1",
+      "pair_ids": [
+        "AP026"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU054",
+      "smiles": "N#Cc1cccc2[nH]ccc12",
+      "pair_ids": [
+        "AP027"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU055",
+      "smiles": "O=C(O)Cc1ccc(S)cc1",
+      "pair_ids": [
+        "AP103"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU056",
+      "smiles": "O=C(O)c1cc(O)cc(C(=O)O)n1",
+      "pair_ids": [
+        "AP064"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU057",
+      "smiles": "O=C(O)c1ccc2[nH]cnc2c1",
+      "pair_ids": [
+        "AP028"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        35
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU058",
+      "smiles": "O=C1C2CCCN2C(=S)N1c1ccccc1",
+      "pair_ids": [
+        "AP002"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Unmatched"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU059",
+      "smiles": "O=C1Cc2ccccc2N1",
+      "pair_ids": [
+        "AP029"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        41
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU060",
+      "smiles": "O=C1NC(=O)C2CCC=CC12",
+      "pair_ids": [
+        "AP030"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        44
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU061",
+      "smiles": "O=C1NC(=O)C2CCCC12",
+      "pair_ids": [
+        "AP003"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        44
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU062",
+      "smiles": "O=C1Nc2ccc(F)cc2C1=O",
+      "pair_ids": [
+        "AP031"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        41
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU063",
+      "smiles": "O=Cc1c(O)ccc2ccccc12",
+      "pair_ids": [
+        "AP065"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU064",
+      "smiles": "O=Cc1cc(CO)ccc1O",
+      "pair_ids": [
+        "AP066"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        52,
+        61,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU065",
+      "smiles": "O=[N+]([O-])c1c(O)ccc2ccccc12",
+      "pair_ids": [
+        "AP067"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU066",
+      "smiles": "O=[N+]([O-])c1ccc(S)cc1",
+      "pair_ids": [
+        "AP104"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU067",
+      "smiles": "O=c1cc(O)c2ccccc2o1",
+      "pair_ids": [
+        "AP068"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU068",
+      "smiles": "OC(c1ccccc1)c1ccccc1",
+      "pair_ids": [
+        "AP069"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU069",
+      "smiles": "OC/C=C/c1cccc(OCc2ccccc2)c1",
+      "pair_ids": [
+        "AP070"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU070",
+      "smiles": "OC1CCc2ccccc21",
+      "pair_ids": [
+        "AP071"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU071",
+      "smiles": "OC1c2ccccc2Oc2ccccc21",
+      "pair_ids": [
+        "AP072"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU072",
+      "smiles": "OCC1CO1",
+      "pair_ids": [
+        "AP105"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Unmatched"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU073",
+      "smiles": "OCC1c2ccccc2-c2ccccc21",
+      "pair_ids": [
+        "AP073"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU074",
+      "smiles": "OCCCS",
+      "pair_ids": [
+        "AP106"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        75,
+        80
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU075",
+      "smiles": "OCc1cccc2ccccc12",
+      "pair_ids": [
+        "AP074"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU076",
+      "smiles": "OCc1ccccc1",
+      "pair_ids": [
+        "AP075"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU077",
+      "smiles": "OCc1cccnc1",
+      "pair_ids": [
+        "AP076"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        52,
+        61
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU078",
+      "smiles": "Oc1ccc(-c2ccccc2)cc1",
+      "pair_ids": [
+        "AP077"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU079",
+      "smiles": "Oc1ccc(Br)c2ccccc12",
+      "pair_ids": [
+        "AP046",
+        "AP078"
+      ],
+      "n_distinct_pairs": 2,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU080",
+      "smiles": "Oc1ccc(Br)nc1",
+      "pair_ids": [
+        "AP079"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU081",
+      "smiles": "Oc1ccc2ncccc2c1",
+      "pair_ids": [
+        "AP080"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU082",
+      "smiles": "Oc1cccc2ccccc12",
+      "pair_ids": [
+        "AP047",
+        "AP048",
+        "AP049"
+      ],
+      "n_distinct_pairs": 3,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU083",
+      "smiles": "Oc1cccc2cccnc12",
+      "pair_ids": [
+        "AP081"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU084",
+      "smiles": "Oc1cccc2oc3ccccc3c12",
+      "pair_ids": [
+        "AP082"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU085",
+      "smiles": "Oc1ccccc1",
+      "pair_ids": [
+        "AP083"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Exact Molecular Match"
+      ],
+      "exact_candidate_numbers": [
+        51
+      ],
+      "reactive_form_candidate_numbers": [
+        64
+      ],
+      "structural_candidate_numbers": [],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU086",
+      "smiles": "Oc1ccccc1-c1ccccc1",
+      "pair_ids": [
+        "AP084"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU087",
+      "smiles": "Oc1ccnc2[nH]ccc12",
+      "pair_ids": [
+        "AP085"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU088",
+      "smiles": "Oc1cnc2[nH]ccc2c1",
+      "pair_ids": [
+        "AP032"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU089",
+      "smiles": "Oc1cncc(Cl)c1",
+      "pair_ids": [
+        "AP086"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU090",
+      "smiles": "SC(c1ccccc1)(c1ccccc1)c1ccccc1",
+      "pair_ids": [
+        "AP107"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        75,
+        80
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU091",
+      "smiles": "Sc1ccc(S)cc1",
+      "pair_ids": [
+        "AP108"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        68,
+        82
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU092",
+      "smiles": "c1cc(N2CCNCC2)ccn1",
+      "pair_ids": [
+        "AP033"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        39,
+        46
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU093",
+      "smiles": "c1ccc(C2CCNCC2)cc1",
+      "pair_ids": [
+        "AP034"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        39,
+        46
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU094",
+      "smiles": "c1ccc(CNc2ccccc2)cc1",
+      "pair_ids": [
+        "AP035"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        38,
+        48
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU095",
+      "smiles": "c1ccc(COc2ccc3[nH]ccc3c2)cc1",
+      "pair_ids": [
+        "AP036"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU096",
+      "smiles": "c1ccc(N2CCNCC2)cc1",
+      "pair_ids": [
+        "AP037"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        39,
+        46
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU097",
+      "smiles": "c1ccc(Nc2ccccc2)cc1",
+      "pair_ids": [
+        "AP038"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        38,
+        48
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU098",
+      "smiles": "c1ccc(Pc2ccccc2)cc1",
+      "pair_ids": [
+        "AP087",
+        "AP088"
+      ],
+      "n_distinct_pairs": 2,
+      "primary_mapping_classes": [
+        "Exact Molecular Match"
+      ],
+      "exact_candidate_numbers": [
+        95
+      ],
+      "reactive_form_candidate_numbers": [
+        99
+      ],
+      "structural_candidate_numbers": [],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU099",
+      "smiles": "c1ccc2c(c1)CCN2",
+      "pair_ids": [
+        "AP039",
+        "AP044"
+      ],
+      "n_distinct_pairs": 2,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        48
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU100",
+      "smiles": "c1ccc2c(c1)Nc1ccccc1S2",
+      "pair_ids": [
+        "AP040"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        48
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU101",
+      "smiles": "c1ccc2c(c1)ccc1c3ccccc3[nH]c21",
+      "pair_ids": [
+        "AP041"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU102",
+      "smiles": "c1ccc2c3c([nH]c2c1)CCCC3",
+      "pair_ids": [
+        "AP042"
+      ],
+      "n_distinct_pairs": 1,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    }
+  ],
+  "multiple_electrophile_donors": [
+    {
+      "actual_donor_id": "NU044",
+      "smiles": "Cc1cccc2[nH]ccc12",
+      "pair_ids": [
+        "AP022",
+        "AP043"
+      ],
+      "n_distinct_pairs": 2,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        27
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU079",
+      "smiles": "Oc1ccc(Br)c2ccccc12",
+      "pair_ids": [
+        "AP046",
+        "AP078"
+      ],
+      "n_distinct_pairs": 2,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU082",
+      "smiles": "Oc1cccc2ccccc12",
+      "pair_ids": [
+        "AP047",
+        "AP048",
+        "AP049"
+      ],
+      "n_distinct_pairs": 3,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        51,
+        64
+      ],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU098",
+      "smiles": "c1ccc(Pc2ccccc2)cc1",
+      "pair_ids": [
+        "AP087",
+        "AP088"
+      ],
+      "n_distinct_pairs": 2,
+      "primary_mapping_classes": [
+        "Exact Molecular Match"
+      ],
+      "exact_candidate_numbers": [
+        95
+      ],
+      "reactive_form_candidate_numbers": [
+        99
+      ],
+      "structural_candidate_numbers": [],
+      "decision_status": "not recorded"
+    },
+    {
+      "actual_donor_id": "NU099",
+      "smiles": "c1ccc2c(c1)CCN2",
+      "pair_ids": [
+        "AP039",
+        "AP044"
+      ],
+      "n_distinct_pairs": 2,
+      "primary_mapping_classes": [
+        "Structural Analogue"
+      ],
+      "exact_candidate_numbers": [],
+      "reactive_form_candidate_numbers": [],
+      "structural_candidate_numbers": [
+        48
+      ],
+      "decision_status": "not recorded"
+    }
+  ],
+  "candidate_mapping_edge_counts": {
+    "35": 2,
+    "44": 2,
+    "27": 20,
+    "48": 9,
+    "41": 4,
+    "39": 6,
+    "46": 6,
+    "38": 4,
+    "51": 26,
+    "64": 26,
+    "52": 15,
+    "61": 15,
+    "95": 2,
+    "99": 2,
+    "68": 10,
+    "82": 10,
+    "75": 9,
+    "80": 9
+  },
+  "molecular_identity_rule": "RDKit canonical isomeric SMILES; salts and charges retained. A neutral-parent key is used only for separate reactive-form edges."
+}

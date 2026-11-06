@@ -1,0 +1,3432 @@
+{
+  "contradiction_count": 0,
+  "evidence_item_count": 3694,
+  "missing_source_paths": [],
+  "off_queue_cache_count": 0,
+  "queue_digest": "f6de3ff69d54bb22c42c8970877473adcf603f509bc9ad3baa90d406f75cd676",
+  "queue_paper_count": 342,
+  "records": [
+    {
+      "cache_key": "510e74e11652e74ea1bc03507049568d37644bc68689d0cd78e6f252222f1789",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "2625d4986e49e6f360bd23ea2863d40abc7c5918a1ce3c438b0de386dad77171",
+      "source_path": "Tier 1/1-s2.0-S0040402000001678-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/2625d4986e49e6f360bd23ea2863d40abc7c5918a1ce3c438b0de386dad77171/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "0326a87be9b30106c7c142000011321aeea8ba5696ff0a7874c56a5f7ae8e356",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "54e4321ba77a1145191cc955d512fa804fc4f6ebc730536903950b8792d13703",
+      "source_path": "Tier 1/1-s2.0-S0040402001009620-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/54e4321ba77a1145191cc955d512fa804fc4f6ebc730536903950b8792d13703/validated.json",
+      "visual_review_page_count": 6
+    },
+    {
+      "cache_key": "65710259723324bed63f5de0938202db23a9e75e154d4759cd3aa8d89baed6ab",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "7832d33873c573d0f76354ee62efaab500c3ec3394f29db356dcda85216fc045",
+      "source_path": "Tier 1/1-s2.0-S0040402013011691-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/7832d33873c573d0f76354ee62efaab500c3ec3394f29db356dcda85216fc045/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "7ed9203dd3b09936d298a0e854744edb093f1047d1eccdc1237f1a905a47b0ba",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "4efb1ba6994bd360f1e9c1e207fdb934bf18626bfef24c3d341018100b5d18d0",
+      "source_path": "Tier 1/1-s2.0-S0040402098001732-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/4efb1ba6994bd360f1e9c1e207fdb934bf18626bfef24c3d341018100b5d18d0/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "ddc83a44ab4f3c196c587ec305c248db778e51312339ede75b649d0afe5e4cf8",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "4863136900a589fec72f5507a7d8b011de9433331c7cfaeec38fe4e0af28aa3e",
+      "source_path": "Tier 1/1-s2.0-S0040403902016064-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/4863136900a589fec72f5507a7d8b011de9433331c7cfaeec38fe4e0af28aa3e/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "03ff87a85dccace31636b9b582335d8a0f499496fdcc5dee02607161b6c3f5ec",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "04220291296f0abb5409e382874f07ea24031cc3695c835e165f9fd2affa82ee",
+      "source_path": "Tier 1/1-s2.0-S0040403908022211-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/04220291296f0abb5409e382874f07ea24031cc3695c835e165f9fd2affa82ee/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "0ecfc5e7af3cfdbc790e7911d0aa246550314f5e9790b764d725a0a71e54fc35",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "a9fc5237604b7618f2db763b50d9d76e6dc25bc5c8b1e0f8cb90332364e6a4d4",
+      "source_path": "Tier 1/1-s2.0-S0040403909004171-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/a9fc5237604b7618f2db763b50d9d76e6dc25bc5c8b1e0f8cb90332364e6a4d4/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "0aefebc61e6f889f37e79a505e8c7cb8a617e1fec684e9a15be119e0b97d4988",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "317c0cd2b9a7931eb0f9e65303d3851d6b13a6bd98a5558accd75f24482e3c87",
+      "source_path": "Tier 1/1-s2.0-S0040403916301721-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/317c0cd2b9a7931eb0f9e65303d3851d6b13a6bd98a5558accd75f24482e3c87/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "f53b52094ff7d92802c5130689dd9ccb694ad77a6bfba5fa15bee57b1e6a2241",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "ae0d109fd8fc2236b58615113ae572879015cd929a24fc684438935e1370fbc2",
+      "source_path": "Tier 1/1-s2.0-S0040403921002549-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/ae0d109fd8fc2236b58615113ae572879015cd929a24fc684438935e1370fbc2/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "a8ffeb9c341c90b703d5721ce60f5896c724b65953ad111b32a14498f504e76b",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "1aafbcdeed707a1d61eeab70a896308958bb9538bfe3551c2263fc32c46126fd",
+      "source_path": "Tier 1/1-s2.0-S022352340900508X-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/1aafbcdeed707a1d61eeab70a896308958bb9538bfe3551c2263fc32c46126fd/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "3a5eff3100555b51705383c973ffce4c1eee056287a2b48d10126ad80ff8c1f3",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "c6cc444e39b9dceb64da9d0b8365bff16bef9c239872ae246298e0a88dce28a8",
+      "source_path": "Tier 1/1-s2.0-S0223523410001261-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/c6cc444e39b9dceb64da9d0b8365bff16bef9c239872ae246298e0a88dce28a8/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "7548510285e48b6a5fb896d993212e5259e7c3127c22a785766df44de9077422",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "63b0419553fb0e4f246d7909d4f1c5c5fe12b6b9c272063f2e30c91f0a7be0fe",
+      "source_path": "Tier 1/1-s2.0-S0960894X05002477-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/63b0419553fb0e4f246d7909d4f1c5c5fe12b6b9c272063f2e30c91f0a7be0fe/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "af78bde669f5cae5dfbd4f008a5c058cd631fa93792ba03e28a847be242ae820",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "dc7ebf7f2894428618e19366da567894cf7d06f24d502c134a822ec9bcd2bc31",
+      "source_path": "Tier 1/1-s2.0-S0960894X05004506-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/dc7ebf7f2894428618e19366da567894cf7d06f24d502c134a822ec9bcd2bc31/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "1fe0b542b2bf70f76c1a2df1bc97c11b58fb4a109e49ce5f064432dc62f1a8d7",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "200090fb01c488b862d2896ba8bb8d7385eb21229421cbb75597d4a54f0d4b56",
+      "source_path": "Tier 1/1-s2.0-S0960894X14005915-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/200090fb01c488b862d2896ba8bb8d7385eb21229421cbb75597d4a54f0d4b56/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "a639ea4734a367ffdb6a81b7f4bb9f98074733b41cf6c9a9503e9e8d1964c406",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "6db5bdbe5b98c85d58f10ed3f9f6ef7be6343e51f6433d0b1494280a525dda63",
+      "source_path": "Tier 1/1-s2.0-S2589004220304454-main.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/6db5bdbe5b98c85d58f10ed3f9f6ef7be6343e51f6433d0b1494280a525dda63/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "4ff2f89c41221690ba5ac91aaf5540282107ec9ee8d77193cbc77fa0931f2d3a",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "75038e57861043001761a4b263268210ab48947c20f9cd79e95c6a8651aa90c0",
+      "source_path": "Tier 1/1860-5397-16-181.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/75038e57861043001761a4b263268210ab48947c20f9cd79e95c6a8651aa90c0/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "c61b0d45a1ae32128e80c612374c04a427eeff1418224c0ccc77a5290d5bd05d",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "9359b1dffb70bb55d37159c357c54c0b40795f55d6b732ef818d5e51cb09a050",
+      "source_path": "Tier 1/2002-catalytic-conversion-of-fluoroalkyl-alkyl-ethers-to-carbonyl-compounds.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/9359b1dffb70bb55d37159c357c54c0b40795f55d6b732ef818d5e51cb09a050/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "b14be8fb9c15810fcb58209617cc0d847fcc174108753944bcf817b6132c7988",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "81d092071da858c66faddc98f67eb9c68d1b95e75a532ca99e2113ca0bef53f2",
+      "source_path": "Tier 1/2002-cyclopentadiene-bisadduct-of-tetrafluoro-p-benzoquinone-its-stereochemistry-reactivity-toward-nucleophiles-and.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/81d092071da858c66faddc98f67eb9c68d1b95e75a532ca99e2113ca0bef53f2/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "ac646c01023ad080c8d55f2babffb0a87afe9e8cfc6b1d2717daf3a971e6efa9",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "782da3473b2e14b1cee24525f112a9af035c6c809dc115d9346c187812fcc597",
+      "source_path": "Tier 1/2002-fluoroketenes-10-synthesis-and-chemistry-of-a-perfluoroacylketene-and-a-related-perfluorovinyl-ketone.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/782da3473b2e14b1cee24525f112a9af035c6c809dc115d9346c187812fcc597/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "925b3b51f7556679225bb3312b79da08e9b6b4ca0ed7c22f5c6925c93fad326d",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "d78bc9d6fc40d4ded0cb5d1cbd2b39ab27f7c1ed10433dd13c72a6e09ea4c376",
+      "source_path": "Tier 1/2002-fluoroketenes-11-synthesis-and-chemistry-of-a-perfluoroacylketene-and-related-compounds-containing-a.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/d78bc9d6fc40d4ded0cb5d1cbd2b39ab27f7c1ed10433dd13c72a6e09ea4c376/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "3ea2a4ea7799b6bb1569ea9a56ff2a159c027cdde01e68c6010b1fa429fce99c",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "6c18765ae88ca46bb4bb7dee22bdf570e098e9495a7bc15de635097ad8e53021",
+      "source_path": "Tier 1/55_1593.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/6c18765ae88ca46bb4bb7dee22bdf570e098e9495a7bc15de635097ad8e53021/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "fbc6d13d2723ae278ed83be5a8f8af01a677dfa62616da86ff748de99244bb94",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "61fe3e6d0c0caa29f1dc8821304e98fa257023b6090968b3f09a3c7cc1d2205f",
+      "source_path": "Tier 1/Adv Synth Catal - 2012 - Li - Silver‐Assisted Difunctionalization of Terminal Alkynes  Highly Regio‐ and Stereoselective (1).pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/61fe3e6d0c0caa29f1dc8821304e98fa257023b6090968b3f09a3c7cc1d2205f/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "49c3da0d2d63d779ac212c12efb8d53e61073788ac82b8148db4611345211a94",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "20f294e6e390a5a6f34fd608599ed0dc5b3b369f6ae47015b90bc1a14201b01b",
+      "source_path": "Tier 1/Adv Synth Catal - 2017 - Zhang - Stereoselective One‐Pot Sequential Dehydrochlorination trans‐Hydrofluorination Reaction of.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/20f294e6e390a5a6f34fd608599ed0dc5b3b369f6ae47015b90bc1a14201b01b/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "d5c7ecfd5c3bd2fc165cbd8cdc833710d4839b00e0dd1c4db94df49aa08ed11e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "a6531fec0610521ba44a35f34ec8d201281fe22e08be887783c91bb80e62f385",
+      "source_path": "Tier 1/Adv Synth Catal - 2020 - Middel - Rhodium‐Catalyzed Regioselective 3‐Fluoroallylic Cyanation.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/a6531fec0610521ba44a35f34ec8d201281fe22e08be887783c91bb80e62f385/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "d63f4b38a42769500ce5c2f7703b5cee3646b91ef8c46a53c6f35fa948ecb613",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "8e696ff670922e1ee50687c04527cfe473f6b7e5d9814715beb24dac209bac23",
+      "source_path": "Tier 1/Adv Synth Catal - 2020 - Xie - Synthesis of Polycyclic Furan and Chromene Derivatives via Cascade Reactions Enabled by.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/8e696ff670922e1ee50687c04527cfe473f6b7e5d9814715beb24dac209bac23/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "082b31f9547421d6ced2089d1cf0225192d205cdc384adaaa43a7beb855cd4b6",
+      "contradiction_count": 0,
+      "evidence_item_count": 12,
+      "sha256": "0cdc5bcc9a0a3d9c2d8e8a59ec04cbd412fc701e89b4c4a0c7df79e9bf007da8",
+      "source_path": "Tier 1/Adv Synth Catal - 2021 - Ma - Regioselective Synthesis of Emission Color‐Tunable Pyrazolo 1 5‐a pyrimidines with   .pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/0cdc5bcc9a0a3d9c2d8e8a59ec04cbd412fc701e89b4c4a0c7df79e9bf007da8/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "d60373f3ff0d59c1943f8dd837d49a3cb61119b0d713478c1ee8c9cc3bd2e5e1",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "7bb34b2330c4f3b32c39f954156442d80ac0dcb99ca8bd2db753025c512813cb",
+      "source_path": "Tier 1/Adv Synth Catal - 2021 - Zhang - Visible‐Light‐Promoted Oxy‐difluoroalkylation of Aryl Alkynes for the Synthesis of .pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/7bb34b2330c4f3b32c39f954156442d80ac0dcb99ca8bd2db753025c512813cb/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "5c1b76c840244b2a5cd2184d95d615bdea6a5ce2a1407513ecf15005e8a4da42",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "d1d871e7493f6fc8965caccb8d3846b266a81ee762d4c33c957711c469b101a0",
+      "source_path": "Tier 1/Angew Chem Int Ed - 2013 - Zhang - A Variation of the Fischer Indolization Involving Condensation of Quinone Monoketals and.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/d1d871e7493f6fc8965caccb8d3846b266a81ee762d4c33c957711c469b101a0/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "91d4af4ba664fef9f151299f3a4c85222d27517828360710c89e285bb7dd5dd7",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "b949e70827ca1b5184ed88d843d36e037d601c46407a272f419f62a39094eda6",
+      "source_path": "Tier 1/Angew Chem Int Ed - 2019 - Balkenhohl - Preparation of Polyfunctional Arylzinc Organometallics in Toluene by Halogen Zinc.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/b949e70827ca1b5184ed88d843d36e037d601c46407a272f419f62a39094eda6/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "b5650ec815a550efd8d4fe4f6ce4817d68a70f15d59eefd3a4d78e3c0643a702",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "a277d3c844d3a89e43a3bf1e11199b8076e5bf7a303e64cac64aa83d934ae628",
+      "source_path": "Tier 1/Angew Chem Int Ed - 2022 - McGuire - Mapping Dual‐Base‐Enabled Nickel‐Catalyzed Aryl Amidations  Application in the.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/a277d3c844d3a89e43a3bf1e11199b8076e5bf7a303e64cac64aa83d934ae628/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "44a4e45bb8010716e59c55a35257a103cfe916607b3b4a34a0e4a0b43865c3a9",
+      "contradiction_count": 0,
+      "evidence_item_count": 12,
+      "sha256": "e13ce359182e70413963bf5119aa880b1382c1656a6c3c9a82e01a9856f13edf",
+      "source_path": "Tier 1/Angew Chem Int Ed - 2023 - Yoshida - Cationic Rhodium I  Tetrafluoroborate Catalyzed Intramolecular Carbofluorination of.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/e13ce359182e70413963bf5119aa880b1382c1656a6c3c9a82e01a9856f13edf/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "bb3dea6431cad5be3df8acfbb0031047f4ab8406cfe314fd63a257b9e049a49c",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "5257c42f7069e4c323879105e7f7dbd428059782f6a04c1bef61d72f4af9911c",
+      "source_path": "Tier 1/Angew Chem Int Ed - 2023 - Yu - Cooperative Photoredox and N‐Heterocyclic Carbene Catalyzed Fluoroaroylation for the (1).pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/5257c42f7069e4c323879105e7f7dbd428059782f6a04c1bef61d72f4af9911c/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "c1692991899a3088cb1f26f4c2e0b38919eba8b1cf4eea874f0d80f8ec1eca2d",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "354594ef026db65506e99d6a31b8e2d7d5c6db93417b736e62f0eba0f856b6cc",
+      "source_path": "Tier 1/Asian J Org Chem - 2021 - Yang - Oxidative  3 2  Annulation of Pyridinium Salts with gem‐Difluoroalkenes  Synthesis of.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/354594ef026db65506e99d6a31b8e2d7d5c6db93417b736e62f0eba0f856b6cc/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "1abc836a188222b9a36020ac24b19a4ef6f7fdd1c28b7d880b6f986ba8283480",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "6ac254f3c651d0d5ff76114d1bfc6f0d19823822723f4989f171f5d8e32cf961",
+      "source_path": "Tier 1/Asian J Org Chem - 2023 - Shu - Copper‐Catalyzed  3 2  Annulation of Pyridinium Ylides with  ‐CF3 Ketones  Synthesis of.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/6ac254f3c651d0d5ff76114d1bfc6f0d19823822723f4989f171f5d8e32cf961/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "c5c2372ec23ca0eaa989ccc6b91af4c47564c10fc0221fe0e3f691452fd5bf80",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e91a74d4d51089e3aaba0279027f035e6ca6a2edf0a54ff246880cdadfa0011e",
+      "source_path": "Tier 1/Asian J Org Chem - 2025 - Kudryavtseva - A Multi‐Component Reaction of Hexafluoro‐1 4‐naphthoquinone with N‐Heterocycles.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/e91a74d4d51089e3aaba0279027f035e6ca6a2edf0a54ff246880cdadfa0011e/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "f535cafe76df905a36d96b49a0385a9659d07f9245bb405cf8f783dd5454d9f2",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "7637ec237cb4f9a56e420bb059170c941e6a6d6a321790570e5b30fea4d0f3b0",
+      "source_path": "Tier 1/ChemCatChem - 2014 - Nahra - Hydrofluorination of Alkynes Catalysed by Gold Bifluorides.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/7637ec237cb4f9a56e420bb059170c941e6a6d6a321790570e5b30fea4d0f3b0/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "83b46cb1ad3b770c89e604bce49ca3287da0b1482f82a7dc50a4e02c040ac958",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "7fae91a74000a9efb1ef3b7db525d3e991733b3f602b9f19a99abcc1fbc51ddb",
+      "source_path": "Tier 1/Chemistry   An Asian Journal - 2025 - Azami - Fluorinated Para‐Quinone Monoacetal  Versatile Reactivity for Constructing.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/7fae91a74000a9efb1ef3b7db525d3e991733b3f602b9f19a99abcc1fbc51ddb/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "c98dfdfc76511885438155f2807fa030ba73ed0df59d28fd69ca08888b2dbbc1",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "72d16f306f874e4085608ed3429c91f9437758b0e82cfb0b4fe001bf7e832703",
+      "source_path": "Tier 1/Chemistry A European J - 2000 - Sander - 4‐Oxo‐2 3 5 6‐tetrafluorocyclohexa‐2 5‐dienylidene A Highly Electrophilic Triplet.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/72d16f306f874e4085608ed3429c91f9437758b0e82cfb0b4fe001bf7e832703/validated.json",
+      "visual_review_page_count": 7
+    },
+    {
+      "cache_key": "27d461ad2ff23b6b38d7ed3eb5ac89070cc7ab04067aafb3de89807aedd498d7",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "b4461cd1763b2d8f5d6e8f983d3237cee752cefa9980256ed7e5a9ffbef9d819",
+      "source_path": "Tier 1/Chemistry A European J - 2011 - Nguyen - Deprotonative Metalation of Aromatic Compounds by Using an Amino‐Based Lithium.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/b4461cd1763b2d8f5d6e8f983d3237cee752cefa9980256ed7e5a9ffbef9d819/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "5c9dd64b08c1274f66b6eb0c1277dafdf908a49febd5d7737281787f6faf3bf9",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "0fadce9cb04b4e0145cb73f6cd4c9642fa5fa980141b9b6ccd838ec78b4e8349",
+      "source_path": "Tier 1/Chemistry A European J - 2015 - Dewanji - C F Activation in Perfluorinated Arenes with Isonitriles under UV‐Light.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/0fadce9cb04b4e0145cb73f6cd4c9642fa5fa980141b9b6ccd838ec78b4e8349/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "223ed1703f83f7607e2f93307585b3b513dc58098e5eae31dfcf98a5c6225926",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "08eb0b0655cded3f5a21733f9383e5e03f53e49ada5da65c8185d09fb7de48d2",
+      "source_path": "Tier 1/Chemistry A European J - 2021 - Finck - Transition%E2%80%90Metal%E2%80%90Free Coupling of Polyfluorinated Arenes and Functionalized  Masked.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/08eb0b0655cded3f5a21733f9383e5e03f53e49ada5da65c8185d09fb7de48d2/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "16519da991afcc498f0be368b28d93588c9c3977b083dcdd65c73ceab6ccb7c5",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "ae28146f493c7abf4e1453154828a03ec405bb40c27ae8f247cfafd3f6f4c2df",
+      "source_path": "Tier 1/Chemistry A European J - 2023 - Bardi - Novel Method for the Synthesis of Merocyanines  New Photophysical Possibilities for.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/ae28146f493c7abf4e1453154828a03ec405bb40c27ae8f247cfafd3f6f4c2df/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "3b906648a3427913f9c2bd1d5d7bc43329d3c71d95a02232135c0b53cb7523e7",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "648cc99ea7b64f7673915a7617c72228e647463433631337c8ef8eefa301239a",
+      "source_path": "Tier 1/ChemistrySelect - 2024 - Kudryavtseva - Synthesis of Substituted N ‐ 3 5 6 7 8‐Pentafluoro‐1 4‐Dioxo‐1.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/648cc99ea7b64f7673915a7617c72228e647463433631337c8ef8eefa301239a/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "23364dfc16001008b82162db603c2898140e0f5d3d782530d293ef4a15d4594d",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "136a824332d9aca7e968be339cd0b79aa5c21726cb3444155d07d49bf574f4dd",
+      "source_path": "Tier 1/Chinese Journal of Chemistry - 2024 - Ren - 1 2‐Dichloroethane‐Assisted Defluorinative Ring‐Opening Reaction of DABCO and.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/136a824332d9aca7e968be339cd0b79aa5c21726cb3444155d07d49bf574f4dd/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "1b2e430779e997668c80110df0a6f848683a79489183c398cd9ae067a9122f69",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "3f20d6c82491d68ee153358b8f9717e257ca99a475f72a52ced188f1b42d6c89",
+      "source_path": "Tier 1/Eur J Inorg Chem - 2022 - Rachor - Au I  Fluorido Phosphine Complexes  Tools for the Hydrofluorination of Alkynes.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/3f20d6c82491d68ee153358b8f9717e257ca99a475f72a52ced188f1b42d6c89/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "0267876563d295921f0fb391cc12957ec8a39ad951e729082ee51fcce4dac456",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "0cc3c2360b77a0efca078fac2a66867e442af659163eb137eefd85b49ef90a92",
+      "source_path": "Tier 1/Eur J Org Chem - 2004 - Chanteau - Synthesis of Polyfluorinated Nitrogen‐Containing Heterocycles from Hemifluorinated.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/0cc3c2360b77a0efca078fac2a66867e442af659163eb137eefd85b49ef90a92/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "ae377d64a70a09f0a96834436f8dad91a0f2cba351876973caf2df5f5d162426",
+      "contradiction_count": 0,
+      "evidence_item_count": 6,
+      "sha256": "cef65eb7e4a06769376d7a0a8fe24e73dadda280b58c80350dfb728167e02958",
+      "source_path": "Tier 1/Eur J Org Chem - 2004 - Schlosser - The Structural Proliferation of 2 6‐Difluoropyridine through Organometallic.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/cef65eb7e4a06769376d7a0a8fe24e73dadda280b58c80350dfb728167e02958/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "21b6608bf35068e6f8092b9f0287cc596a964933e14adb971fc4d97b5f879e87",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "44d4287f9ae349de344eec86510cc863022adc2d2971c73e693dc6cc950f30ba",
+      "source_path": "Tier 1/Eur J Org Chem - 2017 - Hedidi - Fused Systems Based on 2‐Aminopyrimidines  Synthesis Combining Deprotolithiation‐in situ.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/44d4287f9ae349de344eec86510cc863022adc2d2971c73e693dc6cc950f30ba/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "50efe825398abfd6eb59855a269a1692a80380e65229bb46745a5f16f504d9da",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "4991a2caddf610b244abd517bfac113239c01a7d1d596d57202bed6c44b8a3df",
+      "source_path": "Tier 1/Eur J Org Chem - 2019 - Ye - Versatile Fluorinated Building Blocks by Stereoselective  Per fluoroalkenylation of Ketones.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/4991a2caddf610b244abd517bfac113239c01a7d1d596d57202bed6c44b8a3df/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "dbce297748d0229ac85750313607f11cc6d271399f1afb0883b80fe066f55e1c",
+      "contradiction_count": 0,
+      "evidence_item_count": 7,
+      "sha256": "dcc3a85cc2fa30c18a568bebd4e2efbe66c66e757fd11689982d8dc7c1aabd92",
+      "source_path": "Tier 1/Helvetica Chimica Acta - 2005 - Stadlwieser - 8‐Fluoro‐6‐ methoxymethoxy quinoline  Synthesis and regioselective.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/dcc3a85cc2fa30c18a568bebd4e2efbe66c66e757fd11689982d8dc7c1aabd92/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "42a83a09d5729327fa97385e944145447f8bf664aefcd559b31af6a27160cc6a",
+      "contradiction_count": 0,
+      "evidence_item_count": 1,
+      "sha256": "a3518c25e72423e6114cf0e7269258ccc39468e97fd5a3c787a8d3be13e3539c",
+      "source_path": "Tier 1/Journal of Heterocyclic Chem - 2009 - Shutske - Synthesis of some piperazinylpyrazolo 3 4‐b pyridines as selective.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/a3518c25e72423e6114cf0e7269258ccc39468e97fd5a3c787a8d3be13e3539c/validated.json",
+      "visual_review_page_count": 7
+    },
+    {
+      "cache_key": "1a2dd2f92d21cce32dbbb0246583c998cb785dc83c7d7fe4de949643b444af83",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "fd92dc335c0c9fdb7a3dd9e22b2b8b8081fd692f5851cdd0d12cd648abc89046",
+      "source_path": "Tier 1/Journal of Heterocyclic Chem - 2024 - Kudryavtseva - Synthesis of substituted 5 6 7 8‐tetrafluoro‐1H‐benzo f indol‐4.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/fd92dc335c0c9fdb7a3dd9e22b2b8b8081fd692f5851cdd0d12cd648abc89046/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "b8cccb07ca14d4fcfa54125f4083d59e69729bca3986f83129d620c136d52389",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "361ac365a7913cc3bda6402258f5cdd41fe804a295fb87a2ad54c70116e64bc3",
+      "source_path": "Tier 1/Pd-Catalyzed Dearomative Spirocyclization of Bromophenols via[2+2+1] Strategy.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/361ac365a7913cc3bda6402258f5cdd41fe804a295fb87a2ad54c70116e64bc3/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "1f32f9be59bb5401756d1ce24b27394181ebd5ebce2c3f316e73ac3e9f09196e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "0a3cae3c868aa6acecee5289f9dcbc75819b688455ea11e2859033e57cc83ded",
+      "source_path": "Tier 1/Phosphine-Catalyzed Intermolecular Acylfluorination of Alkynes via a P(V) Intermediate.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/0a3cae3c868aa6acecee5289f9dcbc75819b688455ea11e2859033e57cc83ded/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "b964693eeb74921aea54eb29e14ea5d9b84489f9a747e2a63d7890073b5465d8",
+      "contradiction_count": 0,
+      "evidence_item_count": 7,
+      "sha256": "887d38da7dd55f81b8dec9bbe0277910c0a6ff4dd901cf735eee05a1e4ef368f",
+      "source_path": "Tier 1/The reaction ov oligomers of tetrafluoroethylene    II_ The reaction of the tetrafluoroethylene pentamer with allyl alcohol and the chemical transformation of reaction products..pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/887d38da7dd55f81b8dec9bbe0277910c0a6ff4dd901cf735eee05a1e4ef368f/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "2b4c06adb0612711464380841534c259b78b1fb9e1bee35b165f82a4dd2467c0",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "208ff0180542cf1b80cd749326e898e3fe67e9bc71d93a6bc09d1ced224c623e",
+      "source_path": "Tier 1/a-new-convergent-route-to-1-substituted-ellipticines.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/208ff0180542cf1b80cd749326e898e3fe67e9bc71d93a6bc09d1ced224c623e/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "4665850962ef6c87c79a1ae53a244e5cc844886818aaee4d628098bce2a6a525",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "3c4ae494cf8884cd6c8805ee238aded7739ed7c22d18c09664d4180dee4c6b3f",
+      "source_path": "Tier 1/addition-of-ester-enolates-to-n-alkyl-2-fluoropyridinium-salts-total-synthesis-of-(-)-20-deoxycamptothecin-and-(-).pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/3c4ae494cf8884cd6c8805ee238aded7739ed7c22d18c09664d4180dee4c6b3f/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "0c1dc5ab20eac1d5ced1b6189ea69cd8fc0ef12a33334439f31f3b3b9092b6f9",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e976f24f8e5fcada647705a12b7975b453112e8d0761a42f335d997614fe7151",
+      "source_path": "Tier 1/an-improved-chiral-auxiliary-for-the-allene-ether-version-of-the-nazarov-cyclization.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/e976f24f8e5fcada647705a12b7975b453112e8d0761a42f335d997614fe7151/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "240f319d7fc2a72f7c908a35440bef21526d1afb5901d3429b6a35d6bde891fd",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "381397a03a676d7196193d08dc461382b01d3803e093d47aa07d595a26c21d58",
+      "source_path": "Tier 1/anion-π-complexes-of-halides-with-p-benzoquinones-structures-thermodynamics-and-criteria-of-charge-transfer-to-electron.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/381397a03a676d7196193d08dc461382b01d3803e093d47aa07d595a26c21d58/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "aea18081811f20ac88f8f9c81cd90db35b6c7690c9eb59a968dd4004372598cd",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "d273e631163269fe42f010d68df0c778dff72d2bfc10579f1183b42886cd51f8",
+      "source_path": "Tier 1/asymmetric-cyclopentannelation-camphor-derived-auxiliary.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/d273e631163269fe42f010d68df0c778dff72d2bfc10579f1183b42886cd51f8/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "1d25fda863412d4a0892d4df1108eac11980af6e5c4c729e79ad6f4604327cd1",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e83a622b42c1aef06cc12836968775a3087414f8bc8d71dcabb1f099a3d5d363",
+      "source_path": "Tier 1/au(i)-catalyzed-hf-transfer-tandem-alkyne-hydrofluorination-and-perfluoroarene-functionalization.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/e83a622b42c1aef06cc12836968775a3087414f8bc8d71dcabb1f099a3d5d363/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "800fae8a0e2c50e30bd8bff242c1855eebd7511da5e0d4730c6219ced6602e00",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "d84c190651fd486d8d20db427860bf7207032e5d68304a92a119d9f2a002227c",
+      "source_path": "Tier 1/au-catalyzed-cross-coupling-of-arenes-via-double-c-h-activation.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/d84c190651fd486d8d20db427860bf7207032e5d68304a92a119d9f2a002227c/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "cc942fca17f2297eb17b3a967816897ff4a6920a36c323e896aad09c6d1aed22",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "8b077ba1c3d8936c0a7ba9592fd56a216a90e097e489817e31112017b26a086a",
+      "source_path": "Tier 1/barton-zard-reaction-of-β-fluoro-β-nitrostyrenes-a-selective-route-to-functionalized-4-fluoropyrroles.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/8b077ba1c3d8936c0a7ba9592fd56a216a90e097e489817e31112017b26a086a/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "d4ba827e8939fd039cd5cf9f3e6d4f2da671398823a64c4b9df50e75001398df",
+      "contradiction_count": 0,
+      "evidence_item_count": 12,
+      "sha256": "259cb6521c9d5c88c7670f40f1e6c17640b65aaecce5783cf8e3871bdec2a7ac",
+      "source_path": "Tier 1/c7sc05420c.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/259cb6521c9d5c88c7670f40f1e6c17640b65aaecce5783cf8e3871bdec2a7ac/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "468cbb5e0249b714de963b0b6d58df5c75edbe4de8694aa203b15d8b1f5e8c4f",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "3206d3477d6ac02a3815761702742d0e665f61a9f84c43c9f44be1289cf4b036",
+      "source_path": "Tier 1/cascade-c-h-activation-and-defluorinative-annulation-of-2-arylbenzimidazoles-with-α-trifluoromethyl-α-diazoketones.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/3206d3477d6ac02a3815761702742d0e665f61a9f84c43c9f44be1289cf4b036/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "6dd026f5a9744ddd32ab73e620f8013faf4211c1ab598fdc96f1c837eeeedc81",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "23e84dea2c6a549895c79c574f31936cc529ba79faf440cd7e73e3d7c20c229f",
+      "source_path": "Tier 1/catalysts-08-00600.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/23e84dea2c6a549895c79c574f31936cc529ba79faf440cd7e73e3d7c20c229f/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "fc3d915b29de26eee5e151addaaa2bfddfcab1737ddb3d4e59e156c8f9b15b62",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "822878bb6dee9163f879a0de40449532f10e6c7e2f04374fd31333b83c208825",
+      "source_path": "Tier 1/combining-fluoroalkylation-and-defluorination-to-enable-formal-3-2-1-heteroannulation-by-using-visible-light-photoredox.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/822878bb6dee9163f879a0de40449532f10e6c7e2f04374fd31333b83c208825/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "8c8c5b047536078d3139ce711d93c9516821efedf23448e45e4b5ba98ce2cc16",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "115891c4a885a91e1c50f3dd3dda80755a77d84f094eb8dfeab5674122e1bdc8",
+      "source_path": "Tier 1/copper(i)-catalyzed-4-1-cycloaddition-of-silyl-dienol-ethers-with-sodium-bromodifluoroacetate-access-to-β-β.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/115891c4a885a91e1c50f3dd3dda80755a77d84f094eb8dfeab5674122e1bdc8/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "62622a3e3c19c362674532cfeba7633118c75f4076cbed531416cc6c6f8aaea1",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "7dbcc31840748ddeb9f0749cce7e8bff9e67789a06141a9cd6a5bea8748afcec",
+      "source_path": "Tier 1/copper-catalyzed-fluoroolefination-of-silyl-enol-ethers-and-ketones-toward-the-synthesis-of-β-fluoroenones.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/7dbcc31840748ddeb9f0749cce7e8bff9e67789a06141a9cd6a5bea8748afcec/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "80f9d90f3e8202709567b9b01e26c8de4748f353a62b091b044b0e87f599fecc",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "f98d0f65b86dcdd2e5d54d8f8aa0aa986737090cd2f379af2d27badb39a15dff",
+      "source_path": "Tier 1/d0sc05442a.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/f98d0f65b86dcdd2e5d54d8f8aa0aa986737090cd2f379af2d27badb39a15dff/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "7bfbd2efe681a008df5ac11b1bed6a10fdbe748a8aea44ceb3f8c01f60d378d1",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e00022a4adddeef86311e3ad0e046e211d1b02603cec40112d25fd5aad27c01c",
+      "source_path": "Tier 1/d5sc03774c (1).pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/e00022a4adddeef86311e3ad0e046e211d1b02603cec40112d25fd5aad27c01c/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "3fb85b86e00ad39a3a9aac59b70f7fef564095277fe87030eb27395b29735f46",
+      "contradiction_count": 0,
+      "evidence_item_count": 6,
+      "sha256": "ec4f5e9ee55400f0551cae7289ac31629409a562f9a9c210552a84622e77c023",
+      "source_path": "Tier 1/discovery-of-3-5-(6-amino-1h-pyrazolo-3-4-b-pyridine-3-yl)methoxy-2-chlorophenoxy-5-chlorobenzonitrile-(mk-4965)-a.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/ec4f5e9ee55400f0551cae7289ac31629409a562f9a9c210552a84622e77c023/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "ab31269d3fc119e418683f5c41bda652cdd9065ef2211505d61a6b4375db106b",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "08d9baf73023c7a21a06dcdd21bff21f36aab5f38ae97d28c686d63b43ca9769",
+      "source_path": "Tier 1/electron-transfer-enabled-concerted-nucleophilic-fluorination-of-azaarenes-selective-c-h-fluorination-of-quinolines.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/08d9baf73023c7a21a06dcdd21bff21f36aab5f38ae97d28c686d63b43ca9769/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "d39a883f4df34041152e438f43a404e815b02894e7d51499bd5be8c2f0d77244",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "7bfb88fa09bf38acfbbf108a9b6a497b339659e02db860c5dfbf011cc6d0079b",
+      "source_path": "Tier 1/enolizable-β-fluoroenones-synthesis-and-asymmetric-1-2-reduction.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/7bfb88fa09bf38acfbbf108a9b6a497b339659e02db860c5dfbf011cc6d0079b/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "2fbb7a37bdb2cb260d2bf919700964864cfd49c4ba16c74f2016d4e7b7085e73",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "496385c8c56068f29017e4a8419aaf423bdfc736770eecfeb246141e2cd40c1b",
+      "source_path": "Tier 1/exploring-the-nature-of-anion-π-interactions-complexes-of-π-acceptors-with-fluoro-or-oxoanions-compared-to-the.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/496385c8c56068f29017e4a8419aaf423bdfc736770eecfeb246141e2cd40c1b/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "8e63c05e7153d3180853e4ced8e6571be418c5a2328b19f672b6c988e464aef2",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "185fea500074be799006434a78b3b2603e653f42cf31378ea1804d2a56f2f13b",
+      "source_path": "Tier 1/fluorine-directed-nazarov-cyclizations-a-controlled-synthesis-of-cross-conjugated-2-cyclopenten-1-ones.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/185fea500074be799006434a78b3b2603e653f42cf31378ea1804d2a56f2f13b/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "5afd257e561222fbb53f8069beade50fd7a8c2a589ddc9b9dd47ad4ec5fd98ea",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "1949ec68ab72a4f3755cf485f8ad786aa7b08b5fd5c3a419a17645afdfae62b3",
+      "source_path": "Tier 1/fluoroketenes-vi-cycloadditions-of-cumulenes-to-bis(trifluoromethyl)ketene.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/1949ec68ab72a4f3755cf485f8ad786aa7b08b5fd5c3a419a17645afdfae62b3/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "3f7d20d92ad1ae726018d6b03ef18062303ca103494d428487f4292231faaa9b",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "75cc03a3021580825f8480fa399ba6c3a9240ea90ac30cc311922fdfdbadb3c4",
+      "source_path": "Tier 1/friedel-crafts-type-cyclization-of-2-2-difluorovinyl-ketones-via-α-fluorocarbocations-and-its-application-in-domino.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/75cc03a3021580825f8480fa399ba6c3a9240ea90ac30cc311922fdfdbadb3c4/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "b16351a69b85564c77aaabd4de7badd9f0205c29c74c281a4b3297dd5515c6d0",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "2f8d8084fe9625befc9874540e4f07ac5e6d588c5c88e36c7d7fe970116cedbb",
+      "source_path": "Tier 1/gold-catalyzed-hydrofluorination-of-electron-deficient-alkynes-stereoselective-synthesis-of-β-fluoro-michael-acceptors (1).pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/2f8d8084fe9625befc9874540e4f07ac5e6d588c5c88e36c7d7fe970116cedbb/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "8907cfee607f52a8f51ce4ed1bfd6f30cb0622a48f4053230977155aeac3446e",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "23bb4e307af18c2115ff4b2252f3e594c82727daa54c1571e47240d4d1a507ad",
+      "source_path": "Tier 1/hfip-catalyzed-difluoroalkylation-of-propargylic-alcohols-to-access-tetrasubstituted-difluoroalkyl-allenes.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/23bb4e307af18c2115ff4b2252f3e594c82727daa54c1571e47240d4d1a507ad/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "8516996f8d6f0a3d2fe842f57a31e04930c0663965fccb55840d19fbc9d25758",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "b0d984b589a95343df82fad1796a7d17d63449119e1fd74ca1a3690f5ad5362b",
+      "source_path": "Tier 1/highly-stereoselective-intramolecular-carbofluorination-of-internal-α-β-ynones-promoted-by-selectfluor.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/b0d984b589a95343df82fad1796a7d17d63449119e1fd74ca1a3690f5ad5362b/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "1a0eef4cdfbbd0fa9b42cca997f5854e62fc496f026b8b956ce45b647d104b54",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "01642f492db7f50db8070792380048405f3e35662fbf9babafecde5c2303748d",
+      "source_path": "Tier 1/intramolecular-fluoroacylation-enabled-by-trbf4-catalyzed-fluoride-recycling (1).pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/01642f492db7f50db8070792380048405f3e35662fbf9babafecde5c2303748d/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "e5bd47b96cd8054397c2972207a2b06cf5e3ca2ae9e045578a9b168ba291255e",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "ee59e215b02d8f1b192cb0078f56ddbb60d6a875ff20cc4b47bff14e5c34d57f",
+      "source_path": "Tier 1/iron-catalyzed-photochemical-defluorinative-functionalization-of-polyfluorinated-aromatics.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/ee59e215b02d8f1b192cb0078f56ddbb60d6a875ff20cc4b47bff14e5c34d57f/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "0862c3935a7abbd0d28afcabee586d3a504ba78fd7333ea4192737523a6e70a5",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "601ff7a4b0661ce37286a41f0d6d06d9efa8fa1795a183d767fba909497a41dd",
+      "source_path": "Tier 1/mixed-organofluorine-organosilicon-chemistry-3-a-highly-efficient-and-convenient-synthesis-of-aryl-perfluoroalk-1-enyl.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/601ff7a4b0661ce37286a41f0d6d06d9efa8fa1795a183d767fba909497a41dd/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "2cb0c5d8898d55908b6d93c189f0c8db3fb93f04a8c9415572d2f83dae5bee06",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "5f47df277eb3c0c17e9c231e3f19e97a9031a0f8838b9b592dc71b52433750eb",
+      "source_path": "Tier 1/modular-concise-and-efficient-synthesis-of-highly-functionalized-5-fluoropyridazines-by-a-2-1-3-2-cycloaddition-sequence.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/5f47df277eb3c0c17e9c231e3f19e97a9031a0f8838b9b592dc71b52433750eb/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "0edc6477d86607f9a39c7e7b8f0786ea64425fc14c3f57cb2482b17fe16b9b9c",
+      "contradiction_count": 0,
+      "evidence_item_count": 7,
+      "sha256": "0daf5c7d7e5d8b4afc8861eefe13fcdb3f334b045807bef998ab8146a113f54b",
+      "source_path": "Tier 1/modular-synthesis-of-a-semibuckminsterfullerene.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/0daf5c7d7e5d8b4afc8861eefe13fcdb3f334b045807bef998ab8146a113f54b/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "06c56e078f1ed80ec9683198e8bc39f4c04da21ef990dc89c66568e3bfb901fb",
+      "contradiction_count": 0,
+      "evidence_item_count": 5,
+      "sha256": "254117364b1885bc802e4174284194e6c7793c0f6836507f59edbcef5223cecf",
+      "source_path": "Tier 1/molecules-23-02783.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/254117364b1885bc802e4174284194e6c7793c0f6836507f59edbcef5223cecf/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "906bdc00c9d24a2f5faba181dc9641c50487407e21b071283c30c86e5a2134bf",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "13efb7767c1181e5439a0c9f5b0f26f660ecb342d2fa6d3c900b16990e6125c5",
+      "source_path": "Tier 1/monodefluorinative-halogenation-of-perfluoroalkyl-ketones-via-organophosphorus-mediated-selective-c-f-activation.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/13efb7767c1181e5439a0c9f5b0f26f660ecb342d2fa6d3c900b16990e6125c5/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "fe1c231080e87d77884547156799701c443bf516eb6519309362a75da21ec60e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "907b1222e6b4e91ffb1061d69044d024be861e70b8725c9dcece0801cd1ba223",
+      "source_path": "Tier 1/new-routes-to-hexafluorocyclopentadiene-and-related-compounds.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/907b1222e6b4e91ffb1061d69044d024be861e70b8725c9dcece0801cd1ba223/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "3b05b3fca8028ab2298afeb7a4eb9fa1abe6c3828131dbc8e45ee6018eeeda3c",
+      "contradiction_count": 0,
+      "evidence_item_count": 7,
+      "sha256": "a8f62127ecf1325f4dc2000b83d1b0d55604f295af4a0ce770c88c54d0763fa8",
+      "source_path": "Tier 1/new-syntheses-and-chemistry-of-hexafluorotropone.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/a8f62127ecf1325f4dc2000b83d1b0d55604f295af4a0ce770c88c54d0763fa8/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "49509945cad94c67f0653cc7fa79f6961b4ab7be719e880281e6d8863bedfd5d",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "4ee7d27c373b9660787d18339bf1e68404331faab538626bf927e49d0c1c266d",
+      "source_path": "Tier 1/nickel-catalyzed-carbonylation-of-secondary-trifluoromethylated-difluoromethylated-and-nonfluorinated-aliphatic.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/4ee7d27c373b9660787d18339bf1e68404331faab538626bf927e49d0c1c266d/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "d4e7affbe7e49f1a390330503cc2de289237a162a5fc9e18a4af1c2a1e1d37df",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "321f1ffe9c220a8779f5e0eb16dba2558c808031e1a2afd20a0c1f9781ffb3a8",
+      "source_path": "Tier 1/oxidation-of-phenolic-acid-surrogates-and-target-analytes-during-acid-extraction-of-natural-water-samples-for-analysis.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/321f1ffe9c220a8779f5e0eb16dba2558c808031e1a2afd20a0c1f9781ffb3a8/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "961876efd979b48f026e6730679df796389f607a6b309544742babf1e9a7bd32",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "38475edd36f8b9019a893baf151f37fb5eb78b618e491fb8214d1fd2a17826f4",
+      "source_path": "Tier 1/palladium-catalyzed-domino-heck-intermolecular-c-h-bond-functionalization-efficient-synthesis-of-alkylated.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/38475edd36f8b9019a893baf151f37fb5eb78b618e491fb8214d1fd2a17826f4/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "29ebfc60cf36276f4ee3062e2de40cb0cf3aa22e7bfb605ab118b0c8b69b93dc",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "6c43b9fc5cf2885aaaee7320a17119654b98f57d1281877df96021d4c4c0d037",
+      "source_path": "Tier 1/palladium-catalyzed-meta-selective-c-h-functionalization-by-noncovalent-h-bonding-interaction.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/6c43b9fc5cf2885aaaee7320a17119654b98f57d1281877df96021d4c4c0d037/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "c04da9202be6569b1c043e60d0afa7365c3f6d1c89b19999b0707befc10ce7b8",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "82ac3c8438e0b80210a2be3c1dfd84423f67b5c82f3a47aa60de99d6d3434c03",
+      "source_path": "Tier 1/palladium-mediated-carbonylative-suzuki-coupling-for-dna-encoded-library-synthesis.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/82ac3c8438e0b80210a2be3c1dfd84423f67b5c82f3a47aa60de99d6d3434c03/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "ca788ef6cc562e049b46b55e9aa97ecf147e46c361069848c74559cb863129fe",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "364a5a5a4b0025ef6938de598bc6f8db19022eaa8fc0c9ab3278bfa9cad46843",
+      "source_path": "Tier 1/photocatalytic-alkyl-radical-addition-tandem-oxidation-of-alkenyl-borates.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/364a5a5a4b0025ef6938de598bc6f8db19022eaa8fc0c9ab3278bfa9cad46843/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "ad70fc02e1c0ea0ead6354563a203e94a30fe0d28249e3abca8f0059bf706307",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "733a583f99bdb6ef35b6b334f7d9124e3b361898ee9224eff8a6e400107495d2",
+      "source_path": "Tier 1/polymerization-catalysts-with-cyclopentadienyl-ligands-ring-fused-to-pyrrole-and-thiophene-heterocycles.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/733a583f99bdb6ef35b6b334f7d9124e3b361898ee9224eff8a6e400107495d2/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "64bf49fb603f524f496d74fe881fe119a10f109b536bb0f592638e4b548fa71c",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "d56470240105a2668f0c75a8dec168acb737ea54ce44bc5bdd72cf15a159dbbb",
+      "source_path": "Tier 1/preparation-and-addition-elimination-reactions-of-benzyl-α-β-β-trifluoroacrylate-a-new-stereoselective-approach-to-(z).pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/d56470240105a2668f0c75a8dec168acb737ea54ce44bc5bdd72cf15a159dbbb/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "f2f41182f8dac61de8580b598acc80899ecd7e9fe8151e6d7ace3579c5122e83",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "3daa9a3341f29d4b12e11f7eb8583d17d58fefca27b53b982bc4549a2ffd0c7d",
+      "source_path": "Tier 1/preparation-of-18f-alkenyl-fluorides-using-no-carrier-added-18f-agf-via-silver-mediated-direct-radiofluorination-of.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/3daa9a3341f29d4b12e11f7eb8583d17d58fefca27b53b982bc4549a2ffd0c7d/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "7637c9765c7669c001ce418bf21c69da37d7cf69f1765529d248ed7a2bdc80e7",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "1280f53916cbd5aa254df83fe6751c1125e3aa96a82d18ac06b25901d1670445",
+      "source_path": "Tier 1/preparation-of-5-fluoropyrazoles-from-pyrazoles-and-n-fluorobenzenesulfonimide-(nfsi).pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/1280f53916cbd5aa254df83fe6751c1125e3aa96a82d18ac06b25901d1670445/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "7cef68d9956461140672c499ee7bdb66740626b1c40efef2c5e9cd61933fafa1",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "c9eb6975f23891766aecc0c6cce1c0aaa7afb5f063d2d490796ed67a45425e80",
+      "source_path": "Tier 1/pyridinium-masked-enol-as-a-precursor-for-constructing-alpha-fluoromethyl-ketones.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/c9eb6975f23891766aecc0c6cce1c0aaa7afb5f063d2d490796ed67a45425e80/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "0a434f8997d351353c6bce6954c9a1d4a0c419499533247d0f05a766a24538e4",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "b01c398fdbddc8b5aa52b7ed1b08c4de7dd1b9b4aa2471919baa66783cc7e684",
+      "source_path": "Tier 1/quantification-of-the-ambident-electrophilicities-of-halogen-substituted-quinones.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/b01c398fdbddc8b5aa52b7ed1b08c4de7dd1b9b4aa2471919baa66783cc7e684/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "1fa794cf03013e10a20c395fc53bf6a59aee9afa5c7092385c72e30db8d337bb",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "75362071ba0f1bb94d94dec119b4b93ea078147bef9bff3fb57660e465cbf81f",
+      "source_path": "Tier 1/rhodium-catalyzed-c(sp2)-o-cross-couplings-of-diazo-quinones-with-phenols-to-construct-diaryl-ethers.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/75362071ba0f1bb94d94dec119b4b93ea078147bef9bff3fb57660e465cbf81f/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "60bd161bba296ac8712bc921dacefe2da795d5a9a99bd9d31c3dea2e27e2b384",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "6f6215c1a3f6fffa00c06ef7d8ed0333654358f10ba8cfa742e83c4a7fb441ef",
+      "source_path": "Tier 1/ring-opening-of-diketene-in-superacidic-media.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/6f6215c1a3f6fffa00c06ef7d8ed0333654358f10ba8cfa742e83c4a7fb441ef/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "01bd2bc7911de993aa2a20c729136aa3f47e117673fda641f5b907ec17e5d45a",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "25a6fd50612b331ed2b2faecfaebbfb7850e2e7b91b8f9414a2ce26badb5f845",
+      "source_path": "Tier 1/room-temperature-direct-arylation-of-polyfluorinated-arenes-under-biphasic-conditions.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/25a6fd50612b331ed2b2faecfaebbfb7850e2e7b91b8f9414a2ce26badb5f845/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "3503ba1cf6544624cde4b7304ba8c9e04c956efbbd7923ee79bf0c34fafa24f6",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "250a2ea5ea756f82f0345f49753b5bb1fad906a726d5e255c26514d33c654741",
+      "source_path": "Tier 1/s11172-010-0134-z.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/250a2ea5ea756f82f0345f49753b5bb1fad906a726d5e255c26514d33c654741/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "9f8ba05fab978ed5aaf1acaa9ed1cd11b94986f36b8fccac82b01df0fb3d4d12",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "8149c83dccb9b25259eaebd0a8284309fce5ae0d4b752de0be44c17c58ebd3b3",
+      "source_path": "Tier 1/selective-metalation-and-functionalization-of-fluorinated-nitriles-using-2-2-6-6-tetramethylpiperidyl-bases.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/8149c83dccb9b25259eaebd0a8284309fce5ae0d4b752de0be44c17c58ebd3b3/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "c75a857b7aafd35a21b06a5f40b948540bc9273fe8bb8a139a8decde01c2b904",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "d8e840d6caf4f921bd84bef3dbf467696586c2f649e4beed70d0b9230f30791e",
+      "source_path": "Tier 1/selective-n7-alkylation-of-7-azaindazoles.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/d8e840d6caf4f921bd84bef3dbf467696586c2f649e4beed70d0b9230f30791e/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "c36b5accf48d5ec2011c5d9a470a3dc71f7a040b319b7f76272cb98f76a0a44e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "41a4648e02e6ffcaa287e9c7a7b9a350fa94a32800ecafef54e2164a0037baf6",
+      "source_path": "Tier 1/selectively-tunable-synthesis-of-α-trifluoromethyl-ketones.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/41a4648e02e6ffcaa287e9c7a7b9a350fa94a32800ecafef54e2164a0037baf6/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "41b5fd9857ca2335969cc527c49b107d5b93997d99210c2e225652c3eb16a0fc",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "0e765bcf2e1c01664a2cfb83a3d2f8586a3ceca7f3e9cf20fd8c668cdc837579",
+      "source_path": "Tier 1/stability-of-pyridiniumylquinones-to-aqueous-media-the-formation-of-pyridinium-oxy-zwitterionic-quinones.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/0e765bcf2e1c01664a2cfb83a3d2f8586a3ceca7f3e9cf20fd8c668cdc837579/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "de1f67ec01c945674145d71a44136fd63b744e775a8e9f938ca51ebed2448bb0",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "ef5a2ae6b33c93b05a39929ae9fd3bc097bc73ae05a2580f81b866a1a42a2599",
+      "source_path": "Tier 1/synthesis-and-characterization-of-a-diazirine-based-photolabel-of-the-nonanesthetic-fropofol.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/ef5a2ae6b33c93b05a39929ae9fd3bc097bc73ae05a2580f81b866a1a42a2599/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "eb2a530fcdb2334bdecbb4d90b081d2b9fda1542f24d4e87eda59e4006292465",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "a78d1c707d39f794190bdd0148c4c59f2cafb3e822e88231d3f08d4b8ccaa57f",
+      "source_path": "Tier 1/synthesis-of-difluoroalkylated-heteroarenes-via-difluorocarbene.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/a78d1c707d39f794190bdd0148c4c59f2cafb3e822e88231d3f08d4b8ccaa57f/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "8416087f821e0abc16ad19858887d83331187470226b5d24ebd3629a18344cce",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e9fb662c3638a695cb2d5a24690ed5a9b1775927d36d0629c90dfca3ad7f0055",
+      "source_path": "Tier 1/synthesis-of-β-fluoro-α-β-unsaturated-amides-from-the-fragmentation-of-morpholine-3-3-3-trifluoropropanamide-by.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/e9fb662c3638a695cb2d5a24690ed5a9b1775927d36d0629c90dfca3ad7f0055/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "6c8d872a7fc3a86e4a193ffd57ef18c05404be54d6a9cfd6cdd4764ae8a8710f",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "43bf72f3279c65b007a2835961ef7323e9ea40754b4d462c064310b084fa811f",
+      "source_path": "Tier 1/three-component-bisannulation-for-the-synthesis-of-trifluoromethylated-tetracyclic-aza-aromatics-through-six-c(sp3)-f.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/43bf72f3279c65b007a2835961ef7323e9ea40754b4d462c064310b084fa811f/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "74b6536ba9ac59ede5c0c2fcb57c83eb0be98d9b70e2eb914450132729485923",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "c9fcd31bc92473720f45710c8a7bc62e398ae5f4e8f536e3edaf0bf6984cbab0",
+      "source_path": "Tier 1/total-syntheses-of-perenniporides.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/c9fcd31bc92473720f45710c8a7bc62e398ae5f4e8f536e3edaf0bf6984cbab0/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "502c9741ffdf9c43c38342571ec2a091ef677f27b6933e601b978db957cc2555",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "276a9af638dd71a12a7bcdc2745cd9ddf9a9c09af5013dc69b16cbc1e4e9a21d",
+      "source_path": "Tier 1/unlocking-difluorocarbene-as-a-fluorocarbanion-and-a-fluorocarbon-radical-precursor-for-sequential-catalytic-coupling.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/276a9af638dd71a12a7bcdc2745cd9ddf9a9c09af5013dc69b16cbc1e4e9a21d/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "2fde1a23153d4e4307191d7f848a2cae48d47f9475da0999d7c672ddecfeacac",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "336e9b4b1f9de9ce06f746b8d7e4f048565407eeb3758d8e7729e50f3c679748",
+      "source_path": "Tier 1/visible-light-driven-α-diazoketones-as-denitrogenated-synthons-synthesis-of-fluorinated-n-heterocycles-via.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/336e9b4b1f9de9ce06f746b8d7e4f048565407eeb3758d8e7729e50f3c679748/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "50855ca9f682439b4084b5f375c3d373ef0bd089052e0fe240b0555c457350c3",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "1a0668c964b67ec07556de1f76f202d2efb4e2fd9d88e98eca38f7c2b89e0405",
+      "source_path": "Tier 1/visible-light-initiated-sequential-trifluoromethylation-remote-c(sp3)-h-alkynylation-of-vinyl-azides-by-radical-relay.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/1a0668c964b67ec07556de1f76f202d2efb4e2fd9d88e98eca38f7c2b89e0405/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "036cf295f092b2df275894cf654ca7790fefcea8227ac3fafea2e42a25dc948c",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "d0d786c9c47bf12bf779fee3fd09a44f0595b493a442e76f7a899889ea5a3fcc",
+      "source_path": "Tier 1/xanthone-natural-products-via-n-heterocyclic-carbene-catalysis-total-synthesis-of-atroviridin.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/d0d786c9c47bf12bf779fee3fd09a44f0595b493a442e76f7a899889ea5a3fcc/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "d5569b543c952337b1f2dc9ef5f21bcedcf8d86d1f3b51efbc0001894ba52adc",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "44888d67cb871ab39e06d24f3e097ae08e5c47276af56bdb5c10b8cdfe7e4a2e",
+      "source_path": "Tier 1/β-perfluoroalkyl-peroxides-as-fluorinated-c3-building-blocks-for-the-construction-of-benzo-4-5-imidazo-1-2-a-pyridines.pdf",
+      "tier": "tier_1",
+      "validated_path": "derived/full_corpus/papers/44888d67cb871ab39e06d24f3e097ae08e5c47276af56bdb5c10b8cdfe7e4a2e/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "9ffd42a1c70b0355e219b26a66211a823545c378a6eaa8fdc4c613872b305d10",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "73f13bfec0e1d7127ed7f45a52f8eb14508cb2d155318cc71f2e4ef8c2b1eaf8",
+      "source_path": "Tier 2/4‚ÄêDimethylaminopyridine‚ÄêBoryl Radical Promoted Monodefluorinative Alkylation of 3, 3‚ÄêDifluorooxindoles.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/73f13bfec0e1d7127ed7f45a52f8eb14508cb2d155318cc71f2e4ef8c2b1eaf8/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "b1a40648cd0af01649ffc3f59df1ac71ff2eb6d90b7082b30b3a5a3b174bbe74",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "c27d62666156b057b1b7acc8db88a44b2a28214baff187c48f62d3e738e31e94",
+      "source_path": "Tier 2/A General Co-Catalytic Hydrothiolation of gem-Difluoroalkenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/c27d62666156b057b1b7acc8db88a44b2a28214baff187c48f62d3e738e31e94/validated.json",
+      "visual_review_page_count": 7
+    },
+    {
+      "cache_key": "1934d73a5c2522af9bfad64876154f0203cfa1ec0c5a2fcf673fcbe415656e40",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "1df7756afd252a168341a5184dffb8a4f8337f4512fa4023b3d9c1726b03635b",
+      "source_path": "Tier 2/Atom Recombination of Difluorocarbene Enables 3-Fluorinated Oxindoles from 2-Aminoarylketones.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/1df7756afd252a168341a5184dffb8a4f8337f4512fa4023b3d9c1726b03635b/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "3b3b71338945d21dc91a20daf66c758faeea427aa4d5360d43ef81f6944b98c8",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "cb8e918863579622cb4c8d2e17b69f0a98f5179272de04a5658e18043a523563",
+      "source_path": "Tier 2/Bird‚Äôs-Eye View Current Understanding and Future Perspectives on the Biodefluorination of Per- and Polyfluoroalkyl Substances (PFAS).pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/cb8e918863579622cb4c8d2e17b69f0a98f5179272de04a5658e18043a523563/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "e087d287f7d7c1571a73d4d56b8802bf0c4f65647aeb57db5bf5f33209ce65fa",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "95c53ff3de6eaa0224e4cf15453e08906d1ef4fd385d516081268ab3d6ca2bd3",
+      "source_path": "Tier 2/Carbodefluorination via a carbene-initiated rearrangement strategy.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/95c53ff3de6eaa0224e4cf15453e08906d1ef4fd385d516081268ab3d6ca2bd3/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "3aaf942bf4518dcccaba3dd9879121025ad40318057f673f7225625b1883cfa2",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "d0994efe51f66f2092fa00fff1a951ca8444b8480b549f55c538d16e72f32825",
+      "source_path": "Tier 2/Carbofluorination of Alkenes with gem-Difluorinated Cyclopropanes as Bifunctional Reagents Enabled by Well-Define Rhodium Catalysts.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/d0994efe51f66f2092fa00fff1a951ca8444b8480b549f55c538d16e72f32825/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "d639c67f743a7648190932a5642788e7d15c822f787197325c8689afa7890bfa",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "8ee0919568597adcdd08eda60ef9922613887c8d1ebf7d10b7d36a7cb71c39a1",
+      "source_path": "Tier 2/Carbon‚Äìfluorine bond activation for the synthesis of functionalized molecules.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/8ee0919568597adcdd08eda60ef9922613887c8d1ebf7d10b7d36a7cb71c39a1/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "56c77fe412ffae29f4d0f7c729ac8b564e47cf246b9737722c4e4d20c88ffbdc",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "74cfdb0fcf993d948ef0b70ca0873c24d5e107cb7e5aac1087205e2e06927f38",
+      "source_path": "Tier 2/Catalytic Asymmetric Defluorinative Allylation of Silyl Enol Ethers.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/74cfdb0fcf993d948ef0b70ca0873c24d5e107cb7e5aac1087205e2e06927f38/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "29d6a5f649594f0a148128ddebb98ead0e5aa1b4d298055dcdd608ad3d41f155",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "0b684f412322d63f1fa3a3947f31f165a0e890652d09833fc439afceb735f5c0",
+      "source_path": "Tier 2/Competition of Nucleophilic Aromatic Substitution, Bond Metathesis, and syn Hydrometalation in Titanium(III)‚ÄêCatalyzed Hydrodefluorination of Arenes  .pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/0b684f412322d63f1fa3a3947f31f165a0e890652d09833fc439afceb735f5c0/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "09b855094a2f1eb5012b8b71dcdda205aceace653d3aa95ed53917444d77b910",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "82cc63411f9e503f298bd9e36934926efe0f28c38626d4eb9a6589ae6e45c45f",
+      "source_path": "Tier 2/Defluorinative Alkylboration of Alkenes Enabled by Dual Photoredox and Copper Catalysis.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/82cc63411f9e503f298bd9e36934926efe0f28c38626d4eb9a6589ae6e45c45f/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "4c9622a7f45b774cf3a75bf89e6809b0cab10ca2c02c022764ba1589a574bcf5",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "4218adcbf8a9a08c1316f410739609894580e2e178e6091137ac89a31f80b55a",
+      "source_path": "Tier 2/Defluorinative Carboimination of Trifluoromethyl Ketones.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/4218adcbf8a9a08c1316f410739609894580e2e178e6091137ac89a31f80b55a/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "e999ea377c43acd5d4e966981fe05bb58bb9d495fca549afbdf648231a7b70da",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "02d7031af18ed606cf44433b97e4e7252712f2152ae823f50e13c50c3dd2cb1c",
+      "source_path": "Tier 2/Defluorinative Coupling of (NH)-Heteroarenes and Unactivated Vinyl Fluorides Enabled by Metal‚ÄìOrganic Frameworks.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/02d7031af18ed606cf44433b97e4e7252712f2152ae823f50e13c50c3dd2cb1c/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "58562a7fbd13bbdbd3a0a9f27e5b62236ddb0d98a2b3bbe9896321df4934caff",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "4751b2ccfb0f63c8050a9f644566020c6c49a84c0825fab9849b2071ed8f7a7d",
+      "source_path": "Tier 2/Defluorinative thio-functionalization direct synthesis of methyl-dithioesters from trifluoromethylarenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/4751b2ccfb0f63c8050a9f644566020c6c49a84c0825fab9849b2071ed8f7a7d/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "079eef0f7cccce1e9953c6fcc28663262ed12025a1ff03168e8c9de03926214a",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "65aba373ac0b1f95ae2737894b6400e1e0fc31a207b94d86a650b6214a7a07f6",
+      "source_path": "Tier 2/Development of Copper(I)-Catalyzed Synthesis of Functionalized Organofluorine and Organoboron Compounds.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/65aba373ac0b1f95ae2737894b6400e1e0fc31a207b94d86a650b6214a7a07f6/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "3f3f98f053e4ffcb19b5f27a65c746a8fb9c89794efc394141405e69513d459e",
+      "contradiction_count": 0,
+      "evidence_item_count": 12,
+      "sha256": "bf5cfc3b61e835302c5998eb0efb7a6134db5c73fc5919ba533a7e05bb53a81e",
+      "source_path": "Tier 2/Difluoroenol Phosphinates as Versatile Difluoroenolate Surrogates Synthesis and Applications in Defluorination and Deoxygenative Coupling.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/bf5cfc3b61e835302c5998eb0efb7a6134db5c73fc5919ba533a7e05bb53a81e/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "39100f0a9f53e0986fa806f3c6792607859176381521a45cff1e78b9a7caae77",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "dc2451809a5c7ff9858b1178f220da927cb2b901ea2b4cae2cab9cb4e153ccdf",
+      "source_path": "Tier 2/Enabling Access to 3‚Äêgem‚ÄêDifluorovinyl Lactams via Zn‚ÄêMediated Sequential Single Electron Reductive Hydrodehalogenationl.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/dc2451809a5c7ff9858b1178f220da927cb2b901ea2b4cae2cab9cb4e153ccdf/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "65e5e0ed603bb739a4fabfb5c2fe35ffdb68d6080fcdc19b369bf6e0c89cd267",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "74b93097f3170d9489597f87649a394ca18ac91a0e13888952da2c9f5aa022d2",
+      "source_path": "Tier 2/Enantioselective Construction of Fluorinated Tertiary Stereocenters by Rh-Catalyzed [2 + 2 + 2] Cycloaddition of 1,6-Enynes with Œ±-Fluoroacrylamides.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/74b93097f3170d9489597f87649a394ca18ac91a0e13888952da2c9f5aa022d2/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "01624d0fc26bcda6d51c2ebbb7498bbf367ae572ea2f5893a77feb7397a66c7b",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e5f3c3a52804dd32fb3ccaa82b953e6e6a6a61fb22b867b486def0b063b1403e",
+      "source_path": "Tier 2/Enantio‚Äê and Diastereoselective Rh(I)‚ÄêCatalyzed Defluorinative Arylation of Pentafluoroethyl Alkenes to Access Fluoroalkenes Featuring a Unique F‚Äê and CF 3 ‚ÄêSubstituted sp 2 ‚ÄêCarbon ‚Ä†.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/e5f3c3a52804dd32fb3ccaa82b953e6e6a6a61fb22b867b486def0b063b1403e/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "cbcb4e203fd2ace8181a20e1647eec0f70f65d5a22e4665e98647bd9b5c5da83",
+      "contradiction_count": 0,
+      "evidence_item_count": 7,
+      "sha256": "36147f4d1c5e66f9f210f47febecc97322df11eeccd23c0e9361b8189b0a1b97",
+      "source_path": "Tier 2/Exploring the mechanisms of nickel rhodium-catalyzed cross-coupling and rhodium-catalyzed olefin hydroboration reactions, and rhenium tantalum metalacyclic complex formation  a theoretical study.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/36147f4d1c5e66f9f210f47febecc97322df11eeccd23c0e9361b8189b0a1b97/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "48964566cb4c8cb65313bcebd003b768b666e0feffd21ef25413376c67634c3e",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "3d63ae8783829752b87b4f537d147f6c71ae4fa8f9428f9491f9af1d78a0d2ce",
+      "source_path": "Tier 2/Fluorine-effects-for-tunable-c-c-and-c-s-bond-cleavage-in-fluoro-julia-kocienski-intermediates.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/3d63ae8783829752b87b4f537d147f6c71ae4fa8f9428f9491f9af1d78a0d2ce/validated.json",
+      "visual_review_page_count": 8
+    },
+    {
+      "cache_key": "f1a2a8114fda6dd941caf790c562c1ed5810035f7d663749768641d901a6752a",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "5b4effb05db9fa989137854e773f2059b9282ecf810679226d57b791badb5378",
+      "source_path": "Tier 2/Fluoroalkylations and Fluoroalkenylations with Iodonium Salts.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/5b4effb05db9fa989137854e773f2059b9282ecf810679226d57b791badb5378/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "d803911c18d9ad695e4825e384b63651c942e686cdbeba7c69acf9fef31ef634",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "156e7cc27e59113568f1d55285bee99a465a937c3ab4e054355282a67fda0999",
+      "source_path": "Tier 2/Frustrated Lewis pair catalyzed C‚ÄìF activation of Œ±-trifluoromethylstyrenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/156e7cc27e59113568f1d55285bee99a465a937c3ab4e054355282a67fda0999/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "935bfa2d0f0288bef06bf47aa9f7e62b2e4529628bcda892ea910fac4408042a",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "8635b71801a56e358663e7c7aa5f23fa955c29e0ebfb0105915ada8f6f5d404f",
+      "source_path": "Tier 2/Gao 等 - 2018 - Copper-Catalyzed Asymmetric Defluoroborylation of 1-(Trifluoromethyl)Alkenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/8635b71801a56e358663e7c7aa5f23fa955c29e0ebfb0105915ada8f6f5d404f/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "66a7353c3f34b19b86364dda88e960844c2124884821789e3fa0771e3395724f",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "68aeedae8976d50289c3680c0d7701f8c463325b6ab54f1de7089f016f3f3a08",
+      "source_path": "Tier 2/HP(O)Ph 2 -Mediated Hydrodefluorination of Polyfluoro(hetero)arenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/68aeedae8976d50289c3680c0d7701f8c463325b6ab54f1de7089f016f3f3a08/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "75e9cc58c86024d658c051b1b551d2df1fb7579558b7657f87142287ca83877f",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "16f43aaf73870caa3b88fd277de0d496737358662878bcd029f3c45f3ad36ad7",
+      "source_path": "Tier 2/Huang和Hayashi - 2016 - Rhodium-catalyzed asymmetric arylationdefluorination of 1-(trifluoromethyl)alkenes forming enantioe.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/16f43aaf73870caa3b88fd277de0d496737358662878bcd029f3c45f3ad36ad7/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "fdf2e7d80b96a3e28466cd3df836c0bfdd362f99c0f098e6be99c238ccf0da1f",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "88f5d5d5a0636156767053a28d8411c1737437c7827a5cd21219581ee9d915c2",
+      "source_path": "Tier 2/Intelli 等 - 2023 - Peroxide-initiated hydrophosphinylation of gem -difluoroalkenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/88f5d5d5a0636156767053a28d8411c1737437c7827a5cd21219581ee9d915c2/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "9e783e59689d52f0673545f9f320888f0bb983fa9b3af9cb53303afc015b108b",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "fe048b47da80fd7f3f39aa507c0aee8d3f4249a0b1fb2d94157c2e8e25def248",
+      "source_path": "Tier 2/Jeong 等 - 1998 - Efficient one step procedure for the synthesis of α-trifluoromethylated arylacetates.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/fe048b47da80fd7f3f39aa507c0aee8d3f4249a0b1fb2d94157c2e8e25def248/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "e46cc11354fbb91e644f26f7c96a9e6d296d9b68a3b49e3bcf40fed259578d9f",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "cce605f0633e9425a5926878f559908d1431826176edb6b4446bfb10d164182d",
+      "source_path": "Tier 2/Kojima 等 - 2018 - A copper(I)-catalyzed enantioselective γ-boryl substitution of trifluoromethyl-substituted alkenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/cce605f0633e9425a5926878f559908d1431826176edb6b4446bfb10d164182d/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "9b76bc599c04a2559ad537835646eee49b03cbb2a44873781f85eae2183256b6",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "ff23d0d9b62b83a82652f86a831b493619bd249b110ea7b8c3c1c5b549610f2b",
+      "source_path": "Tier 2/Li 等 - 2021 - Highly E -selective synthesis of α-fluoro-β-arylalkenyl sulfones from gem -difluoroalk.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/ff23d0d9b62b83a82652f86a831b493619bd249b110ea7b8c3c1c5b549610f2b/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "acffa42ae60100b8db0ddef9b979b33a35afc3115bb52494b442c334eee57d3e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e6b8cbd92ae6d83bf80f9c655cb1039dcf8f238470db5e752faffbd380c8c5d1",
+      "source_path": "Tier 2/Li 等 - 2023 - Fluoroolefins-mediated deoxygenative substitution of alcohols chemo- and enantiospecific constructi.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/e6b8cbd92ae6d83bf80f9c655cb1039dcf8f238470db5e752faffbd380c8c5d1/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "d1ea03d491c65bb433374ca57d435b3a86c1a6aa5892d8c341c3ca3471776213",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "216b889ba738103736911f48298c8d5accbdefcac86df01b8ae3cbcdc9c5944a",
+      "source_path": "Tier 2/Magnesium‚ÄêMediated Reductive Defluorinative Cross‚ÄêElectrophile Coupling of Œ±‚ÄêTrifluoromethyl Styrenes with CO2 and Acyl Imidazoles.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/216b889ba738103736911f48298c8d5accbdefcac86df01b8ae3cbcdc9c5944a/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "0cf382c3e82574634b6319b12880292ec5237d60017e8919da9a563821f303bd",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "b798d92d25f3552ce89826542d61a093e75ed96fb8fcaa816af3f85bf7cfb9de",
+      "source_path": "Tier 2/Making and Breaking C‚ÄíF Bonds via Palladium-Catalysis.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/b798d92d25f3552ce89826542d61a093e75ed96fb8fcaa816af3f85bf7cfb9de/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "060fbfe1efa7f9b429f666a37952446917ee297a0a8aecd5a432c1f529dd6e00",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e6ceff7d8e15da24f81fa88df9ece8e46e7df7eff9005c577bd606e79c4e3f5f",
+      "source_path": "Tier 2/Mechanochemical Defluorinative Acylation of ortho‚ÄêHydroxyarylenaminones by CF3‚ÄêCompounds Synthesis of 3‚ÄêAcylchromones.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/e6ceff7d8e15da24f81fa88df9ece8e46e7df7eff9005c577bd606e79c4e3f5f/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "5e39fb1469b36967f579c0db0380bd90910683bbcca9ba7c95c10c4772fb369b",
+      "contradiction_count": 0,
+      "evidence_item_count": 29,
+      "sha256": "00bcf1b7b9091eda29730a0805db0e1c98e08f05e1f4c18db94d092e8233d8cb",
+      "source_path": "Tier 2/Metal hydride induced hydrodefluorination of fluorinated alkenes and allenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/00bcf1b7b9091eda29730a0805db0e1c98e08f05e1f4c18db94d092e8233d8cb/validated.json",
+      "visual_review_page_count": 11
+    },
+    {
+      "cache_key": "c3bc2618fbe874699695cdcac40382961fe348a7e977240eeb7b344138013ae0",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "abd94fc227ba61b9fa684f2de9b110ae2a4665e20de4a1362ab23ab5271e68cc",
+      "source_path": "Tier 2/Metal-free Photoinduced Defluorinative Carboxylation of Trifluoromethylalkenes with Formate.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/abd94fc227ba61b9fa684f2de9b110ae2a4665e20de4a1362ab23ab5271e68cc/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "6d7b5cd224069ae658b846e32109a183b622e759fcb285f47cb9f21431a5535a",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "789113a77b63b25d6798e238c565e4ef0c33b27798568aa3c00a017479e41e85",
+      "source_path": "Tier 2/Metallomimetic C-F activation catalysis by simple phosphines.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/789113a77b63b25d6798e238c565e4ef0c33b27798568aa3c00a017479e41e85/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "f7c0dc2d6ef9388bcd9a982ff302c252b9bc3710c73d20bf83a19ac66aab08e9",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "a72b6e8cf7c9836049ddbc2f0095ad5c0b0dae69f660d6181b6b33e5adde458c",
+      "source_path": "Tier 2/Morpholine mediated defluorinative c .pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/a72b6e8cf7c9836049ddbc2f0095ad5c0b0dae69f660d6181b6b33e5adde458c/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "1835f8c8dfd7c2f61ea3e0708c9cefadd070e2d201017fe0e846910fd1a2fa16",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "09fddca836e8afd2c616e028d749354ebb8803f02260416384296dbf63089451",
+      "source_path": "Tier 2/Ni-Catalyzed Distal-Selective gem-Difluorovinylation of Unactivated Alkenes with 2,2-Difluorovinyl Benzoates.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/09fddca836e8afd2c616e028d749354ebb8803f02260416384296dbf63089451/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "4b34216c0ad2864461b4fc652207f597a30d1dc4dc8fbc96bc0f8de39a71172c",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "9a883b6f3c70d98efb923c151231b73c28c9c5fff6ebde6d45ae7e47df7037a4",
+      "source_path": "Tier 2/Nickel-Catalyzed Defluorinative Coupling of Aliphatic Aldehydes with Trifluoromethyl Styrenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/9a883b6f3c70d98efb923c151231b73c28c9c5fff6ebde6d45ae7e47df7037a4/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "025a83fa67cb4802c9ceb3badc586d9da48351a17678f1e528657c73086e0244",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "397a780f7759e37942229bb8079f1b5e659fda9cbbc58354c263460a71754a36",
+      "source_path": "Tier 2/Nickel-Catalyzed Enantio- and Diastereoselective Synthesis of Fluorine-Containing Vicinal Stereogenic Centers.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/397a780f7759e37942229bb8079f1b5e659fda9cbbc58354c263460a71754a36/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "d9fd6a19555d571f6f82528664bb445ff3b169e2e7eb78bc7512dfa860610fe8",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "4a8950a072e845ed40747757f4aa908b4cb684380ba52e5e43c2d11911edb999",
+      "source_path": "Tier 2/Nickel-catalyzed exhaustive hydrodefluorination of perfluoroalkyl arenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/4a8950a072e845ed40747757f4aa908b4cb684380ba52e5e43c2d11911edb999/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "63f70c98d62dafd1da87082f8e44c405cedae3e1f7253fc9001eb3804930423e",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "07fc23ca3728cea55618f590feae43cf95c5085b0ed8f1b5aeb41e4493218d1a",
+      "source_path": "Tier 2/Nickel‚ÄêCatalyzed Regio‚Äê and Stereoselective Defluorinative Arylation of gem‚ÄêDifluorinated Cyclopropanes.PDF",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/07fc23ca3728cea55618f590feae43cf95c5085b0ed8f1b5aeb41e4493218d1a/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "c3d2c4977dbb81bd8329d785a681e65a1a010fc1d5ea6db8aea3d952d1a86e59",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "d492004b2ef518ac6ec5bc097f052a03e1aa094c310429056cf456d6525b70eb",
+      "source_path": "Tier 2/Nickel‚ÄêCatalyzed Selective C(sp2)‚àíF Bond Alkylation of Industrially Relevant Hydrofluoroolefin HFO‚Äê1234yf.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/d492004b2ef518ac6ec5bc097f052a03e1aa094c310429056cf456d6525b70eb/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "51cb4a3cd2b58ce8ba1f3c6e3bdf9441c1d4cee21d147e36d393974d393240a2",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "159771aa40e98bd26b6ceef1bec758bfc6ed53348146250aa7332076e93e6410",
+      "source_path": "Tier 2/Organo-Photoredox Catalyzed gem-Difluoroallylation of Ketones via C(sp3)-C Bond and C(sp3)-F bond Cleavage.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/159771aa40e98bd26b6ceef1bec758bfc6ed53348146250aa7332076e93e6410/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "8d598ad15ef4720abf9a6f491b886b131c3f6c16a99b9e955ff837fb2f2f5547",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "cadecf91ee5e4feffdc907ad2e2b66b36bf10fde2b1c1094bf23e54ceed9bd7c",
+      "source_path": "Tier 2/Palladium-Catalyzed Allylic C‚ÄìF Bond Functionalization of Pentafluoroethyl Alkenes with Heteroatom Nucleophiles.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/cadecf91ee5e4feffdc907ad2e2b66b36bf10fde2b1c1094bf23e54ceed9bd7c/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "8073335bfb42fb47da7ee7f3e44d99148ed59757c14f5f2fb2e78a29659e8a8a",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "bb4de38ad44aa709c3568165af1ef39ea5513dbf6a3af4e469ac09212e3b1c50",
+      "source_path": "Tier 2/Palladium‚ÄêCatalyzed Defluorinative Alkylation of gem ‚ÄêDifluorocyclopropanes Switching Regioselectivity via Simple Hydrazones.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/bb4de38ad44aa709c3568165af1ef39ea5513dbf6a3af4e469ac09212e3b1c50/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "0ada89f0939c4a243da7bc0cb9a4f45dae8c2d48fcc630aa389415bba9b7c79d",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "c4602bb954aa10b6cf56edb65b163e741cff40fbade3a088fc653e046a991199",
+      "source_path": "Tier 2/Pan 等 - 2020 - Highly enantioselective synthesis of monofluoroalkenes by rhodium-catalyzed asymmetric arylationdef.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/c4602bb954aa10b6cf56edb65b163e741cff40fbade3a088fc653e046a991199/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "4684e30c1871d44515b8da8a0f0c1a3fa86097b088cc472c27dcb19fbc01f0e5",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "af5d9dce9e605b7f04305a27d401ce9123926eec3f2907771ff91315c7ce5ea2",
+      "source_path": "Tier 2/Pan 等 - 2025 - Photocatalytic dual-defluorination thiolation of trifluoromethyl hydrazones.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/af5d9dce9e605b7f04305a27d401ce9123926eec3f2907771ff91315c7ce5ea2/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "546b088d2b41cda460210b85b3e92818b319bd0da7c447200e2898805609009f",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "d2eb3a44b0a7511de06f94fd15965ea9b4c1ac4c3806e8c7d8f3e38c4fec65cf",
+      "source_path": "Tier 2/Pd-Catalyzed Mizoroki-Heck Reactions Using Fluorine-Containing Agents as the Cross-Coupling Partners.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/d2eb3a44b0a7511de06f94fd15965ea9b4c1ac4c3806e8c7d8f3e38c4fec65cf/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "a82540c0f0a0c0e48cd6011b1c40f8e0b9c6bc8269f9818ee7bd7d9fc139e610",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "2077fca0dda6a8db808ee9baaaff8222d90a66fe77f6157f4c88c5e7139ab408",
+      "source_path": "Tier 2/Photo Ni dual-catalyzed radical defluorinative sulfonylation to synthesize gem-difluoro allylsulfones.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/2077fca0dda6a8db808ee9baaaff8222d90a66fe77f6157f4c88c5e7139ab408/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "f671a01eada1b16ba5229d7c1b37a8849562769a08e0a7217a63f421abde15fe",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "896eeee11bfacc0552382d621b125042fadb7fc64fb8afffe9b47666e9833b71",
+      "source_path": "Tier 2/Piettre - 1996 - Simple and efficient synthesis of 2,2-disubstituted-1,1-difluorophosphonates and phosphonothioates.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/896eeee11bfacc0552382d621b125042fadb7fc64fb8afffe9b47666e9833b71/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "01e864646c9d5c5d9a7fde971ba24222db1d82d68d296a8a6c262c60f6bd1bab",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "16c2487e8243d3b49915538658dcaeb061a717563aea604bd5c870558a590673",
+      "source_path": "Tier 2/Pinpoint-fluorinated polycyclic aromatic hydrocarbons (F-PAHs) and their heteroaromatic analogs  syntheses, reactivities, and properties.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/16c2487e8243d3b49915538658dcaeb061a717563aea604bd5c870558a590673/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "30f11c288a6f8cff3628fd6b67fdb0039a2dca6ff04e4b9f29d023705d19e540",
+      "contradiction_count": 0,
+      "evidence_item_count": 1,
+      "sha256": "dd5f7ca589d3b04acfe77a2790dd879253c83457b47a3b3a31ed5446734efe93",
+      "source_path": "Tier 2/Reactions of Fluoroalkenes with an Aluminium(I) Complex.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/dd5f7ca589d3b04acfe77a2790dd879253c83457b47a3b3a31ed5446734efe93/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "26a03535541ed8c1a015f72bf7594543fd2d19c6daa54465796ee2959c5f4069",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "2f9ac0b704f6c6e52b9286fb6de0da586e724957ecad26eff7b0868e76ed7601",
+      "source_path": "Tier 2/Recent Advance in Defluorinative Transformations of Œ±‚ÄêTrifluoromethyl Carbene Intermediates.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/2f9ac0b704f6c6e52b9286fb6de0da586e724957ecad26eff7b0868e76ed7601/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "8e20d2b3a5b849b44f29b559450e62cead01603bd6cfddeea8d342aeb87029ba",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "dc1654dca55a0bf7668ffcecfa55a1b78ba9f7b47ff9868fa9d981a7b1e1efd7",
+      "source_path": "Tier 2/Recent advances in catalytic carbofluorination of unsaturated system via C‚ÄìF bond reconstruction.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/dc1654dca55a0bf7668ffcecfa55a1b78ba9f7b47ff9868fa9d981a7b1e1efd7/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "ab48d493eb38c02532af6e9760c7e4409ae23d30456260a9aead2cbe162a26a4",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "696b87ec75e71fc2dfedb6d1c9cd26f177e40117507baa85af9053440c52caa0",
+      "source_path": "Tier 2/Recent advances in visible-light-induced defluorinative functionalization of Œ±-trifluoromethyl arylalkenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/696b87ec75e71fc2dfedb6d1c9cd26f177e40117507baa85af9053440c52caa0/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "634d35bf30fc14493ec1ddd0c7384ccda02f52ef82f0b11bb1d22594261ef358",
+      "contradiction_count": 0,
+      "evidence_item_count": 36,
+      "sha256": "5a249e2084f4ee1e037198203e0e118a59868080f3a0ad5fffcb169282f872f9",
+      "source_path": "Tier 2/Reductive quenching-initiated catalyst-controlled divergent alkylation of Œ±-CF3-olefins.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/5a249e2084f4ee1e037198203e0e118a59868080f3a0ad5fffcb169282f872f9/validated.json",
+      "visual_review_page_count": 16
+    },
+    {
+      "cache_key": "1d8bad8add3fe794852697094c7ce34a80b3b348e5d8118b7692abcb77a56f19",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "efb6264efbf345ce4d4e4d1ae2e59e876bfe18ef41de844cc6d7a844a00b491d",
+      "source_path": "Tier 2/Regioselective C‚àíF Bond Transformations of Silyl Difluoroenolates.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/efb6264efbf345ce4d4e4d1ae2e59e876bfe18ef41de844cc6d7a844a00b491d/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "126c95f2393eb8784d2bd2db14d64bea51c78f1e98f2f71af18c4a5c49541658",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "35b7cfd5b3a80d383ae474362328ec24bf717a30ea53d18d7e1e01aca1cdc599",
+      "source_path": "Tier 2/Rhodium-Catalyzed Enantio- and Regioselective Allylation of In-doles with gem-Difluorinated Cyclopropanes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/35b7cfd5b3a80d383ae474362328ec24bf717a30ea53d18d7e1e01aca1cdc599/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "e64d491eb52ec23724cb024384a5bf9f689e9a1abc252d72291eb048eb40498c",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "a60ca2ac5d66211e0c724852238fb52bf0d847040db41a3b25ac73786d2a601f",
+      "source_path": "Tier 2/Ring-Restructuring of gem-Difluorocyclopropanes Diverse Access to Four- to Nine-Membered Ring Skeletons.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/a60ca2ac5d66211e0c724852238fb52bf0d847040db41a3b25ac73786d2a601f/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "93a02e02f131c0282088d37a68c057c2f220043e8b604581e112d6c7de125e01",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "6133a9ec35033f2eb22f10b87e31903218bd8bc27eedfae01d4addd39e6c65df",
+      "source_path": "Tier 2/Sakaguchi 等 - 2017 - Copper-catalyzed regioselective monodefluoroborylation of polyfluoroalkenes en route to diverse fluo.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/6133a9ec35033f2eb22f10b87e31903218bd8bc27eedfae01d4addd39e6c65df/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "b67448f24878b6ab23779d135d6c48c1ecf924454783a00efef0487b8301e5ea",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "d570e394bac56912a7b0b63b522e846fad175881a12a74d50e117d7027136513",
+      "source_path": "Tier 2/Selective Defluorination of Trifluoromethyl Substituents by Conformationally Induced Remote Substitution.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/d570e394bac56912a7b0b63b522e846fad175881a12a74d50e117d7027136513/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "a0d4408ce7223d60235e5151e496a4aa50e3c6901bb04555c9e9dc9011f42fe0",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "5d78344dd6494fc9db3d34ea803261c360e9957120962b3dd12bfc1b6bb1ffe0",
+      "source_path": "Tier 2/Silver-Catalyzed (Z) -Œ≤-Fluoro-vinyl Iodonium Salts from Alkynes Efficient and Selective Syntheses of Z -Monofluoroalkenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/5d78344dd6494fc9db3d34ea803261c360e9957120962b3dd12bfc1b6bb1ffe0/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "3bb2916cc307040d1c905f835ba60065c65f415894bd73ff10ee20afc2276d8d",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "8e41e6e087a12a2ec4c366a489040af0dcfa5e2806e7129ffc497f6e3338ac29",
+      "source_path": "Tier 2/Solvent- and anion-dependent rearrangement of fluorinated carbene ligands provides access to fluorinated alkenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/8e41e6e087a12a2ec4c366a489040af0dcfa5e2806e7129ffc497f6e3338ac29/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "fbc06ac3200a7bb95e9836270b8c7cdc8113a24384f1d2eaba4319e891930df4",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "1ad0251e556e46b0ee87996c730f7b27e0bf803eca0120d6ce9339d45d08a202",
+      "source_path": "Tier 2/Sterically congested boronate and silane synthesis via electronically controlled protoboration and protosilylation.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/1ad0251e556e46b0ee87996c730f7b27e0bf803eca0120d6ce9339d45d08a202/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "41f7be7bf824eb034a4198d18745bd8591c4b3e8053db2795e3657f21f7913fd",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "611e61e6d998e3f239bd753062c7c1e44682dcb63c0f07852bc5b66f844938ff",
+      "source_path": "Tier 2/Synthesis of fluorinated pyrrolizidine, indolizidine and quinolizidine derivatives.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/611e61e6d998e3f239bd753062c7c1e44682dcb63c0f07852bc5b66f844938ff/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "eadd57a74b29e159841852eefb292d4ff0662e4204ca0a2d9f0bfdd1bf95452e",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "2b4664dc613092c54f990f72e123458902cb47a244873e2e7eabb6f75c5f8395",
+      "source_path": "Tier 2/Synthesis of internal fluorinated alkenes via facile aryloxylation of substituted phenols with aryl trifluorovinyl ethers.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/2b4664dc613092c54f990f72e123458902cb47a244873e2e7eabb6f75c5f8395/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "d89671320f5b977c3366de30eec8ba99c3febbbb29e2edb3229500a003fd8d7f",
+      "contradiction_count": 0,
+      "evidence_item_count": 18,
+      "sha256": "6062d5157f159d1980707af714c123b775560805066a0045c3cd9ed863f993eb",
+      "source_path": "Tier 2/Synthetic Methodologies for the Chemical Recycling of Fluorocarbons.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/6062d5157f159d1980707af714c123b775560805066a0045c3cd9ed863f993eb/validated.json",
+      "visual_review_page_count": 6
+    },
+    {
+      "cache_key": "4f0c1c3b052abaffd838a33549605fb956916029d33452e05beab573a970f058",
+      "contradiction_count": 0,
+      "evidence_item_count": 95,
+      "sha256": "aa6650bda8ff5884846a767aa7dfc4fba443a3e4b99bb2968debc498cabbd6a4",
+      "source_path": "Tier 2/Synthetic Strategies to Access Biologically Important Fluorinated Motifs Fluoroalkenes and Difluoroketones.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/aa6650bda8ff5884846a767aa7dfc4fba443a3e4b99bb2968debc498cabbd6a4/validated.json",
+      "visual_review_page_count": 32
+    },
+    {
+      "cache_key": "f49a41d5bcd1eb7d21d313ae05c0de08683802e54d77cbbc6e5befc2609c39e4",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e3448b08ca44ecc81734f5f1946e2e8034f010b2dd242197536bfa62ac759ae1",
+      "source_path": "Tier 2/Tan 等 - 2023 - Stereoselective rhodium(I)-catalyzed C–F bond arylation of tri- and tetrasubstituted gem -dif.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/e3448b08ca44ecc81734f5f1946e2e8034f010b2dd242197536bfa62ac759ae1/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "89500d7fb9e6232b7d6aa4498747afda951264cab0b87214cea497213fdca36d",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "9644234c8995b929bff63bf4edea3807f2f144a2265b3fc6814dc119ddc9ca3c",
+      "source_path": "Tier 2/Titanium‚ÄêCatalyzed C‚ÄìF Activation of Fluoroalkenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/9644234c8995b929bff63bf4edea3807f2f144a2265b3fc6814dc119ddc9ca3c/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "b98d3faafc72655b8d7fa5350e9ca2e0b5261f8442a988a4dbc6db3530c950f1",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "79e062ad42fd943b1e9d74dba5fb196ec66e320a557029f327f0a90e17a7d58a",
+      "source_path": "Tier 2/Transition metal-catalyzed C(sp 2 _sp 3 )‚ÄìH Œ±-fluoroalkenylation from gem -(bromo_di)fluoroalkenes to monofluoroalkenes_ scope, mechanisms, and synthetic applications.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/79e062ad42fd943b1e9d74dba5fb196ec66e320a557029f327f0a90e17a7d58a/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "3fc77bfb295ef7814426fbef123f50743a9c64754228fd697e3134187f9cd944",
+      "contradiction_count": 0,
+      "evidence_item_count": 12,
+      "sha256": "8236f6dce768fae6f279f9b24d4c5e812fb604c0db06258a0267d90a07f8efc1",
+      "source_path": "Tier 2/Xu 等 - 2023 - Alkenyl thioetherification enabled by nickel catalysis.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/8236f6dce768fae6f279f9b24d4c5e812fb604c0db06258a0267d90a07f8efc1/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "48b6d1ba940317593582302b65564899d9b0f8784bf6a6c738c19433018fd509",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "dd4bbd6e7ca01e5bf94e93d32fa7e796f89960e57233a093ae1b48f2564543a7",
+      "source_path": "Tier 2/Zhang 等 - 2017 - Cu-catalyzed stereoselective borylation of gem -difluoroalkenes with B2 pin2.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/dd4bbd6e7ca01e5bf94e93d32fa7e796f89960e57233a093ae1b48f2564543a7/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "8903f3926180cb97b9b6fd31865cd4dad1e4b88c851fa93e9f74bc5b74ffe9e5",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "0afa9a2a5c07f7b8799361292335e896a3b30eb657550c2e414fba45c03fb450",
+      "source_path": "Tier 2/Zong 等 - 2022 - Rhodium(I)-catalyzed defluorinative coupling of boronic acids with monofluoroalkenes.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/0afa9a2a5c07f7b8799361292335e896a3b30eb657550c2e414fba45c03fb450/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "7a45c62cad7f0120554fc62b35a8c17dd4b0928bbecdb7ae9dbefa9d4dfa86b5",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "120c53c06560e5c33c9ced56e41ec7e713e752cec80cea52a5c485fbe4256bb6",
+      "source_path": "Tier 2/Zong和Tsui - 2024 - Addition of carboxylic acids to gem -difluoroalkenes for the synthesis of gem -difluor_副本.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/120c53c06560e5c33c9ced56e41ec7e713e752cec80cea52a5c485fbe4256bb6/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "5f15040572570dfe13908673ae79170329c4e81955721bbf7bb3d2c30caf0a84",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "654dfe04cfd78861fb039a50e97d025c8751bf6fa6b20755697a12867a4b6dbf",
+      "source_path": "Tier 2/gem -Difluoroallene (DFA) an emerging versatile synthetic precursor to enable diverse fluorinated molecules.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/654dfe04cfd78861fb039a50e97d025c8751bf6fa6b20755697a12867a4b6dbf/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "9eb3a5b5428fa5bff65dda88b04f4a70f0159b04938ecbf72aca0ee1f61ddddc",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "862620a78555fff19fb9c8e81b997b2cdc27bf06a6467a5849ab8f6024781a78",
+      "source_path": "Tier 3/1,2‚ÄêDiazetidines ‚àí Structure, Synthesis, and Functionalization.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/862620a78555fff19fb9c8e81b997b2cdc27bf06a6467a5849ab8f6024781a78/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "d4eb92762a21b7d17c205fdb72cacafdbab7bfb491305606b67a5cde29dbdd42",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "2b6adad109fd334a7cc3dc39ba4b61e0650d132e472b587f36d051fa601a62f9",
+      "source_path": "Tier 3/3d 4f Coordination Clusters as Cooperative Catalysts for Highly Diastereoselective Michael Addition Reactions.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/2b6adad109fd334a7cc3dc39ba4b61e0650d132e472b587f36d051fa601a62f9/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "0d38f30af0a440e6358eb0d12b4966f98cd3ae3cd2a00f0eaff08e77d3560591",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "dd65d09f3c1cd980b972a5588fce3816c5b913fa654bf390d896c6ec57575969",
+      "source_path": "Tier 3/A new method for the determination of the relative acidities of alcohols in alcoholic solutions. The nucleophilicities and competitive reactivities of alkoxides and phenoxides.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/dd65d09f3c1cd980b972a5588fce3816c5b913fa654bf390d896c6ec57575969/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "d61595a092b3b76e6939d0f417193ae6fc7f6612084c76d9a3730b39aff36e37",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "77bd34a5f9093cfb7a5d184e8a52611c85b6a032dce99a35fdf7cfc8b32e72e4",
+      "source_path": "Tier 3/Accelerated Reaction Kinetics in Microdroplets Overview and Recent Developments.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/77bd34a5f9093cfb7a5d184e8a52611c85b6a032dce99a35fdf7cfc8b32e72e4/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "eb8ab1a38dc50e504388a616f4f27b32237f3fdd2d690d72ac51c25c8a90454c",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "a79e7d883eab394463fdc0a111b7f154adab2d21701643f98d0bf55915f7228b",
+      "source_path": "Tier 3/Ambident Reactivity of the Thiocyanate Anion Revisited Can the Product Ratio Be Explained by the Hard Soft Acid Base Principle.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/a79e7d883eab394463fdc0a111b7f154adab2d21701643f98d0bf55915f7228b/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "f83e411bd016e28aca9baa89eac58457c2f743f099d57471d53e31cf9e5ce3d2",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "224b81325d74d71197961bbb3804b791b40cc822d2c6b020b375d2362adc466f",
+      "source_path": "Tier 3/An anionic phosphenium complex as an ambident nucleophile.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/224b81325d74d71197961bbb3804b791b40cc822d2c6b020b375d2362adc466f/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "4315debcf179c51b2ecaa272883fd0ffb446b77a023917f78b4a1df7b74a3598",
+      "contradiction_count": 0,
+      "evidence_item_count": 21,
+      "sha256": "68a05670189bacdb3909620b3b88895c4670c8d9ff5eecb325ca01fb7976f8a3",
+      "source_path": "Tier 3/Angew  Chem  Int  Ed  Engl - May 18  1994 - Mayr - Scales of Nucleophilicity and Electrophilicity  A System for Ordering.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/68a05670189bacdb3909620b3b88895c4670c8d9ff5eecb325ca01fb7976f8a3/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "0b37c03f62f59ca81e60df5b9b368838f8b6a463d5b16a66daf73b6b5d4112d0",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "412db5f5f9914771cf3fb0b6a12e420544b3894f3b35a65d0f13c00827a7637d",
+      "source_path": "Tier 3/Angew Chem Int Ed - 2006 - Phan - Towards a General Scale of Nucleophilicity.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/412db5f5f9914771cf3fb0b6a12e420544b3894f3b35a65d0f13c00827a7637d/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "fffe03f7a06562921186511001a0b2c346f3c642e3d2e5825deb2dc04b3c09a2",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "b3b55a60aebc6d7a27649acd0aea9cf63ed1950e458dadf19664711ad2c5d4d4",
+      "source_path": "Tier 3/Angew Chem Int Ed - 2019 - Mayer - Nucleophilicity of Glutathione  A Link to Michael Acceptor Reactivities.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/b3b55a60aebc6d7a27649acd0aea9cf63ed1950e458dadf19664711ad2c5d4d4/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "dfde1febab68dfae80d1b02162bef121a7badf411b2b7334c67de90a57a0ee76",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "9df4070078e4e3398c21eef5ce9335a30e561955cb1b810e796f8aa41a23f501",
+      "source_path": "Tier 3/Angew Chem Int Ed - 2019 - Zhang - A Nucleophilicity Scale for the Reactivity of Diazaphospholenium Hydrides  Structural.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/9df4070078e4e3398c21eef5ce9335a30e561955cb1b810e796f8aa41a23f501/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "94552f086df9f459b7aaef1b22a9faac62d78cfde4d54d6a94eaeac7d431cd0b",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "72361edbc594a37e12b0eb8eef359bc444bf5dd35481eb0262e1b78f9609f303",
+      "source_path": "Tier 3/Application of HSAB Theory in the Selective Reduction of Quinoline.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/72361edbc594a37e12b0eb8eef359bc444bf5dd35481eb0262e1b78f9609f303/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "bd22e3d98a6b079444ab311e5f7bd082dda0adb5028a4fcb6514bef508584478",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "456c5b836cf84ea7636f665e9d23cc1920c0151a92b078291ab4b4f9eea822b1",
+      "source_path": "Tier 3/Asymmetric Catalysis by Architectural and Functional Molecular Engineering Practical Chemo- and Stereoselective Hydrogenation of Ketones.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/456c5b836cf84ea7636f665e9d23cc1920c0151a92b078291ab4b4f9eea822b1/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "a07bdc99d8dc5790a8f87046785f84dc7de03c0b31211251fde7faa1821e62cb",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "d86c012e1796c12ed9500e24c2ae8f0785f379e6f66acfcea4f6f7ad08cbbbbe",
+      "source_path": "Tier 3/Basicity, nucleophilicity, and nucleofugality in the elimination‚Äìsubstitution reactions of Œ≤-phenylmercaptoethyl phenolates in DMSO‚Äìethanol media.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/d86c012e1796c12ed9500e24c2ae8f0785f379e6f66acfcea4f6f7ad08cbbbbe/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "2ab60cc6e7888279d02896d0e1836d31fb2c65d58dfbb69ee07149f4c0d2b8a5",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "343228a362a75eed528631c3c4bcc0b22890437e58025e57c714ea8e970756f8",
+      "source_path": "Tier 3/Carborane acids. New ‚Äústrong yet gentle‚Äù acids for organic and inorganic chemistry.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/343228a362a75eed528631c3c4bcc0b22890437e58025e57c714ea8e970756f8/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "b50d3c4e36141d7312e732512d011d88843c8af4453e4c4fba202c92c3ca7488",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "06247aeaa03e75eb0e0e02e79dbe8c610b0ea47b7539c43be2c90286da8e762f",
+      "source_path": "Tier 3/Catalytic Asymmetric Synthesis of Butenolides and Butyrolactones.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/06247aeaa03e75eb0e0e02e79dbe8c610b0ea47b7539c43be2c90286da8e762f/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "cc7b9f1b1b83f18bee50351a1b6bc0aec05ca9ab36ce21e0ada7034a05e68bf2",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "4d2301fbb52392867a965b3574eadb063f3afa970c0b9474b58d36981c8a3168",
+      "source_path": "Tier 3/Catalytic Markovnikov and anti‚Markovnikov Functionalization of Alkenes and Alkynes Recent Developments and Trends.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/4d2301fbb52392867a965b3574eadb063f3afa970c0b9474b58d36981c8a3168/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "bff0df607b88ee45474da1debc03a4db655b5ad95e9ca977bcd1e5053a679cfb",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "715c695bf946af9061d4515443aff6d84531b21eb19723539f1376b1359b3bbf",
+      "source_path": "Tier 3/Chemical reactivity of quinclorac employing the HSAB local principle - Fukui function.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/715c695bf946af9061d4515443aff6d84531b21eb19723539f1376b1359b3bbf/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "803cb749969f7fd9344a2693af20911f247172488a2df267fdfe1b9233729372",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "f90175f59fa36ed911ce1c2fd02f15f7dbfeabcf487e98453ea4d76997d370a1",
+      "source_path": "Tier 3/Chemistry A European J - 2010 - Wang - First‐Principles Prediction of Nucleophilicity Parameters for   Nucleophiles  (1).pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/f90175f59fa36ed911ce1c2fd02f15f7dbfeabcf487e98453ea4d76997d370a1/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "fc5a1dc550349f2896c80a9ccd2913f7c304f3585a9266d59fa8ddfe20296b11",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "cb464b38dea79394ac66bc68e97b6c6978b8ab939e3d74d6aa21f1a044f3eb77",
+      "source_path": "Tier 3/Chemoselective reactions of electrophiles with quinazoline amides; 3-alkylquinazoline-2,4-(1H,3H)-diones, and 2-arylquinazoline-4(3H)ones and their thioamide regioisomers.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/cb464b38dea79394ac66bc68e97b6c6978b8ab939e3d74d6aa21f1a044f3eb77/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "71d92cf5fa00d9b17d603962a9a0166c64e28c6d09d7a024cb8794d5d2fd4851",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "17846734fc8bee1a99284968b43c2a16930fc8b554e9a62ef7c83c30d4922391",
+      "source_path": "Tier 3/Chemo‚Äê, Regio‚Äê, and Stereoselective Diels‚ÄìAlder Reaction of Ambident Dienophilic Monothiomaleimide.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/17846734fc8bee1a99284968b43c2a16930fc8b554e9a62ef7c83c30d4922391/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "7e197ae36d5e5d92636d0fe000b1f38ad1f2e784ea16b2d5e9c5c43d963c1034",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "243ff69a66454483f784a32a50c8ac0d829021f4bf126ea60c6b8e09901a76df",
+      "source_path": "Tier 3/Chiral phase-transfer catalysis in the asymmetric Œ±-heterofunctionalization of prochiral nucleophiles.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/243ff69a66454483f784a32a50c8ac0d829021f4bf126ea60c6b8e09901a76df/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "805e9bbfd1f805b611c2788b5aa144ae8f9579c30d55a91efeeed6ac59534d77",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "2c12b06403e40fb1086c6a7ed1f19036572e3b22a9c69ba6769430c76e0a6d63",
+      "source_path": "Tier 3/Click Chemistry Diverse Chemical Function from a Few Good Reactions.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/2c12b06403e40fb1086c6a7ed1f19036572e3b22a9c69ba6769430c76e0a6d63/validated.json",
+      "visual_review_page_count": 7
+    },
+    {
+      "cache_key": "875a17fa6ddbea4cb9b0b7a8e4edc4fe535fb81217dfb1772d9aa13bd94c287e",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "4374061bbedee6a129da94282f652bf8f788f999ed6efe3821c511051d984797",
+      "source_path": "Tier 3/Correlating the Surface Basicity of Metal Oxides with Photocatalytic Hydroxylation of Boronic Acids to Alcohols.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/4374061bbedee6a129da94282f652bf8f788f999ed6efe3821c511051d984797/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "bbbe665d20a31e7125eb56a1d5f4b1a5d55d0098d355c80b3cd8b5d6f98fb7fb",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e762c1d339498b98a05a032f054927a87a229a32f7833c4dfb3803ce5c97842f",
+      "source_path": "Tier 3/Effects of Hydrogen Bonding Solvation by Diverse Fluorinated Bulky Alcohols on the Reaction Rate and Selectivity in Crown Ether Mediated Nucleophilic Fluorination in an Aprotic Solvent.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/e762c1d339498b98a05a032f054927a87a229a32f7833c4dfb3803ce5c97842f/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "1715d254122cf725fa6544741d40645acee5144d6f6709f8af54679346ac694c",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "f1d1275b4d1fa4399acd4fbbd85ab8cf6253698ded57f5d74b3eb5a771274d86",
+      "source_path": "Tier 3/Electrophilic Reactivities of 1,2‚ÄêDiaza‚Äê1,3‚Äêdienes.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/f1d1275b4d1fa4399acd4fbbd85ab8cf6253698ded57f5d74b3eb5a771274d86/validated.json",
+      "visual_review_page_count": 6
+    },
+    {
+      "cache_key": "cc9594792d56c75749e2a5e1bd4ec3a88f600fe5c10ec5d56ed51d1d9e1f0992",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "11696b065e94a0494233dd8a627ecf4a1e98699088406a89915c53718c54a5dd",
+      "source_path": "Tier 3/Enantioconvergent halogenophilic nucleophilic substitution (SN2X) reaction by chiral phase-transfer catalysis.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/11696b065e94a0494233dd8a627ecf4a1e98699088406a89915c53718c54a5dd/validated.json",
+      "visual_review_page_count": 7
+    },
+    {
+      "cache_key": "01b3a654b6f501d4e4d86523ee5da3e024c6760d10d318f7880feb4c8544264c",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "05251b03ea041397464859048b3d64396ad2a66cd3ff42418d4225d1b66cfd63",
+      "source_path": "Tier 3/Enantioselective Epoxidation of Œ±,Œ≤‚ÄêEnones by Electrophilic Activation with a BINOL‚ÄìZinc Catalyst.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/05251b03ea041397464859048b3d64396ad2a66cd3ff42418d4225d1b66cfd63/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "99353f8d8b1c0823a53bd1867d7d998d89cd0442caf215614a2838766bcb83d9",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "6cae68f2f9ba8736925928310fa6f9472e77e318a99695ae2e756f425ef1f3f3",
+      "source_path": "Tier 3/Exploring Intrinsic Bond Properties with the Fukui Matrix from Conceptual Density Matrix Functional Theory.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/6cae68f2f9ba8736925928310fa6f9472e77e318a99695ae2e756f425ef1f3f3/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "2b45eb01fec3feec4c11afa9ae8fd89f23250e02e75152db98f898d1846c8617",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "63379e6b309eb4c08c25b32345565b395fc9bd6e9a511c9331974a8c037f3443",
+      "source_path": "Tier 3/Glutathione catalysis and the reaction mechanisms of glutathione-dependent enzymes.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/63379e6b309eb4c08c25b32345565b395fc9bd6e9a511c9331974a8c037f3443/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "7ca663030ba0279a4e7f6e0c17e7dbc807d5c75f9b787e727d93fd4adae946a8",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "88411c7c0fc854342b61ab63c19338df30c3bb8912169b5d857d35dd25e30a79",
+      "source_path": "Tier 3/Halide Effects in Transition Metal Catalysis.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/88411c7c0fc854342b61ab63c19338df30c3bb8912169b5d857d35dd25e30a79/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "17f39135ac65e893027e9d84490d3f88d5fba3f84fcc5e5919687b58b1537e46",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "a1dba1f66e1f3eaa928ec65a91e638fa31eeeb8fc536922098a1b28a1aa917ea",
+      "source_path": "Tier 3/Highlighting the Underrated Side of the High Profile Nitroso Entity as a Nucleophile.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/a1dba1f66e1f3eaa928ec65a91e638fa31eeeb8fc536922098a1b28a1aa917ea/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "b9489abfb03fb67be864087bf228cdfb15d4214688fa71ba94e571140025f096",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "210fabd3bab12926508dd8cedfdd51f4212bd900e587e0b6123b3fdb4dd5fed7",
+      "source_path": "Tier 3/Holistic Prediction of pKa in Diverse Solvents Based on Machine Learning Approach.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/210fabd3bab12926508dd8cedfdd51f4212bd900e587e0b6123b3fdb4dd5fed7/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "f083925f200aa2042481d8baa466134d2764aa9160512bad27153a837e52000e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "eb9cf2b1e678d23b6619cf69de047871c4dda42ab264f1832c62296493d8ba7c",
+      "source_path": "Tier 3/Hydrogen-bond promoted nucleophilic fluorination concept, mechanism and applications in positron emission tomography.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/eb9cf2b1e678d23b6619cf69de047871c4dda42ab264f1832c62296493d8ba7c/validated.json",
+      "visual_review_page_count": 6
+    },
+    {
+      "cache_key": "2ffe24ac34eb71b909571d737dfd9d05e1692bedc2280144f285cec31ff19700",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "2ffd902c85110acbffeac789c47acb4372fc4a283d8894c523c386a98e12eb1b",
+      "source_path": "Tier 3/Hydrolysis of esters of oxy acids pKa values for strong acids; Br√∏nsted relationship for attack of water at methyl; free energies of hydrolysis of esters of oxy acids; and a linear relationship between free energy of hydrolysis a.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/2ffd902c85110acbffeac789c47acb4372fc4a283d8894c523c386a98e12eb1b/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "df8872332797952defac0192d4cc5202187c9a4c9b5cd094444a36fab311ecbf",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "48f2affbc0af38dbb4b25de4679d5d0ed090cdc65b79905a5377be2c3ceb3527",
+      "source_path": "Tier 3/Hypercoordinate Silicon Compounds In Organic Synthesis  Improved Methods For The Synthesis Of Aryl(Trialkoxy)Silane Derivatives And Trimethylsilyl Cyanide As A Cyanide Source For Nucleophilic Substitution.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/48f2affbc0af38dbb4b25de4679d5d0ed090cdc65b79905a5377be2c3ceb3527/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "4b50e67f17433f32b6dbf3d98022d07c635eddfb9bc9b42c81220cff732ffdaa",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "395919eb4441b40bf32461a738d352aed14a1839cdcfee4161335792f3a1dd9d",
+      "source_path": "Tier 3/Ion pairing and reactivity of Œ≤-ketoenolates.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/395919eb4441b40bf32461a738d352aed14a1839cdcfee4161335792f3a1dd9d/validated.json",
+      "visual_review_page_count": 6
+    },
+    {
+      "cache_key": "770269dd20131d2d8ad91f6770dafa40774d61452c17aa99af02cbc797674e2a",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "08913c17086c87999c831612cb9920d9ecb3651f247a598e8a3573c32eaf2718",
+      "source_path": "Tier 3/Isotope effects in nucleophilic substitution reactions. VI. The effect of ion pairing on the transition state structure of SN2 reactions.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/08913c17086c87999c831612cb9920d9ecb3651f247a598e8a3573c32eaf2718/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "c13f99be858c2a262927d6aaba27883f1a30e243a998e8d3611725c2a2404c08",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "11bdfae4b698ce3b66b7174d1299211115c6c879245ab04786915b09a37d057c",
+      "source_path": "Tier 3/J of Physical Organic Chem - 2008 - Mayr - Do general nucleophilicity scales exist.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/11bdfae4b698ce3b66b7174d1299211115c6c879245ab04786915b09a37d057c/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "92e9eae4035e5c77b75fa790537ac001711d511b3aa0e6da3c6b2ca96677eecd",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "97a451caf2787361d072960cfef948e285d6171c43453f34c97e63f5df3e19b0",
+      "source_path": "Tier 3/Kinetic and mechanistic studies of the reactions between 2-nitrothiazole, 2-nitrobenzothiazole and some nucleophiles.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/97a451caf2787361d072960cfef948e285d6171c43453f34c97e63f5df3e19b0/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "dc7862a2b8974920436158fd58cb64a321f954a353aa961eb2407314d3355005",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "771449244f7d65c520e79e35864fa9cabfd66525d28cf09fb1cf6e09cbe822c8",
+      "source_path": "Tier 3/Kinetics and Mechanism of the Addition of Nucleophiles to Œ±,Œ≤-Unsaturated Thiol Esters.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/771449244f7d65c520e79e35864fa9cabfd66525d28cf09fb1cf6e09cbe822c8/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "7e5d6d3169c31f4cdccd85eab19eb749da0709690444b5c5a69091abaf83f859",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "12f536ea91b38aaf2fd34cfe3afd08a55aeb23b378baad85982c029840fa171d",
+      "source_path": "Tier 3/Kinetics of electrophile-nucleophile combinations A general approach to polar organic reactivity.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/12f536ea91b38aaf2fd34cfe3afd08a55aeb23b378baad85982c029840fa171d/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "399ff99bc1ce86be29b9669756118f4a22af55e1ece4641b735f566a50c4125c",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "13a77e4b9df0fde6d012452de73ff754eb5b35537ac85a02b736758e8aa5739a",
+      "source_path": "Tier 3/Kinetics of hydride-transfer reactions from hydrosilanes to carbenium ions. Substituent effects in silicenium ions.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/13a77e4b9df0fde6d012452de73ff754eb5b35537ac85a02b736758e8aa5739a/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "09f201c6601ad3b4faf384d80b939dc87168e9e422753752dd5368eb7f253846",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "fd24c7e37a5de74885e188e9bb4d06b7675fd102fdbbfb34f19afe8a197f2940",
+      "source_path": "Tier 3/Metal Enolates ‚Äì Enamines ‚Äì Enol Ethers How Do Enolate Equivalents Differ in Nucleophilic Reactivity.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/fd24c7e37a5de74885e188e9bb4d06b7675fd102fdbbfb34f19afe8a197f2940/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "75876b5ad8e82ab7532e009965e4f36d66d177b899edb7a4e77801a9a320d136",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "1243c1162d6439810eb5737e713614fc61c56e20e8de08604516a3febf2fec2d",
+      "source_path": "Tier 3/Multiscale modeling of reaction rates application to archetypal S N 2 nucleophilic substitutions.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/1243c1162d6439810eb5737e713614fc61c56e20e8de08604516a3febf2fec2d/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "80af8bdab569be44e498b036d55285fdcbd6fa656b63389e0cd5859625dc69c7",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "e61143e0e925c7c848c7a88faca6e8bbc1b90c86f151b367330fa0eea7765dcc",
+      "source_path": "Tier 3/Nitrogen-embedding heterocyclic nucleophiles in catalytic asymmetric vinylogous Mannich reactions.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/e61143e0e925c7c848c7a88faca6e8bbc1b90c86f151b367330fa0eea7765dcc/validated.json",
+      "visual_review_page_count": 12
+    },
+    {
+      "cache_key": "fdd62796c5e93352fae6fbeb36f2f92ca05e81224b1416b97eaaf4e135eda9fe",
+      "contradiction_count": 0,
+      "evidence_item_count": 44,
+      "sha256": "19132afe99ce75b39ccb5ce552279cf83ebb65f5af48d8abf53e07c660752e48",
+      "source_path": "Tier 3/Nucleophilic additions to a para-benzyne derived from an enediyne  Exploring the non-radical reactivity of a diradical.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/19132afe99ce75b39ccb5ce552279cf83ebb65f5af48d8abf53e07c660752e48/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "1fe5fe7d3b45155508d2a742174199431cfddd70cca4f07a6336265f9d95876a",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "42b732117381a1795946db4ee295f9f774d4a6b1c098f8ba03d98e15bfed65f7",
+      "source_path": "Tier 3/Nucleophilicity towards a vinylic carbon atom rate constants for the addition of amines to the 1-methyl-4-vinylpyridinium cation in aqueous solution.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/42b732117381a1795946db4ee295f9f774d4a6b1c098f8ba03d98e15bfed65f7/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "e1ebeb7a1ac27fc8bef6c0776736a15b4f68ee95825edf66a16a6b4f553494cd",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "3368ea1d99ba010dc97cea04724c22801dd1ee76373f1586727f2e6e2ad56633",
+      "source_path": "Tier 3/Organocatalysis Fundamentals and Comparisons to Metal and Enzyme Catalysis.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/3368ea1d99ba010dc97cea04724c22801dd1ee76373f1586727f2e6e2ad56633/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "9ca8ff97c96ea096b6b45e0a62470ac9144a535081d5a622556e2a39a8e0a79a",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "4e9a9f1d57cb3f3155f76108d5e645613d4fd87b121a446025fd2aeeba818129",
+      "source_path": "Tier 3/Phase-Transfer and Ion-Pairing Catalysis of Pentanidiums and Bisguanidiniums.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/4e9a9f1d57cb3f3155f76108d5e645613d4fd87b121a446025fd2aeeba818129/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "ae7285082c3746d270b88dbe7f2305a82ee344410b45be00dfb921e11f6e99bb",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "348be348c70e448dc02fec4f18974855623140d2c7005d79a93a4168441dd4a2",
+      "source_path": "Tier 3/Philicity and Fugality Scales for Organic Reactions.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/348be348c70e448dc02fec4f18974855623140d2c7005d79a93a4168441dd4a2/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "3c9fde3ef12fb30b75c84f5783d9b80ec2abde308ce6933d865bfb4ac7b4de0a",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "38353979864ed566c50ad85957a9f209edba492f32238c00bd922b6fabc8de30",
+      "source_path": "Tier 3/Prediction of Nucleophilicity and Electrophilicity Based on a Machine‚ÄêLearning Approach.pdf.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/38353979864ed566c50ad85957a9f209edba492f32238c00bd922b6fabc8de30/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "f1ee391f1e703e2dd5762d523dd0ad9dca38905967bb65d9642ed6b108becc1d",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "40d450ad8036c293fe178dd8afe644d895fe8f61c0080fa422b3b7caf3626387",
+      "source_path": "Tier 3/Quantification of the Lewis Basicities and Nucleophilicities of 1,3,5‚ÄêTris(dialkylamino)benzenes.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/40d450ad8036c293fe178dd8afe644d895fe8f61c0080fa422b3b7caf3626387/validated.json",
+      "visual_review_page_count": 5
+    },
+    {
+      "cache_key": "c173bd3103d2c2c54d3a068ec6eb102494acd9bff36b8b046b9c3ecdaa4a39b4",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "cd6cf29ddf927b35e310edc14f26f2daaefcb2228a1c4b078a4d42186d6d4d05",
+      "source_path": "Tier 3/Radical Additions of TEMPO to Ketenes Correlation of Free Radical and Nucleophilic Reactivity.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/cd6cf29ddf927b35e310edc14f26f2daaefcb2228a1c4b078a4d42186d6d4d05/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "3bfbea04f8beddb4c063285e2a561916f6aab423ce6fff0235b1fd101f2eb066",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "1732be5eded4cd046c41c0d2c71954e601ff48c6cec10533c516ec120ae9a1e3",
+      "source_path": "Tier 3/Radicals as Exceptional Electron-Withdrawing Groups Nucleophilic Aromatic Substitution of Halophenols Via Homolysis-Enabled Electronic Activation.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/1732be5eded4cd046c41c0d2c71954e601ff48c6cec10533c516ec120ae9a1e3/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "d70a0d27d36e38cffa62fffc0b41d6a85dd6bdae8191b9b1563f7993eb35a6a1",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "0759a32e68f9802c79d032ef7c165fc33b3604c3f20703b0678c80b316a5e157",
+      "source_path": "Tier 3/Rational design of nucleophilic amine sites via computational probing of steric and electronic effects.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/0759a32e68f9802c79d032ef7c165fc33b3604c3f20703b0678c80b316a5e157/validated.json",
+      "visual_review_page_count": 6
+    },
+    {
+      "cache_key": "9389b6bc3d29f81e53d6bde9504b83c02d8aec72a317f2715e3eeb892edc0254",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "3185d9c00081b563f8f7ced7ad1d021f2753d52cab04d6ae853fc746c8142307",
+      "source_path": "Tier 3/Reaction Pathways in Carbonates and Esters.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/3185d9c00081b563f8f7ced7ad1d021f2753d52cab04d6ae853fc746c8142307/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "43dbeaae8b2a147f228b033df8f5516ef017ef86a2884dcf10156ec32119c4bc",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "ac300d784a2cef25deed9888e1b245a295d00e7677c7cac2239d8ef794343765",
+      "source_path": "Tier 3/Reaction of the Ambident Electrophile Dimethyl Carbonate with the Ambident Nucleophile Phenylhydrazine.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/ac300d784a2cef25deed9888e1b245a295d00e7677c7cac2239d8ef794343765/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "813e07d3a547581bbf73f2fc15bdfe0c6d8aad08720b88321dd84bdeb60bff53",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "c94abbf716783a3aa19938cb8c2d8fa797b020d0f8d3d6073efd49745b6b1a70",
+      "source_path": "Tier 3/Reactivities of allenic and olefinic Michael acceptors towards phosphines.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/c94abbf716783a3aa19938cb8c2d8fa797b020d0f8d3d6073efd49745b6b1a70/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "4a71c673ddfc50102d534f7074d793550faf1977e2c08c6365b3dc3e9ee1e855",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "2a4ce1f72e2a5b8ac66a3aa6df588f4378ddc5b7e5ba9fdbd79fc5349fccb0db",
+      "source_path": "Tier 3/Recent development in preparation reactivity and biological activity of enaminoketones and enaminothiones and their utilization to prepare heterocyclic compounds.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/2a4ce1f72e2a5b8ac66a3aa6df588f4378ddc5b7e5ba9fdbd79fc5349fccb0db/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "4d29d391a6ac5d711f27a0f094db299faa68f90c807628043402ed0ea7cedf06",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "53dd4adc7c2e020c46fadb7869601d3bb2bb6036bf1571e3dc7f80df5854c9e0",
+      "source_path": "Tier 3/Regiodivergent Nucleophilic Fluorination under Hydrogen Bonding Catalysis A Computational and Experimental Study.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/53dd4adc7c2e020c46fadb7869601d3bb2bb6036bf1571e3dc7f80df5854c9e0/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "0bbbf384f8a2dd818fe6443e957e25668f06ec422716549f3bef95021119ccce",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e39f95b6ef16ba8caa00770bb214fc229001c88d369c4b2faec05e207535739c",
+      "source_path": "Tier 3/Regional Electrophilic and Nucleophilic Fukui Functions Efficiently Highlight the Lewis Acidic Basic Regions in Ionic Liquids.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/e39f95b6ef16ba8caa00770bb214fc229001c88d369c4b2faec05e207535739c/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "6c47cc5a4f5a9429d3e291f0a2666becdf0a757df8a621c976adb5a831c4e24f",
+      "contradiction_count": 0,
+      "evidence_item_count": 12,
+      "sha256": "dae3f0ce608d9f9dccfc939aa4037026a267bd2946e7b1733ed91498a70e48a7",
+      "source_path": "Tier 3/Regioselectivity and High Electrophilicity in the œÉ Complexation of Aromatic Triflones.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/dae3f0ce608d9f9dccfc939aa4037026a267bd2946e7b1733ed91498a70e48a7/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "81be58930ce849c3fdfa8698843e940ca2f6f6824124ba3bd70e7279e6e5e71f",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e77859fa5d88f0ead5ce71ae4193789a3df9d9048e7e425aede2b8d82d6419a2",
+      "source_path": "Tier 3/Selectivity in organocatalysis‚ÄîFrom qualitative to quantitative predictive models.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/e77859fa5d88f0ead5ce71ae4193789a3df9d9048e7e425aede2b8d82d6419a2/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "8d923427d3c580b97ba586599e99dac23eb175180dd5a505586ade18d9ded3f4",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "2a1cebae9d44ee2318a94dc4b6977dae40f775e059b8bcd202ca0d090f4a6ecf",
+      "source_path": "Tier 3/Sequential Addition and Cyclization Processes of Œ±,Œ≤-Ynones and Œ±,Œ≤-Ynoates Containing Proximate Nucleophiles.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/2a1cebae9d44ee2318a94dc4b6977dae40f775e059b8bcd202ca0d090f4a6ecf/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "15275c3efe81b706a91870a3c8d937c6edb953bfa92b103183fc69be392e63cd",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "06ad2dcd922f6ccdd4936d4f5df7b8dc3a6867bc733e2625bccbf09d704ff7ec",
+      "source_path": "Tier 3/Silver-Catalyzed Regioselective Phosphorylation of para-Quinone Methides with P(III)-Nucleophiles.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/06ad2dcd922f6ccdd4936d4f5df7b8dc3a6867bc733e2625bccbf09d704ff7ec/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "a4b90ba652264117d925bedab68c6d0efb8e17b08720c4b11bc186f970edf77e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "d4789019e950bc773b785aeda25deed30f833e569785d0170454be2ef9dae4b6",
+      "source_path": "Tier 3/Solvent Effects in the Nucleophilic Substitutions of Tetrahydropyran Acetals Promoted by Trimethylsilyl Trifluoromethanesulfonate Trichloroethylene as Solvent for Stereoselective C- and O-Glycosylations.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/d4789019e950bc773b785aeda25deed30f833e569785d0170454be2ef9dae4b6/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "e968c72ef787eb9a2e7f85864218dab12d63f88da51013fef0fb8b4a233ceb70",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "4a8f0ec4f182fec80913274b3920de7073a5ca4be1602b8f3d4d300df0ceb753",
+      "source_path": "Tier 3/Solvent effects in catalysis rational improvements of catalysts via manipulation of solvent interactions.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/4a8f0ec4f182fec80913274b3920de7073a5ca4be1602b8f3d4d300df0ceb753/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "f6146837d92e8d29da17748fe48502484c78c1bbf4b207deabc7b584b191a3d4",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "6cc92c2cb7f5de68fe840247e5906bb664e751e4b7d0a30a20aabda7c3e9fb02",
+      "source_path": "Tier 3/Supramolecular catalysis. Part 1 non-covalent interactions as a tool for building and modifying homogeneous catalysts.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/6cc92c2cb7f5de68fe840247e5906bb664e751e4b7d0a30a20aabda7c3e9fb02/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "85a513af64ee5d757ef20edc568072ed44b090842ecf96fc5f9de3d85d274ea0",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "eb5074b62fa87a977cf345078ff70d0e8812dbd9131d37ddf291b54a97f6b458",
+      "source_path": "Tier 3/Synthetic, spectroscopic, structural, and electrochemical investigations of ferricenium derivatives with weakly coordinating anions ion pairing, substituent, and solvent effects.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/eb5074b62fa87a977cf345078ff70d0e8812dbd9131d37ddf291b54a97f6b458/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "b608c01ac12873ecd1804eb394b80fe11df3d63493d0fcdb7cd59ab91ccbb385",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "486842634200a50d258c358c66eb0bf8d951c6000752d10eb86d714b91ddc8a5",
+      "source_path": "Tier 3/Tautomeric equilibria and pKa values for 'sulfurous acid' in aqueous solution a thermodynamic analysis.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/486842634200a50d258c358c66eb0bf8d951c6000752d10eb86d714b91ddc8a5/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "d52f674439f1d3f3b4a92dc96bb8eef7fd0c067ed8f7743b2a1035923e1a5a7e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "62da62e589c3a8fed8549157722b9f8d846cbf9eb0a251ed0857ae0e9585d3b3",
+      "source_path": "Tier 3/The Key Role of GSH in Keeping the Redox Balance in Mammalian Cells Mechanisms and Significance of GSH in Detoxification via Formation of Conjugates.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/62da62e589c3a8fed8549157722b9f8d846cbf9eb0a251ed0857ae0e9585d3b3/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "37c6ab56a97b4e0a11ca6094b6f9214c5d90b87909177a2344046b1b4e853ca6",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "78cf29d3eb0ce1bcecec6b3843b01bd87e8fbcd39ba46f55dd70a014282d1201",
+      "source_path": "Tier 3/The Reactions of Azines on Treatment with 1,3-Bifunctional Nucleophiles.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/78cf29d3eb0ce1bcecec6b3843b01bd87e8fbcd39ba46f55dd70a014282d1201/validated.json",
+      "visual_review_page_count": 8
+    },
+    {
+      "cache_key": "57caddffa7fdb886fb601cbaf9e5fcb54d8c9b2e3ac772bab796cafa49deadba",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "9e3fb34bdcfe421ba444ae78cecd99c6b626d60d862f06294ded3b4ae8432021",
+      "source_path": "Tier 3/The cyanide, cyanate, thiocyanate ambident anions Structure, topological analysis of electron density, and homolytic oxidative coupling regioselectivity.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/9e3fb34bdcfe421ba444ae78cecd99c6b626d60d862f06294ded3b4ae8432021/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "7984542e2268e4b93f4274c564ce8e759204a81e363c1272a7eba38050eacbe5",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "46d9114e35ebdedde0957bcf833744a41afa6634e6ce519636312faa529f84a4",
+      "source_path": "Tier 3/The influence of acceptor nucleophilicity on the glycosylation reaction mechanism.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/46d9114e35ebdedde0957bcf833744a41afa6634e6ce519636312faa529f84a4/validated.json",
+      "visual_review_page_count": 6
+    },
+    {
+      "cache_key": "0805d0cde1fcecf41c725ebec28e645b80336ffb74d28605bb9756a20a2dd3b9",
+      "contradiction_count": 0,
+      "evidence_item_count": 17,
+      "sha256": "76f13150808507f161686180ed075b79a1e2ea69d2c03b421b59d15ed12d7bef",
+      "source_path": "Tier 3/The not so Identical Twins (dis)similarities between Reactive Electrophile and Oxidant Sensing and Signaling.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/76f13150808507f161686180ed075b79a1e2ea69d2c03b421b59d15ed12d7bef/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "bc1e9981adb7351503ec5e7510e3fc16136826add47c79cd261446427039c2b1",
+      "contradiction_count": 0,
+      "evidence_item_count": 21,
+      "sha256": "193104c9d0b347b4d46b27dd50e5afef9fd20e17d951b46d735925b5aa197930",
+      "source_path": "Tier 3/The photochemical nucleophile‚Äìolefin combination, aromatic substitution (photo-NOCAS) reaction (Part 4) methanol‚Äìolefins, methyl 4-cyanobenzoate.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/193104c9d0b347b4d46b27dd50e5afef9fd20e17d951b46d735925b5aa197930/validated.json",
+      "visual_review_page_count": 9
+    },
+    {
+      "cache_key": "ac583ec9d2eb588a35bb8329238b7d21f247848325a1beeca7fec2a5f33807f6",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "2aafd61b41681adc5933f12f101c3b95d7cca0a1ecfec98b49487bb241052523",
+      "source_path": "Tier 3/The study of carbon acylation of highly delocalized enolates using catalytic DMAP on 3-phenyl benzofuranone derivatives.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/2aafd61b41681adc5933f12f101c3b95d7cca0a1ecfec98b49487bb241052523/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "038542535f9ebed5928decf8abdceda011a1109a22048bd2d3c81c847e912468",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "363c732d46e8bcbcb370b95e2548c35a1dfd0807cb436da793e8c4b61dfe73b7",
+      "source_path": "Tier 3/Unprecedented Nucleophilic Additions of Highly Polar Organometallic Compounds to Imines and Nitriles Using Water as a Non‚ÄêInnocent Reaction Medium.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/363c732d46e8bcbcb370b95e2548c35a1dfd0807cb436da793e8c4b61dfe73b7/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "e19c294035b66c88a92a9a09ab56ab237f54ac3765f95f0dc1754c0193fcdfa4",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "8d5e6206c5b4ce0ee396c3de0c6e5e5553c8f4776f3cfdb24ac0bcd4b682b225",
+      "source_path": "Tier 3/Ynone Promoted Deaminative Coupling of Gramines with C- and N-Nucleophiles.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/8d5e6206c5b4ce0ee396c3de0c6e5e5553c8f4776f3cfdb24ac0bcd4b682b225/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "94bfa9bb23ef1dacaa1cd83f0a5c03afd2f0f871ebb06a54bdacb5875cd8fefc",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "b428aff256b1c804044e1c58ef1cc0bfab4cb009c1237ad371f6e802a4df5a70",
+      "source_path": "Tier 3/ci2c00696.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/b428aff256b1c804044e1c58ef1cc0bfab4cb009c1237ad371f6e802a4df5a70/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "9fb8587d0718f5eff2a7ae626b217da1b3dd238b14deaea15813c800a4753c3b",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "b023d66cd0317fe1b3889aacb2045160b77fe4909178bc750d6f1d1318dded83",
+      "source_path": "Tier 3/ja021010y.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/b023d66cd0317fe1b3889aacb2045160b77fe4909178bc750d6f1d1318dded83/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "8de2e2073256752c6944ed6b1f2e729013562199c698007847261de60ecea7f9",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "454e2f70ca3733e6e2179ea35a6ad876b0820643c548234337933e7553fb1de8",
+      "source_path": "Tier 3/ja0378097.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/454e2f70ca3733e6e2179ea35a6ad876b0820643c548234337933e7553fb1de8/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "14e78bcfc1aa098055a78acb2967573a114684ad5866932de46d29ee05039472",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "a5d0e3a58b4345db830a9043356041f27fd2032f07704ab8da75cfa845aeb089",
+      "source_path": "Tier 3/jo01304a035.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/a5d0e3a58b4345db830a9043356041f27fd2032f07704ab8da75cfa845aeb089/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "0131bf52d927a38952ab6483613b2a5cfa89e089b79c750578573a3cbf4229b2",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "651dddee76bb4af7815a26aafe1937e30833ddfb478abc741b9b609ea6afa4e5",
+      "source_path": "Tier 3/jo030125x.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/651dddee76bb4af7815a26aafe1937e30833ddfb478abc741b9b609ea6afa4e5/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "a31434dc39ff207a34a714e3c4bb937e79342069417d0a14fa64b13c1dbd62be",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "6f5c18beff5342bca944fa3b154a572e29054f45044bc3ffb9e70e4f5528424e",
+      "source_path": "Tier 3/jp3c07289.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/6f5c18beff5342bca944fa3b154a572e29054f45044bc3ffb9e70e4f5528424e/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "10d0ab50c8d0a1e51c37395132b0787b0cd37f26c162660e73fd80d36a222473",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "13d3983ae3c65d2882429f68abdfbb0a926bc611d8801074d09bb30e768168af",
+      "source_path": "Tier 3/jp4c07795.pdf",
+      "tier": "tier_3",
+      "validated_path": "derived/full_corpus/papers/13d3983ae3c65d2882429f68abdfbb0a926bc611d8801074d09bb30e768168af/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "8724cdc02b4c9e9d6e68c9a6fb8e72202f94bcdfb1127d56d0a2aac5738b2bb1",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "abe372bf278b8e8087f2bfaf1e11b4adefd42d0711a3adefe0169fb95abe553f",
+      "source_path": "Tier 4/A review of Ni based powder catalyst for urea oxidation in assisting water splitting reaction.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/abe372bf278b8e8087f2bfaf1e11b4adefd42d0711a3adefe0169fb95abe553f/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "0db6cc925ccead40927509fe0261cd862830a82a32c8f835a4370457db0f6d41",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "30e0d79ad4a06ded1d10286a86191eef28dcdaef506a441bd95045ad6ab7c462",
+      "source_path": "Tier 4/Angew Chem Int Ed - 2011 - Mayr - Farewell to the HSAB Treatment of Ambident Reactivity.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/30e0d79ad4a06ded1d10286a86191eef28dcdaef506a441bd95045ad6ab7c462/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "ab27064c68702186ee7b90c6fcb66f5bd343ca7f46104ffb6001b7353dde0506",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "f6b49ca88b1f0d3971dd62e445a8ba375313c0aedb5b97aea2a659fb9e8fc657",
+      "source_path": "Tier 4/Applications of the controlled oxidation of pyrroles.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/f6b49ca88b1f0d3971dd62e445a8ba375313c0aedb5b97aea2a659fb9e8fc657/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "6189163128c4aa5841039e45e411c7cff24359f33fb4d529aad45e2476d3b69d",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "6e58bb4f4728d828329bb8523b217106e289bf9e2cec66ef989dd278706995c0",
+      "source_path": "Tier 4/ChemCatChem - 2020 - Xiong - Triphenylphosphine as Efficient Antidote for the Sulfur%E2%80%90Poisoning of the Pd C Hydrogenation.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/6e58bb4f4728d828329bb8523b217106e289bf9e2cec66ef989dd278706995c0/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "26723b9f48157076866567a2de9936609f9e59372c01a725bb57d1c387d2ac58",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "cf6113ebaf8339a7142dc4576d6a3136bbfb467844b83a9daa09d35a0435b659",
+      "source_path": "Tier 4/Deactivation Mechanism and Anti-Deactivation Measures of Metal Catalyst in the Dry Reforming of Methane A Review.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/cf6113ebaf8339a7142dc4576d6a3136bbfb467844b83a9daa09d35a0435b659/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "77951c03cc490ccc8bfebb87931511d0bf9f0e8d87e871caf076d2e19b158e07",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "4b8ff071169da9fbba611be7e03e675a3c3b2d8d676497826d9d1cb5f1eff175",
+      "source_path": "Tier 4/Decomposition of Ruthenium Olefin Metathesis Catalyst.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/4b8ff071169da9fbba611be7e03e675a3c3b2d8d676497826d9d1cb5f1eff175/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "96af60230021633a75887cc349d1bab8b46fa8923b41f41933e6e53b6cc379e9",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "0c33f7dff94cbcbc0ebf4da892ae22f60599f92550870a59bdba1074f29f1560",
+      "source_path": "Tier 4/Development of Halogenase Enzymes for Use in Synthesis.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/0c33f7dff94cbcbc0ebf4da892ae22f60599f92550870a59bdba1074f29f1560/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "cbbc01938f54f6d430d6696746bc5ef62334b11ee2e4da6728c9ae392a8efaaf",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "83b60281319816373b25cee2398f38865a8a656b10fc3e2a3ab05ca46fd7e11e",
+      "source_path": "Tier 4/Eur J Org Chem - 2016 - Jiang - Palladium‐Catalyzed C S Bond Formation of Stable Enamines with Arene Alkanethiols  Highly.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/83b60281319816373b25cee2398f38865a8a656b10fc3e2a3ab05ca46fd7e11e/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "3a781e97cf946ac49cc93ed4a01a135f45bb9a3fe8f37c94d71adbf9287a21fe",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "6bbc0738c15f5c29293f6b765a16227670a68e1b62202ab36d50f9e7cda04b96",
+      "source_path": "Tier 4/Evidence That Protons Can Be the Active Catalysts in Lewis Acid Mediated Hetero‚ÄêMichael Addition Reactions.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/6bbc0738c15f5c29293f6b765a16227670a68e1b62202ab36d50f9e7cda04b96/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "4c13ed7f378191bd443fed2040cb62c324b0ccb4558b721202fef96e7b600d0d",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "8ff02f0e055f29aa8f73b1a31f394b9a0f7b4f5309a94a74359b9212ca1890cc",
+      "source_path": "Tier 4/Heterogeneous gold and palladium based catalysts for solvent-free oxidation of toluene.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/8ff02f0e055f29aa8f73b1a31f394b9a0f7b4f5309a94a74359b9212ca1890cc/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "23081b60c7c2ddff32a437d34f32405b704052d7554f570f2ed9a1f0e871a1d3",
+      "contradiction_count": 0,
+      "evidence_item_count": 6,
+      "sha256": "4c8a0f5c7cbc752175f50418e1adc34727b412931fd5ae5fea02d8a19b87cd6f",
+      "source_path": "Tier 4/Identification of Catalytic Active Sites for Durable Proton Exchange Membrane Fuel Cell  Catalytic Degradation and Poisoning Perspectives.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/4c8a0f5c7cbc752175f50418e1adc34727b412931fd5ae5fea02d8a19b87cd6f/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "c4a73390d57c98aa4a662687fd4837ebbeecec6ba5b2abeae89ef9d20d0837ce",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "12d26706e7c61e6a5f680f5362fbd7a581d8f599749c3241db92318cbe954866",
+      "source_path": "Tier 4/Inhibition of a Gold-Based Catalyst in Benzyl Alcohol Oxidation Understanding and Remediation.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/12d26706e7c61e6a5f680f5362fbd7a581d8f599749c3241db92318cbe954866/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "f56cc6fb47cb360573917ad82240a724e1c9a1fc600f2d0d7af50818ae5b031e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "65c72fe8c4d65f13707d381454db405b86ef9d6265eceb7ba7aecdfe4318a9f9",
+      "source_path": "Tier 4/Journal of Applied Chemistry - May 1955 - Sergeant - The poisoning of palladium catalyst for the reaction between hydrogen.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/65c72fe8c4d65f13707d381454db405b86ef9d6265eceb7ba7aecdfe4318a9f9/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "7912025c975df5a3a758a46d2906652383f141bc7fdf7efb2d3005b2cdabb950",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "7b31465fcf4e6cbef5b86aad616d7a8120141518ff0878e8ff789c8482d827cb",
+      "source_path": "Tier 4/Mild metal-catalyzed C‚ÄìH activation examples and concepts.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/7b31465fcf4e6cbef5b86aad616d7a8120141518ff0878e8ff789c8482d827cb/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "f6ab3b1021a60e1e68aeed72b3f6cdad4d50a0ca03d30333b91ab1450575f8a6",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "616fd4e28ca1bb32690919c2eb7e0208ea648e884fcbc1d2cc5ac69974564ce2",
+      "source_path": "Tier 4/Palladium-Catalyzed Carbothiolation of Alkenes and Alkynes for the Synthesis of Heterocycles.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/616fd4e28ca1bb32690919c2eb7e0208ea648e884fcbc1d2cc5ac69974564ce2/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "75803ec0b39c50d2d78469d522eba2c9eaceefd765d0aea3c2ee0870082f23a3",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "826a8d987b46bf7d123f5d46c806b27b719087949e4c7de34cc4b157b8b6252d",
+      "source_path": "Tier 4/Persulfate-Based Advanced Oxidation Critical Assessment of Opportunities and Roadblocks.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/826a8d987b46bf7d123f5d46c806b27b719087949e4c7de34cc4b157b8b6252d/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "2a3d3450d7388371a7d5e9063faf1b4c0dbb389823dce9201fe308a27926529a",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "00c2da8d98815fb8036a1949ec3c5a5215c4ade2e33079245ba86584787a308c",
+      "source_path": "Tier 4/cs6b02765.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/00c2da8d98815fb8036a1949ec3c5a5215c4ade2e33079245ba86584787a308c/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "ae62d2882cfa625e91cd84bc86b6758c73ec80eca683f247232e132bbf29f2f9",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "6b1ff825ad1a2b72b86aa8eb1d3929cab6b1d222b507fe0b80b20f5d930806d8",
+      "source_path": "Tier 4/es402169d.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/6b1ff825ad1a2b72b86aa8eb1d3929cab6b1d222b507fe0b80b20f5d930806d8/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "49a9dabeff30c5f04143c2b90279d440d54d09ef4865a563eb7cf995c4b04f6e",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "8c1b02f4fd8a2c7ea1625c42c1d2f5dd5a6463fcd8b5f3d7698003f33ce5b329",
+      "source_path": "Tier 4/ja901793w.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/8c1b02f4fd8a2c7ea1625c42c1d2f5dd5a6463fcd8b5f3d7698003f33ce5b329/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "33441de572e0a0d117cc5e84f098789a638d572aab2f9dec0a3aac58ae7a7181",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "363873145e4daf5c14022291f7b610d391e19c76eaa62fc878cfff04340ea0eb",
+      "source_path": "Tier 4/jo048773j.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/363873145e4daf5c14022291f7b610d391e19c76eaa62fc878cfff04340ea0eb/validated.json",
+      "visual_review_page_count": 6
+    },
+    {
+      "cache_key": "6000c7497b998aa09a2a02d81e7533a824b631d57d65c94a757f9f191f85f61a",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "7057308236a773a531c0bc5edb176ed3aea7c6391d5e5062330269e5ef9a1293",
+      "source_path": "Tier 4/jo0c02952 (1).pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/7057308236a773a531c0bc5edb176ed3aea7c6391d5e5062330269e5ef9a1293/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "744bb7161603caa5529f83453b47f095554f411bacd8cf36eb6f651565a54c27",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "8614580eb10623456f29cb7ed47a7ce26c0fb0fb7a5ada7d710dfedea0a9626d",
+      "source_path": "Tier 4/ol000231a.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/8614580eb10623456f29cb7ed47a7ce26c0fb0fb7a5ada7d710dfedea0a9626d/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "790c014b7733ab2864e7cfab29f3dfa6a1bd3a4a9835f66f4176285d976632ba",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "7f2a3aee4b6066eb44bab66ea25371b8d0395e930dc136ff82f8d5ba36cf4367",
+      "source_path": "Tier 4/op7b00342.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/7f2a3aee4b6066eb44bab66ea25371b8d0395e930dc136ff82f8d5ba36cf4367/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "a0f902217b194aea6c62bec899661e072b3c954b578c4e54d1c0b50503090c51",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "bb2735fc5f5d79b0d45efb217b8030ade94a880c01e38f6b501f4df152a38389",
+      "source_path": "https://doi.org/10.1021/acs.accounts.2c00113",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/bb2735fc5f5d79b0d45efb217b8030ade94a880c01e38f6b501f4df152a38389/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "be5c25943b2fa2e8ce100d83f9117c4bbc5032bf7113f3ee103656c90de0343a",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "5aaee41073b73373754d49836d51a36f72325a3d019fdce33883740f5c59b456",
+      "source_path": "https://doi.org/10.1021/acscatal.4c02585",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/5aaee41073b73373754d49836d51a36f72325a3d019fdce33883740f5c59b456/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "87114b26514093179c19c2503e0faf8a546a4f925cb11edf22e24658303d07b3",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "434a55844b9cadd6d4099262895713c7adf99cad73bd50992ce691507a280f5f",
+      "source_path": "https://doi.org/10.1021/jacs.1c05294",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/434a55844b9cadd6d4099262895713c7adf99cad73bd50992ce691507a280f5f/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "6907b1c785afa7089c02d374c90fcae651fe8d4ef25376a8b10070f11df81ad7",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "de9199a868423566f81e257c5f63c21d77f4d450c2846a24d65a83c3b32c685a",
+      "source_path": "https://doi.org/10.1021/jacs.9b02266",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/de9199a868423566f81e257c5f63c21d77f4d450c2846a24d65a83c3b32c685a/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "a4ca00ed5e5ec74cc33bbc8e2e04a08b3a99bda418af84415aa7e011cf258de7",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "0651e7a130254c586395b491eef28cd7b639ddebf87e8bafcffc1bec6a64b51e",
+      "source_path": "https://doi.org/10.1021/jacs.9b06126",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/0651e7a130254c586395b491eef28cd7b639ddebf87e8bafcffc1bec6a64b51e/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "38a40df1e1c385130127509e14e1c7c14adea4ba2e6586ea9dff05fb99a06d78",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "4ce65785526cedd36317206b3af3600dc8a5684e1ff480f24ceaab1ceccc0b22",
+      "source_path": "https://doi.org/10.1039/d4sc04939j",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/4ce65785526cedd36317206b3af3600dc8a5684e1ff480f24ceaab1ceccc0b22/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "9354ef3a2f65db8ba2ebb24ed6dac81b2cccd568a6520964a7f1cc4fd543b018",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "496dcb070b6b78cac5f624ef54966e65e55009e17056cc35b89339b1e5b0e894",
+      "source_path": "https://escholarship.org/content/qt2bh6b5cr/qt2bh6b5cr.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/496dcb070b6b78cac5f624ef54966e65e55009e17056cc35b89339b1e5b0e894/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "4f9d66a6bd5de5bf91925606e68af78f9b08ce3c2cdea98d1d43237ccd13ed3e",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "e9b35b48d84ce838eeb59d493b42e06052fc54eb84997e2b72d0e9ef19f13bad",
+      "source_path": "https://escholarship.org/content/qt3cx5s7p3/qt3cx5s7p3.pdf?t=s5hrv0",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/e9b35b48d84ce838eeb59d493b42e06052fc54eb84997e2b72d0e9ef19f13bad/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "0a77d3cfac6c4051889d9c66290abae05db75a4c87896c2a5131488fce83884b",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "cf2bf10480d7a2d6c69be096ff47ceb1d092d9225df2150be76e0e8221d19e2c",
+      "source_path": "https://escholarship.org/content/qt3g926566/qt3g926566.pdf?t=sdbkzj",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/cf2bf10480d7a2d6c69be096ff47ceb1d092d9225df2150be76e0e8221d19e2c/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "2ef3348f4d65996bb34a3278cc9f04633f9fff6f06ed2f168881efb2c06e20ed",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "dc0f42140c58f140440ee45c3a4d1f1b062d3058ce03240db2472d3e9c5f7b2c",
+      "source_path": "https://link.springer.com/content/pdf/10.1007%2Fs11244-015-0414-9.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/dc0f42140c58f140440ee45c3a4d1f1b062d3058ce03240db2472d3e9c5f7b2c/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "dc9c8d1984cc3010c6ba4d3d47517f5cf1f62c9d79f24bd3092dbb0604fed0e1",
+      "contradiction_count": 0,
+      "evidence_item_count": 12,
+      "sha256": "761c95f642be50d758f09c7bb84d7cc5fa1ec07a80b35ea7540e0d7164166971",
+      "source_path": "https://link.springer.com/content/pdf/10.1007/s11426-021-1040-2.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/761c95f642be50d758f09c7bb84d7cc5fa1ec07a80b35ea7540e0d7164166971/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "c4374bed2bffe609986bfde8e41355c7818010bc7f8ab730c1a8c10eb06c47a1",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "50f4082662cb7a16d6fa1a15ddee8a552b44d752e5e6d9975eecf4571b2a9255",
+      "source_path": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10616978/pdf/nihms-1938501.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/50f4082662cb7a16d6fa1a15ddee8a552b44d752e5e6d9975eecf4571b2a9255/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "0709e1051a109c452c99050dae286fed67b2b27b9c98f21cbc1a25d73fa34b39",
+      "contradiction_count": 0,
+      "evidence_item_count": 12,
+      "sha256": "50aee34bfa0b818a4851209397ca51f3e88fc86420525dbf5f3e1fb386586584",
+      "source_path": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11087080/pdf/nihms-1991218.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/50aee34bfa0b818a4851209397ca51f3e88fc86420525dbf5f3e1fb386586584/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "0a8f870ed706b3672dbdbf68f8d33ec0e9806da1d90345f4f481b8028ea4d5da",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "f66636a73dec25b49b2d1667210d5ff48b4d63df853e28003ee07dcad65c188a",
+      "source_path": "https://pubs.acs.org/doi/pdf/10.1021/acs.joc.2c02197",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/f66636a73dec25b49b2d1667210d5ff48b4d63df853e28003ee07dcad65c188a/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "3b0a102131e68084fa3c8178cf0ccf4b17a58af5ebef6537fbef23e85673987a",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "f0c9180caa47c5e272ce5685c46df1fb643b09d9292d761bf06506f66e02a49a",
+      "source_path": "https://pubs.acs.org/doi/pdf/10.1021/acscatal.0c02514",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/f0c9180caa47c5e272ce5685c46df1fb643b09d9292d761bf06506f66e02a49a/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "ad4f9194b7135ab0de7143ee984e9f1ec8f20f788985c94a4359aacfe23e25ba",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "95364be4b663dbe84b3aeecd0aa451b2c2265c57b1f54335159effddb52b1278",
+      "source_path": "https://pubs.acs.org/doi/pdf/10.1021/jacs.4c13956?ref=article_openPDF",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/95364be4b663dbe84b3aeecd0aa451b2c2265c57b1f54335159effddb52b1278/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "940ecc9a3d80ddb89d724a41d214d99d3c55c5193a50255877c2771404dfb2d9",
+      "contradiction_count": 0,
+      "evidence_item_count": 9,
+      "sha256": "96560c175ed4d4660d7c935f1b4eb05e4bef992924deaa55917af395eb4f203b",
+      "source_path": "https://pubs.rsc.org/en/content/articlepdf/2018/sc/c8sc01353e",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/96560c175ed4d4660d7c935f1b4eb05e4bef992924deaa55917af395eb4f203b/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "634f49b1cc060a45ff6d533321a37672f0b7973b96432078976fa95394d2bbba",
+      "contradiction_count": 0,
+      "evidence_item_count": 12,
+      "sha256": "9d103d3c226021ce561a9abf014d3f85520e49813487c3fb6b7e72e8356b5536",
+      "source_path": "https://pubs.rsc.org/en/content/articlepdf/2020/sc/c9sc05444h",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/9d103d3c226021ce561a9abf014d3f85520e49813487c3fb6b7e72e8356b5536/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "02c62f49b190bf15065a537f298f2b325f94ffa6b9220fe8e7704c0e10e312ba",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "7220b9ce4b195699f835ea728b647fa7ad9aba61beae9239e2c086fbcd725974",
+      "source_path": "https://pubs.rsc.org/en/content/articlepdf/2021/sc/d1sc04582b",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/7220b9ce4b195699f835ea728b647fa7ad9aba61beae9239e2c086fbcd725974/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "a98e42606449c1c7189f66936d9169ea9d568c9e036c14790302457656ed9875",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "d64c40ea1d941326cebdeaf4a01920765354aa116267d2036da0aa1fb760d86e",
+      "source_path": "https://pubs.rsc.org/en/content/articlepdf/2022/sc/d2sc02732a",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/d64c40ea1d941326cebdeaf4a01920765354aa116267d2036da0aa1fb760d86e/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "a47d239022016365677cfd20f4dbd51264b3e6602f09ec2e49761419fc46eed8",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "dc9c5e87452e0f23daa7b3f6f65620182f72168bdf972cc03acfcbd587b0ab0c",
+      "source_path": "https://pubs.rsc.org/en/content/articlepdf/2024/dt/d4dt00636d",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/dc9c5e87452e0f23daa7b3f6f65620182f72168bdf972cc03acfcbd587b0ab0c/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "b940c1699c43b5d87164675fb576d00b4ed37b90cdbb5b558c2ba5a2f56df7f4",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "76008d22f6162ad8c560a9bcfbefbd655cf9e32debaa3f8ff63dade6db52eb0d",
+      "source_path": "https://www.beilstein-journals.org/bjoc/content/pdf/1860-5397-10-32.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/76008d22f6162ad8c560a9bcfbefbd655cf9e32debaa3f8ff63dade6db52eb0d/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "38d0930be395c3351b4657f7905bf94a8240387499719eb827dc9a510884fe71",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "9b0d93bcca7b8e93e9778570565e0aa3a237acbf4bdbfcf573d0e421161e6064",
+      "source_path": "https://www.beilstein-journals.org/bjoc/content/pdf/1860-5397-13-262.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/9b0d93bcca7b8e93e9778570565e0aa3a237acbf4bdbfcf573d0e421161e6064/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "85758508e235b6b2f1d6de214b383fc46c0de6a150f385d105ef7afb4dbf04ea",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "862ecaefeebaae0b2858f4eee2cd07ea2c1fa8bdcaaf86f240cf1a951a86de38",
+      "source_path": "https://www.jstage.jst.go.jp/article/yukigoseikyokaishi/80/11/80_1000/_pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/862ecaefeebaae0b2858f4eee2cd07ea2c1fa8bdcaaf86f240cf1a951a86de38/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "710e6ca4793392d488fecaaebafb06b6d8480ed09cf6ed056f926b4e9d576e35",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "3e81b23ac69202f702b5b5fbad8107a554710e799167985dfe00676239c0af9b",
+      "source_path": "https://www.nature.com/articles/s41467-020-20725-9.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/3e81b23ac69202f702b5b5fbad8107a554710e799167985dfe00676239c0af9b/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "c1989fc8c509e8c1e721368cc813fc52668cf0cf459f887d2e75a32360c9bb72",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "f9965cabe0c41183a628811884251152b865159ec48aab85fbf69b283f8d3288",
+      "source_path": "https://www.nature.com/articles/s41467-021-23101-3.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/f9965cabe0c41183a628811884251152b865159ec48aab85fbf69b283f8d3288/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "0a5806174ab542288e3d1c58ded9db9f0deb1dea14bc7ae134875df6a36424c8",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "c48a8049182aeede29ac4b7b46e6f50d4d718396a34e5f3f62600a3a215b6762",
+      "source_path": "https://www.nature.com/articles/s41467-021-24031-w.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/c48a8049182aeede29ac4b7b46e6f50d4d718396a34e5f3f62600a3a215b6762/validated.json",
+      "visual_review_page_count": 3
+    },
+    {
+      "cache_key": "621c605277ac0284b1c1e74a9d65e4e8c418c898f82af86f91ab19c1e5b85797",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "99db00dec82fdce3c5e48b81b65cb0b1e96867ea79e4d0d504aba9a4f49e25d9",
+      "source_path": "https://www.nature.com/articles/s41467-022-28007-2.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/99db00dec82fdce3c5e48b81b65cb0b1e96867ea79e4d0d504aba9a4f49e25d9/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "5f05f8584356e85cdc03e314ed9264352c5b4c42680546e58358e54215f3fc96",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "48a72f9fbf470da0954a11b9a1f27210d6690b25419bc13805209968c4b83edd",
+      "source_path": "https://www.nature.com/articles/s41467-022-31976-z.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/48a72f9fbf470da0954a11b9a1f27210d6690b25419bc13805209968c4b83edd/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "3ec1a5a3288575c51d7b9e36db1fe68e7c6922db9b9c163ca86f8044272c664a",
+      "contradiction_count": 0,
+      "evidence_item_count": 10,
+      "sha256": "a1c43b8aaa0e0f60b20591d15e812e3739c351f4d13782300af33424b3c0748a",
+      "source_path": "https://www.nature.com/articles/s41467-023-44653-6.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/a1c43b8aaa0e0f60b20591d15e812e3739c351f4d13782300af33424b3c0748a/validated.json",
+      "visual_review_page_count": 0
+    },
+    {
+      "cache_key": "af2c784ea23164f3665159d2d27957c7212f9e75aef37ec7e7f1bb32b610ddc7",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "4e3d9ffb27f9bbb620f317634a4d9dbed15aa20f611d125392f1879d349ffc0e",
+      "source_path": "https://www.nature.com/articles/s41467-024-51519-y.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/4e3d9ffb27f9bbb620f317634a4d9dbed15aa20f611d125392f1879d349ffc0e/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "b850d570a4015442813b3bcc56e2b81cf50d370cdbe45adb899582547099a860",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "88bd74c776f068e54aa598de19b334788ffa184cb9ff135acc1c2b01adf3c12f",
+      "source_path": "https://www.nature.com/articles/s41467-024-52054-6.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/88bd74c776f068e54aa598de19b334788ffa184cb9ff135acc1c2b01adf3c12f/validated.json",
+      "visual_review_page_count": 2
+    },
+    {
+      "cache_key": "58d99861bd10df42ed5950a8178c049b7b639dd87fb93856a9b5ad4d276ccf4f",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "5c04c35a085ef8b8a0ffec3747eab87815b9562c0c7c050f3d0415490f4db330",
+      "source_path": "https://www.nature.com/articles/s41467-024-52842-0.pdf",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/5c04c35a085ef8b8a0ffec3747eab87815b9562c0c7c050f3d0415490f4db330/validated.json",
+      "visual_review_page_count": 4
+    },
+    {
+      "cache_key": "fa494e96ef81cc970461389ff88cebbb80690a6a37f9119b1afd85575b76cec8",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "ad771ddb60ccd240c61ff1fc1eacfcc350e38c5ec60431c77384b62b5c505425",
+      "source_path": "https://www.nature.com/articles/s42004-023-00849-x.pdf",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/ad771ddb60ccd240c61ff1fc1eacfcc350e38c5ec60431c77384b62b5c505425/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "fc258c40d7480e94ef50898828de690aa99bfd7183495f33af611e899f141f5d",
+      "contradiction_count": 0,
+      "evidence_item_count": 11,
+      "sha256": "655478b7359ce6c029f5ccaf72d2bd02448e499d868cb960dca54192a3114243",
+      "source_path": "https://www.ncbi.nlm.nih.gov/pmc/articles/7286626",
+      "tier": "tier_2",
+      "validated_path": "derived/full_corpus/papers/655478b7359ce6c029f5ccaf72d2bd02448e499d868cb960dca54192a3114243/validated.json",
+      "visual_review_page_count": 1
+    },
+    {
+      "cache_key": "f8c4bcb8fe806b3ff80847a1d4689e6ecb8d82b7e6a4be7460a15516ec9f38bd",
+      "contradiction_count": 0,
+      "evidence_item_count": 8,
+      "sha256": "e38a68bf59c55c6bbcaca9f8fa37288b5a37c84ff4ba81c33b36570d7242b31f",
+      "source_path": "https://www.osti.gov/biblio/1974372",
+      "tier": "tier_4",
+      "validated_path": "derived/full_corpus/papers/e38a68bf59c55c6bbcaca9f8fa37288b5a37c84ff4ba81c33b36570d7242b31f/validated.json",
+      "visual_review_page_count": 0
+    }
+  ],
+  "scoped_record_count": 342,
+  "visual_review_page_count": 791
+}

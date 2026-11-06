@@ -1,0 +1,39 @@
+version: "3.3"
+output_root: "derived/principles_v3"
+coordinate_config: "mechanism_coordinates_v3_3.yaml"
+exploration_brief:
+  version: "3.0"
+  study_id: "fixed-sr001-open-reaction-partner-exploration-v3-3"
+  fixed_role:
+    role: "electrophile"
+    label: "SR001 fixed Seed component"
+    seed_reaction_id: "SR001"
+  variable_role:
+    role: "nucleophile"
+    label: "reaction-partner family, representative reagent, and conditions"
+  target_transformation:
+    new_bond: "new bond to the variable reaction partner"
+    retained_features:
+      - "selective retention of one fluorine"
+    selectivity_constraints:
+      - "target-defining product structure is retained"
+  allowed_evidence_levels:
+    - "traceable_external_evidence"
+    - "model_physical_organic_inference"
+    - "unknown"
+taxonomy_discovery:
+  model: "gpt-5.6-sol"
+  prompt_version: "taxonomy-discovery-v3.3-complete-coordinate-contract"
+  model_lane_count: 2
+  channels:
+    - "seed_derived"
+    - "literature_derived"
+    - "model_hypothesis"
+saturation:
+  maximum_new_family_rate: 0.05
+  required_consecutive_rounds: 2
+  maximum_completed_rounds: 5
+freeze_versions:
+  freeze_1: "Freeze 1"
+  freeze_2: "Freeze 2"
+  freeze_3: "Freeze 3"

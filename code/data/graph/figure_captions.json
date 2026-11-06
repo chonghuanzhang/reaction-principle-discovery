@@ -1,0 +1,10 @@
+{
+  "overall": {
+    "title": "Unresolved source access",
+    "caption": "Literature evidence, reaction principles and candidate space. The main network contains 17 evidence summaries representing 28 records from eight RP-supporting sources, four conditional reaction principles, 12 display families and the original 100 candidate molecules. Solid evidence–RP lines denote cited support; dashed RP–family lines denote conditional applications. Family–candidate lines indicate display membership. Filled candidate circles have an original item-level citation (46 molecules); open circles lack one (54). Tier counts refer to the 370-record source register, including linked preprint and journal versions rather than 370 independent studies. The lower band describes a separate current P/Se applicability review: nine sources, 23 substantive records and two metadata-only records. Positive observations, local limitations and alternative endpoints remain distinct; applicability depends on donor form, acceptor, activation and product connectivity. Metadata-only records contribute no RP support relation. Original candidate identities include 17 P and one Se candidate. Neither layer establishes a validated negative prediction for the target system.",
+    "focus": null,
+    "png": "/Users/chonghuanzhang/Dropbox/reaction_principle/outputs/2026-10-28_PSe_evidence_update/graph/figures/network_overall.png",
+    "pdf": "/Users/chonghuanzhang/Dropbox/reaction_principle/outputs/2026-10-28_PSe_evidence_update/graph/figures/network_overall.pdf",
+    "svg": "/Users/chonghuanzhang/Dropbox/reaction_principle/outputs/2026-10-28_PSe_evidence_update/graph/figures/network_overall.svg"
+  }
+}

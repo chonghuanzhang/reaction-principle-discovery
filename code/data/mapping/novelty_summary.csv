@@ -1,0 +1,46 @@
+universe,dimension,label,count,denominator,version
+candidate_hypothesis,NP,1R,4,115,2026-10-23-review-revision-v1
+candidate_hypothesis,NP,2,86,115,2026-10-23-review-revision-v1
+candidate_hypothesis,NP,3,20,115,2026-10-23-review-revision-v1
+candidate_hypothesis,NP,1T,1,115,2026-10-23-review-revision-v1
+candidate_hypothesis,NP,3/2,3,115,2026-10-23-review-revision-v1
+candidate_hypothesis,NP,unresolved,1,115,2026-10-23-review-revision-v1
+candidate_hypothesis,NR,2,51,115,2026-10-23-review-revision-v1
+candidate_hypothesis,NR,3,58,115,2026-10-23-review-revision-v1
+candidate_hypothesis,NR,1,6,115,2026-10-23-review-revision-v1
+candidate_product_option,NP,1R,4,124,2026-10-23-review-revision-v1
+candidate_product_option,NP,2,93,124,2026-10-23-review-revision-v1
+candidate_product_option,NP,3,23,124,2026-10-23-review-revision-v1
+candidate_product_option,NP,1T,1,124,2026-10-23-review-revision-v1
+candidate_product_option,NP,unresolved,3,124,2026-10-23-review-revision-v1
+candidate_product_option,NR,2,51,124,2026-10-23-review-revision-v1
+candidate_product_option,NR,3,67,124,2026-10-23-review-revision-v1
+candidate_product_option,NR,1,6,124,2026-10-23-review-revision-v1
+experimental_pair,NP,2,100,108,2026-10-23-review-revision-v1
+experimental_pair,NP,not applicable,3,108,2026-10-23-review-revision-v1
+experimental_pair,NP,1R,3,108,2026-10-23-review-revision-v1
+experimental_pair,NP,3,1,108,2026-10-23-review-revision-v1
+experimental_pair,NP,3/2,1,108,2026-10-23-review-revision-v1
+experimental_pair,NR,2,90,108,2026-10-23-review-revision-v1
+experimental_pair,NR,not applicable,3,108,2026-10-23-review-revision-v1
+experimental_pair,NR,3,7,108,2026-10-23-review-revision-v1
+experimental_pair,NR,1,6,108,2026-10-23-review-revision-v1
+experimental_pair,NR,unresolved,1,108,2026-10-23-review-revision-v1
+experimental_pair,NR,2–3,1,108,2026-10-23-review-revision-v1
+experimental_product_option,NP,2,102,107,2026-10-23-review-revision-v1
+experimental_product_option,NP,1R,3,107,2026-10-23-review-revision-v1
+experimental_product_option,NP,3,2,107,2026-10-23-review-revision-v1
+experimental_product_option,NR,2,92,107,2026-10-23-review-revision-v1
+experimental_product_option,NR,3,8,107,2026-10-23-review-revision-v1
+experimental_product_option,NR,1,6,107,2026-10-23-review-revision-v1
+experimental_product_option,NR,unresolved,1,107,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NP,1R,4,100,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NP,2,72,100,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NP,3,19,100,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NP,1T,1,100,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NP,3/2,3,100,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NP,unresolved,1,100,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NR,2,42,100,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NR,3,52,100,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NR,1,5,100,2026-10-23-review-revision-v1
+candidate_molecule_preserved_label_set,NR,2 | 3,1,100,2026-10-23-review-revision-v1

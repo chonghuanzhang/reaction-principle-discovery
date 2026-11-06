@@ -1,0 +1,23 @@
+{
+  "source_workbooks": 2,
+  "source_occurrences": 2114,
+  "deduplicated_sample_row_groups": 1066,
+  "distinct_actual_reaction_pairs": 108,
+  "unique_partners": 102,
+  "unique_electrophiles": 5,
+  "pairs_by_route": {
+    "NH": 44,
+    "OH": 42,
+    "PH": 2,
+    "SH": 20
+  },
+  "pair_product_status": {
+    "unique_predicted": 103,
+    "unresolved": 3,
+    "multiple_predicted": 2
+  },
+  "recorded_product_smiles_count": 1,
+  "distinct_predicted_products": 107,
+  "Se_records": 0,
+  "scope_note": "包含原始1048条之外汇总工作簿的追加孔/放大记录。不是重新定义主分析集。记录行按路线+样品ID+原行去重，未将无唯一ID放大记录合并。无原始谱图逐一验证。"
+}

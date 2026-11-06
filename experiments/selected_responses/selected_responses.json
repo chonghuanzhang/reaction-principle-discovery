@@ -1,0 +1,1262 @@
+[
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "KHCO3",
+    "solvent": "HFIP",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "K2CO3",
+    "solvent": "THF",
+    "archived_response": "0.429097516212395"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "KHCO3",
+    "solvent": "toluene",
+    "archived_response": "0.104412667062357"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "KOtBu",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "K2HPO4",
+    "solvent": "DCE",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "KOtBu",
+    "solvent": "HFIP",
+    "archived_response": "0.0265705418799719"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "KHCO3",
+    "solvent": "DCE",
+    "archived_response": "0.0893124718439922"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "K3PO4",
+    "solvent": "HFIP",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "NaOH",
+    "solvent": "n-hexane",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "K2HPO4",
+    "solvent": "HFIP",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "CsOH",
+    "solvent": "toluene",
+    "archived_response": "0.0148476796954805"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "1",
+    "base": "NaH",
+    "solvent": "toluene",
+    "archived_response": "0.0298869915029327"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "K2CO3",
+    "solvent": "MeCN",
+    "archived_response": "0.483991030155509"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "K2CO3",
+    "solvent": "DMF",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "K2CO3",
+    "solvent": "DCE",
+    "archived_response": "0.579418428399771"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "K2CO3",
+    "solvent": "toluene",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "K2CO3",
+    "solvent": "n-hexane",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "K2CO3",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "NaHCO3",
+    "solvent": "THF",
+    "archived_response": "0.205730555878007"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "DIPEA",
+    "solvent": "THF",
+    "archived_response": "0.189445064063981"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "CsF",
+    "solvent": "THF",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "Na3PO4·12H2O",
+    "solvent": "THF",
+    "archived_response": "0.171316783947304"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "KHCO3",
+    "solvent": "THF",
+    "archived_response": "0.238385033447066"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "2",
+    "base": "K2CO3",
+    "solvent": "HFIP",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "NaHCO3",
+    "solvent": "MeCN",
+    "archived_response": "0.608533005291819"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "DIPEA",
+    "solvent": "MeCN",
+    "archived_response": "0.523126287799069"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "MeCN",
+    "archived_response": "0.0136369009180895"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "NaHCO3",
+    "solvent": "DCE",
+    "archived_response": "0.0261252606935704"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "DIPEA",
+    "solvent": "DCE",
+    "archived_response": "0.156939181109165"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "DCE",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "NaH",
+    "solvent": "THF",
+    "archived_response": "0.0360505040698386"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "NaH",
+    "solvent": "MeCN",
+    "archived_response": "0.181452215416297"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "CsOH",
+    "solvent": "THF",
+    "archived_response": "0.0111493386044026"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "KHCO3",
+    "solvent": "MeCN",
+    "archived_response": "0.655297435746774"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "CsOH",
+    "solvent": "MeCN",
+    "archived_response": "0.379048792480721"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "3",
+    "base": "K3PO4",
+    "solvent": "THF",
+    "archived_response": "0.510434951692961"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "K3PO4",
+    "solvent": "MeCN",
+    "archived_response": "0.473290542354492"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "NaOH",
+    "solvent": "MeCN",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "CsF",
+    "solvent": "MeCN",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "KOtBu",
+    "solvent": "MeCN",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "K2HPO4",
+    "solvent": "MeCN",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "K3PO4",
+    "solvent": "DCE",
+    "archived_response": "0.180070760599573"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "DIPEA",
+    "solvent": "DMF",
+    "archived_response": "0.177419280088866"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "K3PO4",
+    "solvent": "DMF",
+    "archived_response": "0.216525373547245"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "NaHCO3",
+    "solvent": "DMF",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "KHCO3",
+    "solvent": "DMF",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "DIPEA",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.0336012846820239"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "4",
+    "base": "K3PO4",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.0500423721872687"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "K3PO4",
+    "solvent": "n-hexane",
+    "archived_response": "0.0216718675534558"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "DIPEA",
+    "solvent": "n-hexane",
+    "archived_response": "0.0614724672682027"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "K3PO4",
+    "solvent": "toluene",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "NaHCO3",
+    "solvent": "n-hexane",
+    "archived_response": "0.0331957486011545"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "KHCO3",
+    "solvent": "n-hexane",
+    "archived_response": "0.176435293358136"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "DIPEA",
+    "solvent": "toluene",
+    "archived_response": "0.0437438455828965"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "NaHCO3",
+    "solvent": "toluene",
+    "archived_response": "0.0282587343829813"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "NaOH",
+    "solvent": "THF",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "CsOH",
+    "solvent": "DCE",
+    "archived_response": "0.531216296879485"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "NaHCO3",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.20991417473587"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "KOtBu",
+    "solvent": "THF",
+    "archived_response": "0.0378765770252089"
+  },
+  {
+    "pool_id": "NH_PL36",
+    "batch_number": "5",
+    "base": "CsOH",
+    "solvent": "n-hexane",
+    "archived_response": "0.329200683441874"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "K2HPO4",
+    "solvent": "DCE",
+    "archived_response": "0.0676691729323308"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "K3PO4",
+    "solvent": "toluene",
+    "archived_response": "0.530815109343936"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "K2HPO4",
+    "solvent": "THF",
+    "archived_response": "0.0230849947534103"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "CsF",
+    "solvent": "DCE",
+    "archived_response": "0.0407239819004525"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "NaHCO3",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "NaOH",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.140161725067385"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "CsOH",
+    "solvent": "THF",
+    "archived_response": "0.0390309555854643"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "K3PO4",
+    "solvent": "DMF",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "CsOH",
+    "solvent": "DMF",
+    "archived_response": "0.0460829493087558"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "KHCO3",
+    "solvent": "n-hexane",
+    "archived_response": "0.184725848563969"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "K2CO3",
+    "solvent": "THF",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "1",
+    "base": "Na3PO4·12H2O",
+    "solvent": "THF",
+    "archived_response": "0.120558375634518"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "KHCO3",
+    "solvent": "toluene",
+    "archived_response": "0.240356083086053"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "NaOH",
+    "solvent": "toluene",
+    "archived_response": "0.0406779661016949"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "Na3PO4·12H2O",
+    "solvent": "toluene",
+    "archived_response": "0.304940374787053"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "K3PO4",
+    "solvent": "n-hexane",
+    "archived_response": "0.111709286675639"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "KOtBu",
+    "solvent": "toluene",
+    "archived_response": "0.0502901353965184"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "DIPEA",
+    "solvent": "toluene",
+    "archived_response": "0.028006589785832"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "NaH",
+    "solvent": "toluene",
+    "archived_response": "0.0790598290598291"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "K3PO4",
+    "solvent": "MeCN",
+    "archived_response": "0.195723684210526"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "K3PO4",
+    "solvent": "HFIP",
+    "archived_response": "0.0265060240963855"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "CsF",
+    "solvent": "toluene",
+    "archived_response": "0.0525"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "K3PO4",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.144171779141104"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "2",
+    "base": "K3PO4",
+    "solvent": "DCE",
+    "archived_response": "1.15495867768595"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "DCE",
+    "archived_response": "0.310483870967742"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "KHCO3",
+    "solvent": "DCE",
+    "archived_response": "0.565819861431871"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "NaH",
+    "solvent": "DCE",
+    "archived_response": "0.254716981132075"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "KOtBu",
+    "solvent": "DCE",
+    "archived_response": "0.43254817987152"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "K2CO3",
+    "solvent": "DCE",
+    "archived_response": "0.734883720930233"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "NaHCO3",
+    "solvent": "DCE",
+    "archived_response": "0.112561174551387"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "DIPEA",
+    "solvent": "DCE",
+    "archived_response": "0.514970059880239"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "NaOH",
+    "solvent": "DCE",
+    "archived_response": "0.0583941605839416"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "CsOH",
+    "solvent": "DCE",
+    "archived_response": "0.132673267326733"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "K3PO4",
+    "solvent": "THF",
+    "archived_response": "0.293062200956938"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "MeCN",
+    "archived_response": "0.248275862068966"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "3",
+    "base": "KHCO3",
+    "solvent": "MeCN",
+    "archived_response": "0.207920792079208"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "K2CO3",
+    "solvent": "MeCN",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "K2CO3",
+    "solvent": "n-hexane",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "K2CO3",
+    "solvent": "HFIP",
+    "archived_response": "0.0367965367965368"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "K2CO3",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "KHCO3",
+    "solvent": "HFIP",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "DIPEA",
+    "solvent": "MeCN",
+    "archived_response": "0.364948453608247"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "K2CO3",
+    "solvent": "DMF",
+    "archived_response": "0.0811808118081181"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "K2CO3",
+    "solvent": "toluene",
+    "archived_response": "0.0573951434878587"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "KHCO3",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.158567774936061"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "KOtBu",
+    "solvent": "MeCN",
+    "archived_response": "0.0911330049261084"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "DIPEA",
+    "solvent": "n-hexane",
+    "archived_response": "0.123469387755102"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "4",
+    "base": "KHCO3",
+    "solvent": "DMF",
+    "archived_response": "0.10580204778157"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "DIPEA",
+    "solvent": "THF",
+    "archived_response": "0.0662857142857143"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "Na3PO4·12H2O",
+    "solvent": "n-hexane",
+    "archived_response": "0.1533203125"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "DIPEA",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.16622691292876"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "NaH",
+    "solvent": "MeCN",
+    "archived_response": "0.0450980392156863"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "DIPEA",
+    "solvent": "DMF",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "Na3PO4·12H2O",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.0994764397905759"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "DIPEA",
+    "solvent": "HFIP",
+    "archived_response": "0.0"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "Na3PO4·12H2O",
+    "solvent": "DMF",
+    "archived_response": "0.0921985815602837"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "Na3PO4·12H2O",
+    "solvent": "HFIP",
+    "archived_response": "0.0341151385927505"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "KHCO3",
+    "solvent": "THF",
+    "archived_response": "0.369463869463869"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "KOtBu",
+    "solvent": "n-hexane",
+    "archived_response": "0.0262390670553936"
+  },
+  {
+    "pool_id": "OH_PL37",
+    "batch_number": "5",
+    "base": "NaH",
+    "solvent": "n-hexane",
+    "archived_response": "0.094661921708185"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "CsF",
+    "solvent": "DCE",
+    "archived_response": "0.103975535168196"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "K2HPO4",
+    "solvent": "toluene",
+    "archived_response": "0.045016077170418"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "K3PO4",
+    "solvent": "HFIP",
+    "archived_response": "0.027972027972028"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "CsF",
+    "solvent": "DMF",
+    "archived_response": "0.176706827309237"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "KOtBu",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.0554592720970537"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "K2HPO4",
+    "solvent": "n-hexane",
+    "archived_response": "0.0172966047405509"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "DIPEA",
+    "solvent": "DCE",
+    "archived_response": "1.44247787610619"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "K2HPO4",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.075"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "CsOH",
+    "solvent": "DMF",
+    "archived_response": "0.157142857142857"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "NaOH",
+    "solvent": "HFIP",
+    "archived_response": "0.04661487236404"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "DIPEA",
+    "solvent": "HFIP",
+    "archived_response": "0.0313630880579011"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "1",
+    "base": "NaH",
+    "solvent": "n-hexane",
+    "archived_response": "0.0513100436681223"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "DIPEA",
+    "solvent": "MeCN",
+    "archived_response": "0.497206703910615"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "DIPEA",
+    "solvent": "THF",
+    "archived_response": "0.0815109343936382"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "DIPEA",
+    "solvent": "DMF",
+    "archived_response": "0.0806045340050378"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "DIPEA",
+    "solvent": "toluene",
+    "archived_response": "0.365889212827988"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "KHCO3",
+    "solvent": "DCE",
+    "archived_response": "0.17910447761194"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "K2CO3",
+    "solvent": "DCE",
+    "archived_response": "0.094017094017094"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "Na3PO4·12H2O",
+    "solvent": "DCE",
+    "archived_response": "1.34876543209877"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "NaHCO3",
+    "solvent": "DCE",
+    "archived_response": "0.13695652173913"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "DIPEA",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.303108808290155"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "DIPEA",
+    "solvent": "n-hexane",
+    "archived_response": "0.150442477876106"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "CsOH",
+    "solvent": "DCE",
+    "archived_response": "0.0731070496083551"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "2",
+    "base": "NaOH",
+    "solvent": "DCE",
+    "archived_response": "0.0562347188264059"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "MeCN",
+    "archived_response": "0.277456647398844"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "toluene",
+    "archived_response": "0.398058252427184"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "THF",
+    "archived_response": "0.145161290322581"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.129716981132075"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "DMF",
+    "archived_response": "0.0804020100502513"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "n-hexane",
+    "archived_response": "0.151430173864274"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "Na3PO4·12H2O",
+    "solvent": "HFIP",
+    "archived_response": "0.0355450236966825"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "NaH",
+    "solvent": "DCE",
+    "archived_response": "0.346385542168675"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "KOtBu",
+    "solvent": "DCE",
+    "archived_response": "0.120654396728016"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "K3PO4",
+    "solvent": "DCE",
+    "archived_response": "0.683215130023641"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "K2HPO4",
+    "solvent": "DCE",
+    "archived_response": "0.0806845965770171"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "3",
+    "base": "NaH",
+    "solvent": "MeCN",
+    "archived_response": "0.218844984802432"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "K3PO4",
+    "solvent": "MeCN",
+    "archived_response": "0.316129032258064"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "K3PO4",
+    "solvent": "toluene",
+    "archived_response": "0.448979591836735"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "KHCO3",
+    "solvent": "MeCN",
+    "archived_response": "0.0976138828633406"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "NaHCO3",
+    "solvent": "MeCN",
+    "archived_response": "0.224489795918367"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "K3PO4",
+    "solvent": "THF",
+    "archived_response": "0.343337334933974"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "KHCO3",
+    "solvent": "toluene",
+    "archived_response": "0.0702247191011236"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "K2CO3",
+    "solvent": "MeCN",
+    "archived_response": "0.0807453416149068"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "K3PO4",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.325358851674641"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "NaHCO3",
+    "solvent": "toluene",
+    "archived_response": "0.194444444444444"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "CsF",
+    "solvent": "MeCN",
+    "archived_response": "0.0957095709570957"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "K3PO4",
+    "solvent": "DMF",
+    "archived_response": "0.0792079207920792"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "4",
+    "base": "K2CO3",
+    "solvent": "toluene",
+    "archived_response": "0.0569105691056911"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "K3PO4",
+    "solvent": "n-hexane",
+    "archived_response": "0.135135135135135"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "NaH",
+    "solvent": "toluene",
+    "archived_response": "0.158607350096712"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "NaH",
+    "solvent": "THF",
+    "archived_response": "0.0678127984718243"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "CsOH",
+    "solvent": "toluene",
+    "archived_response": "0.0602636534839925"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "CsOH",
+    "solvent": "MeCN",
+    "archived_response": "0.0919811320754717"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "NaH",
+    "solvent": "1,4-dioxane",
+    "archived_response": "0.114058355437666"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "NaHCO3",
+    "solvent": "THF",
+    "archived_response": "0.216970998925886"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "KOtBu",
+    "solvent": "toluene",
+    "archived_response": "0.0900562851782364"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "CsOH",
+    "solvent": "THF",
+    "archived_response": "0.0734966592427617"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "KOtBu",
+    "solvent": "MeCN",
+    "archived_response": "0.0742115027829314"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "NaOH",
+    "solvent": "toluene",
+    "archived_response": "0.0528169014084507"
+  },
+  {
+    "pool_id": "OH_PL38",
+    "batch_number": "5",
+    "base": "CsF",
+    "solvent": "toluene",
+    "archived_response": "0.0600961538461538"
+  }
+]

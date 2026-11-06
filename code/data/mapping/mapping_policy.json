@@ -1,0 +1,10 @@
+{
+  "Exact Molecular Match": "Canonical isomeric SMILES are equal, with charge and disconnected counterions retained. This compares donor inputs, not whole reactions or confirmed products.",
+  "Structural Analogue": "A documented previous retrospective mapping is chemically interpretable through the proposed bonding atom and donor family; substitution, ring system, acylation or covalent skeleton differs. Additional donor-state changes are recorded separately. This is a relation, not proof of a historical substitution decision.",
+  "Reactive-form Analogue": "The same neutral covalent skeleton is recovered after only counterion removal and protonation-state normalization; no substitution/ring changes or arbitrary precursor cleavage are permitted.",
+  "Additional Experimental Candidate": "Requires a contemporaneous explicit record that a partner outside the list was deliberately added. No such pair-level decision record was found; therefore no rows receive this label.",
+  "Unmatched": "No defensible route-compatible relation in this bounded mapping, or the recorded structure lacks the stated X–H site. Lack of a match does not prove an addition decision or experimental failure.",
+  "primary_precedence": "Exact > pure reactive form > structural > explicitly documented addition > unmatched. Other valid edges are retained; primary counts are exclusive.",
+  "structural_category_strength": "Broad donor-family / route-compatible association, not a conserved-scaffold or quantitative similarity claim. Substantial topology, substitution and donor-state changes remain explicit.",
+  "scope": "Not an exhaustive similarity search. Existing chemically interpretable family mappings are retained and split; pure acid/base form edges are added deterministically. Carbon-site indole/2-naphthol hypotheses are not relabelled as N/O transfer hypotheses."
+}

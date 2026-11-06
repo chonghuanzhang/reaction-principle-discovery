@@ -1,0 +1,2697 @@
+[
+  {
+    "actual_pair_id": "AP001",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        35
+      ],
+      "analogue_display_ids": [
+        "C035"
+      ],
+      "candidate_ids": [
+        "CP-15eeea50cbe27556"
+      ],
+      "hypothesis_ids": [
+        "CP-15eeea50cbe27556::H01",
+        "CP-15eeea50cbe27556::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP002",
+    "previous_mapping": {
+      "relation_en": "separately included; no suitable candidate match in this mapping",
+      "relation_original": "另行加入；当前无合适候选对应",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [],
+      "analogue_display_ids": [],
+      "candidate_ids": [],
+      "hypothesis_ids": [],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP003",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        44
+      ],
+      "analogue_display_ids": [
+        "C044"
+      ],
+      "candidate_ids": [
+        "CP-17e086b041c039f5"
+      ],
+      "hypothesis_ids": [
+        "CP-17e086b041c039f5::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP004",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP005",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP006",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP007",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        48
+      ],
+      "analogue_display_ids": [
+        "C048"
+      ],
+      "candidate_ids": [
+        "CP-8d11fd6c0d4e62a7"
+      ],
+      "hypothesis_ids": [
+        "CP-8d11fd6c0d4e62a7::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP008",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        41
+      ],
+      "analogue_display_ids": [
+        "C041"
+      ],
+      "candidate_ids": [
+        "CP-08db38349537cc05"
+      ],
+      "hypothesis_ids": [
+        "CP-08db38349537cc05::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP009",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP010",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        39,
+        46
+      ],
+      "analogue_display_ids": [
+        "C039",
+        "C046"
+      ],
+      "candidate_ids": [
+        "CP-ccb45c231c905174",
+        "CP-254b9aa19ec37938"
+      ],
+      "hypothesis_ids": [
+        "CP-ccb45c231c905174::H01",
+        "CP-ccb45c231c905174::H02",
+        "CP-254b9aa19ec37938::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP011",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        38,
+        48
+      ],
+      "analogue_display_ids": [
+        "C038",
+        "C048"
+      ],
+      "candidate_ids": [
+        "CP-d0c9b289504a201f",
+        "CP-8d11fd6c0d4e62a7"
+      ],
+      "hypothesis_ids": [
+        "CP-d0c9b289504a201f::H01",
+        "CP-8d11fd6c0d4e62a7::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP012",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP013",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        41
+      ],
+      "analogue_display_ids": [
+        "C041"
+      ],
+      "candidate_ids": [
+        "CP-08db38349537cc05"
+      ],
+      "hypothesis_ids": [
+        "CP-08db38349537cc05::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP014",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        39,
+        46
+      ],
+      "analogue_display_ids": [
+        "C039",
+        "C046"
+      ],
+      "candidate_ids": [
+        "CP-ccb45c231c905174",
+        "CP-254b9aa19ec37938"
+      ],
+      "hypothesis_ids": [
+        "CP-ccb45c231c905174::H01",
+        "CP-ccb45c231c905174::H02",
+        "CP-254b9aa19ec37938::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP015",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        39,
+        46
+      ],
+      "analogue_display_ids": [
+        "C039",
+        "C046"
+      ],
+      "candidate_ids": [
+        "CP-ccb45c231c905174",
+        "CP-254b9aa19ec37938"
+      ],
+      "hypothesis_ids": [
+        "CP-ccb45c231c905174::H01",
+        "CP-ccb45c231c905174::H02",
+        "CP-254b9aa19ec37938::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP016",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        38,
+        48
+      ],
+      "analogue_display_ids": [
+        "C038",
+        "C048"
+      ],
+      "candidate_ids": [
+        "CP-d0c9b289504a201f",
+        "CP-8d11fd6c0d4e62a7"
+      ],
+      "hypothesis_ids": [
+        "CP-d0c9b289504a201f::H01",
+        "CP-8d11fd6c0d4e62a7::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP017",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP018",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP019",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP020",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP021",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        48
+      ],
+      "analogue_display_ids": [
+        "C048"
+      ],
+      "candidate_ids": [
+        "CP-8d11fd6c0d4e62a7"
+      ],
+      "hypothesis_ids": [
+        "CP-8d11fd6c0d4e62a7::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP022",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP023",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP024",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP025",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP026",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP027",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP028",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        35
+      ],
+      "analogue_display_ids": [
+        "C035"
+      ],
+      "candidate_ids": [
+        "CP-15eeea50cbe27556"
+      ],
+      "hypothesis_ids": [
+        "CP-15eeea50cbe27556::H01",
+        "CP-15eeea50cbe27556::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP029",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        41
+      ],
+      "analogue_display_ids": [
+        "C041"
+      ],
+      "candidate_ids": [
+        "CP-08db38349537cc05"
+      ],
+      "hypothesis_ids": [
+        "CP-08db38349537cc05::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP030",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        44
+      ],
+      "analogue_display_ids": [
+        "C044"
+      ],
+      "candidate_ids": [
+        "CP-17e086b041c039f5"
+      ],
+      "hypothesis_ids": [
+        "CP-17e086b041c039f5::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP031",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        41
+      ],
+      "analogue_display_ids": [
+        "C041"
+      ],
+      "candidate_ids": [
+        "CP-08db38349537cc05"
+      ],
+      "hypothesis_ids": [
+        "CP-08db38349537cc05::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP032",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP033",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        39,
+        46
+      ],
+      "analogue_display_ids": [
+        "C039",
+        "C046"
+      ],
+      "candidate_ids": [
+        "CP-ccb45c231c905174",
+        "CP-254b9aa19ec37938"
+      ],
+      "hypothesis_ids": [
+        "CP-ccb45c231c905174::H01",
+        "CP-ccb45c231c905174::H02",
+        "CP-254b9aa19ec37938::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP034",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        39,
+        46
+      ],
+      "analogue_display_ids": [
+        "C039",
+        "C046"
+      ],
+      "candidate_ids": [
+        "CP-ccb45c231c905174",
+        "CP-254b9aa19ec37938"
+      ],
+      "hypothesis_ids": [
+        "CP-ccb45c231c905174::H01",
+        "CP-ccb45c231c905174::H02",
+        "CP-254b9aa19ec37938::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP035",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        38,
+        48
+      ],
+      "analogue_display_ids": [
+        "C038",
+        "C048"
+      ],
+      "candidate_ids": [
+        "CP-d0c9b289504a201f",
+        "CP-8d11fd6c0d4e62a7"
+      ],
+      "hypothesis_ids": [
+        "CP-d0c9b289504a201f::H01",
+        "CP-8d11fd6c0d4e62a7::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP036",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP037",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        39,
+        46
+      ],
+      "analogue_display_ids": [
+        "C039",
+        "C046"
+      ],
+      "candidate_ids": [
+        "CP-ccb45c231c905174",
+        "CP-254b9aa19ec37938"
+      ],
+      "hypothesis_ids": [
+        "CP-ccb45c231c905174::H01",
+        "CP-ccb45c231c905174::H02",
+        "CP-254b9aa19ec37938::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP038",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        38,
+        48
+      ],
+      "analogue_display_ids": [
+        "C038",
+        "C048"
+      ],
+      "candidate_ids": [
+        "CP-d0c9b289504a201f",
+        "CP-8d11fd6c0d4e62a7"
+      ],
+      "hypothesis_ids": [
+        "CP-d0c9b289504a201f::H01",
+        "CP-8d11fd6c0d4e62a7::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP039",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        48
+      ],
+      "analogue_display_ids": [
+        "C048"
+      ],
+      "candidate_ids": [
+        "CP-8d11fd6c0d4e62a7"
+      ],
+      "hypothesis_ids": [
+        "CP-8d11fd6c0d4e62a7::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP040",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        48
+      ],
+      "analogue_display_ids": [
+        "C048"
+      ],
+      "candidate_ids": [
+        "CP-8d11fd6c0d4e62a7"
+      ],
+      "hypothesis_ids": [
+        "CP-8d11fd6c0d4e62a7::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP041",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP042",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP043",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        27
+      ],
+      "analogue_display_ids": [
+        "C027"
+      ],
+      "candidate_ids": [
+        "CP-719c8ad385fb72f6"
+      ],
+      "hypothesis_ids": [
+        "CP-719c8ad385fb72f6::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP044",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        48
+      ],
+      "analogue_display_ids": [
+        "C048"
+      ],
+      "candidate_ids": [
+        "CP-8d11fd6c0d4e62a7"
+      ],
+      "hypothesis_ids": [
+        "CP-8d11fd6c0d4e62a7::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP045",
+    "previous_mapping": {
+      "relation_en": "separately included; no suitable candidate match in this mapping",
+      "relation_original": "另行加入；当前无合适候选对应",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [],
+      "analogue_display_ids": [],
+      "candidate_ids": [],
+      "hypothesis_ids": [],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP046",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP047",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP048",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP049",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP050",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP051",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP052",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP053",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP054",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP055",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP056",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP057",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP058",
+    "previous_mapping": {
+      "relation_en": "separately included; no suitable candidate match in this mapping",
+      "relation_original": "另行加入；当前无合适候选对应",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [],
+      "analogue_display_ids": [],
+      "candidate_ids": [],
+      "hypothesis_ids": [],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP059",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP060",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP061",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP062",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP063",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP064",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP065",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP066",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP067",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP068",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP069",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP070",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP071",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP072",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP073",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP074",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP075",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP076",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        52,
+        61
+      ],
+      "analogue_display_ids": [
+        "C052",
+        "C061"
+      ],
+      "candidate_ids": [
+        "CP-04e1450f7a0596df",
+        "CP-a85d32e4db2ff39c"
+      ],
+      "hypothesis_ids": [
+        "CP-04e1450f7a0596df::H01",
+        "CP-a85d32e4db2ff39c::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP077",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP078",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP079",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP080",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP081",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP082",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP083",
+    "previous_mapping": {
+      "relation_en": "exact molecular match",
+      "relation_original": "精确分子",
+      "exact_candidate_numbers": [
+        51
+      ],
+      "exact_display_ids": [
+        "C051"
+      ],
+      "analogue_candidate_numbers": [],
+      "analogue_display_ids": [],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP084",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP085",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP086",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        51,
+        64
+      ],
+      "analogue_display_ids": [
+        "C051",
+        "C064"
+      ],
+      "candidate_ids": [
+        "CP-3a23ccb632c9f44d",
+        "CP-dc11a678a5813bfb"
+      ],
+      "hypothesis_ids": [
+        "CP-3a23ccb632c9f44d::H01",
+        "CP-3a23ccb632c9f44d::H02",
+        "CP-dc11a678a5813bfb::H01",
+        "CP-dc11a678a5813bfb::H02"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP087",
+    "previous_mapping": {
+      "relation_en": "exact molecular match",
+      "relation_original": "精确分子",
+      "exact_candidate_numbers": [
+        95
+      ],
+      "exact_display_ids": [
+        "C095"
+      ],
+      "analogue_candidate_numbers": [],
+      "analogue_display_ids": [],
+      "candidate_ids": [
+        "CP-7010fb8ed62e0e37"
+      ],
+      "hypothesis_ids": [
+        "CP-7010fb8ed62e0e37::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP088",
+    "previous_mapping": {
+      "relation_en": "exact molecular match",
+      "relation_original": "精确分子",
+      "exact_candidate_numbers": [
+        95
+      ],
+      "exact_display_ids": [
+        "C095"
+      ],
+      "analogue_candidate_numbers": [],
+      "analogue_display_ids": [],
+      "candidate_ids": [
+        "CP-7010fb8ed62e0e37"
+      ],
+      "hypothesis_ids": [
+        "CP-7010fb8ed62e0e37::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP089",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP090",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP091",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        75,
+        80
+      ],
+      "analogue_display_ids": [
+        "C075",
+        "C080"
+      ],
+      "candidate_ids": [
+        "CP-02287a1de385889e",
+        "CP-95e4c6bd10d240e3"
+      ],
+      "hypothesis_ids": [
+        "CP-02287a1de385889e::H01",
+        "CP-95e4c6bd10d240e3::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP092",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        75,
+        80
+      ],
+      "analogue_display_ids": [
+        "C075",
+        "C080"
+      ],
+      "candidate_ids": [
+        "CP-02287a1de385889e",
+        "CP-95e4c6bd10d240e3"
+      ],
+      "hypothesis_ids": [
+        "CP-02287a1de385889e::H01",
+        "CP-95e4c6bd10d240e3::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP093",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        75,
+        80
+      ],
+      "analogue_display_ids": [
+        "C075",
+        "C080"
+      ],
+      "candidate_ids": [
+        "CP-02287a1de385889e",
+        "CP-95e4c6bd10d240e3"
+      ],
+      "hypothesis_ids": [
+        "CP-02287a1de385889e::H01",
+        "CP-95e4c6bd10d240e3::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP094",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        75,
+        80
+      ],
+      "analogue_display_ids": [
+        "C075",
+        "C080"
+      ],
+      "candidate_ids": [
+        "CP-02287a1de385889e",
+        "CP-95e4c6bd10d240e3"
+      ],
+      "hypothesis_ids": [
+        "CP-02287a1de385889e::H01",
+        "CP-95e4c6bd10d240e3::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP095",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP096",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP097",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP098",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP099",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        75,
+        80
+      ],
+      "analogue_display_ids": [
+        "C075",
+        "C080"
+      ],
+      "candidate_ids": [
+        "CP-02287a1de385889e",
+        "CP-95e4c6bd10d240e3"
+      ],
+      "hypothesis_ids": [
+        "CP-02287a1de385889e::H01",
+        "CP-95e4c6bd10d240e3::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP100",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP101",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        75,
+        80
+      ],
+      "analogue_display_ids": [
+        "C075",
+        "C080"
+      ],
+      "candidate_ids": [
+        "CP-02287a1de385889e",
+        "CP-95e4c6bd10d240e3"
+      ],
+      "hypothesis_ids": [
+        "CP-02287a1de385889e::H01",
+        "CP-95e4c6bd10d240e3::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP102",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        75,
+        80
+      ],
+      "analogue_display_ids": [
+        "C075",
+        "C080"
+      ],
+      "candidate_ids": [
+        "CP-02287a1de385889e",
+        "CP-95e4c6bd10d240e3"
+      ],
+      "hypothesis_ids": [
+        "CP-02287a1de385889e::H01",
+        "CP-95e4c6bd10d240e3::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP103",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP104",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP105",
+    "previous_mapping": {
+      "relation_en": "separately included; no suitable candidate match in this mapping",
+      "relation_original": "另行加入；当前无合适候选对应",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [],
+      "analogue_display_ids": [],
+      "candidate_ids": [],
+      "hypothesis_ids": [],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP106",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        75,
+        80
+      ],
+      "analogue_display_ids": [
+        "C075",
+        "C080"
+      ],
+      "candidate_ids": [
+        "CP-02287a1de385889e",
+        "CP-95e4c6bd10d240e3"
+      ],
+      "hypothesis_ids": [
+        "CP-02287a1de385889e::H01",
+        "CP-95e4c6bd10d240e3::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP107",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        75,
+        80
+      ],
+      "analogue_display_ids": [
+        "C075",
+        "C080"
+      ],
+      "candidate_ids": [
+        "CP-02287a1de385889e",
+        "CP-95e4c6bd10d240e3"
+      ],
+      "hypothesis_ids": [
+        "CP-02287a1de385889e::H01",
+        "CP-95e4c6bd10d240e3::H01"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  },
+  {
+    "actual_pair_id": "AP108",
+    "previous_mapping": {
+      "relation_en": "active-form/family analogy",
+      "relation_original": "活性形式/家族类比",
+      "exact_candidate_numbers": [],
+      "exact_display_ids": [],
+      "analogue_candidate_numbers": [
+        68,
+        82
+      ],
+      "analogue_display_ids": [
+        "C068",
+        "C082"
+      ],
+      "candidate_ids": [
+        "CP-757e317decd6724d",
+        "CP-b18c4945d055e0a6"
+      ],
+      "hypothesis_ids": [
+        "CP-757e317decd6724d::H01",
+        "CP-b18c4945d055e0a6::H01",
+        "CP-b18c4945d055e0a6::H02",
+        "CP-b18c4945d055e0a6::H03"
+      ],
+      "mapping_timing": "Retrospective record association prepared in the 2026-10-24 evidence ledger; not proof of original experimental selection timing."
+    }
+  }
+]

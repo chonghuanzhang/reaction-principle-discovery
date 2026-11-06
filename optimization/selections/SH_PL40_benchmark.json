@@ -1,0 +1,23 @@
+{
+  "pool_id": "SH_PL40",
+  "pool_size": 96,
+  "paired_runs": 100,
+  "actual_seeds": "5000–5099",
+  "identical_initial_batch_verified_all_100": true,
+  "batch_size": 12,
+  "target": "maximum archived SH response in the complete 96-condition measured pool",
+  "bo_median_exact_hit_budget": 24.0,
+  "random_median_exact_hit_budget": 48.0,
+  "bo_mean_exact_hit_budget": 26.04,
+  "random_mean_exact_hit_budget": 51.84,
+  "paired_mean_saving": 25.8,
+  "paired_mean_saving_95ci": [
+    20.88,
+    30.602999999999984
+  ],
+  "bo_hit_count_at_48": 100,
+  "random_hit_count_at_48": 51,
+  "interpretation": "algorithmic seed variation conditional on fixed measured responses; retrospective benchmark, not lab execution savings",
+  "verification_scope": "recomputed aggregates and all shared initial batches from archived selections; independent 2026-10-22 audit had already rerun all 1600 campaigns",
+  "benchmark_stopping": "full-pool archival replay; exact hit is an evaluator endpoint, never an unknown-ground-truth stop rule"
+}

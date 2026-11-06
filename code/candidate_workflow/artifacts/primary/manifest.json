@@ -1,0 +1,231 @@
+{
+  "binding": {
+    "bundle_digest": "0ec80f5d4b55345873696a66bc575b31ec579046ad236a86d5c1393b9a88aefa",
+    "code": {
+      "exploration_panel.py": "5abb1c32c39c126978ddedb7626d69006454fefa40e4d243d3a7805443be5fe5",
+      "run_exploration_panel.py": "a82388c389c6333cf457a2121259b771698170c472fd5cf383bae846a2a8aefd"
+    },
+    "config": {
+      "bundle": "bundle.json",
+      "evidence_per_lens": 24,
+      "fixed_component": "Seed trifluoroethyl carbonyl; exact chosen model identity requires operational confirmation",
+      "lenses": [
+        {
+          "description": "Neutral carbon pi nucleophiles and ambident aromatic systems",
+          "id": "carbon_pi",
+          "patterns": [
+            "\\bpi\\b|π|aromatic nucleophil|electron.rich.*arom|heteroarom|Friedel",
+            "fluor|carbonyl|electrophil"
+          ]
+        },
+        {
+          "description": "Carbon anions and organometallic carbon transfer",
+          "id": "carbon_transfer",
+          "patterns": [
+            "carbanion|enolate|organoboron|transmetal",
+            "fluor|carbonyl|palladium"
+          ]
+        },
+        {
+          "description": "Neutral or base-activated nitrogen bond formation",
+          "id": "nitrogen",
+          "patterns": [
+            "amine|nitrogen nucleophil|N.nucleophil|amidate",
+            "fluor|coordina|base"
+          ]
+        },
+        {
+          "description": "Oxygen lone-pair and oxygen-anion bond formation; preserve ambident carbon options",
+          "id": "oxygen",
+          "patterns": [
+            "alkoxide|phenoxide|oxyanion|oxygen nucleophil",
+            "fluor|counterion|base"
+          ]
+        },
+        {
+          "description": "Sulfur lone-pair, anionic, metal-bound and sigma-bond transfer precursors",
+          "id": "sulfur",
+          "patterns": [
+            "sulfur|thiol|sulfide|S.S|disulf",
+            "fluor|palladium|oxid"
+          ]
+        },
+        {
+          "description": "Phosphorus nucleophiles and phosphorus bond-transfer precursors",
+          "id": "phosphorus",
+          "patterns": [
+            "phosphine|phosphorus|phosphonium|phosphonate",
+            "fluor|nucleophil|palladium"
+          ]
+        },
+        {
+          "description": "Radical and other main-group group-transfer precursors",
+          "id": "radical_other",
+          "patterns": [
+            "radical precursor|radical addition|silane|borane|selen",
+            "fluor|carbonyl|transfer"
+          ]
+        }
+      ],
+      "model": "gpt-5.6-sol",
+      "panel_budget": 48,
+      "per_source_cap": 2,
+      "study_id": "trifluoroethyl-carbonyl-exploration-v1",
+      "target": "Preserve intended carbonyl scaffold; introduce variable partner onto CF3-derived alkene carbon retaining one F, net two F loss.",
+      "variable_role": "reaction partner; allow new bond types and mechanisms",
+      "workers": 3
+    },
+    "model": "gpt-5.6-sol",
+    "prompt": "You are a synthetic chemist designing a finite exploratory reagent panel.\nPropose 10-16 concrete, simple, diverse reagent molecules within the supplied mechanism lens.\nThe objective is experimental search coverage, NOT a list restricted to known successes.\nDo not require the original Seed partner/catalytic cycle for new bond types. Keep fixed target connectivity.\nConsider neutral pi nucleophiles, lone-pair donors, anions, metal-transfer precursors and sigma-bond donors\nwhen pertinent to this lens. Distinguish the atom forming the bond from other heteroatoms in the molecule.\nInclude boundary probes as chemically reasoned hypotheses when evidence is uncertain.\nNo candidate must be included to reproduce a known result. No desired named family list is supplied.\nUse exact valid SMILES and ZERO-BASED RDKit atom indices in that submitted SMILES for possible bond-forming atoms.\ncenter is the element symbol at each cited atom. If multiple atoms/elements may react, use separate proposals.\nEach proposal lens must exactly equal supplied lens.id. Do not propose unspecified groups or metal intermediates\nas purchasable reagents. Unknown commercial availability is acceptable; do not invent CAS, stock or prices.\nWrite name (standard reagent name) and all explanations in readable Chinese where possible.\nbasis: local_analogy, source_system, or model_hypothesis. Cite only exact supplied evidence_id and\nUNCHANGED quotation substrings. A proposed exact molecule need not have been used in the source:\nexplicitly describe extrapolation. Hypotheses may have no citations. Never invent references.\nReport activation need, condition-sensitive risks and a discriminating test, not fabricated ready-to-run dosing.\nUnknown condition compatibility is not a rejection. Return uncovered areas honestly.\nNo reaction probability, guaranteed success, or intrinsic family-failure statements.\n",
+    "schema": {
+      "$defs": {
+        "Candidate": {
+          "additionalProperties": false,
+          "properties": {
+            "activation": {
+              "minLength": 1,
+              "title": "Activation",
+              "type": "string"
+            },
+            "atom_indices": {
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 1,
+              "title": "Atom Indices",
+              "type": "array"
+            },
+            "basis": {
+              "title": "Basis",
+              "type": "string"
+            },
+            "center": {
+              "minLength": 1,
+              "title": "Center",
+              "type": "string"
+            },
+            "citations": {
+              "items": {
+                "$ref": "#/$defs/Citation"
+              },
+              "title": "Citations",
+              "type": "array"
+            },
+            "diagnostic": {
+              "minLength": 1,
+              "title": "Diagnostic",
+              "type": "string"
+            },
+            "family": {
+              "minLength": 1,
+              "title": "Family",
+              "type": "string"
+            },
+            "lens": {
+              "minLength": 1,
+              "title": "Lens",
+              "type": "string"
+            },
+            "name": {
+              "minLength": 1,
+              "title": "Name",
+              "type": "string"
+            },
+            "reactive_form": {
+              "minLength": 1,
+              "title": "Reactive Form",
+              "type": "string"
+            },
+            "reason": {
+              "minLength": 1,
+              "title": "Reason",
+              "type": "string"
+            },
+            "risks": {
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "title": "Risks",
+              "type": "array"
+            },
+            "route": {
+              "minLength": 1,
+              "title": "Route",
+              "type": "string"
+            },
+            "smiles": {
+              "minLength": 1,
+              "title": "Smiles",
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "smiles",
+            "atom_indices",
+            "center",
+            "family",
+            "reactive_form",
+            "route",
+            "lens",
+            "basis",
+            "citations",
+            "reason",
+            "activation",
+            "risks",
+            "diagnostic"
+          ],
+          "title": "Candidate",
+          "type": "object"
+        },
+        "Citation": {
+          "additionalProperties": false,
+          "properties": {
+            "evidence_id": {
+              "title": "Evidence Id",
+              "type": "string"
+            },
+            "quote": {
+              "title": "Quote",
+              "type": "string"
+            }
+          },
+          "required": [
+            "evidence_id",
+            "quote"
+          ],
+          "title": "Citation",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "candidates": {
+          "items": {
+            "$ref": "#/$defs/Candidate"
+          },
+          "maxItems": 24,
+          "minItems": 1,
+          "title": "Candidates",
+          "type": "array"
+        },
+        "uncovered": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Uncovered",
+          "type": "array"
+        }
+      },
+      "required": [
+        "candidates",
+        "uncovered"
+      ],
+      "title": "CandidatePayload",
+      "type": "object"
+    }
+  },
+  "mode": "exploratory_panel_not_success_prediction",
+  "run_id": "59e2412b7072b106870d88a850e9e0c316ad3fdb576e5d3becfd4d6fe4832e90"
+}

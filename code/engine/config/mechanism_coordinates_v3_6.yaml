@@ -1,0 +1,93 @@
+# Symmetric answer-independent mechanistic axes for the fixed SR001
+# electrophile. These labels describe physical-organic behavior only.
+coordinate_vocabulary:
+  nucleophilic_center:
+    - carbon_center
+    - nitrogen_center
+    - oxygen_center
+    - sulfur_center
+    - phosphorus_center
+  reactive_state:
+    - neutral_lone_pair_or_pi_state
+    - anionic_state
+    - organometallic_state
+    - radical_state
+    - sigma_bond_transfer_state
+  bond_forming_mode:
+    - polar_addition_elimination
+    - conjugate_or_vinylic_addition
+    - transition_metal_mediated_coupling
+    - radical_addition
+    - group_transfer
+  activation_mode:
+    - intrinsic_nucleophilicity
+    - base_activation
+    - transition_metal_activation
+    - redox_activation
+    - photo_or_radical_activation
+  attack_topology:
+    - carbonyl_carbon
+    - fluorinated_alkene_carbon
+    - metal_bound_carbon_fragment
+    - allylic_or_vinylic_substitution_site
+  target_termination:
+    - selective_fluoride_elimination
+    - protonation_then_selective_fluoride_elimination
+    - reductive_elimination_with_fluoride_control
+    - radical_termination_with_fluoride_control
+    - non_target_or_unresolved_termination
+
+coordinate_cell_templates:
+  - template_id: neutral_pi_or_lone_pair_capture
+    nucleophilic_center: "*"
+    reactive_state: neutral_lone_pair_or_pi_state
+    bond_forming_mode: conjugate_or_vinylic_addition
+    activation_mode: intrinsic_nucleophilicity
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: protonation_then_selective_fluoride_elimination
+    disposition: unknown
+    rationale: Symmetric neutral-donor pathway; evidence not yet adjudicated.
+  - template_id: base_generated_anion_capture
+    nucleophilic_center: "*"
+    reactive_state: anionic_state
+    bond_forming_mode: polar_addition_elimination
+    activation_mode: base_activation
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: protonation_then_selective_fluoride_elimination
+    disposition: unknown
+    rationale: Symmetric anionic pathway; evidence not yet adjudicated.
+  - template_id: metal_mediated_transfer
+    nucleophilic_center: "*"
+    reactive_state: organometallic_state
+    bond_forming_mode: transition_metal_mediated_coupling
+    activation_mode: transition_metal_activation
+    attack_topology: metal_bound_carbon_fragment
+    target_termination: reductive_elimination_with_fluoride_control
+    disposition: unknown
+    rationale: Symmetric metal-mediated pathway; evidence not yet adjudicated.
+  - template_id: radical_capture
+    nucleophilic_center: "*"
+    reactive_state: radical_state
+    bond_forming_mode: radical_addition
+    activation_mode: photo_or_radical_activation
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: radical_termination_with_fluoride_control
+    disposition: unknown
+    rationale: Symmetric radical pathway; evidence not yet adjudicated.
+  - template_id: sigma_bond_group_transfer
+    nucleophilic_center: "*"
+    reactive_state: sigma_bond_transfer_state
+    bond_forming_mode: group_transfer
+    activation_mode: redox_activation
+    attack_topology: fluorinated_alkene_carbon
+    target_termination: selective_fluoride_elimination
+    disposition: unknown
+    rationale: Symmetric sigma-bond transfer pathway; evidence not yet adjudicated.
+
+family_convergence_dispositions: []
+
+saturation:
+  maximum_new_family_rate: 0.05
+  maximum_material_taxonomy_change_rate: 0.0
+  required_consecutive_low_novelty_rounds: 2
+  minimum_independent_lanes: 2

@@ -1,0 +1,4812 @@
+[
+  {
+    "candidate_number": 1,
+    "hypothesis_id": "CP-ab85a340b88a5fa0::H01",
+    "option_id": "001-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "AFNRWGZBZKNNAY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1R",
+    "NR": 2,
+    "evidence_kind": "registered_connectivity",
+    "pubchem_query_id": "PC-fef16489f470788a4f59",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      130680879,
+      25122814,
+      101431145
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V22",
+      "V20"
+    ],
+    "note": "结构登记命中；登记不等于该文献已分离确证本产物。",
+    "fragment_decision": "活化酯脱羧，只转移甲基；删除整个羧基及NHPI离去部分。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 1,
+      "NP_label": "1R",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "AFNRWGZBZKNNAY",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "NHPI乙酸酯拟经脱羧转移甲基；甲基单氟烯酮为已登记结构，改变的是碳源活化方式。"
+  },
+  {
+    "candidate_number": 2,
+    "hypothesis_id": "CP-fe84fbfeaab6ca84::H01",
+    "option_id": "002-H01-O01",
+    "center": "C",
+    "product_smiles": "COC(=O)CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "NXGJTZLZNIHGNS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-682be9722ca63292c942",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "硅烯酮缩醛末端碳成键；C=C改单键、C–O成C=O，SiMe3离去；保留甲酯。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "NXGJTZLZNIHGNS",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "酯烯醇硅醚转移去硅后的碳端；β-氟烯酮骨架已知，目标CF3羰基与该亲核体的串联净转化未核实。"
+  },
+  {
+    "candidate_number": 2,
+    "hypothesis_id": "CP-fe84fbfeaab6ca84::H02",
+    "option_id": "002-H02-O01",
+    "center": "C",
+    "product_smiles": "COC(=O)CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "NXGJTZLZNIHGNS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-682be9722ca63292c942",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "硅烯酮缩醛末端碳成键；C=C改单键、C–O成C=O，SiMe3离去；保留甲酯。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "NXGJTZLZNIHGNS",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "酯烯醇硅醚转移去硅后的碳端；β-氟烯酮骨架已知，目标CF3羰基与该亲核体的串联净转化未核实。"
+  },
+  {
+    "candidate_number": 3,
+    "hypothesis_id": "CP-1f98fe5f121fd9a1::H01",
+    "option_id": "003-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccncc1)c1ccccc1",
+    "product_inchikey": "KGAZBAPPTSBQSO-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-4e2301f260c6705b3f48",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "保持提交SMILES所指的4-吡啶基；以C–C取代C–B，去除B(OH)2。文字曾误称3-吡啶基。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 1
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "KGAZBAPPTSBQSO",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "有机硼参与相同CF3羰基净脱两F成C-C键已有方法；4-吡啶基影响配位及范围，不构成新反应类别。"
+  },
+  {
+    "candidate_number": 4,
+    "hypothesis_id": "CP-869e3eb72168d724::H01",
+    "option_id": "004-H01-O01",
+    "center": "C",
+    "product_smiles": "Cc1ccc(C(F)=CC(=O)c2ccccc2)o1",
+    "product_inchikey": "OBPVAGKMFMJIPD-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-f98b9e29447ddcb34228",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "OBPVAGKMFMJIPD",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "富电子呋喃的芳香碳进攻不同于有机硼转移；已有芳基单氟烯酮骨架，但未核实该CF3底物直接杂芳基化。"
+  },
+  {
+    "candidate_number": 4,
+    "hypothesis_id": "CP-869e3eb72168d724::H02",
+    "option_id": "004-H02-O01",
+    "center": "C",
+    "product_smiles": "Cc1ccc(C(F)=CC(=O)c2ccccc2)o1",
+    "product_inchikey": "OBPVAGKMFMJIPD-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-f98b9e29447ddcb34228",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "OBPVAGKMFMJIPD",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "富电子呋喃的芳香碳进攻不同于有机硼转移；已有芳基单氟烯酮骨架，但未核实该CF3底物直接杂芳基化。"
+  },
+  {
+    "candidate_number": 5,
+    "hypothesis_id": "CP-b49e6492b8f3b97f::H01",
+    "option_id": "005-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1cc2ccccc2s1)c1ccccc1",
+    "product_inchikey": "DWVHCQAKSZMDHP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6f1be447e5f1ed255075",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "DWVHCQAKSZMDHP",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "苯并噻吩C位进攻，硫为环内原子；目标杂芳基属于已知C-单氟烯酮家族，直接C-H伙伴路线待验证。"
+  },
+  {
+    "candidate_number": 6,
+    "hypothesis_id": "CP-60ed269cc272def9::H01",
+    "option_id": "006-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccccc1)c1ccccc1",
+    "product_inchikey": "ROYMGIZNBLCJPN-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1R",
+    "NR": 2,
+    "evidence_kind": "registered_connectivity",
+    "pubchem_query_id": "PC-e66fb51203ca5c8fdcde",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      73177594,
+      12929813,
+      101431143
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "结构登记命中；登记不等于该文献已分离确证本产物。",
+    "fragment_decision": "重氮盐脱N2，只转移苯基；BF4为反离子。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 1,
+      "NP_label": "1R",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "ROYMGIZNBLCJPN",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "重氮盐脱N2传递苯基；目标苯基单氟烯酮已登记，重氮前体需另设活化条件。"
+  },
+  {
+    "candidate_number": 7,
+    "hypothesis_id": "CP-5934af04c3f8aeb9::H01",
+    "option_id": "007-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C[N+](=O)[O-])c1ccccc1",
+    "product_inchikey": "CDWTXUWSHPMUPP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6552f472ea5b0f4d3f39",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V20",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "CDWTXUWSHPMUPP",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "硝基甲烷碳端形成带硝基烷基的β-氟烯酮；硝基稳定负离子与CF3羰基串联尚无匹配先例。"
+  },
+  {
+    "candidate_number": 8,
+    "hypothesis_id": "CP-66013c6cea267de7::H01",
+    "option_id": "008-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(=O)CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "FRUDKJGFSXKBSP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-f5e33674d4ee8c30091c",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FRUDKJGFSXKBSP",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "丙酮烯醇盐碳端引入CH2COCH3；β-氟烯酮成骨架已有，但两羰基底物的交叉/自缩合需区分。"
+  },
+  {
+    "candidate_number": 9,
+    "hypothesis_id": "CP-8125e5fbd7a0556e::H01",
+    "option_id": "009-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)Cc1ccccc1)c1ccccc1",
+    "product_inchikey": "RLYOVOXCZHYKHT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9c5dc5924b92ed657c84",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "以C–C取代苄位C–Zn；ZnBr不进入产物。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "RLYOVOXCZHYKHT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "苄基锌拟经转金属或加成引入苄基；与有机硼法的已知C-C净转化相邻，Zn身份不是新产物类别。"
+  },
+  {
+    "candidate_number": 10,
+    "hypothesis_id": "CP-5bf56c0fb6340187::H01",
+    "option_id": "010-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(C)(C)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "RFANGRRPHMSMQD-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-edfbc124d55640fa9e4f",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "C–I裂解后转移叔丁基，碘不进入产物。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "RFANGRRPHMSMQD",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "叔丁基碘作为自由基/交叉偶联前体，不是直接阴离子亲核体；C-C目标骨架已知，需验证卤代物活化。"
+  },
+  {
+    "candidate_number": 11,
+    "hypothesis_id": "CP-7ff7c801adbfac54::H01",
+    "option_id": "011-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(=O)CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "FRUDKJGFSXKBSP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-f5e33674d4ee8c30091c",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "C端成键：烯醇负离子C=C改单键并恢复C=O；去除Li+。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FRUDKJGFSXKBSP",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "丙酮锂烯醇盐的C成键与O成键分评；目标与钠盐C端相同，不重复计算产品新颖性。"
+  },
+  {
+    "candidate_number": 11,
+    "hypothesis_id": "CP-7ff7c801adbfac54::H02",
+    "option_id": "011-H02-O01",
+    "center": "O",
+    "product_smiles": "C=C(C)OC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "VQEGSSAHKFBWJW-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-78611f9eca5c656715fd",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.3762/bjoc.20.226"
+    ],
+    "references": [
+      "V05",
+      "V10"
+    ],
+    "note": "",
+    "fragment_decision": "O端成键：保留烯醚C=C，不擅自改为C端连接；去除Li+。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "VQEGSSAHKFBWJW",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "O端烯醇盐形成额外烯醚链；已有C(F)-OR但没有核实丙酮烯醇锂作为O供体的目标净转化，C/O竞争需独立判断。"
+  },
+  {
+    "candidate_number": 12,
+    "hypothesis_id": "CP-9531200cd700e862::H01",
+    "option_id": "012-H01-O01",
+    "center": "C",
+    "product_smiles": "COC(=O)C(C(=O)OC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "BWHBSMMMUMIYFS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-b08987ccc221332291e4",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "丙二酸酯碳负离子成键后电中性；去除Na+。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "BWHBSMMMUMIYFS",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "丙二酸酯碳端具有双酯稳定，形成多羰基取代目标；尚未核实该前体与CF3羰基的相同净转化。"
+  },
+  {
+    "candidate_number": 13,
+    "hypothesis_id": "CP-3be0de0ba1e8a796::H01",
+    "option_id": "013-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)CC1CC1)c1ccccc1",
+    "product_inchikey": "FDBXYHPSLVAJHK-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-052901f21bdd966f998a",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "C–Br裂解后固定原环丙甲基连接；不将潜在自由基开环产物混入指定假设。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FDBXYHPSLVAJHK",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "溴甲基环丙烷引入环丙甲基；需要激活C-Br且排除自由基开环，属于已知C-C净转化的前体拓展。"
+  },
+  {
+    "candidate_number": 14,
+    "hypothesis_id": "CP-8af179673435d8d7::H01",
+    "option_id": "014-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "AFNRWGZBZKNNAY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1R",
+    "NR": 2,
+    "evidence_kind": "registered_connectivity",
+    "pubchem_query_id": "PC-fef16489f470788a4f59",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      130680879,
+      25122814,
+      101431145
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V22",
+      "V20"
+    ],
+    "note": "结构登记命中；登记不等于该文献已分离确证本产物。",
+    "fragment_decision": "甲基负离子转移成键；Li+不进入产物。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 1,
+      "NP_label": "1R",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "AFNRWGZBZKNNAY",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "甲基锂对应已登记甲基单氟烯酮；有机锂可能优先加羰基，产物新颖性不能由活性形式抬高。"
+  },
+  {
+    "candidate_number": 15,
+    "hypothesis_id": "CP-a84a97ef9479980c::H01",
+    "option_id": "015-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C1=COCC1)c1ccccc1",
+    "product_inchikey": "LFCJLUNECHYNNH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-bc8b59d29634b1a9df83",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V19",
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "保留烯醚双键的末端取代形式；固定原atom1与原CF3碳连接。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LFCJLUNECHYNNH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "二氢呋喃可保留烯醚或经加成氢化得到不同连接；两个终态分别查结构，不能指定单一新产物。"
+  },
+  {
+    "candidate_number": 15,
+    "hypothesis_id": "CP-a84a97ef9479980c::H01",
+    "option_id": "015-H01-O02",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C1CCOC1)c1ccccc1",
+    "product_inchikey": "PJMNUGBPEMRMSZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-826c5e6b20608e5f2595",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V19",
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "加成后还原/质子化的饱和环醚形式；需额外氢来源，未实证。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "PJMNUGBPEMRMSZ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "二氢呋喃可保留烯醚或经加成氢化得到不同连接；两个终态分别查结构，不能指定单一新产物。"
+  },
+  {
+    "candidate_number": 16,
+    "hypothesis_id": "CP-ba958c6f38d5a527::H01",
+    "option_id": "016-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C1CC1)c1ccccc1",
+    "product_inchikey": "VXWPSOKUEYESAM-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-3364eb938904b18d7fcd",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "C–B取代为C–C，保持环丙基；删除B(OH)2。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 1
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "VXWPSOKUEYESAM",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "环丙基硼酸属于有机硼C转移与同类CF3羰基净转化；具体小环兼容性为底物范围问题。"
+  },
+  {
+    "candidate_number": 17,
+    "hypothesis_id": "CP-df56f80eb64eca43::H01",
+    "option_id": "017-H01-O01",
+    "center": "C",
+    "product_smiles": "COc1cc(OC)c(C(F)=CC(=O)c2ccccc2)c(OC)c1",
+    "product_inchikey": "HYDHUHFGIMSKSG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a062b1bc731b611e1382",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r"
+    ],
+    "references": [
+      "V19"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "HYDHUHFGIMSKSG",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "富电子三甲氧基芳环的C-H取代近于已知间二甲氧基苯反应；本项目需在CF3起点完成前置去HF。"
+  },
+  {
+    "candidate_number": 18,
+    "hypothesis_id": "CP-0a28c29fb4c274be::H01",
+    "option_id": "018-H01-O01",
+    "center": "C",
+    "product_smiles": "C=CCC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "CKQGFQSMUAXWKN-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-991f2cbbfcba748c8491",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V20",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "Sakurai型末端成键并双键迁移、脱硅；净转移烯丙基，指定成键原子原atom0。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "CKQGFQSMUAXWKN",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "烯丙硅烷转移烯丙基，需脱Si并区分区域选择；目标C-C骨架已知但该串联路线未核实。"
+  },
+  {
+    "candidate_number": 19,
+    "hypothesis_id": "CP-205f9fb18ebd4ed6::H01",
+    "option_id": "019-H01-O01",
+    "center": "C",
+    "product_smiles": "CCOC=CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "ILKWKALDNVSONT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6236defcc6a971bcdfbe",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "保留烯醚的脱质子化终态。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "ILKWKALDNVSONT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "乙烯醚可能保留双键或水解成醛，两种产物分开记录；不将水解前后作为同一精确分子。"
+  },
+  {
+    "candidate_number": 19,
+    "hypothesis_id": "CP-205f9fb18ebd4ed6::H01",
+    "option_id": "019-H01-O02",
+    "center": "C",
+    "product_smiles": "O=CCC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "FZWLXLWLBFVOTI-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a76f06324e8e7d407043",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "烯醚捕获后水解的醛终态；乙氧基作为醇离去。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FZWLXLWLBFVOTI",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "乙烯醚可能保留双键或水解成醛，两种产物分开记录；不将水解前后作为同一精确分子。"
+  },
+  {
+    "candidate_number": 20,
+    "hypothesis_id": "CP-2461405780c80fb1::H01",
+    "option_id": "020-H01-O01",
+    "center": "C",
+    "product_smiles": "Cc1cccc(C)c1C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "QYCJIUSIZRGMLZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-d5c12fbed481ecc68bfb",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "以C–C取代C–B；保持邻位双甲基及芳环连接。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 1
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "QYCJIUSIZRGMLZ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "芳基硼酸与同类CF3羰基的净转化已知；2,6-二甲基改变位阻，属于范围验证。"
+  },
+  {
+    "candidate_number": 21,
+    "hypothesis_id": "CP-2ad90a72deb18e8b::H01",
+    "option_id": "021-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccco1)c1ccccc1",
+    "product_inchikey": "FXWUBBJINJUVDZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-78c4589808443f9d2067",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FXWUBBJINJUVDZ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "呋喃C-H直接进攻与有机硼碳转移不同，已知芳基/杂芳基骨架不能证明该路线成功。"
+  },
+  {
+    "candidate_number": 22,
+    "hypothesis_id": "CP-383b50ba8f0aa496::H01",
+    "option_id": "022-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1c[nH]c2ccccc12)c1ccccc1",
+    "product_inchikey": "LVPRSXWLAYHQJT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a092f4395d5f22e03e77",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LVPRSXWLAYHQJT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "吲哚C3进攻与N成键不同；已知C取代单氟烯酮骨架，未核实本底物直接C3取代。"
+  },
+  {
+    "candidate_number": 22,
+    "hypothesis_id": "CP-383b50ba8f0aa496::H02",
+    "option_id": "022-H02-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1c[nH]c2ccccc12)c1ccccc1",
+    "product_inchikey": "LVPRSXWLAYHQJT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a092f4395d5f22e03e77",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LVPRSXWLAYHQJT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "吲哚C3进攻与N成键不同；已知C取代单氟烯酮骨架，未核实本底物直接C3取代。"
+  },
+  {
+    "candidate_number": 23,
+    "hypothesis_id": "CP-4adad89fe53a73a6::H01",
+    "option_id": "023-H01-O01",
+    "center": "C",
+    "product_smiles": "COc1cccc(OC)c1C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OKPMHZPXXJGTAG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-05b9f9aa92256eb001e7",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r"
+    ],
+    "references": [
+      "V19"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "OKPMHZPXXJGTAG",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "间二甲氧基苯已有二氟烯基酮分子间C-F取代近例；该文底物还有α-nBu取代，与本目标精确结构不同。"
+  },
+  {
+    "candidate_number": 24,
+    "hypothesis_id": "CP-52f3e8b4011bbac2::H01",
+    "option_id": "024-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)CC(=O)c1ccccc1)c1ccccc1",
+    "product_inchikey": "KAGYZNGKPKBSLU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ea2bf421fb4f3b9c8074",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "硅烯醇醚末端碳成键并脱SiMe3，恢复苯乙酮羰基。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "KAGYZNGKPKBSLU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "苯乙酮硅烯醚经脱Si转移CH2COPh；相关反应可构建β-氟烯酮，但并非该CF3底物与该片段的直接偶联。"
+  },
+  {
+    "candidate_number": 25,
+    "hypothesis_id": "CP-5d0333041aebff88::H01",
+    "option_id": "025-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1c(O)ccc2ccccc12)c1ccccc1",
+    "product_inchikey": "WGPMURXBUSBSLY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-7ae99aa06a5e017c2019",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r"
+    ],
+    "references": [
+      "V19"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "WGPMURXBUSBSLY",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "2-萘酚按芳环C端而非O端评价；羟基诱导的芳环亲核反应属不同途径，须保留C/O竞争。"
+  },
+  {
+    "candidate_number": 26,
+    "hypothesis_id": "CP-6f96d085ca3320a4::H01",
+    "option_id": "026-H01-O01",
+    "center": "C",
+    "product_smiles": "N#CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "LGDJNIDZORKBDW-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9ca367c1788ea68d5ba8",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.9b00999"
+    ],
+    "references": [
+      "V21"
+    ],
+    "note": "",
+    "fragment_decision": "经C–Si裂解转移氰基，成键端为碳；SiMe3不保留。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LGDJNIDZORKBDW",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "TMSCN与gem-CF2烯烃已有Cs2CO3促进氰化，局部C(F)-CN连接已知；CF3羰基需额外去HF。"
+  },
+  {
+    "candidate_number": 27,
+    "hypothesis_id": "CP-719c8ad385fb72f6::H01",
+    "option_id": "027-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccc[nH]1)c1ccccc1",
+    "product_inchikey": "GUQQLFUXGJKENG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-1ed369b7a919d86ea1e4",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "GUQQLFUXGJKENG",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "吡咯C端与另列N端对应不同产物；已知C取代骨架，尚无该直接C-H串联转化依据。"
+  },
+  {
+    "candidate_number": 27,
+    "hypothesis_id": "CP-719c8ad385fb72f6::H02",
+    "option_id": "027-H02-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)n1cccc1)c1ccccc1",
+    "product_inchikey": "YHEUDNFIHJAORJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-bb59844a6169407f9593",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/adsc.202200352",
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V31",
+      "V02",
+      "V03"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "理由补入直接三氟丙酰胺/吲哚先例，具体区分酮/酰胺及N伙伴身份；不另改分。",
+    "review_status": "specific_N_comparison_corrected",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "YHEUDNFIHJAORJ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "吡咯的局部N-氟乙烯连接有既有近例。V31已报道三氟丙酰胺与吲哚生成N-单氟烯基产物，因此不能把‘含氟羰基C–N’笼统作为空白；本假设为苯基酮PhCOCH2CF3与吡咯，具体差别是酮/酰胺及N杂环身份，准确取代范围和条件兼容性仍待逐例核实，保留现有NP/NR。此处仅指N端，不能与另列吡咯C端反应混同。"
+  },
+  {
+    "candidate_number": 28,
+    "hypothesis_id": "CP-7953343be0b435d5::H01",
+    "option_id": "028-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1cccs1)c1ccccc1",
+    "product_inchikey": "WUGUUZISADVQLU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-aa9051e7f05467f4062e",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "WUGUUZISADVQLU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "噻吩通过芳香碳成键；环硫不等于S亲核体，目标为杂芳基C-C范围。"
+  },
+  {
+    "candidate_number": 29,
+    "hypothesis_id": "CP-a71435752beee4c8::H01",
+    "option_id": "029-H01-O01",
+    "center": "C",
+    "product_smiles": "CN(C)C=CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "VMVDMDDZQXNKFG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e57df52e9e17d45f699a",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "保留烯胺的双键迁移/脱质子化终态。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "VMVDMDDZQXNKFG",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "烯胺C端可保留NMe2或水解成醛，终态及E/Z须分开；未核实相同CF3羰基串联。"
+  },
+  {
+    "candidate_number": 29,
+    "hypothesis_id": "CP-a71435752beee4c8::H01",
+    "option_id": "029-H01-O02",
+    "center": "C",
+    "product_smiles": "O=CCC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "FZWLXLWLBFVOTI-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a76f06324e8e7d407043",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "烯胺捕获后水解的醛终态；二甲胺离去。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FZWLXLWLBFVOTI",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "烯胺C端可保留NMe2或水解成醛，终态及E/Z须分开；未核实相同CF3羰基串联。"
+  },
+  {
+    "candidate_number": 30,
+    "hypothesis_id": "CP-d0eb12604107d80c::H01",
+    "option_id": "030-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C=Cc1ccccc1)c1ccccc1",
+    "product_inchikey": "WFIRQXHDJLNTIJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9acc762d40c4b14941ff",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V22",
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "末端碳成键并恢复苯乙烯双键的二烯终态。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "WFIRQXHDJLNTIJ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "苯乙烯可能形成保双键或饱和侧链两种终态；有机硼法不直接支持这一烯烃加成机制。"
+  },
+  {
+    "candidate_number": 30,
+    "hypothesis_id": "CP-d0eb12604107d80c::H01",
+    "option_id": "030-H01-O02",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)CCc1ccccc1)c1ccccc1",
+    "product_inchikey": "WITBHSJYXVAUTE-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-d082b6e1c5efa6d6d21c",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V22",
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "末端碳成键并还原/质子化的饱和苯乙基终态；需额外氢来源。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "WITBHSJYXVAUTE",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "苯乙烯可能形成保双键或饱和侧链两种终态；有机硼法不直接支持这一烯烃加成机制。"
+  },
+  {
+    "candidate_number": 31,
+    "hypothesis_id": "CP-d2ba4020b787a8b0::H01",
+    "option_id": "031-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)Cc1ccccc1)c1ccccc1",
+    "product_inchikey": "RLYOVOXCZHYKHT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9c5dc5924b92ed657c84",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "只转移苄基；K+与BF3部分不进入目标产物。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "RLYOVOXCZHYKHT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "苄基三氟硼酸盐需相应活化/转金属条件；与硼酸法成键净变化接近，盐型与苄基范围另验。"
+  },
+  {
+    "candidate_number": 31,
+    "hypothesis_id": "CP-d2ba4020b787a8b0::H02",
+    "option_id": "031-H02-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)Cc1ccccc1)c1ccccc1",
+    "product_inchikey": "RLYOVOXCZHYKHT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9c5dc5924b92ed657c84",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "只转移苄基；K+与BF3部分不进入目标产物。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "RLYOVOXCZHYKHT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "苄基三氟硼酸盐需相应活化/转金属条件；与硼酸法成键净变化接近，盐型与苄基范围另验。"
+  },
+  {
+    "candidate_number": 32,
+    "hypothesis_id": "CP-deb4973b3faf0625::H01",
+    "option_id": "032-H01-O01",
+    "center": "C",
+    "product_smiles": "COc1ccc(C(F)=CC(=O)c2ccccc2)cc1",
+    "product_inchikey": "PTFNPYFAZQIKOO-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-093ff0f2161b4efcbc11",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r"
+    ],
+    "references": [
+      "V19"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "PTFNPYFAZQIKOO",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "苯甲醚在二氟烯基酮的分子间酸促进近例中不反应；该负例限制活性外推，不抹去已知芳基目标类型。"
+  },
+  {
+    "candidate_number": 33,
+    "hypothesis_id": "CP-e7c338a1b0ff4640::H01",
+    "option_id": "033-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccccc1)c1ccccc1",
+    "product_inchikey": "ROYMGIZNBLCJPN-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1R",
+    "NR": 2,
+    "evidence_kind": "registered_connectivity",
+    "pubchem_query_id": "PC-e66fb51203ca5c8fdcde",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      73177594,
+      12929813,
+      101431143
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "结构登记命中；登记不等于该文献已分离确证本产物。",
+    "fragment_decision": "两个Zn–C位点对称等价；一次转移一个苯基，另一苯基及Zn不进入目标产物。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 1,
+      "NP_label": "1R",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "ROYMGIZNBLCJPN",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "二苯基锌拟只转移一个苯基；产物与重氮盐苯基转移相同并已有登记，方法差别在金属来源。"
+  },
+  {
+    "candidate_number": 34,
+    "hypothesis_id": "CP-f34be542835fcb08::H01",
+    "option_id": "034-H01-O01",
+    "center": "C",
+    "product_smiles": "Cn1cc(C(F)=CC(=O)c2ccccc2)c2ccccc21",
+    "product_inchikey": "DQPYZVQAOAPLBW-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-cc5ed8ed5b64c7dd6303",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "DQPYZVQAOAPLBW",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "1-甲基吲哚无N-H，拟C3成键；局部C-C骨架已知，目标直接杂芳基化仍为探索。"
+  },
+  {
+    "candidate_number": 35,
+    "hypothesis_id": "CP-15eeea50cbe27556::H01",
+    "option_id": "035-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)[n+]1cc[nH]c1)c1ccccc1",
+    "product_inchikey": "VQEJOXYKURNHHU-UHFFFAOYSA-O",
+    "formal_charge": 1,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "same_parent_connectivity_acid_base_forms",
+    "pubchem_query_id": "PC-98b087c19731a56f07b1",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/adsc.202200352",
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V31",
+      "V01",
+      "V02",
+      "V03"
+    ],
+    "note": "H01/H02的InChIKey连接层均为VQEJOXYKURNHHU。两种酸碱态保留原SMILES；不计两个新骨架。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 2
+    },
+    "score_change_reason": "将母体连接与质子化/盐型创新分开；H01旧NP3不再作为新成键骨架评分，H02的NP2保留。 理由补入直接三氟丙酰胺/吲哚先例，具体区分酮/酰胺及N伙伴身份；不另改分。",
+    "review_status": "specific_N_comparison_corrected",
+    "NP_scope": "母体连接；盐型/质子化状态不新增骨架",
+    "parent_connectivity_key": "VQEJOXYKURNHHU",
+    "NP_status": "parent_connectivity_assessed",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "咪唑的局部N-氟乙烯连接有既有近例。V31已报道三氟丙酰胺与吲哚生成N-单氟烯基产物，因此不能把‘含氟羰基C–N’笼统作为空白；本假设为苯基酮PhCOCH2CF3与咪唑，具体差别是酮/酰胺及N杂环身份，准确取代范围和条件兼容性仍待逐例核实，保留现有NP/NR。H01/H02共用母体连接，质子化、反离子和可分离盐型另待核，不新增骨架。",
+    "parent_group_id": "PARENT-035-N-vinylimidazole",
+    "salt_form_novelty_status": "unresolved",
+    "counterion": null,
+    "isolability_status": "not_verified"
+  },
+  {
+    "candidate_number": 35,
+    "hypothesis_id": "CP-15eeea50cbe27556::H02",
+    "option_id": "035-H02-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)n1ccnc1)c1ccccc1",
+    "product_inchikey": "VQEJOXYKURNHHU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "same_parent_connectivity_acid_base_forms",
+    "pubchem_query_id": "PC-85addcb8d4bc3591a2b2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/adsc.202200352",
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V31",
+      "V01",
+      "V02",
+      "V03"
+    ],
+    "note": "H01/H02的InChIKey连接层均为VQEJOXYKURNHHU。两种酸碱态保留原SMILES；不计两个新骨架。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "将母体连接与质子化/盐型创新分开；H01旧NP3不再作为新成键骨架评分，H02的NP2保留。 理由补入直接三氟丙酰胺/吲哚先例，具体区分酮/酰胺及N伙伴身份；不另改分。",
+    "review_status": "specific_N_comparison_corrected",
+    "NP_scope": "母体连接；盐型/质子化状态不新增骨架",
+    "parent_connectivity_key": "VQEJOXYKURNHHU",
+    "NP_status": "parent_connectivity_assessed",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "咪唑的局部N-氟乙烯连接有既有近例。V31已报道三氟丙酰胺与吲哚生成N-单氟烯基产物，因此不能把‘含氟羰基C–N’笼统作为空白；本假设为苯基酮PhCOCH2CF3与咪唑，具体差别是酮/酰胺及N杂环身份，准确取代范围和条件兼容性仍待逐例核实，保留现有NP/NR。H01/H02共用母体连接，质子化、反离子和可分离盐型另待核，不新增骨架。",
+    "parent_group_id": "PARENT-035-N-vinylimidazole",
+    "salt_form_novelty_status": "not_separately_claimed",
+    "counterion": null,
+    "isolability_status": "not_verified"
+  },
+  {
+    "candidate_number": 36,
+    "hypothesis_id": "CP-17d78fd2ceec8c4c::H01",
+    "option_id": "036-H01-O01",
+    "center": "N",
+    "product_smiles": "CS(=O)(=O)NC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "RLFRSMZDJNDXOC-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e2044867ca9e298a4ba9",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1080/14756366.2018.1461097"
+    ],
+    "references": [
+      "V09"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "RLFRSMZDJNDXOC",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "α-fluoroenesulphonamide局部连接已有；甲磺酰胺直接进攻CF3羰基并止于单氟产物的净转化未核实。"
+  },
+  {
+    "candidate_number": 37,
+    "hypothesis_id": "CP-f0b88f6468f852c8::H01",
+    "option_id": "037-H01-O01",
+    "center": "N",
+    "product_smiles": "[N-]=[N+]=NC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "ZILOTZHJSDJNRC-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-a3bb107066e0767a127c",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111"
+    ],
+    "references": [
+      "V08"
+    ],
+    "note": "",
+    "fragment_decision": "固定原末端N成键；脱SiMe3并按叠氮共振形式重排键级，保持N3。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "ZILOTZHJSDJNRC",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "TMSN3的简单C(F)-N3产物不同于organic azide三唑环化；CN/CF3的TMSNu论文不能充当N3成键先例。"
+  },
+  {
+    "candidate_number": 38,
+    "hypothesis_id": "CP-d0c9b289504a201f::H01",
+    "option_id": "038-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)Nc1ccc(C(F)(F)F)cc1)c1ccccc1",
+    "product_inchikey": "IYXBXZDOPMSYHW-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-fa48e3cfb4022e4696fb",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V05",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "IYXBXZDOPMSYHW",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "芳胺可生成fluoroenamine，N-MePh82%不保证4-CF3PhNH2；CF3吸电子改变亲核性，具体目标未见。"
+  },
+  {
+    "candidate_number": 39,
+    "hypothesis_id": "CP-ccb45c231c905174::H01",
+    "option_id": "039-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)N1CCOCC1)c1ccccc1",
+    "product_inchikey": "JHIIFPMWBYQFFA-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-92d8632c48e3f492d75d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V08",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 1
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "JHIIFPMWBYQFFA",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "吗啉单氟enamine中间体有NMR证据；同CF3羰基的fluoroenaminone仅HRMS提出并继续反应，不能认作目标已确证分离。 同类CF3酮与二级胺经两次失HF形成该类C(F)-N连接的序列已有HRMS中间体先例，NR按反应类别记1；分离单氟终产物仍需验证。"
+  },
+  {
+    "candidate_number": 39,
+    "hypothesis_id": "CP-ccb45c231c905174::H02",
+    "option_id": "039-H02-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)N1CCOCC1)c1ccccc1",
+    "product_inchikey": "JHIIFPMWBYQFFA-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-92d8632c48e3f492d75d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V08",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 1
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "JHIIFPMWBYQFFA",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "吗啉单氟enamine中间体有NMR证据；同CF3羰基的fluoroenaminone仅HRMS提出并继续反应，不能认作目标已确证分离。 同类CF3酮与二级胺经两次失HF形成该类C(F)-N连接的序列已有HRMS中间体先例，NR按反应类别记1；分离单氟终产物仍需验证。"
+  },
+  {
+    "candidate_number": 40,
+    "hypothesis_id": "CP-c65a9b3d8c110ddb::H01",
+    "option_id": "040-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)n1cccn1)c1ccccc1",
+    "product_inchikey": "OHQBNTGEWNEYEP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a86cbb0e8b228db7e436",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/adsc.202200352",
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V31",
+      "V02",
+      "V03"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "理由补入直接三氟丙酰胺/吲哚先例，具体区分酮/酰胺及N伙伴身份；不另改分。",
+    "review_status": "specific_N_comparison_corrected",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "OHQBNTGEWNEYEP",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "吡唑的局部N-氟乙烯连接有既有近例。V31已报道三氟丙酰胺与吲哚生成N-单氟烯基产物，因此不能把‘含氟羰基C–N’笼统作为空白；本假设为苯基酮PhCOCH2CF3与吡唑，具体差别是酮/酰胺及N杂环身份，准确取代范围和条件兼容性仍待逐例核实，保留现有NP/NR。"
+  },
+  {
+    "candidate_number": 41,
+    "hypothesis_id": "CP-08db38349537cc05::H01",
+    "option_id": "041-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)NC(=O)c1ccccc1)c1ccccc1",
+    "product_inchikey": "FHWHYQBSJFVTOT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-3492b3f5d7d99f23283e",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1080/14756366.2018.1461097"
+    ],
+    "references": [
+      "V09"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FHWHYQBSJFVTOT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "N-羰基α-fluoroenamide/fluoroenimide为近邻；苯甲酰胺N-H直接与目标CF3羰基脱氟偶联未找到。"
+  },
+  {
+    "candidate_number": 42,
+    "hypothesis_id": "CP-f9dfd61493ca94a4::H01",
+    "option_id": "042-H01-O01",
+    "center": "N",
+    "product_smiles": "NC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "HYCQOMJCVFDPPJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a937e16e6f68cb28c444",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.3762/bjoc.19.111"
+    ],
+    "references": [
+      "V05",
+      "V08"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "HYCQOMJCVFDPPJ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "fluoroenamine骨架有先例，但NH3生成未取代N-H2结构与二级胺不同；还要排除羰基缩合和进一步取代。"
+  },
+  {
+    "candidate_number": 43,
+    "hypothesis_id": "CP-265c0f19c5eb5e56::H01",
+    "option_id": "043-H01-O01",
+    "center": "N",
+    "product_smiles": "C[N+](C)(C)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "USQQWINOAZAFAX-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-34d5290bb0f3c5cfd7b7",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111"
+    ],
+    "references": [
+      "V08"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "三级胺以孤对电子成键生成季铵阳离子；不得静默删除甲基或改成中性胺。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "USQQWINOAZAFAX",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "NMe3若保持全部甲基会形成四级铵C(F)-N+；不能用中性secondary-amine fluoroenamine作等价精确先例。"
+  },
+  {
+    "candidate_number": 44,
+    "hypothesis_id": "CP-17e086b041c039f5::H01",
+    "option_id": "044-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)N1C(=O)c2ccccc2C1=O)c1ccccc1",
+    "product_inchikey": "TVCHEWGQBSBDQT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-84605dcc64a380d53b20",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1080/14756366.2018.1461097"
+    ],
+    "references": [
+      "V09"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "TVCHEWGQBSBDQT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "α-fluoroenimide局部骨架已有；邻苯二甲酰亚胺钾作为亲核体与本底物的净脱2F未核实。"
+  },
+  {
+    "candidate_number": 45,
+    "hypothesis_id": "CP-1b58b081277f4aff::H01",
+    "option_id": "045-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)Nc1ccccc1)c1ccccc1",
+    "product_inchikey": "QVHREGBDEYGWLF-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-26f0829ece09fbce00ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "QVHREGBDEYGWLF",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "芳胺→fluoroenamine有同净脱2F例，LiNHPh和中性N-methylaniline的反离子及N-H状态不同。"
+  },
+  {
+    "candidate_number": 46,
+    "hypothesis_id": "CP-254b9aa19ec37938::H01",
+    "option_id": "046-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)N1CCCCC1)c1ccccc1",
+    "product_inchikey": "YSRYXAGHTVBKCG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-7dea4d3ff6f007d3ecb2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111",
+      "10.1126/sciadv.aea4120",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V08",
+      "V04",
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 1
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "YSRYXAGHTVBKCG",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "吗啉/哌啶类N连接属已有enamine范围；NOS05在未活化CF3底物中piperidine不形成单氟胺，必须保留反例，不把N全类写成必成功。 同类CF3酮与二级胺经两次失HF形成该类C(F)-N连接的序列已有HRMS中间体先例，NR按反应类别记1；分离单氟终产物仍需验证。"
+  },
+  {
+    "candidate_number": 47,
+    "hypothesis_id": "CP-39fbeda7a0fbf2ea::H01",
+    "option_id": "047-H01-O01",
+    "center": "N",
+    "product_smiles": "N#CNC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "BHMSAZRGQYXNLC-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-874d5a52096feb781c7d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1080/14756366.2018.1461097",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V09",
+      "V03"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "BHMSAZRGQYXNLC",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "氰胺的C(F)-NHCN电子结构不同于azole和普通amide；未找到对应近连接/净转化，3级仅限检索域。"
+  },
+  {
+    "candidate_number": 48,
+    "hypothesis_id": "CP-8d11fd6c0d4e62a7::H01",
+    "option_id": "048-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)Nc1ccccc1)c1ccccc1",
+    "product_inchikey": "QVHREGBDEYGWLF-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-26f0829ece09fbce00ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V05",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "QVHREGBDEYGWLF",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "N-methylaniline单氟胺化支持芳胺类；SciAdv aniline不适用于最终AAA反应是条件限制，不可当所有目标C-N失败。"
+  },
+  {
+    "candidate_number": 49,
+    "hypothesis_id": "CP-b2cf6b111cd50f59::H01",
+    "option_id": "049-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)n1cnnc1)c1ccccc1",
+    "product_inchikey": "YKAYJSKYOFVQLX-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-0380de4f616f656b5853",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/adsc.202200352",
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V31",
+      "V02",
+      "V03"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "理由补入直接三氟丙酰胺/吲哚先例，具体区分酮/酰胺及N伙伴身份；不另改分。",
+    "review_status": "specific_N_comparison_corrected",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "YKAYJSKYOFVQLX",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "1,2,4-三唑的局部N-氟乙烯连接有既有近例。V31已报道三氟丙酰胺与吲哚生成N-单氟烯基产物，因此不能把‘含氟羰基C–N’笼统作为空白；本假设为苯基酮PhCOCH2CF3与1,2,4-三唑，具体差别是酮/酰胺及N杂环身份，准确取代范围和条件兼容性仍待逐例核实，保留现有NP/NR。三唑的区域异构终态还须核对。"
+  },
+  {
+    "candidate_number": 50,
+    "hypothesis_id": "CP-b56d476fec2f52a2::H01",
+    "option_id": "050-H01-O01",
+    "center": "N",
+    "product_smiles": "CCCCNC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "REFNTQFBVOCXKU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-178eb743d44ce0e75cd0",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V05",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "REFNTQFBVOCXKU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "普通fluoroenamine骨架已有；一级丁胺在目标中有亚胺化/多次反应风险，二级胺成功不能证明其净转化。"
+  },
+  {
+    "candidate_number": 51,
+    "hypothesis_id": "CP-3a23ccb632c9f44d::H01",
+    "option_id": "051-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccccc1)c1ccccc1",
+    "product_inchikey": "MVRQJCWBMYQDTR-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6a583dc2c8d148d29ca2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c",
+      "10.1016/j.checat.2022.03.021"
+    ],
+    "references": [
+      "V10",
+      "V05",
+      "V01"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "MVRQJCWBMYQDTR",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "C(F)-OPh为已知局部连接；酚与酚盐活性形式不同不产生额外产物新颖性，目标新增羰基共轭骨架。"
+  },
+  {
+    "candidate_number": 51,
+    "hypothesis_id": "CP-3a23ccb632c9f44d::H02",
+    "option_id": "051-H02-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccccc1)c1ccccc1",
+    "product_inchikey": "MVRQJCWBMYQDTR-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6a583dc2c8d148d29ca2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c",
+      "10.1016/j.checat.2022.03.021"
+    ],
+    "references": [
+      "V10",
+      "V05",
+      "V01"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "MVRQJCWBMYQDTR",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "C(F)-OPh为已知局部连接；酚与酚盐活性形式不同不产生额外产物新颖性，目标新增羰基共轭骨架。"
+  },
+  {
+    "candidate_number": 52,
+    "hypothesis_id": "CP-04e1450f7a0596df::H01",
+    "option_id": "052-H01-O01",
+    "center": "O",
+    "product_smiles": "C=CCOC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "RJODTVRRQAQNAQ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-84e1b37994b0b582ebe3",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "RJODTVRRQAQNAQ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "醇供体形成C(F)-OR已知；烯丙醇双键带来化学选择性边界，目标未见精确产物。"
+  },
+  {
+    "candidate_number": 53,
+    "hypothesis_id": "CP-0dde3cbcb235c563::H01",
+    "option_id": "053-H01-O01",
+    "center": "O",
+    "product_smiles": "CC1(C)CCCC(C)(C)N1OC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "WCFOMOLECAPCIS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-1492f6d76de46932c951",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "O中心自由基成键后闭壳层；保留N–O键。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "WCFOMOLECAPCIS",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "TEMPO形成C(F)-O-N(piperidyl)与普通醇/酚C(F)-OR不同；自由基截获不自动等于净脱2F产物。"
+  },
+  {
+    "candidate_number": 54,
+    "hypothesis_id": "CP-a48a48bf32050f7b::H01",
+    "option_id": "054-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)OO)c1ccccc1",
+    "product_inchikey": "KBQQVUWTVOHZOJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-47e2e208aa0bd5da42b8",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "KBQQVUWTVOHZOJ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "C(F)-OOH过氧连接未在核验域找到；普通醇氧连接不能当过氧桥直接先例。"
+  },
+  {
+    "candidate_number": 55,
+    "hypothesis_id": "CP-e81dc06beaa39499::H01",
+    "option_id": "055-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(O)F)c1ccccc1",
+    "product_inchikey": "HVKSEWNQMZQQAZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1T",
+    "NR": 3,
+    "evidence_kind": "registered_tautomer",
+    "pubchem_query_id": "PC-5a207e4ac321243e1360",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      72458434,
+      58904310
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "登记互变体关系不等于相同键级图，也不证明本反应得到可分离含氟烯醇。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 1,
+      "NP_label": "1T",
+      "NR": 3
+    },
+    "score_change_reason": "仅清除与NP1T冲突的旧‘3分只对所画烯醇’理由；数值保持NP1T/NR3。",
+    "review_status": "reason_corrected_scores_retained",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "HVKSEWNQMZQQAZ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "NP1T表示与已登记β-酮酰氟的互变体关系；NR3表示拟议CF3羰基起始物至该终态的路线尚未核实。"
+  },
+  {
+    "candidate_number": 56,
+    "hypothesis_id": "CP-168a0c2e4c8e139f::H01",
+    "option_id": "056-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)O[n+]1ccccc1)c1ccccc1",
+    "product_inchikey": "UMVLLRLPFCLBGH-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-f58a9d948b3662eb31b4",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "N-氧化物的O端成键后O电中性、吡啶N仍+1；形成阳离子，不是普通醚。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "UMVLLRLPFCLBGH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "保持吡啶N-氧化物骨架的O-烯基化为带电O-N连接，不等价普通C(F)-OR。"
+  },
+  {
+    "candidate_number": 57,
+    "hypothesis_id": "CP-48cbdd3aac3823f7::H01",
+    "option_id": "057-H01-O01",
+    "center": "O",
+    "product_smiles": "C[Si](C)(C)OC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "BMOCIEJXBBCDHP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-dac12d7ada6bda36a0e1",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "BMOCIEJXBBCDHP",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "C(F)-O-SiMe3为硅氧连接；常见α-氟硅烯醚可能F在另一碳，未找到与本目标同碳F/O的可核验精确近例。"
+  },
+  {
+    "candidate_number": 58,
+    "hypothesis_id": "CP-64837e30f7127abc::H01",
+    "option_id": "058-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+    "product_inchikey": "WVUYYVTYHIWXFU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9237f548e6d250389c69",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V10",
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "修正V05限制的反应终点：完整两步路线低效，不定位为单氟形成失败；数值不变。",
+    "review_status": "two_step_endpoint_scope_corrected",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "WVUYYVTYHIWXFU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "C(F)–OAr局部连接已有；本候选为4-CF3苯酚钠，预成盐及目标苯基酮的兼容性仍待核。V05主文Fig.4所述缺电子酚和芳硫酚低效指完整两步路线及最终CF2产物；未拆分单氟形成与后续HF步骤的贡献，不能据此判定本候选单氟形成失败。NP2/NR2保留。"
+  },
+  {
+    "candidate_number": 59,
+    "hypothesis_id": "CP-822684332936c797::H01",
+    "option_id": "059-H01-O01",
+    "center": "O",
+    "product_smiles": "CC(C)(C)OC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "GAUVWILDLQXCHM-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-8adce3694a19d33bcf84",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "GAUVWILDLQXCHM",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "SI p15直接示tBuOH给C(F)-OtBu51%；tBuONa只改活化形式，目标羰基骨架尚不同。"
+  },
+  {
+    "candidate_number": 60,
+    "hypothesis_id": "CP-8de27f136fedbba8::H01",
+    "option_id": "060-H01-O01",
+    "center": "O",
+    "product_smiles": "COC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OTTBAIZFHQLHML-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-b99556bc58ddec290496",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "OTTBAIZFHQLHML",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "methoxy连接落在已知fluorovinyl ether族；MeONa未必能促进首步，NOS05弱碱KOMe不促未活化底物去HF。"
+  },
+  {
+    "candidate_number": 61,
+    "hypothesis_id": "CP-a85d32e4db2ff39c::H01",
+    "option_id": "061-H01-O01",
+    "center": "O",
+    "product_smiles": "COC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OTTBAIZFHQLHML-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-b99556bc58ddec290496",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "OTTBAIZFHQLHML",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "methanol-d3用于NOS05扩展；普通MeOH属于同族，目标共轭羰基尚不同。"
+  },
+  {
+    "candidate_number": 62,
+    "hypothesis_id": "CP-ae66431c2fbd5738::H01",
+    "option_id": "062-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)OCC(F)(F)F)c1ccccc1",
+    "product_inchikey": "UOHDELOJQMSFCV-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-d40bbf439752f5aa6d1b",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "UOHDELOJQMSFCV",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "含CF3烷氧侧链为已知C(F)-OR范围拓展；CF3CH2O-亲核性降低使成功外推较弱。"
+  },
+  {
+    "candidate_number": 63,
+    "hypothesis_id": "CP-cb20f7766b730a70::H01",
+    "option_id": "063-H01-O01",
+    "center": "O",
+    "product_smiles": "COC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OTTBAIZFHQLHML-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-b99556bc58ddec290496",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "OTTBAIZFHQLHML",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "与甲醇/MeONa相同产物片段；Li反离子影响活化，NOS05 LiHMDS在该模型无首步反应。"
+  },
+  {
+    "candidate_number": 64,
+    "hypothesis_id": "CP-dc11a678a5813bfb::H01",
+    "option_id": "064-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccccc1)c1ccccc1",
+    "product_inchikey": "MVRQJCWBMYQDTR-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6a583dc2c8d148d29ca2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V10",
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "MVRQJCWBMYQDTR",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "与phenol对应同一OPh产物连接；中性/盐型与两条机理假设不能重复计成多项产物发现。"
+  },
+  {
+    "candidate_number": 64,
+    "hypothesis_id": "CP-dc11a678a5813bfb::H02",
+    "option_id": "064-H02-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccccc1)c1ccccc1",
+    "product_inchikey": "MVRQJCWBMYQDTR-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6a583dc2c8d148d29ca2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V10",
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "MVRQJCWBMYQDTR",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "与phenol对应同一OPh产物连接；中性/盐型与两条机理假设不能重复计成多项产物发现。"
+  },
+  {
+    "candidate_number": 65,
+    "hypothesis_id": "CP-f7328591687088c5::H01",
+    "option_id": "065-H01-O01",
+    "center": "O",
+    "product_smiles": "C=CCOC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "RJODTVRRQAQNAQ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-84e1b37994b0b582ebe3",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "RJODTVRRQAQNAQ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "烯丙氧负离子与烯丙醇给同一连接；区别在活性形式与双键兼容性。"
+  },
+  {
+    "candidate_number": 66,
+    "hypothesis_id": "CP-3ca04501f77d577c::H01",
+    "option_id": "066-H01-O01",
+    "center": "S",
+    "product_smiles": "N#CSC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "SFPPQVQMZHXXBT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-9caaf6a25e9c98629df6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.6c01159",
+      "10.1021/acs.joc.1c00490"
+    ],
+    "references": [
+      "V12",
+      "V06"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "SFPPQVQMZHXXBT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "硫氰酸根S端将形成C(F)-SCN；thiol/sulfinate先例不是该双端亲核试剂的直接证明，还须排除NCS异构。"
+  },
+  {
+    "candidate_number": 67,
+    "hypothesis_id": "CP-efe8367638b4b0e2::H01",
+    "option_id": "067-H01-O01",
+    "center": "S",
+    "product_smiles": "NC(=[NH2+])SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "IWOAAOMCXWREJG-UHFFFAOYSA-O",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-56cb5bb49623fd3bb81b",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "按S端捕获给异硫脲鎓连接；电荷用N端共振式表示；阴离子未指定。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "IWOAAOMCXWREJG",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "已知β-fluorovinyl isothiouronium中F/S位于相邻烯碳，不是目标同碳F/S；故不以该例降作直接同骨架。"
+  },
+  {
+    "candidate_number": 68,
+    "hypothesis_id": "CP-757e317decd6724d::H01",
+    "option_id": "068-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccc(Br)cc1)c1ccccc1",
+    "product_inchikey": "AFDZINLDHIQYSE-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-5b75b04e9e7129f1dda1",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "AFDZINLDHIQYSE",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "芳硫醇单氟连接已知；4-Br属于电子/正交卤键范围扩展，精确PhCO目标未确认。"
+  },
+  {
+    "candidate_number": 69,
+    "hypothesis_id": "CP-e61c7ae663276e1e::H01",
+    "option_id": "069-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)[S+]1CCCC1)c1ccccc1",
+    "product_inchikey": "KYNMLHSNSQYJPG-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-c4c41d71b2fa7a5e363a",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "二价环硫成第三个C–S键形成锍阳离子；环骨架保持。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "KYNMLHSNSQYJPG",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "四氢噻吩保持环骨架时生成三配位硫鎓；不能以二配位中性thioether先例判相同NP。"
+  },
+  {
+    "candidate_number": 70,
+    "hypothesis_id": "CP-127aad8ad7de9e0a::H01",
+    "option_id": "070-H01-O01",
+    "center": "S",
+    "product_smiles": "CS(=O)(=O)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "LSUOBHJWVFBTBH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-72ec667402ece2508e57",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c00490"
+    ],
+    "references": [
+      "V06"
+    ],
+    "note": "",
+    "fragment_decision": "亚磺酸盐S端生成磺酰自由基并成键；O-改为S=O，去除Na+。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LSUOBHJWVFBTBH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "MeSO2Na成C(F)-SO2Me有直接近例3ao；目标增加PhCO基，注意与脱氧后C(F)-SMe为不同产物。"
+  },
+  {
+    "candidate_number": 71,
+    "hypothesis_id": "CP-db052eb259749c35::H01",
+    "option_id": "071-H01-O01",
+    "center": "S",
+    "product_smiles": "CSC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "UPSSUROBYSDJAY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-693ac7f6794b1f893a65",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "断开S–S，仅保留该假设指定端的甲硫基或苯硫基。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "UPSSUROBYSDJAY",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "S-S裂解转移MeS或PhS后为已知C(F)-SR族；H01/H02两个S位点对应不同片段，不能合并为同产物。"
+  },
+  {
+    "candidate_number": 71,
+    "hypothesis_id": "CP-db052eb259749c35::H02",
+    "option_id": "071-H02-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "断开S–S，仅保留该假设指定端的甲硫基或苯硫基。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LPMYCHCGOGKWFH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "S-S裂解转移MeS或PhS后为已知C(F)-SR族；H01/H02两个S位点对应不同片段，不能合并为同产物。"
+  },
+  {
+    "candidate_number": 72,
+    "hypothesis_id": "CP-8680b11837f9690e::H01",
+    "option_id": "072-H01-O01",
+    "center": "S",
+    "product_smiles": "CSC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "UPSSUROBYSDJAY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-693ac7f6794b1f893a65",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "转移甲硫基；铜反离子不进入目标有机产物。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "UPSSUROBYSDJAY",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "CuSMe转移为C(F)-SMe已知骨架类别；铜硫醇盐活化/配位机制是条件范围变化，非全新连接。"
+  },
+  {
+    "candidate_number": 73,
+    "hypothesis_id": "CP-790a21c83fa3ce0d::H01",
+    "option_id": "073-H01-O01",
+    "center": "S",
+    "product_smiles": "CCOC(=S)SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "UNIMLJAMLWHOLS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-06cfda6f333a3ed87e15",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "两个端硫的键级/电荷互为共振形式；保持指定原子映射，但未标记的产物连接图相同。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "UNIMLJAMLWHOLS",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "xanthate两个S端的假设在当前结构规范化后给同一连接，不能重复计NP；硫代羰基完整保留，普通thioether不能直接证明该产物。"
+  },
+  {
+    "candidate_number": 73,
+    "hypothesis_id": "CP-790a21c83fa3ce0d::H02",
+    "option_id": "073-H02-O01",
+    "center": "S",
+    "product_smiles": "CCOC(=S)SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "UNIMLJAMLWHOLS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-06cfda6f333a3ed87e15",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "两个端硫的键级/电荷互为共振形式；保持指定原子映射，但未标记的产物连接图相同。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "UNIMLJAMLWHOLS",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "xanthate两个S端的假设在当前结构规范化后给同一连接，不能重复计NP；硫代羰基完整保留，普通thioether不能直接证明该产物。"
+  },
+  {
+    "candidate_number": 74,
+    "hypothesis_id": "CP-4d2aaa7bf4b8ca67::H01",
+    "option_id": "074-H01-O01",
+    "center": "S",
+    "product_smiles": "C[S+](C)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "SNPAKFLVQCTMAQ-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-9f75e4858a89af445f25",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "二甲硫醚S形成第三键，目标初级物种为锍阳离子。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "SNPAKFLVQCTMAQ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "SMe2若不脱烷基形成C(F)-S+(Me)2而非中性SMe，未找到同碳F/硫鎓对应先例。"
+  },
+  {
+    "candidate_number": 75,
+    "hypothesis_id": "CP-02287a1de385889e::H01",
+    "option_id": "075-H01-O01",
+    "center": "S",
+    "product_smiles": "CCSC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "IIGXTCYVHRISGF-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-239877b747370e539e7f",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V05",
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "IIGXTCYVHRISGF",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "烷硫醇CF3→C(F)-SR已有未活化模型，Et侧链和羰基为范围迁移。"
+  },
+  {
+    "candidate_number": 76,
+    "hypothesis_id": "CP-71ce6823ee7e14cc::H01",
+    "option_id": "076-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)S(=O)(=O)c1ccccc1)c1ccccc1",
+    "product_inchikey": "DJERHVRXPCPWLH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-defa7a445a770e752764",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c00490"
+    ],
+    "references": [
+      "V06"
+    ],
+    "note": "",
+    "fragment_decision": "苯亚磺酸盐S端成键形成砜；保留两个氧，去除Na+。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "DJERHVRXPCPWLH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhSO2Na→C(F)-SO2Ph与3aa同局部结构；目标从ArCH=CF2改为PhCOCH2CF3，非全新砜连接。"
+  },
+  {
+    "candidate_number": 77,
+    "hypothesis_id": "CP-735e0b557cdf0e0c::H01",
+    "option_id": "077-H01-O01",
+    "center": "S",
+    "product_smiles": "CC(=O)SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "USWQWULSIXPOKV-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-8c6eff7bc99d7780d2af",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "USWQWULSIXPOKV",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "硫代乙酸盐形成C(F)-SC(O)Me，连接S上酰基不同于alkyl/aryl sulfide，检索域未找到对应近例。"
+  },
+  {
+    "candidate_number": 78,
+    "hypothesis_id": "CP-7647ff2ce0052a54::H01",
+    "option_id": "078-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "S–S断裂后只转移一个苯硫基；两S对称等价。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LPMYCHCGOGKWFH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "二苯二硫化物活化后转移PhS与thiophenol生成同一目标；不能因前体不同增加NP。"
+  },
+  {
+    "candidate_number": 79,
+    "hypothesis_id": "CP-85359065fe28e8d0::H01",
+    "option_id": "079-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LPMYCHCGOGKWFH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhSNa和PhSH经去质子化后的活性形式接近，同一目标C(F)-SPh的NP应相同。"
+  },
+  {
+    "candidate_number": 80,
+    "hypothesis_id": "CP-95e4c6bd10d240e3::H01",
+    "option_id": "080-H01-O01",
+    "center": "S",
+    "product_smiles": "CC(C)(C)SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "XOHVBHVAKLTBRV-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ff757847a6e35a48391d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V05",
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "XOHVBHVAKLTBRV",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "tBuS侧链为位阻较大的烷基硫醚范围，现有近例不证明该位阻条件会成功。"
+  },
+  {
+    "candidate_number": 81,
+    "hypothesis_id": "CP-abed28aa627f8929::H01",
+    "option_id": "081-H01-O01",
+    "center": "S",
+    "product_smiles": "C[S+](C(F)=CC(=O)c1ccccc1)c1ccccc1",
+    "product_inchikey": "YMGHYVNLKYXUJM-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-b0ee327d5038828c69cc",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "保留甲基与苯基，新增C–S键形成锍盐；不预设后续脱甲基。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "YMGHYVNLKYXUJM",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "thioanisole保持Me和Ph生成C(F)-S+(Me)Ph；如果脱甲基成SPh则是另一终态，不可混评分。"
+  },
+  {
+    "candidate_number": 82,
+    "hypothesis_id": "CP-b18c4945d055e0a6::H01",
+    "option_id": "082-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g",
+      "10.3762/bjoc.11.205"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14",
+      "V11"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LPMYCHCGOGKWFH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhSH的不同活性形式（thiolate/thiyl等）指向相同C(F)-SPh骨架；NP只算同一预测产物，NR注明不同活化设想。"
+  },
+  {
+    "candidate_number": 82,
+    "hypothesis_id": "CP-b18c4945d055e0a6::H02",
+    "option_id": "082-H02-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g",
+      "10.3762/bjoc.11.205"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14",
+      "V11"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LPMYCHCGOGKWFH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhSH的不同活性形式（thiolate/thiyl等）指向相同C(F)-SPh骨架；NP只算同一预测产物，NR注明不同活化设想。"
+  },
+  {
+    "candidate_number": 82,
+    "hypothesis_id": "CP-b18c4945d055e0a6::H03",
+    "option_id": "082-H03-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g",
+      "10.3762/bjoc.11.205"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14",
+      "V11"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LPMYCHCGOGKWFH",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhSH的不同活性形式（thiolate/thiyl等）指向相同C(F)-SPh骨架；NP只算同一预测产物，NR注明不同活化设想。"
+  },
+  {
+    "candidate_number": 83,
+    "hypothesis_id": "CP-9965bc6fbd9116ca::H01",
+    "option_id": "083-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)[P+](OCC(F)(F)F)(OCC(F)(F)F)OCC(F)(F)F)c1ccccc1",
+    "product_inchikey": "ZRVPIYZJENBIKM-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-f3e9e984910a92f25ce8",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "P(III)直接进攻的磷鎓物种。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "ZRVPIYZJENBIKM",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "最终P=O与去掉哪一O-烷基必须定义，完整单一产物尚非唯一；精确三氟乙氧基亚磷酸酯在对醌甲基化物体系可作为P亲核体；C(F)–P(O)(OR)2局部骨架有先例。无该精确试剂在目标体系失败记录；电子贫化、去烷基化及氧化态变化为待检验步骤"
+  },
+  {
+    "candidate_number": 83,
+    "hypothesis_id": "CP-9965bc6fbd9116ca::H01",
+    "option_id": "083-H01-O02",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=O)(OCC(F)(F)F)OCC(F)(F)F)c1ccccc1",
+    "product_inchikey": "GDEJUCQVMUYXIU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9530e1193740ad8d328b",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "经去烷基化/氧转移的中性膦酸酯终态。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "GDEJUCQVMUYXIU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "最终P=O与去掉哪一O-烷基必须定义，完整单一产物尚非唯一；精确三氟乙氧基亚磷酸酯在对醌甲基化物体系可作为P亲核体；C(F)–P(O)(OR)2局部骨架有先例。无该精确试剂在目标体系失败记录；电子贫化、去烷基化及氧化态变化为待检验步骤"
+  },
+  {
+    "candidate_number": 84,
+    "hypothesis_id": "CP-68d791fe27d0090d::H01",
+    "option_id": "084-H01-O01",
+    "center": "P",
+    "product_smiles": "CCCC[P+](CCCC)(CCCC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "ZFGCWNYRYNCMBR-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-dba300860a9a05124ffb",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d1cc06786a",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V25",
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "ZFGCWNYRYNCMBR",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "需要写明[P+]及反离子；不能画中性PBu3再额外连接目标碳；Bu3P对Michael受体亲核性可测；C(F)–P键局部存在，但二级膦37%先例不能当Bu3P先例。可能金属配位/膦鎓停留；没有Bu3P目标失败数值"
+  },
+  {
+    "candidate_number": 85,
+    "hypothesis_id": "CP-586e1196c67c1811::H01",
+    "option_id": "085-H01-O01",
+    "center": "P",
+    "product_smiles": "COP(=O)(OC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OXYGEKFJPFEDMU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e6890159639e58d202fe",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/ejoc.201801602",
+      "10.1021/acs.orglett.3c00631"
+    ],
+    "references": [
+      "V16",
+      "V17"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "OXYGEKFJPFEDMU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)P(O)(OMe)2；未查到该精确产物；二烷基P(O)H→氟烯基膦酸酯有极性/脱羧路线支持。二乙酯在特定自由基CF2保留路线trace不能转移为二甲酯或单氟目标失败"
+  },
+  {
+    "candidate_number": 86,
+    "hypothesis_id": "CP-cda39527d578a1f4::H01",
+    "option_id": "086-H01-O01",
+    "center": "P",
+    "product_smiles": "C[Si](C)(C)P(C(F)=CC(=O)c1ccccc1)[Si](C)(C)C",
+    "product_inchikey": "GWRWPEPFDKHHED-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": null,
+    "NP_label": "待核",
+    "NR": 3,
+    "evidence_kind": "endpoint_specific_novelty_unresolved",
+    "pubchem_query_id": "PC-8769206342189eca6126",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "本选项为保留两个SiMe3的二硅基膦；精确PubChem未命中仍保留，但尚无足够匹配文献支持当前NP2或NP3判定。",
+    "fragment_decision": "一个P–Si键被C–P替代后的二硅基膦。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "旧NP3按候选编号统一赋值；本次拆分终态，缺少终态专属证据时用待核，避免把去硅PH2误标为silyl phosphine。",
+    "review_status": "endpoint_specific_uncertainty",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "GWRWPEPFDKHHED",
+    "NP_status": "unresolved_endpoint_specific_search",
+    "NR_status": "retained_bounded_no_matching_route",
+    "assessment": "与V05的Ph2PH单氟产物比较：同为C(F)–P，P取代基不同。本选项为保留两个SiMe3的二硅基膦；该终态的近例检索及能否形成/分离待核。",
+    "endpoint_identity": "保留两个SiMe3的二硅基膦"
+  },
+  {
+    "candidate_number": 86,
+    "hypothesis_id": "CP-cda39527d578a1f4::H01",
+    "option_id": "086-H01-O02",
+    "center": "P",
+    "product_smiles": "C[Si](C)(C)PC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "GTCDIVAKVZKZAT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": null,
+    "NP_label": "待核",
+    "NR": 3,
+    "evidence_kind": "endpoint_specific_novelty_unresolved",
+    "pubchem_query_id": "PC-a701821aaa1be15e6d1e",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "本选项为保留一个SiMe3的单硅基膦；精确PubChem未命中仍保留，但尚无足够匹配文献支持当前NP2或NP3判定。",
+    "fragment_decision": "进一步水解一个P–Si键的单硅基膦。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "旧NP3按候选编号统一赋值；本次拆分终态，缺少终态专属证据时用待核，避免把去硅PH2误标为silyl phosphine。",
+    "review_status": "endpoint_specific_uncertainty",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "GTCDIVAKVZKZAT",
+    "NP_status": "unresolved_endpoint_specific_search",
+    "NR_status": "retained_bounded_no_matching_route",
+    "assessment": "与V05的Ph2PH单氟产物比较：同为C(F)–P，P取代基不同。本选项为保留一个SiMe3的单硅基膦；该终态的近例检索及能否形成/分离待核。",
+    "endpoint_identity": "保留一个SiMe3的单硅基膦"
+  },
+  {
+    "candidate_number": 86,
+    "hypothesis_id": "CP-cda39527d578a1f4::H01",
+    "option_id": "086-H01-O03",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P)c1ccccc1",
+    "product_inchikey": "FAWFKMHYFBONDD-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": null,
+    "NP_label": "待核",
+    "NR": 3,
+    "evidence_kind": "endpoint_specific_novelty_unresolved",
+    "pubchem_query_id": "PC-162e9afd47879b1a0a4b",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "本选项为不含Si的一级膦PH2终态；精确PubChem未命中仍保留，但尚无足够匹配文献支持当前NP2或NP3判定。",
+    "fragment_decision": "水解全部剩余P–Si键的一级膦；不能从原假设唯一确定终态。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "旧NP3按候选编号统一赋值；本次拆分终态，缺少终态专属证据时用待核，避免把去硅PH2误标为silyl phosphine。",
+    "review_status": "endpoint_specific_uncertainty",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FAWFKMHYFBONDD",
+    "NP_status": "unresolved_endpoint_specific_search",
+    "NR_status": "retained_bounded_no_matching_route",
+    "assessment": "与V05的Ph2PH单氟产物比较：同为C(F)–P，P取代基不同。本选项为不含Si的一级膦PH2终态；该终态的近例检索及能否形成/分离待核。",
+    "endpoint_identity": "不含Si的一级膦PH2终态"
+  },
+  {
+    "candidate_number": 87,
+    "hypothesis_id": "CP-2a6be0fb49e1f64e::H01",
+    "option_id": "087-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=S)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "DLMWHBSWJYJGBC-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e7e9290dc4999eaa7b89",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/0040-4039(96)00239-0",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V28",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "DLMWHBSWJYJGBC",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)P(S)Ph2；氧/硫替换是最近结构差别；硫代磷酰自由基对gem-CF2烯烃加成有报道；P(O)类单氟骨架为局部类比。P=S与P=O不能合并；CF2保留氢加成不证明脱氟"
+  },
+  {
+    "candidate_number": 88,
+    "hypothesis_id": "CP-deed3268ff7bd041::H01",
+    "option_id": "088-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)[P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)c1ccccc1",
+    "product_inchikey": "DLUYIPVTVAFGMT-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-f80bb3050f6cf37c4f40",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/jacs.0c08928",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V29",
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "DLUYIPVTVAFGMT",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "四配位[P+]Cy3连接，反离子需定义；PCy3在酰氟化中有催化能力，不是P进入产物的证据。大位阻和膦鎓盐路径未定；含磷催化剂失败不能算P伙伴失败"
+  },
+  {
+    "candidate_number": 89,
+    "hypothesis_id": "CP-000143ee94b8982f::H01",
+    "option_id": "089-H01-O01",
+    "center": "P",
+    "product_smiles": "CCOP(=O)(OCC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "BXNKTFUDVOKTSX-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-384f9daf07aa3b119985",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/ejoc.201801602",
+      "10.1021/acs.joc.3c01562",
+      "10.1016/0040-4039(96)00239-0"
+    ],
+    "references": [
+      "V16",
+      "V23",
+      "V28"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "BXNKTFUDVOKTSX",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)P(O)(OEt)2；新骨架兼容性待检验；二烷基P(O)H在DBU/室温gem-CF2烯烃取代形成单氟烯基膦酸酯。Intelli2023 Figure4 4g trace、Piettre1996特定底物不反应；限制针对各自CF2保留氢加成目标"
+  },
+  {
+    "candidate_number": 90,
+    "hypothesis_id": "CP-13af80fd720ea87f::H01",
+    "option_id": "090-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=O)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "AEVVIPCSROUGCU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-958eb635ef8c3aae61e6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/ejoc.201801602",
+      "10.1021/acs.orglett.3c00631",
+      "10.1021/acs.joc.3c01562"
+    ],
+    "references": [
+      "V16",
+      "V17",
+      "V23"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "AEVVIPCSROUGCU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)P(O)Ph2；精确目标未在已核对原文中找到；精确Ph2P(O)H在gem-CF2苯乙烯取代可得C(F)–P(O)Ph2；也可走保留CF2氢膦酰化。与CF3直接相连羰基可发生Pudovik/phospha-Brook/氢脱氟，属竞争通道；不能视本项目CH2隔开的羰基失败"
+  },
+  {
+    "candidate_number": 90,
+    "hypothesis_id": "CP-13af80fd720ea87f::H02",
+    "option_id": "090-H02-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=O)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "AEVVIPCSROUGCU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-958eb635ef8c3aae61e6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/ejoc.201801602",
+      "10.1021/acs.orglett.3c00631",
+      "10.1021/acs.joc.3c01562"
+    ],
+    "references": [
+      "V16",
+      "V17",
+      "V23"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "AEVVIPCSROUGCU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)P(O)Ph2；精确目标未在已核对原文中找到；精确Ph2P(O)H在gem-CF2苯乙烯取代可得C(F)–P(O)Ph2；也可走保留CF2氢膦酰化。与CF3直接相连羰基可发生Pudovik/phospha-Brook/氢脱氟，属竞争通道；不能视本项目CH2隔开的羰基失败"
+  },
+  {
+    "candidate_number": 91,
+    "hypothesis_id": "CP-15984a39bb896abc::H01",
+    "option_id": "091-H01-O01",
+    "center": "P",
+    "product_smiles": "CC(C)(C)[P+](C(F)=CC(=O)c1ccccc1)(C(C)(C)C)C(C)(C)C",
+    "product_inchikey": "KIKIEQQQZYQRQC-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-b24bc5b8921df944f9f4",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "KIKIEQQQZYQRQC",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "需要四配位[P+]、反离子及产物稳定性定义；仅P局部连接类比；没有PtBu3目标直接证据。强给电子不等于能进入拥挤C–P成键位点；不可把活化剂限制当直接失败"
+  },
+  {
+    "candidate_number": 92,
+    "hypothesis_id": "CP-2f18674cdee060d7::H01",
+    "option_id": "092-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)[PH](=O)[O-])c1ccccc1",
+    "product_inchikey": "YGTBLOUXUTVZPR-UHFFFAOYSA-M",
+    "formal_charge": -1,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6371b045a3600fec6ed6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/0040-4039(96)00239-0",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V28",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "次磷酸根P–H位替换一个H；保留另一个P–H与O负电荷，去除Na+。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "YGTBLOUXUTVZPR",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)P(O)(H)O− Na+；与膦酸二酯差取代与电荷；P(O)类C(F)–P连接类别已有，NaH2PO2具体形式仅类比。无精确盐/目标反应的成败；溶解度、过度转移及H源竞争需查"
+  },
+  {
+    "candidate_number": 93,
+    "hypothesis_id": "CP-3222b1c46b10eff8::H01",
+    "option_id": "093-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)[P+](c1ccccc1)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "XRWJVOMAKVIJKE-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-88571756d30c42f98436",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d1cc06786a",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V25",
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "XRWJVOMAKVIJKE",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "C(F)–[P+]Ph3盐，不是中性Ph2P产物；PPh3可对Michael受体亲核加成；二级Ph2PH单氟成键先例不等于PPh3。配体可促进C–N/O/S，与作为化学计量P伙伴无关；无目标直接失败"
+  },
+  {
+    "candidate_number": 94,
+    "hypothesis_id": "CP-4f781cc37b739293::H01",
+    "option_id": "094-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(C1CCCCC1)C1CCCCC1)c1ccccc1",
+    "product_inchikey": "LUVLIAJODRCMJJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-807ae8d1441304376f14",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "LUVLIAJODRCMJJ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)PCy2；最近结构差Ph/Cy与羰基骨架；二级芳基Ph2PH已完成CF3→氟烯基膦；Cy2PH是更富电子且更拥挤的伙伴拓展。无Cy2PH目标直接失败；空气氧化与配位需控制"
+  },
+  {
+    "candidate_number": 95,
+    "hypothesis_id": "CP-7010fb8ed62e0e37::H01",
+    "option_id": "095-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "FIBFDRMPQMDPNZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-967742a5056f7c26834d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1039/d4ob01253d"
+    ],
+    "references": [
+      "V05",
+      "V30"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FIBFDRMPQMDPNZ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)PPh2；文献底物为未活化CF3烷烃非PhCOCH2CF3；SI S15精确Ph2PH与未活化CF3烷烃经碱促序列形成fluorovinyl phosphine37%；直接净双脱氟路径先例。后续加HF失败针对gem-CF2终点，对本项目单氟终点不是负例；羰基底物兼容性仍未知"
+  },
+  {
+    "candidate_number": 96,
+    "hypothesis_id": "CP-c92cc6151bc3008b::H01",
+    "option_id": "096-H01-O01",
+    "center": "P",
+    "product_smiles": "CO[P+](OC)(OC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "ZEKOSRPEUBRUDO-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-fd021944d4aa2f292aed",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "P(III)直接进攻的磷鎓物种。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "ZEKOSRPEUBRUDO",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)P(O)(OMe)2假定终点，须验证转换；P(III)亚磷酸酯的非氟底物C–P成键与P(O)(OR)2单氟连接分别已知。必须证明去烷基/氧化态转换，不能直接等同于二甲基P(O)H"
+  },
+  {
+    "candidate_number": 96,
+    "hypothesis_id": "CP-c92cc6151bc3008b::H01",
+    "option_id": "096-H01-O02",
+    "center": "P",
+    "product_smiles": "COP(=O)(OC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OXYGEKFJPFEDMU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e6890159639e58d202fe",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "原路线明确提出去烷基化/氧转移的膦酸酯终态。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "OXYGEKFJPFEDMU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)P(O)(OMe)2假定终点，须验证转换；P(III)亚磷酸酯的非氟底物C–P成键与P(O)(OR)2单氟连接分别已知。必须证明去烷基/氧化态转换，不能直接等同于二甲基P(O)H"
+  },
+  {
+    "candidate_number": 97,
+    "hypothesis_id": "CP-d62c2f4634cac93c::H01",
+    "option_id": "097-H01-O01",
+    "center": "P",
+    "product_smiles": "CO[P+](C(F)=CC(=O)c1ccccc1)(c1ccccc1)c1ccccc1",
+    "product_inchikey": "XSABSEUVXIHHKC-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-2a43700fd7569a9cf50d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "直接成键的甲氧基膦鎓物种。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "XSABSEUVXIHHKC",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "假定PhCOCH=C(F)P(O)Ph2，但可能停在膦鎓态；精确MeO–PPh2对醌甲基化物有C–P成键先例；C(F)–P(O)Ph2另有先例。甲氧基离去/氧转移为目标体系未证实步骤，P(III)/P(V)不可混记"
+  },
+  {
+    "candidate_number": 97,
+    "hypothesis_id": "CP-d62c2f4634cac93c::H01",
+    "option_id": "097-H01-O02",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=O)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "AEVVIPCSROUGCU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-958eb635ef8c3aae61e6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "甲氧基去烷基/氧转移后的膦氧化物终态。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "AEVVIPCSROUGCU",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "假定PhCOCH=C(F)P(O)Ph2，但可能停在膦鎓态；精确MeO–PPh2对醌甲基化物有C–P成键先例；C(F)–P(O)Ph2另有先例。甲氧基离去/氧转移为目标体系未证实步骤，P(III)/P(V)不可混记"
+  },
+  {
+    "candidate_number": 98,
+    "hypothesis_id": "CP-dab7493e2905b4fb::H01",
+    "option_id": "098-H01-O01",
+    "center": "P",
+    "product_smiles": "C[P+](C)(C)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "PQNPWGKCVOUOSJ-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-9b0be174b989ff1ab6bc",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 3,
+      "NP_label": "3",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "PQNPWGKCVOUOSJ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "四配位[P+]Me3及反离子需定义；局部C(F)–P连接可行；PMe3亲核性外推并非该试剂直接文献成功。膦鎓停留/还原副反应无特定目标量化；不许预测必失败"
+  },
+  {
+    "candidate_number": 99,
+    "hypothesis_id": "CP-ecb0e8b377ec42c8::H01",
+    "option_id": "099-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "FIBFDRMPQMDPNZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-967742a5056f7c26834d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V05",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 2
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "FIBFDRMPQMDPNZ",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "PhCOCH=C(F)PPh2；负离子源与相邻羰基差别；Ph2PH碱促净双脱氟成C(F)–P已有；预成形P阴离子是活化方式拓展。强亲核试剂可能优先攻羰基/发生副反应；没有精确盐在目标体系直接失败"
+  },
+  {
+    "candidate_number": 100,
+    "hypothesis_id": "CP-3bfd35b3a7b890f1::H01",
+    "option_id": "100-H01-O01",
+    "center": "Se",
+    "product_smiles": "O=C(C=C(F)[Se]c1ccccc1)c1ccccc1",
+    "product_inchikey": "JPIRWYBXFOLUCE-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-acffa280992656b4ddd8",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.9b01387",
+      "10.1038/s41467-018-08253-z",
+      "10.1002/advs.77070"
+    ],
+    "references": [
+      "V18",
+      "V26",
+      "V27"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。",
+    "version": "2026-10-23-review-revision-v1",
+    "previous_score": {
+      "NP": 2,
+      "NP_label": "2",
+      "NR": 3
+    },
+    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
+    "review_status": "retained_not_independently_rescored",
+    "NP_scope": "所列产物的连接/明确标注的互变体关系；不涉及立体化学首创性",
+    "parent_connectivity_key": "JPIRWYBXFOLUCE",
+    "NP_status": "inherited_bounded_assessment",
+    "NR_status": "inherited_bounded_assessment",
+    "assessment": "目标PhCOCH=C(F)SePh唯一；最新Se原始摘要不确证PhSe个别结构，需保留同族连接层级；C(F)–Se局部连接已由gem-CF2烯烃+selenosulfonate路线实现；PhSeH在卡宾和Pd羰基化体系有成功先例。PhSeH在NiH烯烃氢硒化不产生目标；但另一体系成功，Se5限制均非本项目含氟底物"
+  }
+]

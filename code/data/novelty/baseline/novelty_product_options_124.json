@@ -1,0 +1,3179 @@
+[
+  {
+    "candidate_number": 1,
+    "hypothesis_id": "CP-ab85a340b88a5fa0::H01",
+    "option_id": "001-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "AFNRWGZBZKNNAY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1R",
+    "NR": 2,
+    "evidence_kind": "registered_connectivity",
+    "pubchem_query_id": "PC-fef16489f470788a4f59",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      130680879,
+      25122814,
+      101431145
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V22",
+      "V20"
+    ],
+    "note": "结构登记命中；登记不等于该文献已分离确证本产物。",
+    "fragment_decision": "活化酯脱羧，只转移甲基；删除整个羧基及NHPI离去部分。"
+  },
+  {
+    "candidate_number": 2,
+    "hypothesis_id": "CP-fe84fbfeaab6ca84::H01",
+    "option_id": "002-H01-O01",
+    "center": "C",
+    "product_smiles": "COC(=O)CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "NXGJTZLZNIHGNS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-682be9722ca63292c942",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "硅烯酮缩醛末端碳成键；C=C改单键、C–O成C=O，SiMe3离去；保留甲酯。"
+  },
+  {
+    "candidate_number": 2,
+    "hypothesis_id": "CP-fe84fbfeaab6ca84::H02",
+    "option_id": "002-H02-O01",
+    "center": "C",
+    "product_smiles": "COC(=O)CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "NXGJTZLZNIHGNS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-682be9722ca63292c942",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "硅烯酮缩醛末端碳成键；C=C改单键、C–O成C=O，SiMe3离去；保留甲酯。"
+  },
+  {
+    "candidate_number": 3,
+    "hypothesis_id": "CP-1f98fe5f121fd9a1::H01",
+    "option_id": "003-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccncc1)c1ccccc1",
+    "product_inchikey": "KGAZBAPPTSBQSO-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-4e2301f260c6705b3f48",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "保持提交SMILES所指的4-吡啶基；以C–C取代C–B，去除B(OH)2。文字曾误称3-吡啶基。"
+  },
+  {
+    "candidate_number": 4,
+    "hypothesis_id": "CP-869e3eb72168d724::H01",
+    "option_id": "004-H01-O01",
+    "center": "C",
+    "product_smiles": "Cc1ccc(C(F)=CC(=O)c2ccccc2)o1",
+    "product_inchikey": "OBPVAGKMFMJIPD-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-f98b9e29447ddcb34228",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 4,
+    "hypothesis_id": "CP-869e3eb72168d724::H02",
+    "option_id": "004-H02-O01",
+    "center": "C",
+    "product_smiles": "Cc1ccc(C(F)=CC(=O)c2ccccc2)o1",
+    "product_inchikey": "OBPVAGKMFMJIPD-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-f98b9e29447ddcb34228",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 5,
+    "hypothesis_id": "CP-b49e6492b8f3b97f::H01",
+    "option_id": "005-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1cc2ccccc2s1)c1ccccc1",
+    "product_inchikey": "DWVHCQAKSZMDHP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6f1be447e5f1ed255075",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 6,
+    "hypothesis_id": "CP-60ed269cc272def9::H01",
+    "option_id": "006-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccccc1)c1ccccc1",
+    "product_inchikey": "ROYMGIZNBLCJPN-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1R",
+    "NR": 2,
+    "evidence_kind": "registered_connectivity",
+    "pubchem_query_id": "PC-e66fb51203ca5c8fdcde",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      73177594,
+      12929813,
+      101431143
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "结构登记命中；登记不等于该文献已分离确证本产物。",
+    "fragment_decision": "重氮盐脱N2，只转移苯基；BF4为反离子。"
+  },
+  {
+    "candidate_number": 7,
+    "hypothesis_id": "CP-5934af04c3f8aeb9::H01",
+    "option_id": "007-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C[N+](=O)[O-])c1ccccc1",
+    "product_inchikey": "CDWTXUWSHPMUPP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6552f472ea5b0f4d3f39",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V20",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 8,
+    "hypothesis_id": "CP-66013c6cea267de7::H01",
+    "option_id": "008-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(=O)CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "FRUDKJGFSXKBSP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-f5e33674d4ee8c30091c",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 9,
+    "hypothesis_id": "CP-8125e5fbd7a0556e::H01",
+    "option_id": "009-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)Cc1ccccc1)c1ccccc1",
+    "product_inchikey": "RLYOVOXCZHYKHT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9c5dc5924b92ed657c84",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "以C–C取代苄位C–Zn；ZnBr不进入产物。"
+  },
+  {
+    "candidate_number": 10,
+    "hypothesis_id": "CP-5bf56c0fb6340187::H01",
+    "option_id": "010-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(C)(C)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "RFANGRRPHMSMQD-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-edfbc124d55640fa9e4f",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "C–I裂解后转移叔丁基，碘不进入产物。"
+  },
+  {
+    "candidate_number": 11,
+    "hypothesis_id": "CP-7ff7c801adbfac54::H01",
+    "option_id": "011-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(=O)CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "FRUDKJGFSXKBSP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-f5e33674d4ee8c30091c",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "C端成键：烯醇负离子C=C改单键并恢复C=O；去除Li+。"
+  },
+  {
+    "candidate_number": 11,
+    "hypothesis_id": "CP-7ff7c801adbfac54::H02",
+    "option_id": "011-H02-O01",
+    "center": "O",
+    "product_smiles": "C=C(C)OC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "VQEGSSAHKFBWJW-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-78611f9eca5c656715fd",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.3762/bjoc.20.226"
+    ],
+    "references": [
+      "V05",
+      "V10"
+    ],
+    "note": "",
+    "fragment_decision": "O端成键：保留烯醚C=C，不擅自改为C端连接；去除Li+。"
+  },
+  {
+    "candidate_number": 12,
+    "hypothesis_id": "CP-9531200cd700e862::H01",
+    "option_id": "012-H01-O01",
+    "center": "C",
+    "product_smiles": "COC(=O)C(C(=O)OC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "BWHBSMMMUMIYFS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-b08987ccc221332291e4",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "丙二酸酯碳负离子成键后电中性；去除Na+。"
+  },
+  {
+    "candidate_number": 13,
+    "hypothesis_id": "CP-3be0de0ba1e8a796::H01",
+    "option_id": "013-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)CC1CC1)c1ccccc1",
+    "product_inchikey": "FDBXYHPSLVAJHK-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-052901f21bdd966f998a",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "C–Br裂解后固定原环丙甲基连接；不将潜在自由基开环产物混入指定假设。"
+  },
+  {
+    "candidate_number": 14,
+    "hypothesis_id": "CP-8af179673435d8d7::H01",
+    "option_id": "014-H01-O01",
+    "center": "C",
+    "product_smiles": "CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "AFNRWGZBZKNNAY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1R",
+    "NR": 2,
+    "evidence_kind": "registered_connectivity",
+    "pubchem_query_id": "PC-fef16489f470788a4f59",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      130680879,
+      25122814,
+      101431145
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V22",
+      "V20"
+    ],
+    "note": "结构登记命中；登记不等于该文献已分离确证本产物。",
+    "fragment_decision": "甲基负离子转移成键；Li+不进入产物。"
+  },
+  {
+    "candidate_number": 15,
+    "hypothesis_id": "CP-a84a97ef9479980c::H01",
+    "option_id": "015-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C1=COCC1)c1ccccc1",
+    "product_inchikey": "LFCJLUNECHYNNH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-bc8b59d29634b1a9df83",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V19",
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "保留烯醚双键的末端取代形式；固定原atom1与原CF3碳连接。"
+  },
+  {
+    "candidate_number": 15,
+    "hypothesis_id": "CP-a84a97ef9479980c::H01",
+    "option_id": "015-H01-O02",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C1CCOC1)c1ccccc1",
+    "product_inchikey": "PJMNUGBPEMRMSZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-826c5e6b20608e5f2595",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V19",
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "加成后还原/质子化的饱和环醚形式；需额外氢来源，未实证。"
+  },
+  {
+    "candidate_number": 16,
+    "hypothesis_id": "CP-ba958c6f38d5a527::H01",
+    "option_id": "016-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C1CC1)c1ccccc1",
+    "product_inchikey": "VXWPSOKUEYESAM-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-3364eb938904b18d7fcd",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "C–B取代为C–C，保持环丙基；删除B(OH)2。"
+  },
+  {
+    "candidate_number": 17,
+    "hypothesis_id": "CP-df56f80eb64eca43::H01",
+    "option_id": "017-H01-O01",
+    "center": "C",
+    "product_smiles": "COc1cc(OC)c(C(F)=CC(=O)c2ccccc2)c(OC)c1",
+    "product_inchikey": "HYDHUHFGIMSKSG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a062b1bc731b611e1382",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r"
+    ],
+    "references": [
+      "V19"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 18,
+    "hypothesis_id": "CP-0a28c29fb4c274be::H01",
+    "option_id": "018-H01-O01",
+    "center": "C",
+    "product_smiles": "C=CCC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "CKQGFQSMUAXWKN-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-991f2cbbfcba748c8491",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V20",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "Sakurai型末端成键并双键迁移、脱硅；净转移烯丙基，指定成键原子原atom0。"
+  },
+  {
+    "candidate_number": 19,
+    "hypothesis_id": "CP-205f9fb18ebd4ed6::H01",
+    "option_id": "019-H01-O01",
+    "center": "C",
+    "product_smiles": "CCOC=CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "ILKWKALDNVSONT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6236defcc6a971bcdfbe",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "保留烯醚的脱质子化终态。"
+  },
+  {
+    "candidate_number": 19,
+    "hypothesis_id": "CP-205f9fb18ebd4ed6::H01",
+    "option_id": "019-H01-O02",
+    "center": "C",
+    "product_smiles": "O=CCC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "FZWLXLWLBFVOTI-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a76f06324e8e7d407043",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "烯醚捕获后水解的醛终态；乙氧基作为醇离去。"
+  },
+  {
+    "candidate_number": 20,
+    "hypothesis_id": "CP-2461405780c80fb1::H01",
+    "option_id": "020-H01-O01",
+    "center": "C",
+    "product_smiles": "Cc1cccc(C)c1C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "QYCJIUSIZRGMLZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-d5c12fbed481ecc68bfb",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "以C–C取代C–B；保持邻位双甲基及芳环连接。"
+  },
+  {
+    "candidate_number": 21,
+    "hypothesis_id": "CP-2ad90a72deb18e8b::H01",
+    "option_id": "021-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccco1)c1ccccc1",
+    "product_inchikey": "FXWUBBJINJUVDZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-78c4589808443f9d2067",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 22,
+    "hypothesis_id": "CP-383b50ba8f0aa496::H01",
+    "option_id": "022-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1c[nH]c2ccccc12)c1ccccc1",
+    "product_inchikey": "LVPRSXWLAYHQJT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a092f4395d5f22e03e77",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 22,
+    "hypothesis_id": "CP-383b50ba8f0aa496::H02",
+    "option_id": "022-H02-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1c[nH]c2ccccc12)c1ccccc1",
+    "product_inchikey": "LVPRSXWLAYHQJT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a092f4395d5f22e03e77",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 23,
+    "hypothesis_id": "CP-4adad89fe53a73a6::H01",
+    "option_id": "023-H01-O01",
+    "center": "C",
+    "product_smiles": "COc1cccc(OC)c1C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OKPMHZPXXJGTAG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-05b9f9aa92256eb001e7",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r"
+    ],
+    "references": [
+      "V19"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 24,
+    "hypothesis_id": "CP-52f3e8b4011bbac2::H01",
+    "option_id": "024-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)CC(=O)c1ccccc1)c1ccccc1",
+    "product_inchikey": "KAGYZNGKPKBSLU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ea2bf421fb4f3b9c8074",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "硅烯醇醚末端碳成键并脱SiMe3，恢复苯乙酮羰基。"
+  },
+  {
+    "candidate_number": 25,
+    "hypothesis_id": "CP-5d0333041aebff88::H01",
+    "option_id": "025-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1c(O)ccc2ccccc12)c1ccccc1",
+    "product_inchikey": "WGPMURXBUSBSLY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-7ae99aa06a5e017c2019",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r"
+    ],
+    "references": [
+      "V19"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 26,
+    "hypothesis_id": "CP-6f96d085ca3320a4::H01",
+    "option_id": "026-H01-O01",
+    "center": "C",
+    "product_smiles": "N#CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "LGDJNIDZORKBDW-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9ca367c1788ea68d5ba8",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.9b00999"
+    ],
+    "references": [
+      "V21"
+    ],
+    "note": "",
+    "fragment_decision": "经C–Si裂解转移氰基，成键端为碳；SiMe3不保留。"
+  },
+  {
+    "candidate_number": 27,
+    "hypothesis_id": "CP-719c8ad385fb72f6::H01",
+    "option_id": "027-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccc[nH]1)c1ccccc1",
+    "product_inchikey": "GUQQLFUXGJKENG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-1ed369b7a919d86ea1e4",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 27,
+    "hypothesis_id": "CP-719c8ad385fb72f6::H02",
+    "option_id": "027-H02-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)n1cccc1)c1ccccc1",
+    "product_inchikey": "YHEUDNFIHJAORJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-bb59844a6169407f9593",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V02",
+      "V03"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 28,
+    "hypothesis_id": "CP-7953343be0b435d5::H01",
+    "option_id": "028-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1cccs1)c1ccccc1",
+    "product_inchikey": "WUGUUZISADVQLU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-aa9051e7f05467f4062e",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 29,
+    "hypothesis_id": "CP-a71435752beee4c8::H01",
+    "option_id": "029-H01-O01",
+    "center": "C",
+    "product_smiles": "CN(C)C=CC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "VMVDMDDZQXNKFG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e57df52e9e17d45f699a",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "保留烯胺的双键迁移/脱质子化终态。"
+  },
+  {
+    "candidate_number": 29,
+    "hypothesis_id": "CP-a71435752beee4c8::H01",
+    "option_id": "029-H01-O02",
+    "center": "C",
+    "product_smiles": "O=CCC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "FZWLXLWLBFVOTI-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a76f06324e8e7d407043",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "烯胺捕获后水解的醛终态；二甲胺离去。"
+  },
+  {
+    "candidate_number": 30,
+    "hypothesis_id": "CP-d0eb12604107d80c::H01",
+    "option_id": "030-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)C=Cc1ccccc1)c1ccccc1",
+    "product_inchikey": "WFIRQXHDJLNTIJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9acc762d40c4b14941ff",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V22",
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "末端碳成键并恢复苯乙烯双键的二烯终态。"
+  },
+  {
+    "candidate_number": 30,
+    "hypothesis_id": "CP-d0eb12604107d80c::H01",
+    "option_id": "030-H01-O02",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)CCc1ccccc1)c1ccccc1",
+    "product_inchikey": "WITBHSJYXVAUTE-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-d082b6e1c5efa6d6d21c",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c",
+      "10.1021/acs.orglett.7b03700"
+    ],
+    "references": [
+      "V22",
+      "V20"
+    ],
+    "note": "",
+    "fragment_decision": "末端碳成键并还原/质子化的饱和苯乙基终态；需额外氢来源。"
+  },
+  {
+    "candidate_number": 31,
+    "hypothesis_id": "CP-d2ba4020b787a8b0::H01",
+    "option_id": "031-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)Cc1ccccc1)c1ccccc1",
+    "product_inchikey": "RLYOVOXCZHYKHT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9c5dc5924b92ed657c84",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "只转移苄基；K+与BF3部分不进入目标产物。"
+  },
+  {
+    "candidate_number": 31,
+    "hypothesis_id": "CP-d2ba4020b787a8b0::H02",
+    "option_id": "031-H02-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)Cc1ccccc1)c1ccccc1",
+    "product_inchikey": "RLYOVOXCZHYKHT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9c5dc5924b92ed657c84",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "只转移苄基；K+与BF3部分不进入目标产物。"
+  },
+  {
+    "candidate_number": 32,
+    "hypothesis_id": "CP-deb4973b3faf0625::H01",
+    "option_id": "032-H01-O01",
+    "center": "C",
+    "product_smiles": "COc1ccc(C(F)=CC(=O)c2ccccc2)cc1",
+    "product_inchikey": "PTFNPYFAZQIKOO-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-093ff0f2161b4efcbc11",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r"
+    ],
+    "references": [
+      "V19"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 33,
+    "hypothesis_id": "CP-e7c338a1b0ff4640::H01",
+    "option_id": "033-H01-O01",
+    "center": "C",
+    "product_smiles": "O=C(C=C(F)c1ccccc1)c1ccccc1",
+    "product_inchikey": "ROYMGIZNBLCJPN-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1R",
+    "NR": 2,
+    "evidence_kind": "registered_connectivity",
+    "pubchem_query_id": "PC-e66fb51203ca5c8fdcde",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      73177594,
+      12929813,
+      101431143
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V22"
+    ],
+    "note": "结构登记命中；登记不等于该文献已分离确证本产物。",
+    "fragment_decision": "两个Zn–C位点对称等价；一次转移一个苯基，另一苯基及Zn不进入目标产物。"
+  },
+  {
+    "candidate_number": 34,
+    "hypothesis_id": "CP-f34be542835fcb08::H01",
+    "option_id": "034-H01-O01",
+    "center": "C",
+    "product_smiles": "Cn1cc(C(F)=CC(=O)c2ccccc2)c2ccccc21",
+    "product_inchikey": "DQPYZVQAOAPLBW-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-cc5ed8ed5b64c7dd6303",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/ol060912r",
+      "10.1039/d6sc05561c"
+    ],
+    "references": [
+      "V19",
+      "V22"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 35,
+    "hypothesis_id": "CP-15eeea50cbe27556::H01",
+    "option_id": "035-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)[n+]1cc[nH]c1)c1ccccc1",
+    "product_inchikey": "VQEJOXYKURNHHU-UHFFFAOYSA-O",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 2,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-98b087c19731a56f07b1",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V01",
+      "V02",
+      "V03"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 35,
+    "hypothesis_id": "CP-15eeea50cbe27556::H02",
+    "option_id": "035-H02-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)n1ccnc1)c1ccccc1",
+    "product_inchikey": "VQEJOXYKURNHHU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-85addcb8d4bc3591a2b2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V01",
+      "V02",
+      "V03"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 36,
+    "hypothesis_id": "CP-17d78fd2ceec8c4c::H01",
+    "option_id": "036-H01-O01",
+    "center": "N",
+    "product_smiles": "CS(=O)(=O)NC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "RLFRSMZDJNDXOC-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e2044867ca9e298a4ba9",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1080/14756366.2018.1461097"
+    ],
+    "references": [
+      "V09"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 37,
+    "hypothesis_id": "CP-f0b88f6468f852c8::H01",
+    "option_id": "037-H01-O01",
+    "center": "N",
+    "product_smiles": "[N-]=[N+]=NC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "ZILOTZHJSDJNRC-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-a3bb107066e0767a127c",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111"
+    ],
+    "references": [
+      "V08"
+    ],
+    "note": "",
+    "fragment_decision": "固定原末端N成键；脱SiMe3并按叠氮共振形式重排键级，保持N3。"
+  },
+  {
+    "candidate_number": 38,
+    "hypothesis_id": "CP-d0c9b289504a201f::H01",
+    "option_id": "038-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)Nc1ccc(C(F)(F)F)cc1)c1ccccc1",
+    "product_inchikey": "IYXBXZDOPMSYHW-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-fa48e3cfb4022e4696fb",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V05",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 39,
+    "hypothesis_id": "CP-ccb45c231c905174::H01",
+    "option_id": "039-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)N1CCOCC1)c1ccccc1",
+    "product_inchikey": "JHIIFPMWBYQFFA-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-92d8632c48e3f492d75d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V08",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 39,
+    "hypothesis_id": "CP-ccb45c231c905174::H02",
+    "option_id": "039-H02-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)N1CCOCC1)c1ccccc1",
+    "product_inchikey": "JHIIFPMWBYQFFA-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-92d8632c48e3f492d75d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V08",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 40,
+    "hypothesis_id": "CP-c65a9b3d8c110ddb::H01",
+    "option_id": "040-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)n1cccn1)c1ccccc1",
+    "product_inchikey": "OHQBNTGEWNEYEP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a86cbb0e8b228db7e436",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V02",
+      "V03"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 41,
+    "hypothesis_id": "CP-08db38349537cc05::H01",
+    "option_id": "041-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)NC(=O)c1ccccc1)c1ccccc1",
+    "product_inchikey": "FHWHYQBSJFVTOT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-3492b3f5d7d99f23283e",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1080/14756366.2018.1461097"
+    ],
+    "references": [
+      "V09"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 42,
+    "hypothesis_id": "CP-f9dfd61493ca94a4::H01",
+    "option_id": "042-H01-O01",
+    "center": "N",
+    "product_smiles": "NC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "HYCQOMJCVFDPPJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-a937e16e6f68cb28c444",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.3762/bjoc.19.111"
+    ],
+    "references": [
+      "V05",
+      "V08"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 43,
+    "hypothesis_id": "CP-265c0f19c5eb5e56::H01",
+    "option_id": "043-H01-O01",
+    "center": "N",
+    "product_smiles": "C[N+](C)(C)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "USQQWINOAZAFAX-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-34d5290bb0f3c5cfd7b7",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111"
+    ],
+    "references": [
+      "V08"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "三级胺以孤对电子成键生成季铵阳离子；不得静默删除甲基或改成中性胺。"
+  },
+  {
+    "candidate_number": 44,
+    "hypothesis_id": "CP-17e086b041c039f5::H01",
+    "option_id": "044-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)N1C(=O)c2ccccc2C1=O)c1ccccc1",
+    "product_inchikey": "TVCHEWGQBSBDQT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-84605dcc64a380d53b20",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1080/14756366.2018.1461097"
+    ],
+    "references": [
+      "V09"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 45,
+    "hypothesis_id": "CP-1b58b081277f4aff::H01",
+    "option_id": "045-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)Nc1ccccc1)c1ccccc1",
+    "product_inchikey": "QVHREGBDEYGWLF-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-26f0829ece09fbce00ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 46,
+    "hypothesis_id": "CP-254b9aa19ec37938::H01",
+    "option_id": "046-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)N1CCCCC1)c1ccccc1",
+    "product_inchikey": "YSRYXAGHTVBKCG-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 1,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-7dea4d3ff6f007d3ecb2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.19.111",
+      "10.1126/sciadv.aea4120",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V08",
+      "V04",
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 47,
+    "hypothesis_id": "CP-39fbeda7a0fbf2ea::H01",
+    "option_id": "047-H01-O01",
+    "center": "N",
+    "product_smiles": "N#CNC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "BHMSAZRGQYXNLC-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-874d5a52096feb781c7d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1080/14756366.2018.1461097",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V09",
+      "V03"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 48,
+    "hypothesis_id": "CP-8d11fd6c0d4e62a7::H01",
+    "option_id": "048-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)Nc1ccccc1)c1ccccc1",
+    "product_inchikey": "QVHREGBDEYGWLF-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-26f0829ece09fbce00ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V05",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 49,
+    "hypothesis_id": "CP-b2cf6b111cd50f59::H01",
+    "option_id": "049-H01-O01",
+    "center": "N",
+    "product_smiles": "O=C(C=C(F)n1cnnc1)c1ccccc1",
+    "product_inchikey": "YKAYJSKYOFVQLX-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-0380de4f616f656b5853",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/jacs.5c08791",
+      "10.1021/jo5005845"
+    ],
+    "references": [
+      "V02",
+      "V03"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 50,
+    "hypothesis_id": "CP-b56d476fec2f52a2::H01",
+    "option_id": "050-H01-O01",
+    "center": "N",
+    "product_smiles": "CCCCNC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "REFNTQFBVOCXKU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-178eb743d44ce0e75cd0",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1126/sciadv.aea4120"
+    ],
+    "references": [
+      "V05",
+      "V04"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 51,
+    "hypothesis_id": "CP-3a23ccb632c9f44d::H01",
+    "option_id": "051-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccccc1)c1ccccc1",
+    "product_inchikey": "MVRQJCWBMYQDTR-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6a583dc2c8d148d29ca2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c",
+      "10.1016/j.checat.2022.03.021"
+    ],
+    "references": [
+      "V10",
+      "V05",
+      "V01"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 51,
+    "hypothesis_id": "CP-3a23ccb632c9f44d::H02",
+    "option_id": "051-H02-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccccc1)c1ccccc1",
+    "product_inchikey": "MVRQJCWBMYQDTR-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6a583dc2c8d148d29ca2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c",
+      "10.1016/j.checat.2022.03.021"
+    ],
+    "references": [
+      "V10",
+      "V05",
+      "V01"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 52,
+    "hypothesis_id": "CP-04e1450f7a0596df::H01",
+    "option_id": "052-H01-O01",
+    "center": "O",
+    "product_smiles": "C=CCOC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "RJODTVRRQAQNAQ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-84e1b37994b0b582ebe3",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 53,
+    "hypothesis_id": "CP-0dde3cbcb235c563::H01",
+    "option_id": "053-H01-O01",
+    "center": "O",
+    "product_smiles": "CC1(C)CCCC(C)(C)N1OC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "WCFOMOLECAPCIS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-1492f6d76de46932c951",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "O中心自由基成键后闭壳层；保留N–O键。"
+  },
+  {
+    "candidate_number": 54,
+    "hypothesis_id": "CP-a48a48bf32050f7b::H01",
+    "option_id": "054-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)OO)c1ccccc1",
+    "product_inchikey": "KBQQVUWTVOHZOJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-47e2e208aa0bd5da42b8",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 55,
+    "hypothesis_id": "CP-e81dc06beaa39499::H01",
+    "option_id": "055-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(O)F)c1ccccc1",
+    "product_inchikey": "HVKSEWNQMZQQAZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 1,
+    "NP_label": "1T",
+    "NR": 3,
+    "evidence_kind": "registered_tautomer",
+    "pubchem_query_id": "PC-5a207e4ac321243e1360",
+    "pubchem_status": "hit",
+    "pubchem_cids": [
+      72458434,
+      58904310
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "PubChem标准化后命中互变异构登记；不是相同键级图。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 56,
+    "hypothesis_id": "CP-168a0c2e4c8e139f::H01",
+    "option_id": "056-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)O[n+]1ccccc1)c1ccccc1",
+    "product_inchikey": "UMVLLRLPFCLBGH-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-f58a9d948b3662eb31b4",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "N-氧化物的O端成键后O电中性、吡啶N仍+1；形成阳离子，不是普通醚。"
+  },
+  {
+    "candidate_number": 57,
+    "hypothesis_id": "CP-48cbdd3aac3823f7::H01",
+    "option_id": "057-H01-O01",
+    "center": "O",
+    "product_smiles": "C[Si](C)(C)OC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "BMOCIEJXBBCDHP-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-dac12d7ada6bda36a0e1",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 58,
+    "hypothesis_id": "CP-64837e30f7127abc::H01",
+    "option_id": "058-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+    "product_inchikey": "WVUYYVTYHIWXFU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9237f548e6d250389c69",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V10",
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 59,
+    "hypothesis_id": "CP-822684332936c797::H01",
+    "option_id": "059-H01-O01",
+    "center": "O",
+    "product_smiles": "CC(C)(C)OC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "GAUVWILDLQXCHM-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-8adce3694a19d33bcf84",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 60,
+    "hypothesis_id": "CP-8de27f136fedbba8::H01",
+    "option_id": "060-H01-O01",
+    "center": "O",
+    "product_smiles": "COC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OTTBAIZFHQLHML-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-b99556bc58ddec290496",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 61,
+    "hypothesis_id": "CP-a85d32e4db2ff39c::H01",
+    "option_id": "061-H01-O01",
+    "center": "O",
+    "product_smiles": "COC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OTTBAIZFHQLHML-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-b99556bc58ddec290496",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 62,
+    "hypothesis_id": "CP-ae66431c2fbd5738::H01",
+    "option_id": "062-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)OCC(F)(F)F)c1ccccc1",
+    "product_inchikey": "UOHDELOJQMSFCV-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-d40bbf439752f5aa6d1b",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 63,
+    "hypothesis_id": "CP-cb20f7766b730a70::H01",
+    "option_id": "063-H01-O01",
+    "center": "O",
+    "product_smiles": "COC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OTTBAIZFHQLHML-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-b99556bc58ddec290496",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 64,
+    "hypothesis_id": "CP-dc11a678a5813bfb::H01",
+    "option_id": "064-H01-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccccc1)c1ccccc1",
+    "product_inchikey": "MVRQJCWBMYQDTR-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6a583dc2c8d148d29ca2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V10",
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 64,
+    "hypothesis_id": "CP-dc11a678a5813bfb::H02",
+    "option_id": "064-H02-O01",
+    "center": "O",
+    "product_smiles": "O=C(C=C(F)Oc1ccccc1)c1ccccc1",
+    "product_inchikey": "MVRQJCWBMYQDTR-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6a583dc2c8d148d29ca2",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V10",
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 65,
+    "hypothesis_id": "CP-f7328591687088c5::H01",
+    "option_id": "065-H01-O01",
+    "center": "O",
+    "product_smiles": "C=CCOC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "RJODTVRRQAQNAQ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-84e1b37994b0b582ebe3",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 66,
+    "hypothesis_id": "CP-3ca04501f77d577c::H01",
+    "option_id": "066-H01-O01",
+    "center": "S",
+    "product_smiles": "N#CSC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "SFPPQVQMZHXXBT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-9caaf6a25e9c98629df6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.6c01159",
+      "10.1021/acs.joc.1c00490"
+    ],
+    "references": [
+      "V12",
+      "V06"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 67,
+    "hypothesis_id": "CP-efe8367638b4b0e2::H01",
+    "option_id": "067-H01-O01",
+    "center": "S",
+    "product_smiles": "NC(=[NH2+])SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "IWOAAOMCXWREJG-UHFFFAOYSA-O",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-56cb5bb49623fd3bb81b",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "按S端捕获给异硫脲鎓连接；电荷用N端共振式表示；阴离子未指定。"
+  },
+  {
+    "candidate_number": 68,
+    "hypothesis_id": "CP-757e317decd6724d::H01",
+    "option_id": "068-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccc(Br)cc1)c1ccccc1",
+    "product_inchikey": "AFDZINLDHIQYSE-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-5b75b04e9e7129f1dda1",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 69,
+    "hypothesis_id": "CP-e61c7ae663276e1e::H01",
+    "option_id": "069-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)[S+]1CCCC1)c1ccccc1",
+    "product_inchikey": "KYNMLHSNSQYJPG-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-c4c41d71b2fa7a5e363a",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "二价环硫成第三个C–S键形成锍阳离子；环骨架保持。"
+  },
+  {
+    "candidate_number": 70,
+    "hypothesis_id": "CP-127aad8ad7de9e0a::H01",
+    "option_id": "070-H01-O01",
+    "center": "S",
+    "product_smiles": "CS(=O)(=O)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "LSUOBHJWVFBTBH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-72ec667402ece2508e57",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c00490"
+    ],
+    "references": [
+      "V06"
+    ],
+    "note": "",
+    "fragment_decision": "亚磺酸盐S端生成磺酰自由基并成键；O-改为S=O，去除Na+。"
+  },
+  {
+    "candidate_number": 71,
+    "hypothesis_id": "CP-db052eb259749c35::H01",
+    "option_id": "071-H01-O01",
+    "center": "S",
+    "product_smiles": "CSC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "UPSSUROBYSDJAY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-693ac7f6794b1f893a65",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "断开S–S，仅保留该假设指定端的甲硫基或苯硫基。"
+  },
+  {
+    "candidate_number": 71,
+    "hypothesis_id": "CP-db052eb259749c35::H02",
+    "option_id": "071-H02-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "断开S–S，仅保留该假设指定端的甲硫基或苯硫基。"
+  },
+  {
+    "candidate_number": 72,
+    "hypothesis_id": "CP-8680b11837f9690e::H01",
+    "option_id": "072-H01-O01",
+    "center": "S",
+    "product_smiles": "CSC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "UPSSUROBYSDJAY-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-693ac7f6794b1f893a65",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "转移甲硫基；铜反离子不进入目标有机产物。"
+  },
+  {
+    "candidate_number": 73,
+    "hypothesis_id": "CP-790a21c83fa3ce0d::H01",
+    "option_id": "073-H01-O01",
+    "center": "S",
+    "product_smiles": "CCOC(=S)SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "UNIMLJAMLWHOLS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-06cfda6f333a3ed87e15",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "两个端硫的键级/电荷互为共振形式；保持指定原子映射，但未标记的产物连接图相同。"
+  },
+  {
+    "candidate_number": 73,
+    "hypothesis_id": "CP-790a21c83fa3ce0d::H02",
+    "option_id": "073-H02-O01",
+    "center": "S",
+    "product_smiles": "CCOC(=S)SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "UNIMLJAMLWHOLS-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-06cfda6f333a3ed87e15",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "两个端硫的键级/电荷互为共振形式；保持指定原子映射，但未标记的产物连接图相同。"
+  },
+  {
+    "candidate_number": 74,
+    "hypothesis_id": "CP-4d2aaa7bf4b8ca67::H01",
+    "option_id": "074-H01-O01",
+    "center": "S",
+    "product_smiles": "C[S+](C)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "SNPAKFLVQCTMAQ-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-9f75e4858a89af445f25",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "二甲硫醚S形成第三键，目标初级物种为锍阳离子。"
+  },
+  {
+    "candidate_number": 75,
+    "hypothesis_id": "CP-02287a1de385889e::H01",
+    "option_id": "075-H01-O01",
+    "center": "S",
+    "product_smiles": "CCSC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "IIGXTCYVHRISGF-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-239877b747370e539e7f",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V05",
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 76,
+    "hypothesis_id": "CP-71ce6823ee7e14cc::H01",
+    "option_id": "076-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)S(=O)(=O)c1ccccc1)c1ccccc1",
+    "product_inchikey": "DJERHVRXPCPWLH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-defa7a445a770e752764",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c00490"
+    ],
+    "references": [
+      "V06"
+    ],
+    "note": "",
+    "fragment_decision": "苯亚磺酸盐S端成键形成砜；保留两个氧，去除Na+。"
+  },
+  {
+    "candidate_number": 77,
+    "hypothesis_id": "CP-735e0b557cdf0e0c::H01",
+    "option_id": "077-H01-O01",
+    "center": "S",
+    "product_smiles": "CC(=O)SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "USWQWULSIXPOKV-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-8c6eff7bc99d7780d2af",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 78,
+    "hypothesis_id": "CP-7647ff2ce0052a54::H01",
+    "option_id": "078-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "S–S断裂后只转移一个苯硫基；两S对称等价。"
+  },
+  {
+    "candidate_number": 79,
+    "hypothesis_id": "CP-85359065fe28e8d0::H01",
+    "option_id": "079-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 80,
+    "hypothesis_id": "CP-95e4c6bd10d240e3::H01",
+    "option_id": "080-H01-O01",
+    "center": "S",
+    "product_smiles": "CC(C)(C)SC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "XOHVBHVAKLTBRV-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ff757847a6e35a48391d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.3762/bjoc.11.205",
+      "10.1021/acs.joc.6c01159"
+    ],
+    "references": [
+      "V05",
+      "V11",
+      "V12"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 81,
+    "hypothesis_id": "CP-abed28aa627f8929::H01",
+    "option_id": "081-H01-O01",
+    "center": "S",
+    "product_smiles": "C[S+](C(F)=CC(=O)c1ccccc1)c1ccccc1",
+    "product_inchikey": "YMGHYVNLKYXUJM-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_motif",
+    "pubchem_query_id": "PC-b0ee327d5038828c69cc",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1021/jacs.4c03826"
+    ],
+    "references": [
+      "V11",
+      "V15"
+    ],
+    "note": "",
+    "fragment_decision": "保留甲基与苯基，新增C–S键形成锍盐；不预设后续脱甲基。"
+  },
+  {
+    "candidate_number": 82,
+    "hypothesis_id": "CP-b18c4945d055e0a6::H01",
+    "option_id": "082-H01-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g",
+      "10.3762/bjoc.11.205"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14",
+      "V11"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 82,
+    "hypothesis_id": "CP-b18c4945d055e0a6::H02",
+    "option_id": "082-H02-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g",
+      "10.3762/bjoc.11.205"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14",
+      "V11"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 82,
+    "hypothesis_id": "CP-b18c4945d055e0a6::H03",
+    "option_id": "082-H03-O01",
+    "center": "S",
+    "product_smiles": "O=C(C=C(F)Sc1ccccc1)c1ccccc1",
+    "product_inchikey": "LPMYCHCGOGKWFH-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-ce296131651bf39065ef",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/j.checat.2022.03.021",
+      "10.1021/acs.joc.6c01159",
+      "10.1039/c7ob00599g",
+      "10.3762/bjoc.11.205"
+    ],
+    "references": [
+      "V01",
+      "V12",
+      "V14",
+      "V11"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 83,
+    "hypothesis_id": "CP-9965bc6fbd9116ca::H01",
+    "option_id": "083-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)[P+](OCC(F)(F)F)(OCC(F)(F)F)OCC(F)(F)F)c1ccccc1",
+    "product_inchikey": "ZRVPIYZJENBIKM-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-f3e9e984910a92f25ce8",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "P(III)直接进攻的磷鎓物种。"
+  },
+  {
+    "candidate_number": 83,
+    "hypothesis_id": "CP-9965bc6fbd9116ca::H01",
+    "option_id": "083-H01-O02",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=O)(OCC(F)(F)F)OCC(F)(F)F)c1ccccc1",
+    "product_inchikey": "GDEJUCQVMUYXIU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-9530e1193740ad8d328b",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "经去烷基化/氧转移的中性膦酸酯终态。"
+  },
+  {
+    "candidate_number": 84,
+    "hypothesis_id": "CP-68d791fe27d0090d::H01",
+    "option_id": "084-H01-O01",
+    "center": "P",
+    "product_smiles": "CCCC[P+](CCCC)(CCCC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "ZFGCWNYRYNCMBR-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-dba300860a9a05124ffb",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d1cc06786a",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V25",
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 85,
+    "hypothesis_id": "CP-586e1196c67c1811::H01",
+    "option_id": "085-H01-O01",
+    "center": "P",
+    "product_smiles": "COP(=O)(OC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OXYGEKFJPFEDMU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e6890159639e58d202fe",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/ejoc.201801602",
+      "10.1021/acs.orglett.3c00631"
+    ],
+    "references": [
+      "V16",
+      "V17"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 86,
+    "hypothesis_id": "CP-cda39527d578a1f4::H01",
+    "option_id": "086-H01-O01",
+    "center": "P",
+    "product_smiles": "C[Si](C)(C)P(C(F)=CC(=O)c1ccccc1)[Si](C)(C)C",
+    "product_inchikey": "GWRWPEPFDKHHED-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_silyl_phosphine_endpoint",
+    "pubchem_query_id": "PC-8769206342189eca6126",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "P-Si去除程度尚有多种可能，各结构作为明确备选终态评分。",
+    "fragment_decision": "一个P–Si键被C–P替代后的二硅基膦。"
+  },
+  {
+    "candidate_number": 86,
+    "hypothesis_id": "CP-cda39527d578a1f4::H01",
+    "option_id": "086-H01-O02",
+    "center": "P",
+    "product_smiles": "C[Si](C)(C)PC(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "GTCDIVAKVZKZAT-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_silyl_phosphine_endpoint",
+    "pubchem_query_id": "PC-a701821aaa1be15e6d1e",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "P-Si去除程度尚有多种可能，各结构作为明确备选终态评分。",
+    "fragment_decision": "进一步水解一个P–Si键的单硅基膦。"
+  },
+  {
+    "candidate_number": 86,
+    "hypothesis_id": "CP-cda39527d578a1f4::H01",
+    "option_id": "086-H01-O03",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P)c1ccccc1",
+    "product_inchikey": "FAWFKMHYFBONDD-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_silyl_phosphine_endpoint",
+    "pubchem_query_id": "PC-162e9afd47879b1a0a4b",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "P-Si去除程度尚有多种可能，各结构作为明确备选终态评分。",
+    "fragment_decision": "水解全部剩余P–Si键的一级膦；不能从原假设唯一确定终态。"
+  },
+  {
+    "candidate_number": 87,
+    "hypothesis_id": "CP-2a6be0fb49e1f64e::H01",
+    "option_id": "087-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=S)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "DLMWHBSWJYJGBC-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e7e9290dc4999eaa7b89",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/0040-4039(96)00239-0",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V28",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 88,
+    "hypothesis_id": "CP-deed3268ff7bd041::H01",
+    "option_id": "088-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)[P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)c1ccccc1",
+    "product_inchikey": "DLUYIPVTVAFGMT-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-f80bb3050f6cf37c4f40",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/jacs.0c08928",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V29",
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 89,
+    "hypothesis_id": "CP-000143ee94b8982f::H01",
+    "option_id": "089-H01-O01",
+    "center": "P",
+    "product_smiles": "CCOP(=O)(OCC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "BXNKTFUDVOKTSX-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-384f9daf07aa3b119985",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/ejoc.201801602",
+      "10.1021/acs.joc.3c01562",
+      "10.1016/0040-4039(96)00239-0"
+    ],
+    "references": [
+      "V16",
+      "V23",
+      "V28"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 90,
+    "hypothesis_id": "CP-13af80fd720ea87f::H01",
+    "option_id": "090-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=O)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "AEVVIPCSROUGCU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-958eb635ef8c3aae61e6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/ejoc.201801602",
+      "10.1021/acs.orglett.3c00631",
+      "10.1021/acs.joc.3c01562"
+    ],
+    "references": [
+      "V16",
+      "V17",
+      "V23"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 90,
+    "hypothesis_id": "CP-13af80fd720ea87f::H02",
+    "option_id": "090-H02-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=O)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "AEVVIPCSROUGCU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-958eb635ef8c3aae61e6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1002/ejoc.201801602",
+      "10.1021/acs.orglett.3c00631",
+      "10.1021/acs.joc.3c01562"
+    ],
+    "references": [
+      "V16",
+      "V17",
+      "V23"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 91,
+    "hypothesis_id": "CP-15984a39bb896abc::H01",
+    "option_id": "091-H01-O01",
+    "center": "P",
+    "product_smiles": "CC(C)(C)[P+](C(F)=CC(=O)c1ccccc1)(C(C)(C)C)C(C)(C)C",
+    "product_inchikey": "KIKIEQQQZYQRQC-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-b24bc5b8921df944f9f4",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 92,
+    "hypothesis_id": "CP-2f18674cdee060d7::H01",
+    "option_id": "092-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)[PH](=O)[O-])c1ccccc1",
+    "product_inchikey": "YGTBLOUXUTVZPR-UHFFFAOYSA-M",
+    "formal_charge": -1,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-6371b045a3600fec6ed6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1016/0040-4039(96)00239-0",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V28",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "次磷酸根P–H位替换一个H；保留另一个P–H与O负电荷，去除Na+。"
+  },
+  {
+    "candidate_number": 93,
+    "hypothesis_id": "CP-3222b1c46b10eff8::H01",
+    "option_id": "093-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)[P+](c1ccccc1)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "XRWJVOMAKVIJKE-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-88571756d30c42f98436",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d1cc06786a",
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V25",
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 94,
+    "hypothesis_id": "CP-4f781cc37b739293::H01",
+    "option_id": "094-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(C1CCCCC1)C1CCCCC1)c1ccccc1",
+    "product_inchikey": "LUVLIAJODRCMJJ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-807ae8d1441304376f14",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 95,
+    "hypothesis_id": "CP-7010fb8ed62e0e37::H01",
+    "option_id": "095-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "FIBFDRMPQMDPNZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-967742a5056f7c26834d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1039/d4ob01253d"
+    ],
+    "references": [
+      "V05",
+      "V30"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 96,
+    "hypothesis_id": "CP-c92cc6151bc3008b::H01",
+    "option_id": "096-H01-O01",
+    "center": "P",
+    "product_smiles": "CO[P+](OC)(OC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "ZEKOSRPEUBRUDO-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-fd021944d4aa2f292aed",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "P(III)直接进攻的磷鎓物种。"
+  },
+  {
+    "candidate_number": 96,
+    "hypothesis_id": "CP-c92cc6151bc3008b::H01",
+    "option_id": "096-H01-O02",
+    "center": "P",
+    "product_smiles": "COP(=O)(OC)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "OXYGEKFJPFEDMU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-e6890159639e58d202fe",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "原路线明确提出去烷基化/氧转移的膦酸酯终态。"
+  },
+  {
+    "candidate_number": 97,
+    "hypothesis_id": "CP-d62c2f4634cac93c::H01",
+    "option_id": "097-H01-O01",
+    "center": "P",
+    "product_smiles": "CO[P+](C(F)=CC(=O)c1ccccc1)(c1ccccc1)c1ccccc1",
+    "product_inchikey": "XSABSEUVXIHHKC-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-2a43700fd7569a9cf50d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "直接成键的甲氧基膦鎓物种。"
+  },
+  {
+    "candidate_number": 97,
+    "hypothesis_id": "CP-d62c2f4634cac93c::H01",
+    "option_id": "097-H01-O02",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(=O)(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "AEVVIPCSROUGCU-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-958eb635ef8c3aae61e6",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.1c01703",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V24",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "甲氧基去烷基/氧转移后的膦氧化物终态。"
+  },
+  {
+    "candidate_number": 98,
+    "hypothesis_id": "CP-dab7493e2905b4fb::H01",
+    "option_id": "098-H01-O01",
+    "center": "P",
+    "product_smiles": "C[P+](C)(C)C(F)=CC(=O)c1ccccc1",
+    "product_inchikey": "PQNPWGKCVOUOSJ-UHFFFAOYSA-N",
+    "formal_charge": 1,
+    "NP": 3,
+    "NP_label": "3",
+    "NR": 3,
+    "evidence_kind": "bounded_search_no_matching_charged_motif",
+    "pubchem_query_id": "PC-9b0be174b989ff1ab6bc",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c"
+    ],
+    "references": [
+      "V05"
+    ],
+    "note": "所评分保留带正电的完整成键结构；中性胺/膦先例只作远邻，不能冒充同一离子终态。",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 99,
+    "hypothesis_id": "CP-ecb0e8b377ec42c8::H01",
+    "option_id": "099-H01-O01",
+    "center": "P",
+    "product_smiles": "O=C(C=C(F)P(c1ccccc1)c1ccccc1)c1ccccc1",
+    "product_inchikey": "FIBFDRMPQMDPNZ-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 2,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-967742a5056f7c26834d",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1002/ejoc.201801602"
+    ],
+    "references": [
+      "V05",
+      "V16"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  },
+  {
+    "candidate_number": 100,
+    "hypothesis_id": "CP-3bfd35b3a7b890f1::H01",
+    "option_id": "100-H01-O01",
+    "center": "Se",
+    "product_smiles": "O=C(C=C(F)[Se]c1ccccc1)c1ccccc1",
+    "product_inchikey": "JPIRWYBXFOLUCE-UHFFFAOYSA-N",
+    "formal_charge": 0,
+    "NP": 2,
+    "NP_label": "2",
+    "NR": 3,
+    "evidence_kind": "nearest_primary_precedent",
+    "pubchem_query_id": "PC-acffa280992656b4ddd8",
+    "pubchem_status": "no_match",
+    "pubchem_cids": [],
+    "nearest_precedent_dois": [
+      "10.1021/acs.joc.9b01387",
+      "10.1038/s41467-018-08253-z",
+      "10.1002/advs.77070"
+    ],
+    "references": [
+      "V18",
+      "V26",
+      "V27"
+    ],
+    "note": "",
+    "fragment_decision": "严格在提交SMILES的指定原子成键；有N/O/S/Se/P–H则用新键替代H，阴离子成键中和，反离子剥离；保留其他骨架。"
+  }
+]

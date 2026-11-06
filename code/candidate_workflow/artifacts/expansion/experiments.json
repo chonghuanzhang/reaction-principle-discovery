@@ -1,0 +1,818 @@
+[
+  {
+    "activation_hypotheses": [
+      "先以中性苯酚筛选；另设温和碱对照以判断是否需要原位生成少量苯氧负离子。不预设 Pd、硼试剂或 Seed 催化循环为必要条件。",
+      "比较中性苯酚与碱原位生成的苯氧负离子；需要筛查碱强度、含水量及是否必须保留 Seed 的 Pd 体系。苯酚本身也可作为较弱的中性 O 亲核体边界探针。"
+    ],
+    "candidate_id": "CP-3a23ccb632c9f44d",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-3a23ccb632c9f44d-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "Oc1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "先以中性苯酚筛选；另设温和碱对照以判断是否需要原位生成少量苯氧负离子。不预设 Pd、硼试剂或 Seed 催化循环为必要条件。",
+      "比较中性苯酚与碱原位生成的苯氧负离子；需要筛查碱强度、含水量及是否必须保留 Seed 的 Pd 体系。苯酚本身也可作为较弱的中性 O 亲核体边界探针。"
+    ],
+    "candidate_id": "CP-3a23ccb632c9f44d",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-3a23ccb632c9f44d-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "Oc1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "先以中性苯酚筛选；另设温和碱对照以判断是否需要原位生成少量苯氧负离子。不预设 Pd、硼试剂或 Seed 催化循环为必要条件。",
+      "比较中性苯酚与碱原位生成的苯氧负离子；需要筛查碱强度、含水量及是否必须保留 Seed 的 Pd 体系。苯酚本身也可作为较弱的中性 O 亲核体边界探针。"
+    ],
+    "candidate_id": "CP-3a23ccb632c9f44d",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-3a23ccb632c9f44d-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "Oc1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "吗啉可作为中性二级胺直接测试，也可在温和碱存在下形成更高比例的 N 亲核活性态；应单独评估无 Pd、Seed Pd 体系及不同弱碱条件。"
+    ],
+    "candidate_id": "CP-ccb45c231c905174",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-ccb45c231c905174-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "C1COCCN1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "吗啉可作为中性二级胺直接测试，也可在温和碱存在下形成更高比例的 N 亲核活性态；应单独评估无 Pd、Seed Pd 体系及不同弱碱条件。"
+    ],
+    "candidate_id": "CP-ccb45c231c905174",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-ccb45c231c905174-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "C1COCCN1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "吗啉可作为中性二级胺直接测试，也可在温和碱存在下形成更高比例的 N 亲核活性态；应单独评估无 Pd、Seed Pd 体系及不同弱碱条件。"
+    ],
+    "candidate_id": "CP-ccb45c231c905174",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-ccb45c231c905174-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "C1COCCN1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "先测试中性吲哚的直接 C3 亲核加成；按需要比较温和 Lewis 酸或 Brønsted 酸活化。应设无金属条件和催化条件对照，因为吲哚可与金属中心配位。"
+    ],
+    "candidate_id": "CP-383b50ba8f0aa496",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-383b50ba8f0aa496-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1ccc2[nH]ccc2c1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "先测试中性吲哚的直接 C3 亲核加成；按需要比较温和 Lewis 酸或 Brønsted 酸活化。应设无金属条件和催化条件对照，因为吲哚可与金属中心配位。"
+    ],
+    "candidate_id": "CP-383b50ba8f0aa496",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-383b50ba8f0aa496-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1ccc2[nH]ccc2c1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "先测试中性吲哚的直接 C3 亲核加成；按需要比较温和 Lewis 酸或 Brønsted 酸活化。应设无金属条件和催化条件对照，因为吲哚可与金属中心配位。"
+    ],
+    "candidate_id": "CP-383b50ba8f0aa496",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-383b50ba8f0aa496-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1ccc2[nH]ccc2c1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "需要触发 P-H 均裂或受控去质子化／互变异构化；可分别考察自由基引发条件和非自由基碱性条件，并设置无引发剂、自由基抑制剂及无 Pd 对照。"
+    ],
+    "candidate_id": "CP-13af80fd720ea87f",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-13af80fd720ea87f-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "需要触发 P-H 均裂或受控去质子化／互变异构化；可分别考察自由基引发条件和非自由基碱性条件，并设置无引发剂、自由基抑制剂及无 Pd 对照。"
+    ],
+    "candidate_id": "CP-13af80fd720ea87f",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-13af80fd720ea87f-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "需要触发 P-H 均裂或受控去质子化／互变异构化；可分别考察自由基引发条件和非自由基碱性条件，并设置无引发剂、自由基抑制剂及无 Pd 对照。"
+    ],
+    "candidate_id": "CP-13af80fd720ea87f",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-13af80fd720ea87f-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "以中性硫醚直接测试硫孤对电子进攻；可比较无活化、温和 Lewis 酸活化及弱碱条件。该边界探针不要求预制硫负离子，但预期初级产物可能是可逆或离子型硫鎓物种。"
+    ],
+    "candidate_id": "CP-abed28aa627f8929",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-abed28aa627f8929-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "CSc1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "以中性硫醚直接测试硫孤对电子进攻；可比较无活化、温和 Lewis 酸活化及弱碱条件。该边界探针不要求预制硫负离子，但预期初级产物可能是可逆或离子型硫鎓物种。"
+    ],
+    "candidate_id": "CP-abed28aa627f8929",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-abed28aa627f8929-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "CSc1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "以中性硫醚直接测试硫孤对电子进攻；可比较无活化、温和 Lewis 酸活化及弱碱条件。该边界探针不要求预制硫负离子，但预期初级产物可能是可逆或离子型硫鎓物种。"
+    ],
+    "candidate_id": "CP-abed28aa627f8929",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-abed28aa627f8929-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "CSc1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "以中性咪唑测试吡啶型 N 的直接孤对电子进攻；并行比较无碱和温和碱条件，以区分中性 N 进攻与去质子化后路径。无需预先形成金属咪唑盐。"
+    ],
+    "candidate_id": "CP-15eeea50cbe27556",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-15eeea50cbe27556-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1c[nH]cn1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "以中性咪唑测试吡啶型 N 的直接孤对电子进攻；并行比较无碱和温和碱条件，以区分中性 N 进攻与去质子化后路径。无需预先形成金属咪唑盐。"
+    ],
+    "candidate_id": "CP-15eeea50cbe27556",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-15eeea50cbe27556-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1c[nH]cn1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "以中性咪唑测试吡啶型 N 的直接孤对电子进攻；并行比较无碱和温和碱条件，以区分中性 N 进攻与去质子化后路径。无需预先形成金属咪唑盐。"
+    ],
+    "candidate_id": "CP-15eeea50cbe27556",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-15eeea50cbe27556-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1c[nH]cn1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "先以中性苯并噻吩测试 C2 的直接杂芳亲核加成；可考察温和 Lewis 酸或其他能够提高氟代烯亲电性的活化方式，但不要求预制硫负离子或有机金属试剂。"
+    ],
+    "candidate_id": "CP-b49e6492b8f3b97f",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-b49e6492b8f3b97f-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1ccc2sccc2c1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "先以中性苯并噻吩测试 C2 的直接杂芳亲核加成；可考察温和 Lewis 酸或其他能够提高氟代烯亲电性的活化方式，但不要求预制硫负离子或有机金属试剂。"
+    ],
+    "candidate_id": "CP-b49e6492b8f3b97f",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-b49e6492b8f3b97f-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1ccc2sccc2c1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "先以中性苯并噻吩测试 C2 的直接杂芳亲核加成；可考察温和 Lewis 酸或其他能够提高氟代烯亲电性的活化方式，但不要求预制硫负离子或有机金属试剂。"
+    ],
+    "candidate_id": "CP-b49e6492b8f3b97f",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-b49e6492b8f3b97f-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1ccc2sccc2c1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "作为预制离子态直接引入；应控制水和质子源，并与等摩尔苯酚加相同钠盐或碱的对照比较，以分离亲核体状态效应和盐效应。"
+    ],
+    "candidate_id": "CP-dc11a678a5813bfb",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-dc11a678a5813bfb-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "[Na+].[O-]c1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "作为预制离子态直接引入；应控制水和质子源，并与等摩尔苯酚加相同钠盐或碱的对照比较，以分离亲核体状态效应和盐效应。"
+    ],
+    "candidate_id": "CP-dc11a678a5813bfb",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-dc11a678a5813bfb-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "[Na+].[O-]c1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "作为预制离子态直接引入；应控制水和质子源，并与等摩尔苯酚加相同钠盐或碱的对照比较，以分离亲核体状态效应和盐效应。"
+    ],
+    "candidate_id": "CP-dc11a678a5813bfb",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-dc11a678a5813bfb-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "[Na+].[O-]c1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "比较中性硫酚、温和碱原位形成的硫酚盐以及必要时预制硫酚盐的行为；避免把氧化生成二苯二硫醚误判为有效活化。"
+    ],
+    "candidate_id": "CP-b18c4945d055e0a6",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-b18c4945d055e0a6-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "Sc1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "比较中性硫酚、温和碱原位形成的硫酚盐以及必要时预制硫酚盐的行为；避免把氧化生成二苯二硫醚误判为有效活化。"
+    ],
+    "candidate_id": "CP-b18c4945d055e0a6",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-b18c4945d055e0a6-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "Sc1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "比较中性硫酚、温和碱原位形成的硫酚盐以及必要时预制硫酚盐的行为；避免把氧化生成二苯二硫醚误判为有效活化。"
+    ],
+    "candidate_id": "CP-b18c4945d055e0a6",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-b18c4945d055e0a6-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "Sc1ccccc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "以中性 2-萘酚进行直接芳环亲核性筛选；可比较弱 Brønsted 酸、温和 Lewis 酸或不加活化剂的条件，以测试 Friedel-Crafts 型 C 成键。避免先验要求 Seed 的 Pd/有机硼转金属化步骤。"
+    ],
+    "candidate_id": "CP-5d0333041aebff88",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-5d0333041aebff88-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "Oc1ccc2ccccc2c1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "以中性 2-萘酚进行直接芳环亲核性筛选；可比较弱 Brønsted 酸、温和 Lewis 酸或不加活化剂的条件，以测试 Friedel-Crafts 型 C 成键。避免先验要求 Seed 的 Pd/有机硼转金属化步骤。"
+    ],
+    "candidate_id": "CP-5d0333041aebff88",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-5d0333041aebff88-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "Oc1ccc2ccccc2c1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "以中性 2-萘酚进行直接芳环亲核性筛选；可比较弱 Brønsted 酸、温和 Lewis 酸或不加活化剂的条件，以测试 Friedel-Crafts 型 C 成键。避免先验要求 Seed 的 Pd/有机硼转金属化步骤。"
+    ],
+    "candidate_id": "CP-5d0333041aebff88",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-5d0333041aebff88-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "Oc1ccc2ccccc2c1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "需要 S-S 键的选择性还原、氧化或金属辅助裂解以产生可转移的苯硫基／苯硫负离子状态；应与苯硫酚并列测试以判断二硫化物是否只是其储库。"
+    ],
+    "candidate_id": "CP-7647ff2ce0052a54",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-7647ff2ce0052a54-screen",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1ccc(SSc2ccccc2)cc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "screen",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "需要 S-S 键的选择性还原、氧化或金属辅助裂解以产生可转移的苯硫基／苯硫负离子状态；应与苯硫酚并列测试以判断二硫化物是否只是其储库。"
+    ],
+    "candidate_id": "CP-7647ff2ce0052a54",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-7647ff2ce0052a54-no_catalyst",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1ccc(SSc2ccccc2)cc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_catalyst",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "activation_hypotheses": [
+      "需要 S-S 键的选择性还原、氧化或金属辅助裂解以产生可转移的苯硫基／苯硫负离子状态；应与苯硫酚并列测试以判断二硫化物是否只是其储库。"
+    ],
+    "candidate_id": "CP-7647ff2ce0052a54",
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-CP-7647ff2ce0052a54-no_base",
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "instrument_ready": false,
+    "interpretation": "Absent target signal is condition-specific; controls do not prove an elementary mechanism.",
+    "reagent_smiles": "c1ccc(SSc2ccccc2)cc1",
+    "recipe": {
+      "base": null,
+      "base_loading": null,
+      "catalyst": null,
+      "catalyst_loading": null,
+      "partner_equivalents": null,
+      "solvent": null,
+      "substrate_umol": null,
+      "temperature_C": null,
+      "time_h": null
+    },
+    "role": "no_base",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-seed_positive_1",
+    "instrument_ready": false,
+    "recipe": null,
+    "role": "seed_positive_1",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-seed_positive_2",
+    "instrument_ready": false,
+    "recipe": null,
+    "role": "seed_positive_2",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  },
+  {
+    "experiment_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1-analytical_blank",
+    "instrument_ready": false,
+    "recipe": null,
+    "role": "analytical_blank",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F"
+  }
+]

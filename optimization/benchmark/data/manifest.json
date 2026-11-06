@@ -1,0 +1,29 @@
+{
+  "workbook": "raw/summary_workbook.xlsx",
+  "workbook_sha256": "836f5a17429d0ab5198f0f28038e60df0992787cf9b76ed649c4abf7c7047c16",
+  "output_sha256": {
+    "NH_PL35_standardized_features.csv": "bdddae5e639ad1d658460c437fde9be914cab5423696abc477f3517e7932e793",
+    "NH_PL36_standardized_features.csv": "9d58269ef4147904935b9487ed6186e7267825ee614f56fa8b821e2298544794",
+    "OH_PL34_standardized_features.csv": "e20e91bdf588c8e746e6d44c1818edb6fa9e92b2b266c2d587388275f519e1c3",
+    "OH_PL37_standardized_features.csv": "66685c5bcab4e6ef54951d3828cb8418a65643bf28566833a25e5329c4203f80",
+    "OH_PL38_standardized_features.csv": "345a72451ebffcdf363caa4b36efb38e93fb87f3f414b19094281652824ae91f",
+    "SH_PL33_standardized_features.csv": "51ac76c1123977e6e2f1d5f296e80b94cca47192d42787cd765b2860b2519217",
+    "SH_PL39_standardized_features.csv": "ec8925317a5c27b0ce9934fd93fbd06c5dcf66c2cb238ae13179bfbe387a04d7",
+    "SH_PL40_standardized_features.csv": "c2e6ef17c1d5898b5da7876013d3d9409e6b31941c8fcb98d463acea51967cff",
+    "all_selected_wells.csv": "27bfc2a04dd120165b86a8e3a1cdfc6ed93c7ea2dc1f10ee0bc567204913e2b0",
+    "cumulative_best_trajectories.csv": "f53205fffa420403ec6327a9c7a029864582ee696c038572574c5258d56d0048",
+    "environment.json": "c7d0a1c541b238309aadc94528885946475517430b39ab327a3bdf23288bad74",
+    "evaluation_targets.json": "3a150d9c908920801ceb46e95a1c2ab308992f201fae35ae5b7c4380bfe62f2a",
+    "feature_manifest.json": "0b49f3e33e02f2a35a8267047b92c0c61e1a90cc3c5ab7c01c7b0dd212553b7a",
+    "optimizer_candidates.csv": "b8c8130046aaed93d2dd32a86dc22504329972a6fad5569ae441936959ce3f7e",
+    "pool_metrics.csv": "effd455584b95e87c30ce63f1384a1127ccab6962f0718b3923ed42771f9418f",
+    "pool_statistics.json": "4dd50d2fd4376c2d1ab084143e0e8a4c33c10fc8a583bc53e9d1854a6eec710f",
+    "reference_all_candidates.csv": "19b05cc41f30dd0a9a4a3d57f28f275d85bf8eed55f87af99178897df8bcdd91",
+    "reference_observed_history.csv": "c746c9bd7e2820674beb4c552894d4f35ef83fe56ffe73a0bd0d647986cc4a3c",
+    "run_budgets.csv": "6ddc9928599d3746a07ac1d639183f88fbec22b11736be353d38ab50da70646b",
+    "source_records_and_oracle.csv": "886176bdf5ad895fd773e3a4f40cea25c45900e1052e21df0ba4253cf2d07c72",
+    "v2_recomputed_results.json": "996a37c6d246e5baef067e787c6c7c7372f800e5d8c990d9712eebd055eff036"
+  },
+  "input_mode": "original_workbook",
+  "portable_input_sha256": null
+}

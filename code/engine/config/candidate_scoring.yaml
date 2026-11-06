@@ -1,0 +1,19 @@
+version: "1.0"
+weights:
+  seed_match: 4
+  elementary_step: 4
+  electronic: 3
+  reactive_form: 3
+  catalyst: 2
+  condition: 2
+  evidence: 2
+risk_penalties:
+  contradiction: 2
+  poisoning: 5
+  decomposition: 4
+  over_defluorination: 4
+  instability: 4
+thresholds:
+  explore: 14
+  conditional: 8
+  deprioritize: 1

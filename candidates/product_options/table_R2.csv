@@ -1,0 +1,125 @@
+Option / centre,NP,NR,Registry query / result,Comparison references
+001-H01-O01 / C,1R,2,PC-fef16489f470788a4f59 / hit,"V22, V20"
+002-H01-O01 / C,2,3,PC-682be9722ca63292c942 / no_match,V20
+002-H02-O01 / C,2,3,PC-682be9722ca63292c942 / no_match,V20
+003-H01-O01 / C,2,1,PC-4e2301f260c6705b3f48 / no_match,V22
+004-H01-O01 / C,2,3,PC-f98b9e29447ddcb34228 / no_match,"V19, V22"
+004-H02-O01 / C,2,3,PC-f98b9e29447ddcb34228 / no_match,"V19, V22"
+005-H01-O01 / C,2,3,PC-6f1be447e5f1ed255075 / no_match,"V19, V22"
+006-H01-O01 / C,1R,2,PC-e66fb51203ca5c8fdcde / hit,V22
+007-H01-O01 / C,2,3,PC-6552f472ea5b0f4d3f39 / no_match,"V20, V22"
+008-H01-O01 / C,2,3,PC-f5e33674d4ee8c30091c / no_match,V20
+009-H01-O01 / C,2,2,PC-9c5dc5924b92ed657c84 / no_match,V22
+010-H01-O01 / C,2,2,PC-edfbc124d55640fa9e4f / no_match,V22
+011-H01-O01 / C,2,3,PC-f5e33674d4ee8c30091c / no_match,V20
+011-H02-O01 / O,2,3,PC-78611f9eca5c656715fd / no_match,"V05, V10"
+012-H01-O01 / C,2,3,PC-b08987ccc221332291e4 / no_match,V20
+013-H01-O01 / C,2,2,PC-052901f21bdd966f998a / no_match,V22
+014-H01-O01 / C,1R,2,PC-fef16489f470788a4f59 / hit,"V22, V20"
+015-H01-O01 / C,2,3,PC-bc8b59d29634b1a9df83 / no_match,"V19, V20"
+015-H01-O02 / C,2,3,PC-826c5e6b20608e5f2595 / no_match,"V19, V20"
+016-H01-O01 / C,2,1,PC-3364eb938904b18d7fcd / no_match,V22
+017-H01-O01 / C,2,3,PC-a062b1bc731b611e1382 / no_match,V19
+018-H01-O01 / C,2,3,PC-991f2cbbfcba748c8491 / no_match,"V20, V22"
+019-H01-O01 / C,2,3,PC-6236defcc6a971bcdfbe / no_match,V20
+019-H01-O02 / C,2,3,PC-a76f06324e8e7d407043 / no_match,V20
+020-H01-O01 / C,2,1,PC-d5c12fbed481ecc68bfb / no_match,V22
+021-H01-O01 / C,2,3,PC-78c4589808443f9d2067 / no_match,"V19, V22"
+022-H01-O01 / C,2,3,PC-a092f4395d5f22e03e77 / no_match,"V19, V22"
+022-H02-O01 / C,2,3,PC-a092f4395d5f22e03e77 / no_match,"V19, V22"
+023-H01-O01 / C,2,2,PC-05b9f9aa92256eb001e7 / no_match,V19
+024-H01-O01 / C,2,3,PC-ea2bf421fb4f3b9c8074 / no_match,V20
+025-H01-O01 / C,2,3,PC-7ae99aa06a5e017c2019 / no_match,V19
+026-H01-O01 / C,2,2,PC-9ca367c1788ea68d5ba8 / no_match,V21
+027-H01-O01 / C,2,3,PC-1ed369b7a919d86ea1e4 / no_match,"V19, V22"
+027-H02-O01 / N,2,2,PC-bb59844a6169407f9593 / no_match,"V31, V02, V03"
+028-H01-O01 / C,2,3,PC-aa9051e7f05467f4062e / no_match,"V19, V22"
+029-H01-O01 / C,2,3,PC-e57df52e9e17d45f699a / no_match,V20
+029-H01-O02 / C,2,3,PC-a76f06324e8e7d407043 / no_match,V20
+030-H01-O01 / C,2,3,PC-9acc762d40c4b14941ff / no_match,"V22, V20"
+030-H01-O02 / C,2,3,PC-d082b6e1c5efa6d6d21c / no_match,"V22, V20"
+031-H01-O01 / C,2,2,PC-9c5dc5924b92ed657c84 / no_match,V22
+031-H02-O01 / C,2,2,PC-9c5dc5924b92ed657c84 / no_match,V22
+032-H01-O01 / C,2,3,PC-093ff0f2161b4efcbc11 / no_match,V19
+033-H01-O01 / C,1R,2,PC-e66fb51203ca5c8fdcde / hit,V22
+034-H01-O01 / C,2,3,PC-cc5ed8ed5b64c7dd6303 / no_match,"V19, V22"
+035-H01-O01 / N,2,2,PC-98b087c19731a56f07b1 / no_match,"V31, V01, V02, V03"
+035-H02-O01 / N,2,2,PC-85addcb8d4bc3591a2b2 / no_match,"V31, V01, V02, V03"
+036-H01-O01 / N,2,3,PC-e2044867ca9e298a4ba9 / no_match,V09
+037-H01-O01 / N,3,3,PC-a3bb107066e0767a127c / no_match,V08
+038-H01-O01 / N,2,2,PC-fa48e3cfb4022e4696fb / no_match,"V05, V04"
+039-H01-O01 / N,2,1,PC-92d8632c48e3f492d75d / no_match,"V08, V04"
+039-H02-O01 / N,2,1,PC-92d8632c48e3f492d75d / no_match,"V08, V04"
+040-H01-O01 / N,2,2,PC-a86cbb0e8b228db7e436 / no_match,"V31, V02, V03"
+041-H01-O01 / N,2,3,PC-3492b3f5d7d99f23283e / no_match,V09
+042-H01-O01 / N,2,3,PC-a937e16e6f68cb28c444 / no_match,"V05, V08"
+043-H01-O01 / N,3,3,PC-34d5290bb0f3c5cfd7b7 / no_match,V08
+044-H01-O01 / N,2,3,PC-84605dcc64a380d53b20 / no_match,V09
+045-H01-O01 / N,2,2,PC-26f0829ece09fbce00ef / no_match,V05
+046-H01-O01 / N,2,1,PC-7dea4d3ff6f007d3ecb2 / no_match,"V08, V04, V05"
+047-H01-O01 / N,3,3,PC-874d5a52096feb781c7d / no_match,"V09, V03"
+048-H01-O01 / N,2,2,PC-26f0829ece09fbce00ef / no_match,"V05, V04"
+049-H01-O01 / N,2,2,PC-0380de4f616f656b5853 / no_match,"V31, V02, V03"
+050-H01-O01 / N,2,3,PC-178eb743d44ce0e75cd0 / no_match,"V05, V04"
+051-H01-O01 / O,2,2,PC-6a583dc2c8d148d29ca2 / no_match,"V10, V05, V01"
+051-H02-O01 / O,2,2,PC-6a583dc2c8d148d29ca2 / no_match,"V10, V05, V01"
+052-H01-O01 / O,2,2,PC-84e1b37994b0b582ebe3 / no_match,V05
+053-H01-O01 / O,3,3,PC-1492f6d76de46932c951 / no_match,V05
+054-H01-O01 / O,3,3,PC-47e2e208aa0bd5da42b8 / no_match,V05
+055-H01-O01 / O,1T,3,PC-5a207e4ac321243e1360 / hit,V05
+056-H01-O01 / O,3,3,PC-f58a9d948b3662eb31b4 / no_match,V05
+057-H01-O01 / O,3,3,PC-dac12d7ada6bda36a0e1 / no_match,V05
+058-H01-O01 / O,2,2,PC-9237f548e6d250389c69 / no_match,"V10, V05"
+059-H01-O01 / O,2,2,PC-8adce3694a19d33bcf84 / no_match,V05
+060-H01-O01 / O,2,2,PC-b99556bc58ddec290496 / no_match,V05
+061-H01-O01 / O,2,2,PC-b99556bc58ddec290496 / no_match,V05
+062-H01-O01 / O,2,2,PC-d40bbf439752f5aa6d1b / no_match,V05
+063-H01-O01 / O,2,2,PC-b99556bc58ddec290496 / no_match,V05
+064-H01-O01 / O,2,2,PC-6a583dc2c8d148d29ca2 / no_match,"V10, V05"
+064-H02-O01 / O,2,2,PC-6a583dc2c8d148d29ca2 / no_match,"V10, V05"
+065-H01-O01 / O,2,2,PC-84e1b37994b0b582ebe3 / no_match,V05
+066-H01-O01 / S,3,3,PC-9caaf6a25e9c98629df6 / no_match,"V12, V06"
+067-H01-O01 / S,3,3,PC-56cb5bb49623fd3bb81b / no_match,V15
+068-H01-O01 / S,2,2,PC-5b75b04e9e7129f1dda1 / no_match,"V01, V12, V14"
+069-H01-O01 / S,3,3,PC-c4c41d71b2fa7a5e363a / no_match,"V11, V15"
+070-H01-O01 / S,2,2,PC-72ec667402ece2508e57 / no_match,V06
+071-H01-O01 / S,2,2,PC-693ac7f6794b1f893a65 / no_match,"V11, V12"
+071-H02-O01 / S,2,2,PC-ce296131651bf39065ef / no_match,"V11, V12"
+072-H01-O01 / S,2,2,PC-693ac7f6794b1f893a65 / no_match,"V11, V12"
+073-H01-O01 / S,3,3,PC-06cfda6f333a3ed87e15 / no_match,"V11, V15"
+073-H02-O01 / S,3,3,PC-06cfda6f333a3ed87e15 / no_match,"V11, V15"
+074-H01-O01 / S,3,3,PC-9f75e4858a89af445f25 / no_match,"V11, V15"
+075-H01-O01 / S,2,2,PC-239877b747370e539e7f / no_match,"V05, V11, V12"
+076-H01-O01 / S,2,2,PC-defa7a445a770e752764 / no_match,V06
+077-H01-O01 / S,3,3,PC-8c6eff7bc99d7780d2af / no_match,"V11, V15"
+078-H01-O01 / S,2,2,PC-ce296131651bf39065ef / no_match,"V11, V12"
+079-H01-O01 / S,2,2,PC-ce296131651bf39065ef / no_match,"V01, V12, V14"
+080-H01-O01 / S,2,2,PC-ff757847a6e35a48391d / no_match,"V05, V11, V12"
+081-H01-O01 / S,3,3,PC-b0ee327d5038828c69cc / no_match,"V11, V15"
+082-H01-O01 / S,2,2,PC-ce296131651bf39065ef / no_match,"V01, V12, V14, V11"
+082-H02-O01 / S,2,2,PC-ce296131651bf39065ef / no_match,"V01, V12, V14, V11"
+082-H03-O01 / S,2,2,PC-ce296131651bf39065ef / no_match,"V01, V12, V14, V11"
+083-H01-O01 / P,3,3,PC-f3e9e984910a92f25ce8 / no_match,"V24, V16"
+083-H01-O02 / P,2,3,PC-9530e1193740ad8d328b / no_match,"V24, V16"
+084-H01-O01 / P,3,3,PC-dba300860a9a05124ffb / no_match,"V25, V05"
+085-H01-O01 / P,2,2,PC-e6890159639e58d202fe / no_match,"V16, V17"
+086-H01-O01 / P,unresolved,3,PC-8769206342189eca6126 / no_match,V05
+086-H01-O02 / P,unresolved,3,PC-a701821aaa1be15e6d1e / no_match,V05
+086-H01-O03 / P,unresolved,3,PC-162e9afd47879b1a0a4b / no_match,V05
+087-H01-O01 / P,2,3,PC-e7e9290dc4999eaa7b89 / no_match,"V28, V16"
+088-H01-O01 / P,3,3,PC-f80bb3050f6cf37c4f40 / no_match,"V29, V05"
+089-H01-O01 / P,2,2,PC-384f9daf07aa3b119985 / no_match,"V16, V23, V28"
+090-H01-O01 / P,2,2,PC-958eb635ef8c3aae61e6 / no_match,"V16, V17, V23"
+090-H02-O01 / P,2,2,PC-958eb635ef8c3aae61e6 / no_match,"V16, V17, V23"
+091-H01-O01 / P,3,3,PC-b24bc5b8921df944f9f4 / no_match,V05
+092-H01-O01 / P,2,3,PC-6371b045a3600fec6ed6 / no_match,"V28, V16"
+093-H01-O01 / P,3,3,PC-88571756d30c42f98436 / no_match,"V25, V05"
+094-H01-O01 / P,2,2,PC-807ae8d1441304376f14 / no_match,V05
+095-H01-O01 / P,2,2,PC-967742a5056f7c26834d / no_match,"V05, V30"
+096-H01-O01 / P,3,3,PC-fd021944d4aa2f292aed / no_match,"V24, V16"
+096-H01-O02 / P,2,3,PC-e6890159639e58d202fe / no_match,"V24, V16"
+097-H01-O01 / P,3,3,PC-2a43700fd7569a9cf50d / no_match,"V24, V16"
+097-H01-O02 / P,2,3,PC-958eb635ef8c3aae61e6 / no_match,"V24, V16"
+098-H01-O01 / P,3,3,PC-9b0be174b989ff1ab6bc / no_match,V05
+099-H01-O01 / P,2,2,PC-967742a5056f7c26834d / no_match,"V05, V16"
+100-H01-O01 / Se,2,3,PC-acffa280992656b4ddd8 / no_match,"V18, V26, V27"

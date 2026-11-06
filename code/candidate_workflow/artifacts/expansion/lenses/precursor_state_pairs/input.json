@@ -1,0 +1,936 @@
+{
+  "evidence": [
+    {
+      "additional_pdf_pages": [],
+      "attribution": "author_observation",
+      "bibliography": {
+        "authors": [
+          "Shannon E. S. Farley",
+          "Mark R. Crimmin"
+        ],
+        "doi": "10.1038/s41570-026-00813-y",
+        "journal": "Nature Reviews Chemistry",
+        "title": "Synthetic methodologies for the chemical recycling of fluorocarbons",
+        "year": 2026
+      },
+      "claim": "The review cites phosphine-catalyzed intermolecular acylfluorination of alkynes proceeding via a P(V) intermediate.",
+      "evidence_id": "EV-0065b03833f7b37e99ce",
+      "evidence_label": "LITERATURE FACT",
+      "evidence_strength": "direct",
+      "pdf_page": 11,
+      "quotation": "Fujimoto, H., Kodama, T., Yamanaka, M. & Tobisu, M.\nPhosphine-catalyzed intermolecular acylfluorination of alkynes via a P(V) intermediate.\nJ.\nAm.\nChem.\nSoc.\n142, 17323–17328 (2020).",
+      "reviewer_status": "accepted",
+      "section_context": "Reference 52 in the review bibliography.",
+      "source_id": "Tier 2/Synthetic Methodologies for the Chemical Recycling of Fluorocarbons.pdf",
+      "source_sha256": "6062d5157f159d1980707af714c123b775560805066a0045c3cd9ed863f993eb",
+      "source_span_ids": [
+        "P011-S126",
+        "P011-S127",
+        "P011-S128",
+        "P011-S129",
+        "P011-S130",
+        "P011-S131",
+        "P011-S132"
+      ],
+      "tier": "tier_2",
+      "visual_review_reference": null
+    },
+    {
+      "additional_pdf_pages": [],
+      "attribution": "author_observation",
+      "bibliography": {
+        "authors": [
+          "Giuseppe Dilauro",
+          "Marzia Dell'Aera",
+          "Paola Vitale",
+          "Vito Capriati",
+          "Filippo Maria Perna"
+        ],
+        "doi": "10.1002/anie.201705412",
+        "journal": "Angewandte Chemie International Edition",
+        "title": "Unprecedented Nucleophilic Additions of Highly Polar Organometallic Compounds to Imines and Nitriles Using Water as a Non-Innocent Reaction Medium",
+        "year": 2017
+      },
+      "claim": "该两步一锅程序报告了芳香族和脂肪族腈以及MeLi、n-BuLi、PhLi和EtLi等试剂的实例；在生成4b–e的有机锂实例中，相应叔碳胺收率为60–87%，并伴有20–35%的相应酮。对于所测试的丙腈/PhLi/烯丙基氯化镁组合，以MeOH为介质时4e收率降至12%，苯丙酮收率为88%。",
+      "evidence_id": "EV-0150deb58d4d5662f986",
+      "evidence_label": "LITERATURE FACT",
+      "evidence_strength": "direct",
+      "pdf_page": 3,
+      "quotation": "When subjected to this two-step,o ne-pot procedure,a ssorted aliphatic and aromatic organolithium reagents such as MeLi, n-BuLi, PhLi, and EtLi (3 equiv) afforded the corresponding allyl- substituted tertiary carbinamines 4b –e in satisfactory yields (60–87 %), with modest amounts of the corresponding ketones (20–35 %y ield;T able 3).\nBenzonitrile derivatives with electron-donating (p-PhO), electron-withdrawing (p-Cl and o-Cl), or fluorine groups afforded adducts 4g –j in 70– 92 %y ields by employing 3e quiv of either PhLi or (allyl)MgCl.\nTo emphasize the versatility of the procedure, aliphatic substrates were also screened.\nWhen PhLi and (allyl)MgCl (3 equiv) were added sequentially (time interval:1 min) to as olution of acetonitrile (MeCN) (3b )( 1m mol) or propionitrile (EtCN) (3c ) (1 mmol) or butyronitrile (PrCN) (3d ;1 mmol) in water, the double nucleophilic addition again took place,t hereby offering direct and complementary access to the correspond- ing tertiary allyl amines 4d –f in 70–90 %y ields (Table 3).\nThus,b oth in-water and on-water methods could be applied to the synthesis of tertiary carbinamines.[6c] On the other hand, the yield of 4e decreased dramatically to 12 %u pon sequential addition of PhLi (3 equiv) and (allyl)MgCl (3 equiv) to 3c in MeOH (propiophenone was produced with a8 8% yield).",
+      "reviewer_status": "revised",
+      "section_context": "Nitrile scope, ketone side products, and solvent-dependent selectivity.",
+      "source_id": "Tier 3/Unprecedented Nucleophilic Additions of Highly Polar Organometallic Compounds to Imines and Nitriles Using Water as a Non‚ÄêInnocent Reaction Medium.pdf",
+      "source_sha256": "363c732d46e8bcbcb370b95e2548c35a1dfd0807cb436da793e8c4b61dfe73b7",
+      "source_span_ids": [
+        "P003-S018",
+        "P003-S019",
+        "P003-S020",
+        "P003-S021",
+        "P003-S022"
+      ],
+      "tier": "tier_3",
+      "visual_review_reference": "Table 3 on PDF page 3 is needed to map all compound labels to exact structures."
+    },
+    {
+      "additional_pdf_pages": [],
+      "attribution": "author_observation",
+      "bibliography": {
+        "authors": [
+          "Suvajit Koley",
+          "Ryan A. Altman"
+        ],
+        "doi": "10.1002/ijch.201900173",
+        "journal": "PubMed Central",
+        "title": "Recent Advances in Transition Metal‐Catalyzed Functionalization of gem‐Difluoroalkenes",
+        "year": 2020
+      },
+      "claim": "A base-promoted intramolecular nitrogen attack on a gem-difluoroalkene followed by beta-fluoride elimination generated N-substituted 2-fluoroindoles, but formation of the required amino-difluorovinyl precursor first used a Pd-catalyzed Buchwald-Hartwig coupling.",
+      "evidence_id": "EV-01ab08e007d538959aa8",
+      "evidence_label": "LITERATURE FACT",
+      "evidence_strength": "indirect",
+      "pdf_page": 4,
+      "quotation": "In another report, reaction of primary arylamines 142 with 1-halo-2-(2,2-difluorovinyl)benzene (halo = Br or Cl) 141 delivered a variety of N-substituted-2-fluoroindoles (Scheme 38).37 The first step of this reaction involved a Pd-catalyzed Buchwald-Hartwig coupling that would generated 2-amino-(2,2-difluorovinyl)benzene 143. gem-Difluoroalkene 143 underwent a base-promoted 5-endo-trig intramolecular nucleophilic attack by N and subsequent β-fluoride elimination to generate a diverse array of 2-fluoroindoles 144.",
+      "reviewer_status": "accepted",
+      "section_context": "Heterocycle formation involving nitrogen attack on a gem-difluoroalkene",
+      "source_id": "https://www.ncbi.nlm.nih.gov/pmc/articles/7286626",
+      "source_sha256": "655478b7359ce6c029f5ccaf72d2bd02448e499d868cb960dca54192a3114243",
+      "source_span_ids": [
+        "P004-S005"
+      ],
+      "tier": "tier_2",
+      "visual_review_reference": null
+    },
+    {
+      "additional_pdf_pages": [],
+      "attribution": "author_hypothesis",
+      "bibliography": {
+        "authors": [
+          "Gabriele Laudadio",
+          "Efstathios Barmpoutsis",
+          "Christiane Schotten",
+          "Lisa Struik",
+          "Sebastian Govaerts",
+          "Duncan L. Browne",
+          "Timothy Noël"
+        ],
+        "doi": "10.1021/jacs.9b02266",
+        "journal": "Journal of the American Chemical Society",
+        "title": "Sulfonamide Synthesis through Electrochemical Oxidative Coupling of Amines and Thiols",
+        "year": 2019
+      },
+      "claim": "The authors propose that an aminium radical reacts with the disulfide to form a sulfenamide, followed by two oxidation steps through a sulfinamide intermediate to the sulfonamide; isolation and resubjection of the sulfenamide supports, but does not independently establish, the complete proposed sequence.",
+      "evidence_id": "EV-0253e4f35bdf034af28e",
+      "evidence_label": "AUTHOR HYPOTHESIS",
+      "evidence_strength": "hypothesis",
+      "pdf_page": 2,
+      "quotation": "The aminium radical intermediate subsequently reacts with the disulfide to generate the sulfenamide.\nInterestingly, no Shono-type oxidation of the amines was observed under these reaction conditions.26 Next, two consecutive oxidation steps of the sulfenamide take place and the targeted sulfonamide is formed via a sulfinamide intermediate.27 Indeed, we were able to isolate the sulfenamide intermediate and, by subjecting this compound to our reaction protocol, the corresponding sulfonamide was generated effectively (Figure 3C). including information on the oxidation potentials of the different coupling partners and intermediates, a series of cyclovoltammetry studies were carried out (Figure 3B).",
+      "reviewer_status": "accepted",
+      "section_context": "Proposed mechanism and intermediate evaluation",
+      "source_id": "https://doi.org/10.1021/jacs.9b02266",
+      "source_sha256": "de9199a868423566f81e257c5f63c21d77f4d450c2846a24d65a83c3b32c685a",
+      "source_span_ids": [
+        "P002-S018",
+        "P002-S019"
+      ],
+      "tier": "tier_4",
+      "visual_review_reference": null
+    },
+    {
+      "additional_pdf_pages": [],
+      "attribution": "author_hypothesis",
+      "bibliography": {
+        "authors": [
+          "Andrew J. Intelli",
+          "Ryan T. Lee",
+          "Ryan A. Altman"
+        ],
+        "doi": "10.1021/acs.joc.3c01562",
+        "journal": "The Journal of Organic Chemistry",
+        "title": "Peroxide-Initiated Hydrophosphinylation of gem-Difluoroalkenes",
+        "year": 2023
+      },
+      "claim": "The authors propose a free-radical chain mechanism in which a methyl radical abstracts hydrogen from diphenylphosphine oxide, the resulting phosphorus-centered radical adds regioselectively at the difluorinated alkene carbon, and the carbon-centered radical abstracts hydrogen from another equivalent of diphenylphosphine oxide to form product and propagate the chain.",
+      "evidence_id": "EV-02d0fdb64e035df834f5",
+      "evidence_label": "AUTHOR HYPOTHESIS",
+      "evidence_strength": "hypothesis",
+      "pdf_page": 3,
+      "quotation": "Based on the literature precedent and physicochemical data, we propose that the hydrophosphinylation reaction proceeds by a free-radical chain mechanism (Scheme 1).\nNext, •CH3 (6) abstracts a hydrogen atom from diphenylphosphine oxide (P−H bond dissociationenergy=83.3kcal/mol)25 togenerateCH4 (C−H bond dissociation energy = 104.8 kcal/mol),26 followed by regioselective addition of P-centered radical 2a′ to the difluorinated position of the gem-difluoroalkene (1) to give carbon-centered radical intermediate 7.27 The radical inter- mediate (7) then abstracts H• from an equivalent of diphenylphosphine oxide to deliver the final product and propagate the phosphorus-centered radical 2a′ for further iterations of the sequence.19,27 Of note, the poor reactivity of alkyl-trisubstituted gem-difluoroalkenes likely arises from the poor radical stability of the carbon-centered radical inter- mediate, as compared to the corresponding benzylic-stabilized",
+      "reviewer_status": "revised",
+      "section_context": "Proposed mechanism",
+      "source_id": "Tier 2/Intelli 等 - 2023 - Peroxide-initiated hydrophosphinylation of gem -difluoroalkenes.pdf",
+      "source_sha256": "88f5d5d5a0636156767053a28d8411c1737437c7827a5cd21219581ee9d915c2",
+      "source_span_ids": [
+        "P003-S005",
+        "P003-S007"
+      ],
+      "tier": "tier_2",
+      "visual_review_reference": null
+    },
+    {
+      "additional_pdf_pages": [],
+      "attribution": "author_observation",
+      "bibliography": {
+        "authors": [
+          "Peter Bellotti",
+          "Huan‐Ming Huang",
+          "Teresa Faber",
+          "Ranjini Laskar",
+          "Frank Glorius"
+        ],
+        "doi": "10.1039/d2sc02732a",
+        "journal": "Chemical Science",
+        "title": "Catalytic defluorinative ketyl–olefin coupling by halogen-atom transfer",
+        "year": 2022
+      },
+      "claim": "A range of substituted α-trifluoromethylstyrenes was coupled successfully, but electron-withdrawing substituents promoted substantial trifluoromethylated side products through competitive protonation of the proposed anionic intermediate IX.",
+      "evidence_id": "EV-03d67effee574e6eac65",
+      "evidence_label": "LITERATURE FACT",
+      "evidence_strength": "direct",
+      "pdf_page": 2,
+      "quotation": "As shown below, a wide range of olefin derivatives could couple with hexanal 1a to generate the corresponding products (3, 33–46) in good to excellent yields. para-Substituted trifluoromethyl styrenes bearing methoxyl (3), phenoxyl (33), trifluoromethoxyl (34), thiomethyl (35), chloride (40), trifluoromethyl (36), trimethylsilyl (37), and hydroxyl (38) successfully delivered the corresponding products in moderate to good yields.\nPolysubstituted systems bearing 3,5-dimethoxy (39), 2-methoxy-4-chloro (40), 3,4-dimethoxy (41) and 3-fluoro-4-phenyl (42) substituents were well tolerated.\n2-Naphthyl (43), indole (44), pyridine (45) and 1,3-benzodioxole (46) were successfully incorporated into the final product.\nα-Trifluoromethyl styrenes featuring electron-withdrawing groups afforded—as reported by Wang13a and Molander11d—substantial amounts of trifluoromethylated side products from competitive protonation of IX (for details see the ESI†).",
+      "reviewer_status": "accepted",
+      "section_context": "Olefin scope and competitive side reaction",
+      "source_id": "https://pubs.rsc.org/en/content/articlepdf/2022/sc/d2sc02732a",
+      "source_sha256": "d64c40ea1d941326cebdeaf4a01920765354aa116267d2036da0aa1fb760d86e",
+      "source_span_ids": [
+        "P002-S022",
+        "P002-S023",
+        "P002-S024",
+        "P002-S025"
+      ],
+      "tier": "tier_2",
+      "visual_review_reference": null
+    },
+    {
+      "additional_pdf_pages": [],
+      "attribution": "author_observation",
+      "bibliography": {
+        "authors": [
+          "Kewei Chen",
+          "Abdulla Yusuf",
+          "Xinfang Xu"
+        ],
+        "doi": "10.1002/cctc.202501604",
+        "journal": "ChemCatChem",
+        "title": "Recent Advance in Defluorinative Transformations of α-Trifluoromethyl Carbene Intermediates",
+        "year": 2026
+      },
+      "claim": "Thiols and selenols react under iron porphyrin catalysis to give gem-difluorovinyl sulfides and selenides in high yields, while copper-based systems enable analogous reactions of amines and alcohols to give gem-difluoroenamines and difluorovinyl ethers in moderate to good yields.",
+      "evidence_id": "EV-04055776926d615e33b8",
+      "evidence_label": "LITERATURE FACT",
+      "evidence_strength": "direct",
+      "pdf_page": 3,
+      "quotation": "Under iron porphyrin catalysis, thiols and selenols reacted smoothly with 4–1 to afford the corresponding gem -difluorovinyl sulfides and selenides 4–2 in high yields.\nFurthermore, copper-based catalytic systems proved SCHEME 3 Three-component coupling reaction of N-tosylhydra- zones with terminal alkynes and azides. to be effective for the analogous insertion reaction with amines or alcohols, delivering gem -difluoroenamines 4–3 and difluorovinyl ethers 4–4 in moderate to good yields.",
+      "reviewer_status": "accepted",
+      "section_context": "Formal insertion reactions; catalyst and nucleophile-class differentiation",
+      "source_id": "Tier 2/Recent Advance in Defluorinative Transformations of Œ±‚ÄêTrifluoromethyl Carbene Intermediates.pdf",
+      "source_sha256": "2f9ac0b704f6c6e52b9286fb6de0da586e724957ecad26eff7b0868e76ed7601",
+      "source_span_ids": [
+        "P003-S005",
+        "P003-S006"
+      ],
+      "tier": "tier_2",
+      "visual_review_reference": "Scheme 4 on PDF page 4 should be reviewed for individual catalysts, reagents, and conditions."
+    },
+    {
+      "additional_pdf_pages": [],
+      "attribution": "author_observation",
+      "bibliography": {
+        "authors": [
+          "Yuan-Yuan Ren",
+          "Wen-Jun Ji",
+          "Chi Zhang",
+          "Danhua Ge",
+          "Mengtao Ma",
+          "Zhi-Liang Shen",
+          "Xue-Qiang Chu"
+        ],
+        "doi": "10.1002/cjoc.202400929",
+        "journal": "Chinese Journal of Chemistry",
+        "title": "1,2-Dichloroethane-Assisted Defluorinative Ring-Opening Reaction of DABCO and Polyfluoroalkyl Peroxides: Synthesis of Fluorinated N-Ethyl Piperazines",
+        "year": 2025
+      },
+      "claim": "The authors developed a catalyst-free, additive-free three-component reaction of polyfluoroalkyl peroxides, DABCO, and DCE that affords fluorinated N-ethyl piperazines with high Z-stereoselectivity.",
+      "evidence_id": "EV-042ec27a278c08a8f5cc",
+      "evidence_label": "LITERATURE FACT",
+      "evidence_strength": "direct",
+      "pdf_page": 1,
+      "quotation": "DOI: 10.1002/cjoc.202400929 1,2-Dichloroethane-Assisted Defluorinative Ring-Opening Reaction of DABCO and Polyfluoroalkyl Peroxides: Synthesis of Fluorinated N-Ethyl Piperazines Yuan-Yuan Ren,a Wen-Jun Ji,a Chi Zhang,a Danhua Ge,a Mengtao Ma,b Zhi-Liang Shen,*,a and Xue-Qiang Chu*,a a Technical Institute of Fluorochemistry, School of Chemistry and Molecular Engineering, Nanjing Tech University, Nanjing, Jiangsu 211816, China b Department of Chemistry and Materials Science, College of Science, Nanjing Forestry University, Nanjing, Jiangsu 210037, China Keywords Piperazines | Defluorination | DABCO | Elimination | Enones | Peroxides Comprehensive Summary A catalyst -free and additive -free ring -opening reaction of polyfluoroalkyl peroxides, triethylenediamine (DABCO), and 1,2-dichloroethane\n(DCE) has been developed for the defluorinative synthesis of structurally diverse piperazines featuring a flu o- roenone framework and a N-chloroethyl-substituent with high Z-stereoselectivity.",
+      "reviewer_status": "accepted",
+      "section_context": "Comprehensive Summary",
+      "source_id": "Tier 1/Chinese Journal of Chemistry - 2024 - Ren - 1 2‐Dichloroethane‐Assisted Defluorinative Ring‐Opening Reaction of DABCO and.pdf",
+      "source_sha256": "136a824332d9aca7e968be339cd0b79aa5c21726cb3444155d07d49bf574f4dd",
+      "source_span_ids": [
+        "P001-S008",
+        "P001-S009"
+      ],
+      "tier": "tier_1",
+      "visual_review_reference": null
+    }
+  ],
+  "evidence_role_notice": "Source facts/analogy are not proof of new reaction success.",
+  "lens": {
+    "description": "Coverage expansion across neutral and ionic precursors: O-H, N-H, S-H, P-H and cleavable element-element donors. Prefer interpretable precursor/state pairs and mixed versus symmetric donors; identify which atom could form the target bond.",
+    "id": "precursor_state_pairs",
+    "patterns": [
+      "hydroxyl|phenoxide|thiolate|disulfide|phosphine|amine",
+      "activation|base|oxid|fluor"
+    ]
+  },
+  "principles": [
+    {
+      "applicable_electrophile_families": [
+        "Seed carbonyl-adjacent trifluoroethyl carbonyl substrates only"
+      ],
+      "applicable_nucleophile_families": [
+        "Seed-tested organoboron carbon-transfer partners only"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Organoboron carbon donors"
+      ],
+      "catalyst_requirements": [
+        "The reported Pd168 identifier and KHCO3 are required under the grounded model conditions.",
+        "The active Pd species, oxidation state, nuclearity, ligand retention, and molecular role of KHCO3 remain unknown."
+      ],
+      "claim": "Within the grounded Seed system, productive coupling is a condition-bounded net conversion that forms a C-C bond at the CF3-derived carbon while stopping after loss of two fluorines at a monofluoroalkene; stronger base or higher temperature is predicted to increase the competing fully defluorinated alkene rather than simply improve productive conversion.",
+      "condition_window": [
+        "Pd168 identifier, KHCO3, DCE, 80 °C, N2.",
+        "Best reported model yield: 65%.",
+        "HTE setup: 12 h and 250 μL total volume.",
+        "Catalyst loading, reactant equivalents, concentrations, and detailed catalyst identity are unknown.",
+        "Stronger base and higher temperature lie outside the reported selective window."
+      ],
+      "confidence": "low",
+      "contradictory_evidence": [],
+      "experimental_consequence": "A base-identity, base-loading, and temperature matrix should change the ratio of desired monofluoroalkene to fully defluorinated alkene, with harsher conditions favoring over-defluorination even when total conversion rises.",
+      "falsifying_experiment": "Run quantitative time courses at the grounded condition and at systematically stronger-base or higher-temperature conditions, measuring starting material, coupled monofluoroalkene, fully defluorinated alkene, other fluorinated products, and fluorine mass balance. Invariant mono/over-defluorination ratios, or monotonic improvement without increased over-defluorination, would falsify the principle.",
+      "freeze_version": "admission-rerun-v1",
+      "known_exceptions": [
+        "No quantitative base-strength or temperature threshold is established.",
+        "The reported relation may be substrate-specific.",
+        "Conversion and isolated yield may diverge because product persistence and workup recovery are not established."
+      ],
+      "mechanistic_basis": [
+        "The Seed establishes only the net two-fluorine-loss outcome and condition dependence.",
+        "Sequential beta-fluoride eliminations and a Pd-H-mediated over-defluorination branch are AUTHOR HYPOTHESES, not established steps.",
+        "Transferred assessments support condition control of defluorination count but do not transfer their hydrodefluorination mechanisms."
+      ],
+      "predicted_failure_modes": [
+        "Over-defluorination at elevated temperature or with stronger base.",
+        "Unproductive substrate consumption or poor mass balance.",
+        "Product loss, isomerization, or decomposition during prolonged reaction or workup."
+      ],
+      "principle_id": "RP-SR001-SS-01",
+      "principle_layer": "seed_specific",
+      "provenance": {
+        "model": null,
+        "prompt_version": null,
+        "run_id": "SR001-grounded-transfer-bundle",
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "required_reactive_form": "A Seed carbonyl-adjacent trifluoroethyl substrate, an operative organoboron species of unknown speciation, and a catalytically competent but structurally unresolved Pd state.",
+      "review_status": "accepted",
+      "status": "accepted",
+      "structural_inhibitors": [
+        "Features that promote product reinsertion or further C-F loss.",
+        "Unresolved product instability under reaction or workup conditions."
+      ],
+      "structural_promoters": [
+        "A carbonyl group adjacent to the trifluoroethyl reaction center, without asserting that coordination is operative.",
+        "A coupling partner able to transfer carbon under the grounded Pd/base conditions."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE002",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE008",
+        "SE-REACTION-CLASS",
+        "SE-PD-CAS-ROW"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-0108d952d30b1d1f",
+        "TA-05555bbbf61a6c35",
+        "TA-0d63c8335aba7bcf",
+        "TA-10ebccfbd07d4938"
+      ],
+      "title": "Condition-bounded two-fluorine stopping point"
+    },
+    {
+      "applicable_electrophile_families": [
+        "Seed carbonyl-adjacent trifluoroethyl carbonyl substrates only"
+      ],
+      "applicable_nucleophile_families": [
+        "Organoboron partners evaluated under the complete Seed conditions"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Organoboron carbon donors"
+      ],
+      "catalyst_requirements": [
+        "Use the complete grounded Pd168/KHCO3 system when evaluating scope.",
+        "Do not infer that a scope failure identifies a catalyst-independent or family-wide boundary."
+      ],
+      "claim": "Under the grounded Seed conditions, coupling-partner performance may depend jointly on electronics, coordination, steric congestion, and the organoboron reactive form. The reported limitations for highly electron-deficient heteroaryl, strongly coordinating, sterically congested, and ortho-disubstituted partners are Seed-specific risk boundaries, while a blanket alkyl-organoboron exclusion is unsupported because the supplied Seed account also reports a productive N-Boc-protected piperidinyl boronic-ester model result.",
+      "condition_window": [
+        "Pd168 identifier, KHCO3, DCE, 80 °C, N2, with the reported 12 h model setup.",
+        "Partners must be compared at matched loading, concentration, water content, and workup.",
+        "Partner boron speciation and the molecular role of KHCO3 remain unknown."
+      ],
+      "confidence": "low",
+      "contradictory_evidence": [],
+      "experimental_consequence": "Matched Seed-condition comparisons that vary one partner feature at a time should determine whether the reported limitations track electronics, coordination, steric congestion, reactive-form stability, or interactions among those variables; no aryl-versus-alkyl boundary is established in advance.",
+      "falsifying_experiment": "Under otherwise matched Seed conditions, test organoboron partners that independently vary steric congestion, coordination ability, and electronics, including matched cyclic carbon donors with and without the reported protecting-group environment. Quantify reagent persistence, desired coupling, protodeboronation, and over-defluorination. Reproducible performance independent of all varied features would falsify the proposed multivariable dependence, while a resolved and exception-free alkyl boundary would falsify the claim that the family boundary remains unresolved.",
+      "freeze_version": "admission-rerun-v1",
+      "known_exceptions": [
+        "The productive protected piperidinyl boronic-ester model conflicts with the manuscript's alkyl-organoboron failure statement.",
+        "Selected heteroaryl or electronically varied partners working in other catalytic systems do not establish Seed compatibility.",
+        "A low yield under one ligand or condition does not establish intrinsic partner incompatibility."
+      ],
+      "mechanistic_basis": [
+        "The Seed reports combined electronic and steric dependence but supplies no quantitative thresholds.",
+        "The operative organoboron species and whether KHCO3 activates it are unknown.",
+        "Conditional transferred assessments support organoboron carbon-transfer competence while preserving catalyst, electrophile, and condition mismatches.",
+        "Transferred negative scope observations are condition-specific and do not establish family-wide exclusion."
+      ],
+      "predicted_failure_modes": [
+        "Coordination-associated Pd inhibition or altered catalyst speciation.",
+        "Slow or absent carbon transfer from an insufficiently activated organoboron species.",
+        "Sterically inhibited coupling.",
+        "Protodeboronation or other donor decomposition.",
+        "Misclassification of a condition-specific failure as an intrinsic family exclusion."
+      ],
+      "principle_id": "RP-SR001-SS-02",
+      "principle_layer": "seed_specific",
+      "provenance": {
+        "model": null,
+        "prompt_version": null,
+        "run_id": "SR001-grounded-transfer-bundle",
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "required_reactive_form": "A transmetalation-competent organoboron species generated or maintained in the complete Seed Pd168/KHCO3/DCE mixture; its molecular identity is unknown.",
+      "review_status": "revised",
+      "status": "revised",
+      "structural_inhibitors": [
+        "Strongly coordinating donor sites under the Seed conditions.",
+        "Highly electron-deficient heteroaryl substitution under the Seed conditions.",
+        "Severe steric congestion or ortho-disubstitution.",
+        "Structures or conditions that accelerate organoboron decomposition."
+      ],
+      "structural_promoters": [
+        "Demonstrated persistence of the organoboron reagent under Seed conditions.",
+        "Accessible carbon transfer without strong competitive Pd binding."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE006",
+        "SE007",
+        "SE008",
+        "SE009",
+        "SE-REACTION-CLASS",
+        "SE-PD-CAS-ROW"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-045aa91b705d973f",
+        "TA-046aa067fd0433f1",
+        "TA-08460c06a45a7126",
+        "TA-0a80429642690515",
+        "TA-111ffd381af67de3",
+        "TA-06fb6d7132cb3399"
+      ],
+      "title": "Multivariable organoboron scope boundary"
+    },
+    {
+      "applicable_electrophile_families": [
+        "Seed carbonyl-adjacent trifluoroethyl carbonyl substrates and independently prepared faithful Seed intermediates"
+      ],
+      "applicable_nucleophile_families": [
+        "Seed organoboron carbon-transfer partners"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Organoboron carbon donors"
+      ],
+      "catalyst_requirements": [
+        "Pd is experimentally required for the reported Seed outcome.",
+        "No specific Pd coordination geometry, oxidation state, hydride, ligand state, or aggregation state is established."
+      ],
+      "claim": "If the proposed carbonyl-bound Pd intermediate, gem-difluoroenone, Pd-H species, or sequential insertion/transmetalation/beta-fluoride-elimination sequence lies on the productive Seed pathway, the relevant intermediate must be structurally supported and kinetically competent under conditions demonstrably connected to the grounded reaction. The supplied net chemistry and inconclusive trapping do not currently establish any complete catalytic sequence.",
+      "condition_window": [
+        "Mechanistic tests should reproduce Pd168, KHCO3, DCE, 80 °C, and N2 where feasible.",
+        "Stoichiometric, trapping, or lower-temperature conditions require explicit condition-mismatch controls.",
+        "Intermediate detection must be time-resolved and orthogonally validated."
+      ],
+      "confidence": "low",
+      "contradictory_evidence": [
+        "TA-01f30125b73aef0b",
+        "TA-03475a492989a49a",
+        "TA-09524409e597b505"
+      ],
+      "experimental_consequence": "An independently prepared or generated Seed-relevant gem-difluoroenone can support an on-pathway assignment only if it enters product formation under grounded or explicitly bridged conditions at a rate compatible with turnover; tests of Pd nuclearity, carbonyl involvement, labeling, and radical behavior must distinguish the proposed sequence from supplied alternatives.",
+      "falsifying_experiment": "Independently prepare or generate a faithful gem-difluoroenone, establish its identity and concentration by orthogonal analysis, and compare its product-forming rate with that of the parent Seed substrate under grounded conditions. Failure to form the Seed product at a kinetically competent rate would falsify its assignment as an obligatory productive intermediate; Pd-order, carbonyl-perturbation, isotope-label, and radical-clock results incompatible with the proposed sequence would falsify the corresponding elementary-step assignments.",
+      "freeze_version": "admission-rerun-v1",
+      "known_exceptions": [
+        "Failure to accumulate an intermediate does not exclude fast reversible formation.",
+        "Spectral similarity alone does not establish intermediate identity.",
+        "TEMPO inhibition alone does not establish a radical step.",
+        "A different Pd nuclearity or ligand state may operate without changing the net bond changes."
+      ],
+      "mechanistic_basis": [
+        "All detailed Seed elementary steps are explicitly tentative AUTHOR HYPOTHESES.",
+        "Attempted detection or trapping of the proposed gem-difluoroenone was inconclusive.",
+        "Transferred Pd-alkene coordination and beta-fluoride-elimination precedents are conditional and use different substrates, nucleophiles, catalysts, or conditions.",
+        "Transferred alternatives show that bimetallic, cationic, and metathesis interpretations require discriminating evidence."
+      ],
+      "predicted_failure_modes": [
+        "Off-pathway formation of a detectable fluorinated alkene.",
+        "Catalyst inhibition by a probe or added ligand.",
+        "Misassignment of gas-phase, spectrometric, or transient species as solution intermediates.",
+        "Non-diagnostic radical-trap suppression.",
+        "Condition-induced switching to a pathway absent under the grounded reaction."
+      ],
+      "principle_id": "RP-SR001-SS-03",
+      "principle_layer": "seed_specific",
+      "provenance": {
+        "model": null,
+        "prompt_version": null,
+        "run_id": "SR001-grounded-transfer-bundle",
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "required_reactive_form": "An authenticated or orthogonally characterized Seed-relevant intermediate whose kinetic competence is tested under the complete grounded catalytic mixture or under conditions explicitly bridged to it.",
+      "review_status": "revised",
+      "status": "revised",
+      "structural_inhibitors": [
+        "Substitutions that prevent the hypothesized elimination geometry, if that geometry is shown to matter.",
+        "Strong ligands or probes that sequester Pd.",
+        "Probe structures that do not preserve the Seed reaction center."
+      ],
+      "structural_promoters": [
+        "A carbonyl-adjacent fluorinated reaction center capable of reproducing the Seed atom map.",
+        "A fluorinated alkene geometry compatible with a directly tested Pd interaction."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE002",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE007",
+        "SE008",
+        "SE010",
+        "SE-REACTION-CLASS",
+        "SE-PD-CAS-ROW"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-01db0c67185d44fb",
+        "TA-0d9699af22959ec0",
+        "TA-0eafe7123b5b9f92",
+        "TA-115306a777aa9488",
+        "TA-010ecc1804f1667a",
+        "TA-01acc5b70a495a53"
+      ],
+      "title": "Kinetic-competence requirement for Seed intermediates"
+    },
+    {
+      "applicable_electrophile_families": [
+        "Fluorinated addition intermediates bearing a carbon-metal or carbanion-like center beta to fluorine",
+        "Carbonyl-conjugated gem-difluoroalkenes when the relevant reactive form is demonstrated"
+      ],
+      "applicable_nucleophile_families": [
+        "Carbon-transfer partners shown to generate the required beta-fluoro addition intermediate"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Conditionally activated carbon donors"
+      ],
+      "catalyst_requirements": [
+        "A catalyst or reagent system experimentally shown to form the required beta-fluoro addition intermediate.",
+        "No particular metal, ligand, initial activation step, or complete catalytic cycle transfers without direct compatibility evidence."
+      ],
+      "claim": "In the supplied conditional analogies, a suitably configured beta-fluoro carbon-metal or carbanion-like addition intermediate may undergo beta-fluoride elimination to a fluorinated alkene. Transfer is limited to this local elementary-step hypothesis and requires independent demonstration of the intermediate, its elimination geometry, and its kinetic competence; it does not establish the Seed's initial activation, complete cycle, or sequential loss of two fluorines.",
+      "condition_window": [
+        "The intermediate must have a feasible beta-fluoride-elimination geometry and sufficient anionic or metal-associated character.",
+        "Catalyst, ligand, base, solvent, and temperature effects must be re-established for each system.",
+        "The first productive C-F loss must be distinguished from further loss through product reinsertion, reduction, or another pathway."
+      ],
+      "confidence": "low",
+      "contradictory_evidence": [],
+      "experimental_consequence": "A structurally verified beta-fluoro intermediate should produce a fluorinated alkene with mapped fluoride loss under validated conditions if the local elimination hypothesis applies; matched changes that remove the beta relationship or prevent the required geometry should perturb that behavior.",
+      "falsifying_experiment": "Prepare matched, atom-mapped intermediates with and without the beta-fluoro arrangement, verify that the proposed reactive forms are generated, and expose them to otherwise identical validated conditions. Absence of beta-fluoride elimination from the verified beta-fluoro intermediate, or indistinguishable fluoride loss and alkene connectivity from controls lacking the required beta relationship or geometry, would falsify the local transfer for that system.",
+      "freeze_version": "admission-rerun-v1",
+      "known_exceptions": [
+        "A beta hydrogen may enable competing beta-hydrogen elimination.",
+        "Protic media may redirect the intermediate to hydrofunctionalization, substitution, decomposition, or complete defluorination.",
+        "Fluorine migration and ambident O/C substitution are not evidence for beta-fluoride elimination.",
+        "The required Seed intermediate has not been established."
+      ],
+      "mechanistic_basis": [
+        "Conditional transfer assessments identify proposed or observed beta-fluoride elimination after nucleophilic addition, carbometalation, or insertion.",
+        "The common transferable content is limited to local intermediate geometry and fluorine loss, not catalyst identity or a complete mechanism.",
+        "Seed net atom mapping is compatible with sequential C-F loss but does not prove this elementary route."
+      ],
+      "predicted_failure_modes": [
+        "Beta-hydrogen elimination.",
+        "Protonation or hydrolysis before fluoride loss.",
+        "Further defluorination of the first fluorinated-alkene product.",
+        "Alternative direct vinylic substitution.",
+        "Failure to generate or verify the required intermediate."
+      ],
+      "principle_id": "RP-SR001-TS-01",
+      "principle_layer": "transferable_super",
+      "provenance": {
+        "model": null,
+        "prompt_version": null,
+        "run_id": "SR001-grounded-transfer-bundle",
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "required_reactive_form": "A structurally verified beta-fluoro carbon-metal or carbanion-like intermediate with an accessible elimination geometry; formal substrate similarity alone is insufficient.",
+      "review_status": "revised",
+      "status": "revised",
+      "structural_inhibitors": [
+        "Absence of beta fluorine relative to the reactive carbon center.",
+        "Geometry that prevents elimination.",
+        "Rapid protonation, hydrolysis, or competing beta-hydrogen elimination.",
+        "Product structures susceptible to immediate reinsertion or further C-F loss."
+      ],
+      "structural_promoters": [
+        "Stabilization sufficient to form but not indefinitely trap the beta-fluoro intermediate.",
+        "A geometry enabling C-C bond formation and subsequent fluoride loss.",
+        "A product alkene resistant to further catalyst engagement."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE002",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE008",
+        "SE-REACTION-CLASS"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-01db0c67185d44fb",
+        "TA-029e918657a2428f",
+        "TA-047b923db0de83a2",
+        "TA-0c62321b8fca1b14",
+        "TA-0d9699af22959ec0",
+        "TA-104265a14fb879c7",
+        "TA-10ebccfbd07d4938"
+      ],
+      "title": "Local beta-fluoride-elimination liability"
+    },
+    {
+      "applicable_electrophile_families": [
+        "Fluorinated substrates for which sequential partial and further defluorination are observed or directly tested",
+        "Fluorinated alkene products shown to remain susceptible to the operative reaction mixture"
+      ],
+      "applicable_nucleophile_families": [
+        "Carbon donors compatible with the tested catalytic mixture"
+      ],
+      "applicable_nucleophile_superclasses": [
+        "Conditionally activated carbon donors"
+      ],
+      "catalyst_requirements": [
+        "A catalyst system capable of the desired bond construction and partial defluorination.",
+        "Catalyst speciation must be assessed across condition changes; no cross-metal catalyst substitution or complete mechanism is implied."
+      ],
+      "claim": "Where a partially defluorinated intermediate or product remains reactive in the operative mixture, the desired fluorination state can be a kinetic stopping point rather than an intrinsic endpoint. The Seed and conditional transferred evidence justify testing temperature, base, reagent stoichiometry, fluoride activity, water content, and residence time as system-specific variables, but they do not establish a universal direction or magnitude for those effects.",
+      "condition_window": [
+        "Begin from a productive baseline and vary condition dimensions independently where feasible.",
+        "Use ion-pair, salt, and scavenger controls before assigning an effect to fluoride activity.",
+        "Control water content and distinguish effects on donor activation, catalyst speciation, hydrolysis, and elimination.",
+        "Use time-resolved calibrated product measurements and product-resubjection controls rather than endpoint isolated yield alone."
+      ],
+      "confidence": "low",
+      "contradictory_evidence": [],
+      "experimental_consequence": "For an applicable system, time or condition changes should alter the distribution between partial defluorination, further defluorination, and decomposition independently of total conversion; the direction must be established experimentally for that system.",
+      "falsifying_experiment": "Starting from a productive baseline, perform time courses that independently vary temperature, base identity or loading, donor-to-electrophile ratio, controlled water, and selected fluoride scavengers. Include isolated-product resubjection and calibrated crude-versus-isolated analysis. If the verified partially defluorinated species is not consumed and fluorination-state distributions remain invariant across the validated window, the kinetic-stopping-point principle is falsified for that system.",
+      "freeze_version": "admission-rerun-v1",
+      "known_exceptions": [
+        "Some fluorinated products may be persistent across the tested window.",
+        "Water or salts may affect organoboron or catalyst speciation without directly controlling fluoride loss.",
+        "Stoichiometric effects may reflect conversion or catalyst concentration rather than sequential product reaction.",
+        "Transferred systems establish condition sensitivity only in their own bounded settings.",
+        "The supplied product-recovery failure is explicitly structure-specific and cannot be generalized to all monofluoroalkenes."
+      ],
+      "mechanistic_basis": [
+        "The Seed reports more over-defluorination with stronger base or higher temperature.",
+        "Conditional assessments support system-specific control of defluorination count by conditions without transferring their catalytic cycles.",
+        "Unknown and non-transferable assessments identify water, salt, stoichiometry, stereochemical evolution, and workup recovery as testable cautions rather than established shared mechanisms."
+      ],
+      "predicted_failure_modes": [
+        "Further defluorination during prolonged catalyst exposure.",
+        "Hydrolysis, protic addition, or decomposition after initial product formation.",
+        "Organoboron decomposition under altered water or salt conditions.",
+        "Misleading isolated yields caused by structure-specific workup instability.",
+        "Incorrect selectivity estimates from uncalibrated analytical response."
+      ],
+      "principle_id": "RP-SR001-TS-02",
+      "principle_layer": "transferable_super",
+      "provenance": {
+        "model": null,
+        "prompt_version": null,
+        "run_id": "SR001-grounded-transfer-bundle",
+        "seed_digest": null,
+        "transfer_digest": null
+      },
+      "required_reactive_form": "A verified partially defluorinated product or intermediate that remains exposed to a reagent or catalyst capable of further C-F loss or pathway diversion.",
+      "review_status": "revised",
+      "status": "revised",
+      "structural_inhibitors": [
+        "Products shown to undergo catalyst reinsertion, reduction, hydrolysis, or nucleophilic addition.",
+        "Structures whose remaining C-F bond is activated under the productive conditions.",
+        "Functional groups shown to impair workup persistence."
+      ],
+      "structural_promoters": [
+        "A partially defluorinated product with low affinity for the active catalyst.",
+        "Features that slow subsequent activation without blocking initial bond construction.",
+        "Conditions that remove or quench the product before further reaction."
+      ],
+      "supporting_seed_evidence": [
+        "SE001",
+        "SE002",
+        "SE003",
+        "SE004",
+        "SE005",
+        "SE006",
+        "SE008",
+        "SE009",
+        "SE-REACTION-CLASS",
+        "SE-PD-CAS-ROW"
+      ],
+      "supporting_transferred_evidence": [
+        "TA-0108d952d30b1d1f",
+        "TA-0198e7a58aa3a739",
+        "TA-02986091a467e200",
+        "TA-032913cb276683b9",
+        "TA-03500fd4a915ddec",
+        "TA-04dda32dc08c40e3",
+        "TA-05555bbbf61a6c35",
+        "TA-0d63c8335aba7bcf",
+        "TA-12546bed8bdfc652"
+      ],
+      "title": "Partial defluorination as a conditional kinetic stopping point"
+    }
+  ],
+  "requested_candidate_count": 6,
+  "retrieval_count": 542,
+  "seed": {
+    "bond_changes": [
+      "Net formation of a C–C bond between the CF₃-derived alkene carbon of the trifluoroethyl carbonyl substrate and the carbon transferred from the organoboron reagent.",
+      "Net conversion of the carbonyl-adjacent trifluoroethyl unit into a monofluoroalkene, requiring net cleavage/loss of two C–F bonds because the product retains one fluorine.",
+      "Formation of a C=C bond conjugated with the carbonyl group.",
+      "Tentative proposed sequence: a first β-F elimination gives a gem-difluoroenone, and a later β-F elimination after organoboron incorporation gives the monofluoroalkene.",
+      "Competing over-defluorination would remove the remaining alkene fluorine to furnish a fully defluorinated alkene."
+    ],
+    "catalyst_roles": [
+      "Pd catalyst is required in the reported controls. SI associates Pd168 with CAS 205319-06-8. Active species and ligand retention remain UNKNOWN; external name resolution is separately audited, not a first-party mechanistic observation.",
+      "Tentative AUTHOR HYPOTHESIS: Pd coordinates to the substrate carbonyl and polarizes adjacent C–F bonds.",
+      "Tentative AUTHOR HYPOTHESIS: Pd supports β-F elimination, migratory insertion, organoboron transmetalation, product-forming β-F elimination, and regeneration of an active palladium species.",
+      "KHCO₃ is experimentally required with Pd under condition*, but its precise molecular role, including whether it activates the organoboron reagent, promotes elimination, or controls Pd speciation, is unknown."
+    ],
+    "competing_pathways": [
+      "Tentative path I: the monofluoroalkene product undergoes further insertion with a proposed Pd-H species, followed by β-F elimination to the fully defluorinated alkene.",
+      "Over-defluorination is reported under stronger base or higher temperature; the authors tentatively infer that condition* suppresses this pathway.",
+      "A radical pathway remains unresolved: TEMPO inhibition occurred, but differential inhibition by BHT and 1,1-diphenylethylene means the trapping experiments do not establish a radical mechanism.",
+      "The manuscript statement that alkyl organoboron reagents were unreactive conflicts with its productive N-Boc-protected piperidinyl boronic-ester model reaction; the classification or boundary intended by 'alkyl organoboron' is unresolved."
+    ],
+    "condition_window": [
+      "Best reported model-reaction condition: Pd168 identifier, KHCO₃, DCE, 80 °C, 65% yield.",
+      "The standard HTE setup reports 80 °C for 12 h in a 250 μL total reaction volume.",
+      "Reactions were set up under N₂ in a glovebox according to the SI general information.",
+      "Stronger base or higher temperature is associated with over-defluorinated alkene formation in the manuscript discussion.",
+      "Catalyst loading, substrate equivalents, base equivalents, concentrations of each reactant, and the detailed active catalyst identity are not established in the quoted condition paragraphs."
+    ],
+    "confidence": "low",
+    "electronic_requirements": [
+      "The authors infer that productive reactivity depends on the combined electronic features of both coupling partners; this is an empirical scope interpretation, not a quantified mechanistic requirement.",
+      "Highly electron-deficient heteroaryl boron reagents are reported to have limited compatibility.",
+      "Strongly coordinating substrates are reported to have limited compatibility.",
+      "Tentative AUTHOR HYPOTHESIS: carbonyl coordination to Pd polarizes the adjacent C–F bonds.",
+      "No redox-potential, acidity, orbital, or quantitative electronic threshold is established."
+    ],
+    "electrophile_state": [
+      "Trifluoroethyl carbonyl compound, represented in the mechanism as compound 1.",
+      "Tentative AUTHOR HYPOTHESIS: a carbonyl-coordinated, chelated five-membered palladium intermediate A.",
+      "Tentative AUTHOR HYPOTHESIS: a gem-difluoroenone intermediate B formed by β-F elimination; attempted detection or trapping was inconclusive.",
+      "The exact palladium-bound electrophile geometry, oxidation state, and stereochemical course are unknown."
+    ],
+    "elementary_steps": [
+      "Tentative AUTHOR HYPOTHESIS: carbonyl coordination to Pd and polarization of adjacent C–F bonds.",
+      "Tentative AUTHOR HYPOTHESIS: formation of chelated five-membered palladium intermediate A.",
+      "Tentative AUTHOR HYPOTHESIS: base-associated β-F elimination from A to gem-difluoroenone B and Pd-H C.",
+      "Tentative AUTHOR HYPOTHESIS: conversion of B into migratory-insertion intermediate E.",
+      "Tentative AUTHOR HYPOTHESIS: transmetalation of E with organoboron reagent 2 to intermediate F.",
+      "Tentative AUTHOR HYPOTHESIS: β-F elimination from F forms the C–C-coupled monofluoroalkene 3 and regenerates active Pd.",
+      "Tentative competing AUTHOR HYPOTHESIS: insertion of product 3 with Pd-H C gives Pd(II) intermediate D, followed by β-F elimination to fully defluorinated alkene 4.",
+      "No elementary radical step is established by the inhibition experiments."
+    ],
+    "evidence_ids": [
+      "SE001",
+      "SE002",
+      "SE003",
+      "SE004",
+      "SE005",
+      "SE006",
+      "SE007",
+      "SE008",
+      "SE009",
+      "SE010",
+      "SE-REACTION-CLASS",
+      "SE-PD-CAS-ROW"
+    ],
+    "failed_scope": [
+      "Reported limited compatibility with highly electron-deficient heteroaryl boron reagents.",
+      "Reported limited compatibility with strongly coordinating substrates.",
+      "Reported limited compatibility or lower efficiency for sterically congested and ortho-disubstituted arylboron partners.",
+      "The manuscript reports alkyl organoboron reagents as unreactive with no desired product, but this boundary is internally inconsistent or insufficiently defined because the model reaction uses an N-Boc-protected piperidinyl boronic ester and gives detectable product."
+    ],
+    "nucleophile_state": [
+      "Organoboron reagent 2 is the carbon-transfer coupling partner.",
+      "Tentative AUTHOR HYPOTHESIS: the organoboron reagent undergoes transmetalation with Pd-containing intermediate E to form intermediate F.",
+      "The operative boron species, its aggregation or hydrolysis state, and whether KHCO₃ directly activates it are unknown.",
+      "No nucleophile family beyond organoboron reagents is inferred."
+    ],
+    "reaction_center": [
+      "The carbonyl-adjacent trifluoroethyl fragment of the electrophile, especially the CF₃-derived carbon that becomes the fluorinated alkene carbon.",
+      "The carbon attached to boron in the organoboron coupling partner, which is transferred to form the new C–C bond.",
+      "The adjacent carbonyl group, proposed tentatively to direct or assist Pd activation.",
+      "The two C–F bonds lost during net conversion of a CF₃-derived center into a product retaining one fluorine."
+    ],
+    "reactive_intermediates": [
+      "Tentative chelated five-membered palladium intermediate A.",
+      "Tentative gem-difluoroenone intermediate B; trapping or detection was inconclusive.",
+      "Tentative Pd-H intermediate C.",
+      "Tentative Pd(II) over-defluorination intermediate D.",
+      "Tentative migratory-insertion intermediate E.",
+      "Tentative post-transmetalation intermediate F.",
+      "No radical intermediate has been established."
+    ],
+    "seed_reaction_id": "SR001",
+    "steric_requirements": [
+      "The authors infer a combined steric dependence involving both coupling partners.",
+      "Sterically congested and ortho-disubstituted arylboron partners are reported to show diminished or limited reactivity.",
+      "No quantitative steric threshold or required coordination geometry is established."
+    ],
+    "successful_scope": []
+  },
+  "source_corrections": [
+    {
+      "case": "carbon",
+      "evidence_id": "EV-689e74275c862af525c1",
+      "figure": "Scheme 3b",
+      "fluorine_count_after": 1,
+      "fluorine_count_before": 3,
+      "new_bond": "Former CF3 carbon to phenyl carbon from phenylboronic acid",
+      "observations": {
+        "E_to_Z": "1:6",
+        "base": "K3PO4",
+        "base_equivalents_reported": 3,
+        "boronic_acid_mmol": 0.1,
+        "catalyst_mol_percent_reported": 5,
+        "duration_h": null,
+        "solvent": "toluene",
+        "solvent_mL": 1.5,
+        "substrate_mmol": 0.14,
+        "temperature_C": 110,
+        "yield_percent": 76
+      },
+      "partner_and_retained_F_same_carbon": true,
+      "product_connectivity": "Ph-C(=O)-C(4-MeO-C6H4)=C(F)-Ph",
+      "reactant_connectivity": "Ph-C(=O)-CH(4-MeO-C6H4)-CF3",
+      "transfer_limit": "Direct net structural precedent for an alpha-aryl-substituted trifluoroethyl ketone, not validation of the Seed catalyst window, un-substituted alpha carbon, all carbonyl classes or new heteroatom partners",
+      "unresolved": [
+        "Printed catalyst formula is Pd(PPh)3Cl2; not silently normalized to PdCl2(PPh3)2 or another reagent",
+        "Equivalence and mol-percent reference basis needs SI confirmation",
+        "Reaction duration absent from inspected main-text scheme",
+        "Publisher SI endpoint returned HTTP403"
+      ],
+      "verified_pages": [
+        3,
+        5
+      ]
+    },
+    {
+      "case": "nitrogen",
+      "evidence_id": "EV-902bc1b52a932db181c4",
+      "figure": "Supporting information downstream transformations, product7",
+      "fluorine_count_after": 1,
+      "fluorine_count_before": 2,
+      "new_bond": "Vinylic carbon to imidazole nitrogen",
+      "observations": {
+        "Cs2CO3_equivalents": 3,
+        "Cs2CO3_mmol": 0.15,
+        "Pd_added_in_listed_procedure": false,
+        "duration_prose_h": 12,
+        "duration_scheme_h": 24,
+        "handling": "glovebox, sealed tube",
+        "imidazole_equivalents": 3,
+        "imidazole_mmol": 0.15,
+        "solvent": "dry MeCN",
+        "solvent_mL": 1.0,
+        "substrate_mmol": 0.05,
+        "temperature_C": 80,
+        "yield_percent": 83
+      },
+      "partner_and_retained_F_same_carbon": true,
+      "product_connectivity": "(E)-1-[2-(4-tert-butylphenyl)-3-fluoro-3-(imidazol-1-yl)allyl]cyclobutan-1-ol (7)",
+      "reactant_connectivity": "1-[2-(4-tert-butylphenyl)-3,3-difluoroallyl]cyclobutan-1-ol (3a)",
+      "same_page_incidental_observation": "Product6 shows a C(F)-S alkene from the same gem-CF2 precursor with a sulfur partner; encountered on the same inspected page, not a new outcome-directed search or a new recommendation",
+      "transfer_limit": "Valid local gem-CF2 to C(F)-N alkene example on an aryl/remote-alcohol substrate; not a carbonyl-conjugated Seed intermediate and not full CF3 two-fluorine loss",
+      "unresolved": [
+        "Scheme/prose 24h versus12h conflict",
+        "No direct identification of neutral versus anionic active N form",
+        "No Pd compatibility test for this step",
+        "Cannot infer absence of metal traces merely from no added Pd"
+      ],
+      "verified_pages": [
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "case": "oxygen",
+      "evidence_id": "EV-96934ea0dd931848bee3",
+      "figure": "Scheme1, Table1, experimental procedures",
+      "fluorine_count_after": 1,
+      "fluorine_count_before": 2,
+      "new_bond": "Beta vinylic carbon to oxygen; alpha vinylic fluorine remains",
+      "observations": {
+        "Pd_added_in_listed_procedures": false,
+        "Table1_entry5": "MeOH/NaH, DME, -50C to rt, procedureE, 86%",
+        "Table1_entry6": "substrate1, tert-butanol/Na, tert-butanol solvent, reflux, procedureA, 0%; footnote says no starting-material conversion detected",
+        "Table1_entry7": "substrate1, tert-butanol/NaH, DME, -40C to rt, procedureC, 53%",
+        "procedureE_report": "For methoxy product4: methanol in DMF, NaH, then cooled to -60C and substrate added, 2h then warm; workup sentence refers to removal of DME",
+        "product9_prose": "procedureE and54% rather than Table1 procedureC and53%"
+      },
+      "partner_and_retained_F_same_carbon": false,
+      "product_connectivity": "2-fluoro-3-alkoxybutenolide: alpha-F and beta-OR",
+      "reactant_connectivity": "2,3-difluoro-4,4-dialkylbutenolide: F on each of the two different alkene carbons",
+      "transfer_limit": "Local vinylic O substitution only; wrong F/partner relative position for the target C(F)-O connectivity. No direct transfer of NaH/alcohol procedures into sealed HTE or DCE mixtures",
+      "unresolved": [
+        "Table/procedure solvent, temperature, procedure-letter and small yield inconsistencies remain unresolved",
+        "DOI absent in retained bibliography; first page confirms PII S0040-4020(00)00167-8 only",
+        "No Seed Pd/weak-base compatibility demonstrated"
+      ],
+      "verified_pages": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    }
+  ],
+  "study": {
+    "fixed_component": "Seed trifluoroethyl carbonyl; exact model requires operational confirmation",
+    "study_id": "trifluoroethyl-carbonyl-compact-coverage-expansion-v1",
+    "target": "Preserve carbonyl scaffold; variable partner on the CF3-derived alkene carbon bearing retained F; net loss of two F",
+    "variable_role": "reaction partner with open competing bond-forming atoms"
+  }
+}

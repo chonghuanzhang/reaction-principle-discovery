@@ -1,0 +1,434 @@
+{
+  "accepted": [
+    {
+      "activation": "可见光/光氧化还原单电子还原以脱去 N2；光催化剂和还原剂需按实际 Seed 底物的还原窗口筛选。",
+      "atom_indices": [
+        2
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "F[B-](F)(F)F.N#[N+]c1ccccc1",
+      "center": "C",
+      "citations": [],
+      "diagnostic": "同步监测 N2 释放、芳基自由基捕获物、目标单氟烯烃和过度脱氟产物；加入低比例自由基钟或进行明暗交替实验，区分持续自由基链与单纯光催化过程。",
+      "family": "芳基重氮盐自由基前体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "苯重氮四氟硼酸盐",
+      "reactive_form": "失去 N2 后形成的苯基自由基；提交 SMILES 中与重氮基相连的芳环碳 atom 2 是拟成键原子。",
+      "reason": "提供不依赖原 Pd/有机硼转金属化循环的芳基自由基入口，用于检验 CF3 衍生中心能否经自由基加成或自由基-极性交叉形成目标 C–C 键并停在单氟烯烃。",
+      "risks": [
+        "重氮盐可能热分解或发生还原性脱重氮副反应",
+        "芳基自由基可能夺氢、二聚或加成到羰基氧而非目标碳",
+        "光催化剂或阴离子可能改变脱氟数目和产物 E/Z 比"
+      ],
+      "route": "在独立光化学条件中产生苯基自由基，测试其对 Seed 底物或经确认的 Seed 相关 gem-二氟烯酮的加成，随后考察单电子还原/氟离子消除能否给出固定的 C(F)–Ph 连通性。",
+      "smiles": "N#[N+]c1ccccc1.[B-](F)(F)(F)F",
+      "structure_key": "60ed269cc272def9",
+      "success_probability": null
+    },
+    {
+      "activation": "光氧化还原单电子还原并脱羧；需要能够还原该活化酯且不会快速还原 Seed 羰基的光催化体系。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "CC(=O)ON1C(=O)c2ccccc2C1=O",
+      "center": "C",
+      "citations": [],
+      "diagnostic": "用同位素标记的甲基或定量气体分析确认脱羧，同时比较无光、无光催化剂及加入自由基捕获剂的结果；检测甲基化单氟烯烃与简单氢脱氟产物。",
+      "family": "N-羟基邻苯二甲酰亚胺氧化还原活性酯",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "N-羟基邻苯二甲酰亚胺乙酸酯",
+      "reactive_form": "还原裂解和脱羧后形成的甲基自由基；乙酰基甲基 atom 0 为拟成键原子。",
+      "reason": "以最小烷基自由基探测烷基 C–C 键形成，避免把 Seed 中有争议的烷基有机硼边界外推为所有烷基转移方式的失败。",
+      "risks": [
+        "活化酯可能水解或被碱直接分解",
+        "甲基自由基可能优先夺氢",
+        "还原条件可能引起羰基还原、脱羰或非选择性连续脱氟"
+      ],
+      "route": "独立产生甲基自由基并使其与 Seed 反应中心结合，再通过还原-消除或自由基链终止形成保留一个氟的烯烃；不要求 Pd 或原有机硼伙伴。",
+      "smiles": "CC(=O)ON1C(=O)c2ccccc2C1=O",
+      "structure_key": "ab85a340b88a5fa0",
+      "success_probability": null
+    },
+    {
+      "activation": "可采用光氧化还原、低价金属或其他经验证的 C–I 单电子裂解方式；避免预设必须使用 Seed 的 Pd 催化剂。",
+      "atom_indices": [
+        1
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "CC(C)(C)I",
+      "center": "C",
+      "citations": [],
+      "diagnostic": "检测异丁烷、异丁烯、偶联二聚体及目标叔丁基化产物；比较自由基捕获剂、暗反应和不含活化剂的对照，以判断 C–I 均裂是否与产物形成相关。",
+      "family": "叔烷基卤化物自由基前体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "叔丁基碘",
+      "reactive_form": "C–I 单电子裂解后形成的叔丁基自由基；中心叔碳 atom 1 为拟成键原子。",
+      "reason": "作为高度取代烷基自由基和显著位阻边界探针，可区分自由基加成能力与原有机硼转金属化的位阻限制。",
+      "risks": [
+        "易发生还原脱卤或消除生成异丁烯",
+        "叔丁基自由基可能大量夺氢或二聚",
+        "位阻可能降低目标碳捕获速率并放大过度脱氟或底物分解"
+      ],
+      "route": "在独立单电子活化条件下生成叔丁基自由基，探测其是否能在 CF3 衍生碳建立 C–C 键并经后续氟离子损失达到单氟烯烃。",
+      "smiles": "CC(C)(C)I",
+      "structure_key": "5bf56c0fb6340187",
+      "success_probability": null
+    },
+    {
+      "activation": "通过光氧化还原或低价金属实现 C–Br 单电子裂解；条件应允许时间分辨分析，以观察自由基重排。",
+      "atom_indices": [
+        1
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "BrCC1CC1",
+      "center": "C",
+      "citations": [],
+      "diagnostic": "分别定量未重排的环丙甲基连接产物和开环高烯基产物；开环/未开环比及其对捕获剂浓度的依赖可作为自由基寿命的判别信号。",
+      "family": "自由基钟型烷基卤化物",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "溴甲基环丙烷",
+      "reactive_form": "C–Br 裂解产生的环丙甲基自由基；溴甲基碳 atom 1 是固定目标连通性下的拟成键原子。",
+      "reason": "兼作小型烷基转移试剂和自由基钟。若形成目标键前存在寿命足够长的游离自由基，可能观察到竞争性环丙环开裂。",
+      "risks": [
+        "自由基快速开环会生成与预定未重排连通性不同的副产物",
+        "可能发生还原脱溴或亲核取代",
+        "环丙基结构可能在强酸、强 Lewis 酸或金属条件下发生非自由基开环"
+      ],
+      "route": "独立生成环丙甲基自由基，目标仍定义为 Seed CF3 衍生碳与 atom 1 成键；开环产物仅作为机制诊断副产物，不视为目标连通性成功。",
+      "smiles": "BrCC1CC1",
+      "structure_key": "3be0de0ba1e8a796",
+      "success_probability": null
+    },
+    {
+      "activation": "可尝试光氧化单电子转移、自由基诱导硼酸盐裂解，或与 Seed 不同的金属转移体系；需先确认盐在所选溶剂中的溶解和持久性。",
+      "atom_indices": [
+        5
+      ],
+      "basis": "source_system",
+      "canonical_smiles": "F[B-](F)(F)Cc1ccccc1.[K+]",
+      "center": "C",
+      "citations": [
+        {
+          "evidence_id": "EV-008e6a67f6d4aeeda23a",
+          "quote": "Finally, β-fluoride elimination a ﬀorded the gem-difluoroalkene products 12c."
+        }
+      ],
+      "diagnostic": "同时测定胆基三氟硼酸盐残留、苄基二聚体、甲苯、目标苄基化单氟烯烃及氟离子；比较光活化和金属转移条件可区分自由基与极性转移。",
+      "family": "有机三氟硼酸盐碳转移前体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "苄基三氟硼酸钾",
+      "reactive_form": "经单电子氧化形成的苄基自由基，或经金属转移形成的苄基金属物种；与 B 相连的苄基碳 atom 5 为拟成键原子。",
+      "reason": "保留有机硼这一 Seed 邻近特征，但把芳基/烷基硼酸酯转金属化扩展为苄基自由基或其他金属转移。所引文仅支持另一硼酸盐自由基体系中的末端 β-氟消除，不证明本试剂或 Seed 底物可行。",
+      "risks": [
+        "可能发生原硼、质子脱硼或氧化性分解",
+        "苄基自由基可能二聚或夺氢",
+        "氟硼酸盐和释放的氟化物可能改变催化剂或硅试剂物种"
+      ],
+      "route": "平行测试光氧化和非原 Pd 的金属转移入口，要求最终仅接受 CF3 衍生碳与 atom 5 相连且保留一个烯基氟的产物。",
+      "smiles": "[K+].F[B-](F)(F)Cc1ccccc1",
+      "structure_key": "d2ba4020b787a8b0",
+      "success_probability": null
+    },
+    {
+      "activation": "氧化生成甲磺酰自由基，或在适当电化学/光氧化条件下直接转移 SO2Me；具体氧化剂需根据 Seed 底物稳定性筛选。",
+      "atom_indices": [
+        1
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "CS(=O)[O-].[Na+]",
+      "center": "S",
+      "citations": [
+        {
+          "evidence_id": "EV-3624092cf4a449b4ab75",
+          "quote": "workers developed a study for synthesizing a range of gem- difluoroallylsulfones 18c with moderate to good yields through a photo/Ni dual-catalyzed radical defluorinative sulfonylation of α-trifluoromethyl arylalkenes 18b."
+        }
+      ],
+      "diagnostic": "以 LC-MS、硫质量平衡和 19F NMR 区分 C–S 偶联、简单氧化、SO2 挤出及过度脱氟；加入自由基捕获剂并检测甲磺酰捕获物。",
+      "family": "亚磺酸盐磺酰自由基前体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "甲磺酸钠（甲基亚磺酸钠）",
+      "reactive_form": "氧化后形成的甲磺酰自由基 CH3SO2•；硫 atom 1 是与 Seed 碳形成 C–S 键的原子。",
+      "reason": "直接探索 C–S(O)2Me 新键。引文是 α-三氟甲基芳基烯烃与其他磺酰自由基前体的局部类比，不建立本亚磺酸盐、羰基 Seed 或净失去两个氟的适用性。",
+      "risks": [
+        "亚磺酸盐可能被过氧化为磺酸盐",
+        "磺酰自由基可能脱 SO2 转为甲基自由基",
+        "氧化条件可能损伤 Seed 羰基或促进非选择性脱氟"
+      ],
+      "route": "在独立光氧化或电化学条件中生成甲磺酰自由基，使 S atom 1 加到 CF3 衍生中心，再筛选还原/消除条件以获得 C(F)–S(O)2Me 连通性。",
+      "smiles": "CS(=O)[O-].[Na+]",
+      "structure_key": "127aad8ad7de9e0a",
+      "success_probability": null
+    },
+    {
+      "activation": "通过光氧化、过氧化物或金属介导的 S–H 均裂形成苯硫自由基；也可作为中性硫孤对亲核体测试离子型取代。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "Sc1ccccc1",
+      "center": "S",
+      "citations": [
+        {
+          "evidence_id": "EV-04055776926d615e33b8",
+          "quote": "Under iron porphyrin catalysis, thiols and selenols reacted smoothly with 4–1 to afford the corresponding gem -difluorovinyl sulfides and selenides 4–2 in high yields."
+        }
+      ],
+      "diagnostic": "比较自由基氧化条件、温和碱去质子化条件和无活化对照；检测二苯二硫、加氢产物及 C(F)–SPh 产物，以判断硫自由基和硫负离子路线。",
+      "family": "硫醇/硫自由基供体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "苯硫酚",
+      "reactive_form": "苯硫自由基 PhS•、苯硫负离子 PhS− 或中性硫醇；硫 atom 0 为拟成键原子。",
+      "reason": "同时覆盖自由基硫转移和孤对亲核取代两种机制。引文涉及不同的 α-三氟甲基卡宾形式插入体系，因此只是 C–S/C–Se 成键的局部外推。",
+      "risks": [
+        "易空气氧化为二苯二硫",
+        "硫醇和硫负离子可能强烈配位并抑制金属催化剂",
+        "可能发生羰基加成、氢原子转移或产物继续脱氟"
+      ],
+      "route": "分别以 S–H 均裂和去质子化方式激活，不要求沿用 Seed Pd；固定目标为硫 atom 0 与 CF3 衍生烯碳成键并保留一个氟。",
+      "smiles": "[SH]c1ccccc1",
+      "structure_key": "b18c4945d055e0a6",
+      "success_probability": null
+    },
+    {
+      "activation": "可采用温和光氧化形成苯硒自由基，或碱生成苯硒负离子；需严格控制氧和水。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "local_analogy",
+      "canonical_smiles": "[SeH]c1ccccc1",
+      "center": "Se",
+      "citations": [
+        {
+          "evidence_id": "EV-04055776926d615e33b8",
+          "quote": "Under iron porphyrin catalysis, thiols and selenols reacted smoothly with 4–1 to afford the corresponding gem -difluorovinyl sulfides and selenides 4–2 in high yields."
+        }
+      ],
+      "diagnostic": "比较苯硒醇与预形成二苯二硒的行为，定量二硒化物、C(F)–SePh 产物和过度脱氟物；捕获剂敏感性及 Se–H/Se–D 同位素实验可区分自由基与质子转移。",
+      "family": "硒醇/硒自由基供体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "苯硒酚",
+      "reactive_form": "苯硒自由基 PhSe•、苯硒负离子 PhSe− 或中性硒醇；硒 atom 0 为拟成键原子。",
+      "reason": "作为硫的较软、较易氧化同系边界探针，探索 C–Se 键。引文来自不同卡宾插入体系，不能证明与 Seed 羰基、脱两个氟或所需区域选择性兼容。",
+      "risks": [
+        "极易氧化为二苯二硒或更高氧化态物种",
+        "硒物种可能毒害金属催化剂",
+        "Se–H 供氢可能与 C–Se 成键竞争并导致氢脱氟"
+      ],
+      "route": "独立比较自由基 Se 转移与阴离子型 Se 取代，目标连接原子始终是 Se atom 0。",
+      "smiles": "[SeH]c1ccccc1",
+      "structure_key": "3bfd35b3a7b890f1",
+      "success_probability": null
+    },
+    {
+      "activation": "通过光氧化、过氧化物、Mn/Cu 等单电子体系产生磷酰自由基，或以碱促进 P–H 加成；活化模式需分开比较。",
+      "atom_indices": [
+        2
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "CO[PH](=O)OC",
+      "center": "P",
+      "citations": [],
+      "diagnostic": "使用氘代 P–D 类似物追踪氢转移；31P/19F NMR 同时检测 C–P 单氟烯烃、磷酸酯氧化物和氢脱氟产物，并设置无引发剂和自由基捕获对照。",
+      "family": "P–H 磷酰基转移前体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "亚磷酸二甲酯",
+      "reactive_form": "磷中心自由基、磷负离子等效体或中性 P–H 加成体；磷 atom 2 是拟成键原子。",
+      "reason": "提供与 C、S、Se 不同的主族成键中心，检验 C–P 键形成后是否能通过还原-消除停在 C(F)–P(O)(OMe)2 单氟烯烃。",
+      "risks": [
+        "可能发生 P–H 氢原子转移而非 C–P 成键",
+        "碱或水会改变磷试剂形态并促进 Seed 分解",
+        "氧化条件可能把试剂转为不活泼或不同价态的磷物种"
+      ],
+      "route": "分别测试自由基磷酰化和阴离子/极性 P 加成，不依赖原有机硼伙伴；接受标准是 P atom 2 与 CF3 衍生碳直接相连。",
+      "smiles": "COP(=O)(OC)[H]",
+      "structure_key": "586e1196c67c1811",
+      "success_probability": null
+    },
+    {
+      "activation": "可由光氧化还原、氧化剂或金属催化生成叠氮自由基/叠氮转移物；也可测试 Lewis 酸促进的极性叠氮转移。",
+      "atom_indices": [
+        6
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "C[Si](C)(C)N=[N+]=[N-]",
+      "center": "N",
+      "citations": [],
+      "diagnostic": "通过 15N 标记的末端氮确认 atom 6 的连接位置，并检测 TMSF、叠氮自由基捕获物和 C(F)–N3 产物；自由基捕获剂和无光对照用于区分路径。",
+      "family": "叠氮基主族转移试剂",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "三甲基硅基叠氮",
+      "reactive_form": "末端氮参与成键的叠氮转移体或 N3•；远离硅的末端氮 atom 6 为拟与 Seed 碳成键的原子。",
+      "reason": "探索 C–N3 键形成，既覆盖氮自由基又覆盖由 Si–F 形成驱动的极性叠氮转移；它不要求复用 Pd/有机硼循环。",
+      "risks": [
+        "叠氮试剂及有机叠氮产物具有分解和安全风险，需要小尺度热稳定性评估",
+        "可能仅生成 TMSF 和非选择性分解物",
+        "叠氮基可能与金属催化剂或羰基相关中间体发生旁路反应"
+      ],
+      "route": "以 atom 6 为固定连接端筛选自由基和极性活化模式，目标为 CF3 衍生碳上的 C(F)–N3 单氟烯烃。",
+      "smiles": "C[Si](C)(C)N=[N+]=[N-]",
+      "structure_key": "f0b88f6468f852c8",
+      "success_probability": null
+    },
+    {
+      "activation": "TEMPO 本身是持久氮氧自由基；可直接加入或与光/热自由基生成体系配合，不需要额外生成 O 自由基。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "CC1(C)CCCC(C)(C)N1[O]",
+      "center": "O",
+      "citations": [],
+      "diagnostic": "定量 TEMPO 加合物、羟胺化 TEMPO、底物转化和所有含氟产物；比较低转化率下的化学计量加合与单纯反应抑制，避免把抑制本身当作自由基证据。",
+      "family": "持久氮氧自由基/氧转移边界探针",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "2,2,6,6-四甲基哌啶-1-氧自由基（TEMPO）",
+      "reactive_form": "氧中心持久自由基；氧 atom 0 是拟与 Seed 碳成键的原子。",
+      "reason": "既是 C–O 键形成的边界候选，也是捕获 CF3 衍生碳自由基的机制探针。只有分离或正交确认固定 C(F)–O–TEMPO 连通性才视为成键结果。",
+      "risks": [
+        "可能氧化或抑制催化剂而不形成目标加合物",
+        "TEMPO 加合物可能发生 β-裂解或继续脱氟",
+        "高浓度持久自由基可能改变链长和整体氟质量平衡"
+      ],
+      "route": "直接捕获反应过程中可能形成的 Seed 碳自由基；目标是 O atom 0 与 CF3 衍生碳成键并最终保留一个氟，而非仅观察反应被抑制。",
+      "smiles": "[O]N1C(C)(C)CCCC1(C)C",
+      "structure_key": "0dde3cbcb235c563",
+      "success_probability": null
+    },
+    {
+      "activation": "可由 Lewis 酸、电亲试剂、光氧化或金属催化激活烯丙基硅烷；氟化物生成可能同时促进 Si–C 裂解。",
+      "atom_indices": [
+        0
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "C=C[Si](C)(C)C",
+      "center": "C",
+      "citations": [],
+      "diagnostic": "用末端 13C 标记确认 atom 0 的连接位置，检测 TMSF、烯丙基异构体和羰基烯丙基化副产物；比较有无氟亲和 Lewis 酸及自由基捕获剂的结果。",
+      "family": "中性 π/σ 烯丙基硅烷供体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "烯丙基三甲基硅烷",
+      "reactive_form": "由烯丙基 π 系统和 C–Si σ 键共同稳定的亲核烯丙基转移体；远离 Si 的末端烯碳 atom 0 为拟成键原子。",
+      "reason": "覆盖中性 π 亲核体和硅辅助 σ 键转移，可通过形成强 Si–F 键推动烯丙基转移；这是对 Seed 反应中心极化能力的边界检验。",
+      "risks": [
+        "可能优先对羰基发生 Sakurai 型烯丙基化",
+        "区域选择性可能给出与 atom 0 不同的连接或烯丙基重排物",
+        "氟化物可能使试剂快速脱硅并引发复杂聚合或分解"
+      ],
+      "route": "以独立 Lewis 酸或光/金属活化模式将烯丙基末端 atom 0 转移到 CF3 衍生碳，并筛选随后失氟形成单氟烯烃的条件。",
+      "smiles": "C=C[Si](C)(C)C",
+      "structure_key": "7f278f5db1892723",
+      "success_probability": null
+    },
+    {
+      "activation": "通常以预形成有机锌溶液直接转金属化，或配合 Cu/Ni 等催化剂；需严格无水无氧，并避免默认 Pd168 适用。",
+      "atom_indices": [
+        2
+      ],
+      "basis": "model_hypothesis",
+      "canonical_smiles": "[Br][Zn][CH2]c1ccccc1",
+      "center": "C",
+      "citations": [],
+      "diagnostic": "测定有机锌剩余量、甲苯、联苄、羰基加成醇和目标苄基化单氟烯烃；比较无催化剂、Cu/Ni 催化及低温条件以区分直接加成和催化转移。",
+      "family": "有机锌金属转移前体",
+      "identity_status": "SMILES validated; name association requires review",
+      "lens": "radical_other",
+      "name": "溴化苄基锌",
+      "reactive_form": "苄基锌、转金属化后的苄基金属物种或单电子过程产生的苄基自由基；与 Zn 相连的苄基碳 atom 2 为拟成键原子。",
+      "reason": "提供不含硼的金属转移入口，检验 Seed 的 C–C 成键是否可由较极性的苄基供体实现，同时把直接羰基加成作为明确竞争路径。",
+      "risks": [
+        "强烈水氧敏感，实际物种可能聚集或发生 Schlenk 型平衡",
+        "可能优先对羰基 1,2-加成",
+        "转金属化或单电子过程可能生成联苄、甲苯及过度脱氟产物"
+      ],
+      "route": "在匹配的无水体系中直接测试或经 Cu/Ni 转移 atom 2；不要求原有机硼伙伴或原 Pd 循环，目标仍为 CF3 衍生碳与苄基碳的固定连接。",
+      "smiles": "Br[Zn]Cc1ccccc1",
+      "structure_key": "8125e5fbd7a0556e",
+      "success_probability": null
+    }
+  ],
+  "input_digest": "b53e598631a4c45a181b1b516db5984f5f3bbe15d8bf2697bb4aab85aca517ea",
+  "rejected": [
+    {
+      "candidate": {
+        "activation": "可由 Lewis 酸、氟化物、过渡金属或光化学过程活化 Si–H；应分别评估氢原子转移、氢化物转移和金属氢化物路径。",
+        "atom_indices": [
+          0
+        ],
+        "basis": "local_analogy",
+        "center": "H",
+        "citations": [
+          {
+            "evidence_id": "EV-002d2350e005423d3c1c",
+            "quote": "Commercially available 1,1,3,3,3 -pentafluoropropene (29) is treated with diphenyl silane in the presence of catalytic amounts of 18 to yield tetrafluoro propenes 28b, 28c and 28d (scheme 4.2)."
+          }
+        ],
+        "diagnostic": "使用 Et3SiD 平行实验定位氢/氘进入位置，并随时间测量单氟烯烃、完全脱氟烯烃、羰基还原物和硅氟化物；产物复投可判断后续氢脱氟。",
+        "family": "氢硅烷 σ 键供体",
+        "lens": "radical_other",
+        "name": "三乙基硅烷",
+        "reactive_form": "Si–H 活化后提供的氢原子、氢化物或金属氢物等效体；显式氢 atom 0 是拟与 Seed 碳成键的原子。",
+        "reason": "测试 C–H 终止是否能把 CF3 衍生中心转为保留一个氟的烯烃。引文仅证明另一多氟烯烃可在特定钛/二苯基硅烷体系中氢脱氟，不证明 Seed 选择性。",
+        "risks": [
+          "可能直接还原羰基或使烯烃氢化",
+          "连续氢脱氟可能消耗剩余烯基氟",
+          "硅烷脱氢偶联、自由基链和氟硅烷形成会改变有效还原性"
+        ],
+        "route": "在多个独立活化模式下转移显式 H atom 0，以 C(F)–H 单氟烯烃为固定目标；不把形成完全脱氟烯烃计为目标成功。",
+        "smiles": "[H][Si](CC)(CC)CC"
+      },
+      "reason": "Reactive atom index/element mismatch"
+    },
+    {
+      "candidate": {
+        "activation": "通常需 Cu、Ni、自由基或碱介导的 B–H/烯烃活化；具体体系应围绕 C–B 成键而非仅氢硼化羰基来筛选。",
+        "atom_indices": [
+          1
+        ],
+        "basis": "local_analogy",
+        "center": "B",
+        "citations": [
+          {
+            "evidence_id": "EV-0f095e98039eeecb619f",
+            "quote": "here, we report the ﬁrst example, to the best of our knowledge, of tertiary/secondary boronate/silane construction through regiore-versed copper-catalyzed protoboration/silylation reactions of gem-diﬂuoroallenes (Figure 1C)."
+          }
+        ],
+        "diagnostic": "用 11B NMR、19F NMR 和氧化后衍生化共同确认 C–B 键；同时检测羰基还原、普通氢硼化和完全脱氟。用 DBpin 可判定 B–H 中氢的去向。",
+        "family": "硼烷 σ 键转移试剂",
+        "lens": "radical_other",
+        "name": "频哪醇硼烷",
+        "reactive_form": "经金属硼基、硼自由基或极性活化形成的 Bpin 转移体；硼 atom 1 为拟与 Seed 碳成键的原子。",
+        "reason": "探索在 CF3 衍生烯碳形成 C–B 键的硼化终点，而非把碳从有机硼试剂转移出去。引文只支持 gem-二氟联烯的区域反转原硼化/原硅化，属于底物和产物类型均不同的外推。",
+        "risks": [
+          "HBpin 可能优先还原或氢硼化羰基",
+          "C–B 产物可能在碱、水或氧化性分析中分解",
+          "氟化物可能形成强 B–F 键并消耗试剂或改变催化剂"
+        ],
+        "route": "采用独立硼化催化体系，使 B atom 1 与目标碳成键，并通过后续氟消除或消除-捕获得到 C(F)–Bpin 烯烃。",
+        "smiles": "[H]B1OC(C)(C)C(C)(C)O1"
+      },
+      "reason": "Citation is not an exact supplied quotation"
+    }
+  ],
+  "uncovered": [
+    "Seed 三氟乙基羰基底物的确切结构尚未操作确认，因此所有候选都需要在最终选定模型上重新核对区域选择性、原子映射和物料平衡。",
+    "没有建立 Seed 底物、拟议 gem-二氟烯酮或各候选的氧化还原电位；光催化剂、牺牲氧化剂/还原剂和波长不能由现有证据直接指定。",
+    "面板未覆盖需要原位生成且无法作为明确分子提交的金属氢化物、金属硼基、金属硫属基或低价金属中间体。",
+    "未系统覆盖卤原子、氰基、羰基自由基、氨基自由基阳离子及碳烯转移；这些类别可能需要不同的安全和分析设计。",
+    "各新键类型对 Seed 单氟停止点的兼容性未知；必须同时测量完全脱氟、羰基还原/加成、异构化、分解及氟质量平衡。",
+    "E/Z 选择性、产物复投稳定性、工作up损失和分析响应因子尚未确定，不能仅用终点分离收率比较候选。",
+    "所列文献证据均为局部类比，未证明这些确切分子在 Pd168/KHCO3/DCE 条件或任何替代条件中成功。"
+  ]
+}
