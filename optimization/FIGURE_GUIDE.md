@@ -1,18 +1,18 @@
 # Bayesian optimization figure legends and interpretation
 
-The three supporting figures below accompany main Figure 5. They separate selected analytical responses, posterior estimates, uncertainty diagnostics and the retrospective sulfur benchmark. Repository Figs. BO1–BO3 are stable repository figure names. Each page link opens the supplied artwork; vector PDF and SVG versions are available beside each PNG.
+The three supporting figures below accompany main Figure 5. They separate selected analytical responses, posterior estimates, uncertainty diagnostics and the retrospective sulfur benchmark. Repository Figs. BO1–BO3 correspond to Supplementary Figures 7–9, respectively, and remain stable repository figure names. Each page link opens the supplied artwork; vector PDF and SVG versions are available beside each PNG.
 
 The N–H and O–H trajectories are computational reconstructions using 60 selected responses from each measured 96-condition grid. S–H compares selection policies on one fixed measured grid. MS and UV responses retain their original units; they do not provide comparable percentage yields across systems.
 
 | Figure | Artwork | Numerical records |
 |---|---|---|
-| Repository Fig. BO1 Selected responses, posterior landscapes and uncertainty | [PNG](figures/figures/SI_BO1_posterior_landscapes.png), [PDF](figures/figures/SI_BO1_posterior_landscapes.pdf), [SVG](figures/figures/SI_BO1_posterior_landscapes.svg) | [Posteriors by round](figures/source_data/NH_OH_posteriors_by_round.csv); [selected conditions](selections/); [condition identities](figures/source_data/condition_key.csv) |
-| Repository Fig. BO2 Latent uncertainty and stopping diagnostics | [PNG](figures/figures/SI_BO2_uncertainty_stopping.png), [PDF](figures/figures/SI_BO2_uncertainty_stopping.pdf), [SVG](figures/figures/SI_BO2_uncertainty_stopping.svg) | [Round diagnostics](figures/source_data/NH_OH_round_diagnostics.csv); [pool-specific stopping checks](selections/); [stopping protocol](selections/stopping_protocol.json) |
-| Repository Fig. BO3 Measured sulfur landscape and replay diagnostics | [PNG](figures/figures/SI_BO3_SH_replay_diagnostics.png), [PDF](figures/figures/SI_BO3_SH_replay_diagnostics.pdf), [SVG](figures/figures/SI_BO3_SH_replay_diagnostics.svg) | [Measured grid](figures/source_data/SH_PL40_full_measured_grid_seed5010.csv); [paired replay](figures/source_data/SH_PL40_paired_replay_seed5010.csv); [100 paired budgets](figures/source_data/SH_100_paired_budgets.csv); [diagnostic summaries](figures/source_data/SH_audit_diagnostics.json) |
+| Supplementary Fig. 7 / Repository Fig. BO1 Selected responses, posterior landscapes and uncertainty | [PNG](figures/figures/SI_BO1_posterior_landscapes.png), [PDF](figures/figures/SI_BO1_posterior_landscapes.pdf), [SVG](figures/figures/SI_BO1_posterior_landscapes.svg) | [Posteriors by round](figures/source_data/NH_OH_posteriors_by_round.csv); [selected conditions](selections/); [condition identities](figures/source_data/condition_key.csv) |
+| Supplementary Fig. 8 / Repository Fig. BO2 Latent uncertainty and stopping diagnostics | [PNG](figures/figures/SI_BO2_uncertainty_stopping.png), [PDF](figures/figures/SI_BO2_uncertainty_stopping.pdf), [SVG](figures/figures/SI_BO2_uncertainty_stopping.svg) | [Round diagnostics](figures/source_data/NH_OH_round_diagnostics.csv); [pool-specific stopping checks](selections/); [stopping protocol](selections/stopping_protocol.json) |
+| Supplementary Fig. 9 / Repository Fig. BO3 Measured sulfur landscape and replay diagnostics | [PNG](figures/figures/SI_BO3_SH_replay_diagnostics.png), [PDF](figures/figures/SI_BO3_SH_replay_diagnostics.pdf), [SVG](figures/figures/SI_BO3_SH_replay_diagnostics.svg) | [Measured grid](figures/source_data/SH_PL40_full_measured_grid_seed5010.csv); [paired replay](figures/source_data/SH_PL40_paired_replay_seed5010.csv); [100 paired budgets](figures/source_data/SH_100_paired_budgets.csv); [diagnostic summaries](figures/source_data/SH_audit_diagnostics.json) |
 
 ## BO1
 
-Selected responses, posterior landscapes and uncertainty across three reconstructed Bayesian trajectories. Rows correspond to N–H with Ag2SO4/PPh3 (a–c), O–H with [Cu(MeCN)4]PF6 (d–f) and O–H with NiCl2·DME (g–i).
+**Supplementary Figure 7 / Repository Figure BO1.** Selected responses, posterior landscapes and uncertainty across three reconstructed Bayesian trajectories. Rows correspond to N–H with Ag2SO4/PPh3 (a–c), O–H with [Cu(MeCN)4]PF6 (d–f) and O–H with NiCl2·DME (g–i).
 
 a,d,g, Archived experimental responses for the 60 conditions selected in five rounds of 12; grey cells denote the other 36 conditions, whose recorded responses were withheld from the illustrated trajectory. The original screens contain measurements for all 96 combinations; selected membership describes the computational replay.
 
@@ -22,7 +22,7 @@ c,f,i, Latent posterior standard deviation after round 5; numerals identify the 
 
 ## BO2
 
-Latent uncertainty and stopping diagnostics for the archived N–H and O–H selections. Rows correspond to N–H/Ag2SO4/PPh3 (NH_PL36, seed 6000; a,b), O–H/[Cu(MeCN)4]PF6 (OH_PL37, seed 7000; c,d), and O–H/NiCl2·DME (OH_PL38, seed 8000; e,f). Each round reveals 12 selected responses, up to a budget of 60 conditions.
+**Supplementary Figure 8 / Repository Figure BO2.** Latent uncertainty and stopping diagnostics for the archived N–H and O–H selections. Rows correspond to N–H/Ag2SO4/PPh3 (NH_PL36, seed 6000; a,b), O–H/[Cu(MeCN)4]PF6 (OH_PL37, seed 7000; c,d), and O–H/NiCl2·DME (OH_PL38, seed 8000; e,f). Each round reveals 12 selected responses, up to a budget of 60 conditions.
 
 Left, mean latent posterior standard deviation across the same 96 candidate identities (solid purple) and across the currently unselected candidates (dashed grey). The latter subset changes after each round; its means do not describe a fixed population. Posterior uncertainty need not decrease monotonically.
 
@@ -32,7 +32,7 @@ The tolerance equals 0.10 times the first-batch response population standard dev
 
 ## BO3
 
-Measured sulfur response landscape and retrospective replay diagnostics.
+**Supplementary Figure 9 / Repository Figure BO3.** Measured sulfur response landscape and retrospective replay diagnostics.
 
 a, The complete 96-condition SH_PL40 UV-response matrix, with the original twelve base/additive entries and eight solvent identities. Digits give the Bayesian selection round in the illustrative seed-5010 replay; the gold outline marks the highest recorded response, at CsOH/2 in DCE. CsOH/2 is retained as an unresolved source label. Each cell is a discrete measured condition, and no intermediate chemical conditions are implied.
 

@@ -1,4 +1,5 @@
 -r requirements-replay.txt
+# Figure 3 --render also requires the system program rsvg-convert (librsvg).
 matplotlib==3.10.9
 numpy==2.5.4
 Pillow==13.0.0

@@ -37,7 +37,7 @@ The [108 experimental-input associations](experiment_mapping/README.md) distingu
 
 ## Structure, network and novelty guides
 
-[Input structure atlas C1–C9](structure_atlas.md) · [Evidence network G1–G9](../code/docs/evidence_network.md) · [Novelty assessment and Figure N1](novelty_assessment.md) · [Model settings, original prompts and working constraints](../code/docs/model_workflow.md) · [Model donors and experimental record interpretation](experiment_mapping/model_donors.md)
+[Input structure atlas C1–C9](structure_atlas.md) · [Evidence network G1–G9](../knowledge_graph/) · [Novelty assessment, Figure N1 and Supplementary Figure 5](novelty_assessment.md) · [Model settings, original prompts and working constraints](../code/docs/model_workflow.md) · [Model donors and experimental record interpretation](experiment_mapping/model_donors.md)
 
 ## Downloadable scientific tables
 

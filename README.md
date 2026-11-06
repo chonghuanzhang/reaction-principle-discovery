@@ -12,14 +12,15 @@ The article presents the scientific argument. The Supplementary Information (SI)
 |---|---|
 | Which publications informed the study? | [Literature catalog and bibliography](literature/) — 370 source records and 403 online references |
 | What did those publications actually report? | [Chemical evidence](evidence/) — source passages, conditions, endpoints and limits of applying them to this target |
+| How are evidence, principles and candidate families connected? | [Knowledge graph · Figures G1–G9](knowledge_graph/) — all network views, Supplementary Figures 1–4, linked evidence, graph data and vector artwork |
 | Why were particular molecules recommended? | [100 recommended molecules](candidates/) — structures, chemical rationale, proposed pathways, references and novelty assessments |
 | How do the recommendations relate to experimental inputs? | [Candidate–experiment associations · Table R1](candidates/experiment_mapping/) |
-| Which products were proposed, and how was novelty assessed? | [Product options · Table R2](candidates/product_options/) |
+| Which products were proposed, and how was novelty assessed? | [Product options · Table R2](candidates/product_options/) and [NP/NR distributions · Supplementary Figure 5](candidates/novelty_assessment.md) |
 | Which bases and solvents were considered? | [Condition library](experiments/condition_library/) |
 | What responses were measured and how were conditions selected? | [Reaction screens and Bayesian selection](optimization/), [paired benchmark · Table R3](experiments/bo_benchmark/) and [selected responses · Table R4](experiments/selected_responses/) |
 | How can I run the computational workflow? | [Code and installation instructions](code/) |
 
-No programming is needed to read the catalogs. Each molecule and literature source has its own page; CSV and JSON files support further analysis. [Reading the article, SI and repository together](docs/reading_guide.md) explains the identifiers and cross-references.
+No programming is needed to read the catalogs. Each molecule and literature source has its own page; CSV and JSON files support further analysis. [Reading the article, SI and repository together](docs/reading_guide.md) explains the identifiers and cross-references, including the correspondence between Supplementary Figures 1–9 and repository artwork.
 
 ## From chemical evidence to candidate reactions
 

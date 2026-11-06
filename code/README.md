@@ -15,7 +15,7 @@ The candidate-generation inputs contain **342 sources and 3,694 downstream evide
 | How are source identities merged without changing earlier records? | `literature/merge_catalog.py` and `engine/pipeline/evidence_applicability.py`. |
 | How do candidate and experimental structures correspond? | `mapping/build_mapping.py`; frozen structures and workbook-row occurrences in `data/structures/`; numerical reference records in `data/mapping/`. |
 | How were NP/NR labels revised? | `novelty/apply_review.py`, baseline and reviewed tables in `data/novelty/`, and 202 stored PubChem responses. |
-| How are Figures 2–4 drawn? | `figures/` contains vector drawing functions; `data/figures/` holds centre counts; `data/graph/` contains network records and Figure 3 geometry. |
+| How are Figures 2–4 drawn? | `figures/` contains vector drawing functions; `data/figures/` holds centre counts; [`knowledge_graph/`](../knowledge_graph/) contains network records, Figures G1–G9 and Figure 3 geometry. |
 | How is Figure 5 reproduced? | The separate, complete [optimization](../optimization/) subsystem. |
 
 `engine/` contains the general pipeline modules, schemas, configuration files and prompt templates. `candidate_workflow/engine/` is the exact source snapshot bound to the saved candidate calls. This second copy is needed because changing a bound source file would change the replay digest. JSON data retain the original scientific fields, identifiers, wording and dates; reader tables elsewhere offer a simpler view.
@@ -46,12 +46,15 @@ The two test suites use the same Python package name and should run separately:
 
 For vector figures, install the additional dependencies and choose a separate output directory:
 
+Figure 3 PDF/PNG export also requires `rsvg-convert` from librsvg. Install it with `brew install librsvg` on macOS or `sudo apt-get install librsvg2-bin` on Debian/Ubuntu. This renderer preserves the dashed conditional-application edges and their transparency in the SVG; PyMuPDF then rasterizes the exported PDF.
+
 ```bash
 python -m pip install -r requirements-figures.txt
 python scripts/reproduce_figures2_4.py --output-dir /tmp/reaction-figures24
 python scripts/reproduce_figure3.py --output-dir /tmp/reaction-figure3 --render
+python -m unittest discover -s tests -v
 ```
 
-Figures 2 and 4 are rebuilt from chemical structures and drawing functions. The PDF check requires one page and no embedded raster image. Figure 3 is reconstructed from the complete network SVG and compared with the supplied SVG tree before export. DejaVu Sans is the default font for Figures 2 and 4; `--font-file` accepts another installed TTF. Typeface and software versions can change artwork bytes or text placement.
+Figures 2 and 4 are rebuilt from chemical structures and drawing functions. The PDF check requires one page and no embedded raster image. Figure 3 is reconstructed from the complete network SVG and compared with the supplied SVG tree before export. Its PDF retains 23 dashed conditional-application paths and one dashed legend path; the rendering tests also check evidence-edge transparency. DejaVu Sans is the default font for Figures 2 and 4; `--font-file` accepts another installed TTF. Typeface and software versions can change artwork bytes or text placement.
 
 Replaying saved model outputs validates their recorded inputs and deterministic admission rules. It does not generate a new answer or test the reliability of a new model call. A new live run requires reviewed source inputs, a configured service and credentials, and may return different scientific hypotheses. See [METHODS.md](METHODS.md) for the assumptions and counting units.

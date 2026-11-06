@@ -8,7 +8,7 @@ The repository separates representation checks, source-evidence interpretation, 
 | --- | --- | --- |
 | [100 molecule audit](../../candidates/README.md) | Completed | Graph parseability and uniqueness, not synthetic success |
 | [Four RP cards / 43 attributed passages](../../evidence/README.md) | Completed | Source-linked chemical interpretation with applicability limits |
-| [100 candidate-to-RP associations](evidence_network.md) | Completed | Transparent explanatory mapping, not historical generator replacement |
+| [100 candidate-to-RP associations](../../knowledge_graph/) | Completed | Transparent explanatory mapping, not historical generator replacement |
 | [Eight local evaluator integrity tests](../evaluation/local_rules/test_conditional_rules.py) | Completed and runnable | Implementation consistency on development cases |
 | [SH 100 paired runs](../../optimization/METHODS.md) | Completed | Search-budget differences on one measured response surface |
 | [NH/OH selected trajectories](../../optimization/README.md) | Descriptive analysis | 180 selected responses; no whole-pool optimum or blind-test claim |

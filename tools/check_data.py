@@ -74,12 +74,39 @@ def main():
         'NH_PL36': 60, 'OH_PL37': 60, 'OH_PL38': 60}
     assert len({(row['pool_id'], row['base'], row['solvent']) for row in selected}) == 180
 
+    graph = json.loads((ROOT/'knowledge_graph/data/network.json').read_text(encoding='utf-8'))
+    graph_ids = {node['id'] for node in graph['nodes']}
+    assert len(graph_ids) == len(graph['nodes']) == 133
+    assert Counter(node['kind'] for node in graph['nodes']) == {
+        'evidence': 17, 'principle': 4, 'family': 12, 'candidate': 100}
+    assert {node['id'] for node in graph['nodes'] if node['kind'] == 'candidate'} == molecule_ids
+    assert len({edge['id'] for edge in graph['edges']}) == len(graph['edges']) == 142
+    assert Counter(edge['kind'] for edge in graph['edges']) == {
+        'source_to_principle': 19, 'principle_to_family': 23, 'family_membership': 100}
+    assert all(edge['source'] in graph_ids and edge['target'] in graph_ids for edge in graph['edges'])
+    assert set(graph['source_register']) == source_ids
+    citations = graph['candidate_citation_links']
+    assert len(citations) == 53
+    assert len({link['candidate_id'] for link in citations}) == 46
+    assert all(link['candidate_id'] in molecule_ids and link['catalog_id'] in source_ids for link in citations)
+    tiers = json.loads((ROOT/'knowledge_graph/data/tier_summary.json').read_text(encoding='utf-8'))
+    assert {tier['tier']: tier['corpus_source_count'] for tier in tiers} == {1: 139, 2: 101, 3: 88, 4: 42}
+    assert all(len(tier['corpus_source_ids']) == tier['corpus_source_count'] for tier in tiers)
+    tier_source_ids = [source_id for tier in tiers for source_id in tier['corpus_source_ids']]
+    assert len(tier_source_ids) == len(set(tier_source_ids)) == len(source_ids)
+    assert set(tier_source_ids) == source_ids
+    for number in range(1, 10):
+        assert (ROOT/f'knowledge_graph/figures/G{number}.png').is_file()
+    for number in range(1, 5):
+        assert (ROOT/f'knowledge_graph/figures/RP{number}_focus.png').is_file()
+    assert (ROOT/'candidates/figures/N1_novelty_distributions.png').is_file()
+
     # Check human-facing pages and illustrations; internal code fixtures may
     # intentionally contain example paths that are not repository resources.
     pages = list(ROOT.glob('*.md'))
-    for folder in ['docs', 'literature', 'evidence', 'candidates', 'experiments', 'figures']:
+    for folder in ['docs', 'literature', 'evidence', 'candidates', 'experiments', 'figures', 'knowledge_graph']:
         pages.extend((ROOT/folder).rglob('*.md'))
-    for name in ['code/README.md', 'code/METHODS.md', 'optimization/README.md', 'optimization/METHODS.md']:
+    for name in ['code/README.md', 'code/METHODS.md', 'optimization/README.md', 'optimization/METHODS.md', 'optimization/FIGURE_GUIDE.md']:
         pages.append(ROOT/name)
     checked = 0
     for path in pages:
@@ -102,6 +129,8 @@ def main():
         'recommended_molecules': 100, 'hypotheses': 115, 'product_options': 124,
         'experimental_pairs': 108, 'condition_components': 20,
         'paired_benchmark_seeds': 100, 'selected_responses': 180,
+        'knowledge_graph_nodes': 133, 'knowledge_graph_edges': 142,
+        'knowledge_graph_views': 9, 'si_principle_focus_views': 4,
         'local_links_checked': checked, 'status': 'PASS'}, indent=2))
 
 

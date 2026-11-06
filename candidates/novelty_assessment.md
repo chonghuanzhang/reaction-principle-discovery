@@ -24,11 +24,11 @@ The assessment contains 202 saved PubChem PUG REST same-connectivity responses d
 
 [202 registry responses](../code/data/novelty/baseline/pubchem_identity_results.json) · [Novelty-reference records](../code/data/novelty/reviewed/novelty_sources.json) · [Definitions and complete numerical summaries](../code/data/mapping/novelty_summary.json) · [Reapply explicit review decisions](../code/README.md)
 
-## Repository Figure N1
+## Repository Figure N1 · Supplementary Figure 5
 
-![N1 novelty category distributions](figures/N1.png)
+![N1 product and reaction novelty category distributions](figures/N1_novelty_distributions.png)
 
-**Repository Figure N1. Product-connectivity novelty (NP) categories for candidate molecules and recorded experimental combinations.** Counts retain mixed, unresolved and not-applicable categories, including zero-count categories. The candidate denominator is 100 molecules; the experimental denominator is 108 ordered electrophile–donor pairs. Candidate labels are sets of all endpoint labels. The bounded search and different populations preclude interpreting these marginal distributions as novelty retention or improvement caused by human evaluation.
+**Repository Figure N1 / Supplementary Figure 5. Product-connectivity novelty (NP; upper row) and reaction-precedent novelty (NR; lower row) for candidate molecules and recorded experimental combinations.** Mixed, unresolved and not-applicable categories remain explicit. The candidate denominator is 100 molecules; the experimental denominator is 108 ordered electrophile–donor pairs. Candidate labels are sets of all endpoint labels. The bounded search and different populations preclude interpreting these marginal distributions as novelty retention or improvement caused by human evaluation.
 
 | Unit | NP distribution | NR distribution |
 | --- | --- | --- |
@@ -39,7 +39,7 @@ The assessment contains 202 saved PubChem PUG REST same-connectivity responses d
 
 The 124 candidate product-option records contain 96 distinct deposited SMILES. The 108 experimental pairs contain 105 applicable target hypotheses and 107 proposed product structures. Molecule centre tags are nonexclusive. At hypothesis level, C, N, O, S, P and Se contribute 38, 19, 18, 21, 18 and one records, with NP3 counts of 0, 3, 4, 8, 5 and 0; phosphorus also contains three mixed-NP hypotheses and one unresolved hypothesis. Full centre-specific and route-specific distributions remain in the [numerical summary](../code/data/mapping/novelty_summary.json). These counts describe the proposal collection and available precedent.
 
-[Vector chart of NP and NR category distributions](figures/N1_novelty_distributions.svg) uses the same recorded summary and additionally shows reaction-precedent (NR) categories.
+[Complete NP/NR chart: PNG](figures/N1_novelty_distributions.png) · [SVG](figures/N1_novelty_distributions.svg) · [NP-only companion view](figures/N1.png). Both chart views use the same recorded numerical summary; the complete chart is Supplementary Figure 5.
 
 ## Endpoint-specific exceptions
 
