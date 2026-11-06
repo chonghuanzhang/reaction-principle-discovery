@@ -1,6 +1,8 @@
 # Candidate associations with 108 experimental inputs
 
-The **108 rows** describe substrate–partner combinations. They are distinct from the **100 recommended molecules** and the author’s final count of **100 experimental donor molecules**. A substrate paired with different donors, or the same donor paired with different substrates, creates separate input combinations.
+The **108 rows** describe ordered electrophile–donor combinations containing **102 distinct archived donor structures**. They are distinct from the **100 recommended molecules** and the author’s final count of **100 experimental donor molecules**. A substrate paired with different donors, or the same donor paired with different substrates, creates separate input combinations.
+
+Researchers considered structural relationships, commercial accessibility and NP/NR classifications before finalizing the experimental reagent list. Final choices used researcher judgment without a fixed cutoff or weighted total. The [reagent-selection guide and Figure 4d](../reagent_selection.md) describe this overall process. The associations below record structural relationships; they do not independently document a specific substitution decision. Actual-input NP/NR refers to the recorded donor, electrophile and proposed endpoint, rather than being inherited through a candidate association.
 
 Primary relations are mutually exclusive: **3 exact molecular matches, 101 structural/family analogues and 4 unmatched inputs**. Three additional reactive-form links are secondary associations. Multiple candidate links within one pair must not be counted as additional experiments.
 

@@ -30,6 +30,12 @@ The literal candidate records include Chinese scientific explanations where that
 
 The final collection contains 100 molecules. Its saved generation calls, identity review and released collection remain available in `candidate_workflow/`. Source-linked [transfer-scope examples](data/transfer_scope_examples.json) separately explain the C–C, C–N and C–O connectivity and condition boundaries; these chemical interpretations do not alter the saved model inputs or scores.
 
+## Candidate-to-reagent selection
+
+The 100 AI-generated candidates provided a starting point for selecting experimental donors and proposed bond-forming pathways. Before the experimental list was finalized, researchers jointly considered structural relationships, commercial accessibility and NP/NR classifications. Proposed molecules and related analogues were considered. Structural relationships were interpreted with reference to the intended bond-forming atom and donor role, while retaining differences in substitution, ring system and precursor form; donor-family membership was not treated as equivalent reactivity. Commercial accessibility was considered as a practical implementation factor. Researchers integrated these considerations without a uniform numerical cutoff or weighting scheme.
+
+NP and NR describe proposed-product connectivity and reaction precedents, respectively. They were neither added nor averaged and were not interpreted as probabilities of reaction success. For candidates and experimental inputs with different structures, reported NP/NR classifications refer to the actual donor, electrophile and corresponding proposed product endpoint, rather than being inherited through structural similarity. Alternative sites and endpoints retain their separate classifications; mixed and unresolved labels are not replaced by the highest category. The [reader guide and Figure 4d](../candidates/reagent_selection.md) connect the overall selection process to the structural association records.
+
 ## Molecular correspondence to experimental input records
 
 `data/structures/actual_source_rows.json` contains 2,114 workbook occurrences. The extraction resolves these to 1,066 source-row groups without structure conflicts, and then 108 distinct ordered electrophile–donor pairs. These pairs contain 102 distinct recorded donor structures and five electrophiles. These are structure-record units rather than a replacement definition of the final 100-reagent study population.
@@ -38,7 +44,7 @@ The final collection contains 100 molecules. Its saved generation calls, identit
 
 Structural analogues preserve an explicit local donor-family relationship and reacting-centre compatibility. They use no quantitative similarity threshold and do not require a conserved scaffold. The program retains earlier family associations while distinguishing these broad analogies from an exact molecular or pure protonation-state match. AP066 retains its distinct phenolic-O and alcohol-O product branches; an endpoint must not be silently changed to improve the correspondence. AP002, AP045, AP058 and AP105 remain unmatched under the stated policy.
 
-The correspondence is retrospective structural interpretation. It does not recover an original procurement, replacement or selection event. The source records do not supply item-level contemporaneous inventory, toxicity, cost, delivery-time or decision-date evidence. `scripts/reproduce_mapping.py` recomputes nine saved mapping and summary tables and requires byte equality. It does not infer a causal effect of human evaluation from marginal novelty distributions.
+The correspondence records structural associations, including exact molecular matches, reactive-form relationships, donor-family relationships and unmatched inputs. A structural relationship alone is not documentation of a specific human substitution decision. Item-level contemporaneous inventory, toxicity, cost, delivery-time, procurement and decision-date records are not supplied. `scripts/reproduce_mapping.py` recomputes nine saved mapping and summary tables and requires byte equality. The differing populations and proposed endpoints preclude inferring novelty retention, improvement or a causal effect of researcher judgment from marginal novelty distributions.
 
 ## NP/NR classifications
 
@@ -50,7 +56,9 @@ Unresolved labels remain unresolved. Candidate 035 retains protonation states at
 
 ## Figure calculations
 
-Figure 2 uses the supplied generic structural relationships for RP1–RP4. Figure 4 reads the frozen centre counts and candidate structures. RDKit draws vector molecular graphs, and the Matplotlib/PyMuPDF compositor retains vector structures in both PDF and SVG. No stereochemistry is inferred beyond the source connectivity.
+Figure 2 uses the supplied generic structural relationships for RP1–RP4. RDKit draws vector molecular graphs, and the Matplotlib/PyMuPDF compositor retains vector structures in PDF and SVG. No stereochemistry is inferred beyond the source connectivity.
+
+The current Figure 4 is reproduced by deterministic Pillow composition of deposited artwork. Its [PNG master](../figures/main/Figure_4.png) combines the unchanged pixels of [panels a–c](../figures/source/Figure_4_panels_abc.png) with the [candidate-to-reagent selection scheme in panel d](../figures/source/Figure_4d_candidate_selection.png). The [composition metadata](../figures/source/Figure_4_composition.json) specify source checksums, dimensions, placement, resampling and resolution. `scripts/reproduce_figures2_4.py` writes Figure 4 PNG, JPEG and PDF outputs and checks the reconstructed pixels against the deposited PNG. The PDF contains raster artwork; the script does not regenerate Figure 4 as vector chemical drawings. The complete NP/NR distributions are retained separately as [Repository Figure N1 / Supplementary Figure 5](../candidates/novelty_assessment.md).
 
 Figure 3 is a projection of the frozen full-network artwork in [`knowledge_graph/figures/`](../knowledge_graph/figures/). Its reconstruction removes 33 specified presentation groups and applies the supplied crop; surviving geometry, source tags, headings and legend are checked against `Figure_3.svg` as a parsed SVG tree. The accompanying [`network.json`](../knowledge_graph/data/network.json) and [tier summary](../knowledge_graph/data/tier_summary.json) retain the full graph records. This is a reproducible figure projection, rather than a new network inference.
 

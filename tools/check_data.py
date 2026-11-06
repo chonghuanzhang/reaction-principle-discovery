@@ -4,6 +4,7 @@ from collections import Counter
 from pathlib import Path
 from statistics import median, mean
 import csv
+import hashlib
 import json
 import re
 from urllib.parse import unquote, urlsplit
@@ -101,6 +102,16 @@ def main():
         assert (ROOT/f'knowledge_graph/figures/RP{number}_focus.png').is_file()
     assert (ROOT/'candidates/figures/N1_novelty_distributions.png').is_file()
 
+    composition = json.loads((ROOT/'figures/source/Figure_4_composition.json').read_text(encoding='utf-8'))
+    assert composition['canvas_px'] == [3200, 3700]
+    assert [layer['panels'] for layer in composition['layers']] == ['a–c', 'd']
+    artwork = composition['layers'] + [composition['authoritative_master'], composition['jpeg_derivative']]
+    for asset in artwork:
+        path = (ROOT/asset['path']).resolve()
+        assert path.is_relative_to(ROOT), asset['path']
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == asset['sha256'], asset['path']
+    assert (ROOT/composition['reproduction_script']).is_file()
+
     # Check human-facing pages and illustrations; internal code fixtures may
     # intentionally contain example paths that are not repository resources.
     pages = list(ROOT.glob('*.md'))
@@ -131,6 +142,7 @@ def main():
         'paired_benchmark_seeds': 100, 'selected_responses': 180,
         'knowledge_graph_nodes': 133, 'knowledge_graph_edges': 142,
         'knowledge_graph_views': 9, 'si_principle_focus_views': 4,
+        'figure_4_artwork_checksums': len(artwork),
         'local_links_checked': checked, 'status': 'PASS'}, indent=2))
 
 

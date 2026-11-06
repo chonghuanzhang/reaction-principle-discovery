@@ -1,6 +1,8 @@
 # Interpretation of model donors and experimental records
 
-The structural mapping contains 108 distinct ordered electrophile–donor pairs, with 102 distinct donor structures and five electrophiles. These record units do not replace the 100-molecule recommended collection or the author’s final experimental donor count. The 2,114 workbook appearances resolve to 1,066 sample-row groups; repeated appearances are not independent replicates. The full [counting summary](../../code/data/mapping/combination_summary.json) distinguishes rows, condition recipes, donors and pairs.
+The structural mapping contains 108 distinct ordered electrophile–donor pairs, with 102 distinct donor structures and five electrophiles. These record units do not replace the 100-molecule recommended collection or the author’s final count of 100 experimental donor molecules. The 2,114 workbook appearances resolve to 1,066 sample-row groups; repeated appearances are not independent replicates. The full [counting summary](../../code/data/mapping/combination_summary.json) distinguishes rows, condition recipes, donors and pairs.
+
+The [reagent-selection guide](../reagent_selection.md) describes the overall process: before finalizing the experimental list, researchers jointly considered structural relationships, commercial accessibility and NP/NR classifications, without a fixed cutoff or weighted total. The source worksheets below establish the model use of particular donors; the overall process does not supply item-specific reasons for those choices.
 
 The [mapping guide](README.md) defines exact molecular identity, reactive-form relationships, donor-family analogies and unmatched inputs. Family similarity does not establish pKa, coordination, steric environment, reaction compatibility or a validated reagent replacement. Individual source occurrences and identity cautions are retained on the linked pair pages.
 
@@ -20,4 +22,4 @@ Planned-spectrum notes, author-recorded target formation, NMR/HRMS notes and iso
 
 [Extracted workbook rows and original cell values](../../code/data/structures/actual_source_rows.json) · [Summary workbook](../../optimization/raw/summary_workbook.xlsx) · [Full workbook manifest](../../optimization/raw/workbooks_manifest.json) · [Workbook reconstruction](../../optimization/README.md)
 
-No item-level contemporaneous inventory, toxicity, cost, delivery-time, procurement or selection/replacement decision was recovered. The molecular relations cannot establish why a human selected an input or the causal effect of that choice on novelty or reaction success.
+Item-level contemporaneous inventory, toxicity, cost, delivery-time, procurement and selection/replacement records are not supplied. Structural associations alone cannot establish the reason for choosing an individual input or the causal effect of that choice on novelty or reaction success. This limit is separate from the established use of structural relationships, commercial accessibility and NP/NR in the overall reagent-selection process.

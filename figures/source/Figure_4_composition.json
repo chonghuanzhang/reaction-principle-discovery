@@ -1,0 +1,71 @@
+{
+  "figure": "Figure 4",
+  "format": "deposited raster artwork composition",
+  "canvas_px": [
+    3200,
+    3700
+  ],
+  "mode": "RGB",
+  "background": "white",
+  "dpi": [
+    480,
+    480
+  ],
+  "layers": [
+    {
+      "panels": "a–c",
+      "path": "figures/source/Figure_4_panels_abc.png",
+      "source_dimensions_px": [
+        3200,
+        2330
+      ],
+      "paste_xy": [
+        0,
+        0
+      ],
+      "target_dimensions_px": [
+        3200,
+        2330
+      ],
+      "resampling": "none",
+      "sha256": "fe9a3fcf31ff16bce932742b65d3e7947ee9ff3aaf8a1d615c8aa3994a1f72a5"
+    },
+    {
+      "panels": "d",
+      "path": "figures/source/Figure_4d_candidate_selection.png",
+      "source_dimensions_px": [
+        1920,
+        819
+      ],
+      "paste_xy": [
+        120,
+        2340
+      ],
+      "target_dimensions_px": [
+        3000,
+        1280
+      ],
+      "resampling": "LANCZOS",
+      "sha256": "5d671d299d8234a7fd92b8a82c0b5b6b8011fb002d01cc02585162be24f54ea3"
+    }
+  ],
+  "authoritative_master": {
+    "path": "figures/main/Figure_4.png",
+    "sha256": "c4103f6411f064dff3202d3ab5de1c85daf8d4eebcbc71a00dded516869f0dc6",
+    "rgb_pixel_sha256": "741dbdf57aa714908c85e025a02dde17b1445088a417e558fbceace8360ac056"
+  },
+  "jpeg_derivative": {
+    "path": "figures/main/Figure_4.jpeg",
+    "quality": 100,
+    "subsampling": 0,
+    "sha256": "ad76c60a91a039cff2a7dd0b5dbb50a27983072d73241850cb77b0d4a61b2b46"
+  },
+  "reproduction_script": "code/scripts/reproduce_figures2_4.py",
+  "notes": [
+    "Source paths are relative to the repository root.",
+    "The a–c source is an unresampled crop of the original raster figure, preserving all a–c scientific content.",
+    "The approved panel d is deposited in full and resized as a single image.",
+    "The lossless PNG is authoritative; JPEG uses recompression. Reproduced PDF embeds the raster master.",
+    "Structural relationship arrows do not denote chemical transformations or independently documented replacement decisions."
+  ]
+}

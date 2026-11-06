@@ -91,24 +91,6 @@ def fig2():
  U.panel=oldpanel
 
 def fig4():
- rows=U.rows(OLD/'figures/candidate_centres.csv');counts={x['centre_set']:int(x['molecules']) for x in rows}
- cs=json.loads((OLD/'structures/candidates.json').read_text())
- f,a,H=U.canvas(136)
- panel(a,13,H-15,'a','Candidate diversity across reacting centres')
- ax=f.add_axes([.115,.325,.36,.555]);groups=['C','N','O','S','P','Se','C/O','C/N'];cols=[BLUE,MID,CYAN,DONOR,TEAL,GREEN,'#83A2C8','#A0BFC8']
- for i,(g,col) in enumerate(zip(groups,cols)):
-  ax.hlines(i,0,counts[g],color=col,lw=1.5);ax.scatter([counts[g]],[i],s=49,color=col,zorder=3);ax.text(counts[g]+1.1,i,str(counts[g]),fontsize=8,va='center',color=INK)
- ax.set(yticks=range(8),yticklabels=groups,ylim=(7.6,-.6),xlim=(0,36),xticks=[0,10,20,30],xlabel='Candidate molecules')
- ax.spines['left'].set_visible(False);ax.tick_params(axis='y',length=0);ax.grid(axis='x',color=LIGHT,lw=.5);ax.set_axisbelow(True)
- panel(a,267,H-15,'b','Donor form expands the search')
- examples=[('N–H and N salts',[(48,'Aniline'),(45,'Lithium anilide')]),('O–H and O salts',[(51,'Phenol'),(64,'Sodium phenoxide')]),('S–H and S–S',[(82,'Thiophenol'),(78,'Diphenyl disulfide')])]
- for j,(title,items) in enumerate(examples):
-  yy=H-45-j*77;label(a,285,yy,title,8,[MID,CYAN,DONOR][j],weight='bold')
-  for k,(num,name) in enumerate(items):
-   rr=cs[num-1];chem(f,f'candidate_{num}',rr['candidate_smiles'],280+k*105,yy-53,94,45,all_color=[MID,CYAN,DONOR][j])
-   label(a,327+k*105,yy-61,f'C{num:03}  {name}',6.9,ha='center')
- divider(a,86)
- panel(a,13,67,'c','Each molecule retains a chemical hypothesis')
- for j,(n,desc) in enumerate([('100','candidate molecules'),('115','route or site hypotheses'),('124','proposed product options')]):
-  x=27+j*167;label(a,x,37,n,18,[BLUE,MID,DONOR][j],weight='bold');label(a,x+44,38,desc,7.5)
- U.save(f,'Figure_4');shutil.copy2(OLD/'figures/candidate_centres.csv',U.DATA/'candidate_centres.csv')
+ """Keep this entrypoint aligned with the deposited four-panel Figure 4."""
+ from compose_figure4 import reproduce
+ return reproduce(U.OUT)

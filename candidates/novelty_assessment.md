@@ -2,6 +2,8 @@
 
 NP classifies proposed-product connectivity within a bounded identity and literature comparison. NR classifies the proposed reaction relative to its nearest precedent. These ordinal categories are kept separate; they are not added, averaged or converted into probabilities of success. They do not classify novelty of the purchased reagent or stereochemical priority.
 
+NP/NR informed experimental reagent selection before the final list was chosen, alongside structural relationships and commercial accessibility. Researchers integrated these inputs without a fixed cutoff or weighted total; see the [selection guide and main Figure 4d](reagent_selection.md). For experimental inputs, classifications refer to the actual donor, electrophile and proposed endpoint, and are not inherited through structural similarity to a candidate. Alternative sites and endpoints retain their separate labels; mixed or unresolved classifications are not replaced by the highest category.
+
 ## Definitions
 
 | Assessment | Label | Meaning |
@@ -45,6 +47,6 @@ The 124 candidate product-option records contain 96 distinct deposited SMILES. T
 
 [C086](C086.md) retains unresolved NP for all three phosphorus endpoints. [C035](C035.md) retains parent-connectivity NP2 for its charged and neutral N-linked alternatives. AP043 retains NP1R and unresolved NR after the closer trifluoropropanamide/indole precedent was considered. AP064 retains NP3/NR3 for carboxyl-O and NP2/NR2 for phenolic-O; one endpoint’s rationale cannot be assigned to the other. AP002, AP045 and AP105 are not applicable to the recorded route and are not assigned experimental failures.
 
-No paired estimate of novelty retention is supported because contemporaneous molecule-by-molecule selection or replacement decisions were not recovered. Candidate and experimental-input products may differ in electrophile and endpoint, and the experimental inputs are dominated by N–H/O–H/S–H donors. A relationship between novelty and verified reaction success is also unresolved because product identity and calibrated quantitative measurements are not uniformly established.
+The 72 NP2-only and 19 NP3-only candidate molecules, and the 100 NP2 (92.6%) and 90 NR2 experimental pairs, describe different populations. Candidate and experimental-input products may differ in electrophile and endpoint, and the experimental inputs are dominated by N–H/O–H/S–H donors. These marginal distributions do not establish novelty retention or improvement. Item-specific selection or replacement records are not supplied, even though NP/NR formed part of the overall selection criteria. A relationship between novelty and verified reaction success is also unresolved because product identity and calibrated quantitative measurements are not uniformly established.
 
 [108 experimental-input records](experiment_mapping/README.md) · [124 proposed product options](product_options/README.md)

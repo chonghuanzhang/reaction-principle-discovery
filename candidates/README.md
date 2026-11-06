@@ -33,11 +33,11 @@ The main drawings depict the specified input SMILES. Each hypothesis has a secon
 
 Forty-six molecules carry original molecule-linked citations; 54 do not. A later novelty comparison or principle question does not retroactively supply a missing original citation. Literature links lead to full source descriptions, and quotation links lead to exact attributed passages. The four reaction principles are conditional questions about activation, donor form, pathway divergence and product persistence, not evidence that every recommended molecule reacts.
 
-The [108 experimental-input associations](experiment_mapping/README.md) distinguish exact molecules, reactive forms and broader donor-family relations. These comparisons do not recover contemporaneous selection decisions. Missing evidence is explicit, and no observed yield is assigned through a family analogy.
+Researchers considered structural relationships, commercial accessibility and NP/NR before finalizing the experimental reagent list. The [reagent-selection guide and Figure 4d](reagent_selection.md) explain how these inputs informed researcher judgment without a fixed cutoff or weighted total. The [108 experimental-input associations](experiment_mapping/README.md) distinguish exact molecules, reactive forms and broader donor-family relations. These structural associations do not document item-specific substitution decisions, and no observed yield is assigned through a family analogy.
 
 ## Structure, network and novelty guides
 
-[Input structure atlas C1–C9](structure_atlas.md) · [Evidence network G1–G9](../knowledge_graph/) · [Novelty assessment, Figure N1 and Supplementary Figure 5](novelty_assessment.md) · [Model settings, original prompts and working constraints](../code/docs/model_workflow.md) · [Model donors and experimental record interpretation](experiment_mapping/model_donors.md)
+[Input structure atlas C1–C9](structure_atlas.md) · [Evidence network G1–G9](../knowledge_graph/) · [Reagent selection and Figure 4d](reagent_selection.md) · [Novelty assessment, Figure N1 and Supplementary Figure 5](novelty_assessment.md) · [Model settings, original prompts and working constraints](../code/docs/model_workflow.md) · [Model donors and experimental record interpretation](experiment_mapping/model_donors.md)
 
 ## Downloadable scientific tables
 
