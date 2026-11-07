@@ -1,5 +1,7 @@
 # Literature evidence, reaction principles and candidate computations
 
+The current scientific framework uses four reaction principles: acceptor activation, donor speciation and capture, intermediate pathway divergence, and product persistence. The [principle cards](../evidence/principles/) provide the source support and applicability conditions; the [model workflow](docs/model_workflow.md) connects this framework to the successfully completed candidate-generation calls and their archived inputs.
+
 ## Scientific inputs and their scope
 
 The frozen generation bundle in `data/generation/` contains 342 source records, 3,694 downstream evidence statements, 3,816 admission-stage statements, 4,391 transfer assessments and 12 seed evidence records. These counts refer to different stages and should not be added together. Source registries and evidence identifiers provide the joins; API metadata distinguish extraction, transfer, principle proposal and candidate-generation calls.
@@ -16,19 +18,19 @@ The seed mechanism and 4,391 transfer records are in `data/principle_calls/`. Th
 
 The proposal prompt asks for compact, falsifiable, source-linked principles while retaining seed-specific and transferable layers. It requires supplied seed and transfer evidence identifiers, conditions, negative or unknown evidence, an experimental consequence and a falsifier. It prohibits assuming that the proposed seed mechanism is established or using later project outcomes to infer the principle set. A proposal cannot accept itself: deterministic validation checks its status and references before review.
 
-The saved proposal and review were separate calls using the recorded model `gpt-5.6-sol`. The supplied records do not establish independence between different model families. Five working constraints passed the saved admission and review. These five constraints are retained as actual call outputs. The paper's RP1–RP4 organize the chemistry into acceptor activation, donor speciation/capture, intermediate branching and product persistence; they are a later scientific synthesis, rather than a claim that an earlier prompt originally returned four cards.
+The saved proposal and review were separate calls using the same recorded model, `gpt-5.6-sol`. Five working constraints passed the saved admission and review and entered the archived candidate-generation calls. Their complete records remain in the [archived generation inputs](docs/model_workflow.md#archived-generation-inputs). The current four-RP formulation is a subsequent scientific synthesis of the source evidence.
 
 `scripts/replay_principle_review.py` rebuilds the proposal input digest, validates the saved model payload, constructs the original review prompt and checks its input digest. It then reruns the deterministic review validator and compares accepted and rejected records with the saved results. The proposal digest is `774673f8e592d76abd617c2170f8aac007153f28024374f513b00ac212fa05fe`; the review digest is `51e710298a8f1f5fcbde5a19b8c0aa444e5b9cfbd6e1dd4e3b837315b24f736d`. Both comparisons use local responses and perform no model call.
 
 ## Candidate generation and interpretation
 
-`candidate_workflow/` contains the actual candidate inputs, configuration, retrieval records, model responses, structures and the engine snapshot that binds those calls. The primary call and compact expansion call are separate stages. Their deterministic replay checks source retrieval, input/prompt/model/core-code bindings, payload schema, chemical identity review and the saved selection. The frozen source snapshot remains separate from the general engine so that replay verifies the same code used for its binding.
+Candidate generation completed successfully, with seven primary and two compact-expansion responses recorded as completed. `candidate_workflow/` contains the actual inputs, configuration, retrieval records, model responses, structures and the engine snapshot that binds those calls. The primary and compact-expansion calls are separate stages. Their deterministic replay checks source retrieval, input/prompt/model/core-code bindings, payload schema, chemical identity review and the saved selection. The frozen source snapshot remains separate from the general engine so that replay verifies the same code used for its binding.
 
 The final collection contains 100 candidate molecules, 115 route or reacting-site hypotheses and 124 proposed product options. A molecule may support more than one reacting site or endpoint. Neutral donors, salts and latent donor precursors remain chemically distinct records. The 48 selected and 52 reserve entries in one candidate panel describe a computational exploration budget, not an experimentally validated success ranking. The complete collection is the 100-molecule population.
 
 The literal candidate records include Chinese scientific explanations where that was the original output. English reader tables and explanations are provided in `../candidates/`; the original fields remain available for tracing a statement to its source. Item-level source links are incomplete: 46 original candidate entries have citations and 54 do not. This boundary should remain visible rather than being repaired by assigning later citations to an earlier call.
 
-The final collection contains 100 molecules. Its saved generation calls, identity review and released collection remain available in `candidate_workflow/`. Source-linked [transfer-scope examples](data/transfer_scope_examples.json) separately explain the C–C, C–N and C–O connectivity and condition boundaries; these chemical interpretations do not alter the saved model inputs or scores.
+The saved generation calls, identity review and released collection remain available in `candidate_workflow/`. Source-linked [transfer-scope examples](data/transfer_scope_examples.json) separately explain the C–C, C–N and C–O connectivity and condition boundaries; these chemical interpretations do not alter the saved model inputs or scores.
 
 ## Candidate-to-reagent selection
 

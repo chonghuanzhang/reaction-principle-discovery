@@ -1,6 +1,19 @@
-# Model configuration and candidate generation
+# Current reaction principles and candidate generation
 
-The saved candidate calls used the API model identifier `gpt-5.6-sol`. The primary call considered carbon π capture, carbon transfer, nitrogen, oxygen, sulfur, phosphorus and radical/other main-group transfer. Each perspective received the target specification, up to 24 relevant evidence records with no more than two per source, and five reviewed working constraints. The compact expansion used two perspectives, neutral ambident aromatics and precursor-state pairs, with eight evidence records and six requested candidates per perspective.
+## Current four reaction principles
+
+The paper's current scientific framework organizes the source evidence and candidate rationales around four conditional chemical relationships:
+
+- [RP1 — Acceptor activation](../../evidence/principles/RP1.md): access to a fluorinated acceptor gates nucleophile transfer.
+- [RP2 — Donor speciation and capture](../../evidence/principles/RP2.md): the accessible donor form and its capture competence must coincide.
+- [RP3 — Intermediate pathway divergence](../../evidence/principles/RP3.md): the state formed by capture controls fluoride loss versus fluorine retention.
+- [RP4 — Product persistence](../../evidence/principles/RP4.md): selective formation must outpace downstream consumption.
+
+These four formulations are a subsequent evidence-based synthesis. The original model inputs remain in the [generation archive](#archived-generation-inputs), preserving the distinction between the completed generation and the current chemical organization.
+
+## Successfully completed candidate generation
+
+The archived calls completed successfully using the API model identifier `gpt-5.6-sol`: seven primary model responses and two compact-expansion responses are saved with completed status. The primary stage considered carbon π capture, carbon transfer, nitrogen, oxygen, sulfur, phosphorus and radical/other main-group transfer. Each perspective received the target specification, up to 24 relevant evidence records with no more than two per source, and the archived reviewed working constraints. The compact expansion used two perspectives, neutral ambident aromatics and precursor-state pairs, with eight evidence records and six requested candidates per perspective.
 
 Outputs specify molecular names, SMILES, zero-based reacting-atom indices, reactive forms, citations, activation requirements, competing pathways and diagnostic observations. Schema, atom-index and cited-evidence checks reject invalid proposals. Chemical identity review separately compares the molecular graph with its name. The combined pool contained 101 distinct structures; one identity-conflicted structure was quarantined, leaving the 100 retained molecules. Four additional initial proposals were rejected during schema, evidence or atom validation.
 
@@ -14,9 +27,9 @@ The complete original prompt texts are directly readable. The candidate prompts 
 - [Primary candidate prompt](../data/generation/candidate_primary_prompt.txt)
 - [Compact expansion prompt](../data/generation/candidate_compact_expansion_prompt.txt)
 
-## Five reviewed working constraints
+## Archived generation inputs
 
-These are the original call inputs. The paper’s current RP1–RP4 are a later evidence-based synthesis concerning acceptor activation, donor form/capture, intermediate branching and product persistence. They are not represented as the exact output or wording of those earlier calls. Original per-molecule citations remain unchanged, including the 54 entries without item-level citations. Later novelty comparisons and current principle annotations retain their separate scope.
+The original calls used the following five reviewed working constraints. Their identifiers, wording and review status are retained here as the historical inputs. Original per-molecule citations also remain unchanged, including the 54 entries without item-level citations. Later novelty comparisons and current four-RP annotations retain their separate scope.
 
 [Complete five-constraint records](../data/generation/frozen_principles_5.json) include condition windows, source evidence, mechanisms proposed by the authors, exceptions, experimental consequences and falsifying experiments.
 
@@ -52,8 +65,8 @@ Recorded confidence: low. Review status: revised.
 
 ## Separate proposal and review calls
 
-The saved proposal and review used separate inference contexts, both recorded as `gpt-5.6-sol`. This establishes neither different model families nor statistically independent errors. Deterministic validation checks source identifiers, schema and required fields; chemical review separately checks structures, endpoints and observation versus hypothesis. The supplied records preserve original response identifiers and token usage in the saved API envelopes.
+The saved proposal and review used separate inference contexts of the same recorded model, `gpt-5.6-sol`. Deterministic validation checks source identifiers, schema and required fields; chemical review separately checks structures, endpoints and observation versus hypothesis. The supplied records preserve original response identifiers and token usage in the saved API envelopes.
 
 [Proposal response](../data/principle_calls/proposal_response.json) · [Review response](../data/principle_calls/review.json) · [Reviewed constraints](../data/principle_calls/reviewed.json) · [Offline replay](../README.md#run-without-a-model-service)
 
-Offline replay verifies consistency between saved inputs, source code and outputs. It makes no new model call and does not establish reaction success or the reliability of a new inference. The [computational methods](../METHODS.md) state the dataset boundaries and verification scope.
+Offline replay verifies consistency between saved inputs, source code and outputs using the archived responses. The [computational methods](../METHODS.md) state the dataset boundaries and verification scope.

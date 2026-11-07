@@ -1,35 +1,35 @@
-# Evaluation protocol, offline checks and scientific status
+# Completed candidate generation and evaluation protocols
 
-The repository separates representation checks, source-evidence interpretation, search analysis and reaction-outcome validation. The local P/Se evaluator is executable and its eight existing integrity tests pass. The matched-evidence model comparison is prepared with **no successful new calls**; its performance and incremental-effect fields remain null. No independent chemical-discovery benchmark has been completed.
+The archived candidate-generation workflow completed successfully: seven primary and two compact-expansion model responses were recorded as completed, and molecular validation and chemical identity review produced the retained collection of **100 candidates**. The [generation records](../candidate_workflow/README.md) preserve those responses and their inputs. The current four-RP framework connects the chemical evidence to candidate rationales; the analyses below document molecular checks, source-evidence interpretation and condition selection.
 
 ## Computational and analytical evaluation status
 
 | Analysis | Status | What it establishes |
 | --- | --- | --- |
-| [100 molecule audit](../../candidates/README.md) | Completed | Graph parseability and uniqueness, not synthetic success |
+| [Candidate generation](../candidate_workflow/README.md) | Completed | Seven primary and two expansion responses; 100 retained candidates after validation and identity review |
+| [100 molecule audit](../../candidates/README.md) | Completed | Graph parseability and uniqueness |
 | [Four RP cards / 43 attributed passages](../../evidence/README.md) | Completed | Source-linked chemical interpretation with applicability limits |
-| [100 candidate-to-RP associations](../../knowledge_graph/) | Completed | Transparent explanatory mapping, not historical generator replacement |
+| [100 candidate-to-RP associations](../../knowledge_graph/) | Completed | Explanatory mapping within the current four-RP framework |
 | [Eight local evaluator integrity tests](../evaluation/local_rules/test_conditional_rules.py) | Completed and runnable | Implementation consistency on development cases |
 | [SH 100 paired runs](../../optimization/METHODS.md) | Completed | Search-budget differences on one measured response surface |
-| [NH/OH selected trajectories](../../optimization/README.md) | Descriptive analysis | 180 selected responses; no whole-pool optimum or blind-test claim |
-| [Matched model comparison](../evaluation/matched_evidence/llm_frozen_protocol.json) | Prepared, no successful new calls | No model superiority result |
-| Independent chemical discovery benchmark | Not completed | Requires reaction-series outcomes withheld from development |
+| [NH/OH selected trajectories](../../optimization/README.md) | Descriptive analysis | 180 selected responses with posterior and stopping diagnostics |
+| [Matched model comparison](../evaluation/matched_evidence/llm_frozen_protocol.json) | Prepared diagnostic protocol | Frozen four-arm design; [recorded execution status](../evaluation/matched_evidence/llm_results_status.json) |
 
 The 43 attributed passages belong to the current four-card synthesis. They are distinct from the 16 E-coded source-excerpt records used in the earlier diagnostic below. The current four cards are also distinct from the [five reviewed working constraints used in the original candidate calls](model_workflow.md).
 
 ## Local P/Se evaluator
 
-The [interpreter](../evaluation/local_rules/conditional_rules.py) implements eight source-conditioned clauses using the [reviewed chemistry inputs](../evaluation/chemistry/README.md). All cases were available during construction. There is no fitted model, independent test split or calibrated reaction-success probability.
+The [interpreter](../evaluation/local_rules/conditional_rules.py) implements eight source-conditioned clauses using the [reviewed chemistry inputs](../evaluation/chemistry/README.md). All cases were available during construction. This deterministic evaluator has no fitted model or independent test split and returns categorical decisions and unresolved cases.
 
 The earlier local identifiers describe three source-specific relationships: activation-dependent fluoride loss versus CF2-retaining P(O)H addition; donor-dependent acid response and subsequent HF addition of fluorovinyl products; and compatible selenium donors and nucleophilic-selenium interception in NiH chemistry. Their local RP1–RP3 numbering is **not** the paper's current four cross-class RP numbering.
 
-Each clause retains the exact curated substrate, donor, activation and recorded condition descriptors, source observations, source yield basis and applicability boundary. An incomplete structure uses a source identifier instead of an invented SMILES. Matching a curated descriptor is a match to a reported source context, not a demonstration of prospective reactivity.
+Each clause retains the exact curated substrate, donor, activation and recorded condition descriptors, source observations, source yield basis and applicability boundary. An incomplete structure uses a source identifier instead of an invented SMILES. Matching a curated descriptor identifies the reported source context.
 
 Premises are satisfied, not satisfied or unknown. Missing core inputs, source evidence or required conditions leave the query unresolved. Unsupported transfers are unknown rather than failed reactions. Explicit target non-observation remains local to its matched source system. A reported alternative endpoint does not establish the requested target. Opposing matched observations of the same endpoint cause abstention, regardless of duplicate rules or citation counts. Source conditions, local chemical relations, evidence access and uncertainty remain separate in the output.
 
 The [15 queries](../evaluation/local_rules/rule_queries.json) comprise eight source cases, a changed target for P05, a P(O)H-to-Ph2PH donor swap, four project queries (AP087, AP088, SE_PROJECT and P_O_PROJECT), and SE03 with its BnBr condition unrecorded. The four project queries are unknown. [Recorded outputs](../evaluation/local_rules/rule_outputs.json), a [decision summary](../evaluation/local_rules/rule_decision_summary.csv) and [nine evidence-deletion interventions](../evaluation/local_rules/rule_evidence_interventions.csv) preserve the results. Evidence deletion is a software dependency check, not a model ablation result.
 
-The eight existing tests check missing core features, removing all evidence, unseen substrates, exclusion of removed evidence, permutation/duplication invariance, conflict abstention, absence of success probabilities or unknown zero yields, and preservation of donor/condition specificity. The conflict fixture is synthetic software test data, never a literature observation. These tests establish implementation consistency on development cases, not external chemical accuracy or performance of the current four-principle architecture.
+The eight existing tests check missing core features, removing all evidence, unseen substrates, exclusion of removed evidence, permutation/duplication invariance, conflict abstention, absence of success probabilities or unknown zero yields, and preservation of donor/condition specificity. The conflict fixture is synthetic software test data, never a literature observation.
 
 Run from the repository root with Python 3; this part uses only the standard library:
 
@@ -79,10 +79,8 @@ python3 code/evaluation/matched_evidence/run_llm_diagnostic.py --output-dir /tmp
 python3 code/evaluation/matched_evidence/score_llm_diagnostic.py --input-dir /tmp/reaction-evaluation/completed_calls --output-dir /tmp/reaction-evaluation/scores
 ```
 
-Preparation and empty-result scoring use only Python's standard library. NumPy is required only when calculating the complete paired bootstrap. The scorer expects the completed-response envelope: `status`, `arm`, `replicate`, `elapsed_seconds`, and `result` containing `parsed_output.judgments` and token `usage`. It reads completed records only. With no completed records it writes zero successful calls and null performance/effect fields. This is the current [evaluation status](../evaluation/matched_evidence/llm_results_status.json).
+Preparation and empty-result scoring use only Python's standard library. NumPy is required only when calculating the complete paired bootstrap. The scorer expects the completed-response envelope: `status`, `arm`, `replicate`, `elapsed_seconds`, and `result` containing `parsed_output.judgments` and token `usage`. It reads completed records only; the [execution-status file](../evaluation/matched_evidence/llm_results_status.json) records the successful-response count and available metrics for this diagnostic separately from the completed candidate-generation calls.
 
-## Reuse and remaining method test
+## Reuse materials
 
 The [input manifest](../evaluation/input_manifest.json) lists the scientific inputs and software with their hashes. Available materials include five frozen diagnostic input JSONs, four saved prompts, local rules, development queries, recorded outputs, the deterministic 12-candidate reference, source quotations and their interpretations. The [source index](../evaluation/matched_evidence/source_index.json) resolves the source locators in the prompt payloads. The commands above check input consistency, reproduce rule decisions and prepare the model prompts; they do not execute model inference or create reaction outcomes.
-
-Future method evaluation should withhold source families and reaction series from development, preserve uncertain and unmeasured outcomes, and report uncertainty clustered by source. A working authorized inference connection is needed to execute the frozen model comparison; independent reaction-task outcomes are additionally required for a discovery-advantage claim. Offline consistency and archived-output reuse remain separate from new inference. Unmeasured conditions are never filled with synthetic yields or model-invented reaction outcomes.
