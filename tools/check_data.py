@@ -70,10 +70,11 @@ def main():
     assert all(value in range(12, 97, 12) for value in bo + random)
     assert (median(bo), median(random)) == (24, 48)
     assert abs(mean(b-a for a, b in zip(bo, random))-25.8) < 1e-10
-    selected = table('experiments/selected_responses/selected_responses.csv', 120)
-    assert Counter(row['pool_id'] for row in selected) == {
-        'NH_PL36': 60, 'OH_PL38': 60}
-    assert len({(row['pool_id'], row['base'], row['solvent']) for row in selected}) == 120
+    selection_summary = json.loads((ROOT / 'optimization/selections/plan_summary.json').read_text())
+    selected_counts = {row['pool_id']: row['selected_count'] for row in selection_summary}
+    selected = table('experiments/selected_responses/selected_responses.csv', sum(selected_counts.values()))
+    assert Counter(row['pool_id'] for row in selected) == selected_counts
+    assert len({(row['pool_id'], row['catalyst_code'], row['base'], row['solvent']) for row in selected}) == len(selected)
 
     graph = json.loads((ROOT/'knowledge_graph/data/network.json').read_text(encoding='utf-8'))
     graph_ids = {node['id'] for node in graph['nodes']}

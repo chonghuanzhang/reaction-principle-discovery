@@ -59,14 +59,16 @@ def main(out, replay_sh=True, ablations=True):
     post_saved = rows(ROOT / 'figures/source_data/NH_OH_posteriors_by_round.csv')
     all_post = []
     plan_report = []
-    for pool, seed in [('NH_PL36', 6000), ('OH_PL38', 8000)]:
-        original = sorted((r for r in source if r['pool_id'] == pool), key=lambda r: int(r['candidate_index']))
-        oracle = {int(r['candidate_index']): float(r['response']) for r in original}
+    for pool, seed in [('NH_PL36', 6000), ('OH_CuNi_96', 8000)]:
+        candidates, K = code['load_unlabelled_pool'](pool)
+        by_sample = {r['well']: r for r in source}
+        oracle = {int(r['candidate_index']): float(by_sample[r['well']]['response']) for r in candidates}
         result = code['campaign'](pool, oracle)
         selected = result['selected_rows']
         saved = rows(ROOT / f'selections/{pool}/selected_conditions.csv')
         assert [(r['candidate_index'], r['batch_number']) for r in selected] == [(int(r['candidate_index']), int(r['batch_number'])) for r in saved]
-        assert len(selected) == len({r['candidate_index'] for r in selected}) == 60
+        assert len(selected) == len({r['candidate_index'] for r in selected})
+        assert len(selected) == result['summary']['selected_count']
         for actual, expected in zip(selected, saved):
             assert actual['sample_id'] == expected['sample_id']
             assert actual['execution_status'] == 'NOT_AN_ACTUAL_BATCH_EXECUTION_RECORD'
@@ -78,12 +80,13 @@ def main(out, replay_sh=True, ablations=True):
                 close(actual[key], float(expected[key]), pool + ':' + key)
             assert actual['decision'] == expected['decision']
             assert actual['consecutive_joint_passes'] == int(expected['consecutive_joint_passes'])
-        assert result['checks'][-1]['decision'] == 'BUDGET_REACHED_CRITERION_NOT_MET'
+        summary_saved = next(r for r in json.loads((ROOT / 'selections/plan_summary.json').read_text()) if r['pool_id'] == pool)
+        assert result['checks'][-1]['decision'] == summary_saved['final_stop_check']['decision']
         write(out / f'{pool}_selected_conditions.csv', selected)
         write(out / f'{pool}_stopping_checks.csv', result['checks'])
-        K = features(pool)
         error = 0.0
-        for rnd in range(1, 6):
+        rounds = result['summary']['number_of_batches']
+        for rnd in range(1, rounds + 1):
             # Only these selected responses enter the posterior. Oracle is not passed.
             obs = {r['candidate_index']: r['archived_response_revealed_after_computational_selection'] for r in selected if r['batch_number'] <= rnd}
             mean, sd = archive.v2.bo_core.posterior(K, sorted(obs), obs)
@@ -96,7 +99,7 @@ def main(out, replay_sh=True, ablations=True):
                 all_post.append(dict(pool=pool, after_round=rnd, candidate_index=i, selected=int(i in obs),
                                      revealed_response=obs.get(i, ''), posterior_mean=float(mean[i]),
                                      latent_posterior_sd=float(sd[i]), latent_ucb=float(mean[i] + 1.96 * sd[i])))
-        plan_report.append(dict(pool=pool, seed=seed, selected=60, batches=5, posterior_rows=480,
+        plan_report.append(dict(pool=pool, seed=seed, selected=len(selected), batches=rounds, posterior_rows=96 * rounds,
                                 max_posterior_mean_error=error, final_decision=result['checks'][-1]['decision']))
     write(out / 'NH_OH_posteriors_by_round.csv', all_post)
     sh = sorted((r for r in source if r['pool_id'] == 'SH_PL40'), key=lambda r: int(r['candidate_index']))

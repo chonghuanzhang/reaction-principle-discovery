@@ -50,10 +50,15 @@ def sha(path):
 
 
 def load_unlabelled_pool(pool):
-    candidates = sorted((r for r in read_csv(DATA / 'optimizer_candidates.csv') if r['pool_id'] == pool),
-                        key=lambda r: int(r['candidate_index']))
+    if pool == 'OH_CuNi_96':
+        candidates = read_csv(HERE / pool / 'candidates.csv')
+        feature_rows = read_csv(HERE / pool / 'standardized_features.csv')
+    else:
+        candidates = sorted((r for r in read_csv(DATA / 'optimizer_candidates.csv') if r['pool_id'] == pool),
+                            key=lambda r: int(r['candidate_index']))
+        feature_rows = read_csv(DATA / f'{pool}_standardized_features.csv')
+    assert len(candidates) == 96
     assert all('response' not in r for r in candidates)
-    feature_rows = read_csv(DATA / f'{pool}_standardized_features.csv')
     columns = [key for key in feature_rows[0] if key not in ['candidate_index', 'well']]
     X = np.array([[float(row[c]) for c in columns] for row in feature_rows])
     assert [r['well'] for r in feature_rows] == [r['well'] for r in candidates]
@@ -140,6 +145,11 @@ def campaign(pool, oracle):
                 'actual_lab_batch_date': '',
                 'execution_status': 'NOT_AN_ACTUAL_BATCH_EXECUTION_RECORD',
             }
+            if pool == 'OH_CuNi_96':
+                row.update(formulation_code=candidates[i]['formulation_code'],
+                    formulation=candidates[i]['formulation'],
+                    source_pool_id=candidates[i]['source_pool_id'],
+                    source_candidate_index=int(candidates[i]['source_candidate_index']))
             batch_records.append(row)
             selected_rows.append(row)
         check = {'record_type': 'COMPUTATIONAL_PLAN', 'pool_id': pool, 'seed': seed, **check}

@@ -1,0 +1,6 @@
+{
+  "status": "SUPERSEDED_NOT_CURRENT",
+  "reason": "The author clarified the current O\u2013H candidate library as twelve Cu/Ni\u2013base formulations crossed with eight solvents. This directory preserves the preceding fixed-Ni analysis and its original protocols for audit.",
+  "superseded_by": "../../OH_CuNi_96/candidate_manifest.json",
+  "original_commit": "644621a301774e4bf273e8045413488735ce39f2"
+}

@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Build the current N–H and Ni-catalysed O–H selected-response analyses.
+"""Build N–H and 12-formulation O–H selected-response analyses.
 
-The immutable experimental source records and historical benchmark remain intact.
-The O–H catalyst is selected by the largest response in the 145-catalyst panel;
-its condition policy then sees only the fixed 96-candidate Ni condition library.
+Original measurements remain immutable; O–H has 12 catalyst–base formulations
+(two mandatory references plus ten seeded random identities) × 8 solvents.
 """
 from pathlib import Path
 import csv
@@ -31,45 +30,34 @@ def write(path, rows):
 
 def main():
     source = model.read_csv(ROOT / 'benchmark/data/source_records_and_oracle.csv')
-    panel = sorted((r for r in source if r['pool_id'] == 'OH_PL34'),
-                   key=lambda r: (-float(r['response']), int(r['candidate_index'])))
-    assert len(panel) == 145 and panel[0]['cat'] == 'Ni203'
-    winner = panel[0]
-    catalyst_selection = dict(
-        analysis='O–H catalyst screen followed by fixed-catalyst condition selection',
-        catalyst_screen='OH_PL34', catalyst_screen_size=145,
-        selection_rule='largest recorded UV response in the complete catalyst screen',
-        catalyst_code=winner['cat'], catalyst_name='NiCl2·DME',
-        catalyst_screen_response=float(winner['response']),
-        catalyst_screen_sample=winner['well'], source_sheet=winner['source_sheet'],
-        source_response_cell=winner['source_response_cell'],
-        condition_pool='OH_PL38', condition_candidates=96,
-        condition_factors=dict(bases_or_additives=12, solvents=8),
-        acquisition='posterior latent mean + 1.96 * posterior latent SD',
-        seed=8000, seed_rationale='retained reference seed; no outcome-based seed search',
-        response_units='UV response; product/internal-standard peak area ratio',
-        computation_scope='selected-label numerical condition-selection analysis; not a dated laboratory execution log')
-    model.dump(ROOT / 'selections/OH_catalyst_selection.json', catalyst_selection)
+    sys.path.insert(0, str(ROOT / 'model'))
+    import mixed_oh_library as library
+    oh_candidates, manifest = library.build(source)
+    by_sample = {r['well']: r for r in source}
     summaries, posterior_rows, diagnostics, display_rows = [], [], [], []
-    for pool in ('NH_PL36', 'OH_PL38'):
-        records = sorted((r for r in source if r['pool_id'] == pool),
-                         key=lambda r: int(r['candidate_index']))
+    for pool in ('NH_PL36', library.POOL):
+        records = (oh_candidates if pool == library.POOL else
+                   sorted((r for r in source if r['pool_id'] == pool),
+                          key=lambda r: int(r['candidate_index'])))
         assert len(records) == 96
-        oracle = {int(r['candidate_index']): float(r['response']) for r in records}
+        oracle = {int(r['candidate_index']): float(by_sample[r['well']]['response']) for r in records}
         result = model.campaign(pool, oracle)
         target = ROOT / 'selections' / pool
         write(target / 'selected_conditions.csv', result['selected_rows'])
         write(target / 'stopping_checks.csv', result['checks'])
         summaries.append(result['summary'])
         candidates, kernel = model.load_unlabelled_pool(pool)
-        for rnd in range(1, 6):
+        for rnd in range(1, result['summary']['number_of_batches'] + 1):
             selected = {r['candidate_index']: r['archived_response_revealed_after_computational_selection']
                         for r in result['selected_rows'] if r['batch_number'] <= rnd}
             mu, sd = model.archive.v2.bo_core.posterior(kernel, sorted(selected), selected)
             for i, rec in enumerate(candidates):
                 posterior_rows.append(dict(
                     pool=pool, after_round=rnd, candidate_index=i, sample_id=rec['well'],
-                    base=rec['base'], solvent=rec['solvent'], selected_by_this_round=int(i in selected),
+                    base=rec['base'], solvent=rec['solvent'],
+                    catalyst_code=rec['cat'], formulation_code=rec.get('formulation_code', ''),
+                    formulation=rec.get('formulation', rec['base']),
+                    source_pool_id=rec.get('source_pool_id', pool), selected_by_this_round=int(i in selected),
                     revealed_response=selected.get(i, ''), posterior_mean=float(mu[i]),
                     latent_posterior_sd=float(sd[i]), latent_ucb=float(mu[i] + 1.96 * sd[i]),
                     latent_lower_range=float(mu[i] - 1.96 * sd[i])))
@@ -85,8 +73,12 @@ def main():
                 decision=check['decision']))
         for rec in result['selected_rows']:
             display_rows.append(dict(pool_id=pool, batch_number=rec['batch_number'],
-                                     base=rec['base'].replace('CsOH/2', 'CsOH'),
-                                     solvent=rec['solvent'],
+                                     catalyst_code=rec['catalyst_code'],
+                                     formulation_code=rec.get('formulation_code', ''),
+                                     formulation=rec.get('formulation', rec['base']),
+                                     base=rec['base'], solvent=rec['solvent'],
+                                     source_pool_id=rec.get('source_pool_id', pool),
+                                     sample_id=rec['sample_id'],
                                      archived_response=rec['archived_response_revealed_after_computational_selection']))
     model.dump(ROOT / 'selections/plan_summary.json', summaries)
     flattened = []
@@ -103,13 +95,14 @@ def main():
     write(ROOT / 'figures/source_data/NH_OH_round_diagnostics.csv', diagnostics)
     write(ROOT.parent / 'experiments/selected_responses/selected_responses.csv', display_rows)
     model.dump(ROOT.parent / 'experiments/selected_responses/selected_responses.json', display_rows)
-    assert len(posterior_rows) == 960 and len(display_rows) == 120
+    assert len(display_rows) == sum(s['selected_count'] for s in summaries)
+    assert len(posterior_rows) == 96 * sum(s['number_of_batches'] for s in summaries)
     subprocess.run([
         sys.executable,
         str(ROOT.parent / 'code/scripts/sync_selected_response_links.py'),
     ], check=True)
-    print(json.dumps(dict(active_pools=['NH_PL36', 'OH_PL38'], selected_rows=120,
-                         posterior_rows=960, catalyst_selection=catalyst_selection,
+    print(json.dumps(dict(active_pools=['NH_PL36', library.POOL], selected_rows=len(display_rows),
+                         posterior_rows=len(posterior_rows), candidate_library=manifest,
                          summaries=summaries), ensure_ascii=False, indent=2))
 
 

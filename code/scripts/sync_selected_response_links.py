@@ -16,15 +16,10 @@ import math
 
 ROOT = Path(__file__).resolve().parents[2]
 TARGET = ROOT / 'code/data/structures/actual_pairs.json'
-PAIR_POOLS = {'AP039': 'NH_PL36', 'AP048': 'OH_PL38'}
-CATALYSTS = {'NH_PL36': 'Ag13', 'OH_PL38': 'Ni203'}
+PAIR_POOLS = {'AP039': 'NH_PL36', 'AP048': 'OH_CuNi_96'}
+CATALYSTS = {'NH_PL36': {'Ag13'}, 'OH_CuNi_96': {'Cu66', 'Ni203'}}
 DERIVED_FIELDS = {'selected_NH_OH_rows', 'selected_NH_OH_response_scope'}
-SCOPE = (
-    'The current N–H and Ni-catalysed O–H condition-selection analysis contains '
-    '120 selected UV responses (60 per system). These analytical signals are '
-    'not chemical yields. Computational batch labels do not establish '
-    'laboratory chronology.'
-)
+
 
 
 def immutable_digest(records):
@@ -40,15 +35,15 @@ def selected_links(pool):
     source = ROOT / 'optimization/selections' / pool / 'selected_conditions.csv'
     with source.open(encoding='utf-8-sig', newline='') as handle:
         rows = list(csv.DictReader(handle))
-    assert len(rows) == 60, (pool, len(rows))
-    assert len({int(row['candidate_index']) for row in rows}) == 60, pool
+    assert 12 <= len(rows) <= 60 and len(rows) % 12 == 0, (pool, len(rows))
+    assert len({int(row['candidate_index']) for row in rows}) == len(rows), pool
     assert Counter(row['batch_number'] for row in rows) == {
-        str(batch): 12 for batch in range(1, 6)}, pool
+        str(batch): 12 for batch in range(1, len(rows) // 12 + 1)}, pool
     links = []
     for row in sorted(rows, key=lambda item: int(item['candidate_index'])):
         assert row['pool_id'] == pool, row
         assert row['record_type'] == 'COMPUTATIONAL_PLAN', row
-        assert row['catalyst_code'] == CATALYSTS[pool], row
+        assert row['catalyst_code'] in CATALYSTS[pool], row
         assert math.isfinite(float(
             row['archived_response_revealed_after_computational_selection'])), row
         links.append({
@@ -66,6 +61,10 @@ def selected_links(pool):
             'response_units': 'UV response',
             'source_sheet': row['source_sheet'],
             'source_response_cell': row['source_response_cell'],
+            'source_pool_id': row.get('source_pool_id', pool),
+            'source_excel_row': row['source_excel_row'],
+            'formulation_code': row.get('formulation_code', ''),
+            'formulation': row.get('formulation', row['base']),
         })
     return links
 
@@ -75,16 +74,20 @@ def synchronize(records):
     assert {row['actual_pair_id'] for row in records} == {
         f'AP{number:03}' for number in range(1, 109)}
     links = {pair: selected_links(pool) for pair, pool in PAIR_POOLS.items()}
+    total = sum(len(value) for value in links.values())
+    scope = (f'The current N–H and O–H condition-selection analysis contains {total} selected UV responses. '
+             'The O–H library varies catalyst–base formulations and solvent. These analytical signals are '
+             'not chemical yields. Computational batch labels do not establish laboratory chronology.')
     result = []
     for row in records:
         updated = dict(row)
         updated['selected_NH_OH_rows'] = links.get(row['actual_pair_id'], [])
-        updated['selected_NH_OH_response_scope'] = SCOPE
+        updated['selected_NH_OH_response_scope'] = scope
         result.append(updated)
     assert immutable_digest(records) == immutable_digest(result)
     assert Counter(link['pool_id'] for row in result
                    for link in row['selected_NH_OH_rows']) == {
-        'NH_PL36': 60, 'OH_PL38': 60}
+        pool: len(links[pair]) for pair, pool in PAIR_POOLS.items()}
     return result
 
 
@@ -104,7 +107,7 @@ def main():
         'status': 'PASS',
         'mode': 'check' if args.check else 'synchronize',
         'molecular_pairs': len(result),
-        'selected_response_links': 120,
+        'selected_response_links': sum(len(row['selected_NH_OH_rows']) for row in result),
         'selected_links_by_pair': {pair: len(next(
             row['selected_NH_OH_rows'] for row in result
             if row['actual_pair_id'] == pair)) for pair in PAIR_POOLS},

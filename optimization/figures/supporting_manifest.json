@@ -1,49 +1,49 @@
 {
   "status": "complete",
-  "builder": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figure_code/build_supporting.py",
-  "builder_sha256": "b5db2d78a89d0ae59138cf0e17ba31d89a6d3e5bab51c071764d5d006c9972da",
+  "builder": "optimization/figure_code/build_supporting.py",
+  "builder_sha256": "c686c30226419a98f8fd341ff93d22adc21897be1d7bd2ef23b1991fbcba2a3a",
   "model_refits": 0,
   "new_policy_replays": 0,
   "source_files_unchanged": true,
   "sources": [
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/NH_OH_round_diagnostics.csv",
-      "sha256": "d9ba3f33d64cb172ed2d8e057f78263c06cb527b841e027ae3e24194c104db1c"
+      "path": "optimization/figures/source_data/NH_OH_round_diagnostics.csv",
+      "sha256": "3a3f07751c7cb4e94eb1b7bba548704a78bf0b3cdb45abc4531db8891ff6a7ef"
     },
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/NH_OH_posteriors_by_round.csv",
-      "sha256": "24f8203b53e6bc4571b0fec835d902f3bd239479de11e5b43f0ce5625b268a89"
+      "path": "optimization/figures/source_data/NH_OH_posteriors_by_round.csv",
+      "sha256": "b384e1835ef8d973ebfc6e8b0ff77ae276c46eabf1305718f828f1923decaf95"
     },
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/selections/NH_PL36/stopping_checks.csv",
+      "path": "optimization/selections/NH_PL36/stopping_checks.csv",
       "sha256": "b026192fdb3e263c74979e278ec94df05d3fb985946fd81e98b0984d8b3d18da"
     },
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/selections/OH_PL38/stopping_checks.csv",
-      "sha256": "908290cc27994f4a3a2e181774802050f5495d1d4dab6fdbd7b4bf3ca8509c5f"
+      "path": "optimization/selections/OH_CuNi_96/stopping_checks.csv",
+      "sha256": "c0df67581f694a0cd83a415dc70381c7cd8deec6f21a2ca1e9b32c26f370553b"
     },
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/SH_PL40_full_measured_grid_seed5010.csv",
+      "path": "optimization/figures/source_data/SH_PL40_full_measured_grid_seed5010.csv",
       "sha256": "acc6911e7e2e9c71a42697edc8df0701ee602e51eeb733e4406af172594c8beb"
     },
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/SH_PL40_paired_replay_seed5010.csv",
+      "path": "optimization/figures/source_data/SH_PL40_paired_replay_seed5010.csv",
       "sha256": "5fd339315b57cf41b138afa099cda37c1ed35632262313845c0a623b7ed4ef3a"
     },
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/benchmark/data/cumulative_best_trajectories.csv",
+      "path": "optimization/benchmark/data/cumulative_best_trajectories.csv",
       "sha256": "f53205fffa420403ec6327a9c7a029864582ee696c038572574c5258d56d0048"
     },
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/benchmark/data/run_budgets.csv",
+      "path": "optimization/benchmark/data/run_budgets.csv",
       "sha256": "6ddc9928599d3746a07ac1d639183f88fbec22b11736be353d38ab50da70646b"
     },
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/benchmark/data/source_records_and_oracle.csv",
+      "path": "optimization/benchmark/data/source_records_and_oracle.csv",
       "sha256": "886176bdf5ad895fd773e3a4f40cea25c45900e1052e21df0ba4253cf2d07c72"
     },
     {
-      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/SH_audit_diagnostics.json",
+      "path": "optimization/figures/source_data/SH_audit_diagnostics.json",
       "sha256": "a2b583f6775c82c73986d650607042a73a184f3817a7668ceaa23f97c88c7903"
     }
   ],
@@ -57,15 +57,15 @@
       "exports": [
         {
           "path": "optimization/figures/figures/SI_BO2_uncertainty_stopping.pdf",
-          "sha256": "19b24301e79eaaca73a49d85c9096c05ae3f0c7eb8a22152e12f95ff89395bf9"
+          "sha256": "aabe578905f36f508e44e4ce11f8315fc3f76ba9d451b8647dc84afcd6fb53eb"
         },
         {
           "path": "optimization/figures/figures/SI_BO2_uncertainty_stopping.svg",
-          "sha256": "f722a8f441ecb4ee3c260343bb9cf4085693efef1f9481dcaa969721d0bbeabc"
+          "sha256": "f536297971369cc4b189c244285531467f3801c6f47d8f785b71994d302483f6"
         },
         {
           "path": "optimization/figures/figures/SI_BO2_uncertainty_stopping.png",
-          "sha256": "9801accdfaa1b2a52243ece3a25687c3be2ed468681f6a1645358c3db7f10b01"
+          "sha256": "1524a2c941e320042861eb4e76a0fee12841dacb51bfd2b54761bf23a9e17ff5"
         }
       ],
       "preview": "optimization/figures/qa/SI_BO2_uncertainty_stopping_preview.png",
@@ -231,7 +231,7 @@
         }
       ]
     },
-    "NH_OH_diagnostic_rows_reconciled": 15,
+    "NH_OH_diagnostic_rows_reconciled": 10,
     "NH_OH_posterior_rows_reconciled": 960,
     "both_NH_OH_end_at_60_without_stopping": true,
     "image_values_equal_original_oracle": true,

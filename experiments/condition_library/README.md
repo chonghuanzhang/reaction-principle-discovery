@@ -1,6 +1,6 @@
 # Condition-library components
 
-The twelve base/additive entries and eight solvents span donor availability, counterion and hydration effects, catalyst compatibility and medium properties. The table gives the chemical role and level of literature support for each component. Related-reaction evidence does not establish an optimum or mechanism in the present system.
+The twelve base/additive entries and eight solvents span donor availability, counterion and hydration effects, catalyst compatibility and medium properties. S–H and N–H cross all twelve base/additive identities with the eight solvents. The O–H analysis instead crosses twelve specified Cu/Ni–base formulations with the same eight solvents; [its formulation key](../../optimization/figures/source_data/OH_formulation_key.csv) and [construction manifest](../../optimization/selections/OH_CuNi_96/candidate_manifest.json) identify the actual 96 measured candidates. Catalyst identity is part of each O–H formulation, not a fixed factor. The table gives the chemical role and level of literature support for each component. Related-reaction evidence does not establish an optimum or mechanism in the present system.
 
 `components.csv` has one typed record per component: name, type, chemical role, source, evidence level and limits. `components.json` contains the same twenty records plus all 149 original scientific paragraphs, including source quotations, evidence identifiers and locators. Individual pages below provide a readable explanation.
 

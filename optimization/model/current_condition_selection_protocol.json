@@ -6,29 +6,43 @@
       "catalyst": "Ag2SO4/PPh3",
       "seed": 6000
     },
-    "OH_PL38": {
-      "catalyst": "NiCl2·DME",
-      "catalyst_code": "Ni203",
+    "OH_CuNi_96": {
+      "catalysts": [
+        "[Cu(MeCN)4]PF6",
+        "NiCl2·DME"
+      ],
       "seed": 8000,
-      "catalyst_screen": "OH_PL34",
-      "catalyst_selection_rule": "largest recorded UV response among 145 catalyst entries"
+      "formulation_selection_seed": 20261111,
+      "candidate_manifest": "selections/OH_CuNi_96/candidate_manifest.json"
     }
   },
   "candidate_space": {
-    "bases_or_additives": 12,
-    "solvents": 8,
     "conditions_per_system": 96,
-    "catalyst_fixed": true
+    "NH_PL36": {
+      "bases_or_additives": 12,
+      "solvents": 8,
+      "catalyst_fixed": true
+    },
+    "OH_CuNi_96": {
+      "catalyst_base_formulations": 12,
+      "solvents": 8,
+      "catalyst_fixed": false,
+      "mandatory_reference_formulations": [
+        "Cu66 | K3PO4",
+        "Ni203 | DIPEA"
+      ],
+      "random_additional_formulations": 10
+    }
   },
   "initial_design": "uniform random sample of 12 candidate indices without replacement; existing reference seeds retained without an outcome-based seed search",
-  "model": "model/bo_core.py; standardized 116-dimensional categorical feature kernel; normal–inverse-gamma Bayesian linear regression",
+  "model": "model/bo_core.py; standardized 116-dimensional categorical feature kernel (12 NH base levels or 12 OH formulation levels, 8 solvents, and 96 interactions); normal–inverse-gamma Bayesian linear regression",
   "acquisition": "latent posterior mean + 1.96 * latent posterior SD; frozen posterior for each batch of 12",
-  "model_input_boundary": "only previously selected experimental response labels; no full-pool labels or known optimum supplied to the policy or stop monitor",
+  "model_input_boundary": "Only previously selected experimental response labels enter the BO policy or stop monitor. The candidate library includes two author-requested known reference formulations; the remaining ten identities are sampled without inspecting their responses. Candidate-library construction is reference-informed, not a response-blind discovery benchmark.",
   "analysis_budget": {
-    "batches": 5,
+    "maximum_batches": 5,
     "batch_size": 12,
-    "selected_responses_per_system": 60,
-    "total_selected_responses": 120
+    "maximum_selected_responses_per_system": 60,
+    "actual_selected_counts": "selections/plan_summary.json; stop earlier if the unchanged model rule is met"
   },
   "stopping_protocol": "selections/stopping_protocol.json",
   "historical_benchmark_protocol": "model/analysis_protocol.json",

@@ -57,27 +57,38 @@ def main(output):
         actual = float(cells[row['source_sheet'], row['source_response_cell']])
         assert abs(actual - float(row['response'])) < 1e-12, row
         counts[row['pool_id']] = counts.get(row['pool_id'], 0) + 1
-    current = {key: counts[key] for key in ('SH_PL40', 'NH_PL36', 'OH_PL38')}
-    assert list(current.values()) == [96] * 3
-    screen = sorted((r for r in records if r['pool_id'] == 'OH_PL34'),
-                    key=lambda r: (-float(r['response']), int(r['candidate_index'])))
-    context = json.loads((ROOT / 'selections/OH_catalyst_selection.json').read_text())
-    assert len(screen) == context['catalyst_screen_size'] == 145
-    assert screen[0]['cat'] == context['catalyst_code'] == 'Ni203'
-    assert screen[0]['source_response_cell'] == context['source_response_cell'] == 'AJ79'
-    assert abs(float(screen[0]['response']) - context['catalyst_screen_response']) < 1e-12
+    current = {'SH_PL40': counts['SH_PL40'], 'NH_PL36': counts['NH_PL36'], 'OH_CuNi_96': 96}
+    sys.path.insert(0, str(ROOT / 'model'))
+    from mixed_oh_library import construct, feature_rows, POOL
+    candidates, context = construct(records)
+    deposited = json.loads((ROOT / f'selections/{POOL}/candidate_manifest.json').read_text())
+    assert all(deposited[k] == value for k, value in context.items())
+    with (ROOT / f'selections/{POOL}/candidates.csv').open(encoding='utf-8-sig', newline='') as handle:
+        deposited_candidates = list(csv.DictReader(handle))
+    assert deposited_candidates == [{k: str(v) for k, v in row.items()} for row in candidates]
+    assert len(candidates) == 96 and len({(r['cat'], r['base']) for r in candidates}) == 12
+    assert {r['cat'] for r in candidates} == {'Cu66', 'Ni203'}
+    by_sample = {r['well']: r for r in records}
+    assert {'CFC124009-19-PL37-W2', 'CFC124009-19-PL38-W10'} <= {r['well'] for r in candidates}
     selected = []
-    for pool in ('NH_PL36', 'OH_PL38'):
+    summaries = {r['pool_id']: r for r in json.loads((ROOT / 'selections/plan_summary.json').read_text())}
+    for pool in ('NH_PL36', POOL):
         with (ROOT / f'selections/{pool}/selected_conditions.csv').open(encoding='utf-8-sig', newline='') as handle:
             pool_rows = list(csv.DictReader(handle))
-        assert len(pool_rows) == len({r['candidate_index'] for r in pool_rows}) == 60
+        assert len(pool_rows) == len({r['candidate_index'] for r in pool_rows}) == summaries[pool]['selected_count']
         assert {r['pool_id'] for r in pool_rows} == {pool}
-        if pool == 'OH_PL38':
-            assert {r['catalyst_code'] for r in pool_rows} == {'Ni203'}
-            best = max(pool_rows, key=lambda r: float(r['archived_response_revealed_after_computational_selection']))
-            assert best['sample_id'].endswith('PL38-W10') and int(best['batch_number']) == 1
+        for row in pool_rows:
+            raw = by_sample[row['sample_id']]
+            assert row['catalyst_code'] == raw['cat']
+            assert all(row[key] == raw[key] for key in ('base', 'solvent', 'source_sheet', 'source_excel_row', 'source_response_cell'))
+            assert float(row['archived_response_revealed_after_computational_selection']) == float(raw['response'])
+            if pool == POOL:
+                assert row['source_pool_id'] == raw['pool_id']
+                assert row['source_candidate_index'] == raw['candidate_index']
+                logical = candidates[int(row['candidate_index'])]
+                assert logical['well'] == row['sample_id'] and logical['formulation_code'] == row['formulation_code']
         selected.extend(pool_rows)
-    assert len(selected) == 120
+    assert len(selected) == sum(r['selected_count'] for r in summaries.values())
     # The source peak NMR value is a directly recorded cell, distinct from the
     # fitted-yield column. Preserve the analytical response/yield distinction.
     assert float(cells['亲核试剂(SH)-条件筛选', 'AD308']) == 0.37
@@ -97,8 +108,8 @@ def main(output):
         assert all(abs(px - mm / 25.4 * 600) < 2 for px, mm in zip(pixels, dimensions))
         figures.append(dict(stem=stem, png_pixels=pixels, dimensions_mm=mm, exports=3))
     report = dict(status='passed', split_workbook=split, physical_response_cells_verified=len(records), historical_pool_counts=counts,
-                  current_three_measured_grids=current, measured_conditions_in_current_three_grids=288,
-                  selected_NH_OH_responses_used_for_models=len(selected), OH_catalyst_screen_winner=context,
+                  current_condition_libraries=current, conditions_in_current_three_libraries=288,
+                  selected_NH_OH_responses_used_for_models=len(selected), OH_formulation_library=deposited,
                   figures=figures,
                   environment=dict(python=sys.version, platform=platform.platform()),
                   limitations=['Workbook metadata is not dated laboratory execution chronology.',

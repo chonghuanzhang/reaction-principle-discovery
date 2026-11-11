@@ -65,8 +65,24 @@ sh=dict(pool='SH_PL40',channel='UV response',mean=y,obs=dict(enumerate(y)),selec
 assert sh['best']==65
 post=read(SOURCE/'source_data/NH_OH_posteriors_by_round.csv')
 systems=[]
+oh_candidates=sorted(read(ROOT/'selections/OH_CuNi_96/candidates.csv'),key=lambda r:int(r['candidate_index']))
+assert len(oh_candidates)==96
+oh_library=json.loads((ROOT/'selections/OH_CuNi_96/candidate_manifest.json').read_text())
+assert oh_library['solvents']==['n-hexane','DCE','MeCN','THF','1,4-dioxane','toluene','HFIP','DMF']
+assert [r['solvent'] for r in oh_candidates[:8]]==oh_library['solvents']
+formulations=[]
+for row in range(12):
+    block=oh_candidates[row*8:(row+1)*8]
+    assert len({r['formulation'] for r in block})==1
+    assert [r['solvent'] for r in block]==[r['solvent'] for r in oh_candidates[:8]]
+    rec=block[0]
+    formulations.append(dict(formulation_key=f'F{row+1}',formulation=rec['formulation'],
+        catalyst_code=rec['cat'],base=rec['base'],source_pool_id=rec['source_pool_id']))
+assert len({r['formulation'] for r in formulations})==12
+with (DATA/'OH_formulation_key.csv').open('w',encoding='utf-8',newline='') as f:
+    writer=csv.DictWriter(f,fieldnames=list(formulations[0]));writer.writeheader();writer.writerows(formulations)
 for pool,label,color,channel in [('NH_PL36','N–H',BLUE,'UV response'),
-    ('OH_PL38','O–H',GREEN,'UV response')]:
+    ('OH_CuNi_96','O–H',GREEN,'UV response')]:
     rr=sorted([r for r in post if r['pool']==pool and int(r['after_round'])==5],key=lambda r:int(r['candidate_index']))
     sel=read(ROOT/f'selections/{pool}/selected_conditions.csv')
     obs={int(r['candidate_index']):float(r['archived_response_revealed_after_computational_selection']) for r in sel}
@@ -76,7 +92,10 @@ for pool,label,color,channel in [('NH_PL36','N–H',BLUE,'UV response'),
     assert len(ids)==60 and len(other)==36 and len(rr)==96
     assert all(sum(v==r for v in rounds.values())==12 for r in range(1,6))
     assert all(rr[i]['revealed_response']=='' for i in other)
+    row_prefix='F' if pool=='OH_CuNi_96' else 'B'
+    row_label='Catalyst–base formulation' if row_prefix=='F' else 'Base / additive'
     systems.append(dict(pool=pool,label=label,color=color,channel=channel,mean=mean,sd=sd,obs=obs,
+        row_prefix=row_prefix,row_label=row_label,
         selected=ids,other=other,rounds=rounds,best=max(obs,key=obs.get),
         norm=Normalize(min(0,mean.min()),max(mean.max(),max(obs.values()))),dz=smooth_display(mean.reshape(12,8))))
 
@@ -116,13 +135,15 @@ def landscape(ax,s,large=False,compact=False,relative_colors=False):
         ii=s['other'];ax.scatter(ii%8,ii//8,s['mean'][ii],s=8,facecolors='white',edgecolors=s['color'],lw=.5,depthshade=False,zorder=3)
     ax.scatter([b%8],[b//8],[obs[b]],marker='*',s=95 if large else 55,facecolors=GOLD,edgecolors=INK,lw=.4,depthshade=False,zorder=6)
     ax.view_init(elev=24,azim=-55);ax.set_box_aspect((1,1.22,.85))
-    ax.set_xticks([0,3,7],['S1','S4','S8']);ax.set_yticks([0,3,7,11],['B1','B4','B8','B12'])
+    ax.set_xticks([0,3,7],['S1','S4','S8'])
+    prefix=s.get('row_prefix','B')
+    ax.set_yticks([0,3,7,11],[f'{prefix}{i}' for i in [1,4,8,12]])
     low=min(0,float(s['mean'].min()),min(obs.values()));high=max(float(s['mean'].max()),max(obs.values()))
     ax.set_zlim(low-.015*(high-low),high*1.12);ax.zaxis.set_major_locator(MaxNLocator(3))
     if s is sh:ax.set_zlim(0,3.5);ax.set_zticks([0,1,2,3])
     fs=8 if large else (5.9 if compact else 6.5)
     ax.set_xlabel('Solvent',fontsize=fs,labelpad=-5)
-    ax.set_ylabel('Base / additive',fontsize=fs,labelpad=-5)
+    ax.set_ylabel(s.get('row_label','Base / additive'),fontsize=fs,labelpad=-5)
     ax.set_zlabel(s['channel'],fontsize=fs,labelpad=0 if large else (-5 if compact else -2))
     ax.tick_params(pad=-3,labelsize=6.6 if large else (5.3 if compact else 5.8))
     for axis in (ax.xaxis,ax.yaxis,ax.zaxis):
@@ -174,11 +195,11 @@ def cbar(fig,im,bounds,label):
     cb.ax.tick_params(length=2,width=.4,labelsize=5.7,pad=2)
     cb.locator=MaxNLocator(3);cb.update_ticks();cb.set_label(label,fontsize=6.4,labelpad=3)
 
-def matrix(ax,values,cmap,norm):
+def matrix(ax,values,cmap,norm,row_prefix='B'):
     cmap=cmap.copy();cmap.set_bad('#E8ECEF')
     im=ax.imshow(values,cmap=cmap,norm=norm,aspect='auto',interpolation='nearest')
     ax.set_xticks(range(8),[f'S{i}' for i in range(1,9)],rotation=90,fontsize=5.7)
-    ax.set_yticks(range(12),[f'B{i}' for i in range(1,13)],fontsize=5.7)
+    ax.set_yticks(range(12),[f'{row_prefix}{i}' for i in range(1,13)],fontsize=5.7)
     ax.tick_params(length=0,pad=2)
     ax.set_xticks(np.arange(-.5,8,1),minor=True);ax.set_yticks(np.arange(-.5,12,1),minor=True)
     ax.grid(which='minor',color='white',lw=.4);ax.tick_params(which='minor',length=0)
@@ -321,14 +342,14 @@ for row,(s,yp) in enumerate(zip(systems,[.585,.13])):
     selected=np.full(96,np.nan)
     for i,v in s['obs'].items():selected[i]=v
     ax=fig.add_axes([.085,yp+.035,.17,.305])
-    im=matrix(ax,np.ma.masked_invalid(selected.reshape(12,8)),RESPONSE,Normalize(0,max(s['obs'].values())))
+    im=matrix(ax,np.ma.masked_invalid(selected.reshape(12,8)),RESPONSE,Normalize(0,max(s['obs'].values())),s['row_prefix'])
     ax.text(0,1.04,s['label'],transform=ax.transAxes,fontsize=7,fontweight='bold',va='bottom')
     b=s['best'];ax.scatter(b%8,b//8,s=37,marker='*',c=GOLD,edgecolors=INK,lw=.35,zorder=5)
-    ax.set_xlabel('Solvent',labelpad=3,fontsize=6.5);ax.set_ylabel('Base / additive',labelpad=3,fontsize=6.5)
+    ax.set_xlabel('Solvent',labelpad=3,fontsize=6.5);ax.set_ylabel(s['row_label'],labelpad=3,fontsize=6.5)
     cbar(fig,im,[.276,yp+.060,.010,.245],s['channel'])
     landscape(fig.add_axes([.305,yp-.015,.42,.425],projection='3d'),s)
     ax=fig.add_axes([.758,yp+.035,.145,.305])
-    im=matrix(ax,s['sd'].reshape(12,8),SDMAP,Normalize(0,float(s['sd'].max())))
+    im=matrix(ax,s['sd'].reshape(12,8),SDMAP,Normalize(0,float(s['sd'].max())),s['row_prefix'])
     for i,r in s['rounds'].items():
         ax.text(i%8,i//8,str(r),ha='center',va='center',fontsize=5.8,
             color='white' if s['sd'][i]/s['sd'].max()>.65 else INK)
@@ -348,7 +369,8 @@ save(fig,'SI_BO1_posterior_landscapes')
 sources=[SOURCE/'source_data/SH_PL40_full_measured_grid_seed5010.csv',
     SOURCE/'source_data/NH_OH_posteriors_by_round.csv',SOURCE/'source_data/condition_key.csv',
     ARCH/'data/run_budgets.csv',ROOT/'figures/source_data/SH_reanalysis_summary.json',ecdf_file]
-sources += [ROOT/f'selections/{s["pool"]}/selected_conditions.csv' for s in systems]+[map_source]
+sources += [ROOT/f'selections/{s["pool"]}/selected_conditions.csv' for s in systems]+[map_source,
+    ROOT/'selections/OH_CuNi_96/candidates.csv',ROOT/'selections/OH_CuNi_96/candidate_manifest.json']
 for p in sources:
     output_name=f'{p.parent.name}_{p.name}' if p.name=='selected_conditions.csv' else p.name
     shutil.copy2(p,DATA/output_name)
@@ -362,14 +384,19 @@ with (DATA/'SH_100_paired_budgets.csv').open('w',newline='') as f:
 manifest=dict(figures=exports,font=os.environ.get('REACTION_FONT','DejaVu Sans'),width_mm=180,main_height_mm=265,png_dpi=600,
     main_panel_map=dict(a='SH measured surface',b='100-pair discovery CDF',c='Paired budget savings',
         d='Bayesian selection map, seed5010,24conditions',e='Random selection map, seed5010,48conditions',
-        f='NH final posterior surface',g='Ni-catalysed OH final posterior surface'),
+        f='NH final posterior surface',g='OH catalyst–base formulation / solvent final posterior surface'),
     source_sha256={str(p):sha(p) for p in sources},
     SH=dict(n_conditions=96,n_seed_pairs=100,seeds=[5000,5099],bo_hit_counts=counts['BO'],random_hit_counts=counts['random'],
         median_budgets=[float(np.median(bo)),float(np.median(rand))],mean_conditions_saved=float(savings.mean()),
         earlier_tied_later=[int(np.sum(savings>0)),int(np.sum(savings==0)),int(np.sum(savings<0))],
         mean_saving_bootstrap_interval=[20.88,30.72],surface_replay_seed=5010,nmr_peak_annotation='37% NMR yield',
         discovery_band='Archived 95% pointwise percentile bootstrap interval, 20000 paired-seed resamples, seed20261025'),
+    OH_formulations=formulations,
+    OH_library_construction=dict(mandatory_reference_formulations=oh_library['mandatory_formulations'],
+        sampled_other_formulations=10,formulation_selection_seed=oh_library['formulation_selection_seed'],
+        information_boundary=oh_library['candidate_library_information_boundary']),
     NH_OH=[dict(pool=s['pool'],selected=60,other_model_predictions=36,channel=s['channel'],
+        row_axis=s['row_label'],row_key_prefix=s['row_prefix'],
         vertex_error=float(np.max(np.abs(s['dz'][::SUB,::SUB]-s['mean'].reshape(12,8))))) for s in systems],
     surface_interpolation='Bounded tensor Hermite; display only; original category vertices exact; no continuous chemistry claim',
     batch_record_scope='Numerical analysis of N–H/O–H Bayesian condition selection; exported batches are not primary laboratory execution logs',
