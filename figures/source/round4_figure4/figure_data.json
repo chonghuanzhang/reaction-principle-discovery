@@ -45,7 +45,7 @@
   ],
   "figure_dimensions_mm": [
     180,
-    210
+    175
   ],
   "font": "DejaVu Sans",
   "novelty_plot_units": "category fractions, counts labelled for n>=5",
@@ -53,5 +53,7 @@
     "candidates/data/candidates_100.json": "e2d83e587225475dfc6fa1b3987c1be798966d43bb28c5106190aeeb268d19bb",
     "candidates/experiment_mapping/mapping_108.json": "2ce83eca2be572883f6f142dc7a46200d4ea504de89dab0354a129454a2ffcfb",
     "code/data/mapping/novelty_summary.json": "01bad7772333f72132689722d7630f2b65017b339589fcb06c7e68352a40975a"
-  }
+  },
+  "molecule_scale": 0.5,
+  "compact_layout": true
 }

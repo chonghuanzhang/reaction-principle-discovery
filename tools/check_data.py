@@ -104,7 +104,7 @@ def main():
     assert (ROOT/'candidates/figures/N1_novelty_distributions.png').is_file()
 
     composition = json.loads((ROOT/'figures/source/Figure_4_composition.json').read_text(encoding='utf-8'))
-    assert composition['canvas_px'] == [4252, 4961]
+    assert composition['canvas_px'] == [4252, 4134]
     assert set(composition['panels']) == set('abcde')
     asset = composition['authoritative_master']
     path = (ROOT/asset['path']).resolve()

@@ -15,7 +15,7 @@ Start with the scientific question in the article, use the SI for detailed metho
 | Novelty; Supplementary Fig. 5 and SI S5.6 | [Assessment guide and Figure N1](../candidates/novelty_assessment.md) | Search scope, NP/NR definitions, unresolved cases and complete distributions |
 | Candidate–experiment association; SI S5.5 | [Table R1](../candidates/experiment_mapping/) | All 108 recorded electrophile–donor pairs and their structural relationships to recommendations; these associations do not independently document individual substitution decisions |
 | Proposed product connectivity; SI S5.6 | [Table R2](../candidates/product_options/) | 124 product-option records, registry comparisons and NP/NR assessments |
-| Base and solvent library; SI S6.2 | [Condition library](../experiments/condition_library/) | Twelve base/additive entries and eight solvents with chemical context |
+| Formulation and solvent libraries; SI S6.2 | [Condition library](../experiments/condition_library/) | System-specific F1–F12 formulations, fixed S–H/N–H catalyst/ligand backgrounds, O–H catalyst–base pairs and eight solvents with chemical context |
 | Sulfur selection benchmark; SI S6.5 | [Table R3](../experiments/bo_benchmark/) | 100 paired seeds, first-hit budgets and paired savings |
 | Nitrogen/oxygen selection; SI S6.6–S6.7 | [Table R4](../experiments/selected_responses/) | 120 selected responses, with system, batch, condition and analytical unit |
 | Model operations; SI S4 | [Model workflow](../code/docs/model_workflow.md) | Exact prompts, original working constraints, validation rules and saved model responses |

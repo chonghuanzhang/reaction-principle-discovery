@@ -3,11 +3,11 @@
   "format": "five-panel vector drawing from deposited scientific records",
   "canvas_px": [
     4252,
-    4961
+    4134
   ],
   "figure_dimensions_mm": [
     180,
-    210
+    175
   ],
   "dpi": [
     600,
@@ -17,14 +17,14 @@
     "a": "radial reacting-centre category counts",
     "b": "neutral, ionic and precursor donor forms",
     "c": "candidate, hypothesis and product-option counts",
-    "d": "candidate–experimental N/O/S donor associations",
+    "d": "candidate\u2013experimental N/O/S donor associations",
     "e": "NP and NR category fractions for candidate molecules and experimental pairs"
   },
   "source_data": "figures/source/round4_figure4/figure_data.json",
   "novelty_panel_source_data": "figures/source/round4_figure4/novelty_panel_e.csv",
   "authoritative_master": {
     "path": "figures/main/Figure_4.png",
-    "sha256": "565ca6ca8953c6d47791b7870086cc85b3dd85227b5afb01c4e8a581122aad36"
+    "sha256": "642b84aa684d07523128484ced80f31bc5830693803710c1a3ba94158dadcf01"
   },
   "vector_pdf": "figures/main/Figure_4.pdf",
   "vector_svg": "figures/main/Figure_4.svg",
@@ -35,5 +35,7 @@
     "Molecular structures are read from the deposited candidate and experimental-input records.",
     "Structural association arrows do not denote chemical transformations or independently documented replacement decisions.",
     "NP and NR are separate ordinal classifications; their different populations are not a paired before/after comparison."
-  ]
+  ],
+  "molecule_linear_scale": 0.5,
+  "compact_layout": true
 }

@@ -1,5 +1,4 @@
 """Prevent the figure entrypoint from reproducing obsolete Figure 4 artwork."""
-import io
 import os
 from pathlib import Path
 import subprocess
@@ -30,28 +29,23 @@ class Figure4CompositionTests(unittest.TestCase):
     def tearDownClass(cls):
         cls.output.cleanup()
 
-    def test_entrypoint_reproduces_current_master_and_preserves_panels_abc(self):
+    def test_entrypoint_reproduces_current_master(self):
         with Image.open(self.figure_dir/'Figure_4.png') as output:
             actual = output.convert('RGB')
         with Image.open(ROOT/'figures/main/Figure_4.png') as master:
             expected = master.convert('RGB')
         self.assertEqual(actual.size, expected.size)
         self.assertIsNone(ImageChops.difference(actual, expected).getbbox())
-        with Image.open(ROOT/'figures/source/Figure_4_panels_abc.png') as source:
-            preserved = actual.crop((0, 0, source.width, source.height))
-            self.assertIsNone(ImageChops.difference(preserved, source.convert('RGB')).getbbox())
 
-    def test_pdf_embeds_the_lossless_current_master(self):
+    def test_pdf_remains_vector_artwork_at_compact_print_dimensions(self):
         with pymupdf.open(self.figure_dir/'Figure_4.pdf') as document:
             self.assertEqual(len(document), 1)
             images = document[0].get_images()
-            self.assertEqual(len(images), 1)
-            with Image.open(io.BytesIO(document.extract_image(images[0][0])['image'])) as embedded:
-                actual = embedded.convert('RGB')
-        with Image.open(ROOT/'figures/main/Figure_4.png') as master:
-            expected = master.convert('RGB')
-        self.assertEqual(actual.size, expected.size)
-        self.assertIsNone(ImageChops.difference(actual, expected).getbbox())
+            self.assertEqual(len(images), 0)
+            self.assertTrue(document[0].get_drawings())
+            self.assertTrue(document[0].get_text().strip())
+            self.assertAlmostEqual(document[0].rect.width * 25.4 / 72, 180, places=2)
+            self.assertAlmostEqual(document[0].rect.height * 25.4 / 72, 175, places=2)
 
 
 if __name__ == '__main__':

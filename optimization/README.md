@@ -2,6 +2,8 @@
 
 This directory contains the recorded response workbooks, frozen Bayesian model, condition-selection records and source data for Figure 5 and Repository Figures BO1–BO3 (Supplementary Figures 7–9). It is a runnable subsystem: model code, inputs, selection histories and artwork remain together.
 
+All three current libraries use twelve formulation identities crossed with eight solvent identities. A formulation comprises the catalyst, ligand where present, and base/additive: CuCl/PPh3 is fixed for S–H and Ag2SO4/PPh3 is fixed for N–H, whereas the specified Cu/Ni catalyst varies with the O–H formulation. The models use formulation and solvent identities and their interactions. Figure axes use **Formulation** and system-specific F1–F12 keys; identical F numbers across systems do not imply identical chemistry.
+
 The S–H analysis retrospectively compares Bayesian and random selection on a fixed measured 96-condition grid. One hundred paired computational initializations give median first-hit budgets of **24 and 48 conditions**. For O–H, Bayesian condition selection varies 12 catalyst–base formulations and eight solvents. The library includes Cu66/K3PO4 and Ni203/DIPEA as reference formulations, plus ten identities sampled from the other 22 Cu/Ni–base combinations with seed 20261111; every condition has a recorded experimental response. N–H and O–H response records support separate selected-label posterior analyses. The deposited numerical reproduction uses **60 selected responses in five computational batches** from the measured N–H grid and the O–H formulation–solvent library (120 labels in total) to reproduce the posterior fits and stopping diagnostics. These analysis exports are not primary laboratory execution logs. The retrospective BO/random comparison reported in the main analysis concerns S–H.
 
 ## Files to inspect
@@ -19,7 +21,7 @@ The S–H analysis retrospectively compares Bayesian and random selection on a f
 
 [Figure legends and interpretation](FIGURE_GUIDE.md) provide BO1–BO3 artwork links, complete panel legends, source-data links, condition identities and response scales.
 
-The complete benchmark and selected-response records are available as [Repository Table R3](../experiments/bo_benchmark/) and [Repository Table R4](../experiments/selected_responses/). Component explanations and citations are in [experiments/condition_library](../experiments/condition_library/). The [O–H formulation key](figures/source_data/OH_formulation_key.csv) maps F1–F12 to catalyst and base; [the candidate manifest](selections/OH_CuNi_96/candidate_manifest.json) records the two mandatory references, random sample and physical source cells.
+The complete benchmark and selected-response records are available as [Repository Table R3](../experiments/bo_benchmark/) and [Repository Table R4](../experiments/selected_responses/). Component explanations and citations are in [experiments/condition_library](../experiments/condition_library/). The [S–H/N–H formulation key](figures/source_data/NH_SH_formulation_key.csv) gives the fixed catalyst/ligand and the base/additive for each system-specific F1–F12 entry. The [O–H formulation key](figures/source_data/OH_formulation_key.csv) maps its F1–F12 entries to catalyst and base; [the candidate manifest](selections/OH_CuNi_96/candidate_manifest.json) records the two mandatory references, random sample and physical source cells.
 
 ## Reproduce the analysis
 

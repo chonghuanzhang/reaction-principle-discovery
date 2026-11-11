@@ -13,13 +13,13 @@
     "c": "Paired budget savings",
     "d": "Bayesian selection map, seed5010,24conditions",
     "e": "Random selection map, seed5010,48conditions",
-    "f": "NH final posterior surface",
-    "g": "OH catalyst–base formulation / solvent final posterior surface"
+    "f": "NH formulation / solvent final posterior surface",
+    "g": "OH formulation / solvent final posterior surface"
   },
   "source_sha256": {
     "optimization/figures/source_data/SH_PL40_full_measured_grid_seed5010.csv": "acc6911e7e2e9c71a42697edc8df0701ee602e51eeb733e4406af172594c8beb",
     "optimization/figures/source_data/NH_OH_posteriors_by_round.csv": "b384e1835ef8d973ebfc6e8b0ff77ae276c46eabf1305718f828f1923decaf95",
-    "optimization/figures/source_data/condition_key.csv": "fd359b9f72810b2c28d4a31db5aaf9caf9c37f498d494922fcebf317035b6a69",
+    "optimization/figures/source_data/condition_key.csv": "f5b2a9292b25b6c3cab2af9eede74e78422869d0ed2c0416fa05cd2d1495afe0",
     "optimization/benchmark/data/run_budgets.csv": "6ddc9928599d3746a07ac1d639183f88fbec22b11736be353d38ab50da70646b",
     "optimization/figures/source_data/SH_reanalysis_summary.json": "f5705fd783771fee1125d1b2974bc60d205a080156fad19b949d63a58905a772",
     "optimization/figures/source_data/SH_hit_budget_ecdf.csv": "0d2562b9db5897dc3822463eb4b64f94ec219cdf092f5a8dc87d0f39526fc8c5",
@@ -73,6 +73,316 @@
     "surface_replay_seed": 5010,
     "nmr_peak_annotation": "37% NMR yield",
     "discovery_band": "Archived 95% pointwise percentile bootstrap interval, 20000 paired-seed resamples, seed20261025"
+  },
+  "formulation_axis": {
+    "label": "Formulation",
+    "category_codes": "F1–F12; identities are system-specific",
+    "definition": "Catalyst, ligand when present, and base/additive as one formulation identity",
+    "NH_SH_fixed_formulations": [
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F1",
+        "formulation": "CuCl/PPh3 | K3PO4",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "K3PO4"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F2",
+        "formulation": "CuCl/PPh3 | DIPEA",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "DIPEA"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F3",
+        "formulation": "CuCl/PPh3 | KHCO3",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "KHCO3"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F4",
+        "formulation": "CuCl/PPh3 | NaHCO3",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "NaHCO3"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F5",
+        "formulation": "CuCl/PPh3 | K2CO3",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "K2CO3"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F6",
+        "formulation": "CuCl/PPh3 | K2HPO4",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "K2HPO4"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F7",
+        "formulation": "CuCl/PPh3 | NaOH",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "NaOH"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F8",
+        "formulation": "CuCl/PPh3 | Na3PO4·12H2O",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "Na3PO4·12H2O"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F9",
+        "formulation": "CuCl/PPh3 | CsOH/2",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "CsOH/2"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F10",
+        "formulation": "CuCl/PPh3 | CsF",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "CsF"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F11",
+        "formulation": "CuCl/PPh3 | NaH",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "NaH"
+      },
+      {
+        "pool_id": "SH_PL40",
+        "formulation_key": "F12",
+        "formulation": "CuCl/PPh3 | KOtBu",
+        "catalyst_code": "Cu9",
+        "catalyst": "CuCl",
+        "ligand": "PPh3",
+        "base": "KOtBu"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F1",
+        "formulation": "Ag2SO4/PPh3 | K3PO4",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "K3PO4"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F2",
+        "formulation": "Ag2SO4/PPh3 | DIPEA",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "DIPEA"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F3",
+        "formulation": "Ag2SO4/PPh3 | KHCO3",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "KHCO3"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F4",
+        "formulation": "Ag2SO4/PPh3 | NaHCO3",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "NaHCO3"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F5",
+        "formulation": "Ag2SO4/PPh3 | K2CO3",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "K2CO3"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F6",
+        "formulation": "Ag2SO4/PPh3 | K2HPO4",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "K2HPO4"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F7",
+        "formulation": "Ag2SO4/PPh3 | NaOH",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "NaOH"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F8",
+        "formulation": "Ag2SO4/PPh3 | Na3PO4·12H2O",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "Na3PO4·12H2O"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F9",
+        "formulation": "Ag2SO4/PPh3 | CsOH/2",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "CsOH/2"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F10",
+        "formulation": "Ag2SO4/PPh3 | CsF",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "CsF"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F11",
+        "formulation": "Ag2SO4/PPh3 | NaH",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "NaH"
+      },
+      {
+        "pool_id": "NH_PL36",
+        "formulation_key": "F12",
+        "formulation": "Ag2SO4/PPh3 | KOtBu",
+        "catalyst_code": "Ag13",
+        "catalyst": "Ag2SO4",
+        "ligand": "PPh3",
+        "base": "KOtBu"
+      }
+    ],
+    "OH_formulations": [
+      {
+        "formulation_key": "F1",
+        "formulation": "Cu66 | CsOH/2",
+        "catalyst_code": "Cu66",
+        "base": "CsOH/2",
+        "source_pool_id": "OH_PL37"
+      },
+      {
+        "formulation_key": "F2",
+        "formulation": "Cu66 | DIPEA",
+        "catalyst_code": "Cu66",
+        "base": "DIPEA",
+        "source_pool_id": "OH_PL37"
+      },
+      {
+        "formulation_key": "F3",
+        "formulation": "Cu66 | K2CO3",
+        "catalyst_code": "Cu66",
+        "base": "K2CO3",
+        "source_pool_id": "OH_PL37"
+      },
+      {
+        "formulation_key": "F4",
+        "formulation": "Cu66 | K3PO4",
+        "catalyst_code": "Cu66",
+        "base": "K3PO4",
+        "source_pool_id": "OH_PL37"
+      },
+      {
+        "formulation_key": "F5",
+        "formulation": "Cu66 | KHCO3",
+        "catalyst_code": "Cu66",
+        "base": "KHCO3",
+        "source_pool_id": "OH_PL37"
+      },
+      {
+        "formulation_key": "F6",
+        "formulation": "Cu66 | NaH",
+        "catalyst_code": "Cu66",
+        "base": "NaH",
+        "source_pool_id": "OH_PL37"
+      },
+      {
+        "formulation_key": "F7",
+        "formulation": "Cu66 | NaOH",
+        "catalyst_code": "Cu66",
+        "base": "NaOH",
+        "source_pool_id": "OH_PL37"
+      },
+      {
+        "formulation_key": "F8",
+        "formulation": "Ni203 | CsF",
+        "catalyst_code": "Ni203",
+        "base": "CsF",
+        "source_pool_id": "OH_PL38"
+      },
+      {
+        "formulation_key": "F9",
+        "formulation": "Ni203 | CsOH/2",
+        "catalyst_code": "Ni203",
+        "base": "CsOH/2",
+        "source_pool_id": "OH_PL38"
+      },
+      {
+        "formulation_key": "F10",
+        "formulation": "Ni203 | DIPEA",
+        "catalyst_code": "Ni203",
+        "base": "DIPEA",
+        "source_pool_id": "OH_PL38"
+      },
+      {
+        "formulation_key": "F11",
+        "formulation": "Ni203 | K2HPO4",
+        "catalyst_code": "Ni203",
+        "base": "K2HPO4",
+        "source_pool_id": "OH_PL38"
+      },
+      {
+        "formulation_key": "F12",
+        "formulation": "Ni203 | NaOH",
+        "catalyst_code": "Ni203",
+        "base": "NaOH",
+        "source_pool_id": "OH_PL38"
+      }
+    ],
+    "SH_matrix_tick_labels": "Base/additive names within fixed CuCl/PPh3 background"
   },
   "OH_formulations": [
     {
@@ -181,8 +491,8 @@
       "selected": 60,
       "other_model_predictions": 36,
       "channel": "UV response",
-      "row_axis": "Base / additive",
-      "row_key_prefix": "B",
+      "row_axis": "Formulation",
+      "row_key_prefix": "F",
       "vertex_error": 0.0
     },
     {
@@ -190,7 +500,7 @@
       "selected": 60,
       "other_model_predictions": 36,
       "channel": "UV response",
-      "row_axis": "Catalyst–base formulation",
+      "row_axis": "Formulation",
       "row_key_prefix": "F",
       "vertex_error": 0.0
     }

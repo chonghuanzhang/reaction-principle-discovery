@@ -61,7 +61,8 @@ grid=sorted(read(SOURCE/'source_data/SH_PL40_full_measured_grid_seed5010.csv'),k
 y=np.array([float(r['measured_uv_response']) for r in grid])
 sh=dict(pool='SH_PL40',channel='UV response',mean=y,obs=dict(enumerate(y)),selected=np.arange(96),
     other=np.array([],dtype=int),rounds={i:int(r['bo_selection_round']) for i,r in enumerate(grid)},
-    best=int(y.argmax()),color=BLUE,norm=Normalize(0,y.max()),dz=smooth_display(y.reshape(12,8)))
+    best=int(y.argmax()),color=BLUE,norm=Normalize(0,y.max()),dz=smooth_display(y.reshape(12,8)),
+    row_prefix='F',row_label='Formulation')
 assert sh['best']==65
 post=read(SOURCE/'source_data/NH_OH_posteriors_by_round.csv')
 systems=[]
@@ -81,6 +82,17 @@ for row in range(12):
 assert len({r['formulation'] for r in formulations})==12
 with (DATA/'OH_formulation_key.csv').open('w',encoding='utf-8',newline='') as f:
     writer=csv.DictWriter(f,fieldnames=list(formulations[0]));writer.writeheader();writer.writerows(formulations)
+condition_key=sorted(read(SOURCE/'source_data/condition_key.csv'),key=lambda r:int(r['candidate_index']))
+assert len(condition_key)==96
+fixed_formulations=[]
+for pool,catalyst_code,catalyst in [('SH_PL40','Cu9','CuCl'),('NH_PL36','Ag13','Ag2SO4')]:
+    for row in range(12):
+        base=condition_key[row*8]['base']
+        fixed_formulations.append(dict(pool_id=pool,formulation_key=f'F{row+1}',
+            formulation=f'{catalyst}/PPh3 | {base}',catalyst_code=catalyst_code,
+            catalyst=catalyst,ligand='PPh3',base=base))
+with (DATA/'NH_SH_formulation_key.csv').open('w',encoding='utf-8',newline='') as f:
+    writer=csv.DictWriter(f,fieldnames=list(fixed_formulations[0]));writer.writeheader();writer.writerows(fixed_formulations)
 for pool,label,color,channel in [('NH_PL36','N–H',BLUE,'UV response'),
     ('OH_CuNi_96','O–H',GREEN,'UV response')]:
     rr=sorted([r for r in post if r['pool']==pool and int(r['after_round'])==5],key=lambda r:int(r['candidate_index']))
@@ -92,8 +104,8 @@ for pool,label,color,channel in [('NH_PL36','N–H',BLUE,'UV response'),
     assert len(ids)==60 and len(other)==36 and len(rr)==96
     assert all(sum(v==r for v in rounds.values())==12 for r in range(1,6))
     assert all(rr[i]['revealed_response']=='' for i in other)
-    row_prefix='F' if pool=='OH_CuNi_96' else 'B'
-    row_label='Catalyst–base formulation' if row_prefix=='F' else 'Base / additive'
+    row_prefix='F'
+    row_label='Formulation'
     systems.append(dict(pool=pool,label=label,color=color,channel=channel,mean=mean,sd=sd,obs=obs,
         row_prefix=row_prefix,row_label=row_label,
         selected=ids,other=other,rounds=rounds,best=max(obs,key=obs.get),
@@ -136,14 +148,14 @@ def landscape(ax,s,large=False,compact=False,relative_colors=False):
     ax.scatter([b%8],[b//8],[obs[b]],marker='*',s=95 if large else 55,facecolors=GOLD,edgecolors=INK,lw=.4,depthshade=False,zorder=6)
     ax.view_init(elev=24,azim=-55);ax.set_box_aspect((1,1.22,.85))
     ax.set_xticks([0,3,7],['S1','S4','S8'])
-    prefix=s.get('row_prefix','B')
+    prefix=s.get('row_prefix','F')
     ax.set_yticks([0,3,7,11],[f'{prefix}{i}' for i in [1,4,8,12]])
     low=min(0,float(s['mean'].min()),min(obs.values()));high=max(float(s['mean'].max()),max(obs.values()))
     ax.set_zlim(low-.015*(high-low),high*1.12);ax.zaxis.set_major_locator(MaxNLocator(3))
     if s is sh:ax.set_zlim(0,3.5);ax.set_zticks([0,1,2,3])
     fs=8 if large else (5.9 if compact else 6.5)
     ax.set_xlabel('Solvent',fontsize=fs,labelpad=-5)
-    ax.set_ylabel(s.get('row_label','Base / additive'),fontsize=fs,labelpad=-5)
+    ax.set_ylabel(s.get('row_label','Formulation'),fontsize=fs,labelpad=-5)
     ax.set_zlabel(s['channel'],fontsize=fs,labelpad=0 if large else (-5 if compact else -2))
     ax.tick_params(pad=-3,labelsize=6.6 if large else (5.3 if compact else 5.8))
     for axis in (ax.xaxis,ax.yaxis,ax.zaxis):
@@ -195,7 +207,7 @@ def cbar(fig,im,bounds,label):
     cb.ax.tick_params(length=2,width=.4,labelsize=5.7,pad=2)
     cb.locator=MaxNLocator(3);cb.update_ticks();cb.set_label(label,fontsize=6.4,labelpad=3)
 
-def matrix(ax,values,cmap,norm,row_prefix='B'):
+def matrix(ax,values,cmap,norm,row_prefix='F'):
     cmap=cmap.copy();cmap.set_bad('#E8ECEF')
     im=ax.imshow(values,cmap=cmap,norm=norm,aspect='auto',interpolation='nearest')
     ax.set_xticks(range(8),[f'S{i}' for i in range(1,9)],rotation=90,fontsize=5.7)
@@ -221,7 +233,7 @@ def selection_map(ax,method):
     color=METHOD_BO if method=='Bayesian' else METHOD_RANDOM
     ax.imshow((y/y.max()).reshape(12,8),cmap=RESPONSE,norm=RELATIVE_NORM,aspect='auto',interpolation='nearest')
     ax.set(xticks=range(8),yticks=range(12),xticklabels=SOL_LABELS,yticklabels=BASE_LABELS,xlabel='Solvent')
-    if method=='Bayesian':ax.set_ylabel('Base / additive',labelpad=5,fontsize=7)
+    ax.set_ylabel('Formulation',labelpad=5,fontsize=7)
     ax.tick_params(length=0,pad=3,labelsize=6.3)
     plt.setp(ax.get_xticklabels(),rotation=45,ha='right',rotation_mode='anchor')
     ax.set_xticks(np.arange(-.5,8,1),minor=True);ax.set_yticks(np.arange(-.5,12,1),minor=True)
@@ -384,13 +396,17 @@ with (DATA/'SH_100_paired_budgets.csv').open('w',newline='') as f:
 manifest=dict(figures=exports,font=os.environ.get('REACTION_FONT','DejaVu Sans'),width_mm=180,main_height_mm=265,png_dpi=600,
     main_panel_map=dict(a='SH measured surface',b='100-pair discovery CDF',c='Paired budget savings',
         d='Bayesian selection map, seed5010,24conditions',e='Random selection map, seed5010,48conditions',
-        f='NH final posterior surface',g='OH catalyst–base formulation / solvent final posterior surface'),
+        f='NH formulation / solvent final posterior surface',g='OH formulation / solvent final posterior surface'),
     source_sha256={str(p):sha(p) for p in sources},
     SH=dict(n_conditions=96,n_seed_pairs=100,seeds=[5000,5099],bo_hit_counts=counts['BO'],random_hit_counts=counts['random'],
         median_budgets=[float(np.median(bo)),float(np.median(rand))],mean_conditions_saved=float(savings.mean()),
         earlier_tied_later=[int(np.sum(savings>0)),int(np.sum(savings==0)),int(np.sum(savings<0))],
         mean_saving_bootstrap_interval=[20.88,30.72],surface_replay_seed=5010,nmr_peak_annotation='37% NMR yield',
         discovery_band='Archived 95% pointwise percentile bootstrap interval, 20000 paired-seed resamples, seed20261025'),
+    formulation_axis=dict(label='Formulation',category_codes='F1–F12; identities are system-specific',
+        definition='Catalyst, ligand when present, and base/additive as one formulation identity',
+        NH_SH_fixed_formulations=fixed_formulations,OH_formulations=formulations,
+        SH_matrix_tick_labels='Base/additive names within fixed CuCl/PPh3 background'),
     OH_formulations=formulations,
     OH_library_construction=dict(mandatory_reference_formulations=oh_library['mandatory_formulations'],
         sampled_other_formulations=10,formulation_selection_seed=oh_library['formulation_selection_seed'],

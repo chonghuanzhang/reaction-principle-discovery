@@ -35,7 +35,7 @@
     }
   },
   "initial_design": "uniform random sample of 12 candidate indices without replacement; existing reference seeds retained without an outcome-based seed search",
-  "model": "model/bo_core.py; standardized 116-dimensional categorical feature kernel (12 NH base levels or 12 OH formulation levels, 8 solvents, and 96 interactions); normal–inverse-gamma Bayesian linear regression",
+  "model": "model/bo_core.py; standardized 116-dimensional categorical feature kernel (12 formulation identities, 8 solvent identities, and 96 formulation–solvent interactions); normal–inverse-gamma Bayesian linear regression. N–H formulations have a fixed Ag2SO4/PPh3 catalyst/ligand background, so their formulation identities correspond one-to-one to the original base/additive categories; O–H formulations include the specified Cu/Ni catalyst–base pair.",
   "acquisition": "latent posterior mean + 1.96 * latent posterior SD; frozen posterior for each batch of 12",
   "model_input_boundary": "Only previously selected experimental response labels enter the BO policy or stop monitor. The candidate library includes two author-requested known reference formulations; the remaining ten identities are sampled without inspecting their responses. Candidate-library construction is reference-informed, not a response-blind discovery benchmark.",
   "analysis_budget": {
