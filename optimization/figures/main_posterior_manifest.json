@@ -1,0 +1,268 @@
+{
+  "figures": [
+    "Main_Fig5_Bayesian_optimization",
+    "SI_BO1_posterior_landscapes"
+  ],
+  "font": "DejaVu Sans",
+  "width_mm": 180,
+  "main_height_mm": 265,
+  "png_dpi": 600,
+  "main_panel_map": {
+    "a": "SH measured surface",
+    "b": "100-pair discovery CDF",
+    "c": "Paired budget savings",
+    "d": "Bayesian selection map, seed5010,24conditions",
+    "e": "Random selection map, seed5010,48conditions",
+    "f": "NH final posterior surface",
+    "g": "Ni-catalysed OH final posterior surface"
+  },
+  "source_sha256": {
+    "optimization/figures/source_data/SH_PL40_full_measured_grid_seed5010.csv": "acc6911e7e2e9c71a42697edc8df0701ee602e51eeb733e4406af172594c8beb",
+    "optimization/figures/source_data/NH_OH_posteriors_by_round.csv": "24f8203b53e6bc4571b0fec835d902f3bd239479de11e5b43f0ce5625b268a89",
+    "optimization/figures/source_data/condition_key.csv": "fd359b9f72810b2c28d4a31db5aaf9caf9c37f498d494922fcebf317035b6a69",
+    "optimization/benchmark/data/run_budgets.csv": "6ddc9928599d3746a07ac1d639183f88fbec22b11736be353d38ab50da70646b",
+    "optimization/figures/source_data/SH_reanalysis_summary.json": "f5705fd783771fee1125d1b2974bc60d205a080156fad19b949d63a58905a772",
+    "optimization/figures/source_data/SH_hit_budget_ecdf.csv": "0d2562b9db5897dc3822463eb4b64f94ec219cdf092f5a8dc87d0f39526fc8c5",
+    "optimization/selections/NH_PL36/selected_conditions.csv": "0838e4a384d8e4e8d57ed935f504daab552e63c7e720b3d6e8385d1b98aa1ba1",
+    "optimization/selections/OH_PL38/selected_conditions.csv": "aecba97fa8e4f9be5e7fe1673344f40cb2d1b96134bc7b8243f2cb01728da795",
+    "optimization/figures/source_data/SH_seed5010_selection_map_annotations.csv": "d9c73b091a68a1d03ba18043abc8824132c14004c7884d5167c8f1d443da061a"
+  },
+  "SH": {
+    "n_conditions": 96,
+    "n_seed_pairs": 100,
+    "seeds": [
+      5000,
+      5099
+    ],
+    "bo_hit_counts": [
+      15,
+      72,
+      96,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "random_hit_counts": [
+      15,
+      29,
+      44,
+      51,
+      63,
+      77,
+      89,
+      100
+    ],
+    "median_budgets": [
+      24.0,
+      48.0
+    ],
+    "mean_conditions_saved": 25.8,
+    "earlier_tied_later": [
+      67,
+      30,
+      3
+    ],
+    "mean_saving_bootstrap_interval": [
+      20.88,
+      30.72
+    ],
+    "surface_replay_seed": 5010,
+    "nmr_peak_annotation": "37% NMR yield",
+    "discovery_band": "Archived 95% pointwise percentile bootstrap interval, 20000 paired-seed resamples, seed20261025"
+  },
+  "NH_OH": [
+    {
+      "pool": "NH_PL36",
+      "selected": 60,
+      "other_model_predictions": 36,
+      "channel": "UV response",
+      "vertex_error": 0.0
+    },
+    {
+      "pool": "OH_PL38",
+      "selected": 60,
+      "other_model_predictions": 36,
+      "channel": "UV response",
+      "vertex_error": 0.0
+    }
+  ],
+  "surface_interpolation": "Bounded tensor Hermite; display only; original category vertices exact; no continuous chemistry claim",
+  "batch_record_scope": "Numerical analysis of N–H/O–H Bayesian condition selection; exported batches are not primary laboratory execution logs",
+  "batch_response_summaries": [
+    {
+      "pool": "NH_PL36",
+      "round": 1,
+      "n": 12,
+      "minimum": 0.0,
+      "q1": 0.0,
+      "median": 0.00742383984774025,
+      "q3": 0.044743361588197576,
+      "maximum": 0.429097516212395
+    },
+    {
+      "pool": "NH_PL36",
+      "round": 2,
+      "n": 12,
+      "minimum": 0.0,
+      "q1": 0.0,
+      "median": 0.085658391973652,
+      "q3": 0.21389417527027177,
+      "maximum": 0.579418428399771
+    },
+    {
+      "pool": "NH_PL36",
+      "round": 3,
+      "n": 12,
+      "minimum": 0.0,
+      "q1": 0.023003170749700173,
+      "median": 0.169195698262731,
+      "q3": 0.5136077857194881,
+      "maximum": 0.655297435746774
+    },
+    {
+      "pool": "NH_PL36",
+      "round": 4,
+      "n": 12,
+      "minimum": 0.0,
+      "q1": 0.0,
+      "median": 0.01680064234101195,
+      "q3": 0.17808215021654275,
+      "maximum": 0.473290542354492
+    },
+    {
+      "pool": "NH_PL36",
+      "round": 5,
+      "n": 12,
+      "minimum": 0.0,
+      "q1": 0.026612017675599925,
+      "median": 0.0408102113040527,
+      "q3": 0.1848050137025695,
+      "maximum": 0.531216296879485
+    },
+    {
+      "pool": "OH_PL38",
+      "round": 1,
+      "n": 12,
+      "minimum": 0.0172966047405509,
+      "q1": 0.04160282989228878,
+      "median": 0.053384657882588005,
+      "q3": 0.11726736566186126,
+      "maximum": 1.44247787610619
+    },
+    {
+      "pool": "OH_PL38",
+      "round": 2,
+      "n": 12,
+      "minimum": 0.0562347188264059,
+      "q1": 0.0812843342964881,
+      "median": 0.143699499807618,
+      "q3": 0.31880390942461323,
+      "maximum": 1.34876543209877
+    },
+    {
+      "pool": "OH_PL38",
+      "round": 3,
+      "n": 12,
+      "minimum": 0.0355450236966825,
+      "q1": 0.11066194669026627,
+      "median": 0.1482957320934275,
+      "q3": 0.29468887109130176,
+      "maximum": 0.683215130023641
+    },
+    {
+      "pool": "OH_PL38",
+      "round": 4,
+      "n": 12,
+      "minimum": 0.0569105691056911,
+      "q1": 0.0803609864091999,
+      "median": 0.1460291636538923,
+      "q3": 0.31843648711220823,
+      "maximum": 0.448979591836735
+    },
+    {
+      "pool": "OH_PL38",
+      "round": 5,
+      "n": 12,
+      "minimum": 0.0528169014084507,
+      "q1": 0.06592551222486634,
+      "median": 0.0821338939805839,
+      "q3": 0.11932755036203326,
+      "maximum": 0.216970998925886
+    }
+  ],
+  "batch_plot": "Not in final main artwork; numerical summaries retained for provenance only",
+  "main_posterior_surfaces": "Final batch-5 latent posterior means over96 candidates; conditioned on60 selected responses; grey points=selected measured responses, open points=other model means, stars=best selected measured response",
+  "main_shared_color_scale": {
+    "label": "Relative response",
+    "limits": [
+      0,
+      1
+    ],
+    "panels": [
+      "a",
+      "d",
+      "e",
+      "f",
+      "g"
+    ],
+    "formula": "raw response or posterior mean / within-system highest selected measured response",
+    "raw_z_axes_and_cell_values_preserved": true,
+    "SI_color_scales_unchanged": true,
+    "interpretation": "within-system relative response; no equivalent cross-system absolute response or yield",
+    "systems": [
+      {
+        "pool": "SH_PL40",
+        "channel": "UV response",
+        "reference_kind": "complete measured grid maximum",
+        "normalization_reference": 3.20446096654275,
+        "raw_surface_min": 0.0,
+        "raw_surface_max": 3.20446096654275,
+        "relative_surface_min": 0.0,
+        "relative_surface_max": 1.0,
+        "clipped_values": 0,
+        "original_vertex_height_max_error": 0.0
+      },
+      {
+        "pool": "NH_PL36",
+        "channel": "UV response",
+        "reference_kind": "highest selected measured response",
+        "normalization_reference": 0.655297435746774,
+        "raw_surface_min": 0.001078074846428051,
+        "raw_surface_max": 0.6512855329696513,
+        "relative_surface_min": 0.001645168724335815,
+        "relative_surface_max": 0.9938777377137898,
+        "clipped_values": 0,
+        "original_vertex_height_max_error": 0.0
+      },
+      {
+        "pool": "OH_PL38",
+        "channel": "UV response",
+        "reference_kind": "highest selected measured response",
+        "normalization_reference": 1.44247787610619,
+        "raw_surface_min": 0.01888172559262613,
+        "raw_surface_max": 1.4321143205586442,
+        "relative_surface_min": 0.013089785226789937,
+        "relative_surface_max": 0.99281544922164,
+        "clipped_values": 0,
+        "original_vertex_height_max_error": 0.0
+      }
+    ]
+  },
+  "main_method_palette": {
+    "Bayesian": "#1F6B59",
+    "Random": "#789C8E",
+    "Same_batch": "#D6DEDA",
+    "panels": [
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "bayesian_line": "solid with circles",
+    "random_line": "dashed with squares",
+    "map_outline_white_halo": true,
+    "response_colormap_preserved": true
+  }
+}

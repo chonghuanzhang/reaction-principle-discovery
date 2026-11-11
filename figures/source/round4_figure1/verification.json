@@ -1,0 +1,43 @@
+{
+  "source": "user_reference.png",
+  "output": "figures/main/Figure_1.png",
+  "dimensions": [
+    3344,
+    1882
+  ],
+  "scale": 2,
+  "boxplot_statistics": {
+    "Bayesian": {
+      "n": 100,
+      "q1": 24.0,
+      "median": 24.0,
+      "q3": 36.0,
+      "whisker_min": 12,
+      "whisker_max": 48
+    },
+    "Random": {
+      "n": 100,
+      "q1": 24.0,
+      "median": 48.0,
+      "q3": 72.0,
+      "whisker_min": 12,
+      "whisker_max": 96
+    }
+  },
+  "changes": [
+    "swapped block 4/5 numerals only",
+    "removed block-1 LLM icon; center icon retained",
+    "uniform pale panel and card backgrounds",
+    "370 literature sources",
+    "validated N-phenyl amide S\u2013H benchmark reaction",
+    "actual paired-seed boxplot distributions and source-derived plate",
+    "UV response legend"
+  ],
+  "plate_bins": {
+    "low": "UV response < 0.2",
+    "moderate": "0.2 \u2264 UV response < 1.0",
+    "high": "UV response \u2265 1.0"
+  },
+  "chemical_source": "verified_SH_reaction.png (previously validated C9H8F3NO substrate, C19H20FNOS product)",
+  "sha256": "7932c68add7fb79716c6fa813ee87953f86fd1ec003a453826b15bf93f4e2d24"
+}

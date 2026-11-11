@@ -65,8 +65,8 @@ sh=dict(pool='SH_PL40',channel='UV response',mean=y,obs=dict(enumerate(y)),selec
 assert sh['best']==65
 post=read(SOURCE/'source_data/NH_OH_posteriors_by_round.csv')
 systems=[]
-for pool,label,color,channel in [('NH_PL36','N–H',BLUE,'MS response'),
-    ('OH_PL37','O–H / Cu',CYAN,'UV response'),('OH_PL38','O–H / Ni',GREEN,'UV response')]:
+for pool,label,color,channel in [('NH_PL36','N–H',BLUE,'UV response'),
+    ('OH_PL38','O–H',GREEN,'UV response')]:
     rr=sorted([r for r in post if r['pool']==pool and int(r['after_round'])==5],key=lambda r:int(r['candidate_index']))
     sel=read(ROOT/f'selections/{pool}/selected_conditions.csv')
     obs={int(r['candidate_index']):float(r['archived_response_revealed_after_computational_selection']) for r in sel}
@@ -229,7 +229,7 @@ def save(fig,name):
     fig.savefig(QA/f'{name}_preview.png',dpi=180,facecolor='white')
     plt.close(fig);exports.append(name);print('Exported',name,flush=True)
 
-# Main: surface, aggregate evidence, two illustrative maps, three response distributions.
+# Main: surface, aggregate evidence, two illustrative maps, two condition-selection surfaces.
 budgets=read(ARCH/'data/run_budgets.csv')
 paired={}
 for r in budgets:
@@ -306,41 +306,41 @@ handles=[Line2D([],[],marker='o',ls='none',color=GREY,ms=3,label='Selected respo
 fig.legend(handles=handles,loc='center',bbox_to_anchor=(.51,.233),ncol=3,
     columnspacing=2.0,handletextpad=.5,fontsize=6.2)
 for j,s in enumerate(systems):
-    x=j/3
+    x=j/2
     summarize_batches(s)
     letter(fig,x+.025,.219,'fgh'[j])
     fig.text(x+.085,.216,s['label'],fontsize=7.6,fontweight='bold',va='top')
-    left=x-.014-(.028 if j==2 else 0)
-    surf=landscape(fig.add_axes([left,.018,.355,.185],projection='3d'),s,compact=True,relative_colors=True)
+    left=x+.035
+    surf=landscape(fig.add_axes([left,.013,.43,.195],projection='3d'),s,compact=True,relative_colors=True)
 save(fig,'Main_Fig5_Bayesian_optimization')
 
 # SI: selected archived responses / final posterior surface / SD and round map.
-fig=plt.figure(figsize=(180/25.4,207/25.4))
-for row,(s,yp) in enumerate(zip(systems,[.71,.40,.09])):
-    for col,x in enumerate([.035,.335,.72]):letter(fig,x,yp+.255,'abcdefghi'[row*3+col])
+fig=plt.figure(figsize=(180/25.4,146/25.4))
+for row,(s,yp) in enumerate(zip(systems,[.585,.13])):
+    for col,x in enumerate([.035,.335,.72]):letter(fig,x,yp+.355,'abcdefghi'[row*3+col])
     selected=np.full(96,np.nan)
     for i,v in s['obs'].items():selected[i]=v
-    ax=fig.add_axes([.085,yp+.025,.17,.215])
+    ax=fig.add_axes([.085,yp+.035,.17,.305])
     im=matrix(ax,np.ma.masked_invalid(selected.reshape(12,8)),RESPONSE,Normalize(0,max(s['obs'].values())))
     ax.text(0,1.04,s['label'],transform=ax.transAxes,fontsize=7,fontweight='bold',va='bottom')
     b=s['best'];ax.scatter(b%8,b//8,s=37,marker='*',c=GOLD,edgecolors=INK,lw=.35,zorder=5)
     ax.set_xlabel('Solvent',labelpad=3,fontsize=6.5);ax.set_ylabel('Base / additive',labelpad=3,fontsize=6.5)
-    cbar(fig,im,[.276,yp+.045,.010,.172],s['channel'])
-    landscape(fig.add_axes([.305,yp-.012,.42,.30],projection='3d'),s)
-    ax=fig.add_axes([.758,yp+.025,.145,.215])
+    cbar(fig,im,[.276,yp+.060,.010,.245],s['channel'])
+    landscape(fig.add_axes([.305,yp-.015,.42,.425],projection='3d'),s)
+    ax=fig.add_axes([.758,yp+.035,.145,.305])
     im=matrix(ax,s['sd'].reshape(12,8),SDMAP,Normalize(0,float(s['sd'].max())))
     for i,r in s['rounds'].items():
         ax.text(i%8,i//8,str(r),ha='center',va='center',fontsize=5.8,
             color='white' if s['sd'][i]/s['sd'].max()>.65 else INK)
     ax.set_xlabel('Solvent',labelpad=3,fontsize=6.5)
-    cbar(fig,im,[.922,yp+.045,.008,.172],'Latent SD')
+    cbar(fig,im,[.922,yp+.060,.008,.245],'Latent SD')
 handles=[Line2D([],[],marker='o',ls='none',color=GREY,ms=3,label='Selected response'),
     Line2D([],[],marker='o',ls='none',mfc='white',mec=BLUE,ms=3,label='Other model mean'),
     Line2D([],[],marker='*',ls='none',mfc=GOLD,mec=INK,mew=.4,ms=6,label='Best selected')]
 fig.legend(handles=handles,loc='center',bbox_to_anchor=(.51,.052),ncol=3,columnspacing=1.8,handletextpad=.4)
 round_key=object()
 fig.legend(handles=[Patch(facecolor='#E8ECEF',edgecolor='none'),round_key],
-    labels=['Not selected in replay (response maps)','Selection round (SD maps)'],
+    labels=['Not used in posterior fit (response maps)','Selection round (SD maps)'],
     handler_map={round_key:RoundKeyHandler()},loc='center',bbox_to_anchor=(.51,.026),
     ncol=2,columnspacing=2,handletextpad=.5,fontsize=6.3)
 save(fig,'SI_BO1_posterior_landscapes')
@@ -349,7 +349,9 @@ sources=[SOURCE/'source_data/SH_PL40_full_measured_grid_seed5010.csv',
     SOURCE/'source_data/NH_OH_posteriors_by_round.csv',SOURCE/'source_data/condition_key.csv',
     ARCH/'data/run_budgets.csv',ROOT/'figures/source_data/SH_reanalysis_summary.json',ecdf_file]
 sources += [ROOT/f'selections/{s["pool"]}/selected_conditions.csv' for s in systems]+[map_source]
-for p in sources:shutil.copy2(p,DATA/p.name)
+for p in sources:
+    output_name=f'{p.parent.name}_{p.name}' if p.name=='selected_conditions.csv' else p.name
+    shutil.copy2(p,DATA/output_name)
 with (DATA/'NH_OH_batch_response_summary.csv').open('w',newline='') as f:
     w=csv.DictWriter(f,fieldnames=list(batch_summaries[0]));w.writeheader();w.writerows(batch_summaries)
 with (DATA/'Main_shared_color_scale.csv').open('w',newline='') as f:
@@ -360,7 +362,7 @@ with (DATA/'SH_100_paired_budgets.csv').open('w',newline='') as f:
 manifest=dict(figures=exports,font=os.environ.get('REACTION_FONT','DejaVu Sans'),width_mm=180,main_height_mm=265,png_dpi=600,
     main_panel_map=dict(a='SH measured surface',b='100-pair discovery CDF',c='Paired budget savings',
         d='Bayesian selection map, seed5010,24conditions',e='Random selection map, seed5010,48conditions',
-        f='NH final posterior surface',g='OH/Cu final posterior surface',h='OH/Ni final posterior surface'),
+        f='NH final posterior surface',g='Ni-catalysed OH final posterior surface'),
     source_sha256={str(p):sha(p) for p in sources},
     SH=dict(n_conditions=96,n_seed_pairs=100,seeds=[5000,5099],bo_hit_counts=counts['BO'],random_hit_counts=counts['random'],
         median_budgets=[float(np.median(bo)),float(np.median(rand))],mean_conditions_saved=float(savings.mean()),
@@ -370,12 +372,12 @@ manifest=dict(figures=exports,font=os.environ.get('REACTION_FONT','DejaVu Sans')
     NH_OH=[dict(pool=s['pool'],selected=60,other_model_predictions=36,channel=s['channel'],
         vertex_error=float(np.max(np.abs(s['dz'][::SUB,::SUB]-s['mean'].reshape(12,8))))) for s in systems],
     surface_interpolation='Bounded tensor Hermite; display only; original category vertices exact; no continuous chemistry claim',
-    batch_record_scope='Computational replay from archived measured conditions; not dated laboratory execution batches',
+    batch_record_scope='Numerical analysis of N–H/O–H Bayesian condition selection; exported batches are not primary laboratory execution logs',
     batch_response_summaries=batch_summaries,
     batch_plot='Not in final main artwork; numerical summaries retained for provenance only',
     main_posterior_surfaces='Final batch-5 latent posterior means over96 candidates; conditioned on60 selected responses; grey points=selected measured responses, open points=other model means, stars=best selected measured response',
     main_shared_color_scale=dict(label='Relative response',limits=[0,1],
-        panels=['a','d','e','f','g','h'],formula='raw response or posterior mean / within-system highest selected measured response',
+        panels=['a','d','e','f','g'],formula='raw response or posterior mean / within-system highest selected measured response',
         raw_z_axes_and_cell_values_preserved=True,SI_color_scales_unchanged=True,
         interpretation='within-system relative response; no equivalent cross-system absolute response or yield',
         systems=relative_color_checks),

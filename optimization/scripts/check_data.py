@@ -57,14 +57,33 @@ def main(output):
         actual = float(cells[row['source_sheet'], row['source_response_cell']])
         assert abs(actual - float(row['response'])) < 1e-12, row
         counts[row['pool_id']] = counts.get(row['pool_id'], 0) + 1
-    current = {key: counts[key] for key in ('SH_PL40', 'NH_PL36', 'OH_PL37', 'OH_PL38')}
-    assert list(current.values()) == [96] * 4
+    current = {key: counts[key] for key in ('SH_PL40', 'NH_PL36', 'OH_PL38')}
+    assert list(current.values()) == [96] * 3
+    screen = sorted((r for r in records if r['pool_id'] == 'OH_PL34'),
+                    key=lambda r: (-float(r['response']), int(r['candidate_index'])))
+    context = json.loads((ROOT / 'selections/OH_catalyst_selection.json').read_text())
+    assert len(screen) == context['catalyst_screen_size'] == 145
+    assert screen[0]['cat'] == context['catalyst_code'] == 'Ni203'
+    assert screen[0]['source_response_cell'] == context['source_response_cell'] == 'AJ79'
+    assert abs(float(screen[0]['response']) - context['catalyst_screen_response']) < 1e-12
+    selected = []
+    for pool in ('NH_PL36', 'OH_PL38'):
+        with (ROOT / f'selections/{pool}/selected_conditions.csv').open(encoding='utf-8-sig', newline='') as handle:
+            pool_rows = list(csv.DictReader(handle))
+        assert len(pool_rows) == len({r['candidate_index'] for r in pool_rows}) == 60
+        assert {r['pool_id'] for r in pool_rows} == {pool}
+        if pool == 'OH_PL38':
+            assert {r['catalyst_code'] for r in pool_rows} == {'Ni203'}
+            best = max(pool_rows, key=lambda r: float(r['archived_response_revealed_after_computational_selection']))
+            assert best['sample_id'].endswith('PL38-W10') and int(best['batch_number']) == 1
+        selected.extend(pool_rows)
+    assert len(selected) == 120
     # The source peak NMR value is a directly recorded cell, distinct from the
     # fitted-yield column. Preserve the analytical response/yield distinction.
     assert float(cells['亲核试剂(SH)-条件筛选', 'AD308']) == 0.37
     from pypdf import PdfReader
-    expected = {'Main_Fig5_Bayesian_optimization': (180, 265), 'SI_BO1_posterior_landscapes': (180, 207),
-                'SI_BO2_uncertainty_stopping': (180, 175), 'SI_BO3_SH_replay_diagnostics': (180, 180)}
+    expected = {'Main_Fig5_Bayesian_optimization': (180, 265), 'SI_BO1_posterior_landscapes': (180, 146),
+                'SI_BO2_uncertainty_stopping': (180, 123), 'SI_BO3_SH_replay_diagnostics': (180, 180)}
     figures = []
     for stem, dimensions in expected.items():
         base = ROOT / 'figures/figures' / stem
@@ -78,11 +97,12 @@ def main(output):
         assert all(abs(px - mm / 25.4 * 600) < 2 for px, mm in zip(pixels, dimensions))
         figures.append(dict(stem=stem, png_pixels=pixels, dimensions_mm=mm, exports=3))
     report = dict(status='passed', split_workbook=split, physical_response_cells_verified=len(records), historical_pool_counts=counts,
-                  current_four_measured_grids=current, measured_conditions_in_current_four_grids=384,
-                  selected_NH_OH_responses_used_for_models=180, figures=figures,
+                  current_three_measured_grids=current, measured_conditions_in_current_three_grids=288,
+                  selected_NH_OH_responses_used_for_models=len(selected), OH_catalyst_screen_winner=context,
+                  figures=figures,
                   environment=dict(python=sys.version, platform=platform.platform()),
                   limitations=['Workbook metadata is not dated laboratory execution chronology.',
-                               'Only SH peak has matched 37% NMR; MS/UV responses are not calibrated yields.',
+                               'Only SH peak has matched 37% NMR; analytical responses are not calibrated yields.',
                                '100 final candidate molecules, 100 paired SH seeds and 96-condition grids are different counting units.'])
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')

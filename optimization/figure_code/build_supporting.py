@@ -40,9 +40,8 @@ PALE = '#DFE7EC'
 ARCH = ROOT / 'benchmark/data'
 PRIOR = ROOT / 'figures'
 AUDIT = ROOT / 'figures/source_data'
-POOLS = [('NH_PL36', 'N–H', 'MS response', BLUE, 6000),
-         ('OH_PL37', 'O–H/Cu', 'UV response', CYAN, 7000),
-         ('OH_PL38', 'O–H/Ni', 'UV response', GREEN, 8000)]
+POOLS = [('NH_PL36', 'N–H', 'UV response', BLUE, 6000),
+         ('OH_PL38', 'O–H', 'UV response', GREEN, 8000)]
 inputs = []
 
 
@@ -115,9 +114,9 @@ def save(fig, stem, dimensions_mm):
 
 
 diag = read(PRIOR / 'source_data/NH_OH_round_diagnostics.csv')
-assert len(diag) == 15
+assert len(diag) == 10
 posteriors = read(PRIOR / 'source_data/NH_OH_posteriors_by_round.csv')
-assert len(posteriors) == 1440
+assert len(posteriors) == 960
 uncertainty_checks = []
 for pool, label, units, color, seed in POOLS:
     rows = sorted([r for r in diag if r['pool'] == pool], key=lambda r: int(r['round']))
@@ -140,10 +139,10 @@ for pool, label, units, color, seed in POOLS:
 
 
 def uncertainty_stopping():
-    f = plt.figure(figsize=(180 / 25.4, 175 / 25.4))
-    ys = [.715, .410, .105]
+    f = plt.figure(figsize=(180 / 25.4, 123 / 25.4))
+    ys = [.590, .150]
     x_positions = [.135, .635]
-    width, height = .335, .225
+    width, height = .335, .320
     for k, (pool, label, units, color, seed) in enumerate(POOLS):
         rows = uncertainty_checks[k]['rows']
         axes = [f.add_axes([x, ys[k], width, height]) for x in x_positions]
@@ -176,7 +175,7 @@ def uncertainty_stopping():
                      [labels[1], labels[0], labels[2]], **legend_position,
                      handlelength=1.8, labelspacing=.35, handletextpad=.5,
                      borderaxespad=.45)
-    return save(f, 'SI_BO2_uncertainty_stopping', [180, 175])
+    return save(f, 'SI_BO2_uncertainty_stopping', [180, 123])
 
 
 grid = read(PRIOR / 'source_data/SH_PL40_full_measured_grid_seed5010.csv')
@@ -318,8 +317,8 @@ def sh_replay_diagnostics():
     return save(f, 'SI_BO3_SH_replay_diagnostics', [180, 180])
 
 
-CAPTIONS = '''Supplementary Figure BO2 | Latent uncertainty and stopping diagnostics for the archived N–H and O–H selections.
-Rows correspond to N–H/Ag2SO4/PPh3 (NH_PL36, seed 6000; a,b), O–H/[Cu(MeCN)4]PF6 (OH_PL37, seed 7000; c,d), and O–H/NiCl2·DME (OH_PL38, seed 8000; e,f). Each round reveals 12 selected responses, up to a budget of 60 conditions. Left, mean latent posterior standard deviation across the same 96 candidate identities (solid purple) and across the currently unselected candidates (dashed grey). The latter subset changes after each round; its means do not describe a fixed population. Posterior uncertainty need not decrease monotonically. Right, the largest latent upper confidence bound among unselected candidates minus the best selected response, with the fixed tolerance delta shown by the dashed line. UCB is the posterior mean plus 1.96 latent standard deviations. Gold squares mark the 60-condition budget limit. The tolerance equals 0.10 times the first-batch response population standard deviation. The stopping test becomes eligible at 36 selected conditions and requires both a two-round improvement no greater than delta and a remaining UCB no greater than the best selected response plus delta, in two consecutive checks. A constant first batch disables this stopping route. All three plans reach the budget limit without satisfying the rule; the two O–H systems have their first joint pass only at round 5. Posterior calculations use only the 60 selected responses per system, with no unselected response labels. These are latent-function uncertainties, excluding future-observation noise; 1.96 is a heuristic acquisition coefficient, not a calibrated 95% coverage guarantee. Values retain system-specific analytical MS or UV response units and are not percentage yields. The archived computational selections are shown descriptively; dated prospective laboratory proposal, execution and feedback linkage remains to be associated.
+CAPTIONS = '''Supplementary Figure BO2 | Numerically reproduced latent uncertainty and stopping diagnostics for Bayesian condition selection in N–H and O–H.
+Rows correspond to N–H/Ag2SO4/PPh3 (NH_PL36, seed 6000; a,b) and O–H/NiCl2·DME (OH_PL38, seed 8000; c,d). Each computational round reveals 12 selected responses, up to a budget of 60 conditions. Left, mean latent posterior standard deviation across the same 96 candidate identities (solid purple) and across the currently unselected candidates (dashed grey). The latter subset changes after each round; its means do not describe a fixed population. Posterior uncertainty need not decrease monotonically. Right, the largest latent upper confidence bound among unselected candidates minus the best selected response, with the fixed tolerance delta shown by the dashed line. UCB is the posterior mean plus 1.96 latent standard deviations. Gold squares mark the 60-condition budget limit. The tolerance equals 0.10 times the first-batch response population standard deviation. The stopping test becomes eligible at 36 selected conditions and requires both a two-round improvement no greater than delta and a remaining UCB no greater than the best selected response plus delta, in two consecutive checks. A constant first batch disables this stopping route. Both reproduced stopping-diagnostic calculations reach the budget limit without satisfying the rule; the O–H calculation has its first joint pass only at round 5. Posterior calculations use only the 60 selected responses per system, with no unselected response labels. These are latent-function uncertainties, excluding future-observation noise; 1.96 is a heuristic acquisition coefficient, not a calibrated 95% coverage guarantee. Values retain system-specific UV response units and are not percentage yields. Bayesian condition selection used the recorded N–H and O–H responses. The exported rounds, fixed seeds and stopping calculations describe the numerical reproduction and are not primary laboratory execution logs. The retrospective BO/random comparison reported in the main analysis concerns S–H.
 
 Supplementary Figure BO3 | Measured sulfur response landscape and retrospective replay diagnostics.
 a, The complete 96-condition SH_PL40 UV-response matrix, with the original twelve base/additive entries and eight solvent identities. Digits give the Bayesian selection round in the illustrative seed-5010 replay; the gold outline marks the highest recorded response, at CsOH/2 in DCE. CsOH/2 is retained as an unresolved source label. Each cell is a discrete measured condition, and no intermediate chemical conditions are implied. b, Best measured response at each completed batch for the single paired replay with seed 5010; BO and random sampling share their first 12 conditions and then select 12 conditions per round. This one-run illustration does not replace the 100-run aggregate. c, Mean best response across 100 paired computational runs, seeds 5000–5099, on the same measured grid. Shading gives the empirical interquartile range across algorithm seeds, not a confidence interval. Only batch-end results are shown. d, Median first-hit budgets for the full interaction-feature UCB policy, the same model using posterior mean alone, an additive-feature UCB policy with no interaction terms, and random sampling; these are 24, 24, 24 and 48 conditions. Each diagnostic uses the same seed range; no error bars are inferred from the saved diagnostic summaries. The exact-hit endpoint is the first completed batch reaching the maximum archived response, with a response tolerance of 1e-12. The full grid maximum belongs to the evaluator and is unavailable to the selection policies; it is not an operational stopping rule. The results quantify initialization variation conditional on one fixed historical response grid and do not measure laboratory repeatability or prospective experimental savings. Response is the recorded combined two-peak UV signal, not calibrated yield. The equal diagnostic medians do not isolate a unique contribution from the UCB uncertainty term or interaction features.
@@ -345,8 +344,8 @@ def main():
                        'SH_random_mean_budget': float(np.mean(random_budgets)),
                        'SH_aggregate_mean_and_empirical_quartiles': aggregate,
                        'NH_OH_diagnostic_rows_reconciled': 15,
-                       'NH_OH_posterior_rows_reconciled': 1440,
-                       'all_three_NH_OH_end_at_60_without_stopping': True,
+                       'NH_OH_posterior_rows_reconciled': 960,
+                       'both_NH_OH_end_at_60_without_stopping': True,
                        'image_values_equal_original_oracle': True,
                        'seed_5010_round_values_equal_original_trajectories': True},
         'style': {'font': os.environ.get('REACTION_FONT','DejaVu Sans'), 'pdf_fonttype': 42, 'svg_fonttype': 'none',

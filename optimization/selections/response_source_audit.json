@@ -1,0 +1,33 @@
+{
+  "summary_workbook_sha256": "836f5a17429d0ab5198f0f28038e60df0992787cf9b76ed649c4abf7c7047c16",
+  "NH": {
+    "summary_sheet": "亲核试剂(NH)-条件筛选",
+    "response_header_cell": "AJ1",
+    "literal_source_header": "MS_Response",
+    "trace_column": "AE",
+    "literal_trace": "282",
+    "max_selected_response_cell": "AJ165",
+    "max_selected_response": 0.655297435746774,
+    "full_response_sheet": "4-Me-吲哚-response-条件筛选",
+    "full_response_literal_header": "MS_Response",
+    "unit_correction_status": "author-provided label correction applied to current publication labels; numerical values unchanged",
+    "current_publication_label": "UV response",
+    "correction_source": "explicit author instruction in revision request, 2026-11-11: MS response全部改为UV response",
+    "independent_instrument_validation_performed": false,
+    "original_workbook_bytes_preserved": true
+  },
+  "OH": {
+    "summary_sheet": "亲核试剂(OH)-条件筛选",
+    "response_header_cell": "AJ1",
+    "literal_source_header": "UV Response",
+    "trace_column": "AE",
+    "literal_trace": "254",
+    "max_selected_response_cell": "AJ252",
+    "max_selected_response": 1.44247787610619
+  },
+  "author_confirmation": {
+    "date": "2026-11-11",
+    "statement_zh": "是，N–H 表头误标，统一改 UV",
+    "effect": "N–H response header corrected to UV; recorded numerical values unchanged"
+  }
+}

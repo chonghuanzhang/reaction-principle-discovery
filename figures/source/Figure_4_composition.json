@@ -1,71 +1,39 @@
 {
   "figure": "Figure 4",
-  "format": "deposited raster artwork composition",
+  "format": "five-panel vector drawing from deposited scientific records",
   "canvas_px": [
-    3200,
-    3700
+    4252,
+    4961
   ],
-  "mode": "RGB",
-  "background": "white",
+  "figure_dimensions_mm": [
+    180,
+    210
+  ],
   "dpi": [
-    480,
-    480
+    600,
+    600
   ],
-  "layers": [
-    {
-      "panels": "a–c",
-      "path": "figures/source/Figure_4_panels_abc.png",
-      "source_dimensions_px": [
-        3200,
-        2330
-      ],
-      "paste_xy": [
-        0,
-        0
-      ],
-      "target_dimensions_px": [
-        3200,
-        2330
-      ],
-      "resampling": "none",
-      "sha256": "fe9a3fcf31ff16bce932742b65d3e7947ee9ff3aaf8a1d615c8aa3994a1f72a5"
-    },
-    {
-      "panels": "d",
-      "path": "figures/source/Figure_4d_candidate_selection.png",
-      "source_dimensions_px": [
-        1920,
-        819
-      ],
-      "paste_xy": [
-        120,
-        2340
-      ],
-      "target_dimensions_px": [
-        3000,
-        1280
-      ],
-      "resampling": "LANCZOS",
-      "sha256": "5d671d299d8234a7fd92b8a82c0b5b6b8011fb002d01cc02585162be24f54ea3"
-    }
-  ],
+  "panels": {
+    "a": "radial reacting-centre category counts",
+    "b": "neutral, ionic and precursor donor forms",
+    "c": "candidate, hypothesis and product-option counts",
+    "d": "candidate–experimental N/O/S donor associations",
+    "e": "NP and NR category fractions for candidate molecules and experimental pairs"
+  },
+  "source_data": "figures/source/round4_figure4/figure_data.json",
+  "novelty_panel_source_data": "figures/source/round4_figure4/novelty_panel_e.csv",
   "authoritative_master": {
     "path": "figures/main/Figure_4.png",
-    "sha256": "c4103f6411f064dff3202d3ab5de1c85daf8d4eebcbc71a00dded516869f0dc6",
-    "rgb_pixel_sha256": "741dbdf57aa714908c85e025a02dde17b1445088a417e558fbceace8360ac056"
+    "sha256": "565ca6ca8953c6d47791b7870086cc85b3dd85227b5afb01c4e8a581122aad36"
   },
-  "jpeg_derivative": {
-    "path": "figures/main/Figure_4.jpeg",
-    "quality": 100,
-    "subsampling": 0,
-    "sha256": "ad76c60a91a039cff2a7dd0b5dbb50a27983072d73241850cb77b0d4a61b2b46"
-  },
+  "vector_pdf": "figures/main/Figure_4.pdf",
+  "vector_svg": "figures/main/Figure_4.svg",
   "reproduction_script": "code/scripts/reproduce_figures2_4.py",
+  "builder": "code/figures/build_figure4_round4.py",
   "notes": [
-    "Source paths are relative to the repository root.",
-    "The a–c source is an unresampled crop of the original raster figure, preserving all a–c scientific content.",
-    "The approved panel d is deposited in full and resized as a single image.",
-    "The lossless PNG is authoritative; JPEG uses recompression. Reproduced PDF embeds the raster master.",
-    "Structural relationship arrows do not denote chemical transformations or independently documented replacement decisions."
+    "The PNG is a 600-dpi rendering of the vector PDF.",
+    "Molecular structures are read from the deposited candidate and experimental-input records.",
+    "Structural association arrows do not denote chemical transformations or independently documented replacement decisions.",
+    "NP and NR are separate ordinal classifications; their different populations are not a paired before/after comparison."
   ]
 }

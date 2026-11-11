@@ -17,7 +17,7 @@ Start with the scientific question in the article, use the SI for detailed metho
 | Proposed product connectivity; SI S5.6 | [Table R2](../candidates/product_options/) | 124 product-option records, registry comparisons and NP/NR assessments |
 | Base and solvent library; SI S6.2 | [Condition library](../experiments/condition_library/) | Twelve base/additive entries and eight solvents with chemical context |
 | Sulfur selection benchmark; SI S6.5 | [Table R3](../experiments/bo_benchmark/) | 100 paired seeds, first-hit budgets and paired savings |
-| Nitrogen/oxygen selection; SI S6.6–S6.7 | [Table R4](../experiments/selected_responses/) | 180 selected responses, with system, batch, condition and analytical unit |
+| Nitrogen/oxygen selection; SI S6.6–S6.7 | [Table R4](../experiments/selected_responses/) | 120 selected responses, with system, batch, condition and analytical unit |
 | Model operations; SI S4 | [Model workflow](../code/docs/model_workflow.md) | Exact prompts, original working constraints, validation rules and saved model responses |
 | Condition-selection methods; SI S6 | [Optimization methods](../optimization/METHODS.md) | Model equations, seeds, acquisition rule, benchmark and interpretation limits |
 | Response and uncertainty diagnostics; main Fig. 5, Supplementary Figs. 7–9 and SI S8.3 | [Figures BO1–BO3](../optimization/FIGURE_GUIDE.md) | Complete legends, condition keys, measured responses, posterior uncertainty and stopping checks |

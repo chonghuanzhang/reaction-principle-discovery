@@ -1,0 +1,23 @@
+{
+  "analysis": "O–H catalyst screen followed by fixed-catalyst condition selection",
+  "catalyst_screen": "OH_PL34",
+  "catalyst_screen_size": 145,
+  "selection_rule": "largest recorded UV response in the complete catalyst screen",
+  "catalyst_code": "Ni203",
+  "catalyst_name": "NiCl2·DME",
+  "catalyst_screen_response": 1.09119010819165,
+  "catalyst_screen_sample": "PL34-W78",
+  "source_sheet": "亲核试剂(OH)-条件筛选",
+  "source_response_cell": "AJ79",
+  "condition_pool": "OH_PL38",
+  "condition_candidates": 96,
+  "condition_factors": {
+    "bases_or_additives": 12,
+    "solvents": 8
+  },
+  "acquisition": "posterior latent mean + 1.96 * posterior latent SD",
+  "seed": 8000,
+  "seed_rationale": "retained reference seed; no outcome-based seed search",
+  "response_units": "UV response; product/internal-standard peak area ratio",
+  "computation_scope": "selected-label numerical condition-selection analysis; not a dated laboratory execution log"
+}

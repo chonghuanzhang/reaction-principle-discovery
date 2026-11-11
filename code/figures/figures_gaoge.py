@@ -91,6 +91,6 @@ def fig2():
  U.panel=oldpanel
 
 def fig4():
- """Keep this entrypoint aligned with the deposited four-panel Figure 4."""
+ """Keep this entrypoint aligned with the deposited five-panel Figure 4."""
  from compose_figure4 import reproduce
  return reproduce(U.OUT)

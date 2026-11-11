@@ -28,6 +28,8 @@ The assessment contains 202 saved PubChem PUG REST same-connectivity responses d
 
 ## Repository Figure N1 · Supplementary Figure 5
 
+Main Figure 4e presents a compact view of the same candidate-molecule and experimental-pair NP/NR classifications. The full chart below retains all record-unit views and uses the same source summary.
+
 ![N1 product and reaction novelty category distributions](figures/N1_novelty_distributions.png)
 
 **Repository Figure N1 / Supplementary Figure 5. Product-connectivity novelty (NP; upper row) and reaction-precedent novelty (NR; lower row) for candidate molecules and recorded experimental combinations.** Mixed, unresolved and not-applicable categories remain explicit. The candidate denominator is 100 molecules; the experimental denominator is 108 ordered electrophile–donor pairs. Candidate labels are sets of all endpoint labels. The bounded search and different populations preclude interpreting these marginal distributions as novelty retention or improvement caused by human evaluation.

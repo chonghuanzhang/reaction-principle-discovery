@@ -1,0 +1,22 @@
+assessment,population,denominator,category,original_label,count,fraction
+NP,Candidates,100,1R,1R,4,0.04
+NP,Candidates,100,1T,1T,1,0.01
+NP,Candidates,100,2,2,72,0.72
+NP,Candidates,100,3,3,19,0.19
+NP,Candidates,100,3/2,3/2,3,0.03
+NP,Candidates,100,unresolved,unresolved,1,0.01
+NP,Input pairs,108,1R,1R,3,0.027777777777777776
+NP,Input pairs,108,2,2,100,0.9259259259259259
+NP,Input pairs,108,3,3,1,0.009259259259259259
+NP,Input pairs,108,3/2,3/2,1,0.009259259259259259
+NP,Input pairs,108,not applicable,not applicable,3,0.027777777777777776
+NR,Candidates,100,1,1,5,0.05
+NR,Candidates,100,2,2,42,0.42
+NR,Candidates,100,3,3,52,0.52
+NR,Candidates,100,mixed,2 | 3,1,0.01
+NR,Input pairs,108,1,1,6,0.05555555555555555
+NR,Input pairs,108,2,2,90,0.8333333333333334
+NR,Input pairs,108,3,3,7,0.06481481481481481
+NR,Input pairs,108,mixed,2–3,1,0.009259259259259259
+NR,Input pairs,108,unresolved,unresolved,1,0.009259259259259259
+NR,Input pairs,108,not applicable,not applicable,3,0.027777777777777776

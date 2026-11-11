@@ -1,0 +1,57 @@
+{
+  "reacting_centre_label_sets": {
+    "C": 32,
+    "N": 16,
+    "O": 15,
+    "S": 17,
+    "P": 17,
+    "Se": 1,
+    "C/O": 1,
+    "C/N": 1
+  },
+  "mapping_examples": [
+    {
+      "candidate_id": "C048",
+      "actual_pair_id": "AP039",
+      "relation": "Structural Analogue",
+      "candidate_smiles": "Nc1ccccc1",
+      "actual_donor_smiles": "c1ccc2c(c1)CCN2",
+      "actual_NP": "2",
+      "actual_NR": "2"
+    },
+    {
+      "candidate_id": "C051",
+      "actual_pair_id": "AP048",
+      "relation": "Structural Analogue",
+      "candidate_smiles": "Oc1ccccc1",
+      "actual_donor_smiles": "Oc1cccc2ccccc12",
+      "actual_NP": "2",
+      "actual_NR": "2"
+    },
+    {
+      "candidate_id": "C082",
+      "actual_pair_id": "AP090",
+      "relation": "Structural Analogue",
+      "candidate_smiles": "Sc1ccccc1",
+      "actual_donor_smiles": "CC(C)(C)c1ccc(S)cc1",
+      "actual_NP": "2",
+      "actual_NR": "2"
+    }
+  ],
+  "sources": [
+    "candidates/data/candidates_100.json",
+    "candidates/experiment_mapping/mapping_108.json",
+    "code/data/mapping/novelty_summary.json"
+  ],
+  "figure_dimensions_mm": [
+    180,
+    210
+  ],
+  "font": "DejaVu Sans",
+  "novelty_plot_units": "category fractions, counts labelled for n>=5",
+  "source_data_sha256": {
+    "candidates/data/candidates_100.json": "e2d83e587225475dfc6fa1b3987c1be798966d43bb28c5106190aeeb268d19bb",
+    "candidates/experiment_mapping/mapping_108.json": "2ce83eca2be572883f6f142dc7a46200d4ea504de89dab0354a129454a2ffcfb",
+    "code/data/mapping/novelty_summary.json": "01bad7772333f72132689722d7630f2b65017b339589fcb06c7e68352a40975a"
+  }
+}

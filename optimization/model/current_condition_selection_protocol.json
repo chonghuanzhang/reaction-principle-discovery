@@ -1,0 +1,38 @@
+{
+  "version": "2026-11-11_current_condition_selection",
+  "analysis_type": "Bayesian condition selection",
+  "systems": {
+    "NH_PL36": {
+      "catalyst": "Ag2SO4/PPh3",
+      "seed": 6000
+    },
+    "OH_PL38": {
+      "catalyst": "NiCl2·DME",
+      "catalyst_code": "Ni203",
+      "seed": 8000,
+      "catalyst_screen": "OH_PL34",
+      "catalyst_selection_rule": "largest recorded UV response among 145 catalyst entries"
+    }
+  },
+  "candidate_space": {
+    "bases_or_additives": 12,
+    "solvents": 8,
+    "conditions_per_system": 96,
+    "catalyst_fixed": true
+  },
+  "initial_design": "uniform random sample of 12 candidate indices without replacement; existing reference seeds retained without an outcome-based seed search",
+  "model": "model/bo_core.py; standardized 116-dimensional categorical feature kernel; normal–inverse-gamma Bayesian linear regression",
+  "acquisition": "latent posterior mean + 1.96 * latent posterior SD; frozen posterior for each batch of 12",
+  "model_input_boundary": "only previously selected experimental response labels; no full-pool labels or known optimum supplied to the policy or stop monitor",
+  "analysis_budget": {
+    "batches": 5,
+    "batch_size": 12,
+    "selected_responses_per_system": 60,
+    "total_selected_responses": 120
+  },
+  "stopping_protocol": "selections/stopping_protocol.json",
+  "historical_benchmark_protocol": "model/analysis_protocol.json",
+  "data_provenance": "Original workbook bytes and the complete historical measurement/benchmark exports are retained unchanged; numerical selections do not establish dated laboratory chronology.",
+  "response_labels": "UV response",
+  "label_correction_provenance": "selections/response_source_audit.json"
+}

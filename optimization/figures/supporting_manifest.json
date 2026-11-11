@@ -1,0 +1,261 @@
+{
+  "status": "complete",
+  "builder": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figure_code/build_supporting.py",
+  "builder_sha256": "b5db2d78a89d0ae59138cf0e17ba31d89a6d3e5bab51c071764d5d006c9972da",
+  "model_refits": 0,
+  "new_policy_replays": 0,
+  "source_files_unchanged": true,
+  "sources": [
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/NH_OH_round_diagnostics.csv",
+      "sha256": "d9ba3f33d64cb172ed2d8e057f78263c06cb527b841e027ae3e24194c104db1c"
+    },
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/NH_OH_posteriors_by_round.csv",
+      "sha256": "24f8203b53e6bc4571b0fec835d902f3bd239479de11e5b43f0ce5625b268a89"
+    },
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/selections/NH_PL36/stopping_checks.csv",
+      "sha256": "b026192fdb3e263c74979e278ec94df05d3fb985946fd81e98b0984d8b3d18da"
+    },
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/selections/OH_PL38/stopping_checks.csv",
+      "sha256": "908290cc27994f4a3a2e181774802050f5495d1d4dab6fdbd7b4bf3ca8509c5f"
+    },
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/SH_PL40_full_measured_grid_seed5010.csv",
+      "sha256": "acc6911e7e2e9c71a42697edc8df0701ee602e51eeb733e4406af172594c8beb"
+    },
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/SH_PL40_paired_replay_seed5010.csv",
+      "sha256": "5fd339315b57cf41b138afa099cda37c1ed35632262313845c0a623b7ed4ef3a"
+    },
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/benchmark/data/cumulative_best_trajectories.csv",
+      "sha256": "f53205fffa420403ec6327a9c7a029864582ee696c038572574c5258d56d0048"
+    },
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/benchmark/data/run_budgets.csv",
+      "sha256": "6ddc9928599d3746a07ac1d639183f88fbec22b11736be353d38ab50da70646b"
+    },
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/benchmark/data/source_records_and_oracle.csv",
+      "sha256": "886176bdf5ad895fd773e3a4f40cea25c45900e1052e21df0ba4253cf2d07c72"
+    },
+    {
+      "path": "/Users/chonghuanzhang/Dropbox/reaction_principle/\u6700\u65b0paper/round 4/github/optimization/figures/source_data/SH_audit_diagnostics.json",
+      "sha256": "a2b583f6775c82c73986d650607042a73a184f3817a7668ceaa23f97c88c7903"
+    }
+  ],
+  "figures": [
+    {
+      "stem": "SI_BO2_uncertainty_stopping",
+      "dimensions_mm": [
+        180,
+        123
+      ],
+      "exports": [
+        {
+          "path": "optimization/figures/figures/SI_BO2_uncertainty_stopping.pdf",
+          "sha256": "19b24301e79eaaca73a49d85c9096c05ae3f0c7eb8a22152e12f95ff89395bf9"
+        },
+        {
+          "path": "optimization/figures/figures/SI_BO2_uncertainty_stopping.svg",
+          "sha256": "f722a8f441ecb4ee3c260343bb9cf4085693efef1f9481dcaa969721d0bbeabc"
+        },
+        {
+          "path": "optimization/figures/figures/SI_BO2_uncertainty_stopping.png",
+          "sha256": "9801accdfaa1b2a52243ece3a25687c3be2ed468681f6a1645358c3db7f10b01"
+        }
+      ],
+      "preview": "optimization/figures/qa/SI_BO2_uncertainty_stopping_preview.png",
+      "png_dpi": 600,
+      "preview_dpi": 170
+    },
+    {
+      "stem": "SI_BO3_SH_replay_diagnostics",
+      "dimensions_mm": [
+        180,
+        180
+      ],
+      "exports": [
+        {
+          "path": "optimization/figures/figures/SI_BO3_SH_replay_diagnostics.pdf",
+          "sha256": "1edf26baa9e71aa385827545ffed48509d21d46c3484591b29b57ab3ac83805d"
+        },
+        {
+          "path": "optimization/figures/figures/SI_BO3_SH_replay_diagnostics.svg",
+          "sha256": "816a2e11783a35c9bb031c716c77061a44d115cf04d3f48b1dda33c4a90cff72"
+        },
+        {
+          "path": "optimization/figures/figures/SI_BO3_SH_replay_diagnostics.png",
+          "sha256": "1073401286239872158cffb717673fca418b00b4cddac852b97fe261e9b8b9f8"
+        }
+      ],
+      "preview": "optimization/figures/qa/SI_BO3_SH_replay_diagnostics_preview.png",
+      "png_dpi": 600,
+      "preview_dpi": 170
+    }
+  ],
+  "validation": {
+    "SH_maximum_response": 3.20446096654275,
+    "SH_maximum_index": 65,
+    "SH_paired_seed_range": [
+      5000,
+      5099
+    ],
+    "SH_aggregate_runs_per_policy": 100,
+    "SH_median_budgets_full_greedy_additive_random": [
+      24.0,
+      24.0,
+      24.0,
+      48.0
+    ],
+    "SH_full_mean_budget": 26.04,
+    "SH_random_mean_budget": 51.84,
+    "SH_aggregate_mean_and_empirical_quartiles": {
+      "BO-UCB": [
+        {
+          "budget": 12,
+          "n": 100,
+          "mean": 1.2981933967946682,
+          "q25": 0.698630136986301,
+          "q75": 1.8110599078341
+        },
+        {
+          "budget": 24,
+          "n": 100,
+          "mean": 2.5829975131738157,
+          "q25": 1.6664767490573926,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 36,
+          "n": 100,
+          "mean": 3.119239822754636,
+          "q25": 3.20446096654275,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 48,
+          "n": 100,
+          "mean": 3.204460966542749,
+          "q25": 3.20446096654275,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 60,
+          "n": 100,
+          "mean": 3.204460966542749,
+          "q25": 3.20446096654275,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 72,
+          "n": 100,
+          "mean": 3.204460966542749,
+          "q25": 3.20446096654275,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 84,
+          "n": 100,
+          "mean": 3.204460966542749,
+          "q25": 3.20446096654275,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 96,
+          "n": 100,
+          "mean": 3.204460966542749,
+          "q25": 3.20446096654275,
+          "q75": 3.20446096654275
+        }
+      ],
+      "random": [
+        {
+          "budget": 12,
+          "n": 100,
+          "mean": 1.2981933967946682,
+          "q25": 0.698630136986301,
+          "q75": 1.8110599078341
+        },
+        {
+          "budget": 24,
+          "n": 100,
+          "mean": 1.7811669243694366,
+          "q25": 1.06161137440758,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 36,
+          "n": 100,
+          "mean": 2.184025129285615,
+          "q25": 1.23272727272727,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 48,
+          "n": 100,
+          "mean": 2.355578067108238,
+          "q25": 1.6664767490573926,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 60,
+          "n": 100,
+          "mean": 2.581986892015123,
+          "q25": 1.8110599078341,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 72,
+          "n": 100,
+          "mean": 2.842030699547732,
+          "q25": 3.20446096654275,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 84,
+          "n": 100,
+          "mean": 3.038155458348111,
+          "q25": 3.20446096654275,
+          "q75": 3.20446096654275
+        },
+        {
+          "budget": 96,
+          "n": 100,
+          "mean": 3.204460966542749,
+          "q25": 3.20446096654275,
+          "q75": 3.20446096654275
+        }
+      ]
+    },
+    "NH_OH_diagnostic_rows_reconciled": 15,
+    "NH_OH_posterior_rows_reconciled": 960,
+    "both_NH_OH_end_at_60_without_stopping": true,
+    "image_values_equal_original_oracle": true,
+    "seed_5010_round_values_equal_original_trajectories": true
+  },
+  "style": {
+    "font": "DejaVu Sans",
+    "pdf_fonttype": 42,
+    "svg_fonttype": "none",
+    "four_sided_axes": true,
+    "decorative_grids": false,
+    "SI_BO2_legends_on_every_panel": true,
+    "SI_BO3_legends_for_peak_round_digits_lines_and_IQR": true,
+    "background": "white",
+    "palette": [
+      "#204DA0",
+      "#2FA4C3",
+      "#5EC0C1",
+      "#268773",
+      "#9865B4",
+      "#D99329",
+      "#1D2730",
+      "#66717A"
+    ]
+  },
+  "captions": "optimization/figures/supporting_captions_en.txt"
+}

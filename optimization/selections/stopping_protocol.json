@@ -1,14 +1,13 @@
 {
-  "version": "2026-10-23_computational_batch_plan_v1",
+  "version": "2026-11-11_NH_and_Ni_OH_condition_selection",
   "record_type": "COMPUTATIONAL_PLAN",
   "actual_batch_execution_records_available": false,
   "status": "fixed before running this new stopping-policy computation; not preregistered; historical project outcomes already available",
   "model_source": "model/bo_core.py",
-  "model_protocol": "model/analysis_protocol.json",
+  "model_protocol": "model/current_condition_selection_protocol.json",
   "model_or_acquisition_changes": false,
   "pools_and_actual_seeds": {
     "NH_PL36": 6000,
-    "OH_PL37": 7000,
     "OH_PL38": 8000
   },
   "seed_choice": "existing archive reference replicate index 0; no seed search",
@@ -33,5 +32,6 @@
   "chemical_confirmation": "independent repeats of the selected working condition and relevant close alternatives, with verified product quantification, are required before any chemical optimum claim",
   "observation_boundary": "only selected batch responses are passed to policy.observe; acquisition, delta, plateau, and stopping never receive full-pool responses or a known optimum",
   "reporting": "show selected rows and their archived responses as computationally revealed values; no actual lab chronology, new execution dates, or lab savings claimed; keep all original workbooks and earlier archives unchanged",
-  "heldout_diagnostics": "not used for decisions and not included in NH/OH PDF tables; no NH/OH full-pool optimum success claims"
+  "heldout_diagnostics": "not used for decisions and not included in NH/OH PDF tables; no NH/OH full-pool optimum success claims",
+  "catalyst_selection": "O–H catalyst selected by highest UV response in the 145-catalyst OH_PL34 panel; fixed Ni203 condition space OH_PL38"
 }

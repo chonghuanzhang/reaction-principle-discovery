@@ -2,7 +2,7 @@
 
 This directory contains the recorded response workbooks, frozen Bayesian model, condition-selection records and source data for Figure 5 and Repository Figures BO1–BO3 (Supplementary Figures 7–9). It is a runnable subsystem: model code, inputs, selection histories and artwork remain together.
 
-The S–H analysis compares Bayesian and random selection on a fixed measured 96-condition grid. One hundred paired computational initializations give median first-hit budgets of **24 and 48 conditions**. The N–H and two O–H trajectories each select **60 responses in five batches** from a measured 96-condition grid. These are computational replays of recorded analytical signals; the selected-response files do not establish dated laboratory execution sequences.
+The S–H analysis retrospectively compares Bayesian and random selection on a fixed measured 96-condition grid. One hundred paired computational initializations give median first-hit budgets of **24 and 48 conditions**. For O–H, the 145-catalyst screen identifies NiCl2·DME as the highest-UV-response catalyst. Bayesian condition selection then uses its fixed 12-base/additive × 8-solvent library. N–H and O–H response records support separate selected-label posterior analyses. The deposited numerical reproduction uses **60 selected responses in five computational batches** from the measured N–H grid and the Ni-catalysed O–H grid (120 labels in total) to reproduce the posterior fits and stopping diagnostics. These analysis exports are not primary laboratory execution logs. The retrospective BO/random comparison reported in the main analysis concerns S–H.
 
 ## Files to inspect
 
@@ -11,8 +11,8 @@ The S–H analysis compares Bayesian and random selection on a fixed measured 96
 | `raw/` | Original summary workbook and three lossless byte parts of the larger response workbook, with original names, sizes and checksums |
 | `benchmark/data/` | 915 cell-linked source responses; response-free candidate inputs and standardized features; 1,600 historical campaigns, all selected conditions, batch trajectories and reference decisions |
 | `model/` | Bayesian posterior, observable-only campaign dependencies, batch/stopping functions, diagnostic policies and model protocol |
-| `selections/` | Three pool-specific selected-condition and stopping-check tables, fixed seeds, condition summaries and stopping protocol |
-| `figures/source_data/` | Main/SI numerical plot inputs, 1,440 posterior rows, discovery curves, paired budgets, uncertainty and diagnostic summaries |
+| `selections/` | Two pool-specific selected-condition and stopping-check tables, fixed seeds, condition summaries and stopping protocol |
+| `figures/source_data/` | Main/SI numerical plot inputs, 960 posterior rows, discovery curves, paired budgets, uncertainty and diagnostic summaries |
 | `figures/figures/` | Supplied PDF, SVG and 600-dpi PNG artwork for the main figure and three supporting figures |
 | `figure_code/` | Drawing functions that use the relative scientific data paths |
 | `scripts/` | Response-cell checks, workbook reassembly, analysis reproduction and figure rendering |
@@ -31,6 +31,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 export PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
 python scripts/check_data.py --output /tmp/reaction-response-check.json
+python scripts/configure_current_analysis.py
 python scripts/reproduce_analysis.py --output /tmp/reaction-analysis
 python benchmark/verify.py benchmark/data
 python -m unittest discover -s benchmark -p test_policy.py -v
@@ -38,7 +39,7 @@ python -m unittest discover -s model -p test_bo_integrity.py -v
 python scripts/rebuild_figures.py --output /tmp/reaction-optimization-figures
 ```
 
-The response check reads all 915 exported values directly from the supplied workbook's physical cells, verifies the split workbook and checks the twelve artwork exports. The analysis command reruns the current 200 S–H campaigns, three 60-response trajectories, 1,440 posterior rows, the two diagnostic policies and the current bootstrap. `benchmark/verify.py` checks the saved complete historical dataset, including selection histories and observed-label boundaries.
+The response check reads all 915 exported values directly from the supplied workbook's physical cells, verifies the split workbook and checks the twelve artwork exports. The analysis command reruns the current 200 S–H campaigns, two 60-response trajectories, 960 posterior rows, the two diagnostic policies and the current bootstrap. `benchmark/verify.py` checks the saved complete historical dataset, including selection histories and observed-label boundaries.
 
 For full regeneration of the historical eight-pool benchmark:
 

@@ -59,7 +59,7 @@ def main(out, replay_sh=True, ablations=True):
     post_saved = rows(ROOT / 'figures/source_data/NH_OH_posteriors_by_round.csv')
     all_post = []
     plan_report = []
-    for pool, seed in [('NH_PL36', 6000), ('OH_PL37', 7000), ('OH_PL38', 8000)]:
+    for pool, seed in [('NH_PL36', 6000), ('OH_PL38', 8000)]:
         original = sorted((r for r in source if r['pool_id'] == pool), key=lambda r: int(r['candidate_index']))
         oracle = {int(r['candidate_index']): float(r['response']) for r in original}
         result = code['campaign'](pool, oracle)
@@ -162,7 +162,7 @@ def main(out, replay_sh=True, ablations=True):
                   bootstrap_resamples=20000, bootstrap_seed=20261025, NH_OH=plan_report,
                   audit_ablations=diagnostic_results, posterior_rows_checked=len(all_post),
                   environment=dict(python=sys.version, numpy=np.__version__, platform=platform.platform()),
-                  limitation='Retrospective computational replay; no dated prospective laboratory executions reconstructed.')
+                  limitation='S–H comparison uses measured-grid replay; N–H/O–H exports are numerical selected-response analyses, not primary laboratory execution logs.')
     (out / 'reproduction_report.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report, indent=2))
 

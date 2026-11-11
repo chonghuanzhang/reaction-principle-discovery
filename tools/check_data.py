@@ -70,10 +70,10 @@ def main():
     assert all(value in range(12, 97, 12) for value in bo + random)
     assert (median(bo), median(random)) == (24, 48)
     assert abs(mean(b-a for a, b in zip(bo, random))-25.8) < 1e-10
-    selected = table('experiments/selected_responses/selected_responses.csv', 180)
+    selected = table('experiments/selected_responses/selected_responses.csv', 120)
     assert Counter(row['pool_id'] for row in selected) == {
-        'NH_PL36': 60, 'OH_PL37': 60, 'OH_PL38': 60}
-    assert len({(row['pool_id'], row['base'], row['solvent']) for row in selected}) == 180
+        'NH_PL36': 60, 'OH_PL38': 60}
+    assert len({(row['pool_id'], row['base'], row['solvent']) for row in selected}) == 120
 
     graph = json.loads((ROOT/'knowledge_graph/data/network.json').read_text(encoding='utf-8'))
     graph_ids = {node['id'] for node in graph['nodes']}
@@ -103,14 +103,14 @@ def main():
     assert (ROOT/'candidates/figures/N1_novelty_distributions.png').is_file()
 
     composition = json.loads((ROOT/'figures/source/Figure_4_composition.json').read_text(encoding='utf-8'))
-    assert composition['canvas_px'] == [3200, 3700]
-    assert [layer['panels'] for layer in composition['layers']] == ['a–c', 'd']
-    artwork = composition['layers'] + [composition['authoritative_master'], composition['jpeg_derivative']]
-    for asset in artwork:
-        path = (ROOT/asset['path']).resolve()
-        assert path.is_relative_to(ROOT), asset['path']
-        assert hashlib.sha256(path.read_bytes()).hexdigest() == asset['sha256'], asset['path']
-    assert (ROOT/composition['reproduction_script']).is_file()
+    assert composition['canvas_px'] == [4252, 4961]
+    assert set(composition['panels']) == set('abcde')
+    asset = composition['authoritative_master']
+    path = (ROOT/asset['path']).resolve()
+    assert path.is_relative_to(ROOT), asset['path']
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == asset['sha256'], asset['path']
+    for key in ['source_data', 'novelty_panel_source_data', 'vector_pdf', 'vector_svg', 'reproduction_script', 'builder']:
+        assert (ROOT/composition[key]).is_file(), key
 
     # Check human-facing pages and illustrations; internal code fixtures may
     # intentionally contain example paths that are not repository resources.
@@ -139,10 +139,10 @@ def main():
         'source_statements': 3756, 'quotations': 43, 'source_cases': 17,
         'recommended_molecules': 100, 'hypotheses': 115, 'product_options': 124,
         'experimental_pairs': 108, 'condition_components': 20,
-        'paired_benchmark_seeds': 100, 'selected_responses': 180,
+        'paired_benchmark_seeds': 100, 'selected_responses': len(selected),
         'knowledge_graph_nodes': 133, 'knowledge_graph_edges': 142,
         'knowledge_graph_views': 9, 'si_principle_focus_views': 4,
-        'figure_4_artwork_checksums': len(artwork),
+        'figure_4_master_checksum': 'verified',
         'local_links_checked': checked, 'status': 'PASS'}, indent=2))
 
 

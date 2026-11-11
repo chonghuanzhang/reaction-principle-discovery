@@ -12,7 +12,7 @@ The archived candidate-generation workflow completed successfully: seven primary
 | [100 candidate-to-RP associations](../../knowledge_graph/) | Completed | Explanatory mapping within the current four-RP framework |
 | [Eight local evaluator integrity tests](../evaluation/local_rules/test_conditional_rules.py) | Completed and runnable | Implementation consistency on development cases |
 | [SH 100 paired runs](../../optimization/METHODS.md) | Completed | Search-budget differences on one measured response surface |
-| [NH/OH selected trajectories](../../optimization/README.md) | Descriptive analysis | 180 selected responses with posterior and stopping diagnostics |
+| [NH/OH selected trajectories](../../optimization/README.md) | Descriptive analysis | 120 selected responses with posterior and stopping diagnostics |
 | [Matched model comparison](../evaluation/matched_evidence/llm_frozen_protocol.json) | Prepared diagnostic protocol | Frozen four-arm design; [recorded execution status](../evaluation/matched_evidence/llm_results_status.json) |
 
 The 43 attributed passages belong to the current four-card synthesis. They are distinct from the 16 E-coded source-excerpt records used in the earlier diagnostic below. The current four cards are also distinct from the [five reviewed working constraints used in the original candidate calls](model_workflow.md).
