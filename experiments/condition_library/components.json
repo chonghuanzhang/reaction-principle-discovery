@@ -135,14 +135,14 @@
     ]
   },
   {
-    "name": "CsOH — cesium hydroxide entry; formulation unresolved",
+    "name": "CsOH — cesium hydroxide",
     "type": "base/additive",
-    "chemical_role": "cesium hydroxide family, formulation unresolved",
+    "chemical_role": "cesium hydroxide base",
     "source": "Source support: L204 [80]; 10.1038/s41467-023-44653-6. Cs2CO3 or CsOH·H2O, generally 1.2 equivalents for the two-component coupling. | Evidence identifier: CCE-0019 | Reference: L204 [80].",
-    "evidence_level": "exact formulation unresolved",
-    "limits": "Literature supports CsOH·H2O. The formulation of the present CsOH/2 entry is unresolved.",
+    "evidence_level": "cesium hydroxide in related literature",
+    "limits": "The cited related study uses CsOH·H2O. The current condition name CsOH is author-confirmed.",
     "source_text": [
-      "Chemical factor: cesium hydroxide family, formulation unresolved. Support level: exact formulation unresolved. Literature supports CsOH·H2O; the original CsOH formulation is unresolved and must be retained verbatim.",
+      "Chemical factor: cesium hydroxide base. Related literature supports CsOH·H2O. The current condition name CsOH is author-confirmed.",
       "Source support: L204 [80]; 10.1038/s41467-023-44653-6. Cs2CO3 or CsOH·H2O, generally 1.2 equivalents for the two-component coupling.",
       "Evidence identifier: CCE-0019",
       "Reference: L204 [80].",

@@ -1,0 +1,92 @@
+[
+  {
+    "system": "SH",
+    "round": 0,
+    "n_observed": 12,
+    "best_UV_response": 0.57088122605364,
+    "improvement_last_two_rounds": null,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": false
+  },
+  {
+    "system": "SH",
+    "round": 1,
+    "n_observed": 16,
+    "best_UV_response": 0.57088122605364,
+    "improvement_last_two_rounds": null,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": false
+  },
+  {
+    "system": "SH",
+    "round": 2,
+    "n_observed": 20,
+    "best_UV_response": 0.663461538461538,
+    "improvement_last_two_rounds": 0.09258031240789799,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": false
+  },
+  {
+    "system": "SH",
+    "round": 3,
+    "n_observed": 24,
+    "best_UV_response": 0.720792079207921,
+    "improvement_last_two_rounds": 0.149910853154281,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": false
+  },
+  {
+    "system": "SH",
+    "round": 4,
+    "n_observed": 28,
+    "best_UV_response": 0.720792079207921,
+    "improvement_last_two_rounds": 0.057330540746382996,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": false
+  },
+  {
+    "system": "SH",
+    "round": 5,
+    "n_observed": 32,
+    "best_UV_response": 1.8110599078341,
+    "improvement_last_two_rounds": 1.090267828626179,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": false
+  },
+  {
+    "system": "SH",
+    "round": 6,
+    "n_observed": 36,
+    "best_UV_response": 1.8110599078341,
+    "improvement_last_two_rounds": 1.090267828626179,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": false
+  },
+  {
+    "system": "SH",
+    "round": 7,
+    "n_observed": 40,
+    "best_UV_response": 3.20446096654275,
+    "improvement_last_two_rounds": 1.3934010587086498,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": false
+  },
+  {
+    "system": "SH",
+    "round": 8,
+    "n_observed": 44,
+    "best_UV_response": 3.20446096654275,
+    "improvement_last_two_rounds": 1.3934010587086498,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": false
+  },
+  {
+    "system": "SH",
+    "round": 9,
+    "n_observed": 48,
+    "best_UV_response": 3.20446096654275,
+    "improvement_last_two_rounds": 0.0,
+    "tolerance": 0.01873215544264707,
+    "criterion_met": true
+  }
+]

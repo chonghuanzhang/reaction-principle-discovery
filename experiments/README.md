@@ -1,13 +1,16 @@
 # Experimental condition and response tables
 
-These tables provide machine-readable versions of the long scientific tables and component explanations in the Supporting Information. [optimization](../optimization/) contains the recorded workbooks, physical cell links, complete measured grids and runnable analysis.
+These tables connect the Supporting Information to searchable condition identities, measured responses and Bayesian recommendation records.
 
-| Directory | Contents | Scientific unit |
-|---|---|---|
-| `condition_library/` | Twenty component explanations with source support, quotations, locators and evidence identifiers | A base/additive or solvent entry; supporting literature may describe a related reaction rather than the present system |
-| `bo_benchmark/` | One hundred paired S–H first-hit budgets | A pair of computational initialization seeds on the fixed measured 96-condition grid |
-| `selected_responses/` | Numerical exports of five batches of twelve selected responses for NH_PL36 and the O–H formulation–solvent library OH_CuNi_96 | A recorded experimental response selected as a model input |
+| Resource | Contents |
+|---|---|
+| [Condition library](condition_library/) | 145 catalyst–ligand and loading formulations, twelve bases and eight solvents, with component evidence |
+| [Table R3](bo_trajectories/) | Three-system trajectory summaries and every common stopping check |
+| [Table R4](selected_responses/) | 164 selected response records with recommendation rounds and source cells |
+| [Current optimization package](../optimization/current/) | Complete decision spaces, model, exact parameters and portable replay |
 
-The condition figures use the common axis Formulation, comprising catalyst, ligand where present, and base/additive. S–H fixes CuCl/PPh3 and N–H fixes Ag2SO4/PPh3 while their base/additive changes; O–H uses the specified Cu/Ni–base pairs. F1–F12 keys are system-specific. The models encode formulation and solvent identities and their interactions.
+Each reaction system uses the same **145 × 8 × 12 = 13,920-condition decision space**. Models are fitted independently to N–H, O–H and S–H responses. Twelve initial conditions are followed by four recommendations per round. The displayed paths stop at rounds 12, 11 and 9 after 60, 56 and 48 unique conditions.
 
-S–H, N–H and O–H use UV response. These signals retain system-specific scales and are not percentage yields. Only the S–H maximum has the matched 37% NMR yield annotation in the source workbook. O–H condition selection uses 12 Cu/Ni–base formulations × eight solvents, with two mandatory reference formulations and ten sampled identities (seed 20261111); the construction manifest and physical source-cell links are in `optimization/selections/OH_CuNi_96/`. The selected-response tables reproduce numerical selections, posterior inputs and stopping diagnostics and are not primary laboratory execution logs. The retrospective BO/random comparison concerns S–H. Different record units—100 candidate molecules, 108 input pairs, 96 grid conditions and 100 algorithm seed pairs—must be kept distinct.
+The measured 96-condition grids in Figure 5b–d are representative visualization slices with system-specific formulation keys. They are separate from the recommendation space. UV response must be compared within the same substrate–product pair under consistent analytical conditions; it is not a cross-system yield scale.
+
+The `bo_benchmark/` directory retains the earlier S–H comparison as an archival record. Current methods and results are described in [optimization](../optimization/).

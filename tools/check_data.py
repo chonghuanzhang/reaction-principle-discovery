@@ -70,11 +70,21 @@ def main():
     assert all(value in range(12, 97, 12) for value in bo + random)
     assert (median(bo), median(random)) == (24, 48)
     assert abs(mean(b-a for a, b in zip(bo, random))-25.8) < 1e-10
-    selection_summary = json.loads((ROOT / 'optimization/selections/plan_summary.json').read_text())
-    selected_counts = {row['pool_id']: row['selected_count'] for row in selection_summary}
+    selection_summary = json.loads((ROOT / 'optimization/current/protocol.json').read_text())['selected_trajectories']
+    selected_counts = {row['system']: row['unique_conditions'] for row in selection_summary}
     selected = table('experiments/selected_responses/selected_responses.csv', sum(selected_counts.values()))
-    assert Counter(row['pool_id'] for row in selected) == selected_counts
-    assert len({(row['pool_id'], row['catalyst_code'], row['base'], row['solvent']) for row in selected}) == len(selected)
+    assert Counter(row['system'] for row in selected) == selected_counts == {'NH':60, 'OH':56, 'SH':48}
+    assert len({(row['system'], row['candidate_index']) for row in selected}) == len(selected)
+    source_rows=table('optimization/benchmark/data/source_records_and_oracle.csv',915)
+    source_cells={(r['source_sheet'],r['source_response_cell']):float(r['response']) for r in source_rows}
+    for system in selected_counts:
+        candidates=table(f'optimization/current/data/{system}/candidate_space.csv',13920)
+        assert len({(r['catalyst_index'],r['solvent_index'],r['base_index']) for r in candidates})==13920
+        for row in candidates:
+            if row['measured']=='True':
+                assert float(row['UV_response'])==source_cells[row['source_sheet'],row['source_response_cell']]
+    table('optimization/current/data/catalyst_ligand_formulations.csv',145)
+    table('experiments/bo_trajectories/round_by_round_stopping.csv',35)
 
     graph = json.loads((ROOT/'knowledge_graph/data/network.json').read_text(encoding='utf-8'))
     graph_ids = {node['id'] for node in graph['nodes']}
@@ -140,7 +150,7 @@ def main():
         'source_statements': 3756, 'quotations': 43, 'source_cases': 17,
         'recommended_molecules': 100, 'hypotheses': 115, 'product_options': 124,
         'experimental_pairs': 108, 'condition_components': 20,
-        'paired_benchmark_seeds': 100, 'selected_responses': len(selected),
+        'archived_paired_benchmark_seeds': 100, 'selected_responses': len(selected),
         'knowledge_graph_nodes': 133, 'knowledge_graph_edges': 142,
         'knowledge_graph_views': 9, 'si_principle_focus_views': 4,
         'figure_4_master_checksum': 'verified',

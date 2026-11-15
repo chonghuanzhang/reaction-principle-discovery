@@ -1,0 +1,11 @@
+﻿system,candidate_index,cat,ligand,base,solvent,source_pool,source_excel_row,source_response_cell,UV_response,selected,selection_rule
+NH,784,Ag13,PPh3,K2CO3,DCE,NH_PL35,10,AJ10,1.49729627272151,False,"condition_grid before catalyst_panel, regardless of response"
+NH,784,Ag13,PPh3,K2CO3,DCE,NH_PL36,180,AJ180,0.579418428399771,True,"condition_grid before catalyst_panel, regardless of response"
+OH,4816,Cu66,,K2CO3,DCE,OH_PL34,52,AJ52,1.02120141342756,False,"condition_grid before catalyst_panel, regardless of response"
+OH,4816,Cu66,,K2CO3,DCE,OH_PL37,180,AJ180,0.734883720930233,True,"condition_grid before catalyst_panel, regardless of response"
+OH,7408,Ni203,,K2CO3,DCE,OH_PL34,79,AJ79,1.09119010819165,False,"condition_grid before catalyst_panel, regardless of response"
+OH,7408,Ni203,,K2CO3,DCE,OH_PL38,276,AJ276,0.094017094017094,True,"condition_grid before catalyst_panel, regardless of response"
+SH,112,Ag6,PPh3,K2CO3,DCE,SH_PL33,3,AG3,0.802527646129542,False,"condition_grid before catalyst_panel, regardless of response"
+SH,112,Ag6,PPh3,K2CO3,DCE,SH_PL39,180,AG180,0.912820512820513,True,"condition_grid before catalyst_panel, regardless of response"
+SH,2704,Cu9,PPh3,K2CO3,DCE,SH_PL33,30,AG30,0.96602658788774,False,"condition_grid before catalyst_panel, regardless of response"
+SH,2704,Cu9,PPh3,K2CO3,DCE,SH_PL40,276,AG276,1.06161137440758,True,"condition_grid before catalyst_panel, regardless of response"

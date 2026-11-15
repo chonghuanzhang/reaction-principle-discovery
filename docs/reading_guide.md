@@ -15,11 +15,11 @@ Start with the scientific question in the article, use the SI for detailed metho
 | Novelty; Supplementary Fig. 5 and SI S5.6 | [Assessment guide and Figure N1](../candidates/novelty_assessment.md) | Search scope, NP/NR definitions, unresolved cases and complete distributions |
 | Candidate–experiment association; SI S5.5 | [Table R1](../candidates/experiment_mapping/) | All 108 recorded electrophile–donor pairs and their structural relationships to recommendations; these associations do not independently document individual substitution decisions |
 | Proposed product connectivity; SI S5.6 | [Table R2](../candidates/product_options/) | 124 product-option records, registry comparisons and NP/NR assessments |
-| Formulation and solvent libraries; SI S6.2 | [Condition library](../experiments/condition_library/) | System-specific F1–F12 formulations, fixed S–H/N–H catalyst/ligand backgrounds, O–H catalyst–base pairs and eight solvents with chemical context |
-| Sulfur selection benchmark; SI S6.5 | [Table R3](../experiments/bo_benchmark/) | 100 paired seeds, first-hit budgets and paired savings |
-| Nitrogen/oxygen selection; SI S6.6–S6.7 | [Table R4](../experiments/selected_responses/) | 120 selected responses, with system, batch, condition and analytical unit |
+| Shared decision space; SI S6.2 | [Condition library](../experiments/condition_library/) and [complete tables](../optimization/current/data/) | 145 catalyst–ligand/loading formulations, eight solvents and twelve bases |
+| Three-system optimization; SI S6.5–S6.6 | [Table R3](../experiments/bo_trajectories/) | All rounds, first-best responses and common stopping checks |
+| Selected response records; SI S6.6–S6.7 | [Table R4](../experiments/selected_responses/) | 164 N–H/O–H/S–H conditions with rounds, UV responses and source cells |
 | Model operations; SI S4 | [Model workflow](../code/docs/model_workflow.md) | Exact prompts, original working constraints, validation rules and saved model responses |
-| Condition-selection methods; SI S6 | [Optimization methods](../optimization/METHODS.md) | Model equations, seeds, acquisition rule, benchmark and interpretation limits |
+| Condition-selection methods; SI S6 | [Optimization methods](../optimization/METHODS.md) | Model equations, seeds, UCB acquisition, common stopping rule and response interpretation |
 | Response and uncertainty diagnostics; main Fig. 5, Supplementary Figs. 7–9 and SI S8.3 | [Figures BO1–BO3](../optimization/FIGURE_GUIDE.md) | Complete legends, condition keys, measured responses, posterior uncertainty and stopping checks |
 | Method evaluation; SI S8.1 | [Evaluation protocol](../code/docs/evaluation.md) | Frozen comparison design, source-case development tests and execution status |
 | Computational reproduction | [Code](../code/) and [optimization](../optimization/) | Original inputs, algorithms, environments and reproduction commands |
@@ -30,7 +30,7 @@ Start with the scientific question in the article, use the SI for detailed metho
 
 Square-bracket reference numbers in the SI point to the [online bibliography](../literature/bibliography.md). Its complete entries and the [reference correspondence](../literature/reference_correspondence.md) are provided here. The article has its own reference numbering; the correspondence table links it to the same source identities.
 
-**Tables R1–R4** are repository tables. The SI's **Tables 1–3** give the condition key, fixed reaction systems and stopping diagnostics; **Tables 4–6** contain experimental preparation records. **Figures G1–G9**, **C1–C9**, **N1** and **BO1–BO3** remain stable repository identifiers for the network views, structure atlas, novelty distributions and optimization diagnostics. Product-option and hypothesis identifiers are finer than C identifiers: one input molecule can have more than one reacting site, pathway or proposed endpoint.
+**Tables R1–R4** are repository tables. The SI's **Tables 1–3** give representative grid keys, model settings and trajectory/stopping summaries; **Tables 4–6** contain experimental preparation records. **Figures G1–G9**, **C1–C9**, **N1** and **BO1–BO3** remain stable repository identifiers for the network views, structure atlas, novelty distributions and optimization diagnostics. Product-option and hypothesis identifiers are finer than C identifiers: one input molecule can have more than one reacting site, pathway or proposed endpoint.
 
 ## Supplementary figure correspondence
 
@@ -42,9 +42,9 @@ Square-bracket reference numbers in the SI point to the [online bibliography](..
 | Supplementary Figure 4 | RP4 focus | [RP4 focus PNG](../knowledge_graph/figures/RP4_focus.png), cropped from G5 |
 | Supplementary Figure 5 | Complete NP and NR distributions | [N1 PNG](../candidates/figures/N1_novelty_distributions.png), [SVG](../candidates/figures/N1_novelty_distributions.svg) and [assessment guide](../candidates/novelty_assessment.md) |
 | Supplementary Figure 6 | Well-position index | Plate-index schematic in the SI; [condition-library identities](../experiments/condition_library/) are provided here |
-| Supplementary Figure 7 | Selected responses, posterior landscapes and uncertainty | [BO1 artwork and legend](../optimization/FIGURE_GUIDE.md#bo1) |
-| Supplementary Figure 8 | Latent uncertainty and stopping diagnostics | [BO2 artwork and legend](../optimization/FIGURE_GUIDE.md#bo2) |
-| Supplementary Figure 9 | Measured sulfur landscape and replay diagnostics | [BO3 artwork and legend](../optimization/FIGURE_GUIDE.md#bo3) |
+| Supplementary Figure 7 | Selected responses and cumulative-best trajectories | [BO1 artwork and legend](../optimization/FIGURE_GUIDE.md#bo1) |
+| Supplementary Figure 8 | Common stopping calculation by completed round | [BO2 artwork and legend](../optimization/FIGURE_GUIDE.md#bo2) |
+| Supplementary Figure 9 | Latent posterior uncertainty on fixed candidate sets | [BO3 artwork and legend](../optimization/FIGURE_GUIDE.md#bo3) |
 
 The [knowledge-graph guide](../knowledge_graph/#principle-focus-views) explains the evidence and conditional relationships shown in Supplementary Figures 1–4 and provides the complete G1–G9 artwork.
 

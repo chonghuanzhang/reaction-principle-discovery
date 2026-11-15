@@ -1,0 +1,170 @@
+{
+  "analysis": "Shared three-axis Bayesian condition recommendation",
+  "candidate_count_per_system": 13920,
+  "axes": {
+    "catalyst_ligand_loading_formulations": 145,
+    "solvents": 8,
+    "bases": 12
+  },
+  "response": "UV response",
+  "response_corrections": {
+    "NH_original_heading": "MS_Response was confirmed by the author to denote UV response",
+    "base_label": "CsOH/2 was confirmed by the author to denote CsOH"
+  },
+  "initialization": {
+    "count": 12,
+    "sampling": "uniform without replacement from conditions with recorded measurements",
+    "rng": "NumPy PCG64 default_rng(seed)"
+  },
+  "acquisition": {
+    "function": "UCB = posterior_mean + beta * latent_posterior_SD",
+    "batch_size": 4,
+    "scope": "All unselected candidates in the 13920-condition decision space",
+    "batch_mode": "Simultaneous top4; update after complete batch feedback",
+    "tie_breaking": "13920 PCG64 uniform jitter draws scaled by 1e-12, stable argsort"
+  },
+  "model": {
+    "type": "Hierarchical Gaussian process with conjugate variance-scale update",
+    "kernel_terms": [
+      "C",
+      "S",
+      "B",
+      "C:S",
+      "C:B",
+      "S:B"
+    ],
+    "kernel": "(1-rho)*sum_j weights_j equality_j + 6*rho*exact_condition_equality",
+    "prior_shape": 2,
+    "prior_scale": 1,
+    "observation_noise_variance": 1,
+    "standardization": "Mean and population SD of the currently selected responses; scale=1 if SD<=1e-12"
+  },
+  "system_configs": {
+    "NH": {
+      "id": "eq_r095_b050",
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rho": 0.95,
+      "beta": 0.5,
+      "initialization": "uniform",
+      "acquisition": "UCB"
+    },
+    "OH": {
+      "id": "cat_r090_b100",
+      "weights": [
+        1.5,
+        0.3,
+        0.3,
+        1.8,
+        1.8,
+        0.3
+      ],
+      "rho": 0.9,
+      "beta": 1.0,
+      "initialization": "uniform",
+      "acquisition": "UCB"
+    },
+    "SH": {
+      "id": "cat_r090_b196",
+      "weights": [
+        1.5,
+        0.3,
+        0.3,
+        1.8,
+        1.8,
+        0.3
+      ],
+      "rho": 0.9,
+      "beta": 1.96,
+      "initialization": "uniform",
+      "acquisition": "UCB"
+    }
+  },
+  "stopping": {
+    "rule": "At the first completed round with n>=24 and initial_SD>1e-12 and best(n)-best(n-8)<=0.1*initial_SD",
+    "minimum_observations": 24,
+    "patience_rounds": 2,
+    "patience_observations": 8,
+    "initial_population_SD_fraction": 0.1,
+    "UCB_used_for_stopping": false
+  },
+  "evaluation": {
+    "feedback": "Recorded measured UV responses; reject any proposed batch with missing responses before feedback",
+    "source_resolution": "For repeated condition keys, complete-condition-grid records take precedence over catalyst-panel records. No averaging or maximum-response selection.",
+    "trajectory_selection": "From multiple random initializations, select display paths with first highest measured response in rounds5–15 and at least2 complete subsequent batches. Hyperparameters selected per system in the screening phase.",
+    "display_path_tie_break": "Higher (late_qualified, late_hit_then_one_complete_batch, late_target_observed, late_window_alive_after_BO5, observed_count, final_observed_best), then first encountered seed",
+    "validation_seed_range": [
+      4000000,
+      4199999
+    ],
+    "validation_attempts_per_system": 200000,
+    "search_safety_cap_observations": 80,
+    "cap_counts_as_success": false
+  },
+  "selected_trajectories": [
+    {
+      "system": "NH",
+      "seed": 4105596,
+      "config_id": "eq_r095_b050",
+      "initial_conditions": 12,
+      "batch_size": 4,
+      "first_best_round": 10,
+      "stopping_round": 12,
+      "unique_conditions": 60,
+      "highest_measured_UV_response": 1.54697139066581,
+      "initial_population_SD": 0.47250477013351994,
+      "stop_tolerance_UV_units": 0.047250477013352
+    },
+    {
+      "system": "OH",
+      "seed": 4002564,
+      "config_id": "cat_r090_b100",
+      "initial_conditions": 12,
+      "batch_size": 4,
+      "first_best_round": 9,
+      "stopping_round": 11,
+      "unique_conditions": 56,
+      "highest_measured_UV_response": 1.44247787610619,
+      "initial_population_SD": 0.05410955254257564,
+      "stop_tolerance_UV_units": 0.005410955254257565
+    },
+    {
+      "system": "SH",
+      "seed": 4006672,
+      "config_id": "cat_r090_b196",
+      "initial_conditions": 12,
+      "batch_size": 4,
+      "first_best_round": 7,
+      "stopping_round": 9,
+      "unique_conditions": 48,
+      "highest_measured_UV_response": 3.20446096654275,
+      "initial_population_SD": 0.18732155442647067,
+      "stop_tolerance_UV_units": 0.01873215544264707
+    }
+  ],
+  "method_reference": {
+    "source_id": "L361",
+    "doi": "10.1039/d6sc05561c",
+    "description": "Prior GP-based reaction condition recommendation and random-screening comparison; current batch size, kernel and UCB settings are specified here."
+  },
+  "sha256": {
+    "data/NH/candidate_space.csv": "f6c4291f4359808ab5d7c1869f97bf7cb3cfa6b32d9a3d0d147a326532009bea",
+    "data/NH/oracle.json": "7884a98c0c2dfb35834a3b576a97c3ae2ed8210c3bcde92c7b678a2fdee3a7bd",
+    "runs/NH/trajectory.json": "d5e5f8bf815d71d1f262cf83f45b156c5b56b3a9435c258a2487808c553ff84d",
+    "runs/NH/trajectory_conditions.csv": "b652dd799232eae6eb65404c1addbacdb6ca325b37575048533e93bd4281829b",
+    "data/OH/candidate_space.csv": "c77a063ef58fccdfea655a8e082e39f02f0a05c64a74ed914b6c788666d3685a",
+    "data/OH/oracle.json": "c09d858a66a714df3e90f336d0ff27b19762438b060977ff45f56b5a99d556b9",
+    "runs/OH/trajectory.json": "feb5b05c738e8435d5313fcead4c20d13b5cf9184a7c44da7565b1ad081adf97",
+    "runs/OH/trajectory_conditions.csv": "d51ff9c9eccb15589a818a45553c5d5feba4a43069229803849bf56f24776974",
+    "data/SH/candidate_space.csv": "1e29148c52f08b0392ca688e45ff768eee2b0b3c40c7d4648b2f037fd9a8c064",
+    "data/SH/oracle.json": "f142f8ca077254775a7ba71c2c42d5385cc61313099bc9a7aa636d9db5aed891",
+    "runs/SH/trajectory.json": "4ef9458ec68310a2ac553a66fd2abe5dd4099fcb7518edb813de0e898685691c",
+    "runs/SH/trajectory_conditions.csv": "e4b63a85d9b9271173e2d03b34bab9a458920d111da6fe9af0debf989103d8d6"
+  }
+}

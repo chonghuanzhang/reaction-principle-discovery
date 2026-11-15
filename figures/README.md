@@ -2,6 +2,16 @@
 
 The main-figure overview and molecular artwork are in [main/](main/). The editable chemical schemes are supplied in [author_chemical_schemes.pptx](source/author_chemical_schemes.pptx).
 
+## Main Figures 1 and 2
+
+The current overview figures show the shared decision space and the workflow with twelve initial conditions and four recommendations per round.
+
+- [Figure 1 PNG](main/Figure_1.png), [PDF](main/Figure_1.pdf), [SVG](main/Figure_1.svg) and [JPEG](main/Figure_1.jpeg).
+- [Figure 2 PNG](main/Figure_2.png), [PDF](main/Figure_2.pdf), [SVG](main/Figure_2.svg) and [JPEG](main/Figure_2.jpeg).
+- Approved PNG masters and editable slide sources are in [source/current/](source/current/). Figure 1 is slide 4 of its editable deck; Figure 2 is slide 1. Figure 1 reports 370 literature sources.
+
+The Figure 1 and 2 PDF/SVG files contain the approved raster composites. Their slide sources retain editable objects. Export the overview assets with `python code/scripts/export_current_overviews.py --output-dir build/current_overviews`; this preserves the PNG master pixels and creates PDF, SVG and JPEG containers. Outer white margins have been cropped without changing the artwork.
+
 ## Main Figure 4
 
 The current Figure 4 combines candidate diversity, donor-form examples, the molecule/hypothesis/endpoint counts, N/O/S model-donor associations and separate NP/NR distributions. Panel a follows the author-supplied radial count layout with the same sans-serif font and blue–teal palette as the remaining panels. The [selection guide](../candidates/reagent_selection.md#main-figure-4d) links the examples to their candidate and experimental-pair records.
@@ -12,9 +22,22 @@ The current Figure 4 combines candidate diversity, donor-form examples, the mole
 - [Panels a–c crop](source/Figure_4_panels_abc.png) and [panel d crop](source/Figure_4d_candidate_selection.png) — views of the current master.
 - [Figure data and structure associations](source/round4_figure4/figure_data.json), [panel e data](source/round4_figure4/novelty_panel_e.csv), [caption](source/round4_figure4/caption.txt) and [composition metadata](source/Figure_4_composition.json).
 
-Run `code/scripts/reproduce_figures2_4.py` as described in the [code guide](../code/README.md) to reproduce vector Figures 2 and 4. The Figure 4 builder is `code/figures/build_figure4_round4.py`. It reads the deposited candidate collection, experimental-input mapping and novelty summary, draws the scientific content, and verifies the vector PDF before exporting its PNG. The reproduction check compares PNG pixels with the master. It makes no network or model calls.
+Run `code/scripts/reproduce_figures2_4.py` as described in the [code guide](../code/README.md) to reproduce the approved Figure 2 composite and vector Figure 4. The Figure 4 builder is `code/figures/build_figure4_round4.py`. It reads the deposited candidate collection, experimental-input mapping and novelty summary, draws the scientific content, and verifies the vector PDF before exporting its PNG. The reproduction check compares PNG pixels with the master. It makes no network or model calls.
 
 Panel d shows C048 aniline → AP039 indoline (also AP044 in the mapping), C051 phenol → AP048 1-naphthol, and C082 benzenethiol → AP090 4-tert-butylbenzenethiol. All three are structural analogues. Arrows describe associations, not chemical transformations or independently recovered replacement decisions. Panel e uses fractions within two different record populations: 100 candidate molecules and 108 ordered experimental pairs. NP and NR remain separate ordinal classifications; neither is a success probability or a measure of novelty retention.
+
+## Main Figure 5
+
+The current [Figure 5 PNG](main/Figure_5.png), [PDF](main/Figure_5.pdf), [SVG](main/Figure_5.svg) and [JPEG](main/Figure_5.jpeg) combine the three optimization trajectories, representative measured 12 × 8 grids and six N–H posterior snapshots. Panels b, c and d each have an individual relative-response colour bar. The [caption](../optimization/current/figure5/captions/Figure_5_caption_EN.txt) defines the marks and distinguishes the full decision space from the illustrative grids.
+
+From the repository root, run:
+
+```bash
+python optimization/current/figure5/verify_source_data.py
+python optimization/current/figure5/build_figure5.py
+```
+
+The self-contained builder reads the current trajectories and candidate tables plus the frozen posterior and projection inputs in [source_data](../optimization/current/figure5/source_data/). It writes its results to `optimization/current/figure5/figures/`. The [reproduction check](../optimization/current/figure5/reproduction_check.json) records a pixel-identical PNG reconstruction of the approved master with the recorded rendering environment. Text and line elements remain vector in the PDF/SVG; the dense surfaces are rasterized. Plot interpolation connects measured or modelled categorical nodes and does not add measurements.
 
 ## Related artwork
 

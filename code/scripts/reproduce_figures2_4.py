@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draw vector Figures 2 and 4 from deposited scientific records."""
+"""Export the approved Figure 2 composite and redraw vector Figure 4."""
 from pathlib import Path
 import argparse
 import hashlib
@@ -20,8 +20,10 @@ def main():
     env = dict(os.environ, REACTION_FIGURE_OUTPUT=str(output))
     if args.font_file:
         env['REACTION_FONT_FILE'] = str(args.font_file.resolve())
+    from export_current_overviews import export_figure
+    figure2 = export_figure(2, output)
     command = (f"import sys; sys.path.insert(0, {str(ROOT/'figures')!r}); "
-               "import figures_gaoge as f; f.fig2(); f.fig4()")
+               "import figures_gaoge as f; f.fig4()")
     result = subprocess.run([sys.executable, '-c', command], env=env,
                             capture_output=True, text=True)
     if result.returncode:
@@ -36,8 +38,7 @@ def main():
             assert len(document) == 1
             image_count = len(document[0].get_images())
             if number == 2:
-                assert image_count == 0
-                assert document[0].get_text().strip() and document[0].get_drawings()
+                assert image_count == 1, 'Figure 2 contains the approved composite artwork'
             else:
                 assert image_count == 0, 'Figure 4 PDF must remain vector artwork'
                 assert document[0].get_text().strip() and document[0].get_drawings()
@@ -56,7 +57,8 @@ def main():
                       'rgb_pixel_sha256': hashlib.sha256(actual.tobytes()).hexdigest()})
     print(json.dumps({
         'status': 'passed', 'network_calls': 0, 'model_calls': 0, 'figures': figures,
-        'scope': 'Figure 2 uses vector drawing functions; typography may vary. '
+        'figure2': figure2,
+        'scope': 'Figure 2 exports the approved composite with exact PNG pixels. '
                  'Figure 4 redraws counts, structures and NP/NR distributions from deposited '
                  'scientific records; PDF and SVG are vector artwork and PNG is the raster master.'
     }, indent=2))

@@ -78,17 +78,11 @@ def chem(f,key,smi,x,y,w,h,labels=None,fragment=False,all_color=None,font=8,bond
  DOCLOG.append({'id':key,'smiles':smi,'canonical_smiles':Chem.MolToSmiles(m),'formula':rdMolDescriptors.CalcMolFormula(m),'dummy_labels':labels,'fragment_colours':fragment,'stereochemistry_inferred':False})
 
 def fig2():
- # Preserve the established chemical relationships while aligning colour and typography.
- sys.path.insert(0,str(Path(__file__).resolve().parent))
- import build_figures as prior
- prior.U=U
- oldchem=prior.chem
- prior.chem=lambda f,key,smi,x,y,w,h,labels=None:chem(f,key,smi,x,y,w,h,labels=labels)
- oldpanel=U.panel
- names={'a':'RP1   Acceptor activation','b':'RP2   Donor speciation and capture','c':'RP3   Intermediate branching','d':'RP4   Product persistence'}
- U.panel=lambda a,x,y,k,title='':oldpanel(a,x,y,k,names.get(k,title))
- prior.fig2()
- U.panel=oldpanel
+ """Export the current approved overview; editable PPTX is deposited with it."""
+ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
+ from export_current_overviews import export_figure
+ return export_figure(2, U.OUT)
+
 
 def fig4():
  """Keep this entrypoint aligned with the deposited five-panel Figure 4."""

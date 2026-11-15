@@ -1,0 +1,110 @@
+[
+  {
+    "system": "OH",
+    "round": 0,
+    "n_observed": 12,
+    "best_UV_response": 0.194444444444444,
+    "improvement_last_two_rounds": null,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 1,
+    "n_observed": 16,
+    "best_UV_response": 0.194444444444444,
+    "improvement_last_two_rounds": null,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 2,
+    "n_observed": 20,
+    "best_UV_response": 0.216970998925886,
+    "improvement_last_two_rounds": 0.022526554481442,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 3,
+    "n_observed": 24,
+    "best_UV_response": 0.224489795918367,
+    "improvement_last_two_rounds": 0.03004535147392301,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 4,
+    "n_observed": 28,
+    "best_UV_response": 0.277456647398844,
+    "improvement_last_two_rounds": 0.06048564847295801,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 5,
+    "n_observed": 32,
+    "best_UV_response": 0.316129032258064,
+    "improvement_last_two_rounds": 0.09163923633969698,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 6,
+    "n_observed": 36,
+    "best_UV_response": 0.497206703910615,
+    "improvement_last_two_rounds": 0.21975005651177099,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 7,
+    "n_observed": 40,
+    "best_UV_response": 0.497206703910615,
+    "improvement_last_two_rounds": 0.181077671652551,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 8,
+    "n_observed": 44,
+    "best_UV_response": 0.683215130023641,
+    "improvement_last_two_rounds": 0.18600842611302598,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 9,
+    "n_observed": 48,
+    "best_UV_response": 1.44247787610619,
+    "improvement_last_two_rounds": 0.9452711721955751,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 10,
+    "n_observed": 52,
+    "best_UV_response": 1.44247787610619,
+    "improvement_last_two_rounds": 0.7592627460825491,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": false
+  },
+  {
+    "system": "OH",
+    "round": 11,
+    "n_observed": 56,
+    "best_UV_response": 1.44247787610619,
+    "improvement_last_two_rounds": 0.0,
+    "tolerance": 0.005410955254257565,
+    "criterion_met": true
+  }
+]

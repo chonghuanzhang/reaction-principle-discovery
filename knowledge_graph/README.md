@@ -1,6 +1,6 @@
 # Knowledge graph: evidence, reaction principles and candidate molecules
 
-The network connects source observations to four conditional reaction principles and then to 100 recommended molecules. Evidence-to-principle edges carry cited support; principle-to-family edges state transfer questions; family-to-molecule edges record membership. These relations do not assign a yield or confirm formation of a target product. The four current principles and later applicability review remain separate from the original candidate-generation citations.
+The network connects source observations to four conditional reaction principles and then to 100 recommended molecules. Evidence-to-principle edges carry cited support; principle-to-family edges state transfer questions; family-to-molecule edges record membership. These relations do not assign a yield or confirm formation of a target product. Principle applicability and item-level candidate citations are recorded as distinct evidence relationships.
 
 ## Start with a chemical question
 

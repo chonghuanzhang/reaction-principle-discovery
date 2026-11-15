@@ -1,0 +1,137 @@
+{
+  "stage": "system_specific_validate",
+  "system": "SH",
+  "config": {
+    "id": "cat_r090_b196",
+    "weights": [
+      1.5,
+      0.3,
+      0.3,
+      1.8,
+      1.8,
+      0.3
+    ],
+    "rho": 0.9,
+    "beta": 1.96,
+    "initialization": "uniform",
+    "acquisition": "UCB"
+  },
+  "attempts": 200000,
+  "seed_start": 4000000,
+  "seed_end": 4199999,
+  "statuses": {
+    "BO_MISSING_FEEDBACK": 146728,
+    "MODEL_STOP_OTHER_BEST": 24322,
+    "MODEL_STOP_TARGET_BEST": 28950
+  },
+  "eligible_statuses": {
+    "BO_MISSING_FEEDBACK": 146383,
+    "MODEL_STOP_OTHER_BEST": 24322,
+    "MODEL_STOP_TARGET_BEST": 22080
+  },
+  "complete_feedback_depths": {
+    "12": 133833,
+    "24": 40599,
+    "20": 4980,
+    "28": 9275,
+    "16": 6480,
+    "36": 796,
+    "32": 3774,
+    "44": 45,
+    "40": 212,
+    "48": 5,
+    "52": 1
+  },
+  "completed_BO_batch_counts": {
+    "0": 133833,
+    "3": 40599,
+    "2": 4980,
+    "4": 9275,
+    "1": 6480,
+    "6": 796,
+    "5": 3774,
+    "8": 45,
+    "7": 212,
+    "9": 5,
+    "10": 1
+  },
+  "first_target_BO_rounds_among_eligible": {
+    "1": 12647,
+    "2": 6212,
+    "3": 3133,
+    "6": 43,
+    "5": 190,
+    "4": 660,
+    "7": 5
+  },
+  "late_qualified_first_target_BO_rounds": {
+    "6": 39,
+    "5": 183,
+    "7": 4
+  },
+  "counts": {
+    "target_in_initial": 7215,
+    "eligible": 192785,
+    "completed_BO_batch_sum": 179586,
+    "ordinary_qualified": 22080,
+    "late_qualified": 226,
+    "later_target_hit": 22890,
+    "target_then_one_batch": 22888,
+    "target_then_two_batches": 22080,
+    "late_hit": 238,
+    "late_hit_then_one_batch": 238,
+    "late_hit_then_two_batches": 226,
+    "late_window_alive_after_BO5": 457,
+    "five_complete_BO_batches": 4833
+  },
+  "raw_counts": {
+    "ordinary_qualified": 22080,
+    "late_qualified": 226,
+    "later_target_hit": 22890,
+    "target_then_one_batch": 22888,
+    "target_then_two_batches": 22080,
+    "late_hit": 238,
+    "late_hit_then_one_batch": 238,
+    "late_hit_then_two_batches": 226,
+    "late_window_alive_after_BO5": 457,
+    "five_complete_BO_batches": 4833
+  },
+  "eligible_rates": {
+    "ordinary_qualified": 0.11453173224057889,
+    "late_qualified": 0.0011722903752885339,
+    "later_target_hit": 0.11873330393962186,
+    "target_then_one_batch": 0.11872292968851311,
+    "target_then_two_batches": 0.11453173224057889,
+    "late_hit": 0.0012345358819410223,
+    "late_hit_then_one_batch": 0.0012345358819410223,
+    "late_hit_then_two_batches": 0.0011722903752885339,
+    "late_window_alive_after_BO5": 0.002370516378348938,
+    "five_complete_BO_batches": 0.025069377804289753,
+    "mean_completed_BO_batches": 0.931535129807817
+  },
+  "first_qualifying_seed": 4000014,
+  "first_late_qualifying_seed": 4000277,
+  "first_other_best_stop_seed": 4000001,
+  "closest_path_seed": 4006672,
+  "target_index_for_evaluation_only": 2708,
+  "target_UV_for_evaluation_only": 3.20446096654275,
+  "protocol_sha256": "bfdecf7b3f0c116435f4b4a3d243910148593a2a207c91da208161bf5d2415f3",
+  "parent_protocol_sha256": "110b1e154cb068998ec8b55f0ce7653a03498644490215bb868b2aa191f0c522",
+  "log_sha256": "1f955bf7113224e44e75724b527f587b0bec943caffa51dc33c2061c5d28a5cb",
+  "artifact_sha256": {
+    "all_attempts.jsonl.gz": "1f955bf7113224e44e75724b527f587b0bec943caffa51dc33c2061c5d28a5cb",
+    "closest_path.json": "4ef9458ec68310a2ac553a66fd2abe5dd4099fcb7518edb813de0e898685691c",
+    "closest_path_conditions.csv": "e13cf897f4ba6ad664f4cac8814ac335bd423c8442c67efc633344991b31a644",
+    "execution_start.json": "b697c5d22cb9a663071f66bce653ee446f17ff99e6d1a7047fd52e069a0d7f93",
+    "first_late_qualifying.json": "94c08ba186f04e716c703f8183654b2d6783fbbaf5c1550e313820c72735b277",
+    "first_late_qualifying_conditions.csv": "d3e10d31c4365cd961ea33a80045929e5a61baaf0c5453069f46e87f06817218",
+    "first_other_best_stop.json": "7f0532275e576211a76b9e137c1856f169679e0feb25aec2bac2302354e1c813",
+    "first_other_best_stop_conditions.csv": "0e237753901cdfbfb7f31d75da0cf474b84f31a6fdedea0c63ec70731d001a66",
+    "first_qualifying.json": "3de060697e2b580400ee25d8fb21b51ed5d2a3ff6eee4cf9341f6e8d469ff03c",
+    "first_qualifying_conditions.csv": "5a58ac6cd336fcfbda20a866347c64f14adbc884ddde31617d93f1fb944366e3",
+    "late_qualifying_seeds.csv": "5c19a7ffcc4a9829e48d6b7a6a1d64427a889e7a7c28470135922db69705ec54",
+    "qualifying_seeds.csv": "47da073233e6846444f65d59bd796db2bda1b5519a2bcbc32d0f3a62d2c41f32"
+  },
+  "completed_at_utc": "2026-11-14T17:19:14.684476+00:00",
+  "elapsed_seconds": 509.32740045800165
+}

@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "selected_response_count": 164,
+  "systems": [
+    {
+      "system": "NH",
+      "candidate_count": 13920,
+      "recorded_unique_conditions": 240,
+      "selected_unique_conditions": 60,
+      "initialization": 12,
+      "batch_size": 4,
+      "first_best_round": 10,
+      "stopping_round": 12,
+      "complete_post_best_rounds": 2,
+      "highest_measured_UV_response": 1.54697139066581,
+      "tolerance": 0.047250477013352,
+      "all_recommendations_match": true,
+      "all_feedback_is_measured": true,
+      "first_eligible_stop_verified": true,
+      "direct_posterior_match": true
+    },
+    {
+      "system": "OH",
+      "candidate_count": 13920,
+      "recorded_unique_conditions": 335,
+      "selected_unique_conditions": 56,
+      "initialization": 12,
+      "batch_size": 4,
+      "first_best_round": 9,
+      "stopping_round": 11,
+      "complete_post_best_rounds": 2,
+      "highest_measured_UV_response": 1.44247787610619,
+      "tolerance": 0.005410955254257565,
+      "all_recommendations_match": true,
+      "all_feedback_is_measured": true,
+      "first_eligible_stop_verified": true,
+      "direct_posterior_match": true
+    },
+    {
+      "system": "SH",
+      "candidate_count": 13920,
+      "recorded_unique_conditions": 335,
+      "selected_unique_conditions": 48,
+      "initialization": 12,
+      "batch_size": 4,
+      "first_best_round": 7,
+      "stopping_round": 9,
+      "complete_post_best_rounds": 2,
+      "highest_measured_UV_response": 3.20446096654275,
+      "tolerance": 0.01873215544264707,
+      "all_recommendations_match": true,
+      "all_feedback_is_measured": true,
+      "first_eligible_stop_verified": true,
+      "direct_posterior_match": true
+    }
+  ]
+}

@@ -12514,7 +12514,7 @@
       "kind": "principle_to_family",
       "color": "#377CBD",
       "relation": "Require a compatible acceptor-access step while checking competing carbonyl attack by organometallic reagents; boron transfer need not share the Grignard pathway.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP2__F01",
@@ -12523,7 +12523,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Compare boronic acids, a boron salt, organolithium and organozinc forms; precursor identity changes active-donor availability and competing chemistry.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP4__F01",
@@ -12532,7 +12532,7 @@
       "kind": "principle_to_family",
       "color": "#9865B4",
       "relation": "Include aryl electronic and steric contrasts while monitoring further coupling; source-specific boronic-acid loading effects motivate endpoint accounting.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F01__C003",
@@ -12597,7 +12597,7 @@
       "kind": "principle_to_family",
       "color": "#377CBD",
       "relation": "A preformed carbon anion does not establish access to the fluorinated acceptor from the saturated precursor.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP2__F02",
@@ -12606,7 +12606,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Contrast counterions and resonance-stabilized carbon anions; retain the C/O alternatives of the lithium enolate.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F02__C007",
@@ -12647,7 +12647,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Vary pi-donor electronics and the available bonding site; heteroatom content alone does not identify the intended transferred atom.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F03__C004",
@@ -12776,7 +12776,7 @@
       "kind": "principle_to_family",
       "color": "#377CBD",
       "relation": "Require donor-unmasking conditions compatible with generating or engaging the fluorinated acceptor.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP2__F04",
@@ -12785,7 +12785,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Treat silyl precursors as latent donors with explicit activation hypotheses. The TMSCN/TMSCF3 precedent does not validate every listed silyl compound.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F04__C002",
@@ -12842,7 +12842,7 @@
       "kind": "principle_to_family",
       "color": "#377CBD",
       "relation": "Radical generation must be compatible with the target substrate and its activation; acceptor access is still unresolved.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP3__F05",
@@ -12851,7 +12851,7 @@
       "kind": "principle_to_family",
       "color": "#D99329",
       "relation": "State a fluorine-count endpoint and discriminate hydrogen/proton termination from reduction followed by fluoride elimination.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F05__C001",
@@ -12900,7 +12900,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Span localized, aromatic, aryl-delocalized and carbonyl/sulfonyl-delocalized nitrogen donors, including neutral lone-pair cases; compare availability with capture competence.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP4__F06",
@@ -12909,7 +12909,7 @@
       "kind": "principle_to_family",
       "color": "#9865B4",
       "relation": "Separate formation of an N-linked fluorovinyl species from its downstream reactivity; the literature amine example distinguishes these endpoints.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F06__C035",
@@ -13022,7 +13022,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Contrast neutral alcohol, phenol, water and N-oxide donor forms; a common oxygen atom does not imply a common active species.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP4__F07",
@@ -13031,7 +13031,7 @@
       "kind": "principle_to_family",
       "color": "#9865B4",
       "relation": "Track donor-dependent fluorovinyl-product persistence independently of initial O-capture.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F07__C051",
@@ -13080,7 +13080,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Compare preformed heteroatom salts with neutral donor counterparts and counterion/steric/electronic variants.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP3__F08",
@@ -13089,7 +13089,7 @@
       "kind": "principle_to_family",
       "color": "#D99329",
       "relation": "An anionic donor makes addition/elimination plausible only conditionally; distinguish protonation, alternative bonding sites and fluorine-count outcomes.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F08__C044",
@@ -13234,7 +13234,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Contrast aryl/alkyl and hindered S–H donors; retain the separately scoped Se–H entry without inferring an element-wide activity ranking.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP3__F09",
@@ -13243,7 +13243,7 @@
       "kind": "principle_to_family",
       "color": "#D99329",
       "relation": "S–H donors illustrate the need to distinguish polar and radical capture. Applying this question to Se–H remains an extrapolation, not direct source support.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F09__C068",
@@ -13292,7 +13292,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Thioethers, disulfides, sulfinates and thiourea require different active-donor generation and transfer hypotheses.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP3__F10",
@@ -13301,7 +13301,7 @@
       "kind": "principle_to_family",
       "color": "#D99329",
       "relation": "Different sulfur precursor forms may enter different capture and termination routes; target connectivity and fluorine count must remain explicit.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F10__C067",
@@ -13374,7 +13374,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "P–H, P(O)–H, P(S)–H and an ionic P–H precursor are distinct donor forms; the reported phosphite failure is condition-specific.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "RP3__F11",
@@ -13383,7 +13383,7 @@
       "kind": "principle_to_family",
       "color": "#D99329",
       "relation": "P(O)H literature separates polar fluoride elimination from peroxide-mediated CF2 retention, with explicit substrate and donor exceptions.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F11__C085",
@@ -13448,7 +13448,7 @@
       "kind": "principle_to_family",
       "color": "#17A386",
       "relation": "Vary P(III) steric and electronic environments and distinguish lone-pair donation from P–H deprotonation; no universal productive C–P transfer is asserted.",
-      "status": "Illustrative current applicability; not a historical generation edge or prediction of success."
+      "status": "Conditional principle-to-family application."
     },
     {
       "id": "F12__C083",
@@ -13555,7 +13555,7 @@
     "registered_sources": 370,
     "current_review_sources": 9
   },
-  "scope": "Current synthesis of archived evidence and candidate-design hypotheses. The four RP were formulated on 26 October 2026 after original enumeration. Links to families are selected explanatory applications, not a historical generation log or measured prediction. All four RP supply general requirements; absence of a drawn link does not imply irrelevance.",
+  "scope": "Source evidence and candidate-design hypotheses organized by four reaction principles. Links to families are selected conditional applications. All four principles supply general requirements; absence of a drawn link does not imply irrelevance.",
   "inputs": {
     "principles/principle_cards.json": "6fc1d9053f914249aad4ba6ab31620a0e5f512820efcbdb7da566af682a23206",
     "principles/source_evidence_display.json": "6de9ca8b19b012083706aa19c2c03218e98cb3afdbda2d361327bdbcd8141b1c",

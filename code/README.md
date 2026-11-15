@@ -2,7 +2,7 @@
 
 This directory contains the programs, frozen inputs, prompts and saved model responses behind the literature-to-candidate workflow. The principal scientific records are presented in [literature](../literature/), [evidence](../evidence/) and [candidates](../candidates/). Start there to inspect chemistry; use this directory to trace how records were processed and to reproduce the computations.
 
-The candidate-generation inputs contain **342 sources and 3,694 downstream evidence statements**. The current literature collection contains **370 sources and 3,756 statements**. These are different datasets: later literature enriches the chemical interpretation, while the saved generation calls remain bound to their actual inputs. The five working constraints in the generation calls and the four reaction principles in the paper also describe different representations. The supplied records preserve both.
+The candidate-generation inputs contain **342 sources and 3,694 downstream evidence statements**. The current literature collection contains **370 sources and 3,756 statements**. The input snapshots preserve the source scope of each computation, while the current catalog provides the complete evidence collection. The five working constraints in the generation calls and the four reaction principles in the paper also describe different representations. The supplied records preserve both.
 
 ## Find a computation
 
@@ -15,7 +15,7 @@ The candidate-generation inputs contain **342 sources and 3,694 downstream evide
 | How are source identities merged without changing earlier records? | `literature/merge_catalog.py` and `engine/pipeline/evidence_applicability.py`. |
 | How were experimental reagents selected, and how do their structures correspond to candidates? | [Selection criteria and Figure 4d](../candidates/reagent_selection.md); `mapping/build_mapping.py`; frozen structures and workbook-row occurrences in `data/structures/`; numerical reference records in `data/mapping/`. |
 | How were NP/NR labels revised? | `novelty/apply_review.py`, baseline and reviewed tables in `data/novelty/`, and 202 stored PubChem responses. |
-| How are Figures 2–4 reproduced? | `figures/` draws vector Figures 2 and 4 from [deposited scientific records](../figures/); [`knowledge_graph/`](../knowledge_graph/) contains network records, Figures G1–G9 and Figure 3 geometry. |
+| How are Figures 1–4 reproduced? | [Editable PPTX sources and approved composites](../figures/) supply Figures 1–2; `figures/` draws Figure 4 from deposited records; [`knowledge_graph/`](../knowledge_graph/) contains Figure 3 geometry and network data. |
 | How is Figure 5 reproduced? | The separate, complete [optimization](../optimization/) subsystem. |
 
 `engine/` contains the general pipeline modules, schemas, configuration files and prompt templates. `candidate_workflow/engine/` is the exact source snapshot bound to the saved candidate calls. This second copy is needed because changing a bound source file would change the replay digest. JSON data retain the original scientific fields, identifiers, wording and dates; reader tables elsewhere offer a simpler view.
@@ -55,12 +55,12 @@ python scripts/reproduce_figure3.py --output-dir /tmp/reaction-figure3 --render
 python -m unittest discover -s tests -v
 ```
 
-Figure 2 is rebuilt from chemical structures and vector drawing functions; its PDF check requires one page and no embedded raster image. DejaVu Sans is its default font, and `--font-file` accepts another installed TTF. Typeface and software versions can change Figure 2 artwork bytes or text placement.
+Figure 2 is exported from the approved composite PNG, with editable PPTX artwork deposited alongside it. Its current panel c states the shared decision space, twelve initial conditions and four recommendations per round. PNG pixels are preserved by the reproduction command; its PDF and SVG are image containers. Figure 4 remains vector artwork.
 
-Figure 4 is regenerated as vector artwork by `figures/build_figure4_round4.py` using the deposited candidate collection, experimental-input mapping and NP/NR summary. Its five panels contain radial candidate counts, donor forms, molecule/hypothesis/endpoint counts, N/O/S structural associations and compact novelty distributions. The [metadata](../figures/source/Figure_4_composition.json) and [source data](../figures/source/round4_figure4/figure_data.json) identify the records and rendering dimensions. The script writes PDF, SVG, PNG and JPEG, checks that the PDF contains vector content, and compares the PNG exactly with the [master](../figures/main/Figure_4.png). The font option applies to both figures. The complete novelty-distribution chart remains [Repository N1 / Supplementary Figure 5](../candidates/novelty_assessment.md).
+Figure 4 is regenerated as vector artwork by `figures/build_figure4_round4.py` using the deposited candidate collection, experimental-input mapping and NP/NR summary. Its five panels contain radial candidate counts, donor forms, molecule/hypothesis/endpoint counts, N/O/S structural associations and compact novelty distributions. The [metadata](../figures/source/Figure_4_composition.json) and [source data](../figures/source/round4_figure4/figure_data.json) identify the records and rendering dimensions. The script writes PDF, SVG, PNG and JPEG, checks that the PDF contains vector content, and compares the PNG exactly with the [master](../figures/main/Figure_4.png). The font option applies to vector Figure 4. The complete novelty-distribution chart remains [Repository N1 / Supplementary Figure 5](../candidates/novelty_assessment.md).
 
 Figure 3 is reconstructed from the complete network SVG and compared with the supplied SVG tree before export. Its PDF retains 23 dashed conditional-application paths and one dashed legend path; the rendering tests also check evidence-edge transparency.
 
 Replaying saved model outputs validates their recorded inputs and deterministic admission rules. It does not generate a new answer or test the reliability of a new model call. A new live run requires reviewed source inputs, a configured service and credentials, and may return different scientific hypotheses. See [METHODS.md](METHODS.md) for the assumptions and counting units.
 
-To check the links from experimental pairs to the current 120 selected N–H/O–H responses, run `python code/scripts/sync_selected_response_links.py --check` from the repository root.
+To check the links from experimental pairs to the current 164 selected N–H/O–H/S–H responses in Table R4, run `python code/scripts/sync_selected_response_links.py --check` from the repository root.
