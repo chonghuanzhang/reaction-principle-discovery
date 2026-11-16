@@ -35,7 +35,7 @@ The original calls used the following five reviewed working constraints. Their i
 
 ### RP-SR001-SS-01 · Condition-bounded two-fluorine stopping point
 
-Within the grounded Seed system, productive coupling is a condition-bounded net conversion that forms a C-C bond at the CF3-derived carbon while stopping after loss of two fluorines at a monofluoroalkene; stronger base or higher temperature is predicted to increase the competing fully defluorinated alkene rather than simply improve productive conversion.
+Within the grounded Seed system, productive coupling is a condition-bounded net conversion that forms a C-C bond at the CF₃-derived carbon while stopping after loss of two fluorines at a monofluoroalkene; stronger base or higher temperature is predicted to increase the competing fully defluorinated alkene rather than simply improve productive conversion.
 
 Recorded confidence: low. Review status: accepted.
 

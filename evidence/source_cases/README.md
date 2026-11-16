@@ -4,17 +4,17 @@ These 17 cases keep donor form, substrate, activation, conditions and endpoint t
 
 [CSV](../source_cases.csv) · [JSON](../source_cases.json)
 
-- [P01 — Ph2PH, P(III)–H](P01.md)
+- [P01 — Ph₂PH, P(III)–H](P01.md)
 
 - [P02 — P-bound fluorovinyl intermediate from P01](P02.md)
 
-- [P03 — diphenylphosphine oxide, Ph2P(O)H](P03.md)
+- [P03 — diphenylphosphine oxide, Ph₂P(O)H](P03.md)
 
 - [P04 — dialkyl P(O)H reagent as named in Peng abstract](P04.md)
 
-- [P05 — Ph2P(O)H, 3 equiv](P05.md)
+- [P05 — Ph₂P(O)H, 3 equiv](P05.md)
 
-- [P06 — HP(O)(OEt)2, diethyl phosphite](P06.md)
+- [P06 — HP(O)(OEt)₂, diethyl phosphite](P06.md)
 
 - [P07 — di-n-pentylphosphine oxide](P07.md)
 

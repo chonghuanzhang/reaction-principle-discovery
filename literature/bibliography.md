@@ -118,7 +118,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-29"></a>
 
-29. **[L360](sources/L360.md); Tier 1** Ling-Feng Jiang; Bing-Tao Ren; Bin Li; Guang-Yi Zhang; Yi Peng; Zhen-Yu Guan; Qing-Hai Deng. Nucleophilic Substitution of gem-Difluoroalkenes with TMSNu Promoted by Catalytic Amounts of Cs2CO3. The Journal of Organic Chemistry 84(11), 6557-6564 (2019). https://doi.org/10.1021/acs.joc.9b00999
+29. **[L360](sources/L360.md); Tier 1** Ling-Feng Jiang; Bing-Tao Ren; Bin Li; Guang-Yi Zhang; Yi Peng; Zhen-Yu Guan; Qing-Hai Deng. Nucleophilic Substitution of gem-Difluoroalkenes with TMSNu Promoted by Catalytic Amounts of Cs₂CO₃. The Journal of Organic Chemistry 84(11), 6557-6564 (2019). https://doi.org/10.1021/acs.joc.9b00999
 
 <a id="ref-30"></a>
 
@@ -258,7 +258,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-64"></a>
 
-64. **[L334](sources/L334.md); Tier 2** Yunxiao Zhang; Yizhi Zhang; Youyuan Guo; Shanshan Liu; Xiao Shen. Reductive quenching-initiated catalyst-controlled divergent alkylation of α-CF3-olefins. Chem Catalysis 2(6), 1380-1393 (2022). https://doi.org/10.1016/j.checat.2022.03.021
+64. **[L334](sources/L334.md); Tier 2** Yunxiao Zhang; Yizhi Zhang; Youyuan Guo; Shanshan Liu; Xiao Shen. Reductive quenching-initiated catalyst-controlled divergent alkylation of α-CF₃-olefins. Chem Catalysis 2(6), 1380-1393 (2022). https://doi.org/10.1016/j.checat.2022.03.021
 
 <a id="ref-65"></a>
 
@@ -302,7 +302,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-75"></a>
 
-75. **[L160](sources/L160.md); Tier 2** Satenik Mkrtchyan; Vishal B. Purohit; Spartak Khutsishvili; Jela Nociarová; Muhammad Yar; Tariq Mahmood; Khurshid Ayub; Šimon Budzák; Marek Skoršepa; Viktor O. Iaroshenko. Mechanochemical Defluorinative Acylation of ortho‐Hydroxyarylenaminones by CF3‐Compounds: Synthesis of 3‐Acylchromones. Advanced Synthesis & Catalysis 365(12), 2026-2035 (2023). https://doi.org/10.1002/adsc.202300260
+75. **[L160](sources/L160.md); Tier 2** Satenik Mkrtchyan; Vishal B. Purohit; Spartak Khutsishvili; Jela Nociarová; Muhammad Yar; Tariq Mahmood; Khurshid Ayub; Šimon Budzák; Marek Skoršepa; Viktor O. Iaroshenko. Mechanochemical Defluorinative Acylation of ortho‐Hydroxyarylenaminones by CF₃‐Compounds: Synthesis of 3‐Acylchromones. Advanced Synthesis & Catalysis 365(12), 2026-2035 (2023). https://doi.org/10.1002/adsc.202300260
 
 <a id="ref-76"></a>
 
@@ -510,15 +510,15 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-127"></a>
 
-127. **[L009](sources/L009.md); Tier 1** Qing-Dong Wang; Ya-Wen Wang; Ting Xie; Yan-Ying Cui; Mengtao Ma; Zhi-Liang Shen; Xue-Qiang Chu. Three-Component Bisannulation for the Synthesis of Trifluoromethylated Tetracyclic Aza-Aromatics through Six C(sp3)–F Bond Cleavage and Four C–N Bond Formation. The Journal of Organic Chemistry 86(12), 8236-8247 (2021). https://doi.org/10.1021/acs.joc.1c00695
+127. **[L009](sources/L009.md); Tier 1** Qing-Dong Wang; Ya-Wen Wang; Ting Xie; Yan-Ying Cui; Mengtao Ma; Zhi-Liang Shen; Xue-Qiang Chu. Three-Component Bisannulation for the Synthesis of Trifluoromethylated Tetracyclic Aza-Aromatics through Six C(sp³)–F Bond Cleavage and Four C–N Bond Formation. The Journal of Organic Chemistry 86(12), 8236-8247 (2021). https://doi.org/10.1021/acs.joc.1c00695
 
 <a id="ref-128"></a>
 
-128. **[L011](sources/L011.md); Tier 1** Zirui Chen; Yunnan Duan; Shitao Sun; Bin Lin; Xiaozu Liu; Peijun Liu. Visible-Light-Initiated Sequential Trifluoromethylation/Remote C(sp3)–H Alkynylation of Vinyl Azides by Radical Relay. The Journal of Organic Chemistry 88(7), 4687-4693 (2023). https://doi.org/10.1021/acs.joc.3c00170
+128. **[L011](sources/L011.md); Tier 1** Zirui Chen; Yunnan Duan; Shitao Sun; Bin Lin; Xiaozu Liu; Peijun Liu. Visible-Light-Initiated Sequential Trifluoromethylation/Remote C(sp³)–H Alkynylation of Vinyl Azides by Radical Relay. The Journal of Organic Chemistry 88(7), 4687-4693 (2023). https://doi.org/10.1021/acs.joc.3c00170
 
 <a id="ref-129"></a>
 
-129. **[L012](sources/L012.md); Tier 1** Ting Xie; Guo-Qiang Wang; Ya-Wen Wang; Weidong Rao; Haiyan Xu; Shuhua Li; Zhi-Liang Shen; Xue-Qiang Chu. Selective Quadruple C(sp3)-F Functionalization of Polyfluoroalkyl Ketones. iScience 23(7), 101259 (2020). https://doi.org/10.1016/j.isci.2020.101259
+129. **[L012](sources/L012.md); Tier 1** Ting Xie; Guo-Qiang Wang; Ya-Wen Wang; Weidong Rao; Haiyan Xu; Shuhua Li; Zhi-Liang Shen; Xue-Qiang Chu. Selective Quadruple C(sp³)-F Functionalization of Polyfluoroalkyl Ketones. iScience 23(7), 101259 (2020). https://doi.org/10.1016/j.isci.2020.101259
 
 <a id="ref-130"></a>
 
@@ -778,7 +778,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-194"></a>
 
-194. **[L089](sources/L089.md); Tier 1** Francesco Venturoni; Bruno Cerra; Maura Marinozzi; Emidio Camaioni; Antimo Gioiello; Roberto Pellicciari. BF3·Et2O-Promoted Decomposition of Cyclic α-Diazo-β-Hydroxy Ketones: Novel Insights into Mechanistic Aspects. Catalysts 8(12), 600 (2018). https://doi.org/10.3390/catal8120600
+194. **[L089](sources/L089.md); Tier 1** Francesco Venturoni; Bruno Cerra; Maura Marinozzi; Emidio Camaioni; Antimo Gioiello; Roberto Pellicciari. BF₃·Et₂O-Promoted Decomposition of Cyclic α-Diazo-β-Hydroxy Ketones: Novel Insights into Mechanistic Aspects. Catalysts 8(12), 600 (2018). https://doi.org/10.3390/catal8120600
 
 <a id="ref-195"></a>
 
@@ -966,7 +966,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-241"></a>
 
-241. **[L142](sources/L142.md); Tier 2** Jianjun Hao; Lu Ren; Jingwen Tan; Yulin Peng; Linhai Jing; Pan Han. Magnesium‐Mediated Reductive Defluorinative Cross‐Electrophile Coupling of α‐Trifluoromethyl Styrenes with CO2 and Acyl Imidazoles. Advanced Synthesis & Catalysis 367(6), e202401594 (2025). https://doi.org/10.1002/adsc.202401594
+241. **[L142](sources/L142.md); Tier 2** Jianjun Hao; Lu Ren; Jingwen Tan; Yulin Peng; Linhai Jing; Pan Han. Magnesium‐Mediated Reductive Defluorinative Cross‐Electrophile Coupling of α‐Trifluoromethyl Styrenes with CO₂ and Acyl Imidazoles. Advanced Synthesis & Catalysis 367(6), e202401594 (2025). https://doi.org/10.1002/adsc.202401594
 
 <a id="ref-242"></a>
 
@@ -998,7 +998,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-249"></a>
 
-249. **[L156](sources/L156.md); Tier 2** Yun‐Cheng Luo; Ming‐Kuan Wang; Ling‐Chao Yu; Xingang Zhang. Nickel‐Catalyzed Selective C(sp2)−F Bond Alkylation of Industrially Relevant Hydrofluoroolefin HFO‐1234yf. Angewandte Chemie International Edition 62(37), e202308690 (2023). https://doi.org/10.1002/anie.202308690
+249. **[L156](sources/L156.md); Tier 2** Yun‐Cheng Luo; Ming‐Kuan Wang; Ling‐Chao Yu; Xingang Zhang. Nickel‐Catalyzed Selective C(sp²)−F Bond Alkylation of Industrially Relevant Hydrofluoroolefin HFO‐1234yf. Angewandte Chemie International Edition 62(37), e202308690 (2023). https://doi.org/10.1002/anie.202308690
 
 <a id="ref-250"></a>
 
@@ -1018,7 +1018,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-254"></a>
 
-254. **[L162](sources/L162.md); Tier 1** Shiming Shu; Leilei Wang; Leiyang Lv; Zhiping Li. Copper‐Catalyzed [3+2] Annulation of Pyridinium Ylides with α‐CF3 Ketones: Synthesis of Functionalized 2‐Fluoroindolizines. Asian Journal of Organic Chemistry 12(5), e202300075 (2023). https://doi.org/10.1002/ajoc.202300075
+254. **[L162](sources/L162.md); Tier 1** Shiming Shu; Leilei Wang; Leiyang Lv; Zhiping Li. Copper‐Catalyzed [3+2] Annulation of Pyridinium Ylides with α‐CF₃ Ketones: Synthesis of Functionalized 2‐Fluoroindolizines. Asian Journal of Organic Chemistry 12(5), e202300075 (2023). https://doi.org/10.1002/ajoc.202300075
 
 <a id="ref-255"></a>
 
@@ -1062,7 +1062,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-265"></a>
 
-265. **[L177](sources/L177.md); Tier 4** Songhu Yuan; Mingjie Chen; Xuhui Mao; Akram N. Alshawabkeh. Effects of Reduced Sulfur Compounds on Pd-Catalytic Hydrodechlorination of Trichloroethylene in Groundwater by Cathodic H2 under Electrochemically Induced Oxidizing Conditions. Environmental Science & Technology 47(18), 10502–10509 (2013). https://doi.org/10.1021/es402169d
+265. **[L177](sources/L177.md); Tier 4** Songhu Yuan; Mingjie Chen; Xuhui Mao; Akram N. Alshawabkeh. Effects of Reduced Sulfur Compounds on Pd-Catalytic Hydrodechlorination of Trichloroethylene in Groundwater by Cathodic H₂ under Electrochemically Induced Oxidizing Conditions. Environmental Science & Technology 47(18), 10502–10509 (2013). https://doi.org/10.1021/es402169d
 
 <a id="ref-266"></a>
 
@@ -1082,7 +1082,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-270"></a>
 
-270. **[L184](sources/L184.md); Tier 1** Ting Xie; Chen Zhang; Si‐Xuan Zhang; Weidong Rao; Haiyan Xu; Zhi‐Liang Shen; Xue‐Qiang Chu. Synthesis of Polycyclic Furan and Chromene Derivatives via Cascade Reactions Enabled by Cleavage of Multiple C(sp3)−F Bonds. Advanced Synthesis & Catalysis 362(21), 4736-4743 (2020). https://doi.org/10.1002/adsc.202000660
+270. **[L184](sources/L184.md); Tier 1** Ting Xie; Chen Zhang; Si‐Xuan Zhang; Weidong Rao; Haiyan Xu; Zhi‐Liang Shen; Xue‐Qiang Chu. Synthesis of Polycyclic Furan and Chromene Derivatives via Cascade Reactions Enabled by Cleavage of Multiple C(sp³)−F Bonds. Advanced Synthesis & Catalysis 362(21), 4736-4743 (2020). https://doi.org/10.1002/adsc.202000660
 
 <a id="ref-271"></a>
 
@@ -1110,7 +1110,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-277"></a>
 
-277. **[L193](sources/L193.md); Tier 1** Ali McKnight; Yuriko H. Fujisato; Namrata Khanal; Christine M. Le. Intramolecular Fluoroacylation Enabled by TrBF4-Catalyzed Fluoride Recycling. Organic Letters 27(5), 1322-1326 (2025). https://doi.org/10.1021/acs.orglett.5c00154
+277. **[L193](sources/L193.md); Tier 1** Ali McKnight; Yuriko H. Fujisato; Namrata Khanal; Christine M. Le. Intramolecular Fluoroacylation Enabled by TrBF₄-Catalyzed Fluoride Recycling. Organic Letters 27(5), 1322-1326 (2025). https://doi.org/10.1021/acs.orglett.5c00154
 
 <a id="ref-278"></a>
 
@@ -1274,7 +1274,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-318"></a>
 
-318. **[L241](sources/L241.md); Tier 2** Juan Zhang; Wenpeng Dai; Qingyun Liu; Song Cao. Cu-Catalyzed Stereoselective Borylation of gem-Difluoroalkenes with B2pin2. Organic Letters 19(12), 3283-3286 (2017). https://doi.org/10.1021/acs.orglett.7b01430
+318. **[L241](sources/L241.md); Tier 2** Juan Zhang; Wenpeng Dai; Qingyun Liu; Song Cao. Cu-Catalyzed Stereoselective Borylation of gem-Difluoroalkenes with B₂pin₂. Organic Letters 19(12), 3283-3286 (2017). https://doi.org/10.1021/acs.orglett.7b01430
 
 <a id="ref-319"></a>
 
@@ -1374,7 +1374,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-343"></a>
 
-343. **[L270](sources/L270.md); Tier 1** Zhen Fu; XiaoKun Wang; Xiaoyu Ren; Zhen Guo; Chengming Wang; Cong-Ying Zhou. Rhodium-Catalyzed C(sp2)–O Cross Couplings of Diazo Quinones with Phenols to Construct Diaryl Ethers. Organic Letters 26(1), 292-297 (2024). https://doi.org/10.1021/acs.orglett.3c03969
+343. **[L270](sources/L270.md); Tier 1** Zhen Fu; XiaoKun Wang; Xiaoyu Ren; Zhen Guo; Chengming Wang; Cong-Ying Zhou. Rhodium-Catalyzed C(sp²)–O Cross Couplings of Diazo Quinones with Phenols to Construct Diaryl Ethers. Organic Letters 26(1), 292-297 (2024). https://doi.org/10.1021/acs.orglett.3c03969
 
 <a id="ref-344"></a>
 
@@ -1494,7 +1494,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-373"></a>
 
-373. **[L304](sources/L304.md); Tier 4** Andrés García-Domínguez; Andrew G. Leach; Guy C. Lloyd-Jones. In Situ Studies of Arylboronic Acids/Esters and R3SiCF3 Reagents: Kinetics, Speciation, and Dysfunction at the Carbanion–Ate Interface. Accounts of Chemical Research 55(9), 1324-1336 (2022). https://doi.org/10.1021/acs.accounts.2c00113
+373. **[L304](sources/L304.md); Tier 4** Andrés García-Domínguez; Andrew G. Leach; Guy C. Lloyd-Jones. In Situ Studies of Arylboronic Acids/Esters and R₃SiCF₃ Reagents: Kinetics, Speciation, and Dysfunction at the Carbanion–Ate Interface. Accounts of Chemical Research 55(9), 1324-1336 (2022). https://doi.org/10.1021/acs.accounts.2c00113
 
 <a id="ref-374"></a>
 
@@ -1542,7 +1542,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-385"></a>
 
-385. **[L317](sources/L317.md); Tier 2** Hao Tan; Yihan Tang; Gavin Chit Tsui. Enantio‐ and Diastereoselective Rh(I)‐Catalyzed Defluorinative Arylation of Pentafluoroethyl Alkenes to Access Fluoroalkenes Featuring a Unique F‐ and CF3 ‐Substituted sp2‐Carbon. Chinese Journal of Chemistry 43(24), 3535-3542 (2025). https://doi.org/10.1002/cjoc.70284
+385. **[L317](sources/L317.md); Tier 2** Hao Tan; Yihan Tang; Gavin Chit Tsui. Enantio‐ and Diastereoselective Rh(I)‐Catalyzed Defluorinative Arylation of Pentafluoroethyl Alkenes to Access Fluoroalkenes Featuring a Unique F‐ and CF₃ ‐Substituted sp²‐Carbon. Chinese Journal of Chemistry 43(24), 3535-3542 (2025). https://doi.org/10.1002/cjoc.70284
 
 <a id="ref-386"></a>
 
@@ -1606,7 +1606,7 @@ The repository bibliography contains 403 numbered references. Numbers in square 
 
 <a id="ref-401"></a>
 
-401. **[L338](sources/L338.md); Tier 1** Hitoshi Ukigai; Shoji Hara. Stereoselective synthesis of iodofluoroalkenes by iodofluorination of alkynes using IF5-pyridine-HF. Tetrahedron Letters 57(12), 1379-1381 (2016). https://doi.org/10.1016/j.tetlet.2016.02.063
+401. **[L338](sources/L338.md); Tier 1** Hitoshi Ukigai; Shoji Hara. Stereoselective synthesis of iodofluoroalkenes by iodofluorination of alkynes using IF₅-pyridine-HF. Tetrahedron Letters 57(12), 1379-1381 (2016). https://doi.org/10.1016/j.tetlet.2016.02.063
 
 <a id="ref-402"></a>
 

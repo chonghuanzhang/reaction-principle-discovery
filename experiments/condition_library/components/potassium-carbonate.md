@@ -1,4 +1,4 @@
-# K2CO3 — potassium carbonate
+# K₂CO₃ — potassium carbonate
 
 Type: base/additive. Chemical role: carbonate base.
 
@@ -8,7 +8,7 @@ Source support: see the DIPEA sources.
 
 Evidence identifier: CCE-0063
 
-Source support: [L050](../../../literature/sources/L050.md) [76]; [10.1038/s41467-020-20725-9](https://doi.org/10.1038/s41467-020-20725-9). K2CO3 (3.0 equiv) with H2O (4.0 equiv) for the general arylboronic-acid procedure
+Source support: [L050](../../../literature/sources/L050.md) [76]; [10.1038/s41467-020-20725-9](https://doi.org/10.1038/s41467-020-20725-9). K₂CO₃ (3.0 equiv) with H₂O (4.0 equiv) for the general arylboronic-acid procedure
 
 Evidence identifier: CCE-0071
 

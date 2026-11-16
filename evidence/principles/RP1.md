@@ -1,12 +1,12 @@
 # RP1 — Access to a fluorinated acceptor gates nucleophile transfer
 
-For an alkyl–CF3 substrate with an adjacent eliminable C–H bond, dehydrofluorination can expose a gem-difluoroalkene that accepts nucleophiles and undergoes a second fluoride loss. Increasing access to that acceptor opens a bond-forming route that a stronger nucleophile alone cannot supply. A chelation-assisted metal route is a separate activation option, not evidence that every substrate passes through the same alkene.
+For an alkyl–CF₃ substrate with an adjacent eliminable C–H bond, dehydrofluorination can expose a gem-difluoroalkene that accepts nucleophiles and undergoes a second fluoride loss. Increasing access to that acceptor opens a bond-forming route that a stronger nucleophile alone cannot supply. A chelation-assisted metal route is a separate activation option, not evidence that every substrate passes through the same alkene.
 
 ## Directional chemical implications
 
 ### Enable the initial HF-elimination/acceptor-forming step while retaining donor compatibility
 
-Make an electrophilic fluorinated carbon accessible for addition. A partner supported on gem-difluoroalkenes becomes a justified conditional candidate for a saturated CF3 precursor.
+Make an electrophilic fluorinated carbon accessible for addition. A partner supported on gem-difluoroalkenes becomes a justified conditional candidate for a saturated CF₃ precursor.
 
 ### Change from amide to ketone, remove directing functionality, or change metal activation
 
@@ -14,8 +14,8 @@ Alter the accessibility and competing reactions of the acceptor. Reopen activati
 
 ## Source scope
 
-- Adam/Fronczek/Colby: morpholine 3,3,3-trifluoropropanamide plus Grignard reagent; difluoroacrylamide observed by 19F NMR; subsequent enolate not observed.
-- Coradi/Bandar: unactivated (trifluoromethyl)alkanes under strong-base conditions; O/S and selected N/P additions lead to fluorovinyl intermediates; final acid step targets CF2 products.
+- Adam/Fronczek/Colby: morpholine 3,3,3-trifluoropropanamide plus Grignard reagent; difluoroacrylamide observed by ¹⁹F NMR; subsequent enolate not observed.
+- Coradi/Bandar: unactivated (trifluoromethyl)alkanes under strong-base conditions; O/S and selected N/P additions lead to fluorovinyl intermediates; final acid step targets CF₂ products.
 - Du2022/Shen2021 author abstracts establish separate N-chelation-assisted N/S precedents on trifluoropropanamides; they do not establish shared alkene intermediates.
 
 ## Mechanistic status
@@ -47,9 +47,9 @@ Intermediate observation in the specific Grignard system; source-proposed sequen
 ## Source-specific applicability constraints
 
 - [L343-07](../applicability/L343-07.md): The authors propose P-centred Pudovik addition, phospha-Brook migration of phosphorus from carbon to oxygen, beta-fluoride elimination and HF-dependent endpoint selection. Mechanistic rationale for a possible competing pathway, not an observed target-system mechanism.
-- [L370-01](../applicability/L370-01.md): Ph2PH gives no desired coupling with the tested nonfluorinated terminal allene. Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.
-- [L370-02](../applicability/L370-02.md): Cy2PH and tBu2PH showed no reactivity under varied conditions; substrate inhibition is the authors' proposed explanation. Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.
-- [L370-03](../applicability/L370-03.md): The optimized gem-difluoroallene/Ph2PH reaction affords product in 83% isolated yield after oxidation; the source reports a CF2-retaining allylic phosphorus product. Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.
+- [L370-01](../applicability/L370-01.md): Ph₂PH gives no desired coupling with the tested nonfluorinated terminal allene. Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.
+- [L370-02](../applicability/L370-02.md): Cy₂PH and tBu₂PH showed no reactivity under varied conditions; substrate inhibition is the authors' proposed explanation. Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.
+- [L370-03](../applicability/L370-03.md): The optimized gem-difluoroallene/Ph₂PH reaction affords product in 83% isolated yield after oxidation; the source reports a CF₂-retaining allylic phosphorus product. Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.
 
 These principle cards express evidence-based conditional relationships. They do not establish a common mechanism for every substrate or a measured outcome for every proposed candidate.
 

@@ -8,14 +8,14 @@ The component pages below document chemical roles and supporting references for 
 
 | Component | Type | Role | Evidence level |
 |---|---|---|---|
-| [K3PO4 — tripotassium phosphate](components/potassium-phosphate.md) | base/additive | inorganic phosphate; basicity/counterion dimension | exact component in related literature or seed |
+| [K₃PO₄ — tripotassium phosphate](components/potassium-phosphate.md) | base/additive | inorganic phosphate; basicity/counterion dimension | exact component in related literature or seed |
 | [DIPEA — N,N-diisopropylethylamine](components/dipea.md) | base/additive | soluble hindered amine base | exact component in related literature or seed |
-| [KHCO3 — potassium hydrogencarbonate](components/potassium-bicarbonate.md) | base/additive | mild bicarbonate base | exact component in related literature or seed |
-| [NaHCO3 — sodium hydrogencarbonate](components/sodium-bicarbonate.md) | base/additive | bicarbonate/counterion contrast | exact component in related literature or seed |
-| [K2CO3 — potassium carbonate](components/potassium-carbonate.md) | base/additive | carbonate base | exact component in related literature or seed |
-| [K2HPO4 — dipotassium hydrogen phosphate](components/dipotassium-hydrogen-phosphate.md) | base/additive | hydrogen phosphate/acid-base buffer dimension | exact component in related literature or seed |
+| [KHCO₃ — potassium hydrogencarbonate](components/potassium-bicarbonate.md) | base/additive | mild bicarbonate base | exact component in related literature or seed |
+| [NaHCO₃ — sodium hydrogencarbonate](components/sodium-bicarbonate.md) | base/additive | bicarbonate/counterion contrast | exact component in related literature or seed |
+| [K₂CO₃ — potassium carbonate](components/potassium-carbonate.md) | base/additive | carbonate base | exact component in related literature or seed |
+| [K₂HPO₄ — dipotassium hydrogen phosphate](components/dipotassium-hydrogen-phosphate.md) | base/additive | hydrogen phosphate/acid-base buffer dimension | exact component in related literature or seed |
 | [NaOH — sodium hydroxide](components/sodium-hydroxide.md) | base/additive | hydroxide donor/catalyst-speciation test | exact component in related literature or seed |
-| [Na3PO4·12H2O — trisodium phosphate dodecahydrate](components/trisodium-phosphate-dodecahydrate.md) | base/additive | phosphate plus counterion/hydration dimension | family only exact dodecahydrate not established |
+| [Na₃PO₄·12H₂O — trisodium phosphate dodecahydrate](components/trisodium-phosphate-dodecahydrate.md) | base/additive | phosphate plus counterion/hydration dimension | family only exact dodecahydrate not established |
 | [CsOH — cesium hydroxide](components/cesium-hydroxide.md) | base/additive | cesium hydroxide base | cesium hydroxide in related literature |
 | [CsF — cesium fluoride](components/cesium-fluoride.md) | base/additive | fluoride activity/latent-donor activation | exact component in related literature or seed |
 | [NaH — sodium hydride](components/sodium-hydride.md) | base/additive | strong deprotonation and precursor-generation dimension | exact component in related literature or seed |

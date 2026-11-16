@@ -160,7 +160,7 @@ Members (6): [C002](../candidates/C002.md), [C018](../candidates/C018.md), [C024
 
 - **RP1:** Require donor-unmasking conditions compatible with generating or engaging the fluorinated acceptor.
 
-- **RP2:** Treat silyl precursors as latent donors with explicit activation hypotheses. The TMSCN/TMSCF3 precedent does not validate every listed silyl compound.
+- **RP2:** Treat silyl precursors as latent donors with explicit activation hypotheses. The TMSCN/TMSCF₃ precedent does not validate every listed silyl compound.
 
 ### F05 · Radical precursors
 
@@ -216,7 +216,7 @@ Members (7): [C085](../candidates/C085.md), [C087](../candidates/C087.md), [C089
 
 - **RP2:** P–H, P(O)–H, P(S)–H and an ionic P–H precursor are distinct donor forms; the reported phosphite failure is condition-specific.
 
-- **RP3:** P(O)H literature separates polar fluoride elimination from peroxide-mediated CF2 retention, with explicit substrate and donor exceptions.
+- **RP3:** P(O)H literature separates polar fluoride elimination from peroxide-mediated CF₂ retention, with explicit substrate and donor exceptions.
 
 ### F12 · P(III) lone-pair donors
 

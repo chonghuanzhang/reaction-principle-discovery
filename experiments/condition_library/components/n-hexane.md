@@ -10,6 +10,6 @@ Interpretation: n-Hexane is present in the measured grid and in the solvent bloc
 
 Reference: [L361](../../../literature/sources/L361.md) [60].
 
-Source passage: The 1,4-dioxane, DMF, DMSO, HFIP, H2O, and NMP blocks were assigned 110 °C, whereas the THF, MeCN, DCE, MeOH, and n-hexane blocks were assigned 80 °C.
+Source passage: The 1,4-dioxane, DMF, DMSO, HFIP, H₂O, and NMP blocks were assigned 110 °C, whereas the THF, MeCN, DCE, MeOH, and n-hexane blocks were assigned 80 °C.
 
 Locator: physical PDF page 3; text lines 234–239
