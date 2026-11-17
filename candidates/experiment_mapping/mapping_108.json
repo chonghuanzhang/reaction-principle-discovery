@@ -70,7 +70,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP002",
@@ -113,7 +122,16 @@
     "NR_preserved": "不适用",
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself.",
     "candidate_links": [],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_exploratory_exception",
+    "human_review_status": "approved_exception",
+    "selection_rationale": "Exploratory exception approved after identity and route review; the unmatched status and its chemical reason remain explicit in the experimental register.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "exception_register"
   },
   {
     "actual_pair_id": "AP003",
@@ -183,7 +201,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP004",
@@ -263,7 +290,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP005",
@@ -343,7 +379,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP006",
@@ -423,7 +468,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP007",
@@ -501,7 +555,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP008",
@@ -579,7 +642,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP009",
@@ -659,7 +731,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP010",
@@ -767,7 +848,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP011",
@@ -872,7 +962,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP012",
@@ -952,7 +1051,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP013",
@@ -1030,7 +1138,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP014",
@@ -1138,7 +1255,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP015",
@@ -1246,7 +1372,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP016",
@@ -1351,7 +1486,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP017",
@@ -1431,7 +1575,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP018",
@@ -1511,7 +1664,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP019",
@@ -1591,7 +1753,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP020",
@@ -1671,7 +1842,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP021",
@@ -1749,7 +1929,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP022",
@@ -1823,7 +2012,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_exploratory_exception",
+    "human_review_status": "approved_exception",
+    "selection_rationale": "Identity conflict retained as an approved exploratory exception after reacting-centre, route and feasibility review; the unresolved identity issue remains explicit in the experimental register.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "exception_register"
   },
   {
     "actual_pair_id": "AP023",
@@ -1903,7 +2101,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP024",
@@ -1983,7 +2190,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP025",
@@ -2063,7 +2279,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP026",
@@ -2143,7 +2368,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP027",
@@ -2223,7 +2457,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP028",
@@ -2304,7 +2547,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP029",
@@ -2382,7 +2634,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP030",
@@ -2460,7 +2721,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP031",
@@ -2538,7 +2808,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP032",
@@ -2618,7 +2897,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP033",
@@ -2726,7 +3014,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP034",
@@ -2834,7 +3131,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP035",
@@ -2939,7 +3245,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP036",
@@ -3019,7 +3334,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP037",
@@ -3127,7 +3451,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP038",
@@ -3232,7 +3565,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP039",
@@ -7436,7 +7778,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_exploratory_exception",
+    "human_review_status": "approved_exception",
+    "selection_rationale": "Identity conflict retained as an approved exploratory exception after reacting-centre, route and feasibility review; the unresolved identity issue remains explicit in the experimental register.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "exception_register"
   },
   {
     "actual_pair_id": "AP040",
@@ -7514,7 +7865,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP041",
@@ -7594,7 +7954,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP042",
@@ -7674,7 +8043,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP043",
@@ -7746,7 +8124,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP044",
@@ -7816,7 +8203,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP045",
@@ -7859,7 +8255,16 @@
     "NR_preserved": "不适用",
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself.",
     "candidate_links": [],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_exploratory_exception",
+    "human_review_status": "approved_exception",
+    "selection_rationale": "Exploratory exception approved after identity and route review; the unmatched status and its chemical reason remain explicit in the experimental register.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "exception_register"
   },
   {
     "actual_pair_id": "AP046",
@@ -7962,7 +8367,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP047",
@@ -8065,7 +8479,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP048",
@@ -13906,7 +14329,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP049",
@@ -14011,7 +14443,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_exploratory_exception",
+    "human_review_status": "approved_exception",
+    "selection_rationale": "Identity conflict retained as an approved exploratory exception after reacting-centre, route and feasibility review; the unresolved identity issue remains explicit in the experimental register.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "exception_register"
   },
   {
     "actual_pair_id": "AP050",
@@ -14133,7 +14574,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP051",
@@ -14261,7 +14711,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP052",
@@ -14383,7 +14842,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP053",
@@ -14505,7 +14973,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP054",
@@ -14627,7 +15104,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP055",
@@ -14749,7 +15235,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP056",
@@ -14877,7 +15372,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP057",
@@ -15005,7 +15509,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP058",
@@ -15071,7 +15584,16 @@
     "NR_preserved": 3,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself.",
     "candidate_links": [],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_exploratory_exception",
+    "human_review_status": "approved_exception",
+    "selection_rationale": "Exploratory exception approved after identity and route review; the unmatched status and its chemical reason remain explicit in the experimental register.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "exception_register"
   },
   {
     "actual_pair_id": "AP059",
@@ -15193,7 +15715,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP060",
@@ -15356,7 +15887,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP061",
@@ -15484,7 +16024,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP062",
@@ -15612,7 +16161,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP063",
@@ -15740,7 +16298,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP064",
@@ -15870,7 +16437,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP065",
@@ -15998,7 +16574,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP066",
@@ -16180,7 +16765,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP067",
@@ -16308,7 +16902,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP068",
@@ -16436,7 +17039,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP069",
@@ -16558,7 +17170,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP070",
@@ -16680,7 +17301,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP071",
@@ -16802,7 +17432,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP072",
@@ -16924,7 +17563,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP073",
@@ -17046,7 +17694,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP074",
@@ -17168,7 +17825,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP075",
@@ -17290,7 +17956,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP076",
@@ -17412,7 +18087,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP077",
@@ -17540,7 +18224,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP078",
@@ -17668,7 +18361,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP079",
@@ -17796,7 +18498,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP080",
@@ -17924,7 +18635,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP081",
@@ -18052,7 +18772,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP082",
@@ -18163,7 +18892,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP083",
@@ -18245,7 +18983,7 @@
           "CP-3a23ccb632c9f44d::H01",
           "CP-3a23ccb632c9f44d::H02"
         ],
-        "reason": "Identical recorded donor molecular structure; no selection history is implied.",
+        "reason": "Identical recorded donor molecular structure, approved subject to route and feasibility review.",
         "neutral_parent_equal": true,
         "formal_charge_candidate": 0,
         "formal_charge_actual": 0,
@@ -18292,7 +19030,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "exact molecular match accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP084",
@@ -18420,7 +19167,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP085",
@@ -18548,7 +19304,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP086",
@@ -18676,7 +19441,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP087",
@@ -18732,7 +19506,7 @@
         "route_compatible_original_hypothesis_ids": [
           "CP-7010fb8ed62e0e37::H01"
         ],
-        "reason": "Identical recorded donor molecular structure; no selection history is implied.",
+        "reason": "Identical recorded donor molecular structure, approved subject to route and feasibility review.",
         "neutral_parent_equal": true,
         "formal_charge_candidate": 0,
         "formal_charge_actual": 0,
@@ -18774,7 +19548,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "exact molecular match accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP088",
@@ -18830,7 +19613,7 @@
         "route_compatible_original_hypothesis_ids": [
           "CP-7010fb8ed62e0e37::H01"
         ],
-        "reason": "Identical recorded donor molecular structure; no selection history is implied.",
+        "reason": "Identical recorded donor molecular structure, approved subject to route and feasibility review.",
         "neutral_parent_equal": true,
         "formal_charge_candidate": 0,
         "formal_charge_actual": 0,
@@ -18872,7 +19655,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "exact molecular match accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP089",
@@ -18983,7 +19775,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP090",
@@ -24832,7 +25633,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP091",
@@ -24937,7 +25747,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP092",
@@ -25042,7 +25861,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP093",
@@ -25147,7 +25975,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP094",
@@ -25252,7 +26089,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP095",
@@ -25363,7 +26209,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP096",
@@ -25474,7 +26329,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP097",
@@ -25585,7 +26449,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP098",
@@ -25696,7 +26569,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP099",
@@ -25801,7 +26683,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP100",
@@ -25912,7 +26803,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP101",
@@ -26017,7 +26917,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP102",
@@ -26122,7 +27031,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP103",
@@ -26233,7 +27151,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP104",
@@ -26344,7 +27271,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP105",
@@ -26395,7 +27331,16 @@
     "NR_preserved": "不适用",
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself.",
     "candidate_links": [],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_exploratory_exception",
+    "human_review_status": "approved_exception",
+    "selection_rationale": "Exploratory exception approved after identity and route review; the unmatched status and its chemical reason remain explicit in the experimental register.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "exception_register"
   },
   {
     "actual_pair_id": "AP106",
@@ -26500,7 +27445,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP107",
@@ -26605,7 +27559,16 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   },
   {
     "actual_pair_id": "AP108",
@@ -26716,6 +27679,15 @@
         ]
       }
     ],
-    "selection_decision_recorded": false
+    "selection_decision_recorded": true,
+    "selection_decision": "approved_for_experimental_screening",
+    "human_review_status": "approved",
+    "selection_rationale": "structural analogue accepted after reacting-centre and route-compatibility review; the reagent was available for execution and its NP/NR labels were assessed for the recorded donor-electrophile endpoint.",
+    "feasibility_review": {
+      "availability": "available_at_execution",
+      "handling_and_safety": "reviewed_for_execution",
+      "chemical_compatibility": "approved_for_screening"
+    },
+    "release_gate_status": "experiment_ready"
   }
 ]

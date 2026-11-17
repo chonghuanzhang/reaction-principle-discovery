@@ -1,0 +1,2 @@
+# Python 3.12, matching code/requirements-replay.txt.
+rdkit==2025.9.6
