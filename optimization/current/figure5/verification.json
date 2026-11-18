@@ -113,8 +113,8 @@
         "displayed_evaluated": 12,
         "displayed_conditions": 32,
         "new": 12,
-        "target_mean": 0.6410286916926948,
-        "target_SD": 0.5903052455274951,
+        "best_condition_mean": 0.6410286916926948,
+        "best_condition_SD": 0.5903052455274951,
         "marker_Y": "posterior mean"
       },
       {
@@ -123,8 +123,8 @@
         "displayed_evaluated": 16,
         "displayed_conditions": 32,
         "new": 4,
-        "target_mean": 0.7453587618783157,
-        "target_SD": 0.5243603742833483,
+        "best_condition_mean": 0.7453587618783157,
+        "best_condition_SD": 0.5243603742833483,
         "marker_Y": "posterior mean"
       },
       {
@@ -133,8 +133,8 @@
         "displayed_evaluated": 20,
         "displayed_conditions": 32,
         "new": 4,
-        "target_mean": 0.7877062828349534,
-        "target_SD": 0.4901388394938649,
+        "best_condition_mean": 0.7877062828349534,
+        "best_condition_SD": 0.4901388394938649,
         "marker_Y": "posterior mean"
       },
       {
@@ -143,8 +143,8 @@
         "displayed_evaluated": 24,
         "displayed_conditions": 32,
         "new": 4,
-        "target_mean": 0.8192178527885479,
-        "target_SD": 0.46109188356498754,
+        "best_condition_mean": 0.8192178527885479,
+        "best_condition_SD": 0.46109188356498754,
         "marker_Y": "posterior mean"
       },
       {
@@ -153,8 +153,8 @@
         "displayed_evaluated": 28,
         "displayed_conditions": 32,
         "new": 4,
-        "target_mean": 1.4544720787128234,
-        "target_SD": 0.14333754329390389,
+        "best_condition_mean": 1.4544720787128234,
+        "best_condition_SD": 0.14333754329390389,
         "marker_Y": "posterior mean"
       },
       {
@@ -163,8 +163,8 @@
         "displayed_evaluated": 32,
         "displayed_conditions": 32,
         "new": 4,
-        "target_mean": 1.4558551057213003,
-        "target_SD": 0.13353771140991103,
+        "best_condition_mean": 1.4558551057213003,
+        "best_condition_SD": 0.13353771140991103,
         "marker_Y": "posterior mean"
       }
     ]
@@ -185,9 +185,9 @@
   "sources": {
     "optimization/current/figure5/source_data/grids_96.csv": "4a2dc4f8549e4bd4fb030ed2ae3da3ebca4079b26f21cc6b81551a87b71b11c8",
     "optimization/current/figure5/source_data/NH_posterior_snapshots.npz": "b675034f80bead5e8fe99a17fc813ff72e0717e8277f9a48157c0785740cfc43",
-    "optimization/current/runs/NH/trajectory_conditions.csv": "b652dd799232eae6eb65404c1addbacdb6ca325b37575048533e93bd4281829b",
+    "optimization/current/runs/NH/trajectory_conditions.csv": "e438e5638960e7332f5b737a52eda4da21e976f1f4f700e349ad03404cc65c93",
     "optimization/current/figure5/source_data/projection_weights.npz": "bd602440629e8e3f0b30c8ba57a94831fb7a6a5fff96e22bb99eed88b08272db",
-    "optimization/current/figure5/build_figure5.py": "48000a84416a9d0a2de8224a8849d23c5a0a98f6f254514652a4bf38a1a4fd84"
+    "optimization/current/figure5/build_figure5.py": "2fa2b9879d9765eea701db655cf307759d4771249b6274488cdde45e679921f3"
   },
   "outputs": {
     "optimization/current/figure5/figures/Figure_5_composite_preview.png": "41fbc09cdbf236eaf92ab9fd1095b6efc4b49a3800e60805fcebfb196b09c068",

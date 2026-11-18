@@ -1,111 +1,36 @@
 {
-  "release": "round4-three-axis-20261115",
-  "overview_format": "Figures 1 and 2 PDF/SVG are raster composites; editable slide sources are retained.",
-  "figure5": "Self-contained rebuild from current data; see optimization/current/figure5/reproduction_check.json.",
-  "files": {
-    "figures/main/Figure_1.jpeg": {
-      "bytes": 834917,
-      "sha256": "b7a0632612e1f4bdd8243e91dbf45d39f2d758d4f940fd1bdc45afceaae004b9",
-      "dimensions": [
-        2092,
-        1407
-      ]
+  "release": "round5-candidate-set",
+  "assets": [
+    {
+      "path": "figures/main/Figure_1.png",
+      "width_px": 2092,
+      "height_px": 1407,
+      "sha256": "a8e5119bbb274ac6809fbef0e19644409dbdc4fd0dc40760dc7ec490f55417bb"
     },
-    "figures/main/Figure_1.pdf": {
-      "bytes": 349695,
-      "sha256": "2a5c53b83bfbf8bf6a0f8aaabc425cde8c84a2c407c740430835c49983df1e4f"
+    {
+      "path": "knowledge_graph/figures/Figure_3.png",
+      "width_px": 2172,
+      "height_px": 1916,
+      "sha256": "1ac01b1c8cfd6bfcf27dc3cfaff297e2ea199ea0c1b69da8ae3d897fa654027e"
     },
-    "figures/main/Figure_1.png": {
-      "bytes": 566979,
-      "sha256": "ee55d3d89fd8c984c89f430c69aac87356d8074b42a39f0ea38793002812335c",
-      "dimensions": [
-        2092,
-        1407
-      ]
+    {
+      "path": "figures/main/Figure_4.png",
+      "width_px": 2096,
+      "height_px": 2148,
+      "sha256": "c75efbc93ed6fb4262e3e5b5d61ba4405a3a62293eb754081d036bdbac9e80b2"
     },
-    "figures/main/Figure_1.svg": {
-      "bytes": 756183,
-      "sha256": "24fde15306e63dd15030cb1674e711191b927d2810bd50c3aaf718510479ecfa"
+    {
+      "path": "figures/main/Figure_6.png",
+      "width_px": 2010,
+      "height_px": 2586,
+      "sha256": "4b73cae992072457536df110596a5dc7741793ee76c2f5a2e8b9ec2ae6d400a5"
     },
-    "figures/main/Figure_2.jpeg": {
-      "bytes": 1508378,
-      "sha256": "841c47598395fae6441b6308e438f4a7fb069cc363a271a583f43ca79ed302cc",
-      "dimensions": [
-        3555,
-        2601
-      ]
-    },
-    "figures/main/Figure_2.pdf": {
-      "bytes": 679150,
-      "sha256": "7df1c5a8b4a9819af1e1fb2ae9a389a025c8221a8dd08764d182d51b2814ffc8"
-    },
-    "figures/main/Figure_2.png": {
-      "bytes": 2567213,
-      "sha256": "4134aaa7ad8050a500ec562057507fb382ac5cd0c43d0298038ec994cceb25df",
-      "dimensions": [
-        3555,
-        2601
-      ]
-    },
-    "figures/main/Figure_2.svg": {
-      "bytes": 3423163,
-      "sha256": "40da6fec415cd5d37f0da0e840c8a21f69d793bd10d692197e57d296d364607b"
-    },
-    "figures/main/Figure_5.jpeg": {
-      "bytes": 2510889,
-      "sha256": "21fbe7617ecb163c2d1d78fd97339618a503e5f766d1c3c5892b72953bd7cc9b",
-      "dimensions": [
-        3366,
-        4517
-      ]
-    },
-    "figures/main/Figure_5.pdf": {
-      "bytes": 1583764,
-      "sha256": "104035e10ae893d27fb10ff4a2e05831f82fd286693ff0c62ba7d0215b355c4d"
-    },
-    "figures/main/Figure_5.png": {
-      "bytes": 1811400,
-      "sha256": "d19c32ed0af1b865d3a2ab35d9cbed53e69c240648d7284b4aa1c7d01d8f62a0",
-      "dimensions": [
-        3366,
-        4517
-      ]
-    },
-    "figures/main/Figure_5.svg": {
-      "bytes": 1506385,
-      "sha256": "009e13f8b02d09fd06789fe087d6b54f44993d560b970b948e122118b6e711cf"
-    },
-    "figures/source/current/Figure_1_caption.txt": {
-      "bytes": 868,
-      "sha256": "7283d528c40a8ff1ea696bff0de11ce5b3731041154e20269239e10ed4d121eb"
-    },
-    "figures/source/current/Figure_1_editable.pptx": {
-      "bytes": 7277332,
-      "sha256": "ab346f04f34c4bb03815f69b34b70525674718528cec30308bab69fa74e15494"
-    },
-    "figures/source/current/Figure_1_publication.png": {
-      "bytes": 566979,
-      "sha256": "ee55d3d89fd8c984c89f430c69aac87356d8074b42a39f0ea38793002812335c",
-      "dimensions": [
-        2092,
-        1407
-      ]
-    },
-    "figures/source/current/Figure_2_caption.txt": {
-      "bytes": 1175,
-      "sha256": "c2a69177a97c6e8136dd757519764dfa9e8aa322a6d3c90dd4e856396749ba09"
-    },
-    "figures/source/current/Figure_2_editable.pptx": {
-      "bytes": 3377521,
-      "sha256": "085e4db35d4f61f05f29472924bd8bb3155a401e82181a17f22e482d47080307"
-    },
-    "figures/source/current/Figure_2_publication.png": {
-      "bytes": 2567213,
-      "sha256": "4134aaa7ad8050a500ec562057507fb382ac5cd0c43d0298038ec994cceb25df",
-      "dimensions": [
-        3555,
-        2601
-      ]
+    {
+      "path": "candidates/figures/N1_novelty_distributions.png",
+      "width_px": 2102,
+      "height_px": 1576,
+      "sha256": "0f4ae72992bd93b79ec05f73d72ba115a6f3bd6e463225631781061783261ea5"
     }
-  }
+  ],
+  "candidate_source": "candidates/data/candidates_100.json"
 }

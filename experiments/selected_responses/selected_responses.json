@@ -33,7 +33,6 @@
     "source_response_cell": "AJ111",
     "source_well": "PL35-W110",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -72,7 +71,6 @@
     "source_response_cell": "AJ146",
     "source_well": "PL35-W145",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -111,7 +109,6 @@
     "source_response_cell": "AJ6",
     "source_well": "PL35-W5",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -150,7 +147,6 @@
     "source_response_cell": "AJ224",
     "source_well": "CFC124009-19-PL36-W78",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -189,7 +185,6 @@
     "source_response_cell": "AJ21",
     "source_well": "PL35-W20",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -228,7 +223,6 @@
     "source_response_cell": "AJ192",
     "source_well": "CFC124009-19-PL36-W46",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -267,7 +261,6 @@
     "source_response_cell": "AJ230",
     "source_well": "CFC124009-19-PL36-W84",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -306,7 +299,6 @@
     "source_response_cell": "AJ89",
     "source_well": "PL35-W88",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -345,7 +337,6 @@
     "source_response_cell": "AJ240",
     "source_well": "CFC124009-19-PL36-W94",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -384,7 +375,6 @@
     "source_response_cell": "AJ228",
     "source_well": "CFC124009-19-PL36-W82",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -423,7 +413,6 @@
     "source_response_cell": "AJ85",
     "source_well": "PL35-W84",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -462,7 +451,6 @@
     "source_response_cell": "AJ7",
     "source_well": "PL35-W6",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -501,7 +489,6 @@
     "source_response_cell": "AJ58",
     "source_well": "PL35-W57",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.6410286916926948",
     "posterior_sd_before_selection": "0.5903052455274951",
     "acquisition_before_selection": "0.9361813144574282"
@@ -540,7 +527,6 @@
     "source_response_cell": "AJ64",
     "source_well": "PL35-W63",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.6410286916926948",
     "posterior_sd_before_selection": "0.5903052455274951",
     "acquisition_before_selection": "0.9361813144574275"
@@ -579,7 +565,6 @@
     "source_response_cell": "AJ86",
     "source_well": "PL35-W85",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.6410286916926948",
     "posterior_sd_before_selection": "0.5903052455274951",
     "acquisition_before_selection": "0.9361813144574246"
@@ -618,7 +603,6 @@
     "source_response_cell": "AJ113",
     "source_well": "PL35-W112",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.6410286916926948",
     "posterior_sd_before_selection": "0.5903052455274951",
     "acquisition_before_selection": "0.9361813144574136"
@@ -657,7 +641,6 @@
     "source_response_cell": "AJ46",
     "source_well": "PL35-W45",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.7453587618783157",
     "posterior_sd_before_selection": "0.5243603742833483",
     "acquisition_before_selection": "1.0075389490209847"
@@ -696,7 +679,6 @@
     "source_response_cell": "AJ23",
     "source_well": "PL35-W22",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.7453587618783157",
     "posterior_sd_before_selection": "0.5243603742833483",
     "acquisition_before_selection": "1.0075389490209823"
@@ -735,7 +717,6 @@
     "source_response_cell": "AJ24",
     "source_well": "PL35-W23",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.7453587618783157",
     "posterior_sd_before_selection": "0.5243603742833483",
     "acquisition_before_selection": "1.0075389490209776"
@@ -774,7 +755,6 @@
     "source_response_cell": "AJ103",
     "source_well": "PL35-W102",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.7453587618783157",
     "posterior_sd_before_selection": "0.5243603742833483",
     "acquisition_before_selection": "1.007538949020963"
@@ -813,7 +793,6 @@
     "source_response_cell": "AJ98",
     "source_well": "PL35-W97",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.7877062828349534",
     "posterior_sd_before_selection": "0.4901388394938649",
     "acquisition_before_selection": "1.0327757025828777"
@@ -852,7 +831,6 @@
     "source_response_cell": "AJ134",
     "source_well": "PL35-W133",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.7877062828349534",
     "posterior_sd_before_selection": "0.4901388394938649",
     "acquisition_before_selection": "1.0327757025828554"
@@ -891,7 +869,6 @@
     "source_response_cell": "AJ50",
     "source_well": "PL35-W49",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.7877062828349534",
     "posterior_sd_before_selection": "0.4901388394938649",
     "acquisition_before_selection": "1.032775702582852"
@@ -930,7 +907,6 @@
     "source_response_cell": "AJ55",
     "source_well": "PL35-W54",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.7877062828349534",
     "posterior_sd_before_selection": "0.4901388394938649",
     "acquisition_before_selection": "1.0327757025828486"
@@ -969,7 +945,6 @@
     "source_response_cell": "AJ130",
     "source_well": "PL35-W129",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8192178527885479",
     "posterior_sd_before_selection": "0.46109188356498754",
     "acquisition_before_selection": "1.0497637945720355"
@@ -1008,7 +983,6 @@
     "source_response_cell": "AJ74",
     "source_well": "PL35-W73",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8192178527885479",
     "posterior_sd_before_selection": "0.46109188356498754",
     "acquisition_before_selection": "1.0497637945720333"
@@ -1047,7 +1021,6 @@
     "source_response_cell": "AJ33",
     "source_well": "PL35-W32",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8192178527885479",
     "posterior_sd_before_selection": "0.46109188356498754",
     "acquisition_before_selection": "1.0497637945720257"
@@ -1086,7 +1059,6 @@
     "source_response_cell": "AJ49",
     "source_well": "PL35-W48",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8192178527885479",
     "posterior_sd_before_selection": "0.46109188356498754",
     "acquisition_before_selection": "1.0497637945720115"
@@ -1125,7 +1097,6 @@
     "source_response_cell": "AJ114",
     "source_well": "PL35-W113",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8535740263066305",
     "posterior_sd_before_selection": "0.4297580615206279",
     "acquisition_before_selection": "1.0684530570679254"
@@ -1164,7 +1135,6 @@
     "source_response_cell": "AJ68",
     "source_well": "PL35-W67",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8535740263066305",
     "posterior_sd_before_selection": "0.4297580615206279",
     "acquisition_before_selection": "1.068453057067912"
@@ -1203,7 +1173,6 @@
     "source_response_cell": "AJ116",
     "source_well": "PL35-W115",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8535740263066305",
     "posterior_sd_before_selection": "0.4297580615206279",
     "acquisition_before_selection": "1.0684530570678994"
@@ -1242,7 +1211,6 @@
     "source_response_cell": "AJ108",
     "source_well": "PL35-W107",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8535740263066305",
     "posterior_sd_before_selection": "0.4297580615206279",
     "acquisition_before_selection": "1.0684530570678876"
@@ -1281,7 +1249,6 @@
     "source_response_cell": "AJ16",
     "source_well": "PL35-W15",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8602821983859067",
     "posterior_sd_before_selection": "0.4253181926714318",
     "acquisition_before_selection": "1.0729412947226218"
@@ -1320,7 +1287,6 @@
     "source_response_cell": "AJ52",
     "source_well": "PL35-W51",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8602821983859067",
     "posterior_sd_before_selection": "0.4253181926714318",
     "acquisition_before_selection": "1.0729412947226216"
@@ -1359,7 +1325,6 @@
     "source_response_cell": "AJ53",
     "source_well": "PL35-W52",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8602821983859067",
     "posterior_sd_before_selection": "0.4253181926714318",
     "acquisition_before_selection": "1.0729412947226216"
@@ -1398,7 +1363,6 @@
     "source_response_cell": "AJ32",
     "source_well": "PL35-W31",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8602821983859067",
     "posterior_sd_before_selection": "0.4253181926714318",
     "acquisition_before_selection": "1.0729412947225765"
@@ -1437,7 +1401,6 @@
     "source_response_cell": "AJ19",
     "source_well": "PL35-W18",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8859866495739606",
     "posterior_sd_before_selection": "0.4087988376692893",
     "acquisition_before_selection": "1.090386068409578"
@@ -1476,7 +1439,6 @@
     "source_response_cell": "AJ96",
     "source_well": "PL35-W95",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8859866495739606",
     "posterior_sd_before_selection": "0.4087988376692893",
     "acquisition_before_selection": "1.090386068409576"
@@ -1515,7 +1477,6 @@
     "source_response_cell": "AJ29",
     "source_well": "PL35-W28",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8859866495739606",
     "posterior_sd_before_selection": "0.4087988376692893",
     "acquisition_before_selection": "1.0903860684095736"
@@ -1554,7 +1515,6 @@
     "source_response_cell": "AJ40",
     "source_well": "PL35-W39",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.8859866495739606",
     "posterior_sd_before_selection": "0.4087988376692893",
     "acquisition_before_selection": "1.0903860684095668"
@@ -1593,7 +1553,6 @@
     "source_response_cell": "AJ100",
     "source_well": "PL35-W99",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.88794191724905",
     "posterior_sd_before_selection": "0.39241205224884873",
     "acquisition_before_selection": "1.0841479433744703"
@@ -1632,7 +1591,6 @@
     "source_response_cell": "AJ84",
     "source_well": "PL35-W83",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.88794191724905",
     "posterior_sd_before_selection": "0.39241205224884873",
     "acquisition_before_selection": "1.0841479433744612"
@@ -1671,7 +1629,6 @@
     "source_response_cell": "AJ11",
     "source_well": "PL35-W10",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.88794191724905",
     "posterior_sd_before_selection": "0.39241205224884873",
     "acquisition_before_selection": "1.084147943374457"
@@ -1710,7 +1667,6 @@
     "source_response_cell": "AJ95",
     "source_well": "PL35-W94",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.88794191724905",
     "posterior_sd_before_selection": "0.39241205224884873",
     "acquisition_before_selection": "1.084147943374446"
@@ -1749,7 +1705,6 @@
     "source_response_cell": "AJ59",
     "source_well": "PL35-W58",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9049292074470667",
     "posterior_sd_before_selection": "0.3822200516456414",
     "acquisition_before_selection": "1.096039233270867"
@@ -1788,7 +1743,6 @@
     "source_response_cell": "AJ57",
     "source_well": "PL35-W56",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9049292074470667",
     "posterior_sd_before_selection": "0.3822200516456414",
     "acquisition_before_selection": "1.0960392332708515"
@@ -1827,7 +1781,6 @@
     "source_response_cell": "AJ34",
     "source_well": "PL35-W33",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9049292074470667",
     "posterior_sd_before_selection": "0.3822200516456414",
     "acquisition_before_selection": "1.0960392332708462"
@@ -1866,7 +1819,6 @@
     "source_response_cell": "AJ63",
     "source_well": "PL35-W62",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9049292074470667",
     "posterior_sd_before_selection": "0.3822200516456414",
     "acquisition_before_selection": "1.0960392332708082"
@@ -1905,7 +1857,6 @@
     "source_response_cell": "AJ37",
     "source_well": "PL35-W36",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9086865100713591",
     "posterior_sd_before_selection": "0.3665273797620686",
     "acquisition_before_selection": "1.0919501999533898"
@@ -1944,7 +1895,6 @@
     "source_response_cell": "AJ3",
     "source_well": "PL35-W2",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "True",
     "posterior_mean_before_selection": "0.9086865100713591",
     "posterior_sd_before_selection": "0.3665273797620686",
     "acquisition_before_selection": "1.0919501999533867"
@@ -1983,7 +1933,6 @@
     "source_response_cell": "AJ47",
     "source_well": "PL35-W46",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9086865100713591",
     "posterior_sd_before_selection": "0.3665273797620686",
     "acquisition_before_selection": "1.091950199953376"
@@ -2022,7 +1971,6 @@
     "source_response_cell": "AJ105",
     "source_well": "PL35-W104",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9086865100713591",
     "posterior_sd_before_selection": "0.3665273797620686",
     "acquisition_before_selection": "1.091950199953368"
@@ -2061,7 +2009,6 @@
     "source_response_cell": "AJ20",
     "source_well": "PL35-W19",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9133511037878697",
     "posterior_sd_before_selection": "0.3771629471084368",
     "acquisition_before_selection": "1.1019325773430835"
@@ -2100,7 +2047,6 @@
     "source_response_cell": "AJ118",
     "source_well": "PL35-W117",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9133511037878697",
     "posterior_sd_before_selection": "0.3771629471084368",
     "acquisition_before_selection": "1.101932577343075"
@@ -2139,7 +2085,6 @@
     "source_response_cell": "AJ83",
     "source_well": "PL35-W82",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9133511037878697",
     "posterior_sd_before_selection": "0.3771629471084368",
     "acquisition_before_selection": "1.101932577343073"
@@ -2178,7 +2123,6 @@
     "source_response_cell": "AJ36",
     "source_well": "PL35-W35",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9133511037878697",
     "posterior_sd_before_selection": "0.3771629471084368",
     "acquisition_before_selection": "1.1019325773430564"
@@ -2217,7 +2161,6 @@
     "source_response_cell": "AJ119",
     "source_well": "PL35-W118",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9251922364558116",
     "posterior_sd_before_selection": "0.3642876586362225",
     "acquisition_before_selection": "1.107336065774922"
@@ -2256,7 +2199,6 @@
     "source_response_cell": "AJ94",
     "source_well": "PL35-W93",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9251922364558116",
     "posterior_sd_before_selection": "0.3642876586362225",
     "acquisition_before_selection": "1.1073360657748994"
@@ -2295,7 +2237,6 @@
     "source_response_cell": "AJ101",
     "source_well": "PL35-W100",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9251922364558116",
     "posterior_sd_before_selection": "0.3642876586362225",
     "acquisition_before_selection": "1.1073360657748952"
@@ -2334,7 +2275,6 @@
     "source_response_cell": "AJ145",
     "source_well": "PL35-W144",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.9251922364558116",
     "posterior_sd_before_selection": "0.3642876586362225",
     "acquisition_before_selection": "1.1073360657748907"
@@ -2373,7 +2313,6 @@
     "source_response_cell": "AJ227",
     "source_well": "CFC124009-19-PL37-W81",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2412,7 +2351,6 @@
     "source_response_cell": "AJ178",
     "source_well": "CFC124009-19-PL37-W32",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2451,7 +2389,6 @@
     "source_response_cell": "AJ24",
     "source_well": "PL34-W23",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2490,7 +2427,6 @@
     "source_response_cell": "AJ272",
     "source_well": "CFC124009-19-PL38-W30",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2529,7 +2465,6 @@
     "source_response_cell": "AJ153",
     "source_well": "CFC124009-19-PL37-W7",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2568,7 +2503,6 @@
     "source_response_cell": "AJ171",
     "source_well": "CFC124009-19-PL37-W25",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2607,7 +2541,6 @@
     "source_response_cell": "AJ15",
     "source_well": "PL34-W14",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2646,7 +2579,6 @@
     "source_response_cell": "AJ257",
     "source_well": "CFC124009-19-PL38-W15",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2685,7 +2617,6 @@
     "source_response_cell": "AJ218",
     "source_well": "CFC124009-19-PL37-W72",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2724,7 +2655,6 @@
     "source_response_cell": "AJ276",
     "source_well": "CFC124009-19-PL38-W34",
     "source_record_count": "2",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2763,7 +2693,6 @@
     "source_response_cell": "AJ172",
     "source_well": "CFC124009-19-PL37-W26",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2802,7 +2731,6 @@
     "source_response_cell": "AJ221",
     "source_well": "CFC124009-19-PL37-W75",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -2841,7 +2769,6 @@
     "source_response_cell": "AJ268",
     "source_well": "CFC124009-19-PL38-W26",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.0780025068259353",
     "posterior_sd_before_selection": "0.06807527020423564",
     "acquisition_before_selection": "0.14607777703039512"
@@ -2880,7 +2807,6 @@
     "source_response_cell": "AJ280",
     "source_well": "CFC124009-19-PL38-W38",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.07775804360712396",
     "posterior_sd_before_selection": "0.06808233964876391",
     "acquisition_before_selection": "0.14584038325673615"
@@ -2919,7 +2845,6 @@
     "source_response_cell": "AJ328",
     "source_well": "CFC124009-19-PL38-W86",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.07706189441370427",
     "posterior_sd_before_selection": "0.06816637349220264",
     "acquisition_before_selection": "0.145228267906525"
@@ -2958,7 +2883,6 @@
     "source_response_cell": "AJ336",
     "source_well": "CFC124009-19-PL38-W94",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.07694395913641158",
     "posterior_sd_before_selection": "0.06816711718812993",
     "acquisition_before_selection": "0.145111076325352"
@@ -2997,7 +2921,6 @@
     "source_response_cell": "AJ270",
     "source_well": "CFC124009-19-PL38-W28",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.08881426665102546",
     "posterior_sd_before_selection": "0.06346419182413876",
     "acquisition_before_selection": "0.1522784584759112"
@@ -3036,7 +2959,6 @@
     "source_response_cell": "AJ271",
     "source_well": "CFC124009-19-PL38-W29",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.08881426665102546",
     "posterior_sd_before_selection": "0.06346419182413876",
     "acquisition_before_selection": "0.15227845847589128"
@@ -3075,7 +2997,6 @@
     "source_response_cell": "AJ267",
     "source_well": "CFC124009-19-PL38-W25",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.08870604683528253",
     "posterior_sd_before_selection": "0.06345870246840025",
     "acquisition_before_selection": "0.15216474930373772"
@@ -3114,7 +3035,6 @@
     "source_response_cell": "AJ288",
     "source_well": "CFC124009-19-PL38-W46",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.08880515372815272",
     "posterior_sd_before_selection": "0.0633364920045816",
     "acquisition_before_selection": "0.15214164573352262"
@@ -3153,7 +3073,6 @@
     "source_response_cell": "AJ269",
     "source_well": "CFC124009-19-PL38-W27",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.1032835887537486",
     "posterior_sd_before_selection": "0.0659306948486252",
     "acquisition_before_selection": "0.16921428360330923"
@@ -3192,7 +3111,6 @@
     "source_response_cell": "AJ274",
     "source_well": "CFC124009-19-PL38-W32",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.10271889375896363",
     "posterior_sd_before_selection": "0.06592586066174916",
     "acquisition_before_selection": "0.16864475442130633"
@@ -3231,7 +3149,6 @@
     "source_response_cell": "AJ273",
     "source_well": "CFC124009-19-PL38-W31",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.10142997223159946",
     "posterior_sd_before_selection": "0.06585888333921854",
     "acquisition_before_selection": "0.16728885557137163"
@@ -3270,7 +3187,6 @@
     "source_response_cell": "AJ326",
     "source_well": "CFC124009-19-PL38-W84",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.10050174932591074",
     "posterior_sd_before_selection": "0.06611655086705166",
     "acquisition_before_selection": "0.16661830019296858"
@@ -3309,7 +3225,6 @@
     "source_response_cell": "AJ325",
     "source_well": "CFC124009-19-PL38-W83",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.1001132586792725",
     "posterior_sd_before_selection": "0.06771752048263423",
     "acquisition_before_selection": "0.16783077916256525"
@@ -3348,7 +3263,6 @@
     "source_response_cell": "AJ293",
     "source_well": "CFC124009-19-PL38-W51",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.0991312643681124",
     "posterior_sd_before_selection": "0.06786004951457054",
     "acquisition_before_selection": "0.16699131388360344"
@@ -3387,7 +3301,6 @@
     "source_response_cell": "AJ301",
     "source_well": "CFC124009-19-PL38-W59",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.0991312643681124",
     "posterior_sd_before_selection": "0.06786004951457054",
     "acquisition_before_selection": "0.1669913138831407"
@@ -3426,7 +3339,6 @@
     "source_response_cell": "AJ261",
     "source_well": "CFC124009-19-PL38-W19",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.0991312643681124",
     "posterior_sd_before_selection": "0.06786004951457054",
     "acquisition_before_selection": "0.16699131388312702"
@@ -3465,7 +3377,6 @@
     "source_response_cell": "AJ309",
     "source_well": "CFC124009-19-PL38-W67",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.1166326112068932",
     "posterior_sd_before_selection": "0.07556657748060663",
     "acquisition_before_selection": "0.19219918868780692"
@@ -3504,7 +3415,6 @@
     "source_response_cell": "AJ245",
     "source_well": "CFC124009-19-PL38-W3",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.1165361452547673",
     "posterior_sd_before_selection": "0.07556660823213003",
     "acquisition_before_selection": "0.19210275348755118"
@@ -3543,7 +3453,6 @@
     "source_response_cell": "AJ333",
     "source_well": "CFC124009-19-PL38-W91",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.11628216696929798",
     "posterior_sd_before_selection": "0.07549252121485299",
     "acquisition_before_selection": "0.19177468818415783"
@@ -3582,7 +3491,6 @@
     "source_response_cell": "AJ317",
     "source_well": "CFC124009-19-PL38-W75",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.11604657529503289",
     "posterior_sd_before_selection": "0.07556140079416976",
     "acquisition_before_selection": "0.19160797609020166"
@@ -3621,7 +3529,6 @@
     "source_response_cell": "AJ285",
     "source_well": "CFC124009-19-PL38-W43",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.12149711727948502",
     "posterior_sd_before_selection": "0.07999734838958938",
     "acquisition_before_selection": "0.20149446566988086"
@@ -3660,7 +3567,6 @@
     "source_response_cell": "AJ253",
     "source_well": "CFC124009-19-PL38-W11",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.12121278398805468",
     "posterior_sd_before_selection": "0.07999499216916836",
     "acquisition_before_selection": "0.20120777615769564"
@@ -3699,7 +3605,6 @@
     "source_response_cell": "AJ277",
     "source_well": "CFC124009-19-PL38-W35",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.12125922888776121",
     "posterior_sd_before_selection": "0.07992440825760527",
     "acquisition_before_selection": "0.2011836371453858"
@@ -3738,7 +3643,6 @@
     "source_response_cell": "AJ246",
     "source_well": "CFC124009-19-PL38-W4",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.11999681918285428",
     "posterior_sd_before_selection": "0.08042843822237487",
     "acquisition_before_selection": "0.20042525740599088"
@@ -3777,7 +3681,6 @@
     "source_response_cell": "AJ254",
     "source_well": "CFC124009-19-PL38-W12",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.14843586392305155",
     "posterior_sd_before_selection": "0.10942229683392915",
     "acquisition_before_selection": "0.2578581607578974"
@@ -3816,7 +3719,6 @@
     "source_response_cell": "AJ243",
     "source_well": "CFC124009-19-PL38-W1",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.14496412200180103",
     "posterior_sd_before_selection": "0.10962215657744306",
     "acquisition_before_selection": "0.25458627858004507"
@@ -3855,7 +3757,6 @@
     "source_response_cell": "AJ247",
     "source_well": "CFC124009-19-PL38-W5",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.14493986703929515",
     "posterior_sd_before_selection": "0.10962383204711264",
     "acquisition_before_selection": "0.25456369908715404"
@@ -3894,7 +3795,6 @@
     "source_response_cell": "AJ302",
     "source_well": "CFC124009-19-PL38-W60",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.144773696080723",
     "posterior_sd_before_selection": "0.1095258363299436",
     "acquisition_before_selection": "0.2542995324109626"
@@ -3933,7 +3833,6 @@
     "source_response_cell": "AJ244",
     "source_well": "CFC124009-19-PL38-W2",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.15245529111433997",
     "posterior_sd_before_selection": "0.10765466112129049",
     "acquisition_before_selection": "0.2601099522363741"
@@ -3972,7 +3871,6 @@
     "source_response_cell": "AJ250",
     "source_well": "CFC124009-19-PL38-W8",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.15085105254501568",
     "posterior_sd_before_selection": "0.10775285518362353",
     "acquisition_before_selection": "0.25860390772882974"
@@ -4011,7 +3909,6 @@
     "source_response_cell": "AJ248",
     "source_well": "CFC124009-19-PL38-W6",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.1500901454242164",
     "posterior_sd_before_selection": "0.10740032430723098",
     "acquisition_before_selection": "0.25749046973181666"
@@ -4050,7 +3947,6 @@
     "source_response_cell": "AJ255",
     "source_well": "CFC124009-19-PL38-W13",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.14885140478459702",
     "posterior_sd_before_selection": "0.10774666691351864",
     "acquisition_before_selection": "0.2565980716985986"
@@ -4089,7 +3985,6 @@
     "source_response_cell": "AJ249",
     "source_well": "CFC124009-19-PL38-W7",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.1845181657128383",
     "posterior_sd_before_selection": "0.1414941109195504",
     "acquisition_before_selection": "0.32601227663303645"
@@ -4128,7 +4023,6 @@
     "source_response_cell": "AJ252",
     "source_well": "CFC124009-19-PL38-W10",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "True",
     "posterior_mean_before_selection": "0.18166625857938307",
     "posterior_sd_before_selection": "0.1416821760099217",
     "acquisition_before_selection": "0.3233484345901241"
@@ -4167,7 +4061,6 @@
     "source_response_cell": "AJ300",
     "source_well": "CFC124009-19-PL38-W58",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.17700259647201713",
     "posterior_sd_before_selection": "0.1419144787598289",
     "acquisition_before_selection": "0.31891707523272683"
@@ -4206,7 +4099,6 @@
     "source_response_cell": "AJ284",
     "source_well": "CFC124009-19-PL38-W42",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.17267603811577503",
     "posterior_sd_before_selection": "0.1419157254637434",
     "acquisition_before_selection": "0.3145917635795435"
@@ -4245,7 +4137,6 @@
     "source_response_cell": "AJ260",
     "source_well": "CFC124009-19-PL38-W18",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.27725252742972506",
     "posterior_sd_before_selection": "0.28720603153260066",
     "acquisition_before_selection": "0.5644585589633143"
@@ -4284,7 +4175,6 @@
     "source_response_cell": "AJ292",
     "source_well": "CFC124009-19-PL38-W50",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.27657243274289667",
     "posterior_sd_before_selection": "0.28720603153260066",
     "acquisition_before_selection": "0.5637784642761665"
@@ -4323,7 +4213,6 @@
     "source_response_cell": "AJ308",
     "source_well": "CFC124009-19-PL38-W66",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.27652396229210746",
     "posterior_sd_before_selection": "0.287203209525155",
     "acquisition_before_selection": "0.5637271718180127"
@@ -4362,7 +4251,6 @@
     "source_response_cell": "AJ316",
     "source_well": "CFC124009-19-PL38-W74",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.2764788951389128",
     "posterior_sd_before_selection": "0.2872040490761226",
     "acquisition_before_selection": "0.5636829442153559"
@@ -4401,7 +4289,6 @@
     "source_response_cell": "AJ324",
     "source_well": "CFC124009-19-PL38-W82",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.2505678412461949",
     "posterior_sd_before_selection": "0.2761871593652332",
     "acquisition_before_selection": "0.5267550006120093"
@@ -4440,7 +4327,6 @@
     "source_response_cell": "AJ332",
     "source_well": "CFC124009-19-PL38-W90",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.24815771624502225",
     "posterior_sd_before_selection": "0.2763986780501944",
     "acquisition_before_selection": "0.5245563942956727"
@@ -4479,7 +4365,6 @@
     "source_response_cell": "AJ303",
     "source_well": "CFC124009-19-PL38-W61",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.2395781012033871",
     "posterior_sd_before_selection": "0.2774457488409094",
     "acquisition_before_selection": "0.5170238500445586"
@@ -4518,7 +4403,6 @@
     "source_response_cell": "AJ251",
     "source_well": "CFC124009-19-PL38-W9",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.23501668525203306",
     "posterior_sd_before_selection": "0.2772479967990526",
     "acquisition_before_selection": "0.5122646820514131"
@@ -4557,7 +4441,6 @@
     "source_response_cell": "AG188",
     "source_well": "CFC124009-19-PL39-W42",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4596,7 +4479,6 @@
     "source_response_cell": "AG130",
     "source_well": "PL33-W129",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4635,7 +4517,6 @@
     "source_response_cell": "AG271",
     "source_well": "CFC124009-19-PL40-W29",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4674,7 +4555,6 @@
     "source_response_cell": "AG225",
     "source_well": "CFC124009-19-PL39-W79",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4713,7 +4593,6 @@
     "source_response_cell": "AG303",
     "source_well": "CFC124009-19-PL40-W61",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4752,7 +4631,6 @@
     "source_response_cell": "AG243",
     "source_well": "CFC124009-19-PL40-W1",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4791,7 +4669,6 @@
     "source_response_cell": "AG88",
     "source_well": "PL33-W87",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4830,7 +4707,6 @@
     "source_response_cell": "AG2",
     "source_well": "PL33-W1",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4869,7 +4745,6 @@
     "source_response_cell": "AG252",
     "source_well": "CFC124009-19-PL40-W10",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4908,7 +4783,6 @@
     "source_response_cell": "AG192",
     "source_well": "CFC124009-19-PL39-W46",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4947,7 +4821,6 @@
     "source_response_cell": "AG227",
     "source_well": "CFC124009-19-PL39-W81",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -4986,7 +4859,6 @@
     "source_response_cell": "AG181",
     "source_well": "CFC124009-19-PL39-W35",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "",
     "posterior_sd_before_selection": "",
     "acquisition_before_selection": ""
@@ -5025,7 +4897,6 @@
     "source_response_cell": "AG299",
     "source_well": "CFC124009-19-PL40-W57",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.24570972715572292",
     "posterior_sd_before_selection": "0.2358657676862851",
     "acquisition_before_selection": "0.7080066318214897"
@@ -5064,7 +4935,6 @@
     "source_response_cell": "AG247",
     "source_well": "CFC124009-19-PL40-W5",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.2421792141971672",
     "posterior_sd_before_selection": "0.23559786084285056",
     "acquisition_before_selection": "0.7039510214500294"
@@ -5103,7 +4973,6 @@
     "source_response_cell": "AG301",
     "source_well": "CFC124009-19-PL40-W59",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.23983718400341972",
     "posterior_sd_before_selection": "0.23615276397801022",
     "acquisition_before_selection": "0.7026966014003582"
@@ -5142,7 +5011,6 @@
     "source_response_cell": "AG306",
     "source_well": "CFC124009-19-PL40-W64",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.23959895278823823",
     "posterior_sd_before_selection": "0.23615531507120915",
     "acquisition_before_selection": "0.7024633703281281"
@@ -5181,7 +5049,6 @@
     "source_response_cell": "AG323",
     "source_well": "CFC124009-19-PL40-W81",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.25762926670346425",
     "posterior_sd_before_selection": "0.23258036287512504",
     "acquisition_before_selection": "0.7134867779392067"
@@ -5220,7 +5087,6 @@
     "source_response_cell": "AG275",
     "source_well": "CFC124009-19-PL40-W33",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.25680128888497145",
     "posterior_sd_before_selection": "0.23259019467837952",
     "acquisition_before_selection": "0.712678070455057"
@@ -5259,7 +5125,6 @@
     "source_response_cell": "AG259",
     "source_well": "CFC124009-19-PL40-W17",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.2559148518474427",
     "posterior_sd_before_selection": "0.23259957373129062",
     "acquisition_before_selection": "0.711810016361514"
@@ -5298,7 +5163,6 @@
     "source_response_cell": "AG291",
     "source_well": "CFC124009-19-PL40-W49",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.2559148518474427",
     "posterior_sd_before_selection": "0.23259957373129062",
     "acquisition_before_selection": "0.7118100163614988"
@@ -5337,7 +5201,6 @@
     "source_response_cell": "AG307",
     "source_well": "CFC124009-19-PL40-W65",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.30575121922293874",
     "posterior_sd_before_selection": "0.25260011420525486",
     "acquisition_before_selection": "0.8008474430661773"
@@ -5376,7 +5239,6 @@
     "source_response_cell": "AG331",
     "source_well": "CFC124009-19-PL40-W89",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.30575121922293874",
     "posterior_sd_before_selection": "0.25260011420525486",
     "acquisition_before_selection": "0.800847443066014"
@@ -5415,7 +5277,6 @@
     "source_response_cell": "AG315",
     "source_well": "CFC124009-19-PL40-W73",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.3046107345508527",
     "posterior_sd_before_selection": "0.2525974273417672",
     "acquisition_before_selection": "0.7997016921413908"
@@ -5454,7 +5315,6 @@
     "source_response_cell": "AG327",
     "source_well": "CFC124009-19-PL40-W85",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.3028855506993984",
     "posterior_sd_before_selection": "0.2529964346079893",
     "acquisition_before_selection": "0.7987585625312724"
@@ -5493,7 +5353,6 @@
     "source_response_cell": "AG283",
     "source_well": "CFC124009-19-PL40-W41",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.33299476370249964",
     "posterior_sd_before_selection": "0.2609202587093555",
     "acquisition_before_selection": "0.8443984707737702"
@@ -5532,7 +5391,6 @@
     "source_response_cell": "AG267",
     "source_well": "CFC124009-19-PL40-W25",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.3305453491366347",
     "posterior_sd_before_selection": "0.2606701479716838",
     "acquisition_before_selection": "0.8414588391614102"
@@ -5571,7 +5429,6 @@
     "source_response_cell": "AG251",
     "source_well": "CFC124009-19-PL40-W9",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.3261130754362326",
     "posterior_sd_before_selection": "0.2606615302434979",
     "acquisition_before_selection": "0.8370096747135151"
@@ -5610,7 +5467,6 @@
     "source_response_cell": "AG319",
     "source_well": "CFC124009-19-PL40-W77",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.31763182841419063",
     "posterior_sd_before_selection": "0.2616468842871038",
     "acquisition_before_selection": "0.8304597216170112"
@@ -5649,7 +5505,6 @@
     "source_response_cell": "AG279",
     "source_well": "CFC124009-19-PL40-W37",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.2790789480306933",
     "posterior_sd_before_selection": "0.2584889371750358",
     "acquisition_before_selection": "0.7857172648946105"
@@ -5688,7 +5543,6 @@
     "source_response_cell": "AG311",
     "source_well": "CFC124009-19-PL40-W69",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.278798444602416",
     "posterior_sd_before_selection": "0.2584988020776063",
     "acquisition_before_selection": "0.7854560966751054"
@@ -5727,7 +5581,6 @@
     "source_response_cell": "AG278",
     "source_well": "CFC124009-19-PL40-W36",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.27428696481808346",
     "posterior_sd_before_selection": "0.259702856724666",
     "acquisition_before_selection": "0.7833045639984317"
@@ -5766,7 +5619,6 @@
     "source_response_cell": "AG310",
     "source_well": "CFC124009-19-PL40-W68",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.27400646138980617",
     "posterior_sd_before_selection": "0.25971259365017496",
     "acquisition_before_selection": "0.7830431449448926"
@@ -5805,7 +5657,6 @@
     "source_response_cell": "AG312",
     "source_well": "CFC124009-19-PL40-W70",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.38941196901579234",
     "posterior_sd_before_selection": "0.3851195427694768",
     "acquisition_before_selection": "1.1442462728443092"
@@ -5844,7 +5695,6 @@
     "source_response_cell": "AG313",
     "source_well": "CFC124009-19-PL40-W71",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.3893629374968508",
     "posterior_sd_before_selection": "0.38511964808905796",
     "acquisition_before_selection": "1.1441974477514547"
@@ -5883,7 +5733,6 @@
     "source_response_cell": "AG309",
     "source_well": "CFC124009-19-PL40-W67",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.38484242363758475",
     "posterior_sd_before_selection": "0.3847312554361085",
     "acquisition_before_selection": "1.138915684292599"
@@ -5922,7 +5771,6 @@
     "source_response_cell": "AG314",
     "source_well": "CFC124009-19-PL40-W72",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.38040655712248217",
     "posterior_sd_before_selection": "0.38473487516162386",
     "acquisition_before_selection": "1.134486912439391"
@@ -5961,7 +5809,6 @@
     "source_response_cell": "AG308",
     "source_well": "CFC124009-19-PL40-W66",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "True",
     "posterior_mean_before_selection": "0.37016949989594966",
     "posterior_sd_before_selection": "0.40351295215888866",
     "acquisition_before_selection": "1.161054886128366"
@@ -6000,7 +5847,6 @@
     "source_response_cell": "AG295",
     "source_well": "CFC124009-19-PL40-W53",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.3627775648175754",
     "posterior_sd_before_selection": "0.4035459357761131",
     "acquisition_before_selection": "1.1537275989389533"
@@ -6039,7 +5885,6 @@
     "source_response_cell": "AG335",
     "source_well": "CFC124009-19-PL40-W93",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.3535381813095172",
     "posterior_sd_before_selection": "0.4035459357761131",
     "acquisition_before_selection": "1.1444882154308402"
@@ -6078,7 +5923,6 @@
     "source_response_cell": "AG325",
     "source_well": "CFC124009-19-PL40-W83",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.3503631090107302",
     "posterior_sd_before_selection": "0.40476575133028087",
     "acquisition_before_selection": "1.1437039816190582"
@@ -6117,7 +5961,6 @@
     "source_response_cell": "AG244",
     "source_well": "CFC124009-19-PL40-W2",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.45954840933951546",
     "posterior_sd_before_selection": "0.6087327613244151",
     "acquisition_before_selection": "1.6526646215354495"
@@ -6156,7 +5999,6 @@
     "source_response_cell": "AG316",
     "source_well": "CFC124009-19-PL40-W74",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.4593164303160391",
     "posterior_sd_before_selection": "0.6087274131129261",
     "acquisition_before_selection": "1.6524221600181876"
@@ -6195,7 +6037,6 @@
     "source_response_cell": "AG292",
     "source_well": "CFC124009-19-PL40-W50",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.45257966742360417",
     "posterior_sd_before_selection": "0.6087327613244151",
     "acquisition_before_selection": "1.6456958796200012"
@@ -6234,7 +6075,6 @@
     "source_response_cell": "AG276",
     "source_well": "CFC124009-19-PL40-W34",
     "source_record_count": "2",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.45122970655727473",
     "posterior_sd_before_selection": "0.6080595665212154",
     "acquisition_before_selection": "1.6430264569397555"
@@ -6273,7 +6113,6 @@
     "source_response_cell": "AG324",
     "source_well": "CFC124009-19-PL40-W82",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.5178437667232163",
     "posterior_sd_before_selection": "0.5921149756208753",
     "acquisition_before_selection": "1.6783891189401403"
@@ -6312,7 +6151,6 @@
     "source_response_cell": "AG260",
     "source_well": "CFC124009-19-PL40-W18",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.5156968645173294",
     "posterior_sd_before_selection": "0.5930916451860394",
     "acquisition_before_selection": "1.6781564890826324"
@@ -6351,7 +6189,6 @@
     "source_response_cell": "AG300",
     "source_well": "CFC124009-19-PL40-W58",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.5156927791492278",
     "posterior_sd_before_selection": "0.5916632936587195",
     "acquisition_before_selection": "1.6753528347206217"
@@ -6390,7 +6227,6 @@
     "source_response_cell": "AG284",
     "source_well": "CFC124009-19-PL40-W42",
     "source_record_count": "1",
-    "target_best_measured_for_evaluation_only": "False",
     "posterior_mean_before_selection": "0.5104926479945062",
     "posterior_sd_before_selection": "0.5930422459989072",
     "acquisition_before_selection": "1.67285545015332"

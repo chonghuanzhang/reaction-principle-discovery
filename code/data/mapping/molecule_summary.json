@@ -1,19 +1,19 @@
 {
   "candidate_rows": 100,
   "distinct_candidate_structures": 100,
-  "duplicate_candidate_structures": [],
   "actual_distinct_donor_structures": 102,
   "actual_distinct_electrophile_structures": 5,
-  "exact_candidate_molecule_intersection": [
-    51,
-    95
-  ],
-  "distinct_actual_donors_by_primary_class": {
-    "Exact Molecular Match": 2,
-    "Structural Analogue": 96,
-    "Reactive-form Analogue": 0,
-    "Additional Experimental Candidate": 0,
-    "Unmatched": 4
+  "candidate_best_relationships": {
+    "Same donor family, different scaffold": 41,
+    "Exact identity": 25,
+    "Same scaffold, substituent or positional variation": 31,
+    "No reasonable counterpart": 3
+  },
+  "experimental_pair_relationships": {
+    "Same scaffold, substituent or positional variation": 37,
+    "No reasonable counterpart": 4,
+    "Same donor family, different scaffold": 41,
+    "Exact identity": 26
   },
   "actual_donors": [
     {
@@ -23,15 +23,19 @@
         "AP004"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C017",
+        "C032",
+        "C033"
+      ]
     },
     {
       "actual_donor_id": "NU002",
@@ -40,15 +44,17 @@
         "AP005"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C017"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU003",
@@ -57,15 +63,19 @@
         "AP006"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C017",
+        "C032",
+        "C033"
+      ]
     },
     {
       "actual_donor_id": "NU004",
@@ -74,16 +84,19 @@
         "AP050"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C045",
+        "C082",
+        "C083"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU005",
@@ -92,15 +105,19 @@
         "AP007"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        48
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C002",
+        "C023",
+        "C063"
+      ]
     },
     {
       "actual_donor_id": "NU006",
@@ -109,16 +126,19 @@
         "AP089"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C006",
+        "C007",
+        "C008"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU007",
@@ -127,15 +147,17 @@
         "AP008"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        41
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C034"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU008",
@@ -144,15 +166,17 @@
         "AP009"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C017"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU009",
@@ -161,16 +185,19 @@
         "AP051"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C072",
+        "C073",
+        "C076"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU010",
@@ -179,16 +206,19 @@
         "AP090"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C006",
+        "C007",
+        "C085"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU011",
@@ -197,15 +227,17 @@
         "AP001"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        35
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C015"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU012",
@@ -214,16 +246,19 @@
         "AP052"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C045",
+        "C081",
+        "C100"
+      ]
     },
     {
       "actual_donor_id": "NU013",
@@ -232,16 +267,19 @@
         "AP091"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        75,
-        80
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C022",
+        "C056",
+        "C058"
+      ]
     },
     {
       "actual_donor_id": "NU014",
@@ -250,16 +288,19 @@
         "AP053"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C043",
+        "C045",
+        "C081"
+      ]
     },
     {
       "actual_donor_id": "NU015",
@@ -268,16 +309,19 @@
         "AP092"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        75,
-        80
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C022",
+        "C055",
+        "C057"
+      ]
     },
     {
       "actual_donor_id": "NU016",
@@ -286,16 +330,17 @@
         "AP054"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C080"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU017",
@@ -304,16 +349,18 @@
         "AP010"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        39,
-        46
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C028",
+        "C065"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU018",
@@ -322,16 +369,17 @@
         "AP011"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        38,
-        48
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C064"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU019",
@@ -340,15 +388,19 @@
         "AP012"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C017",
+        "C032",
+        "C093"
+      ]
     },
     {
       "actual_donor_id": "NU020",
@@ -357,16 +409,19 @@
         "AP093"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        75,
-        80
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C005",
+        "C014",
+        "C057"
+      ]
     },
     {
       "actual_donor_id": "NU021",
@@ -375,16 +430,19 @@
         "AP055"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C044",
+        "C050",
+        "C080"
+      ]
     },
     {
       "actual_donor_id": "NU022",
@@ -393,15 +451,17 @@
         "AP013"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        41
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C069"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU023",
@@ -410,16 +470,17 @@
         "AP014"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        39,
-        46
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C066"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU024",
@@ -428,16 +489,19 @@
         "AP015"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        39,
-        46
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C028",
+        "C065",
+        "C066"
+      ]
     },
     {
       "actual_donor_id": "NU025",
@@ -446,16 +510,17 @@
         "AP016"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        38,
-        48
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C061"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU026",
@@ -464,16 +529,19 @@
         "AP094"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        75,
-        80
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C013",
+        "C022",
+        "C058"
+      ]
     },
     {
       "actual_donor_id": "NU027",
@@ -482,16 +550,19 @@
         "AP095"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C011",
+        "C021",
+        "C087"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU028",
@@ -500,16 +571,19 @@
         "AP056"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C072",
+        "C073",
+        "C079"
+      ]
     },
     {
       "actual_donor_id": "NU029",
@@ -518,16 +592,17 @@
         "AP057"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C079"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU030",
@@ -536,13 +611,15 @@
         "AP058"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Unmatched"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [],
-      "decision_status": "not recorded"
+      "primary_relationship_categories": [
+        "No reasonable counterpart"
+      ],
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU031",
@@ -551,16 +628,17 @@
         "AP059"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C081"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU032",
@@ -569,16 +647,17 @@
         "AP096"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C007"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU033",
@@ -587,15 +666,17 @@
         "AP017"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C032"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU034",
@@ -604,13 +685,15 @@
         "AP045"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Unmatched"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [],
-      "decision_status": "not recorded"
+      "primary_relationship_categories": [
+        "No reasonable counterpart"
+      ],
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU035",
@@ -619,15 +702,17 @@
         "AP018"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C017"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU036",
@@ -636,15 +721,17 @@
         "AP019"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C017"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU037",
@@ -653,16 +740,19 @@
         "AP060"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C072",
+        "C098",
+        "C099"
+      ]
     },
     {
       "actual_donor_id": "NU038",
@@ -671,16 +761,17 @@
         "AP097"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C006"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU039",
@@ -689,15 +780,17 @@
         "AP020"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C032"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU040",
@@ -706,15 +799,19 @@
         "AP021"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        48
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C002",
+        "C061",
+        "C062"
+      ]
     },
     {
       "actual_donor_id": "NU041",
@@ -723,16 +820,17 @@
         "AP061"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C098"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU042",
@@ -741,16 +839,17 @@
         "AP062"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C099"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU043",
@@ -759,16 +858,17 @@
         "AP098"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C088"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU044",
@@ -778,15 +878,17 @@
         "AP043"
       ],
       "n_distinct_pairs": 2,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C017"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU045",
@@ -795,15 +897,17 @@
         "AP023"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C017"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU046",
@@ -812,16 +916,17 @@
         "AP099"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        75,
-        80
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C005"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU047",
@@ -830,16 +935,17 @@
         "AP100"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C085"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU048",
@@ -848,16 +954,17 @@
         "AP101"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        75,
-        80
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C005"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU049",
@@ -866,15 +973,17 @@
         "AP024"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C017"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU050",
@@ -883,15 +992,17 @@
         "AP025"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C032"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU051",
@@ -900,16 +1011,19 @@
         "AP102"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        75,
-        80
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C013",
+        "C022",
+        "C058"
+      ]
     },
     {
       "actual_donor_id": "NU052",
@@ -918,16 +1032,17 @@
         "AP063"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C077"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU053",
@@ -936,15 +1051,17 @@
         "AP026"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C017"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU054",
@@ -953,15 +1070,17 @@
         "AP027"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C017"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU055",
@@ -970,16 +1089,19 @@
         "AP103"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C006",
+        "C008",
+        "C021"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU056",
@@ -988,16 +1110,19 @@
         "AP064"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C018",
+        "C042",
+        "C079"
+      ]
     },
     {
       "actual_donor_id": "NU057",
@@ -1006,15 +1131,17 @@
         "AP028"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        35
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C003"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU058",
@@ -1023,13 +1150,15 @@
         "AP002"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Unmatched"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [],
-      "decision_status": "not recorded"
+      "primary_relationship_categories": [
+        "No reasonable counterpart"
+      ],
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU059",
@@ -1038,15 +1167,19 @@
         "AP029"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        41
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C034",
+        "C035",
+        "C069"
+      ]
     },
     {
       "actual_donor_id": "NU060",
@@ -1055,15 +1188,19 @@
         "AP030"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        44
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C035",
+        "C036",
+        "C039"
+      ]
     },
     {
       "actual_donor_id": "NU061",
@@ -1072,15 +1209,19 @@
         "AP003"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        44
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C036",
+        "C038",
+        "C039"
+      ]
     },
     {
       "actual_donor_id": "NU062",
@@ -1089,15 +1230,19 @@
         "AP031"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        41
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C035",
+        "C036",
+        "C039"
+      ]
     },
     {
       "actual_donor_id": "NU063",
@@ -1106,16 +1251,18 @@
         "AP065"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C041",
+        "C042"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU064",
@@ -1124,18 +1271,19 @@
         "AP066"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        52,
-        61,
-        64
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C045",
+        "C082",
+        "C083"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU065",
@@ -1144,16 +1292,18 @@
         "AP067"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C041",
+        "C042"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU066",
@@ -1162,16 +1312,19 @@
         "AP104"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C006",
+        "C008",
+        "C009"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU067",
@@ -1180,16 +1333,19 @@
         "AP068"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C018",
+        "C041",
+        "C042"
+      ]
     },
     {
       "actual_donor_id": "NU068",
@@ -1198,16 +1354,19 @@
         "AP069"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C045",
+        "C047",
+        "C081"
+      ]
     },
     {
       "actual_donor_id": "NU069",
@@ -1216,16 +1375,19 @@
         "AP070"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C045",
+        "C047",
+        "C081"
+      ]
     },
     {
       "actual_donor_id": "NU070",
@@ -1234,16 +1396,19 @@
         "AP071"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C044",
+        "C045",
+        "C081"
+      ]
     },
     {
       "actual_donor_id": "NU071",
@@ -1252,16 +1417,19 @@
         "AP072"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C045",
+        "C047",
+        "C081"
+      ]
     },
     {
       "actual_donor_id": "NU072",
@@ -1270,13 +1438,15 @@
         "AP105"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Unmatched"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [],
-      "decision_status": "not recorded"
+      "primary_relationship_categories": [
+        "No reasonable counterpart"
+      ],
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU073",
@@ -1285,16 +1455,19 @@
         "AP073"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C045",
+        "C047",
+        "C081"
+      ]
     },
     {
       "actual_donor_id": "NU074",
@@ -1303,16 +1476,19 @@
         "AP106"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        75,
-        80
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C013",
+        "C022",
+        "C058"
+      ]
     },
     {
       "actual_donor_id": "NU075",
@@ -1321,16 +1497,19 @@
         "AP074"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C045",
+        "C047",
+        "C081"
+      ]
     },
     {
       "actual_donor_id": "NU076",
@@ -1339,16 +1518,17 @@
         "AP075"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C045"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU077",
@@ -1357,16 +1537,17 @@
         "AP076"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        52,
-        61
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C046"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU078",
@@ -1375,16 +1556,17 @@
         "AP077"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C078"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU079",
@@ -1394,16 +1576,18 @@
         "AP078"
       ],
       "n_distinct_pairs": 2,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C041",
+        "C042"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU080",
@@ -1412,16 +1596,19 @@
         "AP079"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C072",
+        "C074",
+        "C075"
+      ]
     },
     {
       "actual_donor_id": "NU081",
@@ -1430,16 +1617,17 @@
         "AP080"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C098"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU082",
@@ -1450,16 +1638,17 @@
         "AP049"
       ],
       "n_distinct_pairs": 3,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C041"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU083",
@@ -1468,16 +1657,17 @@
         "AP081"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C098"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU084",
@@ -1486,16 +1676,19 @@
         "AP082"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C018",
+        "C041",
+        "C098"
+      ]
     },
     {
       "actual_donor_id": "NU085",
@@ -1504,17 +1697,17 @@
         "AP083"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Exact Molecular Match"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [
-        51
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "reactive_form_candidate_numbers": [
-        64
+      "exact_candidate_ids": [
+        "C018"
       ],
-      "structural_candidate_numbers": [],
-      "decision_status": "not recorded"
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU086",
@@ -1523,16 +1716,17 @@
         "AP084"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C078"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU087",
@@ -1541,16 +1735,19 @@
         "AP085"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C018",
+        "C041",
+        "C098"
+      ]
     },
     {
       "actual_donor_id": "NU088",
@@ -1559,15 +1756,17 @@
         "AP032"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C033"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU089",
@@ -1576,16 +1775,19 @@
         "AP086"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "OH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C018",
+        "C042",
+        "C079"
+      ]
     },
     {
       "actual_donor_id": "NU090",
@@ -1594,16 +1796,19 @@
         "AP107"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        75,
-        80
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C005",
+        "C014",
+        "C053"
+      ]
     },
     {
       "actual_donor_id": "NU091",
@@ -1612,16 +1817,19 @@
         "AP108"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "SH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        68,
-        82
+      "primary_relationship_categories": [
+        "Same scaffold, substituent or positional variation"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [
+        "C006",
+        "C008",
+        "C009"
+      ],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU092",
@@ -1630,16 +1838,19 @@
         "AP033"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        39,
-        46
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C028",
+        "C065",
+        "C067"
+      ]
     },
     {
       "actual_donor_id": "NU093",
@@ -1648,16 +1859,17 @@
         "AP034"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        39,
-        46
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C067"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU094",
@@ -1666,16 +1878,19 @@
         "AP035"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        38,
-        48
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C001",
+        "C023",
+        "C063"
+      ]
     },
     {
       "actual_donor_id": "NU095",
@@ -1684,15 +1899,19 @@
         "AP036"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C017",
+        "C032",
+        "C033"
+      ]
     },
     {
       "actual_donor_id": "NU096",
@@ -1701,16 +1920,19 @@
         "AP037"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        39,
-        46
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C027",
+        "C028",
+        "C067"
+      ]
     },
     {
       "actual_donor_id": "NU097",
@@ -1719,16 +1941,17 @@
         "AP038"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        38,
-        48
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C023"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU098",
@@ -1738,17 +1961,17 @@
         "AP088"
       ],
       "n_distinct_pairs": 2,
-      "primary_mapping_classes": [
-        "Exact Molecular Match"
+      "routes": [
+        "PH"
       ],
-      "exact_candidate_numbers": [
-        95
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "reactive_form_candidate_numbers": [
-        99
+      "exact_candidate_ids": [
+        "C096"
       ],
-      "structural_candidate_numbers": [],
-      "decision_status": "not recorded"
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU099",
@@ -1758,15 +1981,17 @@
         "AP044"
       ],
       "n_distinct_pairs": 2,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        48
+      "primary_relationship_categories": [
+        "Exact identity"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [
+        "C002"
+      ],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": []
     },
     {
       "actual_donor_id": "NU100",
@@ -1775,15 +2000,19 @@
         "AP040"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        48
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C001",
+        "C002",
+        "C023"
+      ]
     },
     {
       "actual_donor_id": "NU101",
@@ -1792,15 +2021,19 @@
         "AP041"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C017",
+        "C032",
+        "C033"
+      ]
     },
     {
       "actual_donor_id": "NU102",
@@ -1809,133 +2042,20 @@
         "AP042"
       ],
       "n_distinct_pairs": 1,
-      "primary_mapping_classes": [
-        "Structural Analogue"
+      "routes": [
+        "NH"
       ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
+      "primary_relationship_categories": [
+        "Same donor family, different scaffold"
       ],
-      "decision_status": "not recorded"
+      "exact_candidate_ids": [],
+      "scaffold_or_substituent_candidate_ids": [],
+      "donor_family_candidate_ids": [
+        "C017",
+        "C032",
+        "C033"
+      ]
     }
   ],
-  "multiple_electrophile_donors": [
-    {
-      "actual_donor_id": "NU044",
-      "smiles": "Cc1cccc2[nH]ccc12",
-      "pair_ids": [
-        "AP022",
-        "AP043"
-      ],
-      "n_distinct_pairs": 2,
-      "primary_mapping_classes": [
-        "Structural Analogue"
-      ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        27
-      ],
-      "decision_status": "not recorded"
-    },
-    {
-      "actual_donor_id": "NU079",
-      "smiles": "Oc1ccc(Br)c2ccccc12",
-      "pair_ids": [
-        "AP046",
-        "AP078"
-      ],
-      "n_distinct_pairs": 2,
-      "primary_mapping_classes": [
-        "Structural Analogue"
-      ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
-      ],
-      "decision_status": "not recorded"
-    },
-    {
-      "actual_donor_id": "NU082",
-      "smiles": "Oc1cccc2ccccc12",
-      "pair_ids": [
-        "AP047",
-        "AP048",
-        "AP049"
-      ],
-      "n_distinct_pairs": 3,
-      "primary_mapping_classes": [
-        "Structural Analogue"
-      ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        51,
-        64
-      ],
-      "decision_status": "not recorded"
-    },
-    {
-      "actual_donor_id": "NU098",
-      "smiles": "c1ccc(Pc2ccccc2)cc1",
-      "pair_ids": [
-        "AP087",
-        "AP088"
-      ],
-      "n_distinct_pairs": 2,
-      "primary_mapping_classes": [
-        "Exact Molecular Match"
-      ],
-      "exact_candidate_numbers": [
-        95
-      ],
-      "reactive_form_candidate_numbers": [
-        99
-      ],
-      "structural_candidate_numbers": [],
-      "decision_status": "not recorded"
-    },
-    {
-      "actual_donor_id": "NU099",
-      "smiles": "c1ccc2c(c1)CCN2",
-      "pair_ids": [
-        "AP039",
-        "AP044"
-      ],
-      "n_distinct_pairs": 2,
-      "primary_mapping_classes": [
-        "Structural Analogue"
-      ],
-      "exact_candidate_numbers": [],
-      "reactive_form_candidate_numbers": [],
-      "structural_candidate_numbers": [
-        48
-      ],
-      "decision_status": "not recorded"
-    }
-  ],
-  "candidate_mapping_edge_counts": {
-    "35": 2,
-    "44": 2,
-    "27": 20,
-    "48": 9,
-    "41": 4,
-    "39": 6,
-    "46": 6,
-    "38": 4,
-    "51": 26,
-    "64": 26,
-    "52": 15,
-    "61": 15,
-    "95": 2,
-    "99": 2,
-    "68": 10,
-    "82": 10,
-    "75": 9,
-    "80": 9
-  },
-  "molecular_identity_rule": "RDKit canonical isomeric SMILES; salts and charges retained. A neutral-parent key is used only for separate reactive-form edges."
+  "molecular_identity_rule": "Exact identity requires identical deposited molecular graphs; scaffold and donor-family relations remain explicitly non-exact."
 }

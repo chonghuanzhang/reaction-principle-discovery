@@ -23,7 +23,7 @@ The N–H surface fixes Ag₂SO₄/PPh₃ and has a grid-local maximum of 1.0378
 
 [PNG](current/figures/Supplementary_Figure_7.png) · [PDF](current/figures/Supplementary_Figure_7.pdf)
 
-Supplementary Fig. 7 | Measured responses along the displayed Bayesian optimization trajectories. a–c, N–H, O–H and S–H, respectively. Each vertical line is one selected measured UV response; horizontal offsets within a round separate distinct conditions. Round 0 contains the 12 initial conditions, and each subsequent round contains four conditions. Steps show cumulative best response, stars mark the first highest measured response and open squares mark the first stopping round. The paths contain 60, 56 and 48 unique conditions, respectively. Response magnitudes are interpreted within each substrate–product pair. The displayed paths were selected from multi-initialization computational exploration as described in Section S6.6.
+Supplementary Fig. 7 | Measured responses along the prospective Bayesian optimization campaigns. a–c, N–H, O–H and S–H, respectively. Each vertical line is one initial or recommended experiment and its measured UV response; horizontal offsets within a round separate distinct conditions. Round 0 contains the 12 initial conditions, and each subsequent round contains four conditions. Steps show cumulative best response, stars mark the first highest measured response and open squares mark the first stopping round. The campaigns contain 60, 56 and 48 unique conditions, respectively. Response magnitudes are interpreted within each substrate–product pair. The initialization seeds were assigned before the first run of each system.
 
 <a id="bo2"></a>
 
@@ -43,6 +43,6 @@ Supplementary Fig. 9 | Latent posterior uncertainty during sequential recommenda
 
 ## Reconstruction
 
-Run `python optimization/current/replay.py --output optimization/current/verification` first. Then `python optimization/current/build_supplementary.py` rebuilds Supplementary Figures 7–9 from the saved current trajectories and reproduced posterior arrays. `python optimization/current/figure5/build_figure5.py` rebuilds Figure 5. Matplotlib, NumPy and Pillow versions are specified in `optimization/requirements.txt`; rendering may vary slightly with the installed font.
+Run `python optimization/current/verify_recorded_campaign.py --output optimization/current/verification` first. Then `python optimization/current/build_supplementary.py` rebuilds Supplementary Figures 7–9 from the recorded campaigns and verified posterior arrays. `python optimization/current/figure5/build_figure5.py` rebuilds Figure 5. Matplotlib, NumPy and Pillow versions are specified in `optimization/requirements.txt`; rendering may vary slightly with the installed font.
 
 The [methods](METHODS.md), [current protocol](current/protocol.json) and [source tables](current/source_data/) identify the numerical meaning of each panel. Older artwork under `figures/figures/` remains an archival export of the preceding 96-condition analysis.

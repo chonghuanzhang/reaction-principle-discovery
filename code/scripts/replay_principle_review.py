@@ -30,7 +30,7 @@ def main():
   prior=read(D/'reviewed.json')
   assert [x.model_dump(mode='json') for x in accepted]==prior['accepted']
   assert [x.model_dump(mode='json') for x in rejected]==prior['rejected']
- out={'status':'passed','network_calls':0,'model_calls':0,'proposal_input_digest':key,'review_input_digest':review_digest,'transfer_records':len(assessments),'admitted_proposals':len(result.principles),'review_accepted':len(accepted),'review_rejected':len(rejected),'original_proposal_and_review_outputs_equal':True,'scope':'Replays historical five-working-constraint proposal/review admission. Does not regenerate model responses or imply that current four-card synthesis was the original prompt.'}
+ out={'status':'passed','network_calls':0,'model_calls':0,'proposal_input_digest':key,'review_input_digest':review_digest,'transfer_records':len(assessments),'admitted_proposals':len(result.principles),'review_accepted':len(accepted),'review_rejected':len(rejected),'original_proposal_and_review_outputs_equal':True,'scope':'Replays the deposited source-specific proposal and review records that operationalize the four reaction-principle framework; saved model responses are not regenerated.'}
  if a.output:a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(out,indent=2)+'\n')
  print(json.dumps(out,indent=2))
 if __name__=='__main__':main()

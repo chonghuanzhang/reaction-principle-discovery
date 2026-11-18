@@ -1,0 +1,24 @@
+{
+  "public_ids": [
+    "C001",
+    "C002",
+    "C003",
+    "C042",
+    "C004",
+    "C090"
+  ],
+  "selection_fields": [
+    "Feasibility class",
+    "Novelty review priority",
+    "Evidence traceability",
+    "Experimental correspondence"
+  ],
+  "nucleophile_centres": {
+    "N": 40,
+    "O": 30,
+    "S": 25,
+    "P": 5
+  },
+  "source": "candidates/data/candidates_100.json",
+  "sha256": "a8e5119bbb274ac6809fbef0e19644409dbdc4fd0dc40760dc7ec490f55417bb"
+}

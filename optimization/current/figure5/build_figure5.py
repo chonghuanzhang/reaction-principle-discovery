@@ -253,7 +253,7 @@ def draw_posterior(fig):
     ids=np.array([int(r['candidate_index']) for r in rows])
     batches=np.array([int(r['batch_number']) for r in rows])
     x=np.arange(1,33);xd=np.linspace(1,32,1241)
-    target=int(np.flatnonzero(ids==112)[0])
+    best=int(np.flatnonzero(ids==112)[0])
     handles=[Line2D([],[],color=BLUE,lw=1.1,label='Mean'),
         Patch(facecolor='#9BB8DE',alpha=.32,label='±2 SD'),
         Line2D([],[],color='#AEB8C1',ls='--',lw=.6,label='Previous band'),
@@ -281,7 +281,7 @@ def draw_posterior(fig):
         evaluated=batches<=batch;new=batches==batch
         ax.scatter(x[evaluated],mu[evaluated],s=8,c=BLUE,edgecolors='white',lw=.25,zorder=5)
         if batch:ax.scatter(x[new],mu[new],s=17,facecolors='#F3BC67',edgecolors='#947443',lw=.4,zorder=6)
-        if batch>=10:ax.scatter([x[target]],[mu[target]],marker='*',s=58,c=GOLD,edgecolors='#6E532C',lw=.5,zorder=8)
+        if batch>=10:ax.scatter([x[best]],[mu[best]],marker='*',s=58,c=GOLD,edgecolors='#6E532C',lw=.5,zorder=8)
         title='Initialization' if batch==0 else 'After round {}'.format(batch)
         title_y=bottom+.134 if rr==0 else bottom+.144
         fig.text(left,title_y,title,fontsize=7.0,fontweight='bold')
@@ -296,7 +296,7 @@ def draw_posterior(fig):
         if rr==0:ax.tick_params(labelbottom=False)
         checks.append(dict(BO_round=batch,full_model_n=int(a['observed_count'][batch]),
             displayed_evaluated=int(evaluated.sum()),displayed_conditions=32,new=int(new.sum()),
-            target_mean=float(mu[target]),target_SD=float(sd[target]),marker_Y='posterior mean'))
+            best_condition_mean=float(mu[best]),best_condition_SD=float(sd[best]),marker_Y='posterior mean'))
         for j,idx in enumerate(ids):
             output.append(dict(BO_round=batch,candidate_index=int(idx),coordinate_rank=int(x[j]),
                 posterior_mean=float(mu[j]),posterior_latent_SD=float(sd[j]),

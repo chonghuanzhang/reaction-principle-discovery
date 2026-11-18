@@ -8,7 +8,7 @@
   "files": [
     {
       "path": "chemistry/E16_precursor_correction.json",
-      "sha256": "b4256490ef8b138e6feaffc188a45151cf2977ff41c1ee03d51e872dab5359ce"
+      "sha256": "a0e3278b4b27a3a780f9ce98632bd5409f580b43fb8ecc5fc6d11b5b95a8588c"
     },
     {
       "path": "chemistry/evidence.json",
@@ -24,7 +24,7 @@
     },
     {
       "path": "chemistry/pse_challenge_matrix.json",
-      "sha256": "6f7d740d6cf893b20b8061b0004dc75940c16af85726a67efcfd87c5ce2777af"
+      "sha256": "5f29d8c20f812fd591d953e3434eec00f701adbef6122ccdbe4bda089daa7d69"
     },
     {
       "path": "chemistry/raw/CF2_SE_PMC6336877.paragraphs.json",
@@ -88,7 +88,7 @@
     },
     {
       "path": "local_rules/rule_integrity_protocol.json",
-      "sha256": "c9cdf9d14b40958f142ac0460c518e9db5da58985d9ebe436ac85b14d3664a68"
+      "sha256": "580c497a2d5186fb5472936b57fbe4be09fbc8cfe0252d6f5c7e76baae06da55"
     },
     {
       "path": "local_rules/rule_outputs.json",
@@ -104,7 +104,7 @@
     },
     {
       "path": "matched_evidence/E16_protocol_amendment.json",
-      "sha256": "37b012745000e23626f4e3238052a10c10f07783751eb3e53099da7d862c9d95"
+      "sha256": "88cf013152b3f129773488892965d7a09c687b5d1f15cb016a9c97c2b37a36a0"
     },
     {
       "path": "matched_evidence/deterministic_coverage_top12.csv",

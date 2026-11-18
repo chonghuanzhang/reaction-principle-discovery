@@ -5,3 +5,4 @@ numpy==2.5.4
 Pillow==13.0.0
 PyMuPDF==1.26.7
 fonttools==4.68.0
+rdkit==2026.9.1

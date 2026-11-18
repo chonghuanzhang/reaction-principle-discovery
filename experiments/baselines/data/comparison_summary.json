@@ -1,0 +1,90 @@
+{
+  "statistics": [
+    {
+      "strategy": "RP-guided",
+      "positive": 35,
+      "tested_unique_donors": 94,
+      "fraction": 0.3723404255319149,
+      "wilson95_low": 0.2814318660117187,
+      "wilson95_high": 0.4732733449563353
+    },
+    {
+      "strategy": "LLM-only",
+      "positive": 4,
+      "tested_unique_donors": 20,
+      "fraction": 0.2,
+      "wilson95_low": 0.08065766257979806,
+      "wilson95_high": 0.41601743225189364
+    },
+    {
+      "strategy": "Literature-only",
+      "positive": 3,
+      "tested_unique_donors": 20,
+      "fraction": 0.15,
+      "wilson95_low": 0.052368745896216595,
+      "wilson95_high": 0.36041886474075696
+    }
+  ],
+  "unique_structure_intersections": [
+    {
+      "membership": [
+        true,
+        false,
+        false
+      ],
+      "count": 91
+    },
+    {
+      "membership": [
+        false,
+        true,
+        false
+      ],
+      "count": 18
+    },
+    {
+      "membership": [
+        false,
+        false,
+        true
+      ],
+      "count": 19
+    },
+    {
+      "membership": [
+        true,
+        true,
+        false
+      ],
+      "count": 2
+    },
+    {
+      "membership": [
+        true,
+        false,
+        true
+      ],
+      "count": 1
+    }
+  ],
+  "membership_order": [
+    "RP-guided",
+    "LLM-only",
+    "Literature-only"
+  ],
+  "enrichment_ratios_observed": {
+    "vs_llm": 1.8617021276595742,
+    "vs_literature": 2.482269503546099
+  },
+  "unit": "unique experimentally tested donor structure",
+  "endpoint": "RP: nonzero numerical UV response; baselines: source final product-positive call. Trace is negative.",
+  "comparison_scope": "Each collection retains its recorded electrophile and reaction conditions. These are not matched-condition arms.",
+  "literature_duplicate": [
+    "LIT11",
+    "LIT13"
+  ],
+  "literature_supplemental_records": [
+    "LIT21"
+  ],
+  "literature_source_records": 21
+}

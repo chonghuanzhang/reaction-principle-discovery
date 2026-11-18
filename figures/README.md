@@ -8,23 +8,29 @@ The current overview figures show the shared decision space and the workflow wit
 
 - [Figure 1 PNG](main/Figure_1.png), [PDF](main/Figure_1.pdf), [SVG](main/Figure_1.svg) and [JPEG](main/Figure_1.jpeg).
 - [Figure 2 PNG](main/Figure_2.png), [PDF](main/Figure_2.pdf), [SVG](main/Figure_2.svg) and [JPEG](main/Figure_2.jpeg).
-- Approved PNG masters and editable slide sources are in [source/current/](source/current/). Figure 1 is slide 4 of its editable deck; Figure 2 is slide 1. Figure 1 reports 370 literature sources.
+- Current PNG masters and the preceding editable slide sources are in [source/current/](source/current/). Figure 1 is slide 4 of its editable deck; Figure 2 is slide 1. Figure 1 reports 370 literature sources. Its candidate panel and N/O/S/P donor strip are rebuilt from the released 100-molecule records by the round-5 figure builder.
 
 The Figure 1 and 2 PDF/SVG files contain the approved raster composites. Their slide sources retain editable objects. Export the overview assets with `python code/scripts/export_current_overviews.py --output-dir build/current_overviews`; this preserves the PNG master pixels and creates PDF, SVG and JPEG containers. Outer white margins have been cropped without changing the artwork.
 
-## Main Figure 4
+## Main Figures 3 and 4
 
-The current Figure 4 combines candidate diversity, donor-form examples, the molecule/hypothesis/endpoint counts, N/O/S model-donor associations and separate NP/NR distributions. Panel a follows the author-supplied radial count layout with the same sans-serif font and blue–teal palette as the remaining panels. The [selection guide](../candidates/reagent_selection.md#main-figure-4d) links the examples to their candidate and experimental-pair records.
+Figure 3 is the evidence-to-principle-to-candidate provenance network. It contains 17 evidence nodes, four reaction principles, 43 precursor families and 100 recommended molecules. Filled and open candidate nodes distinguish records with and without a direct candidate-level citation link. The same graph records generate the four RP-focused views used as Supplementary Figures 1–4.
 
-- [Figure 4 PNG master](main/Figure_4.png) — 4252 × 4961 pixels, rendered at 600 dpi from the vector PDF; 180 × 210 mm.
-- [Vector PDF](main/Figure_4.pdf) and [SVG](main/Figure_4.svg) — editable text, paths and molecular depictions.
+Figure 4 combines reacting-centre composition, representative recommendations, molecule/hypothesis/product-option accounting, recommended-to-experimental relationships and the feasibility/novelty-priority distributions. The [selection guide](../candidates/reagent_selection.md#main-figure-4d) links the examples to their candidate and experimental-pair records.
+
+- [Figure 3 PNG](main/Figure_3.png), [PDF](main/Figure_3.pdf) and [SVG](main/Figure_3.svg).
+- [Figure 4 PNG master](main/Figure_4.png) — 2096 × 2148 pixels at 300 dpi.
+- [Vector PDF](main/Figure_4.pdf) and [SVG](main/Figure_4.svg).
 - [Figure 4 JPEG](main/Figure_4.jpeg) — publication/export derivative.
-- [Panels a–c crop](source/Figure_4_panels_abc.png) and [panel d crop](source/Figure_4d_candidate_selection.png) — views of the current master.
-- [Figure data and structure associations](source/round4_figure4/figure_data.json), [panel e data](source/round4_figure4/novelty_panel_e.csv), [caption](source/round4_figure4/caption.txt) and [composition metadata](source/Figure_4_composition.json).
+- [Figure data and structure associations](source/round5_figure4/figure_data.json), [caption](source/round5_figure4/caption.txt) and [composition metadata](source/Figure_4_composition.json).
 
-Run `code/scripts/reproduce_figures2_4.py` as described in the [code guide](../code/README.md) to reproduce the approved Figure 2 composite and vector Figure 4. The Figure 4 builder is `code/figures/build_figure4_round4.py`. It reads the deposited candidate collection, experimental-input mapping and novelty summary, draws the scientific content, and verifies the vector PDF before exporting its PNG. The reproduction check compares PNG pixels with the master. It makes no network or model calls.
+Run `python code/figures/build_round5_candidate_figures.py` to reproduce Figures 1, 3, 4 and 6 together with Supplementary Figures 1–5. The script reads the released candidate, evidence-network, experimental-mapping and baseline records and makes no network or model calls.
 
-Panel d shows C048 aniline → AP039 indoline (also AP044 in the mapping), C051 phenol → AP048 1-naphthol, and C082 benzenethiol → AP090 4-tert-butylbenzenethiol. All three are structural analogues. Arrows describe associations, not chemical transformations or independently recovered replacement decisions. Panel e uses fractions within two different record populations: 100 candidate molecules and 108 ordered experimental pairs. NP and NR remain separate ordinal classifications; neither is a success probability or a measure of novelty retention.
+Panel d shows C002 indoline → AP044 indoline (exact identity), C042 2-naphthol → AP048 1-naphthol (same scaffold/positional variation), and C004 2-naphthalenethiol → AP096 4-methoxythiophenol (same donor family/different scaffold). Across the 100 recommendations, the best relationships are 25 exact identities, 31 scaffold/substituent relationships, 41 donor-family relationships and three unmatched recommendations. Panel e shows feasibility classes A/B/C (22/75/3) and novelty review priorities 1/2/3 (43/41/16); these organize review and are not reaction-success probabilities.
+
+## Main Figure 6
+
+The [Figure 6 PNG](main/Figure_6.png), [PDF](main/Figure_6.pdf) and [SVG](main/Figure_6.svg) compare the RP-guided experimental collection with the direct-LLM and literature-selection baselines. Experimental outcome statistics are 35/94, 4/20 and 3/20. Solid blue outlines mark exact matches to RP-guided experimental donors. Dashed orange outlines mark exact matches to the released recommendation set: two direct-LLM structures and five literature-selected structures. Source panels and the exact public candidate identifiers are in [source/round5_figure6/](source/round5_figure6/); the machine-readable baseline inputs are in [experiments/baselines/data](../experiments/baselines/data/).
 
 ## Main Figure 5
 
@@ -41,7 +47,7 @@ The self-contained builder reads the current trajectories and candidate tables p
 
 ## Related artwork
 
-The [knowledge graph](../knowledge_graph/) collects the overall evidence network, all nine original G1–G9 views, the RP1–RP4 focus images used in Supplementary Figures 1–4, graph records and main Figure 3 vector artwork.
+The [knowledge graph](../knowledge_graph/) collects the overall evidence network, RP1–RP4 focus images used in Supplementary Figures 1–4, N/O/S/P centre-focus repository views, graph records and main Figure 3 vector artwork.
 
 The complete [NP/NR distribution chart](../candidates/novelty_assessment.md) is Repository Figure N1 and Supplementary Figure 5. Supplementary Figure 6 is the well-position index in the SI. The [reading guide](../docs/reading_guide.md#supplementary-figure-correspondence) gives the full figure correspondence.
 

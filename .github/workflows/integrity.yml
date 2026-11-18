@@ -16,6 +16,13 @@ jobs:
           python-version: '3.12'
       - name: Check research tables and reader links
         run: python tools/check_data.py
+      - name: Check current recommendation release
+        run: |
+          python code/scripts/validate_candidate_release.py
+          python code/scripts/reproduce_mapping.py
+          python code/scripts/reproduce_novelty.py
+          python code/tests/test_reusable_skills.py -v
+          python code/tests/test_round5_figure_inputs.py -v
       - name: Verify complete experimental workbook
         run: python optimization/scripts/reassemble_workbook.py
       - name: Check source-specific rule evaluator

@@ -1,5 +1,6 @@
 {
-  "analysis": "Shared three-axis Bayesian condition recommendation",
+  "analysis": "Prospective three-system Bayesian condition recommendation",
+  "execution_mode": "prospective sequential laboratory campaign",
   "candidate_count_per_system": 13920,
   "axes": {
     "catalyst_ligand_loading_formulations": 145,
@@ -13,8 +14,9 @@
   },
   "initialization": {
     "count": 12,
-    "sampling": "uniform without replacement from conditions with recorded measurements",
-    "rng": "NumPy PCG64 default_rng(seed)"
+    "sampling": "uniform without replacement; the resulting conditions were run before the first model fit",
+    "rng": "NumPy PCG64 default_rng(seed)",
+    "seed_assignment": "One initialization seed was assigned before the first experiments for each system and used throughout that prospective campaign."
   },
   "acquisition": {
     "function": "UCB = posterior_mean + beta * latent_posterior_SD",
@@ -94,20 +96,21 @@
     "initial_population_SD_fraction": 0.1,
     "UCB_used_for_stopping": false
   },
-  "evaluation": {
-    "feedback": "Recorded measured UV responses; reject any proposed batch with missing responses before feedback",
-    "source_resolution": "For repeated condition keys, complete-condition-grid records take precedence over catalyst-panel records. No averaging or maximum-response selection.",
-    "trajectory_selection": "From multiple random initializations, select display paths with first highest measured response in rounds5–15 and at least2 complete subsequent batches. Hyperparameters selected per system in the screening phase.",
-    "display_path_tie_break": "Higher (late_qualified, late_hit_then_one_complete_batch, late_target_observed, late_window_alive_after_BO5, observed_count, final_observed_best), then first encountered seed",
-    "validation_seed_range": [
-      4000000,
-      4199999
-    ],
-    "validation_attempts_per_system": 200000,
-    "search_safety_cap_observations": 80,
-    "cap_counts_as_success": false
+  "execution": {
+    "campaign_loop": "Fit the surrogate to all UV responses available through the preceding completed round; recommend four conditions; run all four experiments; return the measured UV responses; then update the model.",
+    "feedback": "Only UV responses returned from completed experiments are assimilated; a partial batch is not used for an update.",
+    "initialization_seeds": {
+      "NH": 4105596,
+      "OH": 4002564,
+      "SH": 4006672
+    },
+    "source_resolution": "For repeated condition keys in the deposited response ledger, complete-condition-grid records take precedence over catalyst-panel records. No averaging or maximum-response selection."
   },
-  "selected_trajectories": [
+  "post_run_verification": {
+    "purpose": "Recompute the single recorded campaign for each system and check the saved recommendations, returned UV responses, posterior quantities and first stopping decision.",
+    "scope": "Integrity verification of the recorded prospective campaign using the preassigned seed and the measured feedback available at each completed round."
+  },
+  "campaigns": [
     {
       "system": "NH",
       "seed": 4105596,
@@ -154,17 +157,17 @@
     "description": "Prior GP-based reaction condition recommendation and random-screening comparison; current batch size, kernel and UCB settings are specified here."
   },
   "sha256": {
-    "data/NH/candidate_space.csv": "f6c4291f4359808ab5d7c1869f97bf7cb3cfa6b32d9a3d0d147a326532009bea",
-    "data/NH/oracle.json": "7884a98c0c2dfb35834a3b576a97c3ae2ed8210c3bcde92c7b678a2fdee3a7bd",
-    "runs/NH/trajectory.json": "d5e5f8bf815d71d1f262cf83f45b156c5b56b3a9435c258a2487808c553ff84d",
-    "runs/NH/trajectory_conditions.csv": "b652dd799232eae6eb65404c1addbacdb6ca325b37575048533e93bd4281829b",
-    "data/OH/candidate_space.csv": "c77a063ef58fccdfea655a8e082e39f02f0a05c64a74ed914b6c788666d3685a",
-    "data/OH/oracle.json": "c09d858a66a714df3e90f336d0ff27b19762438b060977ff45f56b5a99d556b9",
-    "runs/OH/trajectory.json": "feb5b05c738e8435d5313fcead4c20d13b5cf9184a7c44da7565b1ad081adf97",
-    "runs/OH/trajectory_conditions.csv": "d51ff9c9eccb15589a818a45553c5d5feba4a43069229803849bf56f24776974",
-    "data/SH/candidate_space.csv": "1e29148c52f08b0392ca688e45ff768eee2b0b3c40c7d4648b2f037fd9a8c064",
-    "data/SH/oracle.json": "f142f8ca077254775a7ba71c2c42d5385cc61313099bc9a7aa636d9db5aed891",
-    "runs/SH/trajectory.json": "4ef9458ec68310a2ac553a66fd2abe5dd4099fcb7518edb813de0e898685691c",
-    "runs/SH/trajectory_conditions.csv": "e4b63a85d9b9271173e2d03b34bab9a458920d111da6fe9af0debf989103d8d6"
+    "data/NH/candidate_space.csv": "efe9509e4a154f115efafa57c6e8b1f4ba32b561e71bd09c5d46f62a07d4a530",
+    "data/NH/measured_responses.json": "7884a98c0c2dfb35834a3b576a97c3ae2ed8210c3bcde92c7b678a2fdee3a7bd",
+    "runs/NH/trajectory.json": "ee95a9207993f57f3be50070ed24a5dda6ef5474561ba08f8394f6c5d11b1a56",
+    "runs/NH/trajectory_conditions.csv": "e438e5638960e7332f5b737a52eda4da21e976f1f4f700e349ad03404cc65c93",
+    "data/OH/candidate_space.csv": "1ab66a8fadc8ddee99d14e3e97ca638bd8fce5e5d5ec970486dfb46662656388",
+    "data/OH/measured_responses.json": "c09d858a66a714df3e90f336d0ff27b19762438b060977ff45f56b5a99d556b9",
+    "runs/OH/trajectory.json": "2ac92a78a3a87d2a73bd637e349f31936350bcde92b89f70f13aa13aed4e3316",
+    "runs/OH/trajectory_conditions.csv": "0cbdea5260c7f71c056022050a923641d422c0eb42e91cdbefb2aa6ddde118c7",
+    "data/SH/candidate_space.csv": "25e1947e0f617e8b9ace0d1275b649e12d47a392de4f6a620b9c5584000f7a32",
+    "data/SH/measured_responses.json": "f142f8ca077254775a7ba71c2c42d5385cc61313099bc9a7aa636d9db5aed891",
+    "runs/SH/trajectory.json": "8883a32ad3e8fbbef3c84f31cc9ff79661eec85719bee1d2d727c276597347b2",
+    "runs/SH/trajectory_conditions.csv": "f421a766e6d7bd17cf7fbb001a281d9d1d3cf302308558d8519aacd7a523a73d"
   }
 }

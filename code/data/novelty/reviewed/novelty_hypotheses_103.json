@@ -1,0 +1,1965 @@
+[
+  {
+    "display_id": "C060",
+    "candidate_id": "C060",
+    "hypothesis_id": "C060-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "COc1ccc(Nc2ccccc2)cc1",
+    "reactive_atom_indices": [
+      6
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估中性仲胺在相容条件下的N捕获与质子转移，并独立检查碱和金属配位；不预设必须先制得胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "二芳基共轭降低N亲核性，甲氧基改变电子分布并可能引入O配位；还需排查芳环C成键、氧化及继续脱氟。",
+    "diagnostic": "以19F和二维NMR确认目标N连接单氟烯烃及羰基保持，分开记录配位、羰基加成、氧化或继续脱氟造成的副反应。",
+    "product_option_ids": [
+      "C060-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C061",
+    "candidate_id": "C061",
+    "hypothesis_id": "C061-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CNc1ccncc1",
+    "reactive_atom_indices": [
+      1
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估中性仲胺在相容条件下的N捕获与质子转移，并独立检查碱和金属配位；不预设必须先制得胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "吡啶环N配位可能改变或抑制金属催化；须区别外环N成键、环N季铵化和质子化，不能把两个氮视为同一反应位点。",
+    "diagnostic": "以19F和二维NMR确认目标N连接单氟烯烃及羰基保持，分开记录配位、羰基加成、氧化或继续脱氟造成的副反应。",
+    "product_option_ids": [
+      "C061-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C062",
+    "candidate_id": "C062",
+    "hypothesis_id": "C062-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CCNc1ccncc1",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估中性仲胺在相容碱或金属条件下的N捕获及质子转移；逐项检查配位、亲电体活化和产物停止点，不直接套用相邻文献配方。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "吡啶环N可能配位抑制催化或发生季铵化，外环NH与环N不能混为同一反应位点；N烷基变化也可能改变位阻。",
+    "diagnostic": "以19F及二维NMR确认NH指定原子形成的目标C–N连接、烯基F及羰基保持；分开记录其他N位点、羰基加成和苄位等竞争产物。",
+    "product_option_ids": [
+      "C062-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C063",
+    "candidate_id": "C063",
+    "hypothesis_id": "C063-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "Cc1ccccc1Nc1ccccc1",
+    "reactive_atom_indices": [
+      7
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估中性仲胺在相容条件下的N捕获与质子转移，并独立检查碱和金属配位；不预设必须先制得胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "邻位甲基可能阻碍N捕获，二芳基共轭降低亲核性；需排查C成键、氧化和产物继续脱氟。",
+    "diagnostic": "以19F和二维NMR确认目标N连接单氟烯烃及羰基保持，分开记录配位、羰基加成、氧化或继续脱氟造成的副反应。",
+    "product_option_ids": [
+      "C063-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C064",
+    "candidate_id": "C064",
+    "hypothesis_id": "C064-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CNc1cccc2ccccc12",
+    "reactive_atom_indices": [
+      1
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估中性仲胺在相容碱或金属条件下的N捕获及质子转移；逐项检查配位、亲电体活化和产物停止点，不直接套用相邻文献配方。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "萘环共轭和邻近位阻影响N亲核性，需排查芳环C成键、金属配位以及氧化副反应。",
+    "diagnostic": "以19F及二维NMR确认NH指定原子形成的目标C–N连接、烯基F及羰基保持；分开记录其他N位点、羰基加成和苄位等竞争产物。",
+    "product_option_ids": [
+      "C064-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C001",
+    "candidate_id": "C001",
+    "hypothesis_id": "C001-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CNc1ccccc1",
+    "reactive_atom_indices": [
+      1
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C001-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C023",
+    "candidate_id": "C023",
+    "hypothesis_id": "C023-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc(Nc2ccccc2)cc1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C023-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C024",
+    "candidate_id": "C024",
+    "hypothesis_id": "C024-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "C1CCNC1",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C024-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C091",
+    "candidate_id": "C091",
+    "hypothesis_id": "C091-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "C1CCNCC1",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C091-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C092",
+    "candidate_id": "C092",
+    "hypothesis_id": "C092-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "C1COCCN1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C092-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C025",
+    "candidate_id": "C025",
+    "hypothesis_id": "C025-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "C1CSCCN1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C025-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C026",
+    "candidate_id": "C026",
+    "hypothesis_id": "C026-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "C1CCCNCC1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C026-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C002",
+    "candidate_id": "C002",
+    "hypothesis_id": "C002-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc2c(c1)CCN2",
+    "reactive_atom_indices": [
+      8
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C002-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C027",
+    "candidate_id": "C027",
+    "hypothesis_id": "C027-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc2c(c1)CCNC2",
+    "reactive_atom_indices": [
+      8
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C027-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C028",
+    "candidate_id": "C028",
+    "hypothesis_id": "C028-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CN1CCNCC1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先评估中性胺在相容碱条件下的N捕获和质子转移，不预设必须使用强碱生成胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基缩合或加成、金属配位及目标产物继续脱氟可能竞争；一级胺另有二次取代风险。",
+    "diagnostic": "区分N连接单氟烯烃与羰基缩合物；以19F及二维NMR确认F保留及N连接位置。",
+    "product_option_ids": [
+      "C028-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C065",
+    "candidate_id": "C065",
+    "hypothesis_id": "C065-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CCN1CCNCC1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估中性仲胺在相容碱或金属条件下的N捕获及质子转移；逐项检查配位、亲电体活化和产物停止点，不直接套用相邻文献配方。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "N-乙基的叔胺位点可配位或季铵化，NH位点才是本条目标；双氮螯合、酸碱消耗及羰基副反应可能竞争。",
+    "diagnostic": "以19F及二维NMR确认NH指定原子形成的目标C–N连接、烯基F及羰基保持；分开记录其他N位点、羰基加成和苄位等竞争产物。",
+    "product_option_ids": [
+      "C065-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C066",
+    "candidate_id": "C066",
+    "hypothesis_id": "C066-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CNCc1ccccc1",
+    "reactive_atom_indices": [
+      1
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估中性仲胺在相容碱或金属条件下的N捕获及质子转移；逐项检查配位、亲电体活化和产物停止点，不直接套用相邻文献配方。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基加成/烯胺形成、苄位氧化或脱烷基化以及金属配位可能竞争；不能由结构相同继承既有实验结果。",
+    "diagnostic": "以19F及二维NMR确认NH指定原子形成的目标C–N连接、烯基F及羰基保持；分开记录其他N位点、羰基加成和苄位等竞争产物。",
+    "product_option_ids": [
+      "C066-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C067",
+    "candidate_id": "C067",
+    "hypothesis_id": "C067-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc(C2CCNCC2)cc1",
+    "reactive_atom_indices": [
+      7
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估中性仲胺在相容条件下的N捕获与质子转移，并独立检查碱和金属配位；不预设必须先制得胺负离子。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "金属配位、羰基加成/烯胺副路径及继续脱氟；4位苯基会改变构象和溶解性，不能继承哌啶或实测记录的结果。",
+    "diagnostic": "以19F和二维NMR确认目标N连接单氟烯烃及羰基保持，分开记录配位、羰基加成、氧化或继续脱氟造成的副反应。",
+    "product_option_ids": [
+      "C067-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C015",
+    "candidate_id": "C015",
+    "hypothesis_id": "C015-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1c[nH]cn1",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C015-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C016",
+    "candidate_id": "C016",
+    "hypothesis_id": "C016-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1cn[nH]c1",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C016-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C003",
+    "candidate_id": "C003",
+    "hypothesis_id": "C003-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc2[nH]cnc2c1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C003-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C029",
+    "candidate_id": "C029",
+    "hypothesis_id": "C029-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc2[nH]ncc2c1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C029-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C029",
+    "candidate_id": "C029",
+    "hypothesis_id": "C029-H02",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc2[nH]ncc2c1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "唑环互变及去质子化后在另一非等价N位点捕获；需验证区域选择性。",
+    "route": "Alternative neutral N-substituted regioisomer",
+    "risks": "不同N位点竞争，不能将一个区域异构体的结果归给另一个。",
+    "diagnostic": "2D NMR确认N取代位置并分别报告各区域异构体。",
+    "product_option_ids": [
+      "C029-H02-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal",
+    "reactive_form_smiles": "c1ccc2n[nH]cc2c1",
+    "site_precondition": "Ring tautomerization/anion resonance before N substitution; the reference atom need not bear H in the depicted tautomer."
+  },
+  {
+    "display_id": "C030",
+    "candidate_id": "C030",
+    "hypothesis_id": "C030-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1nnc[nH]1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C030-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C030",
+    "candidate_id": "C030",
+    "hypothesis_id": "C030-H02",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1nnc[nH]1",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "唑环互变及去质子化后在另一非等价N位点捕获；需验证区域选择性。",
+    "route": "Alternative neutral N-substituted regioisomer",
+    "risks": "不同N位点竞争，不能将一个区域异构体的结果归给另一个。",
+    "diagnostic": "2D NMR确认N取代位置并分别报告各区域异构体。",
+    "product_option_ids": [
+      "C030-H02-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal",
+    "reactive_form_smiles": "c1nc[nH]n1",
+    "site_precondition": "Ring tautomerization/anion resonance before N substitution; the reference atom need not bear H in the depicted tautomer."
+  },
+  {
+    "display_id": "C031",
+    "candidate_id": "C031",
+    "hypothesis_id": "C031-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc2[nH]nnc2c1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C031-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C031",
+    "candidate_id": "C031",
+    "hypothesis_id": "C031-H02",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc2[nH]nnc2c1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "唑环互变及去质子化后在另一非等价N位点捕获；需验证区域选择性。",
+    "route": "Alternative neutral N-substituted regioisomer",
+    "risks": "不同N位点竞争，不能将一个区域异构体的结果归给另一个。",
+    "diagnostic": "2D NMR确认N取代位置并分别报告各区域异构体。",
+    "product_option_ids": [
+      "C031-H02-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal",
+    "reactive_form_smiles": "c1ccc2n[nH]nc2c1",
+    "site_precondition": "Ring tautomerization/anion resonance before N substitution; the reference atom need not bear H in the depicted tautomer."
+  },
+  {
+    "display_id": "C093",
+    "candidate_id": "C093",
+    "hypothesis_id": "C093-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1cc[nH]c1",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C093-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C017",
+    "candidate_id": "C017",
+    "hypothesis_id": "C017-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc2[nH]ccc2c1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C017-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C032",
+    "candidate_id": "C032",
+    "hypothesis_id": "C032-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1ccc2c(c1)[nH]c1ccccc12",
+    "reactive_atom_indices": [
+      6
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C032-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C033",
+    "candidate_id": "C033",
+    "hypothesis_id": "C033-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "c1cnc2[nH]ccc2c1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在不破坏含氟羰基底物的条件下适度碱活化N–H，再评估N选择性捕获；另外检查互变异构和金属配位。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环C成键、不同N位点的区域异构、强配位及进一步脱氟可能竞争。",
+    "diagnostic": "不能只用质量数认定N成键；用NMR区分N/C及N位点异构体，并检查单氟产物稳定性。",
+    "product_option_ids": [
+      "C033-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C068",
+    "candidate_id": "C068",
+    "hypothesis_id": "C068-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CCNC(=O)c1ccccc1",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "先在与羰基底物兼容的条件下评估酰胺N–H受控活化及N选择性捕获，并检查N/O竞争。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "酰胺N亲核性低，去质子化后可能O成键或只促进底物消除；还需检查配位、酰胺水解及目标稳定性。",
+    "diagnostic": "以19F及二维NMR区分N/O连接，确认目标烯基F和羰基保持，底物消耗不替代结构证据。",
+    "product_option_ids": [
+      "C068-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C034",
+    "candidate_id": "C034",
+    "hypothesis_id": "C034-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CC(=O)Nc1ccccc1",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C034-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C069",
+    "candidate_id": "C069",
+    "hypothesis_id": "C069-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CNC(=O)c1ccccc1",
+    "reactive_atom_indices": [
+      1
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C069-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C035",
+    "candidate_id": "C035",
+    "hypothesis_id": "C035-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "O=C1CCCN1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C035-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C036",
+    "candidate_id": "C036",
+    "hypothesis_id": "C036-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "O=C1NC(=O)c2ccccc21",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C036-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C094",
+    "candidate_id": "C094",
+    "hypothesis_id": "C094-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CS(N)(=O)=O",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C094-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C037",
+    "candidate_id": "C037",
+    "hypothesis_id": "C037-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "Cc1ccc(S(N)(=O)=O)cc1",
+    "reactive_atom_indices": [
+      6
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C037-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C070",
+    "candidate_id": "C070",
+    "hypothesis_id": "C070-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CNS(=O)(=O)c1ccc(C)cc1",
+    "reactive_atom_indices": [
+      1
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C070-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C038",
+    "candidate_id": "C038",
+    "hypothesis_id": "C038-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "O=C1NS(=O)(=O)c2ccccc21",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C038-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C071",
+    "candidate_id": "C071",
+    "hypothesis_id": "C071-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CCC(=O)Nc1ccccc1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在相容碱/金属条件下评估酰胺N–H的受控活化及N选择性捕获，先确认不会优先O成键或破坏羰基。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "酰胺N亲核性低，去质子化后存在N/O成键竞争，碱或金属也可能仅引发底物消除或配位失活。",
+    "diagnostic": "区分酰胺N连接与O连接产物，以19F和二维NMR确认目标烯基F、N连接位置以及两端羰基骨架保持；底物消耗不替代结构证据。",
+    "product_option_ids": [
+      "C071-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C039",
+    "candidate_id": "C039",
+    "hypothesis_id": "C039-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "O=C1NCCO1",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C039-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C040",
+    "candidate_id": "C040",
+    "hypothesis_id": "C040-H01",
+    "center": "N",
+    "reactive_atom_input_smiles": "CNC(=O)NC",
+    "reactive_atom_indices": [
+      1
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "采用可控的N–H原位去质子化并评估N选择性加成/消除；先检查所需碱与底物和产物的兼容性。",
+    "route": "N-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "共振稳定降低N亲核性，可能发生O成键、盐析或只促进底物消除；重复取代需单独排查。",
+    "diagnostic": "通过NMR区分N/O连接及单/双取代，核对含氟烯烃与保留羰基骨架，而非仅记录底物消耗。",
+    "product_option_ids": [
+      "C040-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C018",
+    "candidate_id": "C018",
+    "hypothesis_id": "C018-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Oc1ccccc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "芳环C取代、亲电体质子化和继续脱氟可能竞争。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C018-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C072",
+    "candidate_id": "C072",
+    "hypothesis_id": "C072-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Cc1ccc(O)cc1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "芳环C取代及O/C选择性改变。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C072-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C073",
+    "candidate_id": "C073",
+    "hypothesis_id": "C073-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "COc1ccc(O)cc1",
+    "reactive_atom_indices": [
+      6
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "氧化副反应、芳环C取代和两个氧位点的误归属。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C073-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C074",
+    "candidate_id": "C074",
+    "hypothesis_id": "C074-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Oc1ccc(F)cc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "试剂自身芳基F与目标烯基F的分析信号不能混算。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C074-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C075",
+    "candidate_id": "C075",
+    "hypothesis_id": "C075-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Oc1ccc(Br)cc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "C-Br活化、脱溴或金属介导副偶联。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C075-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C076",
+    "candidate_id": "C076",
+    "hypothesis_id": "C076-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Oc1ccc(C(F)(F)F)cc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "酚氧捕获缓慢，背景水解/氢转移可能先发生。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C076-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C077",
+    "candidate_id": "C077",
+    "hypothesis_id": "C077-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "N#Cc1ccc(O)cc1",
+    "reactive_atom_indices": [
+      6
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "亲核性减弱与腈基配位改变催化剂状态。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C077-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C099",
+    "candidate_id": "C099",
+    "hypothesis_id": "C099-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Cc1cccc(C)c1O",
+    "reactive_atom_indices": [
+      8
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "位阻使O捕获缓慢；强碱未必能补偿反应性下降。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C099-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C078",
+    "candidate_id": "C078",
+    "hypothesis_id": "C078-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Oc1ccc(-c2ccccc2)cc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "溶解性及芳环C取代影响有效浓度和选择性。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C078-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C079",
+    "candidate_id": "C079",
+    "hypothesis_id": "C079-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "COc1cc(O)cc(OC)c1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "富电子芳环C成键和多氧配位可能增强。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C079-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C041",
+    "candidate_id": "C041",
+    "hypothesis_id": "C041-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Oc1cccc2ccccc12",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "C/O竞争和邻近稠环位阻，需要直接确认连接原子。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。萘酚的C连接与O连接必须分别赋值。",
+    "product_option_ids": [
+      "C041-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C042",
+    "candidate_id": "C042",
+    "hypothesis_id": "C042-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Oc1ccc2ccccc2c1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "1位芳环C取代可竞争；仅检测到同分子量产物不足以判断O连接。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。萘酚的C连接与O连接必须分别赋值。",
+    "product_option_ids": [
+      "C042-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C098",
+    "candidate_id": "C098",
+    "hypothesis_id": "C098-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "Oc1cccc2cccnc12",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "在与目标亲电体兼容的碱/金属条件下由O-H原位生成酚氧活性形式，测试O对已活化含氟碳中心的捕获；不预设现有最优配方可直接适用。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "去质子化后N/O双齿螯合可能封闭金属活性位点，另有N位点反应。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录芳环C成键副产物。",
+    "product_option_ids": [
+      "C098-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C019",
+    "candidate_id": "C019",
+    "hypothesis_id": "C019-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "CO",
+    "reactive_atom_indices": [
+      1
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "质子化、连续取代和水解可能改变含氟终点。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C019-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C020",
+    "candidate_id": "C020",
+    "hypothesis_id": "C020-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "CCO",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "需要验证中性乙醇的活化程度，且不能把文献盐条件直接移植。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C020-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C080",
+    "candidate_id": "C080",
+    "hypothesis_id": "C080-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "CCCCCO",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "较低有效浓度、溶解和背景副反应可能影响捕获。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C080-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C043",
+    "candidate_id": "C043",
+    "hypothesis_id": "C043-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "CC(C)O",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "捕获较慢，金属介导脱氢/转移氢与目标脱氟竞争。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C043-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C044",
+    "candidate_id": "C044",
+    "hypothesis_id": "C044-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "OC1CCCCC1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "位阻、氧化成酮和氢转移竞争。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C044-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C100",
+    "candidate_id": "C100",
+    "hypothesis_id": "C100-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "CC(C)(C)O",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "去质子化、底物消除及位阻造成的低捕获速率；文献显示条件依赖。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C100-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C045",
+    "candidate_id": "C045",
+    "hypothesis_id": "C045-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "OCc1ccccc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "氧化为苯甲醛、苄位活化或O/C连接误判。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C045-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C081",
+    "candidate_id": "C081",
+    "hypothesis_id": "C081-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "OCCc1ccccc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "金属配位、溶解性与氧化副反应。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C081-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C082",
+    "candidate_id": "C082",
+    "hypothesis_id": "C082-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "COc1ccc(CO)cc1",
+    "reactive_atom_indices": [
+      7
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "苄醇氧化、芳醚配位及潜在脱保护型副反应。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C082-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C083",
+    "candidate_id": "C083",
+    "hypothesis_id": "C083-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "OCc1ccc(C(F)(F)F)cc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "反应性下降；试剂CF3的氟信号与目标烯基F须分开。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C083-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C046",
+    "candidate_id": "C046",
+    "hypothesis_id": "C046-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "OCc1cccnc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "吡啶配位抑制催化或发生N端副反应。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C046-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C095",
+    "candidate_id": "C095",
+    "hypothesis_id": "C095-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "C=CCO",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "双键异构化、金属配位或烯丙基相关重排；不能只凭失氟判断。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C095-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C047",
+    "candidate_id": "C047",
+    "hypothesis_id": "C047-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "OC/C=C/c1ccccc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "烯烃异构化、还原、烯丙基重排及O端/碳端竞争。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。同时测定供体烯烃的E/Z是否保持。",
+    "product_option_ids": [
+      "C047-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C048",
+    "candidate_id": "C048",
+    "hypothesis_id": "C048-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "C#CCO",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "端炔去质子化、炔基C成键及金属配位可竞争。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C048-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C049",
+    "candidate_id": "C049",
+    "hypothesis_id": "C049-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "COCCO",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "双氧配位、醚裂解或羟基/醚氧连接误判。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C049-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C050",
+    "candidate_id": "C050",
+    "hypothesis_id": "C050-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "OC1CCOCC1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环醚配位、二级醇脱氢及酸性条件下开环。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C050-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C084",
+    "candidate_id": "C084",
+    "hypothesis_id": "C084-H01",
+    "center": "O",
+    "reactive_atom_input_smiles": "OCC(F)(F)F",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "评估碱或金属协同活化O-H并在原位形成适当醇氧活性形式，再测试含氟碳中心的O捕获；中性醇不等同已制备醇盐。",
+    "route": "O-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "缓慢O捕获、强氢键作用和分析时两类氟信号混淆。",
+    "diagnostic": "结合含氟终点分析及分离/二维NMR确认目标C–O连接、羰基保持和仅一个目标烯基F；记录氧化、还原或不饱和键变化等竞争产物。",
+    "product_option_ids": [
+      "C084-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C021",
+    "candidate_id": "C021",
+    "hypothesis_id": "C021-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Sc1ccccc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "硫醇氧化及金属配位可能影响活性；需控制碱度和氟保留",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C021-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C006",
+    "candidate_id": "C006",
+    "hypothesis_id": "C006-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Cc1ccc(S)cc1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "二硫化物及氢转移副反应",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C006-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C007",
+    "candidate_id": "C007",
+    "hypothesis_id": "C007-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "COc1ccc(S)cc1",
+    "reactive_atom_indices": [
+      6
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "氧配位、硫醇氧化及过度反应",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C007-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C008",
+    "candidate_id": "C008",
+    "hypothesis_id": "C008-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Fc1ccc(S)cc1",
+    "reactive_atom_indices": [
+      5
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "需在19F分析中区分芳环F与目标烯基F",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C008-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C009",
+    "candidate_id": "C009",
+    "hypothesis_id": "C009-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Sc1ccc(Cl)cc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "金属条件下需排查C–Cl相关副反应及硫醇氧化",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C009-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C010",
+    "candidate_id": "C010",
+    "hypothesis_id": "C010-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Sc1ccc(Br)cc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "C–Br在某些金属条件下可能参与竞争过程",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C010-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C085",
+    "candidate_id": "C085",
+    "hypothesis_id": "C085-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "FC(F)(F)c1ccc(S)cc1",
+    "reactive_atom_indices": [
+      8
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "硫负离子亲核性下降；芳基CF3信号会增加氟定量解析复杂度",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C085-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C086",
+    "candidate_id": "C086",
+    "hypothesis_id": "C086-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "N#Cc1ccc(S)cc1",
+    "reactive_atom_indices": [
+      6
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "腈配位及电子贫化可能降低有效反应；需区分底物损耗",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C086-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C011",
+    "candidate_id": "C011",
+    "hypothesis_id": "C011-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Cc1ccccc1S",
+    "reactive_atom_indices": [
+      7
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "邻位位阻可能减慢S成键；硫醇氧化",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C011-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C087",
+    "candidate_id": "C087",
+    "hypothesis_id": "C087-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "COc1ccccc1S",
+    "reactive_atom_indices": [
+      8
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "邻位O/S螯合可能改变金属物种；需核对S选择性",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C087-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C088",
+    "candidate_id": "C088",
+    "hypothesis_id": "C088-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Cc1cccc(C)c1S",
+    "reactive_atom_indices": [
+      8
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "双邻位位阻可能显著降低成键速率",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C088-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C012",
+    "candidate_id": "C012",
+    "hypothesis_id": "C012-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Cc1cccc(S)c1",
+    "reactive_atom_indices": [
+      6
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "硫醇氧化和条件依赖性",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C012-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C051",
+    "candidate_id": "C051",
+    "hypothesis_id": "C051-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Sc1cccc2ccccc12",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "稠环位阻和溶解度可能影响转化",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C051-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C004",
+    "candidate_id": "C004",
+    "hypothesis_id": "C004-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Sc1ccc2ccccc2c1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "溶解度及硫醇氧化",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C004-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C052",
+    "candidate_id": "C052",
+    "hypothesis_id": "C052-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "Sc1cccnc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "吡啶N配位或N端反应可能竞争；实际质子化及互变形式需核验",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。 对任何产物额外核对S端与N端连接，不能仅凭质量数判定。",
+    "product_option_ids": [
+      "C052-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C053",
+    "candidate_id": "C053",
+    "hypothesis_id": "C053-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "SCc1ccco1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "呋喃在酸性或氧化条件下可能分解；硫醇氧化",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C053-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C054",
+    "candidate_id": "C054",
+    "hypothesis_id": "C054-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "SCc1cccs1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "两个不同硫环境可能引入配位或氧化副反应；必须定位实际成键S",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。 通过NMR相关和必要的结构表征确认连接发生在巯基硫而非噻吩环。",
+    "product_option_ids": [
+      "C054-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C022",
+    "candidate_id": "C022",
+    "hypothesis_id": "C022-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "CCS",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "挥发性、二硫化物及氢转移竞争",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C022-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C013",
+    "candidate_id": "C013",
+    "hypothesis_id": "C013-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "CCCS",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "挥发损失与硫醇氧化",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C013-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C055",
+    "candidate_id": "C055",
+    "hypothesis_id": "C055-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "CC(C)S",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "支化位阻及硫醇氢转移可能影响路径",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C055-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C056",
+    "candidate_id": "C056",
+    "hypothesis_id": "C056-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "CC(C)(C)S",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "较大位阻及条件依赖的断裂/氧化副反应",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C056-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C057",
+    "candidate_id": "C057",
+    "hypothesis_id": "C057-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "SC1CCCCC1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "环状位阻和硫醇氧化",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C057-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C005",
+    "candidate_id": "C005",
+    "hypothesis_id": "C005-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "SCc1ccccc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "苄位氧化与二硫化物竞争",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C005-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C014",
+    "candidate_id": "C014",
+    "hypothesis_id": "C014-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "SCCc1ccccc1",
+    "reactive_atom_indices": [
+      0
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "二硫化物、氢转移及潜在苄位副反应",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。",
+    "product_option_ids": [
+      "C014-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C058",
+    "candidate_id": "C058",
+    "hypothesis_id": "C058-H01",
+    "center": "S",
+    "reactive_atom_input_smiles": "OCCS",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较中性硫醇及温和碱原位生成硫负离子的极性加成–消除路径；不默认沿用金属或自由基条件。",
+    "route": "S-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "S/O竞争、螯合及氧化；不能默认只生成S端产物",
+    "diagnostic": "以定量19F NMR、LC–MS及产物结构核对区分目标C(F)–S单氟烯烃、CF2保留产物和完全脱氟产物，并监测二硫化物。 对S端、O端及双官能化产物分别赋结构，不将任意UV峰视为目标。",
+    "product_option_ids": [
+      "C058-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C096",
+    "candidate_id": "C096",
+    "hypothesis_id": "C096-H01",
+    "center": "P",
+    "reactive_atom_input_smiles": "c1ccc(Pc2ccccc2)cc1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较可控碱活化与无额外活化条件；自由基入口作为独立分支而不混并证据",
+    "route": "P-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "空气氧化、金属强配位、普通氢膦化和羰基反应可能竞争",
+    "diagnostic": "同时采用31P/19F NMR和LC–MS区分目标单氟C–P产物、CF2保留加成物、羰基加成物、磷氧化物及完全脱氟产物；精确连接须由产物表征确认。",
+    "product_option_ids": [
+      "C096-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C097",
+    "candidate_id": "C097",
+    "hypothesis_id": "C097-H01",
+    "center": "P",
+    "reactive_atom_input_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "reactive_atom_indices": [
+      1
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先比较碱促进极性加成–消除；与过氧化物引发的保留CF2自由基路径分开",
+    "route": "P-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "羰基Pudovik加成、氧迁移及不同含氟终点可能竞争",
+    "diagnostic": "同时采用31P/19F NMR和LC–MS区分目标单氟C–P产物、CF2保留加成物、羰基加成物、磷氧化物及完全脱氟产物；精确连接须由产物表征确认。",
+    "product_option_ids": [
+      "C097-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C089",
+    "candidate_id": "C089",
+    "hypothesis_id": "C089-H01",
+    "center": "P",
+    "reactive_atom_input_smiles": "CO[PH](=O)OC",
+    "reactive_atom_indices": [
+      2
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "比较碱促进P–H转移；若研究自由基路径需独立验证氟消除与氢转移",
+    "route": "P-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "水解、氧化、羰基加成及氢转移可能竞争；应确认实际P物种",
+    "diagnostic": "同时采用31P/19F NMR和LC–MS区分目标单氟C–P产物、CF2保留加成物、羰基加成物、磷氧化物及完全脱氟产物；精确连接须由产物表征确认。",
+    "product_option_ids": [
+      "C089-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C090",
+    "candidate_id": "C090",
+    "hypothesis_id": "C090-H01",
+    "center": "P",
+    "reactive_atom_input_smiles": "CCO[PH](=O)OCC",
+    "reactive_atom_indices": [
+      3
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "优先评估碱促进路径；不因他体系过氧化物条件的trace直接排除",
+    "route": "P-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "氢转移、羰基竞争及磷物种改变；反应对活化模式敏感",
+    "diagnostic": "同时采用31P/19F NMR和LC–MS区分目标单氟C–P产物、CF2保留加成物、羰基加成物、磷氧化物及完全脱氟产物；精确连接须由产物表征确认。",
+    "product_option_ids": [
+      "C090-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  },
+  {
+    "display_id": "C059",
+    "candidate_id": "C059",
+    "hypothesis_id": "C059-H01",
+    "center": "P",
+    "reactive_atom_input_smiles": "C1CCC(PC2CCCCC2)CC1",
+    "reactive_atom_indices": [
+      4
+    ],
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+    "activation": "比较中性P–H与可控去质子化分支，单独考察金属配位影响",
+    "route": "P-centred substitution; carbonyl retained; one fluorine retained at the new alkene",
+    "risks": "体积较大、易氧化及强金属配位；羰基或普通氢膦化竞争",
+    "diagnostic": "同时采用31P/19F NMR和LC–MS区分目标单氟C–P产物、CF2保留加成物、羰基加成物、磷氧化物及完全脱氟产物；精确连接须由产物表征确认。",
+    "product_option_ids": [
+      "C059-H01-O01"
+    ],
+    "evidence_basis": "RP-guided chemical proposal"
+  }
+]

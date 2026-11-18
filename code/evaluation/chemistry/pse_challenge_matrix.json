@@ -372,27 +372,7 @@
       ],
       "partner_smiles": "c1ccc(Pc2ccccc2)cc1",
       "electrophile_smiles": "COc1ccc(C(=O)CC(F)(F)F)cc1",
-      "candidate_relation": "精确分子",
-      "exact_candidate_numbers": [
-        95
-      ],
-      "analogue_candidate_numbers": [],
-      "candidate_ids": [
-        "CP-7010fb8ed62e0e37"
-      ],
-      "hypothesis_ids": [
-        "CP-7010fb8ed62e0e37::H01"
-      ],
-      "original_candidate_evidence_ids": [
-        "EV-307199e244a61dbf5ab4"
-      ],
-      "current_local_evidence_ids": [
-        "EV-02d0fdb64e035df834f5",
-        "EV-307199e244a61dbf5ab4"
-      ],
-      "current_comparison_references": [
-        "V05"
-      ],
+      "candidate_relation": "Exact identity",
       "constraint_ids": [
         "DC1",
         "DC2",
@@ -402,7 +382,6 @@
       ],
       "design_rationale": "保留Ph2PH正向依据，按当前活化窗口测试；不将两个电亲底物搭配计为两个P伙伴。",
       "inference_limit": "P-H活化局部类比；V05另有Ph2PH单氟37%正例，未证明本体系相容。",
-      "relation_timing": "2026-10-24本版资料关联；不证明当时选择由这些文献触发",
       "execution_status": "executed",
       "execution_basis": "作者2026-10-23确认108组合均已执行",
       "sample_ids": [
@@ -432,7 +411,20 @@
       "product_confirmation": "待补样品级结构确证",
       "quantitation": "待补校准/分离收率",
       "replication": "待补独立制备重复",
-      "input_identity_issues": []
+      "input_identity_issues": [],
+      "candidate_ids": [
+        "C096"
+      ],
+      "hypothesis_ids": [
+        "C096-H01"
+      ],
+      "supporting_evidence_ids": [
+        "EV-02d0fdb64e035df834f5",
+        "EV-307199e244a61dbf5ab4"
+      ],
+      "comparison_references": [
+        "V05"
+      ]
     }
   },
   {
@@ -468,27 +460,7 @@
       ],
       "partner_smiles": "c1ccc(Pc2ccccc2)cc1",
       "electrophile_smiles": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
-      "candidate_relation": "精确分子",
-      "exact_candidate_numbers": [
-        95
-      ],
-      "analogue_candidate_numbers": [],
-      "candidate_ids": [
-        "CP-7010fb8ed62e0e37"
-      ],
-      "hypothesis_ids": [
-        "CP-7010fb8ed62e0e37::H01"
-      ],
-      "original_candidate_evidence_ids": [
-        "EV-307199e244a61dbf5ab4"
-      ],
-      "current_local_evidence_ids": [
-        "EV-02d0fdb64e035df834f5",
-        "EV-307199e244a61dbf5ab4"
-      ],
-      "current_comparison_references": [
-        "V05"
-      ],
+      "candidate_relation": "Exact identity",
       "constraint_ids": [
         "DC1",
         "DC2",
@@ -498,7 +470,6 @@
       ],
       "design_rationale": "保留Ph2PH正向依据，按当前活化窗口测试；不将两个电亲底物搭配计为两个P伙伴。",
       "inference_limit": "P-H活化局部类比；V05另有Ph2PH单氟37%正例，未证明本体系相容。",
-      "relation_timing": "2026-10-24本版资料关联；不证明当时选择由这些文献触发",
       "execution_status": "executed",
       "execution_basis": "作者2026-10-23确认108组合均已执行",
       "sample_ids": [
@@ -528,7 +499,20 @@
       "product_confirmation": "待补样品级结构确证",
       "quantitation": "待补校准/分离收率",
       "replication": "待补独立制备重复",
-      "input_identity_issues": []
+      "input_identity_issues": [],
+      "candidate_ids": [
+        "C096"
+      ],
+      "hypothesis_ids": [
+        "C096-H01"
+      ],
+      "supporting_evidence_ids": [
+        "EV-02d0fdb64e035df834f5",
+        "EV-307199e244a61dbf5ab4"
+      ],
+      "comparison_references": [
+        "V05"
+      ]
     }
   },
   {

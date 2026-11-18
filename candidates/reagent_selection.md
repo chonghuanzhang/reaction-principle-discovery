@@ -1,42 +1,11 @@
-# From AI-generated candidates to experimental reagents
+# From recommended nucleophiles to experimental reagents
 
-The **100 AI-generated candidates** provided a starting point for selecting experimental donors and proposed bond-forming pathways. Before the experimental reagent list was finalized, researchers considered structural relationships relevant to the intended bond-forming site and donor role, commercial accessibility, and the novelty classifications of proposed-product connectivity (NP) and reaction precedents (NR). Both recommended molecules and related analogues could enter this assessment. Researchers made the final choices through joint consideration of these factors, without a fixed cutoff or weighted total score.
+The recommendation-to-experiment step retains the bond-forming element, intended reacting atom, precursor form and route while accommodating the practical compounds used in the laboratory. Molecular identities were normalized before each relationship was assigned as **exact identity**, **same scaffold/substituent or positional variation**, **same donor family/different scaffold**, or **no reasonable counterpart**. A broader donor-family relation is reported as such and is not treated as equivalent reactivity.
 
-## Selection criteria and counting units
+At the recommendation level, the 100 molecules give 25/31/41/3 across these four categories. At the ordered experimental-pair level, the 108 records give 26/37/41/4. The two summaries answer different questions and should not be added together.
 
-Structural relationships retain differences in substitution, ring system and precursor form. Membership of the same donor family does not establish equivalent reactivity. Commercial accessibility was considered as a practical implementation factor. NP and NR remained separate classifications; neither was added to the other, averaged, or interpreted as a probability of reaction success.
+Representative relationships include indoline-Candidate/indoline-AP044 (**exact identity**), 2-naphthol/1-naphthol AP047 or AP048 (**same scaffold with positional variation**) and 2-naphthalenethiol/benzene-1,3-dithiol AP108 (**same sulfur-donor family with a different scaffold**). Three sulfonamides have no reasonable tested counterpart and remain explicit recommendations rather than being assigned to an unrelated N-H reagent.
 
-| Population or record unit | Count | Interpretation |
-| --- | --- | --- |
-| AI-generated candidate molecules | 100 | Recommended inputs C001–C100, including alternative site/pathway hypotheses and endpoints |
-| Final experimental donor collection | 100 | The author's final experimental donor count |
-| Archived donor structures | 102 | Distinct donor structures in the recorded experimental-input dataset |
-| Archived experimental combinations | 108 | Distinct ordered electrophile–donor pairs, involving five electrophiles |
+Feasibility, accessibility, handling, compatibility and endpoint-specific NP/NR information were considered together when choosing practical inputs. No universal numerical cutoff or weighted score was used. NP/NR labels are reassessed for the actual donor, electrophile and proposed endpoint and are not inherited through structural analogy.
 
-The last two counts describe structure records and combinations; they do not redefine the final 100-donor collection. Repeated workbook appearances and multiple candidate associations are also distinct from independent experiments. The [record-interpretation guide](experiment_mapping/model_donors.md) explains these units and the source worksheets.
-
-## Main Figure 4d
-
-![From AI-generated candidates to experimental reagents](../figures/source/Figure_4d_candidate_selection.png)
-
-**Figure 4d | From recommended molecules to experimental donors.** Researchers considered structural relationships, commercial accessibility and separate NP/NR classifications when selecting reagents for experimental testing. The N–H, O–H and S–H examples associate recommended molecules with recorded model donors. Their arrows indicate structural associations, not chemical transformations or independently documented replacement decisions. NP2/NR2 labels refer to the corresponding proposed endpoint for each actual electrophile–donor pair.
-
-The three lower examples can be followed to their full records:
-
-| Recommended donor | Recorded experimental donor | Structural association | Pair-specific NP / NR |
-| --- | --- | --- | --- |
-| [C048: aniline](C048.md) | [AP039: indoline](experiment_mapping/pairs/AP039.md) | Structural Analogue | 2 / 2 |
-| [C051: phenol](C051.md) | [AP048: 1-naphthol](experiment_mapping/pairs/AP048.md) | Structural Analogue | 2 / 2 |
-| [C082: benzenethiol](C082.md) | [AP090: 4-tert-butylbenzenethiol](experiment_mapping/pairs/AP090.md) | Structural Analogue | 2 / 2 |
-
-Indoline is also recorded with the amide electrophile in [AP044](experiment_mapping/pairs/AP044.md). The N–H example retains the aryl-bound nitrogen relationship while ring closure and substitution distinguish aniline from indoline. The full [association table, Repository Table R1](experiment_mapping/README.md), distinguishes exact molecular matches, reactive-form relationships, donor-family relationships and unmatched inputs. A structural relationship alone does not document a particular human substitution decision. The overall selection criteria are established, while item-specific procurement records, alternative lists and reasons for individual choices are not supplied.
-
-[Complete Figure 4: PNG](../figures/main/Figure_4.png) · [JPEG](../figures/main/Figure_4.jpeg) · [Artwork sources and reproduction](../figures/README.md)
-
-## NP/NR for the actual experimental inputs
-
-When a candidate and an experimental input differ, the reported NP/NR classifications evaluate the **actual donor, electrophile and corresponding proposed product endpoint**. They are not inherited from a candidate through structural similarity. Alternative sites and endpoints retain their separate classifications, and mixed or unresolved labels are not replaced by the highest category.
-
-Of the 100 candidate molecules, 72 carry only NP2 labels and 19 only NP3 labels. Of the 108 recorded experimental pairs, 100 (92.6%) are NP2 and 90 are NR2. These distributions describe the category composition of their respective populations. Different counting units and potentially different proposed endpoints prevent interpreting the marginal distributions as novelty retention or improvement. A compact comparison appears in main Figure 4e; the complete NP and NR distributions remain [Repository Figure N1 / Supplementary Figure 5](novelty_assessment.md), with endpoint-specific evidence and exceptions.
-
-[Candidate catalog](README.md) · [Novelty definitions and evidence](novelty_assessment.md) · [Computational methods](../code/METHODS.md#candidate-to-reagent-selection) · [Reading the article and SI](../docs/reading_guide.md)
+[Candidate catalog](README.md) · [108-pair ledger and Table R1](experiment_mapping/) · [Product options and Table R2](product_options/) · [NP/NR guide](novelty_assessment.md)

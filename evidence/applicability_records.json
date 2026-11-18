@@ -12,15 +12,13 @@
     "acceptor_match": "adjacent",
     "activation_match": "adjacent",
     "endpoint_match": "mismatch",
-    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "match_rationale": "P(O)H form is represented by C097 (Ph2P(O)H); C097 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
     "principles": [
       "RP2",
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C090"
-    ],
+    "candidate_ids": [],
     "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc03915k",
@@ -48,15 +46,13 @@
     "acceptor_match": "adjacent",
     "activation_match": "adjacent",
     "endpoint_match": "mismatch",
-    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "match_rationale": "P(O)H form is represented by C097 (Ph2P(O)H); C097 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
     "principles": [
       "RP2",
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C090"
-    ],
+    "candidate_ids": [],
     "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc03915k",
@@ -84,15 +80,13 @@
     "acceptor_match": "adjacent",
     "activation_match": "adjacent",
     "endpoint_match": "mismatch",
-    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "match_rationale": "P(O)H form is represented by C097 (Ph2P(O)H); C097 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
     "principles": [
       "RP2",
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C090"
-    ],
+    "candidate_ids": [],
     "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc03915k",
@@ -119,15 +113,13 @@
     "acceptor_match": "adjacent",
     "activation_match": "adjacent",
     "endpoint_match": "mismatch",
-    "match_rationale": "The tested input is separately prepared 5A, a protonated phospha-Brook side product, not the C090 Ph2P(O)H donor. C090 is linked only through route relevance; this is an intermediate-competence experiment, not a direct donor-reactivity comparison.",
+    "match_rationale": "The tested input is separately prepared 5A, a protonated phospha-Brook side product, not the C097 Ph2P(O)H donor. C097 is linked only through route relevance; this is an intermediate-competence experiment, not a direct donor-reactivity comparison.",
     "principles": [
       "RP2",
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C090"
-    ],
+    "candidate_ids": [],
     "target_application": "Route-level intermediate-competence constraint: isolated 5A does not furnish 3A in the stated test. No direct test of C090 donor activity or project target failure.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc03915k",
@@ -155,16 +147,13 @@
     "acceptor_match": "adjacent",
     "activation_match": "adjacent",
     "endpoint_match": "mismatch",
-    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "match_rationale": "P(O)H form is represented by C097 (Ph2P(O)H); C097 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
     "principles": [
       "RP2",
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C089",
-      "C090"
-    ],
+    "candidate_ids": [],
     "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc03915k",
@@ -192,15 +181,13 @@
     "acceptor_match": "adjacent",
     "activation_match": "adjacent",
     "endpoint_match": "mismatch",
-    "match_rationale": "P(O)H form is represented by C090 (Ph2P(O)H); C089 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
+    "match_rationale": "P(O)H form is represented by C097 (Ph2P(O)H); C097 additionally appears in donor-dependent endpoint isolation. RCOCF3 and C–O–P/ketone products differ from RCOCH2CF3 and direct vinyl C–P; base/temperature overlap is not identical activation.",
     "principles": [
       "RP2",
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C090"
-    ],
+    "candidate_ids": [],
     "target_application": "Conditional carbonyl-interception, rearrangement and endpoint-selection constraints; no direct failure of the project target.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc03915k",
@@ -233,9 +220,7 @@
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C090"
-    ],
+    "candidate_ids": [],
     "target_application": "Mechanistic rationale for a possible competing pathway, not an observed target-system mechanism.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc03915k",
@@ -362,9 +347,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Donor/catalyst compatibility and turnover constraint; not a project-specific negative observation.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1002/advs.77070",
@@ -396,9 +379,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Donor/catalyst compatibility and turnover constraint; not a project-specific negative observation.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1002/advs.77070",
@@ -431,9 +412,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Donor/catalyst compatibility and turnover constraint; not a project-specific negative observation.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1002/advs.77070",
@@ -467,9 +446,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Donor/catalyst compatibility and turnover constraint; not a project-specific negative observation.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1002/advs.77070",
@@ -502,9 +479,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Condition-specific compatibility concern with explicit positive counterevidence.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1021/acs.orglett.5c02491",
@@ -536,9 +511,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Condition-specific compatibility concern with explicit positive counterevidence.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1021/acs.orglett.5c02491",
@@ -571,9 +544,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Condition-specific compatibility concern with explicit positive counterevidence.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1021/acs.orglett.5c02491",
@@ -607,9 +578,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Condition-specific compatibility concern with explicit positive counterevidence.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1021/acs.orglett.5c02491",
@@ -642,9 +611,7 @@
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Competing donor roles and fluorination-endpoint control, without assigning target PhSeH failure.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc04074d",
@@ -678,9 +645,7 @@
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Competing donor roles and fluorination-endpoint control, without assigning target PhSeH failure.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc04074d",
@@ -714,9 +679,7 @@
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C100"
-    ],
+    "candidate_ids": [],
     "target_application": "Competing donor roles and fluorination-endpoint control, without assigning target PhSeH failure.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d5sc04074d",
@@ -751,9 +714,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C095"
-    ],
+    "candidate_ids": [],
     "target_application": "Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1021/acs.orglett.3c02031",
@@ -786,9 +747,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C094"
-    ],
+    "candidate_ids": [],
     "target_application": "Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1021/acs.orglett.3c02031",
@@ -821,9 +780,7 @@
       "RP2",
       "RP4"
     ],
-    "candidate_ids": [
-      "C095"
-    ],
+    "candidate_ids": [],
     "target_application": "Local donor and acceptor controls support conditional caution while retaining successful P–H chemistry.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1021/acs.orglett.3c02031",
@@ -855,9 +812,7 @@
       "RP3",
       "RP4"
     ],
-    "candidate_ids": [
-      "C095"
-    ],
+    "candidate_ids": [],
     "target_application": "Mandatory counterevidence to phosphorus-wide exclusion; direct target transfer remains conditional.",
     "assessment_target": "Project RCOCH2CF3 to carbonyl-retaining RCOCH=C(F)-Nu; donor identity specified by candidate_ids or source donor-form description.",
     "doi": "10.1039/d6sc01042c",

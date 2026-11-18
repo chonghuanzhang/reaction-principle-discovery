@@ -2,7 +2,7 @@
 """Label-blind, NumPy-only posterior and full-space UCB recommendations.
 
 No function loads experimental data, target labels or availability. The initial
-batch accepts recorded indices only; later batches rank all remaining13920.
+batch accepts recorded indices only; later batches rank all remaining 13,920.
 """
 from __future__ import annotations
 
@@ -44,7 +44,7 @@ def _parameters(config):
 
 
 def initialize(measured_indices, rng):
-    """Select12 unique recorded indices uniformly without reading responses."""
+    """Select 12 unique recorded indices uniformly without reading responses."""
     indices = np.array(sorted(set(map(int, measured_indices))), dtype=int)
     assert len(indices) >= N_INIT and np.all((indices >= 0) & (indices < N))
     return _rng(rng).choice(indices, size=N_INIT, replace=False).tolist()
@@ -53,7 +53,7 @@ def initialize(measured_indices, rng):
 def kernel(left_codes, right_codes, config):
     """Weighted main/pairwise kernel plus independent whole-condition effect.
 
-    Terms are ordered C,S,B,CS,CB,SB. Diagonal6 is independent of the candidate,
+    Terms are ordered C,S,B,CS,CB,SB. The diagonal value of 6 is independent of the candidate,
     label status, rho and the two permitted shared-weight allocations.
     """
     weights, rho, _ = _parameters(config)
@@ -70,7 +70,7 @@ def kernel(left_codes, right_codes, config):
 
 
 def posterior(observed, config, compressed=True):
-    """Full13920 latent posterior from currently selected responses only.
+    """Full 13,920-condition latent posterior from currently selected responses only.
 
     Response centering/population-SD normalization, unit observation noise and
     the conjugate posterior match the preceding frozen engine. Compression
@@ -114,10 +114,10 @@ def posterior(observed, config, compressed=True):
 
 
 def propose(observed, config, rng):
-    """Rank all unselected conditions and return simultaneous top4 UCB.
+    """Rank all unselected conditions and return the simultaneous top-four UCB batch.
 
-    Jitter draws13920 PCG64 values each batch, prior to masking only previously
-    selected indices. No availability mask or unselected responses are inputs.
+    Jitter draws 13,920 PCG64 values each batch. Acquisition then excludes only
+    previously selected indices; unselected responses are never model inputs.
     """
     _, _, beta = _parameters(config)
     mean, sd = posterior(observed, config)

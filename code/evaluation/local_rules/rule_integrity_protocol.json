@@ -13,7 +13,7 @@
   "chemistry_inputs": [
     {
       "path": "../chemistry/pse_challenge_matrix.json",
-      "sha256": "6f7d740d6cf893b20b8061b0004dc75940c16af85726a67efcfd87c5ce2777af",
+      "sha256": "5f29d8c20f812fd591d953e3434eec00f701adbef6122ccdbe4bda089daa7d69",
       "original_sha256": "6f7d740d6cf893b20b8061b0004dc75940c16af85726a67efcfd87c5ce2777af"
     },
     {
