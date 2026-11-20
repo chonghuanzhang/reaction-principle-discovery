@@ -21,7 +21,7 @@ Read [the selection policy](references/selection-policy.md) before approving str
 ## Workflow
 
 1. Normalize candidate and reagent identities without collapsing distinct covalent structures.
-2. Classify each relationship as Exact Molecular Match, Reactive-form Analogue, Structural Analogue, Additional Experimental Candidate or Unmatched; retain scaffold/substituent and broader donor-family reasoning in the relation rationale.
+2. Classify each relationship as Exact identity, Same scaffold with substituent or positional variation, Same donor family with a different scaffold, or No reasonable counterpart; retain the reacting-site and chemical rationale for every non-exact link.
 3. Check whether the proposed reacting centre, precursor form and activation mode remain compatible with the intended route.
 4. Review availability, safety/handling and experimental compatibility. Record any available purity, cost and lead-time information, but do not infer missing procurement facts.
 5. Reassess NP/NR for the actual reagent–electrophile–endpoint combination rather than inheriting a candidate label.
@@ -53,6 +53,6 @@ python3 skills/recommended-nucleophiles-to-experimental-reagents/scripts/run.py 
   --output /tmp/new_experimental_reagent_ledger.json
 ```
 
-The skill workflow performs identity, feasibility, novelty and human chemical review. The bundled command validates and exports the resulting decision ledger, checks reactive route sites, route-compatible hypotheses, exact molecular matches and reactive-form parent structures against the deposited records, records input hashes and requires unresolved identity or unmatched route records to remain in an explicit exploratory-exception register instead of releasing them as ordinary candidate-supported selections. It does not infer missing procurement facts or reaction outcomes.
+The skill workflow performs identity, feasibility, novelty and human chemical review. The bundled command validates and exports the deposited correspondence and execution ledger: it checks route sites and reacting-atom indices, route-compatible hypotheses, exact-identity structures, relationship-category partitions, identity flags, NP/NR presence and source-occurrence closure, then records input hashes. It does not reconstruct undocumented selection decisions, infer missing procurement facts or infer reaction outcomes.
 
 An analogue relationship is a proposal for chemical review, not proof that two molecules are interchangeable.

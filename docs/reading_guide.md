@@ -15,6 +15,7 @@ Start with the scientific question in the article, use the SI for detailed metho
 | Novelty; Supplementary Fig. 5 and SI S5.6 | [Assessment guide and Figure N1](../candidates/novelty_assessment.md) | Search scope, NP/NR definitions, unresolved cases and complete distributions |
 | Candidate–experiment association; SI S5.5 | [Table R1](../candidates/experiment_mapping/) | All 108 recorded electrophile–donor pairs and their structural relationships to recommendations; these associations do not independently document individual substitution decisions |
 | Proposed product connectivity; SI S5.6 | [Table R2](../candidates/product_options/) | 103 product-option records, registry comparisons and NP/NR assessments |
+| Product and experiment counts; main Table 1, Fig. 6 and SI S7.5 | [Counting-unit guide](product_scope.md) | Why 40 displayed products, 35 positive donors, 102 experimental donors, 108 ordered pairs and 15 selected characterization entries are different totals |
 | Shared decision space; SI S6.2 | [Condition library](../experiments/condition_library/) and [complete tables](../optimization/current/data/) | 145 catalyst–ligand/loading formulations, eight solvents and twelve bases |
 | Three-system optimization; SI S6.5–S6.6 | [Table R3](../experiments/bo_trajectories/) | All rounds, first-best responses and common stopping checks |
 | Selected response records; SI S6.6–S6.7 | [Table R4](../experiments/selected_responses/) | 164 N–H/O–H/S–H conditions with rounds, UV responses and source cells |

@@ -1,6 +1,6 @@
 # Bayesian condition recommendation in three reaction systems
 
-The current study applies a shared **13,920-condition decision space** independently to N–H, O–H and S–H: **145 catalyst–ligand and loading formulations × eight solvents × twelve bases**. Each prospective campaign began with twelve uniformly sampled experiments. A hierarchical Gaussian-process surrogate and upper confidence bound (UCB) then recommended four further conditions per round; all four experiments were completed and their measured UV responses were returned before the next update.
+The current study applies a shared **13,920-condition decision space** independently to N–H, O–H and S–H: **145 catalyst–ligand and loading formulations × eight solvents × twelve bases**. Each deposited campaign history begins with twelve uniformly sampled conditions. A hierarchical Gaussian-process surrogate and upper confidence bound (UCB) then assigns four further conditions per round, with four recorded responses returned before the next saved update.
 
 | System | First highest measured response | First stopping round | Unique selected conditions | Highest measured UV response |
 |---|---:|---:|---:|---:|
@@ -8,14 +8,16 @@ The current study applies a shared **13,920-condition decision space** independe
 | O–H | 9 | 11 | 56 | 1.4425 |
 | S–H | 7 | 9 | 48 | 3.2045 |
 
-All three campaigns used the same empirical stopping rule. The initial twelve conditions are round 0. The initialization seeds 4105596 (N–H), 4002564 (O–H) and 4006672 (S–H) were fixed before the first run of each campaign, and the table reports the outcomes of those runs.
+All three campaign records use the same empirical stopping rule. The initial twelve conditions are round 0. The recorded initialization seeds are 4105596 (N–H), 4002564 (O–H) and 4006672 (S–H).
+
+All current candidate-space rows and all 164 selected trajectory rows specify **500 µL**. The source-screen procedure specifies 250 µL. Numerical scope records are predominantly 500 µL; AP001–AP003 retain their original 250 µL source-screen scale. These values describe distinct source-screen and BO/scope layers. The highest measured-response BO settings are AgF/PPh₃/K₂CO₃/DCE (N-H), NiCl₂·DME/DIPEA/DCE (O-H) and CuCl/PPh₃/CsOH/DCE (S-H). Table 1 uses different N-H and O-H settings and the same S-H setting.
 
 ## Current materials
 
 | Resource | Contents |
 |---|---|
 | [Methods](METHODS.md) | Decision space, hierarchical GP, UCB, shared stopping equation and interpretation |
-| [Current protocol](current/protocol.json) | Exact model parameters, preassigned initialization seeds, numerical settings and checksums |
+| [Current protocol](current/protocol.json) | Exact model parameters, recorded initialization seeds, numerical settings and checksums |
 | [Condition identities](current/data/) | 145 formulations, eight solvents, twelve bases and complete 13,920-candidate tables for each system |
 | [Recorded campaigns](current/runs/) | Each initial set and subsequent batch, measured feedback and posterior quantities at recommendation |
 | [Table R3](../experiments/bo_trajectories/) | Round-by-round response progress and stopping checks |
@@ -35,7 +37,7 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
 python tools/check_data.py
 ```
 
-The post-run checker uses the preassigned campaign seeds to recompute every recommendation from only the responses available at that round, checks the returned measurements and first stopping round, and writes full-space posterior snapshots. `engine.py` ranks every unselected candidate; unobserved response values are not inputs to its UCB calculation. A model update occurs only after the complete four-experiment batch has returned measured feedback.
+The post-run checker uses the recorded campaign seeds to recompute every recommendation from only the responses assigned to that round, checks the recorded measurements and first stopping round, and writes full-space posterior snapshots. `engine.py` ranks every unselected candidate; unobserved response values are not inputs to its UCB calculation. The saved history updates only after each complete four-response batch.
 
 The original response cells can also be checked with `python optimization/scripts/check_data.py --output /tmp/source-cell-check.json`. Reconstruct the large workbook using `python optimization/scripts/reassemble_workbook.py --output /tmp/full_response_workbook.xlsx`.
 

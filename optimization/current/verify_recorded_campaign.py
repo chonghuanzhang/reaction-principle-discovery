@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the three fixed-seed prospective Bayesian campaigns.
+"""Verify the three fixed-seed sequential Bayesian campaign histories.
 
 This post-run integrity check recomputes each recommendation using only the UV
 responses available through the preceding completed round, with the seed and
@@ -114,7 +114,7 @@ def main():
     protocol = read_json(HERE / 'protocol.json')
     for rel, digest in protocol['sha256'].items():
         assert hashlib.sha256((HERE/rel).read_bytes()).hexdigest() == digest, rel
-    assert protocol['execution_mode'] == 'prospective sequential laboratory campaign'
+    assert protocol['execution_mode'] == 'recorded sequential campaign history'
     results = [verify_campaign(s, protocol, args.output) for s in ('NH', 'OH', 'SH')]
     report = dict(status='PASS', selected_response_count=sum(r['selected_unique_conditions'] for r in results),
                   systems=results)

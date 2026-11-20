@@ -153,9 +153,15 @@ def add_molecule(ax, smiles, extent, color=None):
     ax.imshow(img, extent=extent, interpolation="lanczos", aspect="auto", zorder=3)
 
 
+def save_clean_svg(fig, path: Path, **kwargs):
+    fig.savefig(path, **kwargs)
+    lines = path.read_text(encoding="utf-8").splitlines()
+    path.write_text("\n".join(line.rstrip() for line in lines) + "\n", encoding="utf-8")
+
+
 def save_figure(fig, stem: Path, dpi=300):
     stem.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(stem.with_suffix(".svg"), bbox_inches="tight", facecolor="white")
+    save_clean_svg(fig, stem.with_suffix(".svg"), bbox_inches="tight", facecolor="white")
     fig.savefig(stem.with_suffix(".pdf"), bbox_inches="tight", facecolor="white")
     fig.savefig(stem.with_suffix(".png"), dpi=dpi, bbox_inches="tight", facecolor="white")
     plt.close(fig)
@@ -628,6 +634,59 @@ def exact_candidate_matches(records):
     return records
 
 
+def baseline_endpoint_label(record, kind):
+    if kind == "llm":
+        endpoint = record["endpoint_source"]
+        labels = {"有产物": "Product", "不反应": "No product"}
+        positive = record["product_positive"]
+    elif kind == "literature":
+        endpoint = record["source_result"]
+        labels = {"有产物": "Product", "trace": "Trace"}
+        positive = record["response_positive"]
+    else:
+        raise ValueError(f"Unknown baseline kind: {kind}")
+    if endpoint not in labels:
+        raise ValueError(f"Unknown {kind} endpoint label: {endpoint!r}")
+    label = labels[endpoint]
+    if (label == "Product") != bool(positive):
+        raise ValueError(f"Inconsistent {kind} endpoint and positivity flag: {endpoint!r}")
+    return label
+
+
+def full_collection_intersections():
+    literature = [
+        row for row in LITERATURE_BASELINE["records"]
+        if row["unique_structure_representative"] == row["record_id"]
+    ]
+    collections = (
+        {canon(row["actual_donor_smiles"]) for row in MAPPINGS},
+        {canon(row["canonical_smiles"]) for row in LLM_BASELINE},
+        {canon(row["canonical_smiles"]) for row in literature},
+    )
+    expected_sizes = (102, 20, 20)
+    sizes = tuple(len(collection) for collection in collections)
+    if sizes != expected_sizes:
+        raise ValueError(f"Unexpected collection sizes: {sizes}")
+    counts = Counter(
+        tuple(smiles in collection for collection in collections)
+        for smiles in set().union(*collections)
+    )
+    membership_order = (
+        (True, False, False),
+        (False, True, False),
+        (False, False, True),
+        (True, True, False),
+        (True, False, True),
+    )
+    unexpected = set(counts) - set(membership_order)
+    if unexpected:
+        raise ValueError(f"Unexpected collection-overlap patterns: {sorted(unexpected)}")
+    return [
+        {"membership": list(membership), "count": counts[membership]}
+        for membership in membership_order
+    ]
+
+
 def build_baseline_panel(records, kind):
     width, height, cell_w, cell_h = 2010, 900, 2010/5, 212
     svg = ET.Element(f"{{{SVG_NS}}}svg", {"width": "6.7in", "height": "3in", "viewBox": f"0 0 {width} {height}"})
@@ -650,7 +709,7 @@ def build_baseline_panel(records, kind):
         mol = molecule_svg(record["canonical_smiles"])
         mol.attrib.update({"x": "6", "y": "31", "width": "390", "height": "150"})
         group.append(mol)
-        svg_text(group, cell_w/2, 208, "Product" if positive else "Trace", size=26, anchor="middle",
+        svg_text(group, cell_w/2, 208, baseline_endpoint_label(record, kind), size=26, anchor="middle",
                  color="#23845c" if positive else "#707781")
     return svg
 
@@ -684,10 +743,13 @@ def build_figure6():
     write_svg_derivatives(llm_panel, out / "direct_llm_molecular_panel")
     write_svg_derivatives(lit_panel, out / "literature_selection_molecular_panel")
 
-    # Panels a-b retain the experimental statistics and experimental-set intersections.
+    # Panel a uses the reported analysis fractions; panel b uses the full 102-donor ledger.
     summary = COMPARISON_SUMMARY
     stats = summary["statistics"]
-    patterns = [row["count"] for row in summary["unique_structure_intersections"]]
+    intersections = full_collection_intersections()
+    if intersections != summary["unique_structure_intersections"]:
+        raise ValueError("comparison_summary.json is stale relative to the deposited collections")
+    patterns = [row["count"] for row in intersections]
     fig = plt.figure(figsize=(6.7, 2.25), facecolor="white")
     ax = fig.add_axes([.085, .23, .37, .62])
     values = [100*row["fraction"] for row in stats]
@@ -703,15 +765,16 @@ def build_figure6():
                 ha="center", va="bottom", fontsize=8)
     labels = ["RP-guided", "Direct LLM\nrecommendation", "Literature\nselection"]
     ax.set_xticks(range(3), labels); ax.tick_params(axis="x", length=0, labelsize=7)
-    ax.set_ylim(0, 68); ax.set_yticks([0, 20, 40, 60]); ax.set_ylabel("Reaction-positive fraction (%)")
+    ax.set_ylim(0, 68); ax.set_yticks([0, 20, 40, 60]); ax.set_ylabel("Collection-positive fraction (%)")
     ax.yaxis.grid(True, color="#e9ebee", linewidth=.5, zorder=0); style_axis(ax)
     fig.text(.012, .94, "a", fontsize=12, weight="bold")
-    fig.text(.085, .94, "Experimental outcomes", fontsize=9, weight="bold")
+    fig.text(.085, .94, "Reported analysis outcomes", fontsize=9, weight="bold")
+    fig.text(.085, .885, "Reported collection-positive fractions: 35/94, 4/20 and 3/20", fontsize=6.0, color=GREY)
     axb = fig.add_axes([.66, .48, .325, .37])
     axb.bar(range(5), patterns, color="#627c8a", width=.65)
     for index, value in enumerate(patterns): axb.text(index, value+3, str(value), ha="center", va="bottom", fontsize=8)
     axb.set_ylim(0, 112); axb.set_yticks([0, 50, 100]); axb.set_ylabel("Unique donors"); axb.set_xticks([]); style_axis(axb)
-    matrix = [tuple(row["membership"]) for row in summary["unique_structure_intersections"]]
+    matrix = [tuple(row["membership"]) for row in intersections]
     axm = fig.add_axes([.66, .12, .325, .31], sharex=axb)
     for index, membership in enumerate(matrix):
         axm.scatter([index]*3, [0,1,2], c="#dfe3e7", s=19, linewidths=0)
@@ -720,8 +783,8 @@ def build_figure6():
         axm.scatter([index]*len(active), active, c="#364e60", s=22, linewidths=0, zorder=3)
     axm.set_xlim(-.6,4.6); axm.set_ylim(2.5,-.5); axm.set_yticks([0,1,2], labels)
     axm.tick_params(axis="both", length=0, labelsize=6.8); axm.set_xticks([]); style_axis(axm)
-    fig.text(.515,.94,"b",fontsize=12,weight="bold"); fig.text(.56,.94,"Exact experimental-set overlap",fontsize=9,weight="bold")
-    fig.savefig(out / "comparison_statistics.svg"); plt.close(fig)
+    fig.text(.515,.94,"b",fontsize=12,weight="bold"); fig.text(.56,.94,"Exact overlap: complete 102-donor RP ledger",fontsize=8.4,weight="bold")
+    save_clean_svg(fig, out / "comparison_statistics.svg"); plt.close(fig)
 
     root = ET.Element(f"{{{SVG_NS}}}svg", {"width":"6.7in","height":"8.62in","viewBox":"0 0 2010 2586"})
     svg_element(root, "rect", x=0, y=0, width=2010, height=2586, fill="white")
@@ -748,6 +811,11 @@ def build_figure6():
         "direct_llm": llm_hits, "literature_selection": lit_hits,
         "total_exact_recommendation_overlaps": 7,
         "experimental_statistics": {"RP-guided": "35/94", "direct_LLM": "4/20", "literature": "3/20"},
+        "comparison_type": summary["comparison_type"],
+        "interpretation_limit": summary["interpretation_limit"],
+        "collection_definitions": summary["collection_definitions"],
+        "panel_scopes": summary["panel_scopes"],
+        "full_collection_intersections": intersections,
     }, indent=2) + "\n")
 
 

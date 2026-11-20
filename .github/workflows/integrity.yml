@@ -28,8 +28,6 @@ jobs:
       - name: Check source-specific rule evaluator
         working-directory: code/evaluation/local_rules
         run: python -m unittest -v test_conditional_rules.py
-      - name: Verify frozen evaluation prompts offline
-        run: python code/evaluation/matched_evidence/run_llm_diagnostic.py --output-dir /tmp/reaction-evaluation/prompts
       - name: Install numerical dependency
         run: python -m pip install numpy==2.3.5
       - name: Check Bayesian selection policy

@@ -1,9 +1,8 @@
 {
-  "title": "Source-conditioned P/Se evidence and prepared matched-evidence diagnostic",
+  "title": "Source-conditioned P/Se local rule-integrity evaluation",
   "source_snapshot_date": "2026-10-25",
   "scientific_status": {
-    "local_rule_integrity": "Completed on development cases",
-    "matched_evidence_comparison": "Prepared; no successful new model calls; performance and effect estimates are null"
+    "local_rule_integrity": "Completed on development cases"
   },
   "files": [
     {
@@ -101,70 +100,6 @@
     {
       "path": "local_rules/test_conditional_rules.py",
       "sha256": "e33079f118e27cfec41d9c4b0d42c559c89cd0b5b458d536bbe05985b6c7d31b"
-    },
-    {
-      "path": "matched_evidence/E16_protocol_amendment.json",
-      "sha256": "88cf013152b3f129773488892965d7a09c687b5d1f15cb016a9c97c2b37a36a0"
-    },
-    {
-      "path": "matched_evidence/deterministic_coverage_top12.csv",
-      "sha256": "7a5769736df4b93fe5e52ddc041264007b50819058d94823429062c475d30f6f"
-    },
-    {
-      "path": "matched_evidence/llm_answers_sealed_from_prompts.json",
-      "sha256": "a14d23ca02ecaa6f59eeb744a95ecbf56fa338b26d1b69b08efd970176852fc0"
-    },
-    {
-      "path": "matched_evidence/llm_evidence.json",
-      "sha256": "4a64791e5a6ee9114ef81aa3c288a64573f5920c1bcd29e3e5a7d15d773c3db7"
-    },
-    {
-      "path": "matched_evidence/llm_frozen_protocol.json",
-      "sha256": "c1cc4f09e5df862d02576c4392e703d9147f76439468688b24fa307c15dea1da"
-    },
-    {
-      "path": "matched_evidence/llm_inputs/RP_boundary_ablation.json",
-      "sha256": "3cdc4ee8cc7aa2f8515ef7ad566684d42644bf8baa17c058aa3807ed46fbda0a"
-    },
-    {
-      "path": "matched_evidence/llm_inputs/RP_explicit.json",
-      "sha256": "2c35f476b31ed44cf9075cafdfbe0df98f0fc47788103854c4a86aaee2d8f299"
-    },
-    {
-      "path": "matched_evidence/llm_inputs/no_retrieval.json",
-      "sha256": "71dd45ae55a42152a810daace8b66f74d91fe29e854469c2b95b70033af6a48b"
-    },
-    {
-      "path": "matched_evidence/llm_inputs/same_evidence_direct.json",
-      "sha256": "b42034ee712aada8468d3554a284a1210a9662bae592bd07b2b18315128ca83f"
-    },
-    {
-      "path": "matched_evidence/llm_principle_cards.json",
-      "sha256": "812ea472e6460f2db3c7b1b1c708aef0ef8615d22770a0dea853eca4629b5822"
-    },
-    {
-      "path": "matched_evidence/llm_results_status.json",
-      "sha256": "d4f16c4ed9836738bb3aa9ed26c808fa49b0a6b2f9305c1a65859054e0116421"
-    },
-    {
-      "path": "matched_evidence/llm_run_order.json",
-      "sha256": "4e56b390c9fd998e10708aa56533eeaf567302ecc9974b49fa51215444dea2c5"
-    },
-    {
-      "path": "matched_evidence/llm_tasks.json",
-      "sha256": "eff443fd3ee3c1187c39cadcacac6d7692575d4c9ebae6d405bb42272998edda"
-    },
-    {
-      "path": "matched_evidence/run_llm_diagnostic.py",
-      "sha256": "602cf8800427578a78ed2a959f6f91f0f90c8292af8a07312f3c55d8b1aefe1e"
-    },
-    {
-      "path": "matched_evidence/score_llm_diagnostic.py",
-      "sha256": "d0e34583377c0eb2bd39bfc6ffe94508f2b85140098f2856abe90c63af44b0e2"
-    },
-    {
-      "path": "matched_evidence/source_index.json",
-      "sha256": "35d827eb390894f9fcd41806d4482772bfa2529557871eb652be5cbace42a848"
     }
   ]
 }

@@ -4,23 +4,21 @@
 
 | Class | Deterministic requirement | Decision rule |
 |---|---|---|
-| Exact Molecular Match | Identical canonical isomeric structure | May proceed to feasibility review |
-| Reactive-form Analogue | Same neutral covalent parent; only protonation or counterion differs | Confirm activation and handling, then review |
-| Structural Analogue | Route-compatible reacting centre with a documented scaffold, substituent or donor-family relationship | Record the chemical rationale and require human approval; family-level links remain explicitly broad |
-| Additional Experimental Candidate | Intentionally included without a candidate replacement claim | Route to the exploratory-exception register with a reason and human approval |
-| Unmatched | No defensible route-compatible candidate relation | Record separately; do not force a link |
+| Exact identity | Identical canonical isomeric structure and a route-compatible reacting centre | Retain the exact candidate link |
+| Same scaffold, substituent or positional variation | Route-compatible reacting centre with the same core scaffold and a stated substituent or positional difference | Retain the difference and rationale; do not transfer response |
+| Same donor family, different scaffold | Route-compatible reacting centre and local donor type, but a different molecular scaffold | Retain the family-level rationale; do not treat the molecules as interchangeable |
+| No reasonable counterpart | No defensible route-compatible recommendation | Record an explicit reason and do not force a link |
 
-## Feasibility record
+## Selection context
 
-The deposited decision ledger requires:
+Researchers considered structural relationships, commercial accessibility and endpoint-specific NP/NR information together, without a universal numerical cutoff or weighted score. The deposited mapping is a correspondence and execution ledger, not a complete per-row procurement or approval log. Missing vendor, cost, lead-time or approval facts must not be inferred.
+
+The deposited ledger retains:
 
 - canonical donor and electrophile structures, reactive form and intended endpoint;
-- availability status, handling/safety review and chemical-compatibility review;
-- relation class, candidate IDs and chemical rationale;
+- relationship category, candidate IDs, reacting-atom indices and chemical rationale;
 - actual-input NP/NR assessment;
-- human-review status, selection decision and unresolved issues.
-
-For each run, also capture vendor or source, purity, amount, cost, lead time, reviewer identity and decision date when those records are available. These fields strengthen procurement reproducibility; unavailable procurement facts remain explicitly unrecorded.
+- identity status, unresolved issues and source-linked execution records.
 
 ## Execution record
 
@@ -28,8 +26,8 @@ After an experiment is run, retain the sample ID, condition ID, workbook, sheet,
 
 ## Stop conditions
 
-Do not release an ordinary experiment-ready record when the reagent identity is unresolved, the proposed route lacks a compatible reacting centre, the minimum feasibility review is absent or the analogue rationale has not received human chemical approval. A researcher may retain a deliberately approved exploratory addition or an already executed unmatched record only in the explicit exception register, with the unresolved issue and chemical reason preserved; such a record is not presented as an exact or route-compatible candidate replacement.
+Do not force a candidate link when the reagent identity is unresolved or the proposed route lacks a compatible reacting centre. Retain already executed unmatched records with their explicit reason and source occurrence, but do not present them as candidate-supported selections. A non-exact relationship is a documented comparison, not evidence of equivalent reactivity.
 
 ## Reusable validation bundle
 
-`scripts/run.py --candidates ... --mapping ... --hypotheses ...` accepts a new reviewed bundle. Candidate identifiers must be unique; each non-unmatched experiment must contain an X-H or anionic route site and resolve to at least one candidate with a canonical relation label, rationale and non-empty route-compatible hypothesis set; unmatched entries require an explicit reason; and every record must retain an admitted identity status, pair-specific NP/NR, the three minimum feasibility fields, human-review and release-gate status, execution status and source occurrences. RDKit verifies structures, exact molecular matches and neutral-parent equality for reactive-form analogues. The exporter records input paths and SHA-256 digests so a run can be tied to the exact review bundle.
+`scripts/run.py --candidates ... --mapping ... --hypotheses ...` accepts a new reviewed bundle. Candidate identifiers must be unique. Each matched experiment must retain a route-compatible reacting atom, at least one candidate link, a current relationship category, a rationale and a non-empty compatible-hypothesis set. Exact identities must be canonically identical. The three relationship-specific candidate-ID lists must reproduce the link records exactly; unmatched entries require an explicit reason and no forced link. Every record must retain an admitted identity status, pair-specific NP/NR, execution status, source occurrences and sample/condition closure. The exporter records input paths and SHA-256 digests so a run can be tied to the exact review bundle.

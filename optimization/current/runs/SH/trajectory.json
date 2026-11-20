@@ -1,8 +1,8 @@
 {
   "seed": 4006672,
   "config_id": "cat_r090_b196",
-  "campaign_mode": "prospective sequential laboratory campaign",
-  "seed_role": "preassigned initialization seed for the first and only run",
+  "campaign_mode": "recorded sequential campaign history",
+  "seed_role": "recorded initialization seed used throughout this history",
   "status": "STOPPED_BY_SHARED_CRITERION",
   "first_highest_response_round": 7,
   "stopping_round": 9,

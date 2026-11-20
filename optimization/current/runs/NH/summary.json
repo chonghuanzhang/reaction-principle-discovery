@@ -1,8 +1,8 @@
 {
-  "record_type": "prospective_campaign_summary",
+  "record_type": "recorded_sequential_campaign_summary",
   "system": "NH",
   "initialization_seed": 4105596,
-  "seed_role": "preassigned for the first and only campaign run",
+  "seed_role": "recorded initialization seed used throughout this history",
   "config": {
     "id": "eq_r095_b050",
     "weights": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0],

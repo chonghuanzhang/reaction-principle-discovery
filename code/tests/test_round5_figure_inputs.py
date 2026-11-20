@@ -1,5 +1,6 @@
 """Verify that Round 5 figure inputs are complete and repository-local."""
 
+import importlib.util
 import shutil
 import sys
 import tempfile
@@ -14,6 +15,24 @@ from round5_figure_inputs import load_round5_figure_inputs
 
 
 class Round5FigureInputTests(unittest.TestCase):
+    @unittest.skipUnless(
+        all(importlib.util.find_spec(module) for module in ("rdkit", "matplotlib", "PIL")),
+        "RDKit, Matplotlib and Pillow are required for figure rendering",
+    )
+    def test_saved_svg_has_no_trailing_whitespace(self):
+        from build_round5_candidate_figures import plt, save_figure
+
+        with tempfile.TemporaryDirectory() as directory:
+            stem = Path(directory) / "probe"
+            figure, axis = plt.subplots()
+            axis.plot([0, 1], [0, 1])
+
+            save_figure(figure, stem, dpi=20)
+            lines = stem.with_suffix(".svg").read_text(encoding="utf-8").splitlines()
+
+        self.assertTrue(lines)
+        self.assertFalse([line for line in lines if line.endswith((" ", "\t"))])
+
     def test_inputs_load_from_an_isolated_repository_copy(self):
         relative_paths = {
             "candidates": "candidates/data/candidates_100.json",
@@ -53,6 +72,23 @@ class Round5FigureInputTests(unittest.TestCase):
         self.assertEqual(
             [(row["positive"], row["tested_unique_donors"]) for row in package.comparison_summary["statistics"]],
             [(35, 94), (4, 20), (3, 20)],
+        )
+        self.assertEqual(
+            [
+                (tuple(row["membership"]), row["count"])
+                for row in package.comparison_summary["unique_structure_intersections"]
+            ],
+            [
+                ((True, False, False), 99),
+                ((False, True, False), 18),
+                ((False, False, True), 19),
+                ((True, True, False), 2),
+                ((True, False, True), 1),
+            ],
+        )
+        self.assertIn(
+            "All 102 unique donors",
+            package.comparison_summary["panel_scopes"]["panel_b"]["rp_scope"],
         )
 
 

@@ -16,8 +16,8 @@ except ImportError:  # Report a concise release-gate error from build_report.
 ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_GRAPH = ROOT / "knowledge_graph/data/network.json"
 DEFAULT_CANDIDATES = ROOT / "candidates/data/candidates_100.json"
-DEFAULT_HYPOTHESES = ROOT / "candidates/data/hypotheses_115.json"
-DEFAULT_PRODUCT_OPTIONS = ROOT / "candidates/product_options/product_options_124.json"
+DEFAULT_HYPOTHESES = ROOT / "candidates/data/hypotheses_103.json"
+DEFAULT_PRODUCT_OPTIONS = ROOT / "candidates/product_options/product_options_103.json"
 REQUIRED_EVIDENCE_RECORD_FIELDS = (
     "evidence_id",
     "source_id",
@@ -331,8 +331,8 @@ def build_report(
         require(
             "NP_label" in option
             and option["NP_label"] not in (None, "")
-            and "NR" in option
-            and option["NR"] not in (None, ""),
+            and "NR_label" in option
+            and option["NR_label"] not in (None, ""),
             f"product option {option_id} has no endpoint-specific NP/NR assessment",
         )
         parse_smiles(option.get("product_smiles"), f"product option {option_id}")
@@ -400,7 +400,7 @@ def build_report(
         rows.append(
             {
                 "candidate_id": candidate_id,
-                "name": candidate["name"],
+                "name": candidate["name_en"],
                 "canonical_smiles": candidate["canonical_smiles"],
                 "reactive_centres": candidate["centers"],
                 "precursor_form": candidate["precursor_form"],
@@ -441,10 +441,10 @@ def build_report(
             == {
                 "evidence_nodes": 17,
                 "reaction_principles": 4,
-                "candidate_families": 12,
+                "candidate_families": 43,
                 "recommended_nucleophiles": 100,
-                "site_pathway_hypotheses": 115,
-                "product_options": 124,
+                "site_pathway_hypotheses": 103,
+                "product_options": 103,
             },
             f"deposited-data counts changed: {counts}",
         )
