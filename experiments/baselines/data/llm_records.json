@@ -112,7 +112,9 @@
     "donor_cell": "D5",
     "endpoint_cell": "L5",
     "source_display_colour": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=9, tint=0.599993896298105, type='theme'",
-    "exact_rp_candidate_matches": [],
+    "exact_rp_candidate_matches": [
+      "C006"
+    ],
     "exact_rp_experimental_pair_matches": [
       "AP097"
     ]
@@ -346,7 +348,9 @@
     "donor_cell": "D13",
     "endpoint_cell": "L13",
     "source_display_colour": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=9, tint=0.599993896298105, type='theme'",
-    "exact_rp_candidate_matches": [],
+    "exact_rp_candidate_matches": [
+      "C002"
+    ],
     "exact_rp_experimental_pair_matches": [
       "AP039",
       "AP044"
@@ -581,9 +585,7 @@
     "donor_cell": "D21",
     "endpoint_cell": "L21",
     "source_display_colour": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=9, tint=0.599993896298105, type='theme'",
-    "exact_rp_candidate_matches": [
-      "C078"
-    ],
+    "exact_rp_candidate_matches": [],
     "exact_rp_experimental_pair_matches": []
   }
 ]

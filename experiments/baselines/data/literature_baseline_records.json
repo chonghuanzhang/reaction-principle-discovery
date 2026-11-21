@@ -15,7 +15,7 @@
     ]
   ],
   "exact_rp_actual_overlap_unique_count": 1,
-  "exact_rp_recommendation_overlap_unique_count": 3,
+  "exact_rp_recommendation_overlap_unique_count": 5,
   "records": [
     {
       "baseline": "Literature only",
@@ -101,9 +101,7 @@
       "duplicate_note": "",
       "exact_rp_actual_donor_ids": [],
       "exact_rp_actual_pair_ids": [],
-      "exact_rp_recommended_candidate_ids": [
-        "C060"
-      ]
+      "exact_rp_recommended_candidate_ids": []
     },
     {
       "baseline": "Literature only",
@@ -492,7 +490,7 @@
       "exact_rp_actual_donor_ids": [],
       "exact_rp_actual_pair_ids": [],
       "exact_rp_recommended_candidate_ids": [
-        "C089"
+        "C090"
       ]
     },
     {
@@ -581,7 +579,7 @@
       "exact_rp_actual_donor_ids": [],
       "exact_rp_actual_pair_ids": [],
       "exact_rp_recommended_candidate_ids": [
-        "C089"
+        "C090"
       ]
     },
     {
@@ -626,7 +624,7 @@
       "exact_rp_actual_donor_ids": [],
       "exact_rp_actual_pair_ids": [],
       "exact_rp_recommended_candidate_ids": [
-        "C090"
+        "C097"
       ]
     },
     {
@@ -799,7 +797,9 @@
       "duplicate_note": "",
       "exact_rp_actual_donor_ids": [],
       "exact_rp_actual_pair_ids": [],
-      "exact_rp_recommended_candidate_ids": []
+      "exact_rp_recommended_candidate_ids": [
+        "C057"
+      ]
     },
     {
       "baseline": "Literature only",
@@ -842,7 +842,9 @@
       "duplicate_note": "",
       "exact_rp_actual_donor_ids": [],
       "exact_rp_actual_pair_ids": [],
-      "exact_rp_recommended_candidate_ids": []
+      "exact_rp_recommended_candidate_ids": [
+        "C004"
+      ]
     },
     {
       "baseline": "Literature only",
@@ -889,7 +891,9 @@
       "exact_rp_actual_pair_ids": [
         "AP096"
       ],
-      "exact_rp_recommended_candidate_ids": []
+      "exact_rp_recommended_candidate_ids": [
+        "C007"
+      ]
     },
     {
       "baseline": "Literature only",
