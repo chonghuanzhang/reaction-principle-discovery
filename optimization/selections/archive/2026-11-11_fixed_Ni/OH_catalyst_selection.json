@@ -1,5 +1,5 @@
 {
-  "analysis": "O–H catalyst screen followed by fixed-catalyst condition selection",
+  "analysis": "Archived O–H catalyst-panel and condition-slice diagnostic",
   "catalyst_screen": "OH_PL34",
   "catalyst_screen_size": 145,
   "selection_rule": "largest recorded UV response in the complete catalyst screen",
@@ -19,5 +19,5 @@
   "seed": 8000,
   "seed_rationale": "retained reference seed; no outcome-based seed search",
   "response_units": "UV response; product/internal-standard peak area ratio",
-  "computation_scope": "selected-label numerical condition-selection analysis; not a dated laboratory execution log"
+  "computation_scope": "representative measured-slice diagnostic; the recorded full-space O-H campaign is deposited in optimization/current/runs/OH"
 }

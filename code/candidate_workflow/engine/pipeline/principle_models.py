@@ -193,7 +193,7 @@ class ReactionPrinciple(StrictModel):
     falsifying_experiment: str = Field(min_length=1)
     review_status: ReviewerStatus
     provenance: PrincipleProvenance
-    freeze_version: str | None
+    freeze_version: str | None = None
 
     @model_validator(mode="after")
     def require_seed_anchor(self) -> "ReactionPrinciple":

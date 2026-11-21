@@ -217,8 +217,7 @@
           "prompt_version": null,
           "seed_digest": null,
           "transfer_digest": null
-        },
-        "freeze_version": null
+        }
       },
       "reason": "Reaction Principle requires a transferable or conditional assessment",
       "disposition": "excluded; caution only, not a transferred principle"

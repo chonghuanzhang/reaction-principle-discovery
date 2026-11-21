@@ -12,7 +12,7 @@ The current molecular package is uniquely identified by 100 recommended nucleoph
 | What is the current recommendation package? | `candidate_workflow/artifacts/released/` and [`../candidates/`](../candidates/) |
 | How are recommendations related to experimental inputs? | `data/mapping/`, [`../candidates/reagent_selection.md`](../candidates/reagent_selection.md) and Table R1 |
 | How are proposed endpoints and NP/NR labels represented? | `data/novelty/reviewed/` and Table R2 |
-| How are the main figures reproduced? | `figures/`, [`../knowledge_graph/`](../knowledge_graph/) and [`../figures/`](../figures/) |
+| Where are the main figure assets and source data? | [`../knowledge_graph/`](../knowledge_graph/) and [`../figures/`](../figures/) |
 | How is condition optimization reproduced? | the separate [`../optimization/`](../optimization/) package |
 
 ## Offline checks

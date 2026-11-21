@@ -22,7 +22,7 @@ The current four RP cards organize the source evidence, candidate rationales and
 
 ## Measurements and computational selection
 
-N–H, O–H and S–H independently use the shared **13,920-condition decision space**, defined by 145 catalyst–ligand and loading formulations, eight solvents and twelve bases. Each deposited history begins with twelve uniformly sampled conditions and then records simultaneous four-condition UCB recommendations from a hierarchical GP, followed by four-response updates. The recorded initialization seeds are 4105596, 4002564 and 4006672 for N–H, O–H and S–H, respectively. Exact configurations, measured feedback and every stopping check are deposited in [the current package](../optimization/current/).
+N–H, O–H and S–H independently use the shared **13,920-condition decision space**, defined by 145 catalyst–ligand and loading formulations, eight solvents and twelve bases. Each deposited history begins with twelve conditions sampled uniformly without replacement from the complete space and then records simultaneous four-condition UCB recommendations from a hierarchical GP, followed by four-response updates. The twelve recorded round-0 indices, exact configurations, measured feedback and every stopping check are deposited in [the current package](../optimization/current/).
 
 The same empirical stopping rule is used in all systems: after at least 24 observations, cumulative-best improvement across the last two rounds must be no larger than 10% of the initial population standard deviation. The displayed paths first reach their highest measured responses at rounds 10/9/7 and stop at rounds 12/11/9 for N–H/O–H/S–H, giving 60/56/48 unique selected conditions.
 

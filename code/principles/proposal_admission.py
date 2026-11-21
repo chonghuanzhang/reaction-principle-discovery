@@ -34,7 +34,10 @@ def recover_current_proposals(seed, assessments, config):
     from pipeline.model_proposals import select_principle_evidence, _digest, _strict_schema, PrincipleProposalPayload, PrincipleProposalResult
     selection = select_principle_evidence(seed, assessments, max_assessments=config['max_assessments'], max_per_paper=config['max_per_paper'], exploration_brief=None)
     selected = {key: assessments[key] for key in selection.assessment_ids}
-    key = _digest({'seed': seed.model_dump(mode='json'), 'assessments': {k: v.model_dump(mode='json') for k, v in selected.items()}, 'selection': selection.model_dump(mode='json'), 'config': config, 'schema': _strict_schema(PrincipleProposalPayload)})
+    schema = _strict_schema(PrincipleProposalPayload)
+    # The archived receipt predates exposing the nullable field default in JSON Schema.
+    schema['$defs']['ReactionPrinciple']['properties']['freeze_version'].pop('default', None)
+    key = _digest({'seed': seed.model_dump(mode='json'), 'assessments': {k: v.model_dump(mode='json') for k, v in selected.items()}, 'selection': selection.model_dump(mode='json'), 'config': config, 'schema': schema})
     path = DEST/'principles/cache'/key/'raw.json'
     if not path.exists():
         return None

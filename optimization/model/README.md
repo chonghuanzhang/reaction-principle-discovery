@@ -1,3 +1,3 @@
-# Earlier model dependencies
+# Archived panel-and-grid diagnostic code
 
-These model files are retained for the original measured-grid analyses and source-data checks. The current hierarchical GP, UCB acquisition and shared stopping protocol are in [current](../current/) and [METHODS.md](../METHODS.md).
+These files retain earlier source-panel and measured-slice diagnostic calculations. They do not define the manuscript candidate universe. The recorded 13,920-condition campaign histories, hierarchical GP, UCB acquisition and shared stopping protocol are in [current](../current/) and [METHODS.md](../METHODS.md).

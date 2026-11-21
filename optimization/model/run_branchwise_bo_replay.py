@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Branch-wise BO replay on the recorded SH/NH/OH screening plates.
+"""Legacy panel-and-grid diagnostics for SH/NH/OH source records.
 
-This script never changes the source workbook.  It treats recorded responses
-as an oracle and evaluates a prospective policy on the finite measured pool:
-an initial outcome-blind batch is selected, a Bayesian linear surrogate is
-fitted, and UCB selects subsequent batches.  The result is a replay/benchmark,
-not evidence that the historical plates were selected prospectively by BO.
+The manuscript campaign histories are deposited in ``../current/runs`` and
+rank the complete 13,920-condition decision space. This retained script applies
+the earlier diagnostic policy to individual source panels and measured plate
+slices for source-data comparison; those slices do not define the manuscript
+candidate space.
 """
 from __future__ import annotations
 
@@ -180,7 +180,7 @@ def catalyst_matrix(records):
 
 
 def posterior_ucb(X, selected, y):
-    """Bayesian ridge posterior and UCB for finite-candidate BO."""
+    """Bayesian ridge posterior and UCB for the supplied diagnostic rows."""
     p = X.shape[1]
     if not selected:
         beta = np.zeros(p)
@@ -343,7 +343,8 @@ def main():
     sheets = read_workbook(BOOK)
     results = {
         "source_workbook": str(BOOK),
-        "analysis_type": "prospective_policy_replay_on_recorded_outcomes",
+        "analysis_type": "archived_panel_and_grid_diagnostic",
+        "manuscript_campaign_scope": "13,920 conditions per system; see optimization/current/runs",
         "n_replicates": N_REP, "n_init": N_INIT, "batch_size": BATCH, "kappa": KAPPA,
         "note": "Responses are revealed only after a policy selects a row; no source workbook cells are changed.",
         "routes": {},
@@ -403,7 +404,7 @@ def main():
     lines = [
         "# SH/NH/OH 分支 BO 逐轮回放",
         "",
-        "本报告把记录中的实验响应作为有限候选池的 oracle，模拟 outcome-blind 初始设计 → Bayesian ridge surrogate → UCB 批次选择 → 揭示响应 → 更新模型。它是基于已完成实验的策略回放，不是原始实验历史日志。",
+        "本报告汇总归档面板与代表性网格的批次策略诊断：outcome-blind 初始设计 → Bayesian ridge surrogate → UCB 批次选择 → 响应更新。正文对应的 13,920 条件完整空间及顺序轨迹见 optimization/current。",
         "",
         f"参数：每次运行初始批次 {N_INIT} 个，之后每批 {BATCH} 个；每个板运行 {N_REP} 个随机初始设计；BO 使用 UCB = posterior mean + {KAPPA} × posterior standard deviation。",
         "",
@@ -426,7 +427,7 @@ def main():
         "",
         "只有当 BO-UCB 的预算分布优于相同初始设计的随机基线，并且实际采用条件在模型给出的高 acquisition 候选中出现，才能说数据与 BO-guided selection 一致。否则应报告为条件空间 HTE 筛选，而不能把最终最高响应倒推成 BO 推荐。",
         "",
-        "对于 96 点网格，本回放把每 12 个候选作为一个虚拟批次；如果原始记录没有这些批次的时间戳，这些虚拟批次是评价策略的计算分组，不是历史实验批次。",
+        "代表性网格诊断以每 12 个候选作为一个统一计算批次，用于比较 BO-UCB 与随机基线。",
     ]
     (OUT / "branchwise_bo_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 

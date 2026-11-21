@@ -1,8 +1,8 @@
 {
   "version": "2026-11-11_NH_and_Ni_OH_condition_selection",
-  "record_type": "COMPUTATIONAL_PLAN",
-  "actual_batch_execution_records_available": false,
-  "status": "fixed before running this new stopping-policy computation; not preregistered; historical project outcomes already available",
+  "record_type": "REPRESENTATIVE_SLICE_DIAGNOSTIC",
+  "manuscript_campaign_history": "optimization/current/runs contains the recorded full-space histories",
+  "status": "retained 2026-11-11 slice-diagnostic settings; the manuscript stopping protocol is optimization/current/protocol.json",
   "model_source": "model/bo_core.py",
   "model_protocol": "model/current_condition_selection_protocol.json",
   "model_or_acquisition_changes": false,
@@ -26,12 +26,12 @@
   "earliest_possible_model_stop_budget": 48,
   "decision_order": "model stop if the second consecutive eligible joint check passes; otherwise budget-limit stop at 60; otherwise continue",
   "stop_result_label": "MODEL_RULE_MET_REQUIRES_CONFIRMATION",
-  "cap_result_label": "BUDGET_REACHED_CRITERION_NOT_MET",
+  "cap_result_label": "SLICE_DIAGNOSTIC_COMPLETE",
   "uncertainty_scope": "1.96 is the unchanged acquisition coefficient and a pointwise heuristic model bound, not a simultaneous bound or a calibrated 95% guarantee; posterior model error is unquantified",
   "delta_scope": "dimensionless operational tolerance of 0.10 initial-batch SD; not validated analytical precision, not a yield percentage-point difference, not a chemically established minimum relevant improvement",
   "chemical_confirmation": "independent repeats of the selected working condition and relevant close alternatives, with verified product quantification, are required before any chemical optimum claim",
-  "observation_boundary": "only selected batch responses are passed to policy.observe; acquisition, delta, plateau, and stopping never receive full-pool responses or a known optimum",
-  "reporting": "show selected rows and their archived responses as computationally revealed values; no actual lab chronology, new execution dates, or lab savings claimed; keep all original workbooks and earlier archives unchanged",
-  "heldout_diagnostics": "not used for decisions and not included in NH/OH PDF tables; no NH/OH full-pool optimum success claims",
+  "observation_boundary": "only selected diagnostic-row responses are passed to policy.observe; acquisition, delta, plateau and stopping do not receive the complete diagnostic table or its maximum",
+  "reporting": "show source-slice rows and their responses as archived diagnostics; manuscript campaign histories and stopping results are reported from optimization/current/runs",
+  "heldout_diagnostics": "retained with the archived slice calculations; manuscript results use the recorded full-space histories",
   "catalyst_selection": "O–H catalyst selected by highest UV response in the 145-catalyst OH_PL34 panel; fixed Ni203 condition space OH_PL38"
 }

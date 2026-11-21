@@ -1,6 +1,7 @@
 {
-  "version": "2026-11-11_current_condition_selection",
-  "analysis_type": "Bayesian condition selection",
+  "version": "2026-11-11_representative_slice_diagnostic",
+  "analysis_type": "Archived representative-slice diagnostic",
+  "manuscript_campaign_scope": "Recorded N-H, O-H and S-H histories in optimization/current/runs rank the complete 13,920-condition decision space per system.",
   "systems": {
     "NH_PL36": {
       "catalyst": "Ag2SO4/PPh3",
@@ -17,6 +18,7 @@
     }
   },
   "candidate_space": {
+    "role": "representative source slices retained for diagnostics",
     "conditions_per_system": 96,
     "NH_PL36": {
       "bases_or_additives": 12,
@@ -34,10 +36,10 @@
       "random_additional_formulations": 10
     }
   },
-  "initial_design": "uniform random sample of 12 candidate indices without replacement; existing reference seeds retained without an outcome-based seed search",
+  "initial_design": "archived diagnostic draw of 12 source-slice rows without replacement; manuscript initial batches are recorded in optimization/current/runs",
   "model": "model/bo_core.py; standardized 116-dimensional categorical feature kernel (12 formulation identities, 8 solvent identities, and 96 formulation–solvent interactions); normal–inverse-gamma Bayesian linear regression. N–H formulations have a fixed Ag2SO4/PPh3 catalyst/ligand background, so their formulation identities correspond one-to-one to the original base/additive categories; O–H formulations include the specified Cu/Ni catalyst–base pair.",
-  "acquisition": "latent posterior mean + 1.96 * latent posterior SD; frozen posterior for each batch of 12",
-  "model_input_boundary": "Only previously selected experimental response labels enter the BO policy or stop monitor. The candidate library includes two author-requested known reference formulations; the remaining ten identities are sampled without inspecting their responses. Candidate-library construction is reference-informed, not a response-blind discovery benchmark.",
+  "acquisition": "representative-slice diagnostic: latent posterior mean + 1.96 * latent posterior SD; posterior updated between batches and held constant while selecting each batch of 12",
+  "model_input_boundary": "Only previously selected experimental response labels enter the BO policy or stop monitor. The candidate library includes two author-requested known reference formulations; the remaining ten identities are sampled without inspecting their responses.",
   "analysis_budget": {
     "maximum_batches": 5,
     "batch_size": 12,
@@ -46,7 +48,7 @@
   },
   "stopping_protocol": "selections/stopping_protocol.json",
   "historical_benchmark_protocol": "model/analysis_protocol.json",
-  "data_provenance": "Original workbook bytes and the complete historical measurement/benchmark exports are retained unchanged; numerical selections do not establish dated laboratory chronology.",
+  "data_provenance": "Original workbook bytes and the complete archived diagnostic exports are retained unchanged; manuscript campaign histories are deposited in optimization/current/runs.",
   "response_labels": "UV response",
   "label_correction_provenance": "selections/response_source_audit.json"
 }

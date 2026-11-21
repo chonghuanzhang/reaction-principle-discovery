@@ -64,7 +64,7 @@ def posterior(K, selected, y):
 
 
 def run_campaign(K, y, seed, strategy, n_init=12, batch_size=12):
-    """Run a finite-pool batch policy while revealing labels only after selection."""
+    """Run a batch policy over supplied diagnostic rows with delayed labels."""
     K = np.asarray(K, dtype=float)
     y = np.asarray(y, dtype=float)
     n = len(y)

@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Label-blind, NumPy-only posterior and full-space UCB recommendations.
+"""Label-blind, NumPy-only initialization, posterior and UCB recommendations.
 
-No function loads experimental data, target labels or availability. The initial
-batch accepts recorded indices only; later batches rank all remaining 13,920.
+No function loads experimental data, target labels or availability. New initial
+batches sample the complete 13,920-condition space; later batches rank every
+remaining condition. Historical verification reads its round-0 indices from the
+deposited campaign records.
 """
 from __future__ import annotations
 
@@ -43,11 +45,9 @@ def _parameters(config):
     return weights, rho, beta
 
 
-def initialize(measured_indices, rng):
-    """Select 12 unique recorded indices uniformly without reading responses."""
-    indices = np.array(sorted(set(map(int, measured_indices))), dtype=int)
-    assert len(indices) >= N_INIT and np.all((indices >= 0) & (indices < N))
-    return _rng(rng).choice(indices, size=N_INIT, replace=False).tolist()
+def initialize(rng):
+    """Select 12 unique conditions uniformly from the full decision space."""
+    return _rng(rng).choice(N, size=N_INIT, replace=False).tolist()
 
 
 def kernel(left_codes, right_codes, config):
@@ -73,7 +73,7 @@ def posterior(observed, config, compressed=True):
     """Full 13,920-condition latent posterior from currently selected responses only.
 
     Response centering/population-SD normalization, unit observation noise and
-    the conjugate posterior match the preceding frozen engine. Compression
+    the conjugate posterior match the recorded engine. Compression
     groups unseen catalyst classes by exact equality-kernel equivalence and
     expands the result before any acquisition ranking.
     """

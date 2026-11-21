@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Compute explicitly labelled plans; keep full responses outside the policy.
+"""Representative-slice diagnostic and stopping-rule helpers.
 
-Campaign and stopping-rule functions used by scripts/reproduce_analysis.py.
-The frozen 2026-10-16 policy and posterior are imported without modification.
+These retained 2026-10-16 calculations operate on individual source panels or
+plate slices. The manuscript campaigns and their 13,920-condition decision
+spaces are recorded in ``optimization/current``.
 """
 from __future__ import annotations
 
@@ -22,7 +23,7 @@ ROOT = HERE.parent
 ARCHIVE = ROOT / 'benchmark'
 DATA = ARCHIVE / 'data'
 PROTOCOL = json.loads((HERE / 'stopping_protocol.json').read_text())
-spec = importlib.util.spec_from_file_location('frozen_archive', ARCHIVE / 'replay.py')
+spec = importlib.util.spec_from_file_location('recorded_archive', ARCHIVE / 'replay.py')
 archive = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(archive)
 
@@ -127,14 +128,14 @@ def campaign(pool, oracle):
         batch_records = []
         for order, i in enumerate(picks):
             row = {
-                'record_type': 'COMPUTATIONAL_PLAN', 'pool_id': pool, 'seed': seed,
+                'record_type': 'REPRESENTATIVE_SLICE_DIAGNOSTIC', 'pool_id': pool, 'seed': seed,
                 'batch_number': policy.round, 'within_batch_order': order + 1,
                 'budget_before': before, 'budget_end': len(policy.observed),
                 'candidate_index': i, 'sample_id': candidates[i]['well'],
                 'catalyst_code': candidates[i]['cat'], 'ligand': candidates[i]['ligand'],
                 'base': candidates[i]['base'], 'solvent': candidates[i]['solvent'],
                 'archived_response_revealed_after_computational_selection': revealed[i],
-                'selection_method': 'uniform_random_initial' if policy.round == 1 else 'frozen_posterior_top_12_ucb',
+                'selection_method': 'uniform_random_initial' if policy.round == 1 else 'batch_posterior_top_12_ucb',
                 'posterior_mean_before_selection': score['mean'][order] if score['mean'] else None,
                 'posterior_latent_sd_before_selection': score['std'][order] if score['std'] else None,
                 'acquisition_score_before_selection': score['acquisition'][order] if score['acquisition'] else None,
@@ -143,7 +144,7 @@ def campaign(pool, oracle):
                 'source_excel_row': int(candidates[i]['source_excel_row']),
                 'source_response_cell': candidates[i]['source_response_cell'],
                 'actual_lab_batch_date': '',
-                'execution_status': 'NOT_AN_ACTUAL_BATCH_EXECUTION_RECORD',
+                'execution_status': 'ARCHIVED_SLICE_DIAGNOSTIC',
             }
             if pool == 'OH_CuNi_96':
                 row.update(formulation_code=candidates[i]['formulation_code'],
@@ -152,16 +153,16 @@ def campaign(pool, oracle):
                     source_candidate_index=int(candidates[i]['source_candidate_index']))
             batch_records.append(row)
             selected_rows.append(row)
-        check = {'record_type': 'COMPUTATIONAL_PLAN', 'pool_id': pool, 'seed': seed, **check}
+        check = {'record_type': 'REPRESENTATIVE_SLICE_DIAGNOSTIC', 'pool_id': pool, 'seed': seed, **check}
         checks.append(check)
-        batches.append({'record_type': 'COMPUTATIONAL_PLAN', 'pool_id': pool,
+        batches.append({'record_type': 'REPRESENTATIVE_SLICE_DIAGNOSTIC', 'pool_id': pool,
                         'batch_number': policy.round, 'selected_records': batch_records,
                         'post_batch_stop_check': check})
         if check['decision'] != 'CONTINUE':
             break
     best_i = min(policy.observed, key=lambda i: (-policy.observed[i], i))
     summary = {
-        'record_type': 'COMPUTATIONAL_PLAN', 'pool_id': pool, 'seed': seed,
+        'record_type': 'REPRESENTATIVE_SLICE_DIAGNOSTIC', 'pool_id': pool, 'seed': seed,
         'pool_size': policy.n, 'selected_count': len(policy.observed),
         'unselected_count': policy.n - len(policy.observed), 'number_of_batches': policy.round,
         'best_selected_sample_id': candidates[best_i]['well'],
@@ -169,7 +170,6 @@ def campaign(pool, oracle):
         'best_selected_conditions': {k: candidates[best_i][k] for k in ['cat', 'ligand', 'base', 'solvent']},
         'initial_batch_sd': monitor.initial_scale, 'delta_response_units': monitor.delta,
         'final_stop_check': checks[-1],
-        'conclusion': '当前已选条件中的工作候选；预算上限不等于证明已找到全局最优' if not checks[-1]['model_stop_criterion_met'] else '模型操作停止规则满足；化学结论仍需独立确认',
     }
     return {'summary': summary, 'batches': batches, 'selected_rows': selected_rows, 'checks': checks}
 
@@ -199,16 +199,16 @@ def benchmark_sh():
         assert len(first['BO-UCB']) == 12 and first['BO-UCB'] == first['random']
     result = {'pool_id': 'SH_PL40', 'pool_size': 96, 'paired_runs': 100,
               'actual_seeds': '5000–5099', 'identical_initial_batch_verified_all_100': True,
-              'batch_size': 12, 'target': 'maximum archived SH response in the complete 96-condition measured pool',
+              'batch_size': 12, 'target': 'maximum recorded SH response within the representative SH_PL40 plate slice',
               'bo_median_exact_hit_budget': float(np.median(bo)),
               'random_median_exact_hit_budget': float(np.median(rnd)),
               'bo_mean_exact_hit_budget': float(bo.mean()),
               'random_mean_exact_hit_budget': float(rnd.mean()),
               'paired_mean_saving': float(dif.mean()), 'paired_mean_saving_95ci': ci.tolist(),
               'bo_hit_count_at_48': int(sum(bo <= 48)), 'random_hit_count_at_48': int(sum(rnd <= 48)),
-              'interpretation': 'algorithmic seed variation conditional on fixed measured responses; retrospective benchmark, not lab execution savings',
+              'interpretation': 'paired algorithmic seed variation for the archived SH_PL40 slice; manuscript campaigns rank all 13,920 conditions',
               'verification_scope': 'recomputed aggregates and all shared initial batches from archived selections; independent 2026-10-22 audit had already rerun all 1600 campaigns',
-              'benchmark_stopping': 'full-pool archival replay; exact hit is an evaluator endpoint, never an unknown-ground-truth stop rule'}
+              'benchmark_stopping': 'complete-slice diagnostic; exact hit is an evaluator endpoint; manuscript stopping is defined in current/protocol.json'}
     csv_write(HERE / 'SH_PL40_100_paired_budgets.csv', pairs)
     dump(HERE / 'SH_PL40_benchmark.json', result)
     return result

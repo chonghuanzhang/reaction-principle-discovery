@@ -26,7 +26,7 @@ Read [the selection policy](references/selection-policy.md) before approving str
 4. Review availability, safety/handling and experimental compatibility. Record any available purity, cost and lead-time information, but do not infer missing procurement facts.
 5. Reassess NP/NR for the actual reagent–electrophile–endpoint combination rather than inheriting a candidate label.
 6. Require human chemical approval for analogue substitutions, identity conflicts and route mismatches.
-7. Emit the experiment-ready reagent list and a separate exploratory-exception register, then preserve sample, workbook, sheet, row and condition identifiers after execution.
+7. Emit the reviewed reagent and experiment-mapping records, then preserve sample, workbook, sheet, row and condition identifiers after execution.
 
 ## Outputs
 
@@ -43,7 +43,7 @@ python3 skills/recommended-nucleophiles-to-experimental-reagents/scripts/run.py 
   --output /tmp/experimental_reagent_ledger.json
 ```
 
-To validate a new reviewed translation bundle, pass its candidate registry and candidate-to-experiment decision ledger explicitly:
+To validate a new reviewed translation bundle, pass its candidate registry and candidate-to-experiment mapping records explicitly:
 
 ```bash
 python3 skills/recommended-nucleophiles-to-experimental-reagents/scripts/run.py \
@@ -53,6 +53,6 @@ python3 skills/recommended-nucleophiles-to-experimental-reagents/scripts/run.py 
   --output /tmp/new_experimental_reagent_ledger.json
 ```
 
-The skill workflow performs identity, feasibility, novelty and human chemical review. The bundled command validates and exports the deposited correspondence and execution ledger: it checks route sites and reacting-atom indices, route-compatible hypotheses, exact-identity structures, relationship-category partitions, identity flags, NP/NR presence and source-occurrence closure, then records input hashes. It does not reconstruct undocumented selection decisions, infer missing procurement facts or infer reaction outcomes.
+The skill workflow performs identity, feasibility, novelty and human chemical review. The bundled command validates and exports the deposited correspondence and execution ledger: it checks route sites and reacting-atom indices, route-compatible hypotheses, exact-identity structures, relationship-category partitions, NP/NR presence and source-occurrence closure, then records input hashes.
 
 An analogue relationship is a proposal for chemical review, not proof that two molecules are interchangeable.

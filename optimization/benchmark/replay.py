@@ -94,7 +94,7 @@ class ObservablePolicy:
             order = sorted(remaining, key=lambda i: (-float(acquisition[i]), i))
             selection_rank = {i: k + 1 for k, i in enumerate(order)}
             pick = order[:min(self.batch_size, len(remaining))]
-            mode = 'frozen_posterior_top_ucb'
+            mode = 'batch_posterior_top_ucb'
         self.round += 1
         self.pending = list(pick)
         self.score = {

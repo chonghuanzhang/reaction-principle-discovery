@@ -13,7 +13,7 @@ Start with the scientific question in the article, use the SI for detailed metho
 | Molecular recommendations; SI S5.3–S5.4 | [Candidate catalog](../candidates/) and [structure atlas C1–C9](../candidates/structure_atlas.md) | 100 input structures, reactive sites, pathway hypotheses, citations and assessments |
 | Candidate-to-reagent selection; main Fig. 4d and SI S5.5–S5.6 | [Selection guide and Figure 4d](../candidates/reagent_selection.md) | How structural relationships, commercial accessibility and separate NP/NR classifications informed researcher judgment |
 | Novelty; Supplementary Fig. 5 and SI S5.6 | [Assessment guide and Figure N1](../candidates/novelty_assessment.md) | Search scope, NP/NR definitions, unresolved cases and complete distributions |
-| Candidate–experiment association; SI S5.5 | [Table R1](../candidates/experiment_mapping/) | All 108 recorded electrophile–donor pairs and their structural relationships to recommendations; these associations do not independently document individual substitution decisions |
+| Candidate–experiment association; SI S5.5 | [Table R1](../candidates/experiment_mapping/) | All 108 recorded electrophile–donor pairs, their structural relationships to recommendations, source links and execution records |
 | Proposed product connectivity; SI S5.6 | [Table R2](../candidates/product_options/) | 103 product-option records, registry comparisons and NP/NR assessments |
 | Product and experiment counts; main Table 1, Fig. 6 and SI S7.5 | [Counting-unit guide](product_scope.md) | Why 40 displayed products, 35 positive donors, 102 experimental donors, 108 ordered pairs and 15 selected characterization entries are different totals |
 | Shared decision space; SI S6.2 | [Condition library](../experiments/condition_library/) and [complete tables](../optimization/current/data/) | 145 catalyst–ligand/loading formulations, eight solvents and twelve bases |
@@ -22,7 +22,7 @@ Start with the scientific question in the article, use the SI for detailed metho
 | Model operations; SI S4 | [Model workflow](../code/docs/model_workflow.md) | Four reviewed RP cards, recommendation and translation stages, validation rules and current output package |
 | Condition-selection methods; SI S6 | [Optimization methods](../optimization/METHODS.md) | Model equations, seeds, UCB acquisition, common stopping rule and response interpretation |
 | Response and uncertainty diagnostics; main Fig. 5, Supplementary Figs. 7–9 and SI S8.3 | [Figures BO1–BO3](../optimization/FIGURE_GUIDE.md) | Complete legends, condition keys, measured responses, posterior uncertainty and stopping checks |
-| Method evaluation; SI S8.1 | [Evaluation protocol](../code/docs/evaluation.md) | Frozen comparison design, source-case development tests and execution status |
+| Method evaluation; SI S8.1 | [Evaluation protocol](../code/docs/evaluation.md) | Molecular, identifier, evidence-provenance and experimental-correspondence checks |
 | Computational reproduction | [Code](../code/) and [optimization](../optimization/) | Original inputs, algorithms, environments and reproduction commands |
 
 ## Following the identifiers
@@ -45,9 +45,9 @@ Square-bracket reference numbers in the SI point to the [online bibliography](..
 | Supplementary Figure 6 | Well-position index | Plate-index schematic in the SI; [condition-library identities](../experiments/condition_library/) are provided here |
 | Supplementary Figure 7 | Selected responses and cumulative-best trajectories | [BO1 artwork and legend](../optimization/FIGURE_GUIDE.md#bo1) |
 | Supplementary Figure 8 | Common stopping calculation by completed round | [BO2 artwork and legend](../optimization/FIGURE_GUIDE.md#bo2) |
-| Supplementary Figure 9 | Latent posterior uncertainty on fixed candidate sets | [BO3 artwork and legend](../optimization/FIGURE_GUIDE.md#bo3) |
+| Supplementary Figure 9 | Latent posterior uncertainty for the same experimentally evaluated condition sets across rounds | [BO3 artwork and legend](../optimization/FIGURE_GUIDE.md#bo3) |
 
-The [knowledge-graph guide](../knowledge_graph/#principle-focus-views) explains the evidence and conditional relationships shown in Supplementary Figures 1–4 and provides the complete G1–G9 artwork.
+The [knowledge-graph guide](../knowledge_graph/#data-and-views) explains the evidence and conditional relationships shown in Supplementary Figures 1–4 and provides the complete G1–G9 artwork.
 
 ## Reading chemical evidence and scores
 

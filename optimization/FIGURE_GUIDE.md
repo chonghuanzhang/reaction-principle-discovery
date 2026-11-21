@@ -23,7 +23,7 @@ The N–H surface fixes Ag₂SO₄/PPh₃ and has a grid-local maximum of 1.0378
 
 [PNG](current/figures/Supplementary_Figure_7.png) · [PDF](current/figures/Supplementary_Figure_7.pdf)
 
-Supplementary Fig. 7 | Measured responses along the recorded Bayesian optimization campaign histories. a–c, N–H, O–H and S–H, respectively. Each vertical line is one initial or recommended condition and its recorded UV response; horizontal offsets within a round separate distinct conditions. Round 0 contains the 12 initial conditions, and each subsequent round contains four conditions. Steps show cumulative best response, stars mark the first highest measured response and open squares mark the first stopping round. The histories contain 60, 56 and 48 unique conditions, respectively. Response magnitudes are interpreted within each substrate–product pair. The recorded initialization seeds are stated in the protocol.
+Supplementary Fig. 7 | Measured responses along the recorded Bayesian optimization campaign histories. a–c, N–H, O–H and S–H, respectively. Each vertical line is one initial or recommended condition and its recorded UV response; horizontal offsets within a round separate distinct conditions. Round 0 contains the 12 recorded initial conditions, and each subsequent round contains four conditions. Steps show cumulative best response, stars mark the first highest measured response and open squares mark the first stopping round. The histories contain 60, 56 and 48 unique conditions, respectively. Response magnitudes are interpreted within each substrate–product pair. The round-0 indices are retained in the deposited trajectories.
 
 <a id="bo2"></a>
 
@@ -39,10 +39,10 @@ Supplementary Fig. 8 | Common empirical stopping rule in the three reaction syst
 
 [PNG](current/figures/Supplementary_Figure_9.png) · [PDF](current/figures/Supplementary_Figure_9.pdf)
 
-Supplementary Fig. 9 | Latent posterior uncertainty during sequential recommendation. a–c, N–H, O–H and S–H, respectively. Coloured lines show mean latent posterior standard deviation over the fixed final set of selected condition identities (60, 56 and 48, respectively); grey dashed lines show the mean over the same full 13,920-condition decision space at every round. Vertical lines identify the round that first reaches the highest measured response. Each posterior uses only the responses available by that round. The response normalization and conjugate variance-scale update are recomputed with those observations, so uncertainty in raw response units need not decrease monotonically. These averages describe fixed candidate sets and exclude future-observation noise.
+Supplementary Fig. 9 | Latent posterior uncertainty during sequential recommendation. a–c, N–H, O–H and S–H, respectively. Coloured lines show mean latent posterior standard deviation over the same experimentally evaluated condition identities at every round (60, 56 and 48, respectively); grey dashed lines show the mean over the full 13,920-condition decision space at every round. Vertical lines identify the round that first reaches the highest measured response. Each posterior uses only the responses available by that round. The response normalization and conjugate variance-scale update are recomputed with those observations, so uncertainty in raw response units need not decrease monotonically. These averages describe the same candidate sets at each round and exclude future-observation noise.
 
-## Reconstruction
+## Source data and verification
 
-Run `python optimization/current/verify_recorded_campaign.py --output optimization/current/verification` first. Then `python optimization/current/build_supplementary.py` rebuilds Supplementary Figures 7–9 from the recorded campaigns and verified posterior arrays. `python optimization/current/figure5/build_figure5.py` rebuilds Figure 5. Matplotlib, NumPy and Pillow versions are specified in `optimization/requirements.txt`; rendering may vary slightly with the installed font.
+Run `python optimization/current/verify_recorded_campaign.py --output /tmp/three-system-bo` to verify the recorded campaigns, full-space recommendation rankings and posterior arrays. The finished figures and their numerical source tables are retained under `current/figure5/` and `current/`.
 
-The [methods](METHODS.md), [current protocol](current/protocol.json) and [source tables](current/source_data/) identify the numerical meaning of each panel. Older artwork under `figures/figures/` remains an archival export of the preceding 96-condition analysis.
+The [methods](METHODS.md), [current protocol](current/protocol.json) and [source tables](current/source_data/) identify the numerical meaning of each panel.

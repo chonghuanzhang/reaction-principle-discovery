@@ -77,8 +77,7 @@
         "prompt_version": null,
         "seed_digest": null,
         "transfer_digest": null
-      },
-      "freeze_version": null
+      }
     },
     {
       "principle_id": "RP-SR001-SS-02",
@@ -164,8 +163,7 @@
         "prompt_version": null,
         "seed_digest": null,
         "transfer_digest": null
-      },
-      "freeze_version": null
+      }
     },
     {
       "principle_id": "RP-SR001-SS-03",
@@ -255,8 +253,7 @@
         "prompt_version": null,
         "seed_digest": null,
         "transfer_digest": null
-      },
-      "freeze_version": null
+      }
     },
     {
       "principle_id": "RP-SR001-TS-01",
@@ -342,8 +339,7 @@
         "prompt_version": null,
         "seed_digest": null,
         "transfer_digest": null
-      },
-      "freeze_version": null
+      }
     },
     {
       "principle_id": "RP-SR001-TS-02",
@@ -435,8 +431,7 @@
         "prompt_version": null,
         "seed_digest": null,
         "transfer_digest": null
-      },
-      "freeze_version": null
+      }
     }
   ],
   "rejected": [],

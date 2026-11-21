@@ -1,14 +1,12 @@
 {
   "record_type": "recorded_sequential_campaign_summary",
   "system": "NH",
-  "initialization_seed": 4105596,
-  "seed_role": "recorded initialization seed used throughout this history",
   "config": {
     "id": "eq_r095_b050",
     "weights": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
     "rho": 0.95,
     "beta": 0.5,
-    "initialization": "uniform",
+    "initialization": "recorded_full_space_batch",
     "acquisition": "UCB"
   },
   "initial_conditions": 12,

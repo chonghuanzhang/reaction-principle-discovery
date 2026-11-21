@@ -50,10 +50,6 @@
     "sample_ids": [
       "CFC124009-19-1-PL1-LC6-W1027"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -90,12 +86,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL2-LC1-W756"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [
-      "所录结构缺少所标分支要求的X–H；执行确认不使此目标假设变为适用，也不等于反应失败。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "not applicable",
     "NR_label": "not applicable",
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -185,10 +175,6 @@
     "sample_ids": [
       "CFC124009-19-1-PL1-LC6-W49"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 3,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -286,10 +272,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W16"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -353,10 +335,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W9"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -454,10 +432,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W17"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -555,10 +529,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W38"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -622,10 +592,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W24"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 3,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -689,10 +655,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W31"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -773,10 +735,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W35"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 1,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -840,10 +798,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W36"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -941,10 +895,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W14"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1008,10 +958,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W25"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 3,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1075,10 +1021,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W33"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 1,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1176,10 +1118,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W34"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 1,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1243,10 +1181,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W18"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1310,10 +1244,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W10"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1377,10 +1307,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W28"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1444,10 +1370,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W19"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1511,10 +1433,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W8"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1612,10 +1530,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W29"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1671,12 +1585,6 @@
     "sample_ids": [
       "放大量"
     ],
-    "input_identity_status": "unresolved_name_smiles_conflict",
-    "input_identity_issues": [
-      "汇总NH-底物扩展Q40/Q41为YL-4-OMe，但R40/R41为对甲基酮；相关组合保留原SMILES，实际称量/配液身份待核。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1740,10 +1648,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W20"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1807,10 +1711,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W23"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1874,10 +1774,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W13"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -1941,10 +1837,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W26"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2008,10 +1900,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W27"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2075,10 +1963,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W3"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2176,10 +2060,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W21"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 3,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2277,10 +2157,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W30"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 3,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2378,10 +2254,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W2"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 3,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2445,10 +2317,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W22"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2546,10 +2414,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W5"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 1,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2613,10 +2477,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W1"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 1,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2714,10 +2574,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W15"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2815,10 +2671,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W12"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2916,10 +2768,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W37"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 1,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -2983,10 +2831,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W4"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -7174,12 +7018,6 @@
       "PL35-W99",
       "放大量"
     ],
-    "input_identity_status": "unresolved_name_smiles_conflict",
-    "input_identity_issues": [
-      "汇总NH-底物扩展Q40/Q41为YL-4-OMe，但R40/R41为对甲基酮；相关组合保留原SMILES，实际称量/配液身份待核。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -7277,10 +7115,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W6"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -7378,10 +7212,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W11"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -7479,10 +7309,6 @@
     "sample_ids": [
       "CFC124009-19-2-PL45-W7"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -7538,10 +7364,6 @@
     "sample_ids": [
       "放大量"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "1R",
     "NR_label": "unresolved",
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -7597,10 +7419,6 @@
     "sample_ids": [
       "放大量"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -7637,12 +7455,6 @@
     "sample_ids": [
       "放大量"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [
-      "所录结构缺少所标分支要求的X–H；执行确认不使此目标假设变为适用，也不等于反应失败。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "not applicable",
     "NR_label": "not applicable",
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -7715,10 +7527,6 @@
     "sample_ids": [
       "放大量"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -7774,10 +7582,6 @@
     "sample_ids": [
       "放大量"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -13571,10 +13375,6 @@
       "PL34-W98",
       "PL34-W99"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -13630,12 +13430,6 @@
     "sample_ids": [
       "放大量"
     ],
-    "input_identity_status": "unresolved_name_smiles_conflict",
-    "input_identity_issues": [
-      "汇总OH-底物扩展S80为YL-OMe，但T80为N-苯基三氟丙酰胺；保留原SMILES，实际投料身份待核。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -13750,10 +13544,6 @@
       "CFC124009-19-1-PL46-W35",
       "CFC124009-19-1-PL46-W75"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -13868,10 +13658,6 @@
       "CFC124009-19-1-PL46-W28",
       "CFC124009-19-1-PL46-W68"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -13986,10 +13772,6 @@
       "CFC124009-19-1-PL46-W36",
       "CFC124009-19-1-PL46-W76"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14104,10 +13886,6 @@
       "CFC124009-19-1-PL46-W12",
       "CFC124009-19-1-PL46-W52"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14188,10 +13966,6 @@
       "CFC124009-19-1-PL46-W40",
       "CFC124009-19-1-PL46-W80"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14306,10 +14080,6 @@
       "CFC124009-19-1-PL46-W39",
       "CFC124009-19-1-PL46-W79"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14424,10 +14194,6 @@
       "CFC124009-19-1-PL46-W46",
       "CFC124009-19-1-PL46-W6"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14508,10 +14274,6 @@
       "CFC124009-19-1-PL46-W22",
       "CFC124009-19-1-PL46-W62"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14573,10 +14335,6 @@
       "CFC124009-19-1-PL46-W29",
       "CFC124009-19-1-PL46-W69"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "3",
     "NR_label": 3,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14657,10 +14415,6 @@
       "CFC124009-19-1-PL46-W37",
       "CFC124009-19-1-PL46-W77"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14810,10 +14564,6 @@
       "CFC124009-19-1-PL46-W57",
       "CFC124009-19-1-PL46-W64"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14894,10 +14644,6 @@
       "CFC124009-19-1-PL46-W16",
       "CFC124009-19-1-PL46-W56"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -14978,10 +14724,6 @@
       "CFC124009-19-1-PL46-W11",
       "CFC124009-19-1-PL46-W51"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -15062,10 +14804,6 @@
       "CFC124009-19-1-PL46-W18",
       "CFC124009-19-1-PL46-W58"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -15180,10 +14918,6 @@
       "CFC124009-19-1-PL46-W23",
       "CFC124009-19-1-PL46-W63"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "3/2",
     "NR_label": "2–3",
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -15281,10 +15015,6 @@
       "CFC124009-19-1-PL46-W19",
       "CFC124009-19-1-PL46-W59"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -15399,10 +15129,6 @@
       "CFC124009-19-1-PL46-W49",
       "CFC124009-19-1-PL46-W9"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -15500,10 +15226,6 @@
       "CFC124009-19-1-PL46-W45",
       "CFC124009-19-1-PL46-W5"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -15618,10 +15340,6 @@
       "CFC124009-19-1-PL46-W2",
       "CFC124009-19-1-PL46-W42"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -15736,10 +15454,6 @@
       "CFC124009-19-1-PL46-W13",
       "CFC124009-19-1-PL46-W53"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -15854,10 +15568,6 @@
       "CFC124009-19-1-PL46-W32",
       "CFC124009-19-1-PL46-W72"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -15972,10 +15682,6 @@
       "CFC124009-19-1-PL46-W20",
       "CFC124009-19-1-PL46-W60"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16090,10 +15796,6 @@
       "CFC124009-19-1-PL46-W30",
       "CFC124009-19-1-PL46-W70"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16208,10 +15910,6 @@
       "CFC124009-19-1-PL46-W21",
       "CFC124009-19-1-PL46-W61"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16326,10 +16024,6 @@
       "CFC124009-19-1-PL46-W47",
       "CFC124009-19-1-PL46-W7"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16410,10 +16104,6 @@
       "CFC124009-19-1-PL46-W38",
       "CFC124009-19-1-PL46-W78"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16494,10 +16184,6 @@
       "CFC124009-19-1-PL46-W34",
       "CFC124009-19-1-PL46-W74"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16578,10 +16264,6 @@
       "CFC124009-19-1-PL46-W26",
       "CFC124009-19-1-PL46-W66"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16679,10 +16361,6 @@
       "CFC124009-19-1-PL46-W31",
       "CFC124009-19-1-PL46-W71"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16797,10 +16475,6 @@
       "CFC124009-19-1-PL46-W3",
       "CFC124009-19-1-PL46-W43"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16881,10 +16555,6 @@
       "CFC124009-19-1-PL46-W10",
       "CFC124009-19-1-PL46-W50"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -16965,10 +16635,6 @@
       "CFC124009-19-1-PL46-W48",
       "CFC124009-19-1-PL46-W8"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -17066,10 +16732,6 @@
     "sample_ids": [
       "CFC124009-19-1-PL46-W54"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -17150,10 +16812,6 @@
       "CFC124009-19-1-PL46-W15",
       "CFC124009-19-1-PL46-W55"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -17234,10 +16892,6 @@
       "CFC124009-19-1-PL46-W27",
       "CFC124009-19-1-PL46-W67"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -17352,10 +17006,6 @@
       "CFC124009-19-1-PL46-W1",
       "CFC124009-19-1-PL46-W41"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -17470,10 +17120,6 @@
       "CFC124009-19-1-PL46-W25",
       "CFC124009-19-1-PL46-W65"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -17529,10 +17175,6 @@
     "sample_ids": [
       "CFC124009-19-PL22-W2"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -17588,10 +17230,6 @@
     "sample_ids": [
       "CFC124009-19-PL22-W1"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -17689,10 +17327,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W3"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -23528,10 +23162,6 @@
       "PL33-W99",
       "放大量"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -23629,10 +23259,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W8"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -23730,10 +23356,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W11"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -23831,10 +23453,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W6"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -23932,10 +23550,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W13"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24033,10 +23647,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W16"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24100,10 +23710,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W9"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "1R",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24167,10 +23773,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W7"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24234,10 +23836,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W15"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24301,10 +23899,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W19"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24368,10 +23962,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W12"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24435,10 +24025,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W10"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24536,10 +24122,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W18"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24637,10 +24219,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W4"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24738,10 +24316,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W2"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "1R",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24786,12 +24360,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W17"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [
-      "所录结构缺少所标分支要求的X–H；执行确认不使此目标假设变为适用，也不等于反应失败。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "not applicable",
     "NR_label": "not applicable",
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24889,10 +24457,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W14"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -24990,10 +24554,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W5"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."
@@ -25091,10 +24651,6 @@
     "sample_ids": [
       "CFC124009-19-3-PL43-W1"
     ],
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
     "NP_label": "2",
     "NR_label": 2,
     "novelty_comparison_scope": "Proposed product(s) and reaction(s) conditional on recorded inputs; not novelty of the reagent itself."

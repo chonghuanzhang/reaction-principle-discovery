@@ -1,7 +1,7 @@
 {
   "source_file": "baseline/文献only.cdxml",
   "source_sha256": "0a367ee7076677a7ff35175ecc0142ed164c2d6fd675898c7cbefc47e874447c",
-  "result_definition": "User defines trace/no-product as negative and 有产物 as positive. The LIT21 trace outcome was confirmed by the user in the conversation. No numerical UV values are supplied for these records.",
+  "result_definition": "Trace denotes the negligible-response negative display category and 有产物 denotes a positive outcome. The LIT21 trace outcome was confirmed by the user in the conversation. No numerical UV values are supplied for these records.",
   "displayed_records": 20,
   "positive_displayed_records": 3,
   "positive_rate_by_displayed_record": 0.15,
@@ -924,7 +924,7 @@
       "exact_rp_actual_pair_ids": [],
       "exact_rp_recommended_candidate_ids": [],
       "source_sha256": "f86ccbb7bc493d2db48862c356236ac126048fbd408c0eb21fe17500b2a5074b",
-      "endpoint_source": "User confirmation in this conversation on 2026-11-18: trace (未检出产物).",
+      "endpoint_source": "User confirmation in this conversation on 2026-11-18: trace.",
       "record_origin": "Supplemental omitted literature-selected reagent supplied by the user; not a new CDXML entry.",
       "figure_display_row": 4,
       "figure_display_column": 5,

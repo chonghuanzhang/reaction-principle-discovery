@@ -21,9 +21,10 @@
     },
     {
       "path": "figures/main/Figure_6.png",
-      "width_px": 2010,
-      "height_px": 2586,
-      "sha256": "145a7ca8611e3502b7c842d66adbfc63c460dfe3e5a0cd807bf8d770ba6237d3"
+      "width_px": 3015,
+      "height_px": 2438,
+      "sha256": "7a025131b94d5364f4dc1e362953a35a8457ff0c29d7f36cb36142853c7b38a2",
+      "source_description": "Authoritative raster extracted from ../Manuscript-round5-final.docx at word/media/image7.png; the PDF and SVG derivatives embed this PNG."
     },
     {
       "path": "candidates/figures/N1_novelty_distributions.png",

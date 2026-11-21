@@ -16,4 +16,4 @@ The authoritative package and hashes are in the [released artifact directory](..
 
 ## Archived generation inputs
 
-The [five archived working constraints](../data/generation/frozen_principles_5.json) and saved [principle proposal](../data/principle_calls/proposal_response.json) and [review](../data/principle_calls/review.json) records preserve provenance for earlier model-assisted stages. The current four-RP synthesis and released 43-family, 100-molecule package remain the narrative and data standard.
+The [five archived working constraints](../data/generation/archived_working_principles_5.json) and saved [principle proposal](../data/principle_calls/proposal_response.json) and [review](../data/principle_calls/review.json) records preserve provenance for earlier model-assisted stages. The current four-RP synthesis and released 43-family, 100-molecule package remain the narrative and data standard.

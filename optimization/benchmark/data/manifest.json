@@ -18,11 +18,11 @@
     "optimizer_candidates.csv": "b8c8130046aaed93d2dd32a86dc22504329972a6fad5569ae441936959ce3f7e",
     "pool_metrics.csv": "effd455584b95e87c30ce63f1384a1127ccab6962f0718b3923ed42771f9418f",
     "pool_statistics.json": "4dd50d2fd4376c2d1ab084143e0e8a4c33c10fc8a583bc53e9d1854a6eec710f",
-    "reference_all_candidates.csv": "19b05cc41f30dd0a9a4a3d57f28f275d85bf8eed55f87af99178897df8bcdd91",
+    "reference_all_candidates.csv": "8001a552698b6a8237cf994a3d080371e4027cb6221c619767a030028301a39b",
     "reference_observed_history.csv": "c746c9bd7e2820674beb4c552894d4f35ef83fe56ffe73a0bd0d647986cc4a3c",
     "run_budgets.csv": "6ddc9928599d3746a07ac1d639183f88fbec22b11736be353d38ab50da70646b",
     "source_records_and_oracle.csv": "886176bdf5ad895fd773e3a4f40cea25c45900e1052e21df0ba4253cf2d07c72",
-    "v2_recomputed_results.json": "996a37c6d246e5baef067e787c6c7c7372f800e5d8c990d9712eebd055eff036"
+    "v2_recomputed_results.json": "072779f8fc26f579d012bb9b68b4b5523d425ad68a1505f708528abe2db5926a"
   },
   "input_mode": "original_workbook",
   "portable_input_sha256": null

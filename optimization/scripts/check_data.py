@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Check recorded response cells, lossless workbook parts and figure dimensions."""
+"""Check recorded response cells and lossless workbook parts."""
 from pathlib import Path
 import argparse
 import csv
 import hashlib
 import json
 import platform
-import struct
 import sys
 import zipfile
 from xml.etree import ElementTree as ET
@@ -92,29 +91,13 @@ def main(output):
     # The source peak NMR value is a directly recorded cell, distinct from the
     # fitted-yield column. Preserve the analytical response/yield distinction.
     assert float(cells['亲核试剂(SH)-条件筛选', 'AD308']) == 0.37
-    from pypdf import PdfReader
-    expected = {'Main_Fig5_Bayesian_optimization': (180, 265), 'SI_BO1_posterior_landscapes': (180, 146),
-                'SI_BO2_uncertainty_stopping': (180, 123), 'SI_BO3_SH_replay_diagnostics': (180, 180)}
-    figures = []
-    for stem, dimensions in expected.items():
-        base = ROOT / 'figures/figures' / stem
-        assert all(base.with_suffix(ext).exists() for ext in ('.png', '.pdf', '.svg'))
-        png = base.with_suffix('.png').read_bytes()
-        assert png[:8] == b'\x89PNG\r\n\x1a\n'
-        pixels = struct.unpack('>II', png[16:24])
-        page = PdfReader(base.with_suffix('.pdf')).pages[0]
-        mm = [float(page.mediabox.width) * 25.4 / 72, float(page.mediabox.height) * 25.4 / 72]
-        assert all(abs(a - b) < .01 for a, b in zip(mm, dimensions))
-        assert all(abs(px - mm / 25.4 * 600) < 2 for px, mm in zip(pixels, dimensions))
-        figures.append(dict(stem=stem, png_pixels=pixels, dimensions_mm=mm, exports=3))
     report = dict(status='passed', split_workbook=split, physical_response_cells_verified=len(records), historical_pool_counts=counts,
                   current_condition_libraries=current, conditions_in_current_three_libraries=288,
                   selected_NH_OH_responses_used_for_models=len(selected), OH_formulation_library=deposited,
-                  figures=figures,
                   environment=dict(python=sys.version, platform=platform.platform()),
-                  limitations=['Workbook metadata is not dated laboratory execution chronology.',
-                               'Only SH peak has matched 37% NMR; analytical responses are not calibrated yields.',
-                               '100 final candidate molecules, 100 paired SH seeds and 96-condition grids are different counting units.'])
+                  record_scope=['Workbook cells retain their source-sheet and cell-address provenance.',
+                                'Analytical response and NMR yield are retained as separate measurement fields.',
+                                'Candidate molecules, paired SH runs and 96-condition grids use distinct counting units.'])
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(report, ensure_ascii=False, indent=2))

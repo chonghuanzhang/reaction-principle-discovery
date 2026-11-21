@@ -1,6 +1,6 @@
 # Bayesian condition recommendation in three reaction systems
 
-The current study applies a shared **13,920-condition decision space** independently to N–H, O–H and S–H: **145 catalyst–ligand and loading formulations × eight solvents × twelve bases**. Each deposited campaign history begins with twelve uniformly sampled conditions. A hierarchical Gaussian-process surrogate and upper confidence bound (UCB) then assigns four further conditions per round, with four recorded responses returned before the next saved update.
+The current study applies a shared **13,920-condition decision space** independently to N–H, O–H and S–H: **145 catalyst–ligand and loading formulations × eight solvents × twelve bases**. Each deposited campaign history begins with twelve conditions sampled uniformly without replacement from that complete space. A hierarchical Gaussian-process surrogate and upper confidence bound (UCB) then assigns four further conditions per round, with four recorded responses returned before the next saved update.
 
 | System | First highest measured response | First stopping round | Unique selected conditions | Highest measured UV response |
 |---|---:|---:|---:|---:|
@@ -8,7 +8,7 @@ The current study applies a shared **13,920-condition decision space** independe
 | O–H | 9 | 11 | 56 | 1.4425 |
 | S–H | 7 | 9 | 48 | 3.2045 |
 
-All three campaign records use the same empirical stopping rule. The initial twelve conditions are round 0. The recorded initialization seeds are 4105596 (N–H), 4002564 (O–H) and 4006672 (S–H).
+All three campaign records use the same empirical stopping rule. The twelve recorded initial conditions are round 0.
 
 All current candidate-space rows and all 164 selected trajectory rows specify **500 µL**. The source-screen procedure specifies 250 µL. Numerical scope records are predominantly 500 µL; AP001–AP003 retain their original 250 µL source-screen scale. These values describe distinct source-screen and BO/scope layers. The highest measured-response BO settings are AgF/PPh₃/K₂CO₃/DCE (N-H), NiCl₂·DME/DIPEA/DCE (O-H) and CuCl/PPh₃/CsOH/DCE (S-H). Table 1 uses different N-H and O-H settings and the same S-H setting.
 
@@ -17,7 +17,7 @@ All current candidate-space rows and all 164 selected trajectory rows specify **
 | Resource | Contents |
 |---|---|
 | [Methods](METHODS.md) | Decision space, hierarchical GP, UCB, shared stopping equation and interpretation |
-| [Current protocol](current/protocol.json) | Exact model parameters, recorded initialization seeds, numerical settings and checksums |
+| [Current protocol](current/protocol.json) | Exact model parameters, recorded initial-batch definition, numerical settings and checksums |
 | [Condition identities](current/data/) | 145 formulations, eight solvents, twelve bases and complete 13,920-candidate tables for each system |
 | [Recorded campaigns](current/runs/) | Each initial set and subsequent batch, measured feedback and posterior quantities at recommendation |
 | [Table R3](../experiments/bo_trajectories/) | Round-by-round response progress and stopping checks |
@@ -37,10 +37,10 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
 python tools/check_data.py
 ```
 
-The post-run checker uses the recorded campaign seeds to recompute every recommendation from only the responses assigned to that round, checks the recorded measurements and first stopping round, and writes full-space posterior snapshots. `engine.py` ranks every unselected candidate; unobserved response values are not inputs to its UCB calculation. The saved history updates only after each complete four-response batch.
+The post-run checker validates each recorded 12-condition initial batch against the full decision space, recomputes every later full-space ranking from only the responses assigned through the preceding round, checks the recorded measurements and first stopping round, and writes posterior snapshots. `engine.py` ranks every unselected candidate; unobserved response values are not inputs to its UCB calculation. The saved history updates only after each complete four-response batch.
 
 The original response cells can also be checked with `python optimization/scripts/check_data.py --output /tmp/source-cell-check.json`. Reconstruct the large workbook using `python optimization/scripts/reassemble_workbook.py --output /tmp/full_response_workbook.xlsx`.
 
 ## Earlier analysis records
 
-The directories `benchmark/`, `model/`, `selections/`, `figure_code/` and the older `figures/source_data/` retain the preceding 96-condition analysis and its dependencies. Their selection histories and random comparisons are historical records; the current manuscript results and reproduction entry point are in `current/`. The 96-condition grids used in current Figure 5b–d are representative measured visualization slices, separate from the 13,920-condition recommendation space.
+The directories `benchmark/`, `model/` and `selections/` retain historical numerical records from representative 96-condition slices. They do not define the manuscript campaign or its stopping decisions; the current manuscript results and verification entry point are in `current/`. The 96-condition grids used in current Figure 5b–d are measured visualization slices, separate from the 13,920-condition recommendation space.

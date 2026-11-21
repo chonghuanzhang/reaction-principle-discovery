@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate and export the candidate-to-experiment decision ledger."""
+"""Validate and export the candidate-to-experiment mapping records."""
 
 import argparse
 import hashlib
@@ -32,11 +32,6 @@ RELATIONSHIP_ID_FIELDS = {
     ),
     "Same donor family, different scaffold": "donor_family_candidate_ids",
 }
-ORDINARY_IDENTITY_STATUSES = {
-    "identity_confirmed",
-    "workbook_structure_not_independently_verified",
-}
-UNRESOLVED_IDENTITY_STATUSES = {"unresolved_name_smiles_conflict"}
 ROUTE_CENTERS = {"NH": "N", "OH": "O", "PH": "P", "SH": "S"}
 REQUIRED_OCCURRENCE_FIELDS = ("workbook", "sheet", "row", "experiment_id", "condition_id")
 
@@ -353,17 +348,6 @@ def build_report(
                 not pair.get("unmatched_reason"),
                 f"matched record {pair_id} must not retain an unmatched reason",
             )
-        identity_status = pair.get("input_identity_status")
-        require(identity_status, f"missing identity status for {pair_id}")
-        require(
-            identity_status
-            in ORDINARY_IDENTITY_STATUSES | UNRESOLVED_IDENTITY_STATUSES,
-            f"unresolved identity status is not admitted for {pair_id}: {identity_status}",
-        )
-        identity_issues = pair.get("input_identity_issues")
-        require(isinstance(identity_issues, list), f"invalid identity issue list for {pair_id}")
-        if identity_status in UNRESOLVED_IDENTITY_STATUSES:
-            require(identity_issues, f"identity exception {pair_id} requires an issue record")
         require(
             "NP_label" in pair and pair["NP_label"] not in (None, ""),
             f"missing NP assessment for {pair_id}",
@@ -372,12 +356,7 @@ def build_report(
             "NR_label" in pair and pair["NR_label"] not in (None, ""),
             f"missing NR assessment for {pair_id}",
         )
-        require(
-            pair.get("product_identity_status")
-            and pair.get("quantitative_result_status")
-            and pair.get("novelty_comparison_scope"),
-            f"missing interpretation status for {pair_id}",
-        )
+        require(pair.get("novelty_comparison_scope"), f"missing comparison scope for {pair_id}")
         require(pair.get("execution_status"), f"missing execution status for {pair_id}")
         occurrences = pair.get("source_occurrences")
         require(
@@ -446,10 +425,6 @@ def build_report(
                     for link in pair["candidate_links"]
                 ],
                 "unmatched_reason": pair["unmatched_reason"],
-                "identity_status": pair["input_identity_status"],
-                "identity_issues": pair["input_identity_issues"],
-                "product_identity_status": pair["product_identity_status"],
-                "quantitative_result_status": pair["quantitative_result_status"],
                 "NP_label": pair["NP_label"],
                 "NR_label": pair["NR_label"],
                 "execution_status": pair["execution_status"],

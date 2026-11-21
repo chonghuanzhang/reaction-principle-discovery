@@ -38,7 +38,6 @@
         "contradictory_evidence": [],
         "experimental_consequence": "A base-identity, base-loading, and temperature matrix should change the ratio of desired monofluoroalkene to fully defluorinated alkene, with harsher conditions favoring over-defluorination even when total conversion rises.",
         "falsifying_experiment": "Run quantitative time courses at the grounded condition and at systematically stronger-base or higher-temperature conditions, measuring starting material, coupled monofluoroalkene, fully defluorinated alkene, other fluorinated products, and fluorine mass balance. Invariant mono/over-defluorination ratios, or monotonic improvement without increased over-defluorination, would falsify the principle.",
-        "freeze_version": null,
         "known_exceptions": [
           "No quantitative base-strength or temperature threshold is established.",
           "The reported relation may be substrate-specific.",
@@ -119,7 +118,6 @@
         ],
         "experimental_consequence": "A matched partner matrix should reveal continuous or interaction-dependent changes in conversion and selectivity rather than a clean aryl-versus-alkyl boundary; coordinating, electron-poor, and hindered examples are expected to underperform, but some members may remain productive after condition or ligand adjustment.",
         "falsifying_experiment": "Test matched organoboron partners that independently vary steric congestion, coordination ability, and electronics, including matched cyclic carbon donors with and without the reported protecting-group environment. Quantify transmetalation-associated consumption, desired coupling, protodeboronation, and over-defluorination. A reproducible binary alkyl-family failure with no productive exception would falsify the unresolved-boundary claim; absence of electronic, coordination, or steric effects would falsify the proposed risk factors.",
-        "freeze_version": null,
         "known_exceptions": [
           "The productive protected piperidinyl boronic-ester model conflicts with the manuscript's alkyl-organoboron failure statement.",
           "Selected heteroaryl or electronically varied partners may work in other catalytic systems without transferring to this Seed.",
@@ -210,7 +208,6 @@
         ],
         "experimental_consequence": "An independently prepared Seed-relevant gem-difluoroenone, if on-pathway, should enter product formation under grounded conditions at a rate compatible with turnover, while carbonyl-coordination perturbations should measurably affect rate or selectivity; alternative cationic, radical, bimetallic, or metathesis diagnostics should give distinguishable outcomes.",
         "falsifying_experiment": "Independently prepare or generate a faithful gem-difluoroenone surrogate, establish its concentration by orthogonal analysis, and compare its conversion and product-forming rate with the parent Seed substrate under grounded conditions. Combine this with carbonyl-coordination perturbation, Pd-order, ligand-loading, isotope-label, and radical-clock experiments. Failure of the intermediate to form product at a kinetically competent rate, or results requiring a different pathway, would falsify the proposed sequence.",
-        "freeze_version": null,
         "known_exceptions": [
           "Failure to accumulate an intermediate does not exclude rapid reversible formation.",
           "Spectral similarity alone does not establish intermediate identity.",
@@ -301,7 +298,6 @@
         ],
         "experimental_consequence": "Independently generated faithful beta-fluoro intermediates should yield a fluorinated alkene with measurable fluoride loss, whereas matched structures lacking the required beta relationship or elimination geometry should react more slowly or follow another pathway.",
         "falsifying_experiment": "Prepare matched, atom-mapped intermediates with and without the beta-fluoro arrangement, expose them to otherwise identical validated conditions, and quantify fluoride release, alkene connectivity, stereochemistry, and competing products. Equal behavior without regard to beta-fluoro geometry, or complete absence of elimination from a validated reactive intermediate, would falsify the principle.",
-        "freeze_version": null,
         "known_exceptions": [
           "A beta hydrogen may enable competing beta-hydrogen elimination.",
           "Protic media may redirect the intermediate to hydrofunctionalization, substitution, decomposition, or complete defluorination.",
@@ -392,7 +388,6 @@
         ],
         "experimental_consequence": "Condition and time matrices should change fluorination-state distributions independently of total conversion; an initially selective fluorinated alkene may decline during continued catalyst exposure, and crude yield may exceed isolated yield if workup causes loss or rearrangement.",
         "falsifying_experiment": "Conduct a factorial time course varying temperature, base identity/loading, donor-to-electrophile ratio, controlled water, and selected fluoride scavengers. Include isolated-product resubjection and calibrated crude-versus-isolated analysis. Condition-invariant fluorination-state ratios, quantitative product recovery, and no product consumption would falsify this stopping-point principle for the tested system.",
-        "freeze_version": null,
         "known_exceptions": [
           "Some fluorinated products may be intrinsically persistent across the tested window.",
           "Water or salts may affect organoboron or catalyst speciation without directly controlling fluoride loss.",
@@ -486,7 +481,6 @@
         ],
         "experimental_consequence": "Different radical probes may suppress conversion without giving the same adduct or clock response if inhibition arises from Pd binding, donor interception, or product destruction; only a validated radical clock or structurally assigned adduct with matching kinetics would support radical participation.",
         "falsifying_experiment": "Run a validated radical clock and graded TEMPO/BHT experiments while quantifying probe recovery, assigned adducts, Pd speciation, donor consumption, product stability, and reaction rate. A clock response or adduct mass balance kinetically coupled to product formation would falsify the claim that existing inhibition is merely non-diagnostic by resolving it in favor of radical participation; normal turnover with a demonstrably competent fast trap would resolve it against a kinetically relevant free-radical pathway.",
-        "freeze_version": null,
         "known_exceptions": [
           "A cage-confined or metal-bound radical may evade conventional traps.",
           "Probe coordination or oxidation can inhibit catalysis without trapping a substrate radical.",

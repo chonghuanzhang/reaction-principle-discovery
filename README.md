@@ -40,7 +40,7 @@ The two transitions are also packaged as [reusable skills](skills/). The first s
 
 The N–H, O–H and S–H systems share a **13,920-condition decision space** comprising **145 catalyst–ligand and loading formulations, eight solvents and twelve bases**, informed by literature searches across the three systems. Each system was evaluated in a recorded laboratory campaign with a hierarchical Gaussian-process surrogate and UCB acquisition. Twelve uniformly sampled experiments initialized each model; four conditions were recommended per subsequent round, and the recorded UV responses were used in the next model update.
 
-The deposited trajectories use initialization seeds **4105596 (N–H), 4002564 (O–H) and 4006672 (S–H)**. N–H, O–H and S–H first reached their highest measured responses in rounds **10, 9 and 7** and satisfied the common empirical stopping rule in rounds **12, 11 and 9**, respectively, after **60, 56 and 48 unique conditions**. The highest measured-response conditions are AgF/PPh₃/K₂CO₃/DCE (1.5470), NiCl₂·DME/DIPEA/DCE (1.4425) and CuCl/PPh₃/CsOH/DCE (3.2045). UV responses are compared within the same substrate–product pair and analytical conditions, not across systems as yields.
+The deposited trajectories retain the twelve round-0 indices for each recorded initial batch. N–H, O–H and S–H first reached their highest measured responses in rounds **10, 9 and 7** and satisfied the common empirical stopping rule in rounds **12, 11 and 9**, respectively, after **60, 56 and 48 unique conditions**. The highest measured-response conditions are AgF/PPh₃/K₂CO₃/DCE (1.5470), NiCl₂·DME/DIPEA/DCE (1.4425) and CuCl/PPh₃/CsOH/DCE (3.2045). UV responses are compared within the same substrate–product pair and analytical conditions, not across systems as yields.
 
 The earlier *Chemical Science* study demonstrated enrichment of high-yield conditions relative to random screening. This work transfers that optimization framework to three heteroatom reaction systems, so a random-screening baseline is not repeated. [Optimization methods](optimization/METHODS.md) give the current kernel, UCB parameters, shared stopping equation and exact reproduction commands. The measured 96-condition surfaces in Figure 5b–d are representative visualization grids, separate from the full recommendation space.
 
@@ -52,7 +52,7 @@ cd reaction-principle-discovery
 python tools/check_data.py
 ```
 
-The last command checks table sizes, identifiers and local links using the Python standard library. To validate the deposited recommendation package or inspect the processing code, follow [code/README.md](code/README.md). To reproduce Bayesian selection and Figure 5, follow [optimization/README.md](optimization/README.md). Each package specifies its environment and commands.
+The last command checks table sizes, identifiers and local links using the Python standard library. To validate the deposited recommendation package or inspect the processing code, follow [code/README.md](code/README.md). The [optimization package](optimization/) provides the recorded Bayesian-selection data, methods and numerical verification commands.
 
 [Figure artwork](figures/) and the computational packages provide the corresponding image sources. The larger experimental workbook is stored in consecutive parts because of GitHub's file-size limit; the optimization package includes a command to reconstruct the complete workbook and verify it.
 

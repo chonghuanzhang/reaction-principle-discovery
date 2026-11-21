@@ -19,7 +19,7 @@ def _minimal_config() -> dict:
     return {
         "exploration_brief": {
             "version": "3.0",
-            "study_id": "fixed-seed-open-exploration",
+            "study_id": "seeded-open-exploration",
             "fixed_role": {
                 "role": "electrophile",
                 "label": "fixed Seed reaction component",

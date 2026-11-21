@@ -87,7 +87,7 @@
     },
     {
       "path": "local_rules/rule_integrity_protocol.json",
-      "sha256": "580c497a2d5186fb5472936b57fbe4be09fbc8cfe0252d6f5c7e76baae06da55"
+      "sha256": "df1145a8869249e023f57e8a47771afb2082a46c8bfb3fe4e635fa1943c3fd7a"
     },
     {
       "path": "local_rules/rule_outputs.json",

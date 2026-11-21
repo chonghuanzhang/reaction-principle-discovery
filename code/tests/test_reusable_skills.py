@@ -14,9 +14,9 @@ ROOT = Path(__file__).resolve().parents[2]
 
 SKILL_HASHES = {
     "skills/README.md": "e132330f26945ac65a852ea8e7910260a39ad09ed4d10b24e2f21b7904ef16b9",
-    "skills/recommended-nucleophiles-to-experimental-reagents/SKILL.md": "9468db189411dd9e84ba9da9d0c14f67907808f208554f5e0fb6c687ac6ef843",
-    "skills/recommended-nucleophiles-to-experimental-reagents/references/selection-policy.md": "b4fbf2bc6d9b67708b593c90a9a8e389b71e01af937ad8dde2d66d3aa2dca351",
-    "skills/recommended-nucleophiles-to-experimental-reagents/scripts/run.py": "e9e26a1e7bd1990fa521ed3beafdcc319acc960ea1ba7b0d5139871f67509b8d",
+    "skills/recommended-nucleophiles-to-experimental-reagents/SKILL.md": "6386da9adfdb3ece69f5e892f1ff2b32d3e6295c4392860c999baf1a541a6031",
+    "skills/recommended-nucleophiles-to-experimental-reagents/references/selection-policy.md": "5aab2073a6fd7082672793a78c1ef6ef5aa61395718b15eb12ce50d1ce767436",
+    "skills/recommended-nucleophiles-to-experimental-reagents/scripts/run.py": "f43bebaa0b158088352de50908b22f38715c64214a77d535d6daa59a1399f0d9",
     "skills/requirements.txt": "868cb2cdf6e4a619f617f8ef9a968e8f5d9092a0eb13b217415157fc23542418",
     "skills/rp-to-recommended-nucleophiles/SKILL.md": "2dfee6014fbd0c839fa6572aff04e10a6ea62a3be5c112f15d88fd792545af57",
     "skills/rp-to-recommended-nucleophiles/references/data-contract.md": "929cbdb75fb0d9ededd0fadcaaf2349f07539d9fc489c13e7bfd3d68686e29a7",
@@ -274,7 +274,7 @@ class CurrentReleaseContractTests(unittest.TestCase):
 
 
 class PreservedSkillSnapshotTests(unittest.TestCase):
-    def test_skill_files_match_the_frozen_snapshot(self):
+    def test_skill_files_match_the_reviewed_release_snapshot(self):
         actual = {
             path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest()
             for path in SKILL_HASHES

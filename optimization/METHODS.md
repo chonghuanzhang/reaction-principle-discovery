@@ -8,13 +8,13 @@ Catalyst–ligand formulation is one categorical factor: the recorded catalyst i
 
 Every row in the three current 13,920-condition candidate tables and all 164 selected trajectory-condition rows records a solvent volume of **500 µL**. This is the BO and trajectory layer. The source-screen procedure uses 250 µL. The numerical scope records used for the reported N/O/S analysis are predominantly 500 µL; three legacy N-H rows, AP001–AP003, retain their original 250 µL source-screen scale. The source-screen and BO/scope volumes are therefore reported as distinct experimental layers.
 
-The deposited files represent three independent sequential laboratory campaign histories. The response ledgers contain 240, 335 and 335 unique measured conditions in N–H, O–H and S–H, respectively. Source records are linked by worksheet, Excel row, response cell and sample identifier. The [source-conflict table](current/data/source_conflicts.csv) retains five distinct source records that share encoded condition keys. For deterministic BO reconstruction, complete-condition-grid measurements take precedence over catalyst-panel entries; responses are neither averaged nor chosen by magnitude. The raw workbooks remain unchanged.
+The deposited files represent three independent sequential laboratory campaign histories. Source records are linked by worksheet, Excel row, response cell and sample identifier. The [source-conflict table](current/data/source_conflicts.csv) retains five distinct source records that share encoded condition keys. For deterministic BO reconstruction, complete-condition-grid measurements take precedence over catalyst-panel entries; responses are neither averaged nor chosen by magnitude. The raw workbooks remain unchanged.
 
 The author confirmed that the N–H source heading `MS_Response` denotes **UV response**, and that the base label `CsOH/2` denotes **CsOH**. Current display labels use these corrections. UV response depends on the substrate/product pair and analytical conditions. Comparisons therefore concern conditions within the same reaction system; raw signals across N–H, O–H and S–H are not comparable yields. The separately recorded 37% NMR yield at the indicated sulfur condition remains an independent analytical measurement.
 
 ## Initialization, surrogate and batch acquisition
 
-The deposited protocol represents each system as starting with twelve conditions sampled uniformly without replacement using one recorded initialization seed. The twelve responses initialize the surrogate. In the recorded history, four candidates are recommended simultaneously at every subsequent round and the model is updated after the complete four-response batch. This small batch size is suited to conventional-scale experiments.
+The deposited protocol represents each system as starting with twelve conditions sampled uniformly without replacement from the complete 13,920-condition decision space. The twelve responses initialize the surrogate. In the recorded history, four candidates are recommended simultaneously at every subsequent round and the model is updated after the complete four-response batch. This small batch size is suited to conventional-scale experiments.
 
 For categorical factors C (catalyst–ligand formulation), S (solvent) and B (base), the kernel contains the three main effects, three pairwise interactions and an independent complete-condition effect:
 
@@ -37,11 +37,11 @@ s²(x) = response_SD² [b/(a−1)] [6 − kᵀ A⁻¹ k]
 
 Here s is the latent posterior standard deviation. The plotted ±2s bands show model uncertainty in the latent response; they are not experimental-error bars, are not assigned a calibrated coverage probability and have not been validated as calibrated intervals over the full 13,920-condition space. Kernel equivalence classes are compressed for computation and expanded to all 13,920 candidates before acquisition; direct full-space verification gives the same posterior.
 
-| System | Weights C,S,B,CS,CB,SB | ρ | UCB multiplier β | Recorded initialization seed |
-|---|---|---:|---:|---:|
-| N–H | 1, 1, 1, 1, 1, 1 | 0.95 | 0.5 | 4105596 |
-| O–H | 1.5, 0.3, 0.3, 1.8, 1.8, 0.3 | 0.90 | 1.0 | 4002564 |
-| S–H | 1.5, 0.3, 0.3, 1.8, 1.8, 0.3 | 0.90 | 1.96 | 4006672 |
+| System | Weights C,S,B,CS,CB,SB | ρ | UCB multiplier β |
+|---|---|---:|---:|
+| N–H | 1, 1, 1, 1, 1, 1 | 0.95 | 0.5 |
+| O–H | 1.5, 0.3, 0.3, 1.8, 1.8, 0.3 | 0.90 | 1.0 |
+| S–H | 1.5, 0.3, 0.3, 1.8, 1.8, 0.3 | 0.90 | 1.96 |
 
 The UCB score is `μ(x)+βs(x)`. The four largest scores among all unselected candidates form the next batch. NumPy PCG64 draws 13,920 uniform jitter values scaled by 1e−12 for stable tie-breaking at each round. No within-batch pseudo-observations are inserted. In the deposited history and replay, the recommendation function receives only responses assigned to preceding rounds, and each batch is assimilated as four responses.
 
@@ -56,7 +56,7 @@ n ≥ 24, s₀ > 1e−12, and M(n) − M(n−8) ≤ 0.1 s₀.
 
 Eight observations correspond to two complete four-condition rounds. The threshold scales with each system's initial response dispersion; the multiplier, minimum observation count and patience are shared. UCB selects candidates and is not a stopping statistic.
 
-The deposited initialization seeds are 4105596 for N–H, 4002564 for O–H and 4006672 for S–H. The model parameters, recorded seeds and numerical protocol are deposited in [protocol.json](current/protocol.json).
+The twelve round-0 indices for each system are retained in the deposited trajectory. The model parameters, initial-batch definition and numerical protocol are deposited in [protocol.json](current/protocol.json).
 
 | System | First-best round | First stopping round | Conditions | 0.1s₀ | Highest measured-response condition | UV response |
 |---|---:|---:|---:|---:|---|---:|
@@ -78,4 +78,4 @@ Figure 5e uses N–H posterior snapshots at initialization and rounds 1, 2, 3, 1
 
 ## Reproducibility
 
-[verify_recorded_campaign.py](current/verify_recorded_campaign.py) performs a post-run integrity check of every recorded batch, measured feedback value, posterior at recommendation and first stopping decision using the recorded campaign seeds. It also compares compressed and direct full-space posterior calculations. The [saved verification](current/verification/campaign_verification.json) reports the results. [Raw source workbooks](raw/) and the earlier `benchmark/` and `selections/` records retain their provenance; they are not the current recommendation protocol.
+[verify_recorded_campaign.py](current/verify_recorded_campaign.py) performs a post-run integrity check of the recorded full-space initial batches, every later recommendation, measured feedback value, posterior and first stopping decision. It also compares compressed and direct full-space posterior calculations. The [saved verification](current/verification/campaign_verification.json) reports the results. [Raw source workbooks](raw/) and the earlier `benchmark/` and `selections/` records retain their provenance; they are not the current recommendation protocol.

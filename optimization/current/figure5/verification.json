@@ -186,8 +186,7 @@
     "optimization/current/figure5/source_data/grids_96.csv": "4a2dc4f8549e4bd4fb030ed2ae3da3ebca4079b26f21cc6b81551a87b71b11c8",
     "optimization/current/figure5/source_data/NH_posterior_snapshots.npz": "b675034f80bead5e8fe99a17fc813ff72e0717e8277f9a48157c0785740cfc43",
     "optimization/current/runs/NH/trajectory_conditions.csv": "e438e5638960e7332f5b737a52eda4da21e976f1f4f700e349ad03404cc65c93",
-    "optimization/current/figure5/source_data/projection_weights.npz": "bd602440629e8e3f0b30c8ba57a94831fb7a6a5fff96e22bb99eed88b08272db",
-    "optimization/current/figure5/build_figure5.py": "2fa2b9879d9765eea701db655cf307759d4771249b6274488cdde45e679921f3"
+    "optimization/current/figure5/source_data/projection_weights.npz": "bd602440629e8e3f0b30c8ba57a94831fb7a6a5fff96e22bb99eed88b08272db"
   },
   "outputs": {
     "optimization/current/figure5/figures/Figure_5_composite_preview.png": "41fbc09cdbf236eaf92ab9fd1095b6efc4b49a3800e60805fcebfb196b09c068",

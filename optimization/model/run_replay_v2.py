@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validated v2 branch-wise batch BO replay."""
+"""Validated v2 archive of panel-and-grid diagnostic calculations."""
 from __future__ import annotations
 
 import csv
@@ -161,10 +161,11 @@ def main():
     source_hash = hashlib.sha256(v1.BOOK.read_bytes()).hexdigest()
     results = {
         "source_workbook": str(v1.BOOK), "source_sha256": source_hash,
-        "analysis_type": "retrospective_batch_policy_benchmark",
+        "analysis_type": "archived_panel_and_grid_diagnostic",
         "algorithm": "conjugate Bayesian linear regression in kernel form + batch UCB",
         "n_replicates": N_REP, "n_init": N_INIT, "batch_size": BATCH, "primary_budget": PRIMARY_BUDGET,
-        "paired_initial_design": True, "historical_order_claim": False,
+        "paired_initial_design": True,
+        "manuscript_campaign_scope": "13,920 conditions per system; see optimization/current/runs",
         "routes": {},
     }
     log_rows = []
@@ -198,8 +199,8 @@ def main():
         w = csv.DictWriter(f, fieldnames=fields); w.writeheader(); w.writerows(log_rows)
 
     lines = [
-        "# SH/NH/OH 批量 BO 验证 v2", "",
-        "这是在已完成实验响应上的策略回放。模型每轮只能读取此前已选批次的响应；原始实验记录没有被修改，也不据此声称历史实验当时由 BO 实时控制。", "",
+        "# SH/NH/OH legacy panel-and-grid diagnostics v2", "",
+        "These retained calculations summarize individual source panels and measured plate slices. The manuscript campaign histories are deposited in optimization/current/runs and rank the complete 13,920-condition decision space.", "",
         f"固定参数：100 组配对运行；初始批次 {N_INIT} 点，后续每批 {BATCH} 点；相同 seed 下 BO 与随机基线使用完全相同的初始批次；主要预算为 {PRIMARY_BUDGET} 点。", "",
     ]
     for route in ["SH", "NH", "OH"]:
@@ -216,7 +217,7 @@ def main():
                 lines.append(f"{s}：95% 最高响应中位预算 {q['near_budget']['median']:.1f}，精确最高点中位预算 {q['exact_budget']['median']:.1f}，实际主条件命中中位预算 {q['target_budget']['median'] if q['target_budget']['median'] is not None else 'n/a'}。")
             lines.append(f"该网格 95% 命中预算节省（random − BO）中位数：{gg['summary']['paired_near_budget']['median_saving_random_minus_bo']:.1f}，bootstrap 95% CI {gg['summary']['paired_near_budget']['paired_bootstrap_95ci_saving']}。")
         lines.append("")
-    lines += ["## 解释边界", "", "催化剂面板和条件网格必须分别报告。只有当 BO 的配对预算分布优于随机基线、bootstrap 区间支持方向稳定，并且实际采用条件在 BO 轨迹中按预先定义的 target 指标被提前选中时，才可称为与 BO-guided selection 一致。这个分析不把最终全池最优值传入模型，也不把虚拟批次称为历史实验批次。"]
+    lines += ["## Scope", "", "Report catalyst-panel and condition-slice diagnostics separately. These archive statistics are source-data checks; the manuscript campaign results and stopping rule are the recorded full-space histories in optimization/current/."]
     (OUT / "bo_v2_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

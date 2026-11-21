@@ -17,12 +17,10 @@
   },
   "vector_pdf": "figures/main/Figure_4.pdf",
   "vector_svg": "figures/main/Figure_4.svg",
-  "reproduction_script": "code/figures/build_round5_candidate_figures.py",
-  "builder": "code/figures/build_round5_candidate_figures.py",
   "notes": [
     "The PNG is exported at 300 dpi.",
     "Molecular structures are read from the released candidate and experimental-input records.",
-    "Structural association arrows denote reviewed candidate-to-reagent relationships; relation classes and selection rationales are retained in the decision ledger.",
+    "Structural association arrows denote reviewed candidate-to-reagent relationships; relation classes and selection rationales are retained in the mapping records.",
     "Feasibility classes and novelty priorities organize chemical review and are not reaction-success probabilities."
   ]
 }

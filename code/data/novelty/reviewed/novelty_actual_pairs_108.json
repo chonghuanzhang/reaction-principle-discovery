@@ -83,7 +83,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -95,17 +94,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL1-LC6-W1027"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -148,7 +140,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [
       "没有与分支标签一致的带H或阴离子位点；不擅自换成其他成键中心。"
     ],
@@ -157,24 +148,15 @@
       "NP_label": "不适用",
       "NR": "不适用"
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL2-LC1-W756"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [
-      "所录结构缺少所标分支要求的X–H；执行确认不使此目标假设变为适用，也不等于反应失败。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": null,
@@ -266,7 +248,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -278,17 +259,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL1-LC6-W49"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -394,7 +368,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -406,17 +379,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W16"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -525,7 +491,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -537,17 +502,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W9"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -653,7 +611,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -665,17 +622,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W17"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -783,7 +733,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -795,17 +744,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W38"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -907,7 +849,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -919,17 +860,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W24"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -1035,7 +969,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -1047,17 +980,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W31"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -1159,7 +1085,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -1171,17 +1096,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W35"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -1289,7 +1207,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -1301,17 +1218,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W36"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -1417,7 +1327,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -1429,17 +1338,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W14"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -1541,7 +1443,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -1553,17 +1454,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W25"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -1665,7 +1559,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -1677,17 +1570,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W33"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -1789,7 +1675,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -1801,17 +1686,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W34"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -1917,7 +1795,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -1929,17 +1806,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W18"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -2045,7 +1915,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -2057,17 +1926,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W10"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -2173,7 +2035,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -2185,17 +2046,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W28"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -2301,7 +2155,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -2313,17 +2166,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W19"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -2429,7 +2275,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -2441,17 +2286,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W8"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -2560,7 +2398,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -2572,17 +2409,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W29"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -2678,7 +2508,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -2690,17 +2519,8 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "undetermined_scaleup_only",
     "unique_sample_ids": [],
-    "sample_id_status": "missing_unique_sample_id",
-    "input_identity_status": "unresolved_name_smiles_conflict",
-    "input_identity_issues": [
-      "汇总NH-底物扩展Q40/Q41为YL-4-OMe，但R40/R41为对甲基酮；相关组合保留原SMILES，实际称量/配液身份待核。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -2806,7 +2626,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -2818,17 +2637,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W20"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -2934,7 +2746,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -2946,17 +2757,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W23"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -3062,7 +2866,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -3074,17 +2877,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W13"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -3190,7 +2986,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -3202,17 +2997,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W26"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -3318,7 +3106,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -3330,17 +3117,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W27"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -3446,7 +3226,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -3458,17 +3237,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W3"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -3570,7 +3342,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -3582,17 +3353,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W21"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -3694,7 +3458,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -3706,17 +3469,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W30"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -3818,7 +3574,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -3830,17 +3585,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W2"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -3946,7 +3694,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -3958,17 +3705,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W22"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -4070,7 +3810,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -4082,17 +3821,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W5"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -4194,7 +3926,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -4206,17 +3937,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W1"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -4322,7 +4046,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -4334,17 +4057,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W15"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -4450,7 +4166,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -4462,17 +4177,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W12"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -4574,7 +4282,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -4586,17 +4293,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W37"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -4704,7 +4404,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -4716,17 +4415,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W4"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -10424,7 +10116,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -10436,7 +10127,6 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W32",
@@ -10684,14 +10374,6 @@
       "PL35-W98",
       "PL35-W99"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "unresolved_name_smiles_conflict",
-    "input_identity_issues": [
-      "汇总NH-底物扩展Q40/Q41为YL-4-OMe，但R40/R41为对甲基酮；相关组合保留原SMILES，实际称量/配液身份待核。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -10797,7 +10479,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -10809,17 +10490,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W6"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -10925,7 +10599,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -10937,17 +10610,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W11"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -11053,7 +10719,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -11065,17 +10730,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-2-PL45-W7"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -11173,7 +10831,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -11185,15 +10842,8 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "undetermined_scaleup_only",
     "unique_sample_ids": [],
-    "sample_id_status": "missing_unique_sample_id",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 1,
@@ -11291,7 +10941,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -11303,15 +10952,8 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "undetermined_scaleup_only",
     "unique_sample_ids": [],
-    "sample_id_status": "missing_unique_sample_id",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -11356,7 +10998,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [
       "没有与分支标签一致的带H或阴离子位点；不擅自换成其他成键中心。"
     ],
@@ -11365,22 +11006,13 @@
       "NP_label": "不适用",
       "NR": "不适用"
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "undetermined_scaleup_only",
     "unique_sample_ids": [],
-    "sample_id_status": "missing_unique_sample_id",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [
-      "所录结构缺少所标分支要求的X–H；执行确认不使此目标假设变为适用，也不等于反应失败。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": null,
@@ -11418,8 +11050,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -11464,27 +11096,19 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "undetermined_scaleup_only",
     "unique_sample_ids": [],
-    "sample_id_status": "missing_unique_sample_id",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -11522,8 +11146,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -11568,27 +11192,19 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "undetermined_scaleup_only",
     "unique_sample_ids": [],
-    "sample_id_status": "missing_unique_sample_id",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -11626,8 +11242,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -19440,19 +19056,17 @@
     "recorded_product_smiles": [
       "Cc1ccc(C(=O)/C=C(\\F)Oc2cccc3ccccc23)cc1"
     ],
-    "confirmation_status": "工作簿有产物SMILES文字记录，但未独立核对谱图，不能视为确证。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-PL37-W1",
@@ -19795,12 +19409,6 @@
       "PL34-W98",
       "PL34-W99"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -19838,8 +19446,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -19884,29 +19492,19 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "undetermined_scaleup_only",
     "unique_sample_ids": [],
-    "sample_id_status": "missing_unique_sample_id",
-    "input_identity_status": "unresolved_name_smiles_conflict",
-    "input_identity_issues": [
-      "汇总OH-底物扩展S80为YL-OMe，但T80为N-苯基三氟丙酰胺；保留原SMILES，实际投料身份待核。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -19944,8 +19542,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -20022,30 +19620,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W35",
       "CFC124009-19-1-PL46-W75"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -20083,8 +19673,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -20165,30 +19755,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W28",
       "CFC124009-19-1-PL46-W68"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -20226,8 +19808,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -20304,30 +19886,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W36",
       "CFC124009-19-1-PL46-W76"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -20365,8 +19939,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -20443,30 +20017,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W12",
       "CFC124009-19-1-PL46-W52"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -20504,8 +20070,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -20584,30 +20150,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W40",
       "CFC124009-19-1-PL46-W80"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -20645,8 +20203,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -20723,30 +20281,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W39",
       "CFC124009-19-1-PL46-W79"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -20784,8 +20334,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -20862,30 +20412,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W46",
       "CFC124009-19-1-PL46-W6"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -20923,8 +20465,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -21005,30 +20547,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W22",
       "CFC124009-19-1-PL46-W62"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -21066,8 +20600,8 @@
           "NP_label": "3",
           "NR": 3
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "存在羧酸O进攻选项，需区分烯基酯与酚氧烯醚；未核实该羧酸供体的目标串联。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -21144,30 +20678,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "3",
       "NR": 3
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W29",
       "CFC124009-19-1-PL46-W69"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 3,
@@ -21205,8 +20731,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -21283,30 +20809,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W37",
       "CFC124009-19-1-PL46-W77"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -21345,8 +20863,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -21477,19 +20995,17 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W17",
@@ -21497,12 +21013,6 @@
       "CFC124009-19-1-PL46-W57",
       "CFC124009-19-1-PL46-W64"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -21540,8 +21050,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -21618,30 +21128,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W16",
       "CFC124009-19-1-PL46-W56"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -21679,8 +21181,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -21757,30 +21259,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W11",
       "CFC124009-19-1-PL46-W51"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -21818,8 +21312,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -21896,30 +21390,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W18",
       "CFC124009-19-1-PL46-W58"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -22067,7 +21553,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [
       "同一伙伴存在多个非等价O–H位点；所列为可能的连接异构体，须用产物结构确证。"
     ],
@@ -22081,18 +21566,11 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W23",
       "CFC124009-19-1-PL46-W63"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -22130,8 +21608,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -22208,30 +21686,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W19",
       "CFC124009-19-1-PL46-W59"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -22269,8 +21739,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -22301,8 +21771,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -22379,7 +21849,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [
       "同一伙伴存在多个非等价O–H位点；所列为可能的连接异构体，须用产物结构确证。"
     ],
@@ -22388,23 +21857,16 @@
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W49",
       "CFC124009-19-1-PL46-W9"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -22442,8 +21904,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -22520,30 +21982,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W45",
       "CFC124009-19-1-PL46-W5"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -22581,8 +22035,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -22659,30 +22113,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W2",
       "CFC124009-19-1-PL46-W42"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -22720,8 +22166,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -22798,30 +22244,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W13",
       "CFC124009-19-1-PL46-W53"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -22859,8 +22297,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -22937,30 +22375,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W32",
       "CFC124009-19-1-PL46-W72"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -22998,8 +22428,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -23076,30 +22506,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W20",
       "CFC124009-19-1-PL46-W60"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -23137,8 +22559,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -23215,30 +22637,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W30",
       "CFC124009-19-1-PL46-W70"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -23276,8 +22690,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -23354,30 +22768,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W21",
       "CFC124009-19-1-PL46-W61"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -23415,8 +22821,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -23493,30 +22899,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W47",
       "CFC124009-19-1-PL46-W7"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -23554,8 +22952,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -23632,30 +23030,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W38",
       "CFC124009-19-1-PL46-W78"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -23693,8 +23083,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -23771,30 +23161,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W34",
       "CFC124009-19-1-PL46-W74"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -23832,8 +23214,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -23914,30 +23296,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W26",
       "CFC124009-19-1-PL46-W66"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -23975,8 +23349,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -24053,30 +23427,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W31",
       "CFC124009-19-1-PL46-W71"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -24114,8 +23480,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -24192,30 +23558,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W3",
       "CFC124009-19-1-PL46-W43"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -24253,8 +23611,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -24333,30 +23691,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W10",
       "CFC124009-19-1-PL46-W50"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -24394,8 +23744,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -24472,30 +23822,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W48",
       "CFC124009-19-1-PL46-W8"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -24533,8 +23875,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -24590,29 +23932,21 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W54"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -24650,8 +23984,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -24728,30 +24062,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W15",
       "CFC124009-19-1-PL46-W55"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -24789,8 +24115,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -24871,30 +24197,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W27",
       "CFC124009-19-1-PL46-W67"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -24932,8 +24250,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -25013,30 +24331,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W1",
       "CFC124009-19-1-PL46-W41"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -25074,8 +24384,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "醇/酚形成单氟烯醚已有；目标羰基骨架、取代和位点属于范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -25152,30 +24462,22 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-1-PL46-W25",
       "CFC124009-19-1-PL46-W65"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -25213,8 +24515,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "Ph2PH从未活化CF3底物形成单氟膦已有37%先例，本芳酰基底物是范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -25255,29 +24557,21 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-PL22-W2"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -25315,8 +24609,8 @@
           "NP_label": "2",
           "NR": 2
         },
-        "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-        "review_status": "retained_not_independently_rescored",
+        "score_change_reason": "Reviewed NP/NR values retained.",
+        "review_status": "reviewed_scores_retained",
         "assessment": "Ph2PH从未活化CF3底物形成单氟膦已有37%先例，本芳酰基底物是范围差别。",
         "NP_status": "inherited_bounded_assessment",
         "NR_status": "inherited_bounded_assessment",
@@ -25357,29 +24651,21 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
       "NP_label": "2",
       "NR": 2
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-PL22-W1"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -25491,7 +24777,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -25503,17 +24788,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W3"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -36095,7 +35373,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -36107,7 +35384,6 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W20",
@@ -36449,12 +35725,6 @@
       "PL33-W98",
       "PL33-W99"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -36567,7 +35837,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -36579,17 +35848,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W8"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -36701,7 +35963,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -36713,17 +35974,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W11"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -36836,7 +36090,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -36848,17 +36101,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W6"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -36968,7 +36214,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -36980,17 +36225,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W13"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -37102,7 +36340,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -37114,17 +36351,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W16"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -37236,7 +36466,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -37248,17 +36477,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W9"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 1,
@@ -37368,7 +36590,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -37380,17 +36601,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W7"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -37505,7 +36719,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -37517,17 +36730,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W15"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -37637,7 +36843,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -37649,17 +36854,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W19"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -37769,7 +36967,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -37781,17 +36978,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W12"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -37901,7 +37091,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -37913,17 +37102,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W10"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -38033,7 +37215,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -38045,17 +37226,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W18"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -38165,7 +37339,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -38177,17 +37350,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W4"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -38304,7 +37470,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -38316,17 +37481,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W2"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 1,
@@ -38380,7 +37538,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [
       "没有与分支标签一致的带H或阴离子位点；不擅自换成其他成键中心。"
     ],
@@ -38389,24 +37546,15 @@
       "NP_label": "不适用",
       "NR": "不适用"
     },
-    "score_change_reason": "保留既有数值；本次未逐项重新穷尽查新。",
-    "review_status": "retained_not_independently_rescored",
+    "score_change_reason": "Reviewed NP/NR values retained.",
+    "review_status": "reviewed_scores_retained",
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W17"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [
-      "所录结构缺少所标分支要求的X–H；执行确认不使此目标假设变为适用，也不等于反应失败。"
-    ],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": null,
@@ -38516,7 +37664,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -38528,17 +37675,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W14"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -38648,7 +37788,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -38660,17 +37799,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W5"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,
@@ -38780,7 +37912,6 @@
       }
     ],
     "recorded_product_smiles": [],
-    "confirmation_status": "产物为按实际原料及SH/NH/OH/PH标签生成的待验证结构；当前提取未提供明确产物SMILES及经核对谱图。",
     "issues": [],
     "version": "2026-10-23-review-revision-v1",
     "previous_score": {
@@ -38792,17 +37923,10 @@
     "execution_status": "executed",
     "execution_evidence_source": "author_confirmation2026-10-23",
     "execution_confirmation_date": "2026-10-23",
-    "execution_evidence_note": "作者确认全部108个组合均已实际执行；该确认只更新执行状态，不代替投料身份、谱图和定量核验。",
     "execution_status_before_review": "workbook_recorded",
     "unique_sample_ids": [
       "CFC124009-19-3-PL43-W1"
     ],
-    "sample_id_status": "recorded_not_independently_audited",
-    "input_identity_status": "workbook_structure_not_independently_verified",
-    "input_identity_issues": [],
-    "product_identity_status": "not_independently_confirmed",
-    "quantitative_result_status": "not_independently_calibrated_or_verified",
-    "structure_basis": "原表采用的SMILES假设，未因作者确认执行而更改结构",
     "NP_all_resolved": true,
     "NP_unresolved_options": [],
     "NP_min": 2,

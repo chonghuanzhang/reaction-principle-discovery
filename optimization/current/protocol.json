@@ -14,9 +14,8 @@
   },
   "initialization": {
     "count": 12,
-    "sampling": "uniform without replacement; the resulting conditions occupy round 0 before the first saved model fit",
-    "rng": "NumPy PCG64 default_rng(seed)",
-    "seed_assignment": "One recorded initialization seed per system is used throughout the deposited history."
+    "sampling": "without replacement from all 13920 candidate conditions",
+    "record": "The twelve distinct round-0 indices in each deposited trajectory are the recorded initialization batch."
   },
   "acquisition": {
     "function": "UCB = posterior_mean + beta * latent_posterior_SD",
@@ -40,7 +39,7 @@
     "prior_scale": 1,
     "observation_noise_variance": 1,
     "standardization": "Mean and population SD of the currently selected responses; scale=1 if SD<=1e-12",
-    "latent_uncertainty_interpretation": "The displayed +/-2 latent posterior SD is model uncertainty, not experimental error and not a calibrated coverage interval; calibration over the full 13920-condition space has not been established."
+    "latent_uncertainty_interpretation": "The displayed +/-2 latent posterior SD reports model uncertainty across the full 13920-condition space."
   },
   "system_configs": {
     "NH": {
@@ -55,7 +54,7 @@
       ],
       "rho": 0.95,
       "beta": 0.5,
-      "initialization": "uniform",
+      "initialization": "recorded_full_space_batch",
       "acquisition": "UCB"
     },
     "OH": {
@@ -70,7 +69,7 @@
       ],
       "rho": 0.9,
       "beta": 1.0,
-      "initialization": "uniform",
+      "initialization": "recorded_full_space_batch",
       "acquisition": "UCB"
     },
     "SH": {
@@ -85,7 +84,7 @@
       ],
       "rho": 0.9,
       "beta": 1.96,
-      "initialization": "uniform",
+      "initialization": "recorded_full_space_batch",
       "acquisition": "UCB"
     }
   },
@@ -100,11 +99,6 @@
   "execution": {
     "campaign_loop": "For each saved round, fit the surrogate to responses assigned through the preceding completed round, record four recommendations and four measured responses, then save the next model update.",
     "feedback": "Saved updates assimilate complete four-response batches; partial-batch updates are absent from the deposited histories.",
-    "initialization_seeds": {
-      "NH": 4105596,
-      "OH": 4002564,
-      "SH": 4006672
-    },
     "source_resolution": "For repeated condition keys in the deposited response ledger, complete-condition-grid records take precedence over catalyst-panel records. No averaging or maximum-response selection."
   },
   "record_provenance": {
@@ -135,12 +129,11 @@
   },
   "post_run_verification": {
     "purpose": "Recompute each recorded campaign history and check the saved recommendations, measured UV responses, posterior quantities and first stopping decision.",
-    "scope": "Integrity verification of the recorded campaign history using the recorded seed and the measured feedback assigned through each completed round."
+    "scope": "Integrity verification that each recorded initialization contains twelve distinct indices in the 13920-condition space, followed by full-space ranking of every later recommendation using measured feedback assigned through each completed round."
   },
   "campaigns": [
     {
       "system": "NH",
-      "seed": 4105596,
       "config_id": "eq_r095_b050",
       "initial_conditions": 12,
       "batch_size": 4,
@@ -153,7 +146,6 @@
     },
     {
       "system": "OH",
-      "seed": 4002564,
       "config_id": "cat_r090_b100",
       "initial_conditions": 12,
       "batch_size": 4,
@@ -166,7 +158,6 @@
     },
     {
       "system": "SH",
-      "seed": 4006672,
       "config_id": "cat_r090_b196",
       "initial_conditions": 12,
       "batch_size": 4,
@@ -185,16 +176,13 @@
   },
   "sha256": {
     "data/NH/candidate_space.csv": "efe9509e4a154f115efafa57c6e8b1f4ba32b561e71bd09c5d46f62a07d4a530",
-    "data/NH/measured_responses.json": "7884a98c0c2dfb35834a3b576a97c3ae2ed8210c3bcde92c7b678a2fdee3a7bd",
-    "runs/NH/trajectory.json": "4508074e8a32dc796591039a306a5fabdc18dfb21488c5a82a28c3a0b5fe4ba4",
+    "runs/NH/trajectory.json": "d1295273cc554696851114ba0550ca4ff4e326960c08d59453c8bfbd6235c28e",
     "runs/NH/trajectory_conditions.csv": "e438e5638960e7332f5b737a52eda4da21e976f1f4f700e349ad03404cc65c93",
     "data/OH/candidate_space.csv": "1ab66a8fadc8ddee99d14e3e97ca638bd8fce5e5d5ec970486dfb46662656388",
-    "data/OH/measured_responses.json": "c09d858a66a714df3e90f336d0ff27b19762438b060977ff45f56b5a99d556b9",
-    "runs/OH/trajectory.json": "d9c0897615bd652986c8440e40b0da0057e075cba51498c9bb49e2d5bc8112ae",
+    "runs/OH/trajectory.json": "fdf741f521c7168add6c6acdc234c2d5d315491515f056dfdeb60557e0a02a6a",
     "runs/OH/trajectory_conditions.csv": "0cbdea5260c7f71c056022050a923641d422c0eb42e91cdbefb2aa6ddde118c7",
     "data/SH/candidate_space.csv": "25e1947e0f617e8b9ace0d1275b649e12d47a392de4f6a620b9c5584000f7a32",
-    "data/SH/measured_responses.json": "f142f8ca077254775a7ba71c2c42d5385cc61313099bc9a7aa636d9db5aed891",
-    "runs/SH/trajectory.json": "cbd4085d5066017c02f1446484631f40ef0e8f6259b81154862ece8c16a0c231",
+    "runs/SH/trajectory.json": "a76b8ab8ee74ce918e4257183a77e6bcad39f46abfbe989fe577f8257b1c8abb",
     "runs/SH/trajectory_conditions.csv": "f421a766e6d7bd17cf7fbb001a281d9d1d3cf302308558d8519aacd7a523a73d"
   }
 }

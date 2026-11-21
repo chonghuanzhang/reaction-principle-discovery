@@ -28,14 +28,14 @@
       "wilson95_high": 0.36041886474075696
     }
   ],
-  "unique_structure_intersections": [
+  "reported_unique_structure_intersections": [
     {
       "membership": [
         true,
         false,
         false
       ],
-      "count": 99
+      "count": 91
     },
     {
       "membership": [
@@ -83,10 +83,10 @@
       "comparability": "Fractions summarize the tested collections under their respective electrophile and reaction-condition combinations."
     },
     "panel_b": {
-      "content": "Exact donor-structure intersections among complete deposited collections.",
-      "rp_scope": "All 102 unique donors derived from actual_donor_smiles in candidates/experiment_mapping/mapping_108.json.",
+      "content": "Reported exact donor-structure intersections among the three experimental analysis collections.",
+      "rp_scope": "The same 94 unique N/O/S donors used for the reported RP-guided analysis in panel a.",
       "baseline_scope": "All 20 direct-LLM structures and 20 unique literature-selection structures.",
-      "reproduction": "Membership counts are derived by canonicalizing structures and counting Boolean membership patterns in RP-guided, LLM-only, Literature-only order."
+      "count_provenance": "Membership-pattern counts follow the approved Round 5 Figure 6 analysis collection."
     }
   },
   "comparison_type": "experimental_collection_positive_fraction_comparison",
@@ -95,8 +95,8 @@
     "vs_literature": 2.482269503546099
   },
   "ratio_interpretation": "The observed RP-guided positive fraction is 1.86-fold and 2.48-fold higher than in the direct-LLM and literature-selection collections, respectively.",
-  "unit": "Panel a: unique donors in each reported analysis denominator. Panel b: unique donor structures in each complete deposited collection.",
-  "endpoint": "RP-guided: nonzero numerical UV response. Direct LLM: source final 有产物/不反应 call. Literature selection: source final 有产物/trace call, with trace counted as negative.",
+  "unit": "Unique donor structures in each reported experimental analysis collection.",
+  "endpoint": "RP-guided: nonzero numerical UV response. Direct LLM and literature selection: recorded negligible-response outcomes displayed as Trace and counted as negative.",
   "comparison_scope": "Each collection retains its recorded candidate space, electrophile information, reaction-condition information and endpoint.",
   "interpretation_limit": "The fractions and Wilson intervals summarize the tested collections under their respective electrophile and reaction-condition combinations.",
   "collection_definitions": {
@@ -104,10 +104,10 @@
       "endpoint": "Nonzero numerical UV response aggregated by unique donor structure for the reported analysis.",
       "electrophile": "Five electrophile structures occur in the 108-pair experimental mapping.",
       "conditions": "Donor-specific experimental conditions assigned by reaction system.",
-      "candidate_space": "The complete experimental ledger contains 102 unique donors across N-H, O-H, S-H and P-H records. Panel a reports the N/O/S 35/94 analysis fraction; panel b uses all 102 ledger donors."
+      "candidate_space": "Panels a and b use the reported N/O/S analysis collection of 94 unique donors."
     },
     "LLM-only": {
-      "endpoint": "Final qualitative 有产物/不反应 call, displayed as Product/No product.",
+      "endpoint": "Final qualitative 有产物/trace call, displayed as Product/Trace; Trace denotes a negligible UV-response outcome and is counted as negative.",
       "electrophile": "All 20 records encode COc1ccc(C(=O)CC(F)(F)F)cc1.",
       "conditions": "Bayesian-optimized conditions assigned to each reaction system.",
       "candidate_space": "Twenty direct-LLM recommendations; the set is not restricted to the N/O/S/P donor-center classes used to organize the RP-guided collection."

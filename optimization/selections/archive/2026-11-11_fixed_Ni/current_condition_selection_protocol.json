@@ -1,6 +1,7 @@
 {
-  "version": "2026-11-11_current_condition_selection",
-  "analysis_type": "Bayesian condition selection",
+  "version": "2026-11-11_representative_slice_diagnostic",
+  "analysis_type": "Archived representative-slice diagnostic",
+  "manuscript_campaign_scope": "Recorded N-H, O-H and S-H histories in optimization/current/runs rank the complete 13,920-condition decision space per system.",
   "systems": {
     "NH_PL36": {
       "catalyst": "Ag2SO4/PPh3",
@@ -15,14 +16,15 @@
     }
   },
   "candidate_space": {
+    "role": "representative source slices retained for diagnostics",
     "bases_or_additives": 12,
     "solvents": 8,
     "conditions_per_system": 96,
     "catalyst_fixed": true
   },
-  "initial_design": "uniform random sample of 12 candidate indices without replacement; existing reference seeds retained without an outcome-based seed search",
+  "initial_design": "archived diagnostic draw of 12 source-slice rows without replacement; manuscript initial batches are recorded in optimization/current/runs",
   "model": "model/bo_core.py; standardized 116-dimensional categorical feature kernel; normal–inverse-gamma Bayesian linear regression",
-  "acquisition": "latent posterior mean + 1.96 * latent posterior SD; frozen posterior for each batch of 12",
+  "acquisition": "representative-slice diagnostic: latent posterior mean + 1.96 * latent posterior SD; posterior updated between batches and held constant while selecting each batch of 12",
   "model_input_boundary": "only previously selected experimental response labels; no full-pool labels or known optimum supplied to the policy or stop monitor",
   "analysis_budget": {
     "batches": 5,
@@ -32,7 +34,7 @@
   },
   "stopping_protocol": "selections/stopping_protocol.json",
   "historical_benchmark_protocol": "model/analysis_protocol.json",
-  "data_provenance": "Original workbook bytes and the complete historical measurement/benchmark exports are retained unchanged; numerical selections do not establish dated laboratory chronology.",
+  "data_provenance": "Original workbook bytes and the complete archived diagnostic exports are retained unchanged; manuscript campaign histories are deposited in optimization/current/runs.",
   "response_labels": "UV response",
   "label_correction_provenance": "selections/response_source_audit.json"
 }

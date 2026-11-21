@@ -1,6 +1,6 @@
 {
   "created_at": "2026-09-07T00:12:31.424817+00:00",
-  "freeze_version": "admission-rerun-v1",
+  "archive_version": "admission-rerun-v1",
   "hidden_answers_revealed": false,
   "principles": [
     {
@@ -29,7 +29,7 @@
       "contradictory_evidence": [],
       "experimental_consequence": "A base-identity, base-loading, and temperature matrix should change the ratio of desired monofluoroalkene to fully defluorinated alkene, with harsher conditions favoring over-defluorination even when total conversion rises.",
       "falsifying_experiment": "Run quantitative time courses at the grounded condition and at systematically stronger-base or higher-temperature conditions, measuring starting material, coupled monofluoroalkene, fully defluorinated alkene, other fluorinated products, and fluorine mass balance. Invariant mono/over-defluorination ratios, or monotonic improvement without increased over-defluorination, would falsify the principle.",
-      "freeze_version": "admission-rerun-v1",
+      "archive_version": "admission-rerun-v1",
       "known_exceptions": [
         "No quantitative base-strength or temperature threshold is established.",
         "The reported relation may be substrate-specific.",
@@ -107,7 +107,7 @@
       "contradictory_evidence": [],
       "experimental_consequence": "Matched Seed-condition comparisons that vary one partner feature at a time should determine whether the reported limitations track electronics, coordination, steric congestion, reactive-form stability, or interactions among those variables; no aryl-versus-alkyl boundary is established in advance.",
       "falsifying_experiment": "Under otherwise matched Seed conditions, test organoboron partners that independently vary steric congestion, coordination ability, and electronics, including matched cyclic carbon donors with and without the reported protecting-group environment. Quantify reagent persistence, desired coupling, protodeboronation, and over-defluorination. Reproducible performance independent of all varied features would falsify the proposed multivariable dependence, while a resolved and exception-free alkyl boundary would falsify the claim that the family boundary remains unresolved.",
-      "freeze_version": "admission-rerun-v1",
+      "archive_version": "admission-rerun-v1",
       "known_exceptions": [
         "The productive protected piperidinyl boronic-ester model conflicts with the manuscript's alkyl-organoboron failure statement.",
         "Selected heteroaryl or electronically varied partners working in other catalytic systems do not establish Seed compatibility.",
@@ -198,7 +198,7 @@
       ],
       "experimental_consequence": "An independently prepared or generated Seed-relevant gem-difluoroenone can support an on-pathway assignment only if it enters product formation under grounded or explicitly bridged conditions at a rate compatible with turnover; tests of Pd nuclearity, carbonyl involvement, labeling, and radical behavior must distinguish the proposed sequence from supplied alternatives.",
       "falsifying_experiment": "Independently prepare or generate a faithful gem-difluoroenone, establish its identity and concentration by orthogonal analysis, and compare its product-forming rate with that of the parent Seed substrate under grounded conditions. Failure to form the Seed product at a kinetically competent rate would falsify its assignment as an obligatory productive intermediate; Pd-order, carbonyl-perturbation, isotope-label, and radical-clock results incompatible with the proposed sequence would falsify the corresponding elementary-step assignments.",
-      "freeze_version": "admission-rerun-v1",
+      "archive_version": "admission-rerun-v1",
       "known_exceptions": [
         "Failure to accumulate an intermediate does not exclude fast reversible formation.",
         "Spectral similarity alone does not establish intermediate identity.",
@@ -286,7 +286,7 @@
       "contradictory_evidence": [],
       "experimental_consequence": "A structurally verified beta-fluoro intermediate should produce a fluorinated alkene with mapped fluoride loss under validated conditions if the local elimination hypothesis applies; matched changes that remove the beta relationship or prevent the required geometry should perturb that behavior.",
       "falsifying_experiment": "Prepare matched, atom-mapped intermediates with and without the beta-fluoro arrangement, verify that the proposed reactive forms are generated, and expose them to otherwise identical validated conditions. Absence of beta-fluoride elimination from the verified beta-fluoro intermediate, or indistinguishable fluoride loss and alkene connectivity from controls lacking the required beta relationship or geometry, would falsify the local transfer for that system.",
-      "freeze_version": "admission-rerun-v1",
+      "archive_version": "admission-rerun-v1",
       "known_exceptions": [
         "A beta hydrogen may enable competing beta-hydrogen elimination.",
         "Protic media may redirect the intermediate to hydrofunctionalization, substitution, decomposition, or complete defluorination.",
@@ -374,7 +374,7 @@
       "contradictory_evidence": [],
       "experimental_consequence": "For an applicable system, time or condition changes should alter the distribution between partial defluorination, further defluorination, and decomposition independently of total conversion; the direction must be established experimentally for that system.",
       "falsifying_experiment": "Starting from a productive baseline, perform time courses that independently vary temperature, base identity or loading, donor-to-electrophile ratio, controlled water, and selected fluoride scavengers. Include isolated-product resubjection and calibrated crude-versus-isolated analysis. If the verified partially defluorinated species is not consumed and fluorination-state distributions remain invariant across the validated window, the kinetic-stopping-point principle is falsified for that system.",
-      "freeze_version": "admission-rerun-v1",
+      "archive_version": "admission-rerun-v1",
       "known_exceptions": [
         "Some fluorinated products may be persistent across the tested window.",
         "Water or salts may affect organoboron or catalyst speciation without directly controlling fluoride loss.",

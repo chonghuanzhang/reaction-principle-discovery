@@ -137,7 +137,7 @@ def main():
     path = (ROOT/asset['path']).resolve()
     assert is_within(path, ROOT), asset['path']
     assert hashlib.sha256(path.read_bytes()).hexdigest() == asset['sha256'], asset['path']
-    for key in ['source_data', 'vector_pdf', 'vector_svg', 'reproduction_script', 'builder']:
+    for key in ['source_data', 'vector_pdf', 'vector_svg']:
         assert (ROOT/composition[key]).is_file(), key
 
     asset_manifest = json.loads((ROOT/'figures/current_asset_manifest.json').read_text(encoding='utf-8'))

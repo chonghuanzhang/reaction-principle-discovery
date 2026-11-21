@@ -85,7 +85,6 @@
         "actual_pair_id": "AP038",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(Nc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -123,7 +122,6 @@
         "actual_pair_id": "AP016",
         "route": "NH",
         "actual_donor_smiles": "CNc1ccncc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -161,7 +159,6 @@
         "actual_pair_id": "AP035",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(CNc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -267,7 +264,6 @@
         "actual_pair_id": "AP044",
         "route": "NH",
         "actual_donor_smiles": "c1ccc2c(c1)CCN2",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -297,7 +293,6 @@
         "actual_pair_id": "AP021",
         "route": "NH",
         "actual_donor_smiles": "Cc1ccc2c(c1)CCCN2",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -335,7 +330,6 @@
         "actual_pair_id": "AP040",
         "route": "NH",
         "actual_donor_smiles": "c1ccc2c(c1)Nc1ccccc1S2",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -451,7 +445,6 @@
         "actual_pair_id": "AP028",
         "route": "NH",
         "actual_donor_smiles": "O=C(O)c1ccc2[nH]cnc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -489,7 +482,6 @@
         "actual_pair_id": "AP001",
         "route": "NH",
         "actual_donor_smiles": "CC(C)(C)c1ncc[nH]1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -592,7 +584,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -630,7 +621,6 @@
         "actual_pair_id": "AP096",
         "route": "SH",
         "actual_donor_smiles": "COc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -668,7 +658,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -779,7 +768,6 @@
         "actual_pair_id": "AP101",
         "route": "SH",
         "actual_donor_smiles": "Fc1ccc(CS)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -817,7 +805,6 @@
         "actual_pair_id": "AP099",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccccc1CS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -855,7 +842,6 @@
         "actual_pair_id": "AP107",
         "route": "SH",
         "actual_donor_smiles": "SC(c1ccccc1)(c1ccccc1)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -966,7 +952,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -1004,7 +989,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -1042,7 +1026,6 @@
         "actual_pair_id": "AP090",
         "route": "SH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -6555,7 +6538,6 @@
         "actual_pair_id": "AP096",
         "route": "SH",
         "actual_donor_smiles": "COc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -6593,7 +6575,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -6631,7 +6612,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -6745,7 +6725,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -6783,7 +6762,6 @@
         "actual_pair_id": "AP100",
         "route": "SH",
         "actual_donor_smiles": "FC(F)(F)c1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -6821,7 +6799,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -6933,7 +6910,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -6971,7 +6947,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -7009,7 +6984,6 @@
         "actual_pair_id": "AP090",
         "route": "SH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -12520,7 +12494,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -12558,7 +12531,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -12596,7 +12568,6 @@
         "actual_pair_id": "AP090",
         "route": "SH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18107,7 +18078,6 @@
         "actual_pair_id": "AP098",
         "route": "SH",
         "actual_donor_smiles": "Cc1cccc(C)c1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18145,7 +18115,6 @@
         "actual_pair_id": "AP095",
         "route": "SH",
         "actual_donor_smiles": "COC(=O)c1ccccc1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18183,7 +18152,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18294,7 +18262,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18332,7 +18299,6 @@
         "actual_pair_id": "AP098",
         "route": "SH",
         "actual_donor_smiles": "Cc1cccc(C)c1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18370,7 +18336,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18479,7 +18444,6 @@
         "actual_pair_id": "AP106",
         "route": "SH",
         "actual_donor_smiles": "OCCCS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18517,7 +18481,6 @@
         "actual_pair_id": "AP094",
         "route": "SH",
         "actual_donor_smiles": "COC(=O)CCS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18555,7 +18518,6 @@
         "actual_pair_id": "AP102",
         "route": "SH",
         "actual_donor_smiles": "N#CCCS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18664,7 +18626,6 @@
         "actual_pair_id": "AP099",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccccc1CS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18702,7 +18663,6 @@
         "actual_pair_id": "AP107",
         "route": "SH",
         "actual_donor_smiles": "SC(c1ccccc1)(c1ccccc1)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18740,7 +18700,6 @@
         "actual_pair_id": "AP101",
         "route": "SH",
         "actual_donor_smiles": "Fc1ccc(CS)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18853,7 +18812,6 @@
         "actual_pair_id": "AP001",
         "route": "NH",
         "actual_donor_smiles": "CC(C)(C)c1ncc[nH]1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -18883,7 +18841,6 @@
         "actual_pair_id": "AP028",
         "route": "NH",
         "actual_donor_smiles": "O=C(O)c1ccc2[nH]cnc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -18995,7 +18952,6 @@
         "actual_pair_id": "AP001",
         "route": "NH",
         "actual_donor_smiles": "CC(C)(C)c1ncc[nH]1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -19025,7 +18981,6 @@
         "actual_pair_id": "AP028",
         "route": "NH",
         "actual_donor_smiles": "O=C(O)c1ccc2[nH]cnc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19140,7 +19095,6 @@
         "actual_pair_id": "AP005",
         "route": "NH",
         "actual_donor_smiles": "Brc1ccc2[nH]ccc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19178,7 +19132,6 @@
         "actual_pair_id": "AP024",
         "route": "NH",
         "actual_donor_smiles": "Fc1ccc2[nH]ccc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19216,7 +19169,6 @@
         "actual_pair_id": "AP026",
         "route": "NH",
         "actual_donor_smiles": "N#Cc1ccc2cc[nH]c2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19326,7 +19278,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19380,7 +19331,6 @@
         "actual_pair_id": "AP051",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19434,7 +19384,6 @@
         "actual_pair_id": "AP063",
         "route": "OH",
         "actual_donor_smiles": "N#Cc1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19563,7 +19512,6 @@
         "actual_pair_id": "AP054",
         "route": "OH",
         "actual_donor_smiles": "CCCCCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19617,7 +19565,6 @@
         "actual_pair_id": "AP055",
         "route": "OH",
         "actual_donor_smiles": "CN1CCC(O)C1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19671,7 +19618,6 @@
         "actual_pair_id": "AP052",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(O)C(=O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19797,7 +19743,6 @@
         "actual_pair_id": "AP054",
         "route": "OH",
         "actual_donor_smiles": "CCCCCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19851,7 +19796,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -19905,7 +19849,6 @@
         "actual_pair_id": "AP059",
         "route": "OH",
         "actual_donor_smiles": "COc1ccc(CCO)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -20032,7 +19975,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -20070,7 +20012,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -20108,7 +20049,6 @@
         "actual_pair_id": "AP090",
         "route": "SH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -25617,7 +25557,6 @@
         "actual_pair_id": "AP106",
         "route": "SH",
         "actual_donor_smiles": "OCCCS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -25655,7 +25594,6 @@
         "actual_pair_id": "AP094",
         "route": "SH",
         "actual_donor_smiles": "COC(=O)CCS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -25693,7 +25631,6 @@
         "actual_pair_id": "AP099",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccccc1CS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -25799,7 +25736,6 @@
         "actual_pair_id": "AP038",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(Nc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -25837,7 +25773,6 @@
         "actual_pair_id": "AP035",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(CNc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -25875,7 +25810,6 @@
         "actual_pair_id": "AP016",
         "route": "NH",
         "actual_donor_smiles": "CNc1ccncc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -25982,7 +25916,6 @@
         "actual_pair_id": "AP010",
         "route": "NH",
         "actual_donor_smiles": "CCCCN1CCNCC1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26020,7 +25953,6 @@
         "actual_pair_id": "AP034",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(C2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26058,7 +25990,6 @@
         "actual_pair_id": "AP037",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(N2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26165,7 +26096,6 @@
         "actual_pair_id": "AP010",
         "route": "NH",
         "actual_donor_smiles": "CCCCN1CCNCC1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26203,7 +26133,6 @@
         "actual_pair_id": "AP034",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(C2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26241,7 +26170,6 @@
         "actual_pair_id": "AP037",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(N2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26349,7 +26277,6 @@
         "actual_pair_id": "AP010",
         "route": "NH",
         "actual_donor_smiles": "CCCCN1CCNCC1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26387,7 +26314,6 @@
         "actual_pair_id": "AP034",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(C2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26425,7 +26351,6 @@
         "actual_pair_id": "AP037",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(N2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26530,7 +26455,6 @@
         "actual_pair_id": "AP034",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(C2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26568,7 +26492,6 @@
         "actual_pair_id": "AP037",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(N2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26606,7 +26529,6 @@
         "actual_pair_id": "AP033",
         "route": "NH",
         "actual_donor_smiles": "c1cc(N2CCNCC2)ccn1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26713,7 +26635,6 @@
         "actual_pair_id": "AP010",
         "route": "NH",
         "actual_donor_smiles": "CCCCN1CCNCC1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26751,7 +26672,6 @@
         "actual_pair_id": "AP037",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(N2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26789,7 +26709,6 @@
         "actual_pair_id": "AP033",
         "route": "NH",
         "actual_donor_smiles": "c1cc(N2CCNCC2)ccn1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26906,7 +26825,6 @@
         "actual_pair_id": "AP028",
         "route": "NH",
         "actual_donor_smiles": "O=C(O)c1ccc2[nH]cnc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -26944,7 +26862,6 @@
         "actual_pair_id": "AP001",
         "route": "NH",
         "actual_donor_smiles": "CC(C)(C)c1ncc[nH]1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -27050,7 +26967,6 @@
         "actual_pair_id": "AP028",
         "route": "NH",
         "actual_donor_smiles": "O=C(O)c1ccc2[nH]cnc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27088,7 +27004,6 @@
         "actual_pair_id": "AP001",
         "route": "NH",
         "actual_donor_smiles": "CC(C)(C)c1ncc[nH]1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -27197,7 +27112,6 @@
         "actual_pair_id": "AP028",
         "route": "NH",
         "actual_donor_smiles": "O=C(O)c1ccc2[nH]cnc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27235,7 +27149,6 @@
         "actual_pair_id": "AP001",
         "route": "NH",
         "actual_donor_smiles": "CC(C)(C)c1ncc[nH]1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -27340,7 +27253,6 @@
         "actual_pair_id": "AP025",
         "route": "NH",
         "actual_donor_smiles": "Ic1ccc2[nH]c3ccccc3c2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27378,7 +27290,6 @@
         "actual_pair_id": "AP017",
         "route": "NH",
         "actual_donor_smiles": "COc1ccc2c(c1)[nH]c1ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27416,7 +27327,6 @@
         "actual_pair_id": "AP020",
         "route": "NH",
         "actual_donor_smiles": "Cc1ccc2[nH]c3ccc(C)cc3c2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27530,7 +27440,6 @@
         "actual_pair_id": "AP032",
         "route": "NH",
         "actual_donor_smiles": "Oc1cnc2[nH]ccc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27568,7 +27477,6 @@
         "actual_pair_id": "AP023",
         "route": "NH",
         "actual_donor_smiles": "Cc1cccc2cc[nH]c12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27606,7 +27514,6 @@
         "actual_pair_id": "AP005",
         "route": "NH",
         "actual_donor_smiles": "Brc1ccc2[nH]ccc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27713,7 +27620,6 @@
         "actual_pair_id": "AP008",
         "route": "NH",
         "actual_donor_smiles": "CC(=O)Nc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27751,7 +27657,6 @@
         "actual_pair_id": "AP013",
         "route": "NH",
         "actual_donor_smiles": "CNC(=O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27789,7 +27694,6 @@
         "actual_pair_id": "AP029",
         "route": "NH",
         "actual_donor_smiles": "O=C1Cc2ccccc2N1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27898,7 +27802,6 @@
         "actual_pair_id": "AP029",
         "route": "NH",
         "actual_donor_smiles": "O=C1Cc2ccccc2N1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27936,7 +27839,6 @@
         "actual_pair_id": "AP030",
         "route": "NH",
         "actual_donor_smiles": "O=C1NC(=O)C2CCC=CC12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -27974,7 +27876,6 @@
         "actual_pair_id": "AP031",
         "route": "NH",
         "actual_donor_smiles": "O=C1Nc2ccc(F)cc2C1=O",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -28081,7 +27982,6 @@
         "actual_pair_id": "AP003",
         "route": "NH",
         "actual_donor_smiles": "O=C1NC(=O)C2CCCC12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -28111,7 +28011,6 @@
         "actual_pair_id": "AP031",
         "route": "NH",
         "actual_donor_smiles": "O=C1Nc2ccc(F)cc2C1=O",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -28149,7 +28048,6 @@
         "actual_pair_id": "AP008",
         "route": "NH",
         "actual_donor_smiles": "CC(=O)Nc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -28324,7 +28222,6 @@
         "actual_pair_id": "AP003",
         "route": "NH",
         "actual_donor_smiles": "O=C1NC(=O)C2CCCC12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -28423,7 +28320,6 @@
         "actual_pair_id": "AP003",
         "route": "NH",
         "actual_donor_smiles": "O=C1NC(=O)C2CCCC12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -28453,7 +28349,6 @@
         "actual_pair_id": "AP029",
         "route": "NH",
         "actual_donor_smiles": "O=C1Cc2ccccc2N1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -28491,7 +28386,6 @@
         "actual_pair_id": "AP030",
         "route": "NH",
         "actual_donor_smiles": "O=C1NC(=O)C2CCC=CC12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -28598,7 +28492,6 @@
         "actual_pair_id": "AP013",
         "route": "NH",
         "actual_donor_smiles": "CNC(=O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -28636,7 +28529,6 @@
         "actual_pair_id": "AP008",
         "route": "NH",
         "actual_donor_smiles": "CC(=O)Nc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -28674,7 +28566,6 @@
         "actual_pair_id": "AP003",
         "route": "NH",
         "actual_donor_smiles": "O=C1NC(=O)C2CCCC12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -28776,7 +28667,6 @@
         "actual_pair_id": "AP047",
         "route": "OH",
         "actual_donor_smiles": "Oc1cccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -28806,7 +28696,6 @@
         "actual_pair_id": "AP048",
         "route": "OH",
         "actual_donor_smiles": "Oc1cccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -34236,7 +34125,6 @@
         "actual_pair_id": "AP065",
         "route": "OH",
         "actual_donor_smiles": "O=Cc1c(O)ccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -34366,7 +34254,6 @@
         "actual_pair_id": "AP047",
         "route": "OH",
         "actual_donor_smiles": "Oc1cccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -34396,7 +34283,6 @@
         "actual_pair_id": "AP048",
         "route": "OH",
         "actual_donor_smiles": "Oc1cccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -39826,7 +39712,6 @@
         "actual_pair_id": "AP065",
         "route": "OH",
         "actual_donor_smiles": "O=Cc1c(O)ccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -39951,7 +39836,6 @@
         "actual_pair_id": "AP053",
         "route": "OH",
         "actual_donor_smiles": "CC(O)c1ccc2ccccc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40005,7 +39889,6 @@
         "actual_pair_id": "AP069",
         "route": "OH",
         "actual_donor_smiles": "OC(c1ccccc1)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40059,7 +39942,6 @@
         "actual_pair_id": "AP050",
         "route": "OH",
         "actual_donor_smiles": "C#CC(O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40184,7 +40066,6 @@
         "actual_pair_id": "AP055",
         "route": "OH",
         "actual_donor_smiles": "CN1CCC(O)C1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40238,7 +40119,6 @@
         "actual_pair_id": "AP071",
         "route": "OH",
         "actual_donor_smiles": "OC1CCc2ccccc21",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40292,7 +40172,6 @@
         "actual_pair_id": "AP072",
         "route": "OH",
         "actual_donor_smiles": "OC1c2ccccc2Oc2ccccc21",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40416,7 +40295,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40470,7 +40348,6 @@
         "actual_pair_id": "AP066",
         "route": "OH",
         "actual_donor_smiles": "O=Cc1cc(CO)ccc1O",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40524,7 +40401,6 @@
         "actual_pair_id": "AP050",
         "route": "OH",
         "actual_donor_smiles": "C#CC(O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40650,7 +40526,6 @@
         "actual_pair_id": "AP076",
         "route": "OH",
         "actual_donor_smiles": "OCc1cccnc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40704,7 +40579,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40758,7 +40632,6 @@
         "actual_pair_id": "AP074",
         "route": "OH",
         "actual_donor_smiles": "OCc1cccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40885,7 +40758,6 @@
         "actual_pair_id": "AP070",
         "route": "OH",
         "actual_donor_smiles": "OC/C=C/c1cccc(OCc2ccccc2)c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40939,7 +40811,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -40993,7 +40864,6 @@
         "actual_pair_id": "AP069",
         "route": "OH",
         "actual_donor_smiles": "OC(c1ccccc1)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41118,7 +40988,6 @@
         "actual_pair_id": "AP050",
         "route": "OH",
         "actual_donor_smiles": "C#CC(O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41172,7 +41041,6 @@
         "actual_pair_id": "AP054",
         "route": "OH",
         "actual_donor_smiles": "CCCCCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41226,7 +41094,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41350,7 +41217,6 @@
         "actual_pair_id": "AP059",
         "route": "OH",
         "actual_donor_smiles": "COc1ccc(CCO)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41404,7 +41270,6 @@
         "actual_pair_id": "AP054",
         "route": "OH",
         "actual_donor_smiles": "CCCCCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41458,7 +41323,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41583,7 +41447,6 @@
         "actual_pair_id": "AP055",
         "route": "OH",
         "actual_donor_smiles": "CN1CCC(O)C1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41637,7 +41500,6 @@
         "actual_pair_id": "AP071",
         "route": "OH",
         "actual_donor_smiles": "OC1CCc2ccccc21",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41691,7 +41553,6 @@
         "actual_pair_id": "AP072",
         "route": "OH",
         "actual_donor_smiles": "OC1c2ccccc2Oc2ccccc21",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41818,7 +41679,6 @@
         "actual_pair_id": "AP098",
         "route": "SH",
         "actual_donor_smiles": "Cc1cccc(C)c1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41856,7 +41716,6 @@
         "actual_pair_id": "AP095",
         "route": "SH",
         "actual_donor_smiles": "COC(=O)c1ccccc1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -41894,7 +41753,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42005,7 +41863,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42043,7 +41900,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42081,7 +41937,6 @@
         "actual_pair_id": "AP098",
         "route": "SH",
         "actual_donor_smiles": "Cc1cccc(C)c1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42192,7 +42047,6 @@
         "actual_pair_id": "AP099",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccccc1CS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42230,7 +42084,6 @@
         "actual_pair_id": "AP101",
         "route": "SH",
         "actual_donor_smiles": "Fc1ccc(CS)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42268,7 +42121,6 @@
         "actual_pair_id": "AP107",
         "route": "SH",
         "actual_donor_smiles": "SC(c1ccccc1)(c1ccccc1)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42379,7 +42231,6 @@
         "actual_pair_id": "AP099",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccccc1CS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42417,7 +42268,6 @@
         "actual_pair_id": "AP101",
         "route": "SH",
         "actual_donor_smiles": "Fc1ccc(CS)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42455,7 +42305,6 @@
         "actual_pair_id": "AP107",
         "route": "SH",
         "actual_donor_smiles": "SC(c1ccccc1)(c1ccccc1)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42564,7 +42413,6 @@
         "actual_pair_id": "AP091",
         "route": "SH",
         "actual_donor_smiles": "CC(C)(S)CCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42602,7 +42450,6 @@
         "actual_pair_id": "AP092",
         "route": "SH",
         "actual_donor_smiles": "CC1OCCC1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42640,7 +42487,6 @@
         "actual_pair_id": "AP094",
         "route": "SH",
         "actual_donor_smiles": "COC(=O)CCS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42749,7 +42595,6 @@
         "actual_pair_id": "AP091",
         "route": "SH",
         "actual_donor_smiles": "CC(C)(S)CCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42787,7 +42632,6 @@
         "actual_pair_id": "AP107",
         "route": "SH",
         "actual_donor_smiles": "SC(c1ccccc1)(c1ccccc1)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42825,7 +42669,6 @@
         "actual_pair_id": "AP092",
         "route": "SH",
         "actual_donor_smiles": "CC1OCCC1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42934,7 +42777,6 @@
         "actual_pair_id": "AP092",
         "route": "SH",
         "actual_donor_smiles": "CC1OCCC1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -42972,7 +42814,6 @@
         "actual_pair_id": "AP093",
         "route": "SH",
         "actual_donor_smiles": "CN(C)C(=O)C1CC(S)CN1C(=O)OCc1ccc([N+](=O)[O-])cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43010,7 +42851,6 @@
         "actual_pair_id": "AP106",
         "route": "SH",
         "actual_donor_smiles": "OCCCS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43119,7 +42959,6 @@
         "actual_pair_id": "AP106",
         "route": "SH",
         "actual_donor_smiles": "OCCCS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43157,7 +42996,6 @@
         "actual_pair_id": "AP091",
         "route": "SH",
         "actual_donor_smiles": "CC(C)(S)CCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43195,7 +43033,6 @@
         "actual_pair_id": "AP094",
         "route": "SH",
         "actual_donor_smiles": "COC(=O)CCS",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43302,7 +43139,6 @@
         "actual_pair_id": "AP087",
         "route": "PH",
         "actual_donor_smiles": "c1ccc(Pc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -43332,7 +43168,6 @@
         "actual_pair_id": "AP088",
         "route": "PH",
         "actual_donor_smiles": "c1ccc(Pc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -43435,7 +43270,6 @@
         "actual_pair_id": "AP038",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(Nc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43473,7 +43307,6 @@
         "actual_pair_id": "AP035",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(CNc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43511,7 +43344,6 @@
         "actual_pair_id": "AP016",
         "route": "NH",
         "actual_donor_smiles": "CNc1ccncc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43622,7 +43454,6 @@
         "actual_pair_id": "AP016",
         "route": "NH",
         "actual_donor_smiles": "CNc1ccncc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43660,7 +43491,6 @@
         "actual_pair_id": "AP038",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(Nc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43698,7 +43528,6 @@
         "actual_pair_id": "AP035",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(CNc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43811,7 +43640,6 @@
         "actual_pair_id": "AP016",
         "route": "NH",
         "actual_donor_smiles": "CNc1ccncc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43849,7 +43677,6 @@
         "actual_pair_id": "AP011",
         "route": "NH",
         "actual_donor_smiles": "CCNc1cccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43887,7 +43714,6 @@
         "actual_pair_id": "AP035",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(CNc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -43998,7 +43824,6 @@
         "actual_pair_id": "AP038",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(Nc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44036,7 +43861,6 @@
         "actual_pair_id": "AP035",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(CNc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44074,7 +43898,6 @@
         "actual_pair_id": "AP011",
         "route": "NH",
         "actual_donor_smiles": "CCNc1cccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44185,7 +44008,6 @@
         "actual_pair_id": "AP011",
         "route": "NH",
         "actual_donor_smiles": "CCNc1cccc2ccccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44223,7 +44045,6 @@
         "actual_pair_id": "AP016",
         "route": "NH",
         "actual_donor_smiles": "CNc1ccncc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44261,7 +44082,6 @@
         "actual_pair_id": "AP038",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(Nc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44375,7 +44195,6 @@
         "actual_pair_id": "AP010",
         "route": "NH",
         "actual_donor_smiles": "CCCCN1CCNCC1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44413,7 +44232,6 @@
         "actual_pair_id": "AP037",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(N2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44451,7 +44269,6 @@
         "actual_pair_id": "AP033",
         "route": "NH",
         "actual_donor_smiles": "c1cc(N2CCNCC2)ccn1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44563,7 +44380,6 @@
         "actual_pair_id": "AP014",
         "route": "NH",
         "actual_donor_smiles": "CNCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44601,7 +44417,6 @@
         "actual_pair_id": "AP015",
         "route": "NH",
         "actual_donor_smiles": "CNCc1cnn(C)c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44639,7 +44454,6 @@
         "actual_pair_id": "AP034",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(C2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44755,7 +44569,6 @@
         "actual_pair_id": "AP034",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(C2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44793,7 +44606,6 @@
         "actual_pair_id": "AP037",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(N2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44831,7 +44643,6 @@
         "actual_pair_id": "AP033",
         "route": "NH",
         "actual_donor_smiles": "c1cc(N2CCNCC2)ccn1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44942,7 +44753,6 @@
         "actual_pair_id": "AP013",
         "route": "NH",
         "actual_donor_smiles": "CNC(=O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -44980,7 +44790,6 @@
         "actual_pair_id": "AP008",
         "route": "NH",
         "actual_donor_smiles": "CC(=O)Nc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45018,7 +44827,6 @@
         "actual_pair_id": "AP029",
         "route": "NH",
         "actual_donor_smiles": "O=C1Cc2ccccc2N1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45125,7 +44933,6 @@
         "actual_pair_id": "AP013",
         "route": "NH",
         "actual_donor_smiles": "CNC(=O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45163,7 +44970,6 @@
         "actual_pair_id": "AP008",
         "route": "NH",
         "actual_donor_smiles": "CC(=O)Nc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45201,7 +45007,6 @@
         "actual_pair_id": "AP029",
         "route": "NH",
         "actual_donor_smiles": "O=C1Cc2ccccc2N1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45380,7 +45185,6 @@
         "actual_pair_id": "AP008",
         "route": "NH",
         "actual_donor_smiles": "CC(=O)Nc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45418,7 +45222,6 @@
         "actual_pair_id": "AP013",
         "route": "NH",
         "actual_donor_smiles": "CNC(=O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45456,7 +45259,6 @@
         "actual_pair_id": "AP029",
         "route": "NH",
         "actual_donor_smiles": "O=C1Cc2ccccc2N1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45566,7 +45368,6 @@
         "actual_pair_id": "AP051",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45620,7 +45421,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45674,7 +45474,6 @@
         "actual_pair_id": "AP063",
         "route": "OH",
         "actual_donor_smiles": "N#Cc1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45800,7 +45599,6 @@
         "actual_pair_id": "AP057",
         "route": "OH",
         "actual_donor_smiles": "COc1cc(O)cc(OC)c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45854,7 +45652,6 @@
         "actual_pair_id": "AP051",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -45908,7 +45705,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46034,7 +45830,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46088,7 +45883,6 @@
         "actual_pair_id": "AP051",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46142,7 +45936,6 @@
         "actual_pair_id": "AP063",
         "route": "OH",
         "actual_donor_smiles": "N#Cc1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46268,7 +46061,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46322,7 +46114,6 @@
         "actual_pair_id": "AP051",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46376,7 +46167,6 @@
         "actual_pair_id": "AP063",
         "route": "OH",
         "actual_donor_smiles": "N#Cc1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46500,7 +46290,6 @@
         "actual_pair_id": "AP051",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46554,7 +46343,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46608,7 +46396,6 @@
         "actual_pair_id": "AP063",
         "route": "OH",
         "actual_donor_smiles": "N#Cc1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46734,7 +46521,6 @@
         "actual_pair_id": "AP063",
         "route": "OH",
         "actual_donor_smiles": "N#Cc1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46788,7 +46574,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46842,7 +46627,6 @@
         "actual_pair_id": "AP051",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -46970,7 +46754,6 @@
         "actual_pair_id": "AP077",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccc(-c2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47024,7 +46807,6 @@
         "actual_pair_id": "AP084",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1-c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47078,7 +46860,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47206,7 +46987,6 @@
         "actual_pair_id": "AP057",
         "route": "OH",
         "actual_donor_smiles": "COc1cc(O)cc(OC)c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47260,7 +47040,6 @@
         "actual_pair_id": "AP051",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47314,7 +47093,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47442,7 +47220,6 @@
         "actual_pair_id": "AP054",
         "route": "OH",
         "actual_donor_smiles": "CCCCCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47496,7 +47273,6 @@
         "actual_pair_id": "AP059",
         "route": "OH",
         "actual_donor_smiles": "COc1ccc(CCO)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47550,7 +47326,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47676,7 +47451,6 @@
         "actual_pair_id": "AP059",
         "route": "OH",
         "actual_donor_smiles": "COc1ccc(CCO)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47730,7 +47504,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47784,7 +47557,6 @@
         "actual_pair_id": "AP076",
         "route": "OH",
         "actual_donor_smiles": "OCc1cccnc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47908,7 +47680,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -47962,7 +47733,6 @@
         "actual_pair_id": "AP066",
         "route": "OH",
         "actual_donor_smiles": "O=Cc1cc(CO)ccc1O",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -48016,7 +47786,6 @@
         "actual_pair_id": "AP050",
         "route": "OH",
         "actual_donor_smiles": "C#CC(O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -48140,7 +47909,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -48194,7 +47962,6 @@
         "actual_pair_id": "AP066",
         "route": "OH",
         "actual_donor_smiles": "O=Cc1cc(CO)ccc1O",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -48248,7 +48015,6 @@
         "actual_pair_id": "AP050",
         "route": "OH",
         "actual_donor_smiles": "C#CC(O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -48373,7 +48139,6 @@
         "actual_pair_id": "AP054",
         "route": "OH",
         "actual_donor_smiles": "CCCCCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -48427,7 +48192,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -48481,7 +48245,6 @@
         "actual_pair_id": "AP073",
         "route": "OH",
         "actual_donor_smiles": "OCC1c2ccccc2-c2ccccc21",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -48608,7 +48371,6 @@
         "actual_pair_id": "AP100",
         "route": "SH",
         "actual_donor_smiles": "FC(F)(F)c1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -48646,7 +48408,6 @@
         "actual_pair_id": "AP090",
         "route": "SH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -54084,7 +53845,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -54197,7 +53957,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -54235,7 +53994,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -54273,7 +54031,6 @@
         "actual_pair_id": "AP090",
         "route": "SH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -59784,7 +59541,6 @@
         "actual_pair_id": "AP095",
         "route": "SH",
         "actual_donor_smiles": "COC(=O)c1ccccc1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -59822,7 +59578,6 @@
         "actual_pair_id": "AP096",
         "route": "SH",
         "actual_donor_smiles": "COc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -59860,7 +59615,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -59971,7 +59725,6 @@
         "actual_pair_id": "AP098",
         "route": "SH",
         "actual_donor_smiles": "Cc1cccc(C)c1S",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60009,7 +59762,6 @@
         "actual_pair_id": "AP097",
         "route": "SH",
         "actual_donor_smiles": "Cc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60047,7 +59799,6 @@
         "actual_pair_id": "AP108",
         "route": "SH",
         "actual_donor_smiles": "Sc1ccc(S)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60156,7 +59907,6 @@
         "actual_pair_id": "REV-P01",
         "route": "PH",
         "actual_donor_smiles": "CO[PH](=O)OC",
-        "actual_identity_status": "structure_identified_in_source_report",
         "source_occurrences": [
           {
             "source_type": "annotated_pdf",
@@ -60259,7 +60009,6 @@
         "actual_pair_id": "REV-P02",
         "route": "PH",
         "actual_donor_smiles": "CCO[PH](=O)OCC",
-        "actual_identity_status": "structure_identified_in_source_report",
         "source_occurrences": [
           {
             "source_type": "annotated_pdf",
@@ -60360,7 +60109,6 @@
         "actual_pair_id": "AP010",
         "route": "NH",
         "actual_donor_smiles": "CCCCN1CCNCC1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60398,7 +60146,6 @@
         "actual_pair_id": "AP034",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(C2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60436,7 +60183,6 @@
         "actual_pair_id": "AP037",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(N2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60544,7 +60290,6 @@
         "actual_pair_id": "AP037",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(N2CCNCC2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60582,7 +60327,6 @@
         "actual_pair_id": "AP033",
         "route": "NH",
         "actual_donor_smiles": "c1cc(N2CCNCC2)ccn1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60620,7 +60364,6 @@
         "actual_pair_id": "AP010",
         "route": "NH",
         "actual_donor_smiles": "CCCCN1CCNCC1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60733,7 +60476,6 @@
         "actual_pair_id": "AP023",
         "route": "NH",
         "actual_donor_smiles": "Cc1cccc2cc[nH]c12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60771,7 +60513,6 @@
         "actual_pair_id": "AP043",
         "route": "NH",
         "actual_donor_smiles": "Cc1cccc2[nH]ccc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -60801,7 +60542,6 @@
         "actual_pair_id": "AP036",
         "route": "NH",
         "actual_donor_smiles": "c1ccc(COc2ccc3[nH]ccc3c2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -60978,7 +60718,6 @@
         "actual_pair_id": "AP054",
         "route": "OH",
         "actual_donor_smiles": "CCCCCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61032,7 +60771,6 @@
         "actual_pair_id": "AP075",
         "route": "OH",
         "actual_donor_smiles": "OCc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61086,7 +60824,6 @@
         "actual_pair_id": "AP066",
         "route": "OH",
         "actual_donor_smiles": "O=Cc1cc(CO)ccc1O",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61210,7 +60947,6 @@
         "actual_pair_id": "AP087",
         "route": "PH",
         "actual_donor_smiles": "c1ccc(Pc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -61240,7 +60976,6 @@
         "actual_pair_id": "AP088",
         "route": "PH",
         "actual_donor_smiles": "c1ccc(Pc2ccccc2)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
@@ -61346,7 +61081,6 @@
         "actual_pair_id": "REV-P03",
         "route": "PH",
         "actual_donor_smiles": "O=[PH](c1ccccc1)c1ccccc1",
-        "actual_identity_status": "structure_identified_in_source_report",
         "source_occurrences": [
           {
             "source_type": "user_confirmation",
@@ -61450,7 +61184,6 @@
         "actual_pair_id": "AP081",
         "route": "OH",
         "actual_donor_smiles": "Oc1cccc2cccnc12",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61504,7 +61237,6 @@
         "actual_pair_id": "AP061",
         "route": "OH",
         "actual_donor_smiles": "Cc1ccc2cccc(O)c2n1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61558,7 +61290,6 @@
         "actual_pair_id": "AP080",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccc2ncccc2c1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61686,7 +61417,6 @@
         "actual_pair_id": "AP062",
         "route": "OH",
         "actual_donor_smiles": "Cc1cccc(C)c1O",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61740,7 +61470,6 @@
         "actual_pair_id": "AP083",
         "route": "OH",
         "actual_donor_smiles": "Oc1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61794,7 +61523,6 @@
         "actual_pair_id": "AP051",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(C)c1ccc(O)cc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61921,7 +61649,6 @@
         "actual_pair_id": "AP052",
         "route": "OH",
         "actual_donor_smiles": "CC(C)(O)C(=O)c1ccccc1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -61975,7 +61702,6 @@
         "actual_pair_id": "AP054",
         "route": "OH",
         "actual_donor_smiles": "CCCCCO",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",
@@ -62029,7 +61755,6 @@
         "actual_pair_id": "AP055",
         "route": "OH",
         "actual_donor_smiles": "CN1CCC(O)C1",
-        "actual_identity_status": "workbook_structure_not_independently_verified",
         "source_occurrences": [
           {
             "workbook": "实验结果/副本条件筛选-底物扩展-response总-0911.xlsx",

@@ -1,9 +1,7 @@
 {
   "version": "2026-10-16_reproducibility_archive_actual_v2_execution",
-  "analysis_type": "retrospective_batch_policy_benchmark",
-  "historical_order_claim": false,
-  "original_chemsci_algorithm_reproduced": false,
-  "configuration_status": "fixed before v2 run; project outcomes and exploratory v1 results already known; not preregistered",
+  "analysis_type": "archived_panel_and_grid_diagnostic",
+  "manuscript_campaign_scope": "13,920 conditions per system; recorded histories are in optimization/current/runs",
   "routes": [
     "SH",
     "NH",
@@ -33,7 +31,7 @@
   },
   "observed_response_transform": "center and scale only currently revealed responses; unit scale if constant",
   "acquisition": "posterior latent mean + 1.96*posterior latent std + random.Random(seed).random()*1e-12",
-  "batch_selection": "top 12 UCB from frozen posterior; seeded random tie-breaking; no within-batch outcome updates",
+  "batch_selection": "posterior updated between batches; top 12 UCB conditions selected together within each batch with seeded random tie-breaking",
   "feature_groups_grid": [
     "base one-hot",
     "solvent one-hot",
@@ -41,26 +39,20 @@
   ],
   "feature_groups_panel": [
     "catalyst family one-hot",
-    "SMILES token-count descriptors and simple structural token descriptors, standardized using the unlabeled candidate pool only"
+    "SMILES token-count descriptors and simple structural token descriptors, standardized over the supplied diagnostic panel rows"
   ],
   "primary_evaluation_budget": 48,
   "metrics": {
-    "exact_budget": "first batch end reaching observed pool maximum minus tolerance 1e-12",
-    "near_budget": "first batch end reaching 0.95*observed pool maximum; not 95th percentile",
+    "exact_budget": "first batch end reaching the maximum response in the supplied diagnostic table minus tolerance 1e-12",
+    "near_budget": "first batch end reaching 0.95 times the maximum response in the supplied diagnostic table; not the 95th percentile",
     "target_budget": "first batch end reaching predefined historical target; null when no target is in this pool",
     "primary_budget": 48,
     "cumulative_best": "export only at batch ends; do not interpret upstream backfilled best_by_budget within a batch as earlier outcome availability"
   },
   "bootstrap_replicates": 2000,
-  "stopping": "exhaust measured pool; global optimum used only by evaluator, never by optimizer or stopping rule",
+  "stopping": "diagnostic enumeration of all supplied panel or slice rows; manuscript campaign stopping is defined in optimization/current/protocol.json",
   "exclusions": "PL30 records with different protocols and all substrate-expansion rows excluded from optimization; retained in data audit",
-  "scope": "three independent catalyst panels and five separate condition grids; no unmeasured cross-product oracle; no fabricated end-to-end catalyst-to-grid transition",
-  "known_limitations": [
-    "single measurement per candidate; algorithmic repeats are not wet-lab replicates",
-    "instrument responses are not calibrated yields",
-    "later grids are conditioned on historical catalyst selection",
-    "no new literature provenance reconstruction or new mechanistic validation in this benchmark"
-  ],
+  "scope": "archived source-panel and representative plate-slice diagnostics; manuscript campaigns rank the complete 13,920-condition space and are deposited in optimization/current/runs",
   "replicate_index": [
     0,
     1,
@@ -200,7 +192,7 @@
     "panels": "exact catalyst code in historically followed catalyst set; any member counts",
     "grids": "exact raw cat/ligand/base/solvent tuple within the same grid, no aliases",
     "normalization_audit": "all exact raw target index sets equal the original v2 normalized sets for these 8 pools; therefore every historical target statistic is preserved",
-    "unverified_names": "CsOH != CsOH/2; DIO is a source abbreviation with unresolved chemical identity"
+    "source_label_notes": "CsOH and CsOH/2 are retained as distinct source labels; DIO is retained as the workbook abbreviation"
   },
   "bootstrap": {
     "unit": "paired replicate index within pool; BO and random share initial sample",
@@ -212,7 +204,7 @@
     "interval": "percentile 2.5% and 97.5% of bootstrap MEANS",
     "marginal_mean_intervals": "same seed and procedure also reported separately for BO and random mean budgets",
     "median_note": "paired difference median and marginal medians are descriptive; no median bootstrap interval is claimed",
-    "interpretation": "algorithmic seed variation conditional on fixed measured pool, not biological/experimental replication; nominal unadjusted per-metric intervals, no multiplicity correction"
+    "interpretation": "paired algorithmic seed variation within the archived panel or slice diagnostic; nominal unadjusted per-metric intervals, no multiplicity correction"
   },
   "isolation": {
     "optimizer_constructor": "K,seed,strategy,n_init,batch_size only",

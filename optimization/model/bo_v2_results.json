@@ -1,14 +1,14 @@
 {
   "source_workbook": "/Users/chonghuanzhang/Dropbox/reaction_principle/实验结果/三氟乙基羰基+N\\O\\S\\P数据总结.xlsx",
   "source_sha256": "836f5a17429d0ab5198f0f28038e60df0992787cf9b76ed649c4abf7c7047c16",
-  "analysis_type": "retrospective_batch_policy_benchmark",
+  "analysis_type": "archived_panel_and_grid_diagnostic",
   "algorithm": "conjugate Bayesian linear regression in kernel form + batch UCB",
   "n_replicates": 100,
   "n_init": 12,
   "batch_size": 12,
   "primary_budget": 48,
   "paired_initial_design": true,
-  "historical_order_claim": false,
+  "manuscript_campaign_scope": "13,920 conditions per system; see optimization/current/runs",
   "routes": {
     "SH": {
       "initial_panel": {
