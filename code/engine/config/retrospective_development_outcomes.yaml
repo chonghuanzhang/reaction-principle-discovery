@@ -1,0 +1,12 @@
+version: "1.0"
+usage: "retrospective_development_only"
+prospective_metric_eligible: false
+outcomes:
+  - family: "SH/thiol"
+    disclosed_outcome: "monofluoroalkene success"
+  - family: "indole"
+    disclosed_outcome: "monofluoroalkene success"
+  - family: "naphthol"
+    disclosed_outcome: "monofluoroalkene success"
+  - family: "disulfide-derived sulfur donor"
+    disclosed_outcome: "monofluoroalkene success"

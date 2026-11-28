@@ -1,0 +1,97 @@
+{
+  "peng2019": {
+    "authors": [
+      "Yingyuan Peng",
+      "Xiaofei Zhang",
+      "Xueyu Qi",
+      "Qian He",
+      "Bin Zhang",
+      "Jian Hao",
+      "Chunhao Yang"
+    ],
+    "title": "Metal-Free Access to (E/Z)-α-Fluorovinyl Phosphorus Compounds from gem-Difluorostyrenes",
+    "journal": "European Journal of Organic Chemistry",
+    "year": 2019,
+    "volume": "2019",
+    "pages": "1170–1177",
+    "doi": "10.1002/ejoc.201801602",
+    "access": "primary author abstract"
+  },
+  "intelli2023": {
+    "authors": [
+      "Andrew J. Intelli",
+      "Ryan T. Lee",
+      "Ryan A. Altman"
+    ],
+    "title": "Peroxide-Initiated Hydrophosphinylation of gem-Difluoroalkenes",
+    "journal": "Journal of Organic Chemistry",
+    "year": 2023,
+    "volume": "88",
+    "pages": "14012–14021",
+    "doi": "10.1021/acs.joc.3c01562",
+    "access": "primary full text"
+  },
+  "coradi2026": {
+    "authors": [
+      "Nicholas J. Coradi",
+      "Jeffrey S. Bandar"
+    ],
+    "title": "A Brønsted acid–base approach for the net monoselective C–F substitution of (trifluoromethyl)alkanes",
+    "journal": "Chemical Science",
+    "year": 2026,
+    "volume": "17",
+    "pages": "9644–9652",
+    "doi": "10.1039/d6sc01042c",
+    "access": "primary full text and SI",
+    "pages_note": "Verified primary XML article-meta/page-range"
+  },
+  "nise2026": {
+    "authors": [
+      "Hyung-Joon Kang",
+      "Jaehun Kim",
+      "Sungwoo Hong"
+    ],
+    "title": "NiH-Catalyzed Enantio- and Regioselective Hydroselenylation of Unactivated Alkenes",
+    "journal": "Advanced Science",
+    "year": 2026,
+    "volume": null,
+    "pages": "e77070",
+    "doi": "10.1002/advs.77070",
+    "access": "primary full text",
+    "volume_note": "not assigned in archived XML"
+  },
+  "li2019": {
+    "authors": [
+      "Jian Li",
+      "Weidong Rao",
+      "Shun-Yi Wang",
+      "Shun-Jun Ji"
+    ],
+    "title": "Nickel-Catalyzed Defluorinative Reductive Cross-Coupling Reaction of gem-Difluoroalkenes with Thiosulfonate or Selenium Sulfonate",
+    "journal": "Journal of Organic Chemistry",
+    "year": 2019,
+    "volume": "84",
+    "pages": "11542–11552",
+    "doi": "10.1021/acs.joc.9b01387",
+    "access": "primary author abstract"
+  },
+  "sevinyl2019": {
+    "authors": [
+      "Xinyu Zhang",
+      "Zhaohong Liu",
+      "Xiangyu Yang",
+      "Yuanqing Dong",
+      "Matteo Virelli",
+      "Giuseppe Zanoni",
+      "Edward A. Anderson",
+      "Xihe Bi"
+    ],
+    "title": "Use of trifluoroacetaldehyde N-tfsylhydrazone as a trifluorodiazoethane surrogate and its synthetic applications",
+    "journal": "Nature Communications",
+    "year": 2019,
+    "volume": "10",
+    "pages": "284",
+    "doi": "10.1038/s41467-018-08253-z",
+    "access": "primary full text"
+  }
+}

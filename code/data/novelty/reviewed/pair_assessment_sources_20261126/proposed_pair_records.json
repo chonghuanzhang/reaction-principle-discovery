@@ -1,0 +1,446 @@
+[
+  {
+    "actual_pair_id": "AP109",
+    "route": "NH",
+    "product_label": "3j",
+    "donor_name": "diphenylamine",
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccc(Br)cc1",
+    "partner_smiles": "c1ccc(Nc2ccccc2)cc1",
+    "options": [
+      {
+        "option_id": "AP109-O01",
+        "product_smiles": "O=C(C=C(F)N(c1ccccc1)c1ccccc1)c1ccc(Br)cc1",
+        "product_inchikey": "ZRQLPYATPGMGSA-UHFFFAOYSA-N",
+        "NP": 2,
+        "NP_label": "2",
+        "NR": 2,
+        "NR_label": "2",
+        "NP_status": "bounded_endpoint_assessment",
+        "NR_status": "bounded_endpoint_assessment",
+        "pubchem_query_id": "PC-20261126-AP109",
+        "pubchem_status": "no_match",
+        "pubchem_cids": [],
+        "pubchem_identity_type": "same_connectivity",
+        "pubchem_evidence_file": "sources/pc_3j.json",
+        "assessment": "The endpoint is the p-bromophenyl ketone bearing a C(F)-NPh2 vinyl linkage. Its PubChem same-connectivity identity search returned no hit. V05 establishes monofluorovinyl amine formation from unactivated alkyl-CF3 substrates, with N-methylaniline documented in the current source corpus; V04 reports an HRMS-supported fluoroenaminone intermediate from a trifluoromethyl ketone and a secondary amine. These are nearby connectivity precedents, not an exact match, supporting bounded NP2. The p-bromophenyl ketone/diphenylamine combination and retention of the monofluorovinyl endpoint extend the reported substrate/donor/endpoint scope, supporting NR2. V04 continues to a fully defluorinated endpoint, and V31 uses trifluoropropanamides and indoles; neither establishes the exact present reaction.",
+        "references": [
+          "V05",
+          "V04",
+          "V31"
+        ],
+        "nearest_precedent_dois": [
+          "10.1039/d6sc01042c",
+          "10.1126/sciadv.aea4120",
+          "10.1002/adsc.202200352"
+        ],
+        "comparison_evidence": [
+          {
+            "reference_code": "V05",
+            "doi": "10.1039/d6sc01042c",
+            "same": "Monofluorovinyl C(F)-N connectivity and an alkyl-CF3-to-vinylfluoride substitution sequence.",
+            "different": "Unactivated alkyl-CF3/N-methylaniline versus p-bromophenyl CF3 ketone/diphenylamine; the full protocol in V05 proceeds to hydrofluorination.",
+            "evidence_locator": "Main text Results/Figs.2-4; current corpus L350-S001/S002 and Q32 (SI S15).",
+            "evidence_level": "fresh_primary_fulltext"
+          },
+          {
+            "reference_code": "V04",
+            "doi": "10.1126/sciadv.aea4120",
+            "same": "Adjacent carbonyl-CF3 activation and proposed carbonyl-conjugated fluoroenaminone intermediate.",
+            "different": "HRMS-supported intermediate en route to full defluorination, not an isolated exact p-bromophenyl/diphenylamine monofluoro product.",
+            "evidence_locator": "Results mechanism paragraph/Fig.7; current corpus L349-S001.",
+            "evidence_level": "fresh_primary_fulltext"
+          },
+          {
+            "reference_code": "V31",
+            "doi": "10.1002/adsc.202200352",
+            "same": "Selective C-F activation of trifluoropropanamides with a nitrogen donor.",
+            "different": "Amide and indole substrate classes; abstract does not establish the precise present ketone/diphenylamine pair.",
+            "evidence_locator": "Publisher-deposited author abstract; current corpus L362-S001.",
+            "evidence_level": "fresh_primary_author_abstract"
+          }
+        ],
+        "review_status": "bounded_endpoint_review_complete",
+        "version": "2026-11-26-bounded-endpoint-review",
+        "scope_limitations": [
+          "NP2 and NR2 are bounded ordinal evidence labels, not global novelty or demonstrated reaction-success claims.",
+          "PubChem same_connectivity ignores stereochemistry and is not a complete literature, patent, SciFinder or Reaxys structure search.",
+          "Exact published substrate examples, catalyst compatibility and product yields are not inferred from related AP records.",
+          "Crossref and Europe PMC searches are text-index searches; broad result lists are only partially retrieved and cannot prove absence.",
+          "Source access is mixed: V04, V05 and V10 primary full texts were retrieved in this session; V31 primary abstract was retrieved; V11, V14 and V32 also rely on explicitly identified statements in the current repository corpus."
+        ]
+      }
+    ],
+    "NP_label": "2",
+    "NR": 2,
+    "NR_label": "2",
+    "references": [
+      "V05",
+      "V04",
+      "V31"
+    ],
+    "nearest_precedent_dois": [
+      "10.1039/d6sc01042c",
+      "10.1126/sciadv.aea4120",
+      "10.1002/adsc.202200352"
+    ],
+    "assessment": "The endpoint is the p-bromophenyl ketone bearing a C(F)-NPh2 vinyl linkage. Its PubChem same-connectivity identity search returned no hit. V05 establishes monofluorovinyl amine formation from unactivated alkyl-CF3 substrates, with N-methylaniline documented in the current source corpus; V04 reports an HRMS-supported fluoroenaminone intermediate from a trifluoromethyl ketone and a secondary amine. These are nearby connectivity precedents, not an exact match, supporting bounded NP2. The p-bromophenyl ketone/diphenylamine combination and retention of the monofluorovinyl endpoint extend the reported substrate/donor/endpoint scope, supporting NR2. V04 continues to a fully defluorinated endpoint, and V31 uses trifluoropropanamides and indoles; neither establishes the exact present reaction.",
+    "review_status": "bounded_endpoint_review_complete",
+    "version": "2026-11-26-bounded-endpoint-review",
+    "recorded_product_smiles": [
+      "O=C(C1=CC=C(C=C1)Br)/C=C(N(C2=CC=CC=C2)C3=CC=CC=C3)\\F"
+    ],
+    "recorded_product_isomeric_canonical_smiles": "O=C(/C=C(\\F)N(c1ccccc1)c1ccccc1)c1ccc(Br)cc1",
+    "review_input": {
+      "file": "code/data/novelty/reviewed/pair_assessment_sources_20261126/assessed_inputs.json",
+      "row": 17,
+      "product_label": "3j"
+    },
+    "NP_all_resolved": true,
+    "NP_unresolved_options": [],
+    "NP_min": 2,
+    "NP_max": 2,
+    "NP_known_min": 2,
+    "NP_known_max": 2,
+    "NR_all_resolved": true,
+    "NR_unresolved_options": [],
+    "NR_min": 2,
+    "NR_max": 2,
+    "scope_limitations": [
+      "NP2 and NR2 are bounded ordinal evidence labels, not global novelty or demonstrated reaction-success claims.",
+      "PubChem same_connectivity ignores stereochemistry and is not a complete literature, patent, SciFinder or Reaxys structure search.",
+      "Exact published substrate examples, catalyst compatibility and product yields are not inferred from related AP records.",
+      "Crossref and Europe PMC searches are text-index searches; broad result lists are only partially retrieved and cannot prove absence.",
+      "Source access is mixed: V04, V05 and V10 primary full texts were retrieved in this session; V31 primary abstract was retrieved; V11, V14 and V32 also rely on explicitly identified statements in the current repository corpus."
+    ]
+  },
+  {
+    "actual_pair_id": "AP110",
+    "route": "SH",
+    "product_label": "3m",
+    "donor_name": "4-tert-butylbenzenethiol",
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccc(Br)cc1",
+    "partner_smiles": "CC(C)(C)c1ccc(S)cc1",
+    "options": [
+      {
+        "option_id": "AP110-O01",
+        "product_smiles": "CC(C)(C)c1ccc(SC(F)=CC(=O)c2ccc(Br)cc2)cc1",
+        "product_inchikey": "VEQRIPYFBBYWAH-UHFFFAOYSA-N",
+        "NP": 2,
+        "NP_label": "2",
+        "NR": 2,
+        "NR_label": "2",
+        "NP_status": "bounded_endpoint_assessment",
+        "NR_status": "bounded_endpoint_assessment",
+        "pubchem_query_id": "PC-20261126-AP110",
+        "pubchem_status": "no_match",
+        "pubchem_cids": [],
+        "pubchem_identity_type": "same_connectivity",
+        "pubchem_evidence_file": "sources/pc_3m.json",
+        "assessment": "The endpoint is the p-bromophenyl ketone bearing a C(F)-S-(4-tert-butylphenyl) vinyl linkage. Its PubChem same-connectivity identity search returned no hit. V11 establishes the local C(F)-SR motif with aryl and alkyl sulfur substituents, supporting nearby-connectivity NP2 rather than NP3. V14 establishes thiol coupling with preformed gem-difluoroalkenes, while V05 establishes alkyl-CF3/thiol sequences. The present p-bromophenyl CF3 ketone, free arylthiol and monofluorovinyl endpoint constitute a substrate/donor/sequence extension, supporting NR2. V32 is an adjacent trifluoropropanamide/disulfide precedent; its title alone is not used to assign the relative positions of F and S.",
+        "references": [
+          "V11",
+          "V14",
+          "V32",
+          "V05"
+        ],
+        "nearest_precedent_dois": [
+          "10.3762/bjoc.11.205",
+          "10.1039/c7ob00599g",
+          "10.1021/acs.joc.0c02436",
+          "10.1039/d6sc01042c"
+        ],
+        "comparison_evidence": [
+          {
+            "reference_code": "V11",
+            "doi": "10.3762/bjoc.11.205",
+            "same": "Local monofluorovinyl C(F)-SR connectivity, including aryl-S substituents.",
+            "different": "C-S bond is already present in an alkynyl sulfide; hydrofluorination is not the present CF3-ketone/free-thiol sequence.",
+            "evidence_locator": "Current corpus L353-S001; Results Table2 and SI characterization.",
+            "evidence_level": "current_repository_primary_evidence_statement"
+          },
+          {
+            "reference_code": "V14",
+            "doi": "10.1039/c7ob00599g",
+            "same": "Free-thiol C-S coupling with gem-difluoroalkenes.",
+            "different": "Preformed difluoroalkene and NHC activation versus the present CF3-ketone input; exact p-bromo/tert-butylthiophenol scope not established.",
+            "evidence_locator": "Publisher record and current corpus L356-S001; abstract only.",
+            "evidence_level": "current_repository_primary_evidence_statement"
+          },
+          {
+            "reference_code": "V32",
+            "doi": "10.1021/acs.joc.0c02436",
+            "same": "Trifluoropropanamide defluorinative sulfur coupling.",
+            "different": "Amide/disulfide versus ketone/free thiol; precise F/S topology not resolved by the accessible abstract.",
+            "evidence_locator": "Current corpus L363-S001; author abstract.",
+            "evidence_level": "current_repository_primary_evidence_statement"
+          },
+          {
+            "reference_code": "V05",
+            "doi": "10.1039/d6sc01042c",
+            "same": "CF3-alkane/thiol coupling through monofluorovinyl thioether intermediates.",
+            "different": "Unactivated alkyl-CF3 scaffold; the main text notes poor yields for thiophenols and a subsequent hydrofluorination stage.",
+            "evidence_locator": "Main text Results/Fig.4; current corpus L350-S001 and Q29.",
+            "evidence_level": "fresh_primary_fulltext"
+          }
+        ],
+        "review_status": "bounded_endpoint_review_complete",
+        "version": "2026-11-26-bounded-endpoint-review",
+        "scope_limitations": [
+          "NP2 and NR2 are bounded ordinal evidence labels, not global novelty or demonstrated reaction-success claims.",
+          "PubChem same_connectivity ignores stereochemistry and is not a complete literature, patent, SciFinder or Reaxys structure search.",
+          "Exact published substrate examples, catalyst compatibility and product yields are not inferred from related AP records.",
+          "Crossref and Europe PMC searches are text-index searches; broad result lists are only partially retrieved and cannot prove absence.",
+          "Source access is mixed: V04, V05 and V10 primary full texts were retrieved in this session; V31 primary abstract was retrieved; V11, V14 and V32 also rely on explicitly identified statements in the current repository corpus."
+        ]
+      }
+    ],
+    "NP_label": "2",
+    "NR": 2,
+    "NR_label": "2",
+    "references": [
+      "V11",
+      "V14",
+      "V32",
+      "V05"
+    ],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.11.205",
+      "10.1039/c7ob00599g",
+      "10.1021/acs.joc.0c02436",
+      "10.1039/d6sc01042c"
+    ],
+    "assessment": "The endpoint is the p-bromophenyl ketone bearing a C(F)-S-(4-tert-butylphenyl) vinyl linkage. Its PubChem same-connectivity identity search returned no hit. V11 establishes the local C(F)-SR motif with aryl and alkyl sulfur substituents, supporting nearby-connectivity NP2 rather than NP3. V14 establishes thiol coupling with preformed gem-difluoroalkenes, while V05 establishes alkyl-CF3/thiol sequences. The present p-bromophenyl CF3 ketone, free arylthiol and monofluorovinyl endpoint constitute a substrate/donor/sequence extension, supporting NR2. V32 is an adjacent trifluoropropanamide/disulfide precedent; its title alone is not used to assign the relative positions of F and S.",
+    "review_status": "bounded_endpoint_review_complete",
+    "version": "2026-11-26-bounded-endpoint-review",
+    "recorded_product_smiles": [
+      "O=C(C1=CC=C(C=C1)Br)/C=C(SC2=CC=C(C=C2)C(C)(C)C)\\F"
+    ],
+    "recorded_product_isomeric_canonical_smiles": "CC(C)(C)c1ccc(S/C(F)=C/C(=O)c2ccc(Br)cc2)cc1",
+    "review_input": {
+      "file": "code/data/novelty/reviewed/pair_assessment_sources_20261126/assessed_inputs.json",
+      "row": 20,
+      "product_label": "3m"
+    },
+    "NP_all_resolved": true,
+    "NP_unresolved_options": [],
+    "NP_min": 2,
+    "NP_max": 2,
+    "NP_known_min": 2,
+    "NP_known_max": 2,
+    "NR_all_resolved": true,
+    "NR_unresolved_options": [],
+    "NR_min": 2,
+    "NR_max": 2,
+    "scope_limitations": [
+      "NP2 and NR2 are bounded ordinal evidence labels, not global novelty or demonstrated reaction-success claims.",
+      "PubChem same_connectivity ignores stereochemistry and is not a complete literature, patent, SciFinder or Reaxys structure search.",
+      "Exact published substrate examples, catalyst compatibility and product yields are not inferred from related AP records.",
+      "Crossref and Europe PMC searches are text-index searches; broad result lists are only partially retrieved and cannot prove absence.",
+      "Source access is mixed: V04, V05 and V10 primary full texts were retrieved in this session; V31 primary abstract was retrieved; V11, V14 and V32 also rely on explicitly identified statements in the current repository corpus."
+    ]
+  },
+  {
+    "actual_pair_id": "AP111",
+    "route": "OH",
+    "product_label": "3aj",
+    "donor_name": "4-tert-butylphenol",
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccc(Br)cc1",
+    "partner_smiles": "CC(C)(C)c1ccc(O)cc1",
+    "options": [
+      {
+        "option_id": "AP111-O01",
+        "product_smiles": "CC(C)(C)c1ccc(OC(F)=CC(=O)c2ccc(Br)cc2)cc1",
+        "product_inchikey": "CZUVKPQXHWQYRT-UHFFFAOYSA-N",
+        "NP": 2,
+        "NP_label": "2",
+        "NR": 2,
+        "NR_label": "2",
+        "NP_status": "bounded_endpoint_assessment",
+        "NR_status": "bounded_endpoint_assessment",
+        "pubchem_query_id": "PC-20261126-AP111",
+        "pubchem_status": "no_match",
+        "pubchem_cids": [],
+        "pubchem_identity_type": "same_connectivity",
+        "pubchem_evidence_file": "sources/pc_3aj.json",
+        "assessment": "The endpoint is the p-bromophenyl ketone bearing a C(F)-O-(4-tert-butylphenyl) vinyl linkage. Its PubChem same-connectivity identity search returned no hit. V10 establishes phenoxy-substituted monofluoroalkene connectivity with F and OAr on the same alkene carbon; V05 establishes phenol-derived fluorovinyl ethers in an alkyl-CF3 coupling sequence. These nearby precedents support bounded NP2. The carbonyl-conjugated p-bromophenyl CF3 ketone and retention of its monofluorovinyl ether endpoint extend the substrate/endpoint scope, supporting NR2. Halothane-derived vinyl ether chemistry in V10 and unactivated alkyl-CF3 substrates in V05 do not establish the exact present pair.",
+        "references": [
+          "V10",
+          "V05"
+        ],
+        "nearest_precedent_dois": [
+          "10.3762/bjoc.20.226",
+          "10.1039/d6sc01042c"
+        ],
+        "comparison_evidence": [
+          {
+            "reference_code": "V10",
+            "doi": "10.3762/bjoc.20.226",
+            "same": "Local C(F)-OAr monofluoroalkene connectivity from phenols.",
+            "different": "Halothane-derived multihalogenated vinyl ether precursor rather than the p-bromophenyl CF3 ketone; exact full product not matched.",
+            "evidence_locator": "Primary full text Introduction/Scheme1D and Experimental product2a; current corpus L352-S001.",
+            "evidence_level": "fresh_primary_fulltext"
+          },
+          {
+            "reference_code": "V05",
+            "doi": "10.1039/d6sc01042c",
+            "same": "Phenol-derived fluorovinyl ether formation during alkyl-CF3 substitution.",
+            "different": "Unactivated alkyl-CF3 versus carbonyl-conjugated p-bromophenyl substrate, and hydrofluorination versus retained monofluoro endpoint.",
+            "evidence_locator": "Primary full text Results paragraph beginning We next sought to engage phenols/Fig.4; current corpus Q29.",
+            "evidence_level": "fresh_primary_fulltext"
+          }
+        ],
+        "review_status": "bounded_endpoint_review_complete",
+        "version": "2026-11-26-bounded-endpoint-review",
+        "scope_limitations": [
+          "NP2 and NR2 are bounded ordinal evidence labels, not global novelty or demonstrated reaction-success claims.",
+          "PubChem same_connectivity ignores stereochemistry and is not a complete literature, patent, SciFinder or Reaxys structure search.",
+          "Exact published substrate examples, catalyst compatibility and product yields are not inferred from related AP records.",
+          "Crossref and Europe PMC searches are text-index searches; broad result lists are only partially retrieved and cannot prove absence.",
+          "Source access is mixed: V04, V05 and V10 primary full texts were retrieved in this session; V31 primary abstract was retrieved; V11, V14 and V32 also rely on explicitly identified statements in the current repository corpus."
+        ]
+      }
+    ],
+    "NP_label": "2",
+    "NR": 2,
+    "NR_label": "2",
+    "references": [
+      "V10",
+      "V05"
+    ],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c"
+    ],
+    "assessment": "The endpoint is the p-bromophenyl ketone bearing a C(F)-O-(4-tert-butylphenyl) vinyl linkage. Its PubChem same-connectivity identity search returned no hit. V10 establishes phenoxy-substituted monofluoroalkene connectivity with F and OAr on the same alkene carbon; V05 establishes phenol-derived fluorovinyl ethers in an alkyl-CF3 coupling sequence. These nearby precedents support bounded NP2. The carbonyl-conjugated p-bromophenyl CF3 ketone and retention of its monofluorovinyl ether endpoint extend the substrate/endpoint scope, supporting NR2. Halothane-derived vinyl ether chemistry in V10 and unactivated alkyl-CF3 substrates in V05 do not establish the exact present pair.",
+    "review_status": "bounded_endpoint_review_complete",
+    "version": "2026-11-26-bounded-endpoint-review",
+    "recorded_product_smiles": [
+      "O=C(C1=CC=C(C=C1)Br)/C=C(OC2=CC=C(C(C)(C)C)C=C2)\\F"
+    ],
+    "recorded_product_isomeric_canonical_smiles": "CC(C)(C)c1ccc(O/C(F)=C/C(=O)c2ccc(Br)cc2)cc1",
+    "review_input": {
+      "file": "code/data/novelty/reviewed/pair_assessment_sources_20261126/assessed_inputs.json",
+      "row": 43,
+      "product_label": "3aj"
+    },
+    "NP_all_resolved": true,
+    "NP_unresolved_options": [],
+    "NP_min": 2,
+    "NP_max": 2,
+    "NP_known_min": 2,
+    "NP_known_max": 2,
+    "NR_all_resolved": true,
+    "NR_unresolved_options": [],
+    "NR_min": 2,
+    "NR_max": 2,
+    "scope_limitations": [
+      "NP2 and NR2 are bounded ordinal evidence labels, not global novelty or demonstrated reaction-success claims.",
+      "PubChem same_connectivity ignores stereochemistry and is not a complete literature, patent, SciFinder or Reaxys structure search.",
+      "Exact published substrate examples, catalyst compatibility and product yields are not inferred from related AP records.",
+      "Crossref and Europe PMC searches are text-index searches; broad result lists are only partially retrieved and cannot prove absence.",
+      "Source access is mixed: V04, V05 and V10 primary full texts were retrieved in this session; V31 primary abstract was retrieved; V11, V14 and V32 also rely on explicitly identified statements in the current repository corpus."
+    ]
+  },
+  {
+    "actual_pair_id": "AP112",
+    "route": "OH",
+    "product_label": "3an",
+    "donor_name": "5-methylpyridin-2-ol (recorded O-linked endpoint)",
+    "electrophile_smiles": "O=C(CC(F)(F)F)c1ccc(Br)cc1",
+    "partner_smiles": "Cc1ccc(O)nc1",
+    "options": [
+      {
+        "option_id": "AP112-O01",
+        "product_smiles": "Cc1ccc(OC(F)=CC(=O)c2ccc(Br)cc2)nc1",
+        "product_inchikey": "OKRCVYMBTMDDSA-UHFFFAOYSA-N",
+        "NP": 2,
+        "NP_label": "2",
+        "NR": 2,
+        "NR_label": "2",
+        "NP_status": "bounded_endpoint_assessment",
+        "NR_status": "bounded_endpoint_assessment",
+        "pubchem_query_id": "PC-20261126-AP112",
+        "pubchem_status": "no_match",
+        "pubchem_cids": [],
+        "pubchem_identity_type": "same_connectivity",
+        "pubchem_evidence_file": "sources/pc_3an.json",
+        "assessment": "The recorded endpoint is the O-linked 5-methyl-2-pyridyl fluorovinyl ether of the p-bromophenyl ketone. Its PubChem same-connectivity identity search returned no hit. V10 and V05 establish nearby C(F)-OAr fluorovinyl-ether connectivity and CF3/oxygen-donor substitution, supporting bounded NP2. They do not establish this exact O-pyridyl product. The p-bromophenyl CF3-ketone input, heteroaryl hydroxyl donor and specified O-selective endpoint extend that scope, supporting NR2. This assessment applies only to the supplied O-linked product; an N-linked pyridone endpoint is not substituted or presumed equivalent. No exact hydroxypyridine/ketone precedent was verified in this bounded search.",
+        "references": [
+          "V10",
+          "V05"
+        ],
+        "nearest_precedent_dois": [
+          "10.3762/bjoc.20.226",
+          "10.1039/d6sc01042c"
+        ],
+        "comparison_evidence": [
+          {
+            "reference_code": "V10",
+            "doi": "10.3762/bjoc.20.226",
+            "same": "Nearby C(F)-OAr monofluoroalkene connectivity.",
+            "different": "Phenolic aryl group versus 5-methyl-2-pyridyl group; no exact O-pyridyl or present carbonyl scaffold match is established.",
+            "evidence_locator": "Primary full text Introduction/Scheme1D and Experimental product2a; current corpus L352-S001.",
+            "evidence_level": "fresh_primary_fulltext"
+          },
+          {
+            "reference_code": "V05",
+            "doi": "10.1039/d6sc01042c",
+            "same": "CF3/oxygen-donor sequence yielding fluorovinyl ethers.",
+            "different": "Unactivated alkyl-CF3/phenol versus carbonyl-conjugated p-bromophenyl substrate and ambident hydroxypyridine; O/N selectivity remains endpoint-specific.",
+            "evidence_locator": "Primary full text Results/Figs.2-4; current corpus L350-S001 and Q29.",
+            "evidence_level": "fresh_primary_fulltext"
+          }
+        ],
+        "review_status": "bounded_endpoint_review_complete",
+        "version": "2026-11-26-bounded-endpoint-review",
+        "scope_limitations": [
+          "NP2 and NR2 are bounded ordinal evidence labels, not global novelty or demonstrated reaction-success claims.",
+          "PubChem same_connectivity ignores stereochemistry and is not a complete literature, patent, SciFinder or Reaxys structure search.",
+          "Exact published substrate examples, catalyst compatibility and product yields are not inferred from related AP records.",
+          "Crossref and Europe PMC searches are text-index searches; broad result lists are only partially retrieved and cannot prove absence.",
+          "Source access is mixed: V04, V05 and V10 primary full texts were retrieved in this session; V31 primary abstract was retrieved; V11, V14 and V32 also rely on explicitly identified statements in the current repository corpus."
+        ]
+      }
+    ],
+    "NP_label": "2",
+    "NR": 2,
+    "NR_label": "2",
+    "references": [
+      "V10",
+      "V05"
+    ],
+    "nearest_precedent_dois": [
+      "10.3762/bjoc.20.226",
+      "10.1039/d6sc01042c"
+    ],
+    "assessment": "The recorded endpoint is the O-linked 5-methyl-2-pyridyl fluorovinyl ether of the p-bromophenyl ketone. Its PubChem same-connectivity identity search returned no hit. V10 and V05 establish nearby C(F)-OAr fluorovinyl-ether connectivity and CF3/oxygen-donor substitution, supporting bounded NP2. They do not establish this exact O-pyridyl product. The p-bromophenyl CF3-ketone input, heteroaryl hydroxyl donor and specified O-selective endpoint extend that scope, supporting NR2. This assessment applies only to the supplied O-linked product; an N-linked pyridone endpoint is not substituted or presumed equivalent. No exact hydroxypyridine/ketone precedent was verified in this bounded search.",
+    "review_status": "bounded_endpoint_review_complete",
+    "version": "2026-11-26-bounded-endpoint-review",
+    "recorded_product_smiles": [
+      "O=C(/C=C(F)/OC1=NC=C(C)C=C1)C2=CC=C(Br)C=C2"
+    ],
+    "recorded_product_isomeric_canonical_smiles": "Cc1ccc(O/C(F)=C/C(=O)c2ccc(Br)cc2)nc1",
+    "review_input": {
+      "file": "code/data/novelty/reviewed/pair_assessment_sources_20261126/assessed_inputs.json",
+      "row": 3,
+      "product_label": "3an"
+    },
+    "NP_all_resolved": true,
+    "NP_unresolved_options": [],
+    "NP_min": 2,
+    "NP_max": 2,
+    "NP_known_min": 2,
+    "NP_known_max": 2,
+    "NR_all_resolved": true,
+    "NR_unresolved_options": [],
+    "NR_min": 2,
+    "NR_max": 2,
+    "scope_limitations": [
+      "NP2 and NR2 are bounded ordinal evidence labels, not global novelty or demonstrated reaction-success claims.",
+      "PubChem same_connectivity ignores stereochemistry and is not a complete literature, patent, SciFinder or Reaxys structure search.",
+      "Exact published substrate examples, catalyst compatibility and product yields are not inferred from related AP records.",
+      "Crossref and Europe PMC searches are text-index searches; broad result lists are only partially retrieved and cannot prove absence.",
+      "Source access is mixed: V04, V05 and V10 primary full texts were retrieved in this session; V31 primary abstract was retrieved; V11, V14 and V32 also rely on explicitly identified statements in the current repository corpus."
+    ]
+  }
+]

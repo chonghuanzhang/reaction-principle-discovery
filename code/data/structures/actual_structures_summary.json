@@ -1,0 +1,26 @@
+{
+  "source_workbooks": 3,
+  "source_occurrences": 2118,
+  "deduplicated_sample_row_groups": 1066,
+  "distinct_actual_reaction_pairs": 112,
+  "unique_partners": 102,
+  "unique_electrophiles": 6,
+  "pairs_by_route": {
+    "NH": 45,
+    "OH": 44,
+    "PH": 2,
+    "SH": 21
+  },
+  "pair_product_status": {
+    "unique_predicted": 103,
+    "unresolved": 3,
+    "multiple_predicted": 2,
+    "unique_recorded": 4
+  },
+  "recorded_product_smiles_count": 5,
+  "distinct_predicted_products": 107,
+  "Se_records": 0,
+  "scope_note": "The 112 ordered pairs are supported by screening workbooks and the product structure register. The 1,066 sample-row groups refer to screening records; four product-register rows have product identifiers and structures but do not encode sample or condition identifiers. Original workbook cells are retained.",
+  "product_register_rows": 4,
+  "distinct_assessed_product_connectivities": 111
+}

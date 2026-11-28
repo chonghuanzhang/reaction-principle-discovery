@@ -1,0 +1,9 @@
+{
+  "categories": [
+    "Exact identity",
+    "Same scaffold, substituent or positional variation",
+    "Same donor family, different scaffold",
+    "No reasonable counterpart"
+  ],
+  "interpretation": "Relations preserve the intended bond-forming element and donor role. Non-exact relations do not imply equivalent reactivity or transfer measured responses."
+}

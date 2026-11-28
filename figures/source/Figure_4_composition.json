@@ -1,0 +1,33 @@
+{
+  "figure": "Figure 4",
+  "format": "five-panel drawing from released candidate and mapping records",
+  "canvas_px": [
+    2096,
+    2148
+  ],
+  "dpi": [
+    300,
+    300
+  ],
+  "panels": {
+    "a": "reacting-centre category counts",
+    "b": "representative released recommendations",
+    "c": "candidate, hypothesis and product-option counts",
+    "d": "best candidate-experimental relationship classes and examples",
+    "e": "feasibility classes and novelty review priorities"
+  },
+  "source_data": "figures/source/round5_figure4/figure_data.json",
+  "authoritative_master": {
+    "path": "figures/main/Figure_4.png",
+    "sha256": "c75efbc93ed6fb4262e3e5b5d61ba4405a3a62293eb754081d036bdbac9e80b2"
+  },
+  "vector_pdf": "figures/main/Figure_4.pdf",
+  "vector_svg": "figures/main/Figure_4.svg",
+  "notes": [
+    "The PNG is exported at 300 dpi.",
+    "Molecular structures are read from the released candidate and experimental-input records.",
+    "Structural association arrows denote reviewed candidate-to-reagent relationships; relation classes and selection rationales are retained in the mapping records.",
+    "Feasibility classes and novelty priorities organize chemical review and are not reaction-success probabilities."
+  ],
+  "representative_source": "figures/source/round5_figure4/representatives.json"
+}

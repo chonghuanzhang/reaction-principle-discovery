@@ -1,0 +1,40 @@
+# Literature and chemical evidence
+
+Use this catalog to find a paper, understand what chemical observation it contributes, and check the limits of transferring that observation to a different substrate or donor. Each source page provides its complete citation, DOI, chemical contribution, access limitations and attributed statements.
+
+The [complete bibliography](bibliography.md) contains **403 numbered repository references**: **370 source records** identified as L001–L370 and **33 background or methods references**. These are records, not 370 independent experimental confirmations. In particular, L055 and L343 are preprint and published versions of one study. Missing full text or a metadata-only record does not establish a failed reaction or absence of prior art.
+
+Numbers in square brackets refer to this repository bibliography. The [reference correspondence](reference_correspondence.md) relates original manuscript numbers, comparison codes and source aliases to the same records.
+
+## Browse by chemical relevance
+
+| Tier | Chemical role | Source records |
+|---|---|---:|
+| [1](tiers/tier_1.md) | Target substrates and closely related reaction chemistry | 139 |
+| [2](tiers/tier_2.md) | Defluorination, fluorinated intermediates and C–F cleavage | 101 |
+| [3](tiers/tier_3.md) | Physical organic relationships for judging transfer | 88 |
+| [4](tiers/tier_4.md) | Competing pathways, catalyst compatibility and failure boundaries | 42 |
+
+A source may contribute several kinds of evidence while retaining its primary tier. For example, a target-substrate paper can provide both a productive reaction and a failure boundary. Tiers do not rank journals, access quality or evidential certainty.
+
+## Follow the evidence
+
+- [Source and candidate coverage](../evidence/source_coverage.md) gives the tier-specific source and original candidate-citation counts.
+- [Background chemical context](../evidence/background_context.md) documents the application and selectivity passages, with their source-specific limits.
+- [43 attributed quotations](../evidence/quotations/README.md) connect claims to exact passages and physical page or source-section locators.
+- [17 source-specific cases](../evidence/source_cases/README.md) distinguish donors, substrates, activation regimes and reaction endpoints.
+- [Four reaction principles](../evidence/principles/README.md) explain the conditional relationships used in molecular design.
+- [P/Se applicability](../evidence/applicability/README.md) preserves positive results, alternative endpoints and limits on negative transfer.
+
+## Download data
+
+The [data dictionary](data_dictionary.md) defines the counting units, fields, source attribution and extraction-text normalization.
+
+- [Reference correspondence CSV](reference_correspondence.csv) and [JSON](reference_correspondence.json): 53 original manuscript references, 35 comparison codes and 16 source aliases.
+- [Bibliography CSV](bibliography.csv) and [JSON](bibliography.json): all 403 numbered references and their L identifiers where applicable.
+- [Source catalog CSV](catalog.csv) and [JSON](catalog.json): 370 citations, chemical contributions, access states, limitations and reference-code correspondence.
+- [Statement CSV](evidence_statements.csv) and [JSON](evidence_statements.json): all 3,756 source-linked statements with attribution, language and human-readable locators.
+
+The literature registry contains 370 source records and 3,756 statements. The access and relevance review selected 342 sources and 3,694 statements for the candidate-generation evidence package. The full registry and the selected model-input package are therefore related but distinct counting units. The statement data retain 673 Chinese claims for which no English translation is assigned. English source summaries and the quoted-evidence pages provide the chemical interpretation; an absent translation is not an absent statement.
+
+See the [evidence guide](../evidence/README.md) for attribution and transfer rules and the [candidate catalog](../candidates/README.md) for molecular design.

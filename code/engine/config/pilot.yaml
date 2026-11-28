@@ -1,0 +1,57 @@
+version: "1.0"
+source_directories:
+  tier_1: "文献1"
+  tier_2: "文献2"
+  tier_3: "文献3"
+  tier_4: "文献4"
+model: "gpt-5.6-sol"
+schema_version: "1.0"
+prompt_version: "1.0"
+seed_context_path: "seed_reaction.yaml"
+screening_schema_path: "screening_schema.json"
+screening_prompt_path: "prompts/corpus_screening.md"
+max_chunk_characters: 60000
+screening:
+  batch_size: 8
+  max_characters_per_paper: 6000
+full_corpus:
+  max_chunk_characters: 200000
+  max_oversized_characters: 400000
+  calibration_per_tier: 5
+selection:
+  searchable_character_minimum: 1000
+  searchable_text_bonus: 3
+  manageable_page_maximum: 30
+  manageable_page_bonus: 2
+  visual_evidence_bonus: 1
+  keyword_weight: 4
+  tier_keywords:
+    tier_1:
+      - "trifluoropropanamide"
+      - "grignard"
+      - "β-fluoro"
+      - "unsaturated amide"
+      - "trifluoroethyl"
+      - "monodefluorinative"
+      - "selective defluorination"
+      - "monofluoroalkene"
+      - "carbonyl"
+    tier_2:
+      - "gem-difluoroalkene"
+      - "defluorinative"
+      - "c-f bond"
+      - "beta-f elimination"
+      - "monofluoroalkene"
+    tier_3:
+      - "nucleophilicity"
+      - "electrophilicity"
+      - "pka"
+      - "hammett"
+      - "reactivity scale"
+    tier_4:
+      - "poisoning"
+      - "deactivation"
+      - "over-defluorination"
+      - "decomposition"
+      - "oxidation"
+      - "incompatibility"

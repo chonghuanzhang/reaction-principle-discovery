@@ -1,0 +1,137 @@
+{
+  "scope": "Approved Figure 3 and Supplementary Figures 1\u20134 display update. Scientific graph data, nodes, connections and numerical records are unchanged.",
+  "baseline_upstream_commit": "66e7700",
+  "baseline_tree": "80a773ad6a7b3f022c61b72c4e141258637cb837",
+  "figure_3": {
+    "svg": "figures/main/Figure_3.svg",
+    "svg_sha256": "d7c14f61c4af361a446358f8db0658ffb7423592c9c46ad15dd63f0205835472",
+    "png_dimensions": [
+      3000,
+      2452
+    ],
+    "view_box": [
+      0,
+      34,
+      521.28027,
+      426.062
+    ],
+    "approved_presentation": "Author-approved manuscript artwork with updated edge line styles. The repository master is synchronized with the current manuscript presentation.",
+    "edge_styles": {
+      "evidence": {
+        "stroke_width": 1.15,
+        "stroke_opacity": 0.65
+      },
+      "application": {
+        "stroke_width": 0.6,
+        "stroke_opacity": 0.3,
+        "stroke_dasharray": "1.0,1.0"
+      },
+      "membership": {
+        "stroke_width": 0.6,
+        "stroke_opacity": 0.42
+      }
+    },
+    "label_outline": {
+      "stroke": "#ffffff",
+      "stroke_width": 0.7,
+      "stroke_linejoin": "round",
+      "paint_order": "stroke fill"
+    }
+  },
+  "supplementary_figures_1_to_4": {
+    "svg_pattern": "knowledge_graph/figures/RP{1,2,3,4}_focus.svg",
+    "png_dimensions": [
+      2172,
+      1916
+    ],
+    "style_numeric_order": [
+      "stroke-width",
+      "stroke-opacity"
+    ],
+    "style_changes": {
+      "evidence_highlight": {
+        "old": [
+          0.75,
+          0.38
+        ],
+        "new": [
+          1.15,
+          0.65
+        ]
+      },
+      "evidence_context": {
+        "old": [
+          0.35,
+          0.055
+        ],
+        "new": [
+          0.55,
+          0.095
+        ]
+      },
+      "application_highlight": {
+        "old": [
+          0.32,
+          0.14
+        ],
+        "new": [
+          0.6,
+          0.3
+        ]
+      },
+      "application_context": {
+        "old": [
+          0.32,
+          0.02
+        ],
+        "new": [
+          0.6,
+          0.043
+        ]
+      },
+      "membership": {
+        "old": [
+          0.35,
+          0.24
+        ],
+        "new": [
+          0.6,
+          0.42
+        ]
+      },
+      "application_dash": {
+        "old": "0.64,0.64",
+        "new": "1,1"
+      }
+    },
+    "png_rendering": "sharp(svg, {density: 300}).resize(2172, 1916, {fit: \"fill\"}).flatten({background: \"#ffffff\"}).png()",
+    "pdf_rendering": "rsvg-convert --format pdf --output RPn_focus.pdf RPn_focus.svg",
+    "pdf_rendering_mode": "Vector paths and fonts; no page-sized raster image."
+  },
+  "masters": [
+    {
+      "path": "figures/main/Figure_3.svg",
+      "sha256": "d7c14f61c4af361a446358f8db0658ffb7423592c9c46ad15dd63f0205835472"
+    },
+    {
+      "path": "knowledge_graph/figures/Figure_3.svg",
+      "sha256": "d7c14f61c4af361a446358f8db0658ffb7423592c9c46ad15dd63f0205835472"
+    },
+    {
+      "path": "knowledge_graph/figures/RP1_focus.svg",
+      "sha256": "6cef4b791161b1aa2650bc654e58ebb26359bf56814c9f53d4e5c02967fae87f"
+    },
+    {
+      "path": "knowledge_graph/figures/RP2_focus.svg",
+      "sha256": "283428502fc958466bda715f6d1259516d73cbca333b9bd242333012a0860e1b"
+    },
+    {
+      "path": "knowledge_graph/figures/RP3_focus.svg",
+      "sha256": "71dd4df224175f40173155b77988f807589e33eb7f5c6477cec5ad87510d3e11"
+    },
+    {
+      "path": "knowledge_graph/figures/RP4_focus.svg",
+      "sha256": "00c8685470da586868c40e0a9b4ae8a40dfad0de0b23a9923056645c0493100e"
+    }
+  ]
+}

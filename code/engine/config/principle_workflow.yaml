@@ -1,0 +1,85 @@
+version: "1.0"
+seed_sources_config: "seed_sources.yaml"
+transferability_config: "transferability.yaml"
+candidate_scoring_config: "candidate_scoring.yaml"
+retrospective_development_registry: "retrospective_development_outcomes.yaml"
+freeze_version: "v1"
+precision_k: 10
+seed_modeling:
+  model: "gpt-5.6-sol"
+  prompt_version: "1.0"
+  prompt_text: |
+    Extract page- or record-grounded evidence for the Seed Reaction, then build
+    a SeedMechanism and a falsifiable Seed Principle. Separate experimental
+    facts, author hypotheses, model inferences, and unknowns. Focus on reaction
+    center, bond changes, reactive intermediates, electronic and steric
+    requirements, nucleophile state, catalyst roles, condition windows,
+    successful scope, failure boundaries, and competing pathways.
+principle_modeling:
+  model: "gpt-5.6-sol"
+  prompt_version: "2.0"
+  max_assessments: 80
+  max_per_paper: 3
+  prompt_text: |
+    Propose a compact set of falsifiable Reaction Principles by transferring
+    only mechanistic elements that are compatible with the Seed Reaction.
+    Preserve contradictions, exceptions, conditional requirements, failure
+    modes, and critical unknowns. Every proposal must state an experimental
+    consequence and a falsifying experiment.
+chemical_space_modeling:
+  model: "gpt-5.6-sol"
+  prompt_version: "6.0"
+  ontology_version: "2.0"
+  max_assessments: 80
+  superclass_batch_size: 1
+  max_assessments_per_batch: 32
+  read_timeout_seconds: 1200
+  max_per_paper: 3
+  prompt_text: |
+    Map electrophile and nucleophile families against the reviewed Reaction
+    Principles. Supply evidence-linked component judgments, explicit hard
+    blockers, unknowns, required conditions, failure modes, and a small set of
+    concrete diagnostic experiment tuples spanning high-, conditional-, low-,
+    and excluded-priority regions.
+exploration_brief:
+  version: "2.0"
+  stage: "fixed_electrophile_nucleophile_condition"
+  fixed_role:
+    role: "electrophile"
+    label: "Chemical Science trifluoroethyl carbonyl Seed substrate"
+    seed_reaction_id: "SR001"
+  variable_role:
+    role: "nucleophile"
+    label: "substrate B"
+  target_transformation:
+    product_class: "monofluoroalkene"
+    required_features:
+      - "new bond between the Seed-derived fluorinated alkene manifold and substrate B"
+      - "selective retention of one fluorine in the product"
+  seed_instances:
+    - family_id: "NF-ARYL-ORGANOBORON"
+      role: "nucleophile"
+      status: "observed_seed_instance"
+normalization:
+  model: "gpt-5.6-sol"
+  prompt_version: "1.0"
+  schema_version: "1.0"
+  prompt_text: |
+    Normalize only the validated literature record into evidence-grounded
+    mechanistic units. Preserve uncertainty and request a source revisit when
+    a critical visual or mechanistic field cannot be resolved.
+semantic_transfer:
+  model: "gpt-5.6-sol"
+  prompt_version: "2.0"
+  rubric_version: "2.0"
+  max_workers: 3
+  prompt_text: |
+    Compare every normalized mechanism item in this one-paper bundle with the
+    grounded Seed Reaction. Perform mechanistic Knowledge Transfer rather than
+    topical similarity or literature summarization. Judge the shared elementary
+    step, electrophile/electronic compatibility, accessible nucleophile reactive
+    form, catalyst/ligand compatibility, condition overlap, selective
+    defluorination requirement, product stability, and competing pathways.
+    Preserve physical-organic constraints, negative evidence, contradictions,
+    and unknowns. A condition-specific failure is not an intrinsic family
+    exclusion. Cite only supplied qualified Seed and same-paper evidence IDs.

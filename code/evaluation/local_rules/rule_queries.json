@@ -1,0 +1,191 @@
+[
+  {
+    "query_id": "source_P01",
+    "substrate": "FC(F)(F)CCCOCc1ccccc1",
+    "donor": "Ph2PH, P(III)–H",
+    "activation": "base-promoted addition/elimination",
+    "condition_recipe": "standard conditions, no P-specific complete recipe assigned in S15",
+    "target_endpoint": "fluorovinyl phosphine, one F"
+  },
+  {
+    "query_id": "source_P02",
+    "substrate": "source:already formed fluorovinyl phosphine",
+    "donor": "P-bound fluorovinyl intermediate from P01",
+    "activation": "second-step hydrofluorination",
+    "condition_recipe": "standard hydrofluorination conditions in S15",
+    "target_endpoint": "P-substituted gem-difluoride, two F"
+  },
+  {
+    "query_id": "source_P05",
+    "substrate": "COc1ccc(C=C(F)F)cc1",
+    "donor": "Ph2P(O)H, 3 equiv",
+    "activation": "peroxide-initiated hydrophosphinylation",
+    "condition_initiator": "di-tert-butyl peroxide 5 mol%",
+    "condition_solvent": "tBuOH",
+    "condition_temperature_C": 120,
+    "condition_time_h": 16,
+    "condition_atmosphere": "N2",
+    "target_endpoint": "saturated ArCH2CF2P(O)Ph2; retains two F"
+  },
+  {
+    "query_id": "source_SE02",
+    "substrate": "C=CCC(=O)Nc1ccccc1",
+    "donor": "PhSeH",
+    "activation": "amide-directed NiH hydroselenylation",
+    "condition_alkene_mmol": 0.1,
+    "condition_Se_loading_equiv": 1.5,
+    "condition_catalyst": "NiBr2·glyme 10 mol%",
+    "condition_ligand": "paper L* 12 mol%; exact structure retained in original Table1",
+    "condition_silane": "(MeO)2MeSiH 3 equiv",
+    "condition_base": "Na2CO3 2 equiv",
+    "condition_BnBr_equiv": 1,
+    "condition_salt": "NaBF4 1 equiv",
+    "condition_solvent": "THF 1mL (0.1M)",
+    "condition_temperature_C": 25,
+    "condition_time_h": 18,
+    "condition_atmosphere": "Ar",
+    "target_endpoint": "nonfluorinated beta-selenide 3a"
+  },
+  {
+    "query_id": "source_SE03",
+    "substrate": "C=CCC(=O)Nc1ccccc1",
+    "donor": "PhSeSePh",
+    "activation": "amide-directed NiH hydroselenylation",
+    "condition_alkene_mmol": 0.1,
+    "condition_Se_loading_equiv": 1.5,
+    "condition_catalyst": "NiBr2·glyme 10 mol%",
+    "condition_ligand": "paper L* 12 mol%; exact structure retained in original Table1",
+    "condition_silane": "(MeO)2MeSiH 3 equiv",
+    "condition_base": "Na2CO3 2 equiv",
+    "condition_BnBr_equiv": 1,
+    "condition_salt": "NaBF4 1 equiv",
+    "condition_solvent": "THF 1mL (0.1M)",
+    "condition_temperature_C": 25,
+    "condition_time_h": 18,
+    "condition_atmosphere": "Ar",
+    "target_endpoint": "nonfluorinated beta-selenide 3a"
+  },
+  {
+    "query_id": "source_SE04",
+    "substrate": "C=CCC(=O)Nc1ccccc1",
+    "donor": "PhSeSePh",
+    "activation": "amide-directed NiH hydroselenylation",
+    "condition_alkene_mmol": 0.1,
+    "condition_Se_loading_equiv": 1.5,
+    "condition_catalyst": "NiBr2·glyme 10 mol%",
+    "condition_ligand": "paper L* 12 mol%; exact structure retained in original Table1",
+    "condition_silane": "(MeO)2MeSiH 3 equiv",
+    "condition_base": "Na2CO3 2 equiv",
+    "condition_BnBr_equiv": 0,
+    "condition_salt": "NaBF4 1 equiv",
+    "condition_solvent": "THF 1mL (0.1M)",
+    "condition_temperature_C": 25,
+    "condition_time_h": 18,
+    "condition_atmosphere": "Ar",
+    "target_endpoint": "nonfluorinated beta-selenide 3a"
+  },
+  {
+    "query_id": "source_N01",
+    "substrate": "FC(F)(F)CCCOCc1ccccc1",
+    "donor": "N-methylaniline",
+    "activation": "NaHMDS-mediated addition/elimination",
+    "condition_base": "NaHMDS",
+    "condition_solvent": "N,N-dimethylacetamide",
+    "condition_other": "standard conditions; not fully assigned",
+    "target_endpoint": "fluoroenamine, one F"
+  },
+  {
+    "query_id": "source_N03",
+    "substrate": "source:already formed one-F intermediate",
+    "donor": "fluoroenamine from N-methylaniline",
+    "activation": "hydrofluorination",
+    "condition_recipe": "variety of optimized ether hydrofluorination conditions",
+    "target_endpoint": "N-substituted gem-difluoride"
+  },
+  {
+    "query_id": "P05_monoF_requested",
+    "substrate": "COc1ccc(C=C(F)F)cc1",
+    "donor": "Ph2P(O)H, 3 equiv",
+    "activation": "peroxide-initiated hydrophosphinylation",
+    "condition_initiator": "di-tert-butyl peroxide 5 mol%",
+    "condition_solvent": "tBuOH",
+    "condition_temperature_C": 120,
+    "condition_time_h": 16,
+    "condition_atmosphere": "N2",
+    "target_endpoint": "monofluorovinyl C-P target"
+  },
+  {
+    "query_id": "P05_PIII_donor_swap",
+    "substrate": "COc1ccc(C=C(F)F)cc1",
+    "donor": "Ph2PH, P(III)–H",
+    "activation": "peroxide-initiated hydrophosphinylation",
+    "condition_initiator": "di-tert-butyl peroxide 5 mol%",
+    "condition_solvent": "tBuOH",
+    "condition_temperature_C": 120,
+    "condition_time_h": 16,
+    "condition_atmosphere": "N2",
+    "target_endpoint": "saturated ArCH2CF2P(O)Ph2; retains two F"
+  },
+  {
+    "query_id": "AP087",
+    "substrate": "COc1ccc(C(=O)CC(F)(F)F)cc1",
+    "donor": "Ph2PH",
+    "activation": "recorded Pd168/Na2CO3 protocol",
+    "target_endpoint": "project monofluoro C–P target",
+    "condition_catalyst": "Pd168",
+    "condition_base": "Na2CO3",
+    "condition_solvent": "THF",
+    "condition_temperature_C": 80,
+    "condition_time_h": 12,
+    "condition_sample_ids": [
+      "CFC124009-19-PL22-W2"
+    ]
+  },
+  {
+    "query_id": "AP088",
+    "substrate": "O=C(CC(F)(F)F)c1ccc(Cl)cc1",
+    "donor": "Ph2PH",
+    "activation": "recorded Pd168/Na2CO3 protocol",
+    "target_endpoint": "project monofluoro C–P target",
+    "condition_catalyst": "Pd168",
+    "condition_base": "Na2CO3",
+    "condition_solvent": "THF",
+    "condition_temperature_C": 80,
+    "condition_time_h": 12,
+    "condition_sample_ids": [
+      "CFC124009-19-PL22-W1"
+    ]
+  },
+  {
+    "query_id": "SE_PROJECT",
+    "substrate": "source:project CF3 carbonyl substrate not localized",
+    "donor": "PhSeH candidate; actual Se donor not yet verified",
+    "activation": "author-reported Se attempt; sample/recipe unavailable",
+    "target_endpoint": "project monofluoro C–Se target"
+  },
+  {
+    "query_id": "P_O_PROJECT",
+    "substrate": "source:project CF3 carbonyl substrates",
+    "donor": "Ph2P(O)H",
+    "activation": "no matched executed record in audited108",
+    "target_endpoint": "project monofluoro C–P(O) target"
+  },
+  {
+    "query_id": "SE03_BnBr_unrecorded",
+    "substrate": "C=CCC(=O)Nc1ccccc1",
+    "donor": "PhSeSePh",
+    "activation": "amide-directed NiH hydroselenylation",
+    "condition_alkene_mmol": 0.1,
+    "condition_Se_loading_equiv": 1.5,
+    "condition_catalyst": "NiBr2·glyme 10 mol%",
+    "condition_ligand": "paper L* 12 mol%; exact structure retained in original Table1",
+    "condition_silane": "(MeO)2MeSiH 3 equiv",
+    "condition_base": "Na2CO3 2 equiv",
+    "condition_salt": "NaBF4 1 equiv",
+    "condition_solvent": "THF 1mL (0.1M)",
+    "condition_temperature_C": 25,
+    "condition_time_h": 18,
+    "condition_atmosphere": "Ar",
+    "target_endpoint": "nonfluorinated beta-selenide 3a"
+  }
+]

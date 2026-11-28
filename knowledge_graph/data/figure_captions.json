@@ -1,0 +1,4 @@
+{
+  "Figure_3": "Evidence-to-RP-to-candidate provenance network. Seventeen evidence nodes support four reviewed reaction principles, which connect to 43 precursor families and 100 recommended nucleophiles (N 40, O 30, S 25 and P 5). Edges encode 19 evidence-to-principle, 172 principle-to-family and 100 family-membership relationships.",
+  "Supplementary_Figures_1_4": "RP-focused views of the same provenance network; each view retains the evidence, family and recommendation links associated with one reaction principle."
+}

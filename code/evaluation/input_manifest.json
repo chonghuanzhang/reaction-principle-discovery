@@ -1,0 +1,105 @@
+{
+  "title": "Source-conditioned P/Se local rule-integrity evaluation",
+  "source_snapshot_date": "2026-10-25",
+  "scientific_status": {
+    "local_rule_integrity": "Completed on development cases"
+  },
+  "files": [
+    {
+      "path": "chemistry/E16_precursor_correction.json",
+      "sha256": "a0e3278b4b27a3a780f9ce98632bd5409f580b43fb8ecc5fc6d11b5b95a8588c"
+    },
+    {
+      "path": "chemistry/evidence.json",
+      "sha256": "d46a02ecdd02bcf1604ef6db1de64c27f9ebd494952ed3635293ea6fab49d351"
+    },
+    {
+      "path": "chemistry/principle_cards.json",
+      "sha256": "78bd432630fb2cf6539be1edf5390e1683bca2582d4cff6480ff26ab85c8e324"
+    },
+    {
+      "path": "chemistry/pse_challenge_matrix.csv",
+      "sha256": "f2af976f36fc62a31230747b823e9f289c89eb0b9fbaa2401f0b99991bcb5ffa"
+    },
+    {
+      "path": "chemistry/pse_challenge_matrix.json",
+      "sha256": "5f29d8c20f812fd591d953e3434eec00f701adbef6122ccdbe4bda089daa7d69"
+    },
+    {
+      "path": "chemistry/raw/CF2_SE_PMC6336877.paragraphs.json",
+      "sha256": "c8a86a613234782be9f2ba0b1eeec062e4626c39c6956c4b129f4996dfc83716"
+    },
+    {
+      "path": "chemistry/raw/CORADI_SI_SC-017-D6SC01042C-s001.txt",
+      "sha256": "4ac8f4593f13a45799812e29e33ee82993449ac166f3a97c9815c974dacb345d"
+    },
+    {
+      "path": "chemistry/raw/CORADI_d6sc01042c.xml.txt",
+      "sha256": "6442b90ae363d28a1cc70c5f0fe7a20bc05f202d3c4ab3676cb2f946868e232f"
+    },
+    {
+      "path": "chemistry/raw/INTELLI_intelli.pages.json",
+      "sha256": "a2704294f67ace633a2ad511a3b88a14957c552cf2e76f22271a2ffb77fac215"
+    },
+    {
+      "path": "chemistry/raw/LI_epmc_3.json",
+      "sha256": "0320576405032894fca6713538a777458109b94b608fec204966b21e7eee30da"
+    },
+    {
+      "path": "chemistry/raw/NI_SE_PMC13460409.paragraphs.json",
+      "sha256": "c053d1a6b77350292c19bbdba949bff2c5931a91cb6a635dc6e7b9a8ab7dd1da"
+    },
+    {
+      "path": "chemistry/raw/PENG_p2019_crossref.json",
+      "sha256": "70f46da45e34fe19e29a67c61412e03944a90aa5da86a15ae62499cb77a3b6cb"
+    },
+    {
+      "path": "chemistry/raw/Zhang2019_Fig3.jpg",
+      "sha256": "a8819c1256797ee0c9b5649c4cddab06bb1ba6c9f2f6dd64dedb532a3d4ccdb2"
+    },
+    {
+      "path": "chemistry/references.json",
+      "sha256": "360f6f31d4db25bbd4dcd127ce12b5ade3e9db14179dae32f661868549cebd7d"
+    },
+    {
+      "path": "chemistry/verified_structures.json",
+      "sha256": "a9f6e2262a7dba1579e9ec7763e10f90cb5d887e78104912898651d03936140d"
+    },
+    {
+      "path": "local_rules/build_rule_artifacts.py",
+      "sha256": "18df91eeeec00ec82b147cfc41db3b3817ad77191e2b119ef0a4eea0a127bd55"
+    },
+    {
+      "path": "local_rules/conditional_rules.py",
+      "sha256": "e7cf6b46015422b53bccc1e5fdea7524879c053da3ad0a0d13ac0f9d9fca98d5"
+    },
+    {
+      "path": "local_rules/executable_rules.json",
+      "sha256": "3f3725d998ef1137e952355e7ecd6313e747377f401baf76a6ea5033bd81f5b4"
+    },
+    {
+      "path": "local_rules/rule_decision_summary.csv",
+      "sha256": "2a1e7c8d227a259dae460e233390b9d6df178a636e76b3dfdf2bb4f4a3263d5f"
+    },
+    {
+      "path": "local_rules/rule_evidence_interventions.csv",
+      "sha256": "c3eee1ffcaca4c0d9f25c254c9a2a3d13ce3dda8cac14c64f7600f62a8573fcf"
+    },
+    {
+      "path": "local_rules/rule_integrity_protocol.json",
+      "sha256": "df1145a8869249e023f57e8a47771afb2082a46c8bfb3fe4e635fa1943c3fd7a"
+    },
+    {
+      "path": "local_rules/rule_outputs.json",
+      "sha256": "f10cb91814c9cbc04d7e6c2832ee686714d508589cf56da8559aa243743c01b2"
+    },
+    {
+      "path": "local_rules/rule_queries.json",
+      "sha256": "a7d73360445359438f706715ecdf725ab1b6613bf851bbe0592a87defbd18344"
+    },
+    {
+      "path": "local_rules/test_conditional_rules.py",
+      "sha256": "e33079f118e27cfec41d9c4b0d42c559c89cd0b5b458d536bbe05985b6c7d31b"
+    }
+  ]
+}

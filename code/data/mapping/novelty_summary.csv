@@ -1,0 +1,32 @@
+universe,dimension,label,count,denominator
+candidate_molecule,NP,2,18,100
+candidate_molecule,NP,unresolved,81,100
+candidate_molecule,NP,2 | unresolved,1,100
+candidate_molecule,NR,1,2,100
+candidate_molecule,NR,2,15,100
+candidate_molecule,NR,3,1,100
+candidate_molecule,NR,unresolved,81,100
+candidate_molecule,NR,2 | unresolved,1,100
+candidate_hypothesis,NP,2,19,103
+candidate_hypothesis,NP,unresolved,84,103
+candidate_hypothesis,NR,1,2,103
+candidate_hypothesis,NR,2,16,103
+candidate_hypothesis,NR,3,1,103
+candidate_hypothesis,NR,unresolved,84,103
+candidate_product_option,NP,2,19,103
+candidate_product_option,NP,unresolved,84,103
+candidate_product_option,NR,1,2,103
+candidate_product_option,NR,2,16,103
+candidate_product_option,NR,3,1,103
+candidate_product_option,NR,unresolved,84,103
+experimental_pair,NP,2,104,112
+experimental_pair,NP,not applicable,3,112
+experimental_pair,NP,1R,3,112
+experimental_pair,NP,3,1,112
+experimental_pair,NP,3/2,1,112
+experimental_pair,NR,2,94,112
+experimental_pair,NR,not applicable,3,112
+experimental_pair,NR,3,7,112
+experimental_pair,NR,1,6,112
+experimental_pair,NR,unresolved,1,112
+experimental_pair,NR,2–3,1,112

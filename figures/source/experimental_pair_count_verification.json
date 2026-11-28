@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "figure": 1,
+      "size_px": [
+        2092,
+        1407
+      ],
+      "changed_pixel_bbox": [
+        120,
+        1052,
+        168,
+        1074
+      ],
+      "png_master_identical": true,
+      "svg_embeds_current_png": true,
+      "pdf_pages": 1
+    },
+    {
+      "figure": 2,
+      "size_px": [
+        3555,
+        2601
+      ],
+      "changed_pixel_bbox": [
+        2368,
+        1050,
+        2440,
+        1084
+      ],
+      "png_master_identical": true,
+      "svg_embeds_current_png": true,
+      "pdf_pages": 1
+    },
+    {
+      "editable_deck": 1,
+      "only_text_replacements": true,
+      "changed_parts": [
+        "ppt/slides/slide1.xml",
+        "ppt/slides/slide4.xml"
+      ]
+    },
+    {
+      "editable_deck": 2,
+      "only_text_replacements": true,
+      "changed_parts": [
+        "ppt/slides/slide1.xml"
+      ]
+    }
+  ]
+}

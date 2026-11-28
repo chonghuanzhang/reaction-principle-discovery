@@ -1,0 +1,73 @@
+{
+  "definitions": {
+    "NP": "Product-connectivity precedent within the documented search; not a predicted yield or success probability.",
+    "NR": "Reaction precedent within the documented search; kept separate from NP."
+  },
+  "units": {
+    "candidate_molecules": 100,
+    "candidate_hypotheses": 103,
+    "candidate_product_options": 103,
+    "experimental_pairs": 112,
+    "experimental_donor_structures": 102
+  },
+  "candidate_molecule_NP_label_set_distribution": {
+    "2": 18,
+    "unresolved": 81,
+    "2 | unresolved": 1
+  },
+  "candidate_molecule_NR_label_set_distribution": {
+    "1": 2,
+    "2": 15,
+    "3": 1,
+    "unresolved": 81,
+    "2 | unresolved": 1
+  },
+  "candidate_hypothesis_NP": {
+    "2": 19,
+    "unresolved": 84
+  },
+  "candidate_hypothesis_NR": {
+    "1": 2,
+    "2": 16,
+    "3": 1,
+    "unresolved": 84
+  },
+  "candidate_product_option_NP": {
+    "2": 19,
+    "unresolved": 84
+  },
+  "candidate_product_option_NR": {
+    "1": 2,
+    "2": 16,
+    "3": 1,
+    "unresolved": 84
+  },
+  "experimental_pair_NP": {
+    "2": 104,
+    "not applicable": 3,
+    "1R": 3,
+    "3": 1,
+    "3/2": 1
+  },
+  "experimental_pair_NR": {
+    "2": 94,
+    "not applicable": 3,
+    "3": 7,
+    "1": 6,
+    "unresolved": 1,
+    "2–3": 1
+  },
+  "candidate_by_centre": {
+    "N": 40,
+    "O": 30,
+    "S": 25,
+    "P": 5
+  },
+  "experimental_by_route": {
+    "NH": 45,
+    "OH": 44,
+    "PH": 2,
+    "SH": 21
+  },
+  "interpretation": "Unresolved and not-applicable states remain explicit. Recommendation and experimental-pair distributions use different counting units."
+}

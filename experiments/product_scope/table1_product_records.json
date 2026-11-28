@@ -1,0 +1,40 @@
+{
+  "source_id": "author_table1_20261126",
+  "scope": "Two Table 1 product assignments linked to existing experimental pairs; complete 44-product scope is preserved in the artwork.",
+  "records": [
+    {
+      "product_id": "3n",
+      "actual_pair_id": "AP097",
+      "route": "SH",
+      "donor_substituent": "para-methyl",
+      "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+      "donor_smiles": "Cc1ccc(S)cc1",
+      "product_connectivity_smiles": "Cc1ccc(SC(F)=CC(=O)Nc2ccccc2)cc1",
+      "structure_scope": "Atom connectivity; no stereochemical assignment is encoded in this record.",
+      "yield_percent": 13,
+      "yield_method": "quantitative 1H NMR with an internal standard",
+      "source_id": "author_table1_20261126",
+      "source_location": "Table 1, S-nucleophile panel, product 3n",
+      "source_manifest": "experiments/product_scope/source_manifest.json",
+      "pair_link_basis": "Electrophile and donor identities match the existing experimental-pair record; product atom connectivity matches its assessed product option.",
+      "existing_assessed_option_id": "AP097-O01"
+    },
+    {
+      "product_id": "3q",
+      "actual_pair_id": "AP100",
+      "route": "SH",
+      "donor_substituent": "para-trifluoromethyl",
+      "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+      "donor_smiles": "FC(F)(F)c1ccc(S)cc1",
+      "product_connectivity_smiles": "O=C(C=C(F)Sc1ccc(C(F)(F)F)cc1)Nc1ccccc1",
+      "structure_scope": "Atom connectivity; no stereochemical assignment is encoded in this record.",
+      "yield_percent": 11,
+      "yield_method": "quantitative 1H NMR with an internal standard",
+      "source_id": "author_table1_20261126",
+      "source_location": "Table 1, S-nucleophile panel, product 3q",
+      "source_manifest": "experiments/product_scope/source_manifest.json",
+      "pair_link_basis": "Electrophile and donor identities match the existing experimental-pair record; product atom connectivity matches its assessed product option.",
+      "existing_assessed_option_id": "AP100-O01"
+    }
+  ]
+}

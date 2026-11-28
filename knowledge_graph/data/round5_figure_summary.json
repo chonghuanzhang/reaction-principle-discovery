@@ -1,0 +1,24 @@
+{
+  "nodes": {
+    "evidence": 17,
+    "reaction_principles": 4,
+    "families": 43,
+    "candidates": 100
+  },
+  "edges": {
+    "evidence_to_principle": 19,
+    "principle_to_family": 172,
+    "family_membership": 100
+  },
+  "candidate_citations": {
+    "linked_candidates": 75,
+    "links": 170,
+    "catalog_sources": 17
+  },
+  "supplementary_figures": {
+    "Supplementary Figure 1": "RP1_focus",
+    "Supplementary Figure 2": "RP2_focus",
+    "Supplementary Figure 3": "RP3_focus",
+    "Supplementary Figure 4": "RP4_focus"
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "record_id": "INTRO-DROUIN",
+    "title": "Amide-bond replacements and measured biological activity",
+    "source_id": "L093",
+    "reference_number": 16,
+    "doi": "10.3762/bjoc.13.262",
+    "claim": "Monofluoroalkenes have been investigated as selected peptide amide-bond replacements.",
+    "source_passage": "Monofluoroalkenes are fluorinated motifs that can be used to replace amide bonds.",
+    "source_location": "Author abstract; publisher full text Introduction and applications.",
+    "transfer_limit": "Not a statement that the project products are drugs, or that every amide replacement improves activity.",
+    "interpretation": "Selected monofluoroalkenes have been investigated as peptide amide-bond replacements. In the cited example, fluorinated analogues showed weak to moderate anti-HIV activity but lower potency than SC29EK. This supports an explored medicinal application; it does not establish improved activity or drug status for the present products.",
+    "source_text": [
+      "Monofluoroalkenes have been investigated as selected peptide amide-bond replacements. DOI: 10.3762/bjoc.13.262.",
+      "Source passage: Monofluoroalkenes are fluorinated motifs that can be used to replace amide bonds. Locator: Author abstract; publisher full text Introduction and applications. Transfer limit: Not a statement that the project products are drugs, or that every amide replacement improves activity.",
+      "Application example: Weak to moderate anti-HIV activity was observed for the fluorinated analogues, but the potency was always lower than for SC29EK. A specific explored medicinal application with lower potency; do not generalize improved bioactivity."
+    ],
+    "application_example": "Weak to moderate anti-HIV activity was observed for the fluorinated analogues, but the potency was always lower than for SC29EK. A specific explored medicinal application with lower potency; do not generalize improved bioactivity."
+  },
+  {
+    "record_id": "INTRO-MORAND",
+    "title": "Proposed mimics of amide derivatives and phosphates",
+    "source_id": "",
+    "reference_number": 17,
+    "doi": "10.1002/chem.202102548",
+    "claim": "gem-Heteroatom-substituted fluoroalkenes are proposed mimics of specific amide derivatives or phosphates.",
+    "source_passage": "could be envisioned as stable mimics of various important organic functions, such as phosphates, carbamates, S-thiocarbamates and ureas.",
+    "source_location": "Author abstract, Crossref and EuropePMC.",
+    "transfer_limit": "Potential is the authors’ proposal; no biological validation of the present compounds is implied.",
+    "interpretation": "The authors propose gem-heteroatom-substituted fluoroalkenes as potential stable mimics of specific functional groups. The proposal concerns phosphates, carbamates, S-thiocarbamates and ureas. It does not provide biological validation of the compounds in the present study.",
+    "source_text": [
+      "gem-Heteroatom-substituted fluoroalkenes are proposed mimics of specific amide derivatives or phosphates. DOI: 10.1002/chem.202102548.",
+      "Source passage: could be envisioned as stable mimics of various important organic functions, such as phosphates, carbamates, S-thiocarbamates and ureas. Locator: Author abstract, Crossref and EuropePMC. Transfer limit: Potential is the authors’ proposal; no biological validation of the present compounds is implied."
+    ]
+  },
+  {
+    "record_id": "INTRO-ZENG",
+    "title": "Selectivity across fluorinated alkene reaction partners",
+    "source_id": "L321",
+    "reference_number": 18,
+    "doi": "10.1038/s41467-024-52054-6",
+    "claim": "Selective defluorinative construction of functionalized monofluoroalkenes faces regio-, stereo- and pathway-selectivity demands.",
+    "source_passage": "the initial hydronickelation step must proceed with significantly different reactivities due to the presence of C = C double bonds in the alkene, the gem-difluoroalkene, and the monofluoroalkene product.",
+    "source_location": "Introduction, paragraph beginning Recently; primary abstract and Results for successful coupling.",
+    "transfer_limit": "NiH coupling of preformed gem-difluoroalkenes, not the project’s saturated CF3 carbonyl/Nu donor conditions.",
+    "interpretation": "The cited NiH study highlights the need to distinguish the reactivities of an alkene, a gem-difluoroalkene and a monofluoroalkene product during hydronickelation. It provides context for regio-, stereo- and pathway-selectivity questions. Its preformed gem-difluoroalkene coupling partners differ from the saturated CF₃ carbonyl substrates and donor conditions examined here.",
+    "source_text": [
+      "Selective defluorinative construction of functionalized monofluoroalkenes faces regio-, stereo- and pathway-selectivity demands. DOI: 10.1038/s41467-024-52054-6.",
+      "Source passage: the initial hydronickelation step must proceed with significantly different reactivities due to the presence of C = C double bonds in the alkene, the gem-difluoroalkene, and the monofluoroalkene product. Locator: Introduction, paragraph beginning Recently; primary abstract and Results for successful coupling. Transfer limit: NiH coupling of preformed gem-difluoroalkenes, not the project’s saturated CF3 carbonyl/Nu donor conditions."
+    ]
+  },
+  {
+    "record_id": "INTRO-SAKAGUCHI",
+    "title": "Fluoroalkenyl boron compounds as synthetic building blocks",
+    "source_id": "L073",
+    "reference_number": 19,
+    "doi": "10.1021/jacs.7b08343",
+    "claim": "Selective C-F replacement provides fluoroalkenyl boron building blocks for further synthetic transformations.",
+    "source_passage": "Further transformation of the boryl group has allowed facile preparation of fluoroalkene derivatives",
+    "source_location": "Author abstract, EuropePMC PMID28849929.",
+    "transfer_limit": "Cu/borylation of polyfluoroalkenes, not exact project RCOCH2CF3/heteroatom transformation. The described atorvastatin mimic does not establish broad medicinal deployment.",
+    "interpretation": "The reported boryl-group transformations demonstrate the synthetic use of fluoroalkenyl boron building blocks. The source concerns copper-catalysed borylation of polyfluoroalkenes. It does not directly establish the present RCOCH₂CF₃/heteroatom transformation, and an atorvastatin-mimic example does not establish broad medicinal deployment.",
+    "source_text": [
+      "Selective C-F replacement provides fluoroalkenyl boron building blocks for further synthetic transformations. DOI: 10.1021/jacs.7b08343.",
+      "Source passage: Further transformation of the boryl group has allowed facile preparation of fluoroalkene derivatives Locator: Author abstract, EuropePMC PMID28849929. Transfer limit: Cu/borylation of polyfluoroalkenes, not exact project RCOCH2CF3/heteroatom transformation. The described atorvastatin mimic does not establish broad medicinal deployment."
+    ]
+  }
+]

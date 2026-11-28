@@ -1,0 +1,56 @@
+[
+  {
+    "id": "V05_fulltext",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13027227/fullTextXML",
+    "error": "HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "id": "V04_epmc_retry",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1126%2Fsciadv.aea4120&format=json&resultType=core",
+    "status_code": 200,
+    "bytes": 5649,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/V04_epmc_retry.txt"
+  },
+  {
+    "id": "V32_crossref",
+    "url": "https://api.crossref.org/works/10.1021/acs.joc.0c02436",
+    "status_code": 200,
+    "bytes": 10038,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/V32_crossref.txt"
+  },
+  {
+    "id": "V04_crossref",
+    "url": "https://api.crossref.org/works/10.1126/sciadv.aea4120",
+    "status_code": 429,
+    "bytes": 0,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/V04_crossref.txt"
+  },
+  {
+    "id": "query_cf3_N",
+    "url": "https://api.crossref.org/works?query=trifluoromethyl+ketone+diphenylamine+fluorovinyl+defluorination&rows=12",
+    "status_code": 200,
+    "bytes": 31037,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/query_cf3_N.txt"
+  },
+  {
+    "id": "query_cf3_O",
+    "url": "https://api.crossref.org/works?query=trifluoromethyl+ketone+phenol+fluorovinyl+ether+defluorination&rows=12",
+    "status_code": 200,
+    "bytes": 65378,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/query_cf3_O.txt"
+  },
+  {
+    "id": "query_cf3_S",
+    "url": "https://api.crossref.org/works?query=trifluoromethyl+ketone+thiophenol+fluorovinyl+thioether+defluorination&rows=12",
+    "status_code": 429,
+    "bytes": 0,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/query_cf3_S.txt"
+  },
+  {
+    "id": "query_cf3_pyridone",
+    "url": "https://api.crossref.org/works?query=trifluoromethyl+ketone+hydroxypyridine+monofluoroalkenyl+ether&rows=12",
+    "status_code": 200,
+    "bytes": 73864,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/query_cf3_pyridone.txt"
+  }
+]

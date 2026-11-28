@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "candidates": 100,
+    "hypotheses": 103,
+    "product_options": 103,
+    "families": 43
+  },
+  "candidate_data": "../../../candidates/data/candidates_100.json",
+  "hypothesis_data": "../../../candidates/data/hypotheses_103.json",
+  "product_option_data": "../../../candidates/product_options/product_options_103.json",
+  "network_data": "../../../knowledge_graph/data/network.json"
+}

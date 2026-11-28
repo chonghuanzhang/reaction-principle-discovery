@@ -1,0 +1,46 @@
+{
+  "reacting_centres": {
+    "N": 40,
+    "S": 25,
+    "O": 30,
+    "P": 5
+  },
+  "accounting": {
+    "candidates": 100,
+    "hypotheses": 103,
+    "product_options": 103
+  },
+  "best_correspondence": {
+    "exact_identity": 25,
+    "same_scaffold_or_substituent": 31,
+    "same_donor_family": 41,
+    "unmatched": 3
+  },
+  "feasibility": {
+    "A": 22,
+    "B": 75,
+    "C": 3
+  },
+  "novelty_priority": {
+    "1": 43,
+    "2": 41,
+    "3": 16
+  },
+  "examples": [
+    {
+      "candidate": "C002",
+      "experimental_pair": "AP044",
+      "relationship": "Exact identity"
+    },
+    {
+      "candidate": "C042",
+      "experimental_pair": "AP048",
+      "relationship": "Same scaffold / positional variation"
+    },
+    {
+      "candidate": "C004",
+      "experimental_pair": "AP096",
+      "relationship": "Same donor family / different scaffold"
+    }
+  ]
+}

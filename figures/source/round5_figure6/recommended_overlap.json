@@ -1,0 +1,132 @@
+{
+  "direct_llm": [
+    [
+      "LLM04",
+      [
+        "C006"
+      ]
+    ],
+    [
+      "LLM12",
+      [
+        "C002"
+      ]
+    ]
+  ],
+  "literature_selection": [
+    [
+      "LIT11",
+      [
+        "C090"
+      ]
+    ],
+    [
+      "LIT14",
+      [
+        "C097"
+      ]
+    ],
+    [
+      "LIT18",
+      [
+        "C057"
+      ]
+    ],
+    [
+      "LIT19",
+      [
+        "C004"
+      ]
+    ],
+    [
+      "LIT20",
+      [
+        "C007"
+      ]
+    ]
+  ],
+  "total_exact_recommendation_overlaps": 7,
+  "experimental_statistics": {
+    "RP-guided": "35/94",
+    "direct_LLM": "4/20",
+    "literature": "3/20"
+  },
+  "comparison_type": "experimental_collection_positive_fraction_comparison",
+  "interpretation_limit": "The fractions and Wilson intervals summarize the tested collections under their respective electrophile and reaction-condition combinations.",
+  "collection_definitions": {
+    "RP-guided": {
+      "endpoint": "Nonzero numerical UV response aggregated by unique donor structure for the reported analysis.",
+      "electrophile": "Six electrophile structures occur in the 112-pair experimental mapping.",
+      "conditions": "Donor-specific experimental conditions assigned by reaction system.",
+      "candidate_space": "Panels a and b use the reported N/O/S analysis collection of 94 unique donors."
+    },
+    "LLM-only": {
+      "endpoint": "Final qualitative \u6709\u4ea7\u7269/trace call, displayed as Product/Trace; Trace denotes a negligible UV-response outcome and is counted as negative.",
+      "electrophile": "All 20 records encode COc1ccc(C(=O)CC(F)(F)F)cc1.",
+      "conditions": "Bayesian-optimized conditions assigned to each reaction system.",
+      "candidate_space": "Twenty direct-LLM recommendations; the set is not restricted to the N/O/S/P donor-center classes used to organize the RP-guided collection."
+    },
+    "Literature-only": {
+      "endpoint": "Final qualitative \u6709\u4ea7\u7269/trace call, displayed as Product/Trace; trace is negative.",
+      "electrophile": "Collection-specific electrophiles used in the recorded baseline experiments.",
+      "conditions": "Bayesian-optimized conditions assigned to each reaction system.",
+      "candidate_space": "Twenty unique literature-selected structures represented by 21 deposited source records, including one duplicated source structure and one supplemental record."
+    }
+  },
+  "panel_scopes": {
+    "panel_a": {
+      "content": "Reported collection-positive fractions and Wilson intervals.",
+      "rp_scope": "Reported N/O/S donor analysis: 35 positives among 94 unique donors (NH 12/38, OH 11/36 and SH 12/20).",
+      "baseline_scope": "Complete deposited 20-structure direct-LLM and 20-unique-structure literature collections.",
+      "comparability": "Fractions summarize the tested collections under their respective electrophile and reaction-condition combinations."
+    },
+    "panel_b": {
+      "content": "Reported exact donor-structure intersections among the three experimental analysis collections.",
+      "rp_scope": "The same 94 unique N/O/S donors used for the reported RP-guided analysis in panel a.",
+      "baseline_scope": "All 20 direct-LLM structures and 20 unique literature-selection structures.",
+      "count_provenance": "Membership-pattern counts follow the approved Round 5 Figure 6 analysis collection."
+    }
+  },
+  "reported_collection_intersections": [
+    {
+      "membership": [
+        true,
+        false,
+        false
+      ],
+      "count": 91
+    },
+    {
+      "membership": [
+        false,
+        true,
+        false
+      ],
+      "count": 18
+    },
+    {
+      "membership": [
+        false,
+        false,
+        true
+      ],
+      "count": 19
+    },
+    {
+      "membership": [
+        true,
+        true,
+        false
+      ],
+      "count": 2
+    },
+    {
+      "membership": [
+        true,
+        false,
+        true
+      ],
+      "count": 1
+    }
+  ]
+}

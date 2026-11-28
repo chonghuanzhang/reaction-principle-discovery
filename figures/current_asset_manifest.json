@@ -1,0 +1,51 @@
+{
+  "release": "experimental-pairs-112",
+  "assets": [
+    {
+      "path": "figures/main/Figure_1.png",
+      "width_px": 2092,
+      "height_px": 1407,
+      "sha256": "cf1e5635f2c26ed31362db5a3dc63021a3f7f8900387f7726b35971a0932bac8",
+      "experimental_pair_count": 112,
+      "count_source": "code/data/structures/actual_pairs.json"
+    },
+    {
+      "path": "figures/main/Figure_2.png",
+      "width_px": 3555,
+      "height_px": 2601,
+      "sha256": "8fc3cb7769cdadaddf32dac49f831d7816a808d71ec68aa565342cc711b81344",
+      "experimental_pair_count": 112,
+      "count_source": "code/data/structures/actual_pairs.json"
+    },
+    {
+      "path": "knowledge_graph/figures/Figure_3.png",
+      "width_px": 3000,
+      "height_px": 2452,
+      "sha256": "3ef244d0d69e40de2f7162adad7e38b5bee2cc2a9d79efd5dc2c37d960886e11"
+    },
+    {
+      "path": "figures/main/Figure_4.png",
+      "width_px": 2096,
+      "height_px": 2148,
+      "sha256": "c75efbc93ed6fb4262e3e5b5d61ba4405a3a62293eb754081d036bdbac9e80b2"
+    },
+    {
+      "path": "figures/main/Figure_6.png",
+      "width_px": 3015,
+      "height_px": 2438,
+      "sha256": "7a025131b94d5364f4dc1e362953a35a8457ff0c29d7f36cb36142853c7b38a2",
+      "source_description": "Authoritative raster extracted from ../Manuscript-round5-final.docx at word/media/image7.png; the PDF and SVG derivatives embed this PNG.",
+      "analysis_membership": "experiments/baselines/data/rp_analysis_membership_94.json",
+      "verification": "experiments/baselines/data/comparison_verification.json"
+    },
+    {
+      "path": "candidates/figures/N1_novelty_distributions.png",
+      "width_px": 2102,
+      "height_px": 1576,
+      "sha256": "d5012cc04ad3447ed12ef01cfabf4824f3ecf05cb2a935d85f81bebfb1071b37",
+      "experimental_pair_count": 112,
+      "count_source": "figures/source/round5_supplementary_figure5.json"
+    }
+  ],
+  "candidate_source": "candidates/data/candidates_100.json"
+}

@@ -1,0 +1,43 @@
+{
+  "total_pairs": 112,
+  "records": {
+    "AP109": {
+      "product_label": "3j",
+      "NP_label": "2",
+      "NR": 2
+    },
+    "AP110": {
+      "product_label": "3m",
+      "NP_label": "2",
+      "NR": 2
+    },
+    "AP111": {
+      "product_label": "3aj",
+      "NP_label": "2",
+      "NR": 2
+    },
+    "AP112": {
+      "product_label": "3an",
+      "NP_label": "2",
+      "NR": 2
+    }
+  },
+  "NP": {
+    "2": 104,
+    "不适用": 3,
+    "1R": 3,
+    "3": 1,
+    "3/2": 1
+  },
+  "NR": {
+    "2": 94,
+    "不适用": 3,
+    "3": 7,
+    "1": 6,
+    "Unresolved": 1,
+    "2–3": 1
+  },
+  "NP2_percent": 92.9,
+  "NR2_percent": 83.9,
+  "actual_pair_options": 111
+}

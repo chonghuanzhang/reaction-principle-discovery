@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "unique_donors": 94,
+  "positive_donors": 35,
+  "by_route": {
+    "NH": 38,
+    "OH": 36,
+    "SH": 20
+  },
+  "positive_by_route": {
+    "NH": 12,
+    "OH": 11,
+    "SH": 12
+  },
+  "intersections": [
+    {
+      "membership": [
+        true,
+        false,
+        false
+      ],
+      "count": 91
+    },
+    {
+      "membership": [
+        false,
+        true,
+        false
+      ],
+      "count": 18
+    },
+    {
+      "membership": [
+        false,
+        false,
+        true
+      ],
+      "count": 19
+    },
+    {
+      "membership": [
+        true,
+        true,
+        false
+      ],
+      "count": 2
+    },
+    {
+      "membership": [
+        true,
+        false,
+        true
+      ],
+      "count": 1
+    }
+  ],
+  "baseline_positive_counts": {
+    "LLM": [
+      4,
+      20
+    ],
+    "literature": [
+      3,
+      20
+    ]
+  },
+  "wilson95_intervals_verified": true,
+  "network_calls": 0,
+  "model_calls": 0
+}

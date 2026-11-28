@@ -1,0 +1,24 @@
+{
+  "record_type": "recorded_sequential_campaign_summary",
+  "system": "NH",
+  "config": {
+    "id": "eq_r095_b050",
+    "weights": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+    "rho": 0.95,
+    "beta": 0.5,
+    "initialization": "recorded_full_space_batch",
+    "acquisition": "UCB"
+  },
+  "initial_conditions": 12,
+  "batch_size": 4,
+  "first_highest_response_round": 10,
+  "stopping_round": 12,
+  "unique_conditions": 60,
+  "highest_measured_UV_response": 1.54697139066581,
+  "initial_population_SD": 0.47250477013351994,
+  "stop_tolerance_UV_units": 0.047250477013352,
+  "all_recommended_batches_measured": true,
+  "stopped_at_first_qualifying_round": true,
+  "trajectory_file": "trajectory.json",
+  "condition_record_file": "trajectory_conditions.csv"
+}

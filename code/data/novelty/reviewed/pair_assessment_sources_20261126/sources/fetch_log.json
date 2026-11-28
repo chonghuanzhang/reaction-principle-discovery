@@ -1,0 +1,40 @@
+[
+  {
+    "id": "rsc_d6sc01042c",
+    "url": "https://pubs.rsc.org/en/content/articlehtml/2026/sc/d6sc01042c",
+    "status_code": 403,
+    "bytes": 5558,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/rsc_d6sc01042c.txt"
+  },
+  {
+    "id": "bjoc_20_226",
+    "url": "https://www.beilstein-journals.org/bjoc/articles/20/226",
+    "status_code": 200,
+    "bytes": 297207,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/bjoc_20_226.txt"
+  },
+  {
+    "id": "crossref_V31",
+    "url": "https://api.crossref.org/works/10.1002/adsc.202200352",
+    "status_code": 200,
+    "bytes": 12625,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/crossref_V31.txt"
+  },
+  {
+    "id": "epmc_V32",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+    "error": "HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Read timed out. (read timeout=12)"
+  },
+  {
+    "id": "crossref_V14",
+    "url": "https://api.crossref.org/works/10.1039/c7ob00599g",
+    "status_code": 200,
+    "bytes": 35442,
+    "path": "/tmp/reaction_pair_revision_20261126/novelty/sources/crossref_V14.txt"
+  },
+  {
+    "id": "epmc_V04",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+    "error": "HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Read timed out. (read timeout=12)"
+  }
+]

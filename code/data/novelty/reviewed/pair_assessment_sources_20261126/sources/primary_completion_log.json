@@ -1,0 +1,19 @@
+[
+  {
+    "id": "V05_pmc",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13027227/",
+    "status_code": 200,
+    "bytes": 232987
+  },
+  {
+    "id": "V04_pmc",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12551715/",
+    "status_code": 200,
+    "bytes": 207983
+  },
+  {
+    "id": "V32_epmc_long",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1021%2Facs.joc.0c02436&format=json&resultType=core",
+    "error": "HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Read timed out. (read timeout=25)"
+  }
+]

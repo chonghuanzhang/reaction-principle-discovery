@@ -1,0 +1,35 @@
+{
+  "experimental_pairs": 112,
+  "unique_donors": 102,
+  "unique_electrophiles": 6,
+  "routes": {
+    "NH": 45,
+    "OH": 44,
+    "PH": 2,
+    "SH": 21
+  },
+  "relationships": {
+    "Exact identity": 27,
+    "Same scaffold, substituent or positional variation": 39,
+    "Same donor family, different scaffold": 42,
+    "No reasonable counterpart": 4
+  },
+  "NP": {
+    "2": 104,
+    "not applicable": 3,
+    "1R": 3,
+    "3": 1,
+    "3/2": 1
+  },
+  "NR": {
+    "2": 94,
+    "not applicable": 3,
+    "3": 7,
+    "1": 6,
+    "unresolved": 1,
+    "2–3": 1
+  },
+  "source_register": "experiments/raw/product_structure_register.xlsx",
+  "applicable_target_pairs": 109,
+  "distinct_assessed_product_connectivities": 111
+}

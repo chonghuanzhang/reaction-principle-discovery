@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "tier": 1,
+      "catalog_sources": 139,
+      "principle_cited_sources": 4,
+      "candidate_citation_sources": 5,
+      "cited_candidates": 20
+    },
+    {
+      "tier": 2,
+      "catalog_sources": 101,
+      "principle_cited_sources": 4,
+      "candidate_citation_sources": 10,
+      "cited_candidates": 62
+    },
+    {
+      "tier": 3,
+      "catalog_sources": 88,
+      "principle_cited_sources": 0,
+      "candidate_citation_sources": 1,
+      "cited_candidates": 8
+    },
+    {
+      "tier": 4,
+      "catalog_sources": 42,
+      "principle_cited_sources": 0,
+      "candidate_citation_sources": 1,
+      "cited_candidates": 18
+    }
+  ],
+  "distinct_cited_candidates": 75,
+  "distinct_candidate_citation_sources": 17,
+  "candidate_evidence_links": 170,
+  "source_caption": "Tier-specific source and candidate coverage. Seventy-five recommended nucleophiles retain 170 candidate-level links to 17 catalog sources; all 100 additionally retain an RP-family-evidence provenance path."
+}

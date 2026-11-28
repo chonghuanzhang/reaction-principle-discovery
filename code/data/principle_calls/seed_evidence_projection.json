@@ -1,0 +1,201 @@
+{
+  "claim_type_contract_digest": "99613fe7cfd86b8638507f05a426238d298cae684923663ac31111e2e1f5487e",
+  "claim_type_contract_version": "1.1",
+  "seed_evidence": [
+    {
+      "claim": "The authors report that the best experimentally observed condition for the model coupling was Pd168/KHCO₃/DCE at 80 °C, giving 65% yield; Pd168 is reported only as an identifier here.",
+      "evidence": {
+        "evidence_id": "SE001",
+        "evidence_label": "EXPERIMENTAL FACT",
+        "locator": "paragraph:0030",
+        "quotation": "The discrete-table design also ensured that every recommended condition was immediately executable, avoiding the need to translate continuous model suggestions into practical experimental settings. In the second Bayesian optimization round, at the fixed temperature 80 °C, the catalyst Pd168, the base KHCO₃, and the solvent DCE delivered a 65% yield. This condition was selected as the best experimentally observed condition in the campaign, and denoted as condition*. The high predicted mean for this condition was consistent with the progressive reduction of uncertainty around productive regions of the candidate space. This condition was then used as the fixed single-condition setting for subsequent high-throughput evaluation of the expanded organoboron reagent panel and downstream model building (Fig. 3a and 3b).",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "condition_window",
+      "provenance": {
+        "raw_evidence_type": "first-party condition-optimization result"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "The standard microscale HTE procedure combined trifluoroethyl carbonyl compounds with boronic acid derivatives and heated the reactions at 80 °C for 12 h under the stated plate workflow.",
+      "evidence": {
+        "evidence_id": "SE002",
+        "evidence_label": "EXPERIMENTAL FACT",
+        "locator": "paragraph:3265",
+        "quotation": "First, bases and additives were accurately dispensed into a 96-well metal reaction plate using a high-throughput solid weighing workstation (So-Wo). The Pd catalyst was loaded onto glass beads and dispensed into the plate using a chembead dispenser. The solubility of trifluoroethyl carbonyl compounds and boronic acid derivatives under the reaction conditions was evaluated in advance, and corresponding stock solutions were prepared (insoluble substrates were dosed directly using the So-Wo system). Subsequently, 125 μL of the trifluoroethyl carbonyl compound solution and 125 μL of the boronic acid derivative solution were added to each well of the 96-well metal reaction plate using an EVO-200 liquid handling system, giving a total reaction volume of 250 μL. The plate was then sealed and tightly secured, and the reactions were stirred at 80 °C for 12 h using a magnetic stirrer compatible with high-throughput reaction plates.",
+        "source_id": "SI_0701.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "condition_window",
+      "provenance": {
+        "raw_evidence_type": "first-party experimental procedure"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "Product formation was reported to depend strongly on both Pd catalyst and KHCO₃; attempted detection or trapping of the proposed gem-difluoroenone was inconclusive.",
+      "evidence": {
+        "evidence_id": "SE003",
+        "evidence_label": "EXPERIMENTAL FACT",
+        "locator": "paragraph:0052",
+        "quotation": "To gain preliminary mechanistic insight, several control experiments were performed. Product formation was strongly dependent on Pd catalyst and KHCO₃, indicating that both components are essential for the productive defluorinative coupling. Attempts to detect or trap the proposed gem-difluoroenone intermediate did not provide conclusive evidence, suggesting that this species, if formed, may be short-lived or rapidly consumed under the reaction conditions. In addition, TEMPO completely inhibited the reaction, whereas BHT and 1,1-diphenylethylene only partially reduced the yield (Fig. 6A), indicating that these inhibition experiments should be interpreted cautiously and do not establish a purely radical pathway.",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "reactive_intermediate",
+      "provenance": {
+        "raw_evidence_type": "first-party mechanistic control experiments"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "TEMPO completely inhibited the reaction, while BHT and 1,1-diphenylethylene only partially reduced yield; the authors explicitly state that these inhibition results do not establish a purely radical pathway.",
+      "evidence": {
+        "evidence_id": "SE004",
+        "evidence_label": "EXPERIMENTAL FACT",
+        "locator": "paragraph:0052",
+        "quotation": "To gain preliminary mechanistic insight, several control experiments were performed. Product formation was strongly dependent on Pd catalyst and KHCO₃, indicating that both components are essential for the productive defluorinative coupling. Attempts to detect or trap the proposed gem-difluoroenone intermediate did not provide conclusive evidence, suggesting that this species, if formed, may be short-lived or rapidly consumed under the reaction conditions. In addition, TEMPO completely inhibited the reaction, whereas BHT and 1,1-diphenylethylene only partially reduced the yield (Fig. 6A), indicating that these inhibition experiments should be interpreted cautiously and do not establish a purely radical pathway.",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "failure_boundary",
+      "provenance": {
+        "raw_evidence_type": "first-party inhibition experiments and stated interpretive limitation"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "The manuscript proposes, tentatively, carbonyl-assisted Pd activation, a chelated five-membered Pd intermediate, β-F elimination to a gem-difluoroenone and Pd-H, migratory insertion, organoboron transmetalation, and a further β-F elimination that furnishes the monofluoroalkene and regenerates active Pd.",
+      "evidence": {
+        "evidence_id": "SE005",
+        "evidence_label": "AUTHOR HYPOTHESIS",
+        "locator": "paragraph:0053",
+        "quotation": "On the basis of the experimental results and related literature precedents, a plausible mechanism for this Pd-catalyzed defluorinative coupling is proposed, as shown in the Fig. 6B. Initially, the carbonyl group of trifluoroethyl carbonyl compound 1 may assist Pd-mediated substrate activation through coordination to the metal center and polarization of the adjacent C–F bonds. This process could generate a putative chelated five-membered palladium intermediate A. Under basic conditions, intermediate A may then undergo β-F elimination to generate the gem-difluoroenone intermediate B together with Pd-H intermediate C. From this point, two competing pathways may operate. In path I, the monofluoroalkene product 3 could undergo further migratory insertion with Pd-H intermediate C to give Pd(II) intermediate D, followed by β–F elimination to furnish the fully defluorinated alkene 4. In path II, intermediate B may be converted into migratory insertion intermediate E, which could then undergo transmetalation with organoboron reagent 2 to afford intermediate F. Subsequent β–F elimination from F would deliver the desired monofluoroalkene C–C bond formation product 3 and regenerate the catalytically active palladium species. The observation of over-defluorinated alkene 4 under stronger base or higher temperature conditions is consistent with the possibility of further defluorinative pathways, whereas condition* appeared to suppress this pathway and favor productive C–C bond formation. Although this mechanism remains tentative, it provides a reasonable framework for rationalizing the observed condition sensitivity and product selectivity.",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "reactive_intermediate",
+      "provenance": {
+        "raw_evidence_type": "tentative author-proposed mechanism"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "Conversion of a trifluoroethyl carbonyl substrate into a monofluoroalkene retaining one fluorine entails net loss of two fluorines from the CF₃-derived center, not a single defluorination event.",
+      "evidence": {
+        "evidence_id": "SE006",
+        "evidence_label": "MODEL INFERENCE",
+        "locator": "paragraph:0007",
+        "quotation": "Monofluoroalkenes are privileged fluorinated motifs in medicinal chemistry, but their selective synthesis through C–F bond activation remains challenging because of the high strength of C–F bonds and the condition-sensitive nature of defluorinative transformations. To address this challenge, this work establishes a Pd-catalyzed defluorinative C–C bond-forming strategy that couples trifluoroethyl ketones, esters, and amides with diverse organoboron reagents to deliver structurally diverse monofluoroalkenes. The integration of Bayesian optimization with high-throughput experimentation (HTE) enabled rapid condition optimization, identifying productive reaction conditions for the model substrate pair from 376 candidate conditions within only 53 experiments. To efficiently explore substrate generality under limited experimental budgets, the organoboron reagent space was further stratified on the basis of literature precedent, commercial availability, and structural diversity. Under the optimized condition, 970 curated substrate–reagent reaction entries were evaluated across 11 HTE plates, enabling rapid assessment of substrate compatibility and identification of productive monofluoroalkene-forming reactions. Leveraging the resulting single-condition HTE dataset, a two-stage decision-support model was further developed for reactivity classification and yield prediction, with the XGBoost model achieving an F1-score of 0.932 for classification and an R² of 0.852 with a mean absolute error of 4.03% for yield regression on the held-out test set. Overall, this study establishes an experimentally grounded workflow that combines Bayesian optimization, HTE, substrate-space stratification, and data-assisted modeling to accelerate reaction discovery in a condition-sensitive C–F bond activation system.",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "selectivity",
+      "provenance": {
+        "raw_evidence_type": "stoichiometric inference from stated trifluoroethyl reactant and monofluoroalkene product"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "The manuscript reports an over-defluorinated alkene under stronger base or higher temperature and hypothesizes that condition* suppresses this competing pathway.",
+      "evidence": {
+        "evidence_id": "SE007",
+        "evidence_label": "AUTHOR HYPOTHESIS",
+        "locator": "paragraph:0053",
+        "quotation": "On the basis of the experimental results and related literature precedents, a plausible mechanism for this Pd-catalyzed defluorinative coupling is proposed, as shown in the Fig. 6B. Initially, the carbonyl group of trifluoroethyl carbonyl compound 1 may assist Pd-mediated substrate activation through coordination to the metal center and polarization of the adjacent C–F bonds. This process could generate a putative chelated five-membered palladium intermediate A. Under basic conditions, intermediate A may then undergo β-F elimination to generate the gem-difluoroenone intermediate B together with Pd-H intermediate C. From this point, two competing pathways may operate. In path I, the monofluoroalkene product 3 could undergo further migratory insertion with Pd-H intermediate C to give Pd(II) intermediate D, followed by β–F elimination to furnish the fully defluorinated alkene 4. In path II, intermediate B may be converted into migratory insertion intermediate E, which could then undergo transmetalation with organoboron reagent 2 to afford intermediate F. Subsequent β–F elimination from F would deliver the desired monofluoroalkene C–C bond formation product 3 and regenerate the catalytically active palladium species. The observation of over-defluorinated alkene 4 under stronger base or higher temperature conditions is consistent with the possibility of further defluorinative pathways, whereas condition* appeared to suppress this pathway and favor productive C–C bond formation. Although this mechanism remains tentative, it provides a reasonable framework for rationalizing the observed condition sensitivity and product selectivity.",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "failure_boundary",
+      "provenance": {
+        "raw_evidence_type": "reported competing product with tentative mechanistic interpretation"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "The authors infer that productive reactivity depends jointly on electronic, steric, and coordinating features of both the trifluoroethyl carbonyl substrate and the organoboron partner.",
+      "evidence": {
+        "evidence_id": "SE008",
+        "evidence_label": "MODEL INFERENCE",
+        "locator": "paragraph:0049",
+        "quotation": "Overall, the scope analysis revealed pronounced substrate-matching behavior across different combinations of trifluoroethyl carbonyl compounds and organoboron reagents. These scope boundaries indicate that productive reactivity is not determined by a single substrate class alone, but instead depends on the combined electronic, steric, and coordinating features of both coupling partners. This highlights the value of HTE-based mapping for defining productive regions of this defluorinative reaction space.",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "electronic_requirement",
+      "provenance": {
+        "raw_evidence_type": "author interpretation of first-party scope data"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "The manuscript reports limited compatibility for highly electron-deficient heteroaryl boron reagents, strongly coordinating substrates, and sterically congested ortho-disubstituted arylboron partners, and reports no desired product for alkyl organoboron reagents under the stated conditions.",
+      "evidence": {
+        "evidence_id": "SE009",
+        "evidence_label": "EXPERIMENTAL FACT",
+        "locator": "paragraph:0047",
+        "quotation": "Arylboronic acids also served as competent coupling partners, although their structural diversity was comparatively narrower than that of the boronic esters. Electron-rich anisole-derived boronic acids 2cg and 2ch, halogenated arylboronic acids 2cb-2cf, fused aromatic systems 2co-2ct, and selected heteroaryl boronic acids 2cu–2dd furnished the desired monofluoroalkenes. Ortho-substituted and sterically congested boronic acids, such as 2cc and 2ct, generally showed lower efficiency than para-substituted analogues, consistent with increased steric demand during the coupling process. More generally, the current protocol showed limited compatibility with highly electron-deficient heteroaryl boron reagents, strongly coordinating substrates, and sterically congested ortho-disubstituted arylboron partners. In addition, alkyl organoboron reagents were unreactive under the present conditions, and no desired products were detected.",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "failure_boundary",
+      "provenance": {
+        "raw_evidence_type": "first-party reported failed or diminished scope"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "The model reaction is described as using an N-Boc-protected piperidinyl boronic ester and as giving detectable desired product in initial experiments, creating an unresolved tension with the broader statement that alkyl organoboron reagents were unreactive.",
+      "evidence": {
+        "evidence_id": "SE010",
+        "evidence_label": "EXPERIMENTAL FACT",
+        "locator": "paragraph:0023",
+        "quotation": "We began our study by selecting a model reaction between a phenacyl-type trifluoroethyl ketone and an N-Boc-protected piperidinyl boronic ester as a representative defluorinative C–C bond-forming transformation, as shown in Fig. 2a. This substrate combination was chosen for both chemical and practical reasons. The phenacyl-type trifluoroethyl ketone is structurally simple and directly probes the key defluorinative process leading to monofluoroalkene formation, while the N-Boc-protected piperidinyl boronic ester introduces a medicinally relevant saturated N-heterocyclic fragment. In addition, this model reaction provided a clear and traceable product signal under the analytical workflow used for HTE, making it suitable for rapid condition evaluation. Initial exploratory experiments using selected catalyst, base and solvent combinations detected the desired product, although the overall reactivity remained low and varied sharply across different conditions. These early results demonstrated the feasibility of the transformation and supported the use of this model reaction for subsequent Bayesian optimization-guided condition discovery.",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "nucleophile_requirement",
+      "provenance": {
+        "raw_evidence_type": "first-party model-reaction observation relevant to an internal scope contradiction"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "The supplied manuscript reports palladium-catalysed C-C coupling of trifluoroethyl ketones, esters and amides with organoboron reagents to deliver monofluoroalkenes.",
+      "evidence": {
+        "evidence_id": "SE-REACTION-CLASS",
+        "evidence_label": "EXPERIMENTAL FACT",
+        "locator": "paragraph:0007",
+        "quotation": "Monofluoroalkenes are privileged fluorinated motifs in medicinal chemistry, but their selective synthesis through C–F bond activation remains challenging because of the high strength of C–F bonds and the condition-sensitive nature of defluorinative transformations. To address this challenge, this work establishes a Pd-catalyzed defluorinative C–C bond-forming strategy that couples trifluoroethyl ketones, esters, and amides with diverse organoboron reagents to deliver structurally diverse monofluoroalkenes. The integration of Bayesian optimization with high-throughput experimentation (HTE) enabled rapid condition optimization, identifying productive reaction conditions for the model substrate pair from 376 candidate conditions within only 53 experiments. To efficiently explore substrate generality under limited experimental budgets, the organoboron reagent space was further stratified on the basis of literature precedent, commercial availability, and structural diversity. Under the optimized condition, 970 curated substrate–reagent reaction entries were evaluated across 11 HTE plates, enabling rapid assessment of substrate compatibility and identification of productive monofluoroalkene-forming reactions. Leveraging the resulting single-condition HTE dataset, a two-stage decision-support model was further developed for reactivity classification and yield prediction, with the XGBoost model achieving an F1-score of 0.932 for classification and an R² of 0.852 with a mean absolute error of 4.03% for yield regression on the held-out test set. Overall, this study establishes an experimentally grounded workflow that combines Bayesian optimization, HTE, substrate-space stratification, and data-assisted modeling to accelerate reaction discovery in a condition-sensitive C–F bond activation system.",
+        "source_id": "manuscript.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "reaction_center",
+      "provenance": {
+        "raw_evidence_type": "first-party reported reaction class and reaction center"
+      },
+      "reviewer_status": "accepted"
+    },
+    {
+      "claim": "The supplied SI condition table associates the catalyst code Pd168 with CAS 205319-06-8. This is a reagent identifier, not proof of the active catalytic species.",
+      "evidence": {
+        "evidence_id": "SE-PD-CAS-ROW",
+        "evidence_label": "EXPERIMENTAL FACT",
+        "locator": "word/document.xml table:1 row:105",
+        "quotation": "104 | Pd168 | ‘205319-06-8 | K₃PO₄ | toluene",
+        "source_id": "SI_0701.docx",
+        "source_type": "seed"
+      },
+      "normalized_claim_type": "catalyst_role",
+      "provenance": {
+        "raw_evidence_type": "source-verified precatalyst metadata"
+      },
+      "reviewer_status": "accepted"
+    }
+  ],
+  "source_path": "derived/principles/seed_evidence.json",
+  "source_sha256": "28c5ada117c124a4071bdb422a80334569a5e7d546b300d380fc50d49b7f819d",
+  "version": "3.0"
+}

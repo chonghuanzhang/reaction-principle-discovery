@@ -1,0 +1,54 @@
+[
+  {
+    "id": "pc_3an",
+    "product_label": "3an",
+    "smiles": "O=C(/C=C(F)/OC1=NC=C(C)C=C1)C2=CC=C(Br)C=C2",
+    "query": {
+      "smiles": "O=C(/C=C(F)/OC1=NC=C(C)C=C1)C2=CC=C(Br)C=C2",
+      "identity_type": "same_connectivity"
+    },
+    "access_date": "2026-11-26",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastidentity/smiles/cids/JSON?smiles=O%3DC%28%2FC%3DC%28F%29%2FOC1%3DNC%3DC%28C%29C%3DC1%29C2%3DCC%3DC%28Br%29C%3DC2&identity_type=same_connectivity",
+    "status_code": 404,
+    "response": "{\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"Identity search returned no hits\"\n  }\n}\n"
+  },
+  {
+    "id": "pc_3j",
+    "product_label": "3j",
+    "smiles": "O=C(C1=CC=C(C=C1)Br)/C=C(N(C2=CC=CC=C2)C3=CC=CC=C3)\\F",
+    "query": {
+      "smiles": "O=C(C1=CC=C(C=C1)Br)/C=C(N(C2=CC=CC=C2)C3=CC=CC=C3)\\F",
+      "identity_type": "same_connectivity"
+    },
+    "access_date": "2026-11-26",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastidentity/smiles/cids/JSON?smiles=O%3DC%28C1%3DCC%3DC%28C%3DC1%29Br%29%2FC%3DC%28N%28C2%3DCC%3DCC%3DC2%29C3%3DCC%3DCC%3DC3%29%5CF&identity_type=same_connectivity",
+    "status_code": 404,
+    "response": "{\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"Identity search returned no hits\"\n  }\n}\n"
+  },
+  {
+    "id": "pc_3m",
+    "product_label": "3m",
+    "smiles": "O=C(C1=CC=C(C=C1)Br)/C=C(SC2=CC=C(C=C2)C(C)(C)C)\\F",
+    "query": {
+      "smiles": "O=C(C1=CC=C(C=C1)Br)/C=C(SC2=CC=C(C=C2)C(C)(C)C)\\F",
+      "identity_type": "same_connectivity"
+    },
+    "access_date": "2026-11-26",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastidentity/smiles/cids/JSON?smiles=O%3DC%28C1%3DCC%3DC%28C%3DC1%29Br%29%2FC%3DC%28SC2%3DCC%3DC%28C%3DC2%29C%28C%29%28C%29C%29%5CF&identity_type=same_connectivity",
+    "status_code": 404,
+    "response": "{\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"Identity search returned no hits\"\n  }\n}\n"
+  },
+  {
+    "id": "pc_3aj",
+    "product_label": "3aj",
+    "smiles": "O=C(C1=CC=C(C=C1)Br)/C=C(OC2=CC=C(C(C)(C)C)C=C2)\\F",
+    "query": {
+      "smiles": "O=C(C1=CC=C(C=C1)Br)/C=C(OC2=CC=C(C(C)(C)C)C=C2)\\F",
+      "identity_type": "same_connectivity"
+    },
+    "access_date": "2026-11-26",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastidentity/smiles/cids/JSON?smiles=O%3DC%28C1%3DCC%3DC%28C%3DC1%29Br%29%2FC%3DC%28OC2%3DCC%3DC%28C%28C%29%28C%29C%29C%3DC2%29%5CF&identity_type=same_connectivity",
+    "status_code": 404,
+    "response": "{\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"Identity search returned no hits\"\n  }\n}\n"
+  }
+]

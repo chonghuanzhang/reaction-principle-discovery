@@ -1,0 +1,956 @@
+[
+  {
+    "case_id": "P01",
+    "title": "Ph2PH, P(III)–H",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "((4,4,4-trifluorobutoxy)methyl)benzene 1"
+      },
+      {
+        "label": "Activation",
+        "text": "base-promoted addition/elimination"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "fluorovinyl phosphine, one F"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_target"
+      },
+      {
+        "label": "Reported response",
+        "text": "37"
+      },
+      {
+        "label": "Response basis",
+        "text": "percent; exact analytical basis not specified in S15"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Source scaffold is unactivated aliphatic CF3, not the project carbonyl scaffold."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "recipe: standard conditions, no P-specific complete recipe assigned in S15"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1039/d6sc01042c; SI S15, III, Phosphine pronucleophiles; primary_supporting_information."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.30."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "S15 does not independently specify a phosphorus-specific complete condition recipe or analytical yield type; do not invent one."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E08"
+      }
+    ],
+    "source_ids": [
+      "L350"
+    ],
+    "quotation_ids": [
+      "Q30"
+    ]
+  },
+  {
+    "case_id": "P02",
+    "title": "P-bound fluorovinyl intermediate from P01",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "already formed fluorovinyl phosphine"
+      },
+      {
+        "label": "Activation",
+        "text": "second-step hydrofluorination"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "P-substituted gem-difluoride, two F"
+      },
+      {
+        "label": "Evidence state",
+        "text": "specified_target_not_detected"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Complex product mixture. No detection limit supplied. This is NOT a negative label for P01 monoF formation."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "recipe: standard hydrofluorination conditions in S15"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1039/d6sc01042c; SI S15, III, Phosphine pronucleophiles; primary_supporting_information."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.31."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "This second-step negative cannot erase the first-step positive monofluoro product."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E09"
+      }
+    ],
+    "source_ids": [
+      "L350"
+    ],
+    "quotation_ids": [
+      "Q31"
+    ]
+  },
+  {
+    "case_id": "P03",
+    "title": "diphenylphosphine oxide, Ph2P(O)H",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "gem-difluorostyrenes"
+      },
+      {
+        "label": "Activation",
+        "text": "DBU-mediated polar addition/elimination"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "1-fluorovinyl phosphine oxides"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_target"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Primary author abstract establishes product class. Individual substrate yields and exact stereoisomer not assigned."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "base: DBU; temperature: room temperature; solvent: DMF in Intelli Figure2B summary; Peng abstract alone does not specify solvent"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1021/acs.joc.3c01562; PDF p1, printed 14012, Introduction; primary_full_text."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.23."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "A general mechanistic summary, not new mechanistic proof in the present project."
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1002/ejoc.201801602; Publisher-deposited author abstract; primary_author_abstract."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.24."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "The abstract uses the phrase dialkyl phosphate; exact ester identities/individual yields require the SI."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E01, E02"
+      }
+    ],
+    "source_ids": [
+      "L357",
+      "L133"
+    ],
+    "quotation_ids": [
+      "Q23",
+      "Q24"
+    ]
+  },
+  {
+    "case_id": "P04",
+    "title": "dialkyl P(O)H reagent as named in Peng abstract",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "gem-difluorostyrenes"
+      },
+      {
+        "label": "Activation",
+        "text": "DBU-mediated polar addition/elimination"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "1-fluorovinyl phosphonates"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_target"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Abstract says dialkyl phosphate. Do not silently assign methyl/ethyl individual or yield."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "base: DBU; temperature: room temperature"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1002/ejoc.201801602; Publisher-deposited author abstract; primary_author_abstract."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.24."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "The abstract uses the phrase dialkyl phosphate; exact ester identities/individual yields require the SI."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E02"
+      }
+    ],
+    "source_ids": [
+      "L357"
+    ],
+    "quotation_ids": [
+      "Q24"
+    ]
+  },
+  {
+    "case_id": "P05",
+    "title": "Ph2P(O)H, 3 equiv",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "p-MeO-C6H4-CH=CF2 (1a)"
+      },
+      {
+        "label": "Activation",
+        "text": "peroxide-initiated hydrophosphinylation"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "saturated ArCH2CF2P(O)Ph2; retains two F"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_alternative"
+      },
+      {
+        "label": "Reported response",
+        "text": ">95"
+      },
+      {
+        "label": "Response basis",
+        "text": "19F NMR, Table1 entry8"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Alternative to monofluoro target. Source scope3a gives90% isolated, average of two independent24–26h reactions."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "initiator: di-tert-butyl peroxide 5 mol%; solvent: tBuOH; temperature_C: 120; time_h: 16; atmosphere: N2"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1021/acs.joc.3c01562; PDF p2, printed 14013, Table 1 entry 8; Figure 3 product 3a on p3; primary_full_text."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.25."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "Peroxide-mediated pathway avoids fluoride loss for this substrate/donor combination; mechanism is proposed radical chain."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E03"
+      }
+    ],
+    "source_ids": [
+      "L133"
+    ],
+    "quotation_ids": [
+      "Q25"
+    ]
+  },
+  {
+    "case_id": "P06",
+    "title": "HP(O)(OEt)2, diethyl phosphite",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "p-MeO-C6H4-CH=CF2 (1a)"
+      },
+      {
+        "label": "Activation",
+        "text": "peroxide-initiated hydrophosphinylation"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "saturated CF2 product 4g"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_trace_target"
+      },
+      {
+        "label": "Reported response",
+        "text": "trace"
+      },
+      {
+        "label": "Response basis",
+        "text": "Figure4"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Trace is not numeric0; neither this result nor another P donor result establishes project monoF outcome."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "initiator: peroxide protocol; additional optimization unsuccessful"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1021/acs.joc.3c01562; PDF p3, printed 14014, Figure 4 and accompanying text; primary_full_text."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.27."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "P(O)H donors are not interchangeable. Trace CF2-product formation does not establish absence of every possible C–P product."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Trace is not numeric zero; neither this result nor another P donor result establishes project monoF outcome."
+      },
+      {
+        "label": "Evidence",
+        "text": "E05"
+      }
+    ],
+    "source_ids": [
+      "L133"
+    ],
+    "quotation_ids": [
+      "Q27"
+    ]
+  },
+  {
+    "case_id": "P07",
+    "title": "di-n-pentylphosphine oxide",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "p-MeO-C6H4-CH=CF2 (1a)"
+      },
+      {
+        "label": "Activation",
+        "text": "peroxide-initiated hydrophosphinylation"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "saturated CF2 product 4f"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_alternative"
+      },
+      {
+        "label": "Reported response",
+        "text": "50"
+      },
+      {
+        "label": "Response basis",
+        "text": "isolated, mean of two experiments"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Same P(O)H broad label gives a different donor outcome from diethyl phosphite."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "substrate_mmol: 1.0; donor_mmol: 3.0; initiator: di-tert-butyl peroxide, 0.05 mmol (5 mol%); temperature_C: 120; time_h: 26; solvent: DMF, 6.0 mL; atmosphere: nitrogen"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1021/acs.joc.3c01562; PDF p3, printed p14014, paragraph accompanying Figure 4; product 4f experimental entry, PDF p9, printed p14020; primary_full_text."
+      },
+      {
+        "label": "Passage",
+        "text": "Furthermore, di-n-pentyl phosphine oxide provided the hydrophosphinylation product in a useful yield (4f; 50%)"
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "Di-n-pentylphosphine oxide forms the saturated CF2-retaining product 4f in 50% isolated yield, whereas diethyl phosphite gives only trace product 4g under the examined radical regime. This donor-specific positive result concerns a different fluorination endpoint; it does not establish formation of the project monofluoro target."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E05"
+      }
+    ],
+    "source_ids": [
+      "L133"
+    ],
+    "quotation_ids": [
+      "Q27"
+    ]
+  },
+  {
+    "case_id": "SE01",
+    "title": "selenosulfonate (exact substituent unresolved)",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "gem-difluoroalkenes"
+      },
+      {
+        "label": "Activation",
+        "text": "Ni-catalysed reductive coupling"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "selenylated monofluoroolefins"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_target"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Not PhSeH or PhSeSePh. Abstract-only support, exact carbonyl-target match not established."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "catalyst: Ni; exact identity not resolved in abstract; other: not assigned"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1021/acs.joc.9b01387; PubMed/EuropePMC author abstract; primary_author_abstract."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.37."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "Selenosulfonate is neither PhSeH nor PhSeSePh. Exact substituent, catalyst/reductant conditions, individual yield and product stereochemistry are unknown from the accessible abstract."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E15"
+      }
+    ],
+    "source_ids": [
+      "L359"
+    ],
+    "quotation_ids": [
+      "Q37"
+    ]
+  },
+  {
+    "case_id": "SE02",
+    "title": "PhSeH",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "N-phenylbut-3-enamide"
+      },
+      {
+        "label": "Activation",
+        "text": "amide-directed NiH hydroselenylation"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "nonfluorinated beta-selenide 3a"
+      },
+      {
+        "label": "Evidence state",
+        "text": "specified_target_not_detected"
+      },
+      {
+        "label": "Response basis",
+        "text": "dash in Table1 entry1; no calibrated zero"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "No C–F bond present; no project defluorination label."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "alkene_mmol: 0.1; Se_loading_equiv: 1.5; catalyst: NiBr2·glyme 10 mol%; ligand: paper L* 12 mol%; exact structure retained in original Table1; silane: (MeO)2MeSiH 3 equiv; base: Na2CO3 2 equiv; BnBr_equiv: 1; salt: NaBF4 1 equiv; solvent: THF 1mL (0.1M); temperature_C: 25; time_h: 18; atmosphere: Ar"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1002/advs.77070; Results and Discussion, body paragraph 5; Table 1 entries 1 and 4; primary_full_text."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.34."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "Nonfluorinated N-phenylbut-3-enamide substrate; no C–F cleavage. Table dash has no detection limit, not a calibrated zero."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E12"
+      }
+    ],
+    "source_ids": [
+      "L344"
+    ],
+    "quotation_ids": [
+      "Q34"
+    ]
+  },
+  {
+    "case_id": "SE03",
+    "title": "PhSeSePh",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "N-phenylbut-3-enamide"
+      },
+      {
+        "label": "Activation",
+        "text": "amide-directed NiH hydroselenylation"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "nonfluorinated beta-selenide 3a"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_target"
+      },
+      {
+        "label": "Reported response",
+        "text": "91"
+      },
+      {
+        "label": "Response basis",
+        "text": "1H NMR, Table1 entry4"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "rr18:1, er97:3; nonfluorinated local compatibility comparison."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "alkene_mmol: 0.1; Se_loading_equiv: 1.5; catalyst: NiBr2·glyme 10 mol%; ligand: paper L* 12 mol%; exact structure retained in original Table1; silane: (MeO)2MeSiH 3 equiv; base: Na2CO3 2 equiv; BnBr_equiv: 1; salt: NaBF4 1 equiv; solvent: THF 1mL (0.1M); temperature_C: 25; time_h: 18; atmosphere: Ar"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1002/advs.77070; Results and Discussion, body paragraph 5; Table 1 entry 4 and footnote for the 1H NMR yield basis; primary_full_text."
+      },
+      {
+        "label": "Passage",
+        "text": "In stark contrast, diphenyl diselenide ( [Se]‐4 ) emerged as a uniquely competent reagent, furnishing the desired β‐selenide 3a in an excellent 91% yield with outstanding regioselectivity (18:1 rr) and enantiomeric ratio (97:3 er) (Table 1 , entry 4)."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "Diphenyl diselenide gives 3a in 91% 1H NMR yield under the stated amide-directed NiH conditions. This positive diselenide result and the phenylselenol failure compare donor forms on a nonfluorinated substrate; neither establishes the project C(F)–Se outcome."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E12"
+      }
+    ],
+    "source_ids": [
+      "L344"
+    ],
+    "quotation_ids": [
+      "Q34"
+    ]
+  },
+  {
+    "case_id": "SE04",
+    "title": "PhSeSePh",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "N-phenylbut-3-enamide"
+      },
+      {
+        "label": "Activation",
+        "text": "same NiH conditions, BnBr omitted"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "nonfluorinated beta-selenide 3a"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_target"
+      },
+      {
+        "label": "Reported response",
+        "text": "11"
+      },
+      {
+        "label": "Response basis",
+        "text": "1H NMR, Table1 entry7"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Low but nonzero positive target; source mechanistic inhibition explanation remains interpretation."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "alkene_mmol: 0.1; Se_loading_equiv: 1.5; catalyst: NiBr2·glyme 10 mol%; ligand: paper L* 12 mol%; exact structure retained in original Table1; silane: (MeO)2MeSiH 3 equiv; base: Na2CO3 2 equiv; BnBr_equiv: 0; salt: NaBF4 1 equiv; solvent: THF 1mL (0.1M); temperature_C: 25; time_h: 18; atmosphere: Ar"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1002/advs.77070; Results and Discussion body paragraph 5; Table 1 entry 7 versus 4; primary_full_text."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.35."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "Authors propose interception of selenolate to avoid off-cycle Ni–Se species; exact cause of the whole yield difference is not proven."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E13"
+      }
+    ],
+    "source_ids": [
+      "L344"
+    ],
+    "quotation_ids": [
+      "Q35"
+    ]
+  },
+  {
+    "case_id": "SE05",
+    "title": "PhSeH",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "TFHZ-Tfs-derived transformation"
+      },
+      {
+        "label": "Activation",
+        "text": "TFHZ-Tfs-derived vinylation"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "PhSe–CH=CF2 (product25), two F on carbon not bonded to Se"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_alternative"
+      },
+      {
+        "label": "Reported response",
+        "text": "66"
+      },
+      {
+        "label": "Response basis",
+        "text": "reported product yield, main text Figure3"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Alternative topology/fluorine count. Cannot be relabelled desired C(F)–Se monoF product."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "method: source MethodA, Figure3; donor_mmol: 0.3; TFHZ_Tfs_mmol: 0.6; catalyst: Fe[P2]1mol%, source code retained; additive: SDBS30mol%; medium: KOH(aq.)/DCM5:1; atmosphere: air; temperature_C: 40; time_h: 18"
+      },
+      {
+        "label": "Source",
+        "text": "DOI 10.1038/s41467-018-08253-z; Main text substrate scope, paragraph beginning “Having established”; Figure 3, product 25; primary_full_text."
+      },
+      {
+        "label": "Source passage",
+        "text": "see Section S3.5.38."
+      },
+      {
+        "label": "Interpretation boundary",
+        "text": "Two fluorines remain and Se is attached to the other vinyl carbon. It is an alternative endpoint, not the target C(F)–Se connectivity."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      },
+      {
+        "label": "Evidence",
+        "text": "E16"
+      }
+    ],
+    "source_ids": [
+      "L346"
+    ],
+    "quotation_ids": [
+      "Q38"
+    ]
+  },
+  {
+    "case_id": "N01",
+    "title": "N-methylaniline",
+    "fields": [
+      {
+        "label": "Donor and substrate",
+        "text": "N-methylaniline; Coradi substrate1"
+      },
+      {
+        "label": "Activation",
+        "text": "NaHMDS-mediated addition/elimination"
+      },
+      {
+        "label": "Endpoint",
+        "text": "fluoroenamine, one F"
+      },
+      {
+        "label": "Source value",
+        "text": "82; percent, SI S15"
+      },
+      {
+        "label": "Evidence status",
+        "text": "reported target"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "No global rule that anilines outperform all aliphatic amines; source comparison only."
+      },
+      {
+        "label": "Evidence",
+        "text": "E10"
+      }
+    ],
+    "source_ids": [
+      "L350"
+    ],
+    "quotation_ids": [
+      "Q32"
+    ]
+  },
+  {
+    "case_id": "N02",
+    "title": "piperidine",
+    "fields": [
+      {
+        "label": "Donor and substrate",
+        "text": "piperidine; Coradi substrate1"
+      },
+      {
+        "label": "Activation",
+        "text": "base-promoted source conditions"
+      },
+      {
+        "label": "Endpoint",
+        "text": "fluorinated enamine"
+      },
+      {
+        "label": "Evidence status",
+        "text": "specified target not detected"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Poor mass balance and gem-difluoroalkene observed. Author proposes low acidity; direct mechanistic isolation absent."
+      },
+      {
+        "label": "Evidence",
+        "text": "E10"
+      }
+    ],
+    "source_ids": [
+      "L350"
+    ],
+    "quotation_ids": [
+      "Q32"
+    ]
+  },
+  {
+    "case_id": "N03",
+    "title": "fluoroenamine from N-methylaniline",
+    "fields": [
+      {
+        "label": "Donor and substrate",
+        "text": "fluoroenamine from N-methylaniline; already formed one-F intermediate"
+      },
+      {
+        "label": "Activation",
+        "text": "hydrofluorination"
+      },
+      {
+        "label": "Endpoint",
+        "text": "N-substituted gem-difluoride"
+      },
+      {
+        "label": "Evidence status",
+        "text": "specified target not detected"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Distinct step from positive N01."
+      },
+      {
+        "label": "Evidence",
+        "text": "E11"
+      }
+    ],
+    "source_ids": [
+      "L350"
+    ],
+    "quotation_ids": [
+      "Q33"
+    ]
+  },
+  {
+    "case_id": "P08",
+    "title": "phosphine oxides, P(O)H",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "trifluoromethyl ketones RCOCF3"
+      },
+      {
+        "label": "Activation",
+        "text": "P-centred Pudovik carbonyl addition, proposed phospha-Brook rearrangement and β-fluoride elimination"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "difluoromethyl, monofluoromethyl or methyl ketones; difluoroenol phosphinates"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_alternative"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "RCOCF3 differs from RCOCH2CF3, and Ph2P(O)H differs from Ph2PH. The enol phosphinate contains C–O–P. Carbonyl interception and rearrangement are competing-pathway considerations, not direct failure of the project vinyl C–P endpoint."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "In the model reaction, Ph2P(O)H (1.2 equivalents), K2CO3 (2 equivalents), 1,4-dioxane, 80 °C, 6 h give difluoromethyl ketone in 80%; adding 4 Å molecular sieves affords difluoroenol phosphinate in 80%. Other endpoints require different reagent loading and temperature; see Section S2.5."
+      },
+      {
+        "label": "Source",
+        "text": "L343 [2], DOI 10.1039/d5sc03915k; final primary article, Fig. 2A and Fig. 4; primary full text reviewed."
+      },
+      {
+        "label": "Mechanistic interpretation",
+        "text": "Initial P-centred addition creates a C–P bond, followed by proposed phosphorus migration to oxygen and elimination. Product connectivity and endpoint must therefore be assessed after the whole sequence."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      }
+    ],
+    "source_ids": [
+      "L343"
+    ],
+    "quotation_ids": []
+  },
+  {
+    "case_id": "SE06",
+    "title": "diphenyl diselenide as co-catalyst, not transferred Se partner",
+    "fields": [
+      {
+        "label": "Substrate",
+        "text": "gem-difluoroalkenes and N-H azoles"
+      },
+      {
+        "label": "Activation",
+        "text": "photoredox/diselenide co-catalysis"
+      },
+      {
+        "label": "Assessed endpoint",
+        "text": "N-alpha,alpha-difluoroalkyl azoles, retaining CF2"
+      },
+      {
+        "label": "Evidence state",
+        "text": "reported_alternative"
+      },
+      {
+        "label": "Transfer limit",
+        "text": "Selenium functions as co-catalyst in a C-N forming route; this is not a C-Se monofluoroalkene precedent or a failed selenium donor test."
+      },
+      {
+        "label": "Recorded conditions",
+        "text": "PC-I protocol, 1.2 equivalents azole, 5 mol% PhSeSePh and 5 mol% photocatalyst in DCE at 0.25 M under visible light. A separate PC-II protocol uses 3 mol% photocatalyst and toluene."
+      },
+      {
+        "label": "Source",
+        "text": "L347 [8], DOI 10.1039/d5sc04074d; primary full text, Table 1 and Scheme 2."
+      },
+      {
+        "label": "Mechanistic interpretation",
+        "text": "The authors propose photocatalyst regeneration, deprotonation and hydrogen-atom transfer by selenium-derived species, selecting a CF2-retaining C–N endpoint. The source does not establish failed nucleophilic Se incorporation in the project system."
+      },
+      {
+        "label": "Exact target-system match",
+        "text": "False."
+      }
+    ],
+    "source_ids": [
+      "L347"
+    ],
+    "quotation_ids": []
+  }
+]

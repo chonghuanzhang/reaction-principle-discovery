@@ -1,0 +1,262 @@
+[
+  {
+    "title": "Access to a fluorinated acceptor gates nucleophile transfer",
+    "relationship": "For an alkyl–CF3 substrate with an adjacent eliminable C–H bond, dehydrofluorination can expose a gem-difluoroalkene that accepts nucleophiles and undergoes a second fluoride loss. Increasing access to that acceptor opens a bond-forming route that a stronger nucleophile alone cannot supply. A chelation-assisted metal route is a separate activation option, not evidence that every substrate passes through the same alkene.",
+    "directional_implications": [
+      {
+        "change": "Enable the initial HF-elimination/acceptor-forming step while retaining donor compatibility",
+        "chemical_effect": "Make an electrophilic fluorinated carbon accessible for addition",
+        "consequence": "A partner supported on gem-difluoroalkenes becomes a justified conditional candidate for a saturated CF3 precursor."
+      },
+      {
+        "change": "Change from amide to ketone, remove directing functionality, or change metal activation",
+        "chemical_effect": "Alter the accessibility and competing reactions of the acceptor",
+        "consequence": "Reopen activation and carbonyl-attack questions; do not inherit success from the donor class."
+      }
+    ],
+    "supporting_evidence": [
+      "EV-6480fa5a76035f60ba5a",
+      "EV-6b86f2c2fecc4d9f4e74",
+      "X-ACCESS"
+    ],
+    "source_scope": [
+      "Adam/Fronczek/Colby: morpholine 3,3,3-trifluoropropanamide plus Grignard reagent; difluoroacrylamide observed by 19F NMR; subsequent enolate not observed.",
+      "Coradi/Bandar: unactivated (trifluoromethyl)alkanes under strong-base conditions; O/S and selected N/P additions lead to fluorovinyl intermediates; final acid step targets CF2 products.",
+      "Du2022/Shen2021 author abstracts establish separate N-chelation-assisted N/S precedents on trifluoropropanamides; they do not establish shared alkene intermediates."
+    ],
+    "mechanism_status": "Intermediate observation in the specific Grignard system; source-proposed sequence in the acid/base system; conditional transfer to current ketone/amide and new donors.",
+    "candidate_generation_rules": [
+      "Within the present heteroatom scope, consider N-, O-, S- and P-centred donors only when acceptor access and donor activation can be stated together.",
+      "Keep ketone and amide electrophiles separate, and flag donor-induced carbonyl addition or substrate reduction.",
+      "Retain radical and ambident candidates as alternative routes rather than forcing them into one polar pathway."
+    ],
+    "representative_candidates": [
+      {
+        "candidate": "C001",
+        "name": "N-Methylaniline",
+        "logic": "An N-H donor requires acceptor access and compatible proton transfer without assuming that stronger base alone is beneficial."
+      },
+      {
+        "candidate": "C019",
+        "name": "Methanol",
+        "logic": "An O donor needs both acceptor access and compatible alkoxide generation."
+      },
+      {
+        "candidate": "C021",
+        "name": "Benzenethiol",
+        "logic": "An S–H entry is chemically different from a preactivated disulfide despite potentially related sulfur capture."
+      }
+    ],
+    "exceptions": [
+      "No claim that base strength monotonically increases target formation.",
+      "No guarantee that the seed or all N/O/S cases use the observed Grignard pathway.",
+      "Chelation, direct C–F activation, carbonyl trapping and rearrangement remain alternatives."
+    ],
+    "derivation_status": "Reviewed evidence synthesis used to guide candidate generation",
+    "principle_id": "RP1"
+  },
+  {
+    "title": "Accessible donor speciation and capture competence must coincide",
+    "relationship": "Deprotonation or unmasking can raise the population of a bond-forming donor, but resonance stabilization, steric shielding, ion pairing and competing reactive atoms can lower or redirect its capture. Thus, a more basic neutral donor need not be more effective in a deprotonation-dependent reaction, and changing a precursor can change performance without changing the transferred element.",
+    "directional_implications": [
+      {
+        "change": "Use a donor that can form the required anion under the available base/medium",
+        "chemical_effect": "Increase effective nucleophile availability",
+        "consequence": "Can enable capture when the neutral donor does not react."
+      },
+      {
+        "change": "Increase resonance delocalization or steric shielding at the reactive atom",
+        "chemical_effect": "May improve acidity while decreasing intrinsic capture or shifting the favored site",
+        "consequence": "Choose contrasting electronic/steric variants, not a single pKa or elemental ranking."
+      },
+      {
+        "change": "Switch neutral donor to salt, organometallic or silylated precursor",
+        "chemical_effect": "Change active-species generation, counterion and competing chemistry",
+        "consequence": "Treat precursor forms as distinct candidates with distinct activation conditions."
+      }
+    ],
+    "supporting_evidence": [
+      "X-N-ACIDITY",
+      "PREV-E10",
+      "EV-6288531a5354d1d92f7c",
+      "EV-ee5c19fffad09f868739",
+      "EV-0748fe7f1f6b8426a523",
+      "EV-c7944553e331e34425e9",
+      "X-TMS",
+      "X-O-DIOL"
+    ],
+    "source_scope": [
+      "Coradi/Bandar: N-methylaniline gives fluoroenamine whereas piperidine fails under the examined base-promoted conditions; acidity rationale is proposed, not experimentally isolated.",
+      "Paleta et al.: branched alkoxides react more slowly than primary alkoxides on difluorobutenolides; organolithium and Cu-modified Grignard donors give different sites/pathways.",
+      "Thornbury/Toste: boronic-acid/boron-salt transfer differs from sluggish boronic esters and inert arylstannanes/arylsilanes in one Pd system.",
+      "Jiang et al. author abstract: Cs2CO3 with TMSCN/TMSCF3 maintains nucleophilic anions."
+    ],
+    "mechanism_status": "Source-specific observations support precursor-, steric- and site-dependence; cross-class coupling of speciation and capture is a qualitative synthesis, not a measured universal rate law.",
+    "candidate_generation_rules": [
+      "Enumerate neutral N-, O-, S- and P-donor families, and record conjugate-base or latent active species as activation hypotheses rather than duplicate molecular identities.",
+      "Span localized, aryl-delocalized, aromatic and carbonyl/sulfonyl-delocalized N donors; retain uncertain amides and sulfonamides with explicit activation questions.",
+      "Vary aryl electronics and steric bulk; retain ambident C/O and C/N alternatives with atom-specific targets."
+    ],
+    "representative_candidates": [
+      {
+        "candidate": "C001 / C023",
+        "name": "N-Methylaniline / Diphenylamine",
+        "logic": "Two secondary arylamines probe how delocalization and substitution alter N-donor capture competence."
+      },
+      {
+        "candidate": "C019 / C043 / C100",
+        "name": "Methanol / Propan-2-ol / tert-Butanol",
+        "logic": "Increasing O-donor substitution separates steric effects from the shared alcohol functionality."
+      },
+      {
+        "candidate": "C021 / C085",
+        "name": "Benzenethiol / 4-(Trifluoromethyl)benzenethiol",
+        "logic": "Aryl-thiol electronics vary while the S-H donor class and reacting atom are retained."
+      },
+      {
+        "candidate": "C089 / C096",
+        "name": "Dimethyl phosphite / Diphenylphosphine",
+        "logic": "Distinct P-H precursor classes require separate activation and capture hypotheses."
+      }
+    ],
+    "exceptions": [
+      "Acidity alone does not isolate the aniline/piperidine contrast.",
+      "Branched O-donor effects on cyclic difluorobutenolides do not establish a universal steric penalty: tertiary thiols work in a distinct photochemical hydrothiolation.",
+      "TMSCN/TMSCF3 evidence does not validate TMSN3, all silyl enol ethers, or all silylated donors."
+    ],
+    "derivation_status": "Reviewed cross-class relationship with candidate forms, rationales and citations preserved in the released records",
+    "principle_id": "RP2"
+  },
+  {
+    "title": "The state formed by capture controls fluoride loss versus fluorine retention",
+    "relationship": "Where capture generates a suitably configured anionic or metal-associated β-fluoro intermediate, β-fluoride elimination can produce a monofluoroalkene. In compatible radical-addition systems, hydrogen-atom termination can instead trap a saturated CF2 product. Conditions that increase anionic elimination relative to H-termination can therefore improve the monofluoro branch even when they lower the yield of a competing hydroaddition product.",
+    "directional_implications": [
+      {
+        "change": "Favor anionic/metal-associated addition with accessible β-F geometry",
+        "chemical_effect": "Enable fluoride expulsion before protonation or other termination",
+        "consequence": "Favor a fluorinated alkene over a fluorine-retaining saturated adduct, only in systems with that intermediate."
+      },
+      {
+        "change": "Favor radical capture followed by efficient H-atom donation",
+        "chemical_effect": "Quench the radical without fluoride loss",
+        "consequence": "Can improve C–heteroatom capture while diverting from the monofluoroalkene target."
+      }
+    ],
+    "supporting_evidence": [
+      "EV-6480fa5a76035f60ba5a",
+      "EV-0147381122c8de5e5910",
+      "EV-d480c90208caafa385a9",
+      "EV-d718373e6bd52649368e",
+      "EV-f66f33344f653d8c82eb",
+      "PREV-E01",
+      "PREV-E03",
+      "PREV-E04",
+      "PREV-E05"
+    ],
+    "source_scope": [
+      "Carbon: Grignard trapping after observed difluoroacrylamide formation; enolate/F-elimination sequence partly inferred.",
+      "Oxygen: difluorobutenolide oxyanion substitution is interpreted as addition then fluoride expulsion.",
+      "Sulfur: Sorrentino et al. directly change additive effects; K2CO3 increases fluorovinylthioether relative to CF2 hydrothiolation, whereas an aniline additive favors CF2 product.",
+      "Phosphorus provides an additional source-specific contrast between polar phosphinylation and peroxide-initiated hydrophosphinylation, not the organizing axis."
+    ],
+    "mechanism_status": "Product branching is experimentally observed in individual sources. Aniline HAT/PCET role and several local intermediates are source hypotheses; no universal mechanism is asserted.",
+    "candidate_generation_rules": [
+      "Retain deprotonatable N-, O-, S- and P-donors as differentiated hypotheses with explicit fluorine-count endpoints; invoke radical capture only where source evidence supports it.",
+      "For each donor require a target C–Nu connection and distinguish monofluoroalkene, CF2 addition product, full defluorination and carbonyl addition.",
+      "Do not classify a radical donor as impossible: reduction to an anion can restore elimination in a different catalytic setting, which must be separately supported."
+    ],
+    "representative_candidates": [
+      {
+        "candidate": "C021 / C085",
+        "name": "Benzenethiol / 4-(Trifluoromethyl)benzenethiol",
+        "logic": "Related aryl S-H donors can enter condition-dependent pathways; terminal fluorine count remains part of each route hypothesis."
+      },
+      {
+        "candidate": "C019",
+        "name": "Methanol",
+        "logic": "O-capture on a verified fluorinated acceptor can lead to an addition–elimination product; proton competition remains condition-dependent."
+      },
+      {
+        "candidate": "C096",
+        "name": "Diphenylphosphine",
+        "logic": "A P-H donor provides a distinct capture manifold whose fluorine-retention outcome must be assessed independently."
+      }
+    ],
+    "exceptions": [
+      "Nitro-substituted gem-difluoroalkenes undergo fluoride elimination even in peroxide conditions in the P(O)H source.",
+      "Not every radical route retains CF2 and not every polar addition eliminates F.",
+      "Capture on a gem-difluoroalkene establishes only a local step, not two-F loss from the saturated project substrate."
+    ],
+    "derivation_status": "Reviewed relationship linking source-specific β-F-elimination evidence to cross-class candidate design",
+    "principle_id": "RP3"
+  },
+  {
+    "title": "Selective formation must outpace downstream consumption",
+    "relationship": "When the first fluorinated product remains reactive, greater reagent exposure or stronger downstream activation can consume it by further coupling, hydrofluorination or additional C–F loss. Product accumulation therefore depends on a window that permits initial capture while suppressing subsequent transformation. This relation applies only when the downstream reaction is accessible; source-proven persistence is an explicit exception.",
+    "directional_implications": [
+      {
+        "change": "Increase excess donor/reductant or activate a documented downstream product reaction",
+        "chemical_effect": "Increase secondary product consumption relative to formation",
+        "consequence": "Lower accumulation of the intended fluorination state even if starting-material conversion improves."
+      },
+      {
+        "change": "Reduce the reagent exposure that causes verified secondary reaction",
+        "chemical_effect": "Suppress overcoupling or further defluorination",
+        "consequence": "Can recover selective accumulation without changing the initial donor class."
+      },
+      {
+        "change": "Change electron donation of the newly attached heteroatom group",
+        "chemical_effect": "Change susceptibility of a fluorovinyl product to protonation and subsequent addition",
+        "consequence": "Product survival must be evaluated separately for N-, O- and S-linked targets."
+      }
+    ],
+    "supporting_evidence": [
+      "EV-66925f5fb2e6decaae0f",
+      "EV-0ddea20d4f2fe22127bf",
+      "EV-b7d984d026349c36adc1",
+      "PREV-E07",
+      "PREV-E08",
+      "PREV-E09",
+      "PREV-E10",
+      "PREV-E11",
+      "X-O-TERTIARY",
+      "EV-fd44762ba7ac8c94e0e6"
+    ],
+    "source_scope": [
+      "Thornbury/Toste: one susceptible monofluorostilbene gives overcoupled products; near-stoichiometric boronic acid remedies that case.",
+      "Zhang/Yang/Cheng: hydrosilane stoichiometry controls mono/di-HDF; further PhSiH3 can remove the third fluoride from some electron-poor substrates.",
+      "Coradi/Bandar: O-vinyl products undergo intentional acid-dependent hydrofluorination; N/P intermediates form but fail the subsequent source CF2 endpoint.",
+      "Sorrentino: isolated CF2 thioether is stable to K2CO3 under the tested conditions, excluding that product as the elimination intermediate."
+    ],
+    "mechanism_status": "Observed secondary reactions and resubjection tests in source systems; not evidence that all project monofluoroalkenes are kinetic intermediates or that stronger base universally over-defluorinates.",
+    "candidate_generation_rules": [
+      "Retain electronic and donor-form diversity to probe both formation and persistence; do not rank all candidates by initial nucleophilicity alone.",
+      "Record alternative endpoints and recovery risks with every proposed molecule.",
+      "Treat coordinating donors and scavenger effects as system-specific compatibility tests; source inhibition can justify an individual negative control but not an element-wide exclusion."
+    ],
+    "representative_candidates": [
+      {
+        "candidate": "C072 / C076",
+        "name": "4-Methylphenol / 4-(Trifluoromethyl)phenol",
+        "logic": "A matched phenol pair probes how donor electronics affect formation and persistence of the fluorovinyl product."
+      },
+      {
+        "candidate": "C018 / C099",
+        "name": "Phenol / 2,6-Dimethylphenol",
+        "logic": "O-donor steric environment and fluorovinyl-product fate are separate questions."
+      },
+      {
+        "candidate": "C096 / C097",
+        "name": "Diphenylphosphine / Diphenylphosphine oxide",
+        "logic": "Related P-donor oxidation states require separate formation and product-persistence assessments rather than class-wide inference."
+      }
+    ],
+    "exceptions": [
+      "Stable fluorinated products need not be transient stopping points.",
+      "Failure of source hydrofluorination is not failure to form the monofluoro intermediate sought here.",
+      "Changes in salt, water or base may alter donor/catalyst speciation rather than product-consumption rates."
+    ],
+    "derivation_status": "Reviewed source-specific relationship with an explicit product-persistence exception",
+    "principle_id": "RP4"
+  }
+]

@@ -1,0 +1,1458 @@
+[
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "1",
+    "source_identifier": "M01",
+    "reference_number": 89,
+    "doi_or_patent_family": "10.1038/s41586-023-06221-2",
+    "source_label": "M01",
+    "table_values": [
+      "1",
+      "89",
+      "M01",
+      "10.1038/s41586-023-06221-2"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "2",
+    "source_identifier": "M02",
+    "reference_number": 90,
+    "doi_or_patent_family": "10.1038/nature25978",
+    "source_label": "M02",
+    "table_values": [
+      "2",
+      "90",
+      "M02",
+      "10.1038/nature25978"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "3",
+    "source_identifier": "M03",
+    "reference_number": 91,
+    "doi_or_patent_family": "10.1021/acscentsci.9b00576",
+    "source_label": "M03",
+    "table_values": [
+      "3",
+      "91",
+      "M03",
+      "10.1021/acscentsci.9b00576"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "4",
+    "source_identifier": "M04",
+    "reference_number": 92,
+    "doi_or_patent_family": "10.1002/wcms.1604",
+    "source_label": "M04",
+    "table_values": [
+      "4",
+      "92",
+      "M04",
+      "10.1002/wcms.1604"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "5",
+    "source_identifier": "M05",
+    "reference_number": 93,
+    "doi_or_patent_family": "10.1126/science.aar5169",
+    "source_label": "M05",
+    "table_values": [
+      "5",
+      "93",
+      "M05",
+      "10.1126/science.aar5169"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "6",
+    "source_identifier": "M06",
+    "reference_number": 94,
+    "doi_or_patent_family": "10.1021/acscentsci.8b00357",
+    "source_label": "M06",
+    "table_values": [
+      "6",
+      "94",
+      "M06",
+      "10.1021/acscentsci.8b00357"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "7",
+    "source_identifier": "M07",
+    "reference_number": 95,
+    "doi_or_patent_family": "10.1038/s41586-021-03213-y",
+    "source_label": "M07",
+    "table_values": [
+      "7",
+      "95",
+      "M07",
+      "10.1038/s41586-021-03213-y"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "8",
+    "source_identifier": "M08",
+    "reference_number": 96,
+    "doi_or_patent_family": "10.1038/s41467-024-45563-x",
+    "source_label": "M08",
+    "table_values": [
+      "8",
+      "96",
+      "M08",
+      "10.1038/s41467-024-45563-x"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "9",
+    "source_identifier": "M09",
+    "reference_number": 97,
+    "doi_or_patent_family": "10.1038/s42256-023-00788-1",
+    "source_label": "M09",
+    "table_values": [
+      "9",
+      "97",
+      "M09",
+      "10.1038/s42256-023-00788-1"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "10",
+    "source_identifier": "M10",
+    "reference_number": 98,
+    "doi_or_patent_family": "10.1038/s42256-024-00832-8",
+    "source_label": "M10",
+    "table_values": [
+      "10",
+      "98",
+      "M10",
+      "10.1038/s42256-024-00832-8"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "11",
+    "source_identifier": "M11",
+    "reference_number": 99,
+    "doi_or_patent_family": "10.1038/s42256-025-01066-y",
+    "source_label": "M11",
+    "table_values": [
+      "11",
+      "99",
+      "M11",
+      "10.1038/s42256-025-01066-y"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "12",
+    "source_identifier": "M12",
+    "reference_number": 100,
+    "doi_or_patent_family": "10.1038/s41586-026-10644-y",
+    "source_label": "M12",
+    "table_values": [
+      "12",
+      "100",
+      "M12",
+      "10.1038/s41586-026-10644-y"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "13",
+    "source_identifier": "M13",
+    "reference_number": 101,
+    "doi_or_patent_family": "10.1038/s42004-026-01993-w",
+    "source_label": "M13",
+    "table_values": [
+      "13",
+      "101",
+      "M13",
+      "10.1038/s42004-026-01993-w"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "14",
+    "source_identifier": "M14",
+    "reference_number": 102,
+    "doi_or_patent_family": "10.1038/s41557-025-01815-x",
+    "source_label": "M14",
+    "table_values": [
+      "14",
+      "102",
+      "M14",
+      "10.1038/s41557-025-01815-x"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "15",
+    "source_identifier": "L361",
+    "reference_number": 60,
+    "doi_or_patent_family": "10.1039/d6sc05561c",
+    "source_label": "L361 [60]",
+    "table_values": [
+      "15",
+      "60",
+      "L361 [60]",
+      "10.1039/d6sc05561c"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "16",
+    "source_identifier": "L093",
+    "reference_number": 16,
+    "doi_or_patent_family": "10.3762/bjoc.13.262",
+    "source_label": "L093 [16]",
+    "table_values": [
+      "16",
+      "16",
+      "L093 [16]",
+      "10.3762/bjoc.13.262"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "17",
+    "source_identifier": "L073",
+    "reference_number": 19,
+    "doi_or_patent_family": "10.1021/jacs.7b08343",
+    "source_label": "L073 [19]",
+    "table_values": [
+      "17",
+      "19",
+      "L073 [19]",
+      "10.1021/jacs.7b08343"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "18",
+    "source_identifier": "M18",
+    "reference_number": 103,
+    "doi_or_patent_family": "10.1038/s43586-021-00042-1",
+    "source_label": "M18",
+    "table_values": [
+      "18",
+      "103",
+      "M18",
+      "10.1038/s43586-021-00042-1"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "19",
+    "source_identifier": "M19",
+    "reference_number": 104,
+    "doi_or_patent_family": "10.1002/anie.202308880",
+    "source_label": "M19",
+    "table_values": [
+      "19",
+      "104",
+      "M19",
+      "10.1002/anie.202308880"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "20",
+    "source_identifier": "M20",
+    "reference_number": 105,
+    "doi_or_patent_family": "10.1039/d2ob00795a",
+    "source_label": "M20",
+    "table_values": [
+      "20",
+      "105",
+      "M20",
+      "10.1039/d2ob00795a"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "21",
+    "source_identifier": "M21",
+    "reference_number": 106,
+    "doi_or_patent_family": "10.1039/d2cc06217h",
+    "source_label": "M21",
+    "table_values": [
+      "21",
+      "106",
+      "M21",
+      "10.1039/d2cc06217h"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "22",
+    "source_identifier": "M22",
+    "reference_number": 107,
+    "doi_or_patent_family": "10.1002/cjoc.202200713",
+    "source_label": "M22",
+    "table_values": [
+      "22",
+      "107",
+      "M22",
+      "10.1002/cjoc.202200713"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "23",
+    "source_identifier": "M23",
+    "reference_number": 108,
+    "doi_or_patent_family": "10.1007/s11426-024-2313-5",
+    "source_label": "M23",
+    "table_values": [
+      "23",
+      "108",
+      "M23",
+      "10.1007/s11426-024-2313-5"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "24",
+    "source_identifier": "M24",
+    "reference_number": 109,
+    "doi_or_patent_family": "10.1021/acscatal.4c04277",
+    "source_label": "M24",
+    "table_values": [
+      "24",
+      "109",
+      "M24",
+      "10.1021/acscatal.4c04277"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "25",
+    "source_identifier": "M25",
+    "reference_number": 110,
+    "doi_or_patent_family": "10.1002/anie.202313638",
+    "source_label": "M25",
+    "table_values": [
+      "25",
+      "110",
+      "M25",
+      "10.1002/anie.202313638"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "26",
+    "source_identifier": "M26",
+    "reference_number": 111,
+    "doi_or_patent_family": "10.1016/j.chempr.2022.08.015",
+    "source_label": "M26",
+    "table_values": [
+      "26",
+      "111",
+      "M26",
+      "10.1016/j.chempr.2022.08.015"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "27",
+    "source_identifier": "M27",
+    "reference_number": 112,
+    "doi_or_patent_family": "10.1016/j.chempr.2025.102922",
+    "source_label": "M27",
+    "table_values": [
+      "27",
+      "112",
+      "M27",
+      "10.1016/j.chempr.2025.102922"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "28",
+    "source_identifier": "L362",
+    "reference_number": 11,
+    "doi_or_patent_family": "10.1002/adsc.202200352",
+    "source_label": "L362 [11]",
+    "table_values": [
+      "28",
+      "11",
+      "L362 [11]",
+      "10.1002/adsc.202200352"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "29",
+    "source_identifier": "L363",
+    "reference_number": 12,
+    "doi_or_patent_family": "10.1021/acs.joc.0c02436",
+    "source_label": "L363 [12]",
+    "table_values": [
+      "29",
+      "12",
+      "L363 [12]",
+      "10.1021/acs.joc.0c02436"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "30",
+    "source_identifier": "L088",
+    "reference_number": 24,
+    "doi_or_patent_family": "10.1021/acs.orglett.0c00599",
+    "source_label": "L088 [24]",
+    "table_values": [
+      "30",
+      "24",
+      "L088 [24]",
+      "10.1021/acs.orglett.0c00599"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "31",
+    "source_identifier": "L350",
+    "reference_number": 10,
+    "doi_or_patent_family": "10.1039/d6sc01042c",
+    "source_label": "L350 [10]",
+    "table_values": [
+      "31",
+      "10",
+      "L350 [10]",
+      "10.1039/d6sc01042c"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "32",
+    "source_identifier": "L294",
+    "reference_number": 25,
+    "doi_or_patent_family": "10.1016/s0040-4020(00)00167-8",
+    "source_label": "L294 [25]",
+    "table_values": [
+      "32",
+      "25",
+      "L294 [25]",
+      "10.1016/s0040-4020(00)00167-8"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "33",
+    "source_identifier": "L360",
+    "reference_number": 29,
+    "doi_or_patent_family": "10.1021/acs.joc.9b00999",
+    "source_label": "L360 [29]",
+    "table_values": [
+      "33",
+      "29",
+      "L360 [29]",
+      "10.1021/acs.joc.9b00999"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "34",
+    "source_identifier": "L104",
+    "reference_number": 26,
+    "doi_or_patent_family": "10.1021/acs.joc.2c02343",
+    "source_label": "L104 [26]",
+    "table_values": [
+      "34",
+      "26",
+      "L104 [26]",
+      "10.1021/acs.joc.2c02343"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "35",
+    "source_identifier": "L357",
+    "reference_number": 20,
+    "doi_or_patent_family": "10.1002/ejoc.201801602",
+    "source_label": "L357 [20]",
+    "table_values": [
+      "35",
+      "20",
+      "L357 [20]",
+      "10.1002/ejoc.201801602"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "36",
+    "source_identifier": "L133",
+    "reference_number": 21,
+    "doi_or_patent_family": "10.1021/acs.joc.3c01562",
+    "source_label": "L133 [21]",
+    "table_values": [
+      "36",
+      "21",
+      "L133 [21]",
+      "10.1021/acs.joc.3c01562"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "37",
+    "source_identifier": "L223",
+    "reference_number": 27,
+    "doi_or_patent_family": "10.1002/anie.201605651",
+    "source_label": "L223 [27]",
+    "table_values": [
+      "37",
+      "27",
+      "L223 [27]",
+      "10.1002/anie.201605651"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "38",
+    "source_identifier": "L189",
+    "reference_number": 28,
+    "doi_or_patent_family": "10.1038/s41467-021-23101-3",
+    "source_label": "L189 [28]",
+    "table_values": [
+      "38",
+      "28",
+      "L189 [28]",
+      "10.1038/s41467-021-23101-3"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "39",
+    "source_identifier": "L365",
+    "reference_number": 14,
+    "doi_or_patent_family": "CN115322131A/B",
+    "source_label": "L365 [14]",
+    "table_values": [
+      "39",
+      "14",
+      "L365 [14]",
+      "CN115322131A/B"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "40",
+    "source_identifier": "L366",
+    "reference_number": 15,
+    "doi_or_patent_family": "CN112341368A/B",
+    "source_label": "L366 [15]",
+    "table_values": [
+      "40",
+      "15",
+      "L366 [15]",
+      "CN112341368A/B"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "41",
+    "source_identifier": "L364",
+    "reference_number": 13,
+    "doi_or_patent_family": "10.1039/d3cc06041a",
+    "source_label": "L364 [13]",
+    "table_values": [
+      "41",
+      "13",
+      "L364 [13]",
+      "10.1039/d3cc06041a"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "42",
+    "source_identifier": "M42",
+    "reference_number": 113,
+    "doi_or_patent_family": "10.1021/acs.oprd.9b00140",
+    "source_label": "M42",
+    "table_values": [
+      "42",
+      "113",
+      "M42",
+      "10.1021/acs.oprd.9b00140"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "43",
+    "source_identifier": "M43",
+    "reference_number": 114,
+    "doi_or_patent_family": "10.1021/acs.accounts.7b00428",
+    "source_label": "M43",
+    "table_values": [
+      "43",
+      "114",
+      "M43",
+      "10.1021/acs.accounts.7b00428"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "44",
+    "source_identifier": "L214",
+    "reference_number": 73,
+    "doi_or_patent_family": "10.1002/anie.202310288",
+    "source_label": "L214 [73]",
+    "table_values": [
+      "44",
+      "73",
+      "L214 [73]",
+      "10.1002/anie.202310288"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "45",
+    "source_identifier": "M45",
+    "reference_number": 58,
+    "doi_or_patent_family": "10.1021/ci100050t",
+    "source_label": "M45",
+    "table_values": [
+      "45",
+      "58",
+      "M45",
+      "10.1021/ci100050t"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "46",
+    "source_identifier": "M46",
+    "reference_number": 115,
+    "doi_or_patent_family": "10.1126/science.aax1566",
+    "source_label": "M46",
+    "table_values": [
+      "46",
+      "115",
+      "M46",
+      "10.1126/science.aax1566"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "47",
+    "source_identifier": "M47",
+    "reference_number": 116,
+    "doi_or_patent_family": "10.1126/science.aav2211",
+    "source_label": "M47",
+    "table_values": [
+      "47",
+      "116",
+      "M47",
+      "10.1126/science.aav2211"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "48",
+    "source_identifier": "M48",
+    "reference_number": 117,
+    "doi_or_patent_family": "10.1038/s41586-020-2442-2",
+    "source_label": "M48",
+    "table_values": [
+      "48",
+      "117",
+      "M48",
+      "10.1038/s41586-020-2442-2"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "49",
+    "source_identifier": "M49",
+    "reference_number": 118,
+    "doi_or_patent_family": "10.1038/s41586-023-06734-w",
+    "source_label": "M49",
+    "table_values": [
+      "49",
+      "118",
+      "M49",
+      "10.1038/s41586-023-06734-w"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "50",
+    "source_identifier": "M50",
+    "reference_number": 119,
+    "doi_or_patent_family": "10.1038/s41586-023-06792-0",
+    "source_label": "M50",
+    "table_values": [
+      "50",
+      "119",
+      "M50",
+      "10.1038/s41586-023-06792-0"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "51",
+    "source_identifier": "L344",
+    "reference_number": 6,
+    "doi_or_patent_family": "10.1002/advs.77070",
+    "source_label": "L344 [6]",
+    "table_values": [
+      "51",
+      "6",
+      "L344 [6]",
+      "10.1002/advs.77070"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "52",
+    "source_identifier": "L359",
+    "reference_number": 22,
+    "doi_or_patent_family": "10.1021/acs.joc.9b01387",
+    "source_label": "L359 [22]",
+    "table_values": [
+      "52",
+      "22",
+      "L359 [22]",
+      "10.1021/acs.joc.9b01387"
+    ]
+  },
+  {
+    "reference_set": "original_manuscript",
+    "reference_id": "53",
+    "source_identifier": "L346",
+    "reference_number": 23,
+    "doi_or_patent_family": "10.1038/s41467-018-08253-z",
+    "source_label": "L346 [23]",
+    "table_values": [
+      "53",
+      "23",
+      "L346 [23]",
+      "10.1038/s41467-018-08253-z"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V01",
+    "source_identifier": "L334",
+    "reference_number": 64,
+    "doi_or_patent_family": "10.1016/j.checat.2022.03.021",
+    "source_label": "L334 [64]",
+    "table_values": [
+      "V01",
+      "L334 [64]",
+      "64",
+      "10.1016/j.checat.2022.03.021"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V02",
+    "source_identifier": "L203",
+    "reference_number": 62,
+    "doi_or_patent_family": "10.1021/jacs.5c08791",
+    "source_label": "L203 [62]",
+    "table_values": [
+      "V02",
+      "L203 [62]",
+      "62",
+      "10.1021/jacs.5c08791"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V03",
+    "source_identifier": "L348",
+    "reference_number": 63,
+    "doi_or_patent_family": "10.1021/jo5005845",
+    "source_label": "L348 [63]",
+    "table_values": [
+      "V03",
+      "L348 [63]",
+      "63",
+      "10.1021/jo5005845"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V04",
+    "source_identifier": "L349",
+    "reference_number": 66,
+    "doi_or_patent_family": "10.1126/sciadv.aea4120",
+    "source_label": "L349 [66]",
+    "table_values": [
+      "V04",
+      "L349 [66]",
+      "66",
+      "10.1126/sciadv.aea4120"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V05",
+    "source_identifier": "L350",
+    "reference_number": 10,
+    "doi_or_patent_family": "10.1039/d6sc01042c",
+    "source_label": "L350 [10]",
+    "table_values": [
+      "V05",
+      "L350 [10]",
+      "10",
+      "10.1039/d6sc01042c"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V06",
+    "source_identifier": "L324",
+    "reference_number": 67,
+    "doi_or_patent_family": "10.1021/acs.joc.1c00490",
+    "source_label": "L324 [67]",
+    "table_values": [
+      "V06",
+      "L324 [67]",
+      "67",
+      "10.1021/acs.joc.1c00490"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V07",
+    "source_identifier": "L104",
+    "reference_number": 26,
+    "doi_or_patent_family": "10.1021/acs.joc.2c02343",
+    "source_label": "L104 [26]",
+    "table_values": [
+      "V07",
+      "L104 [26]",
+      "26",
+      "10.1021/acs.joc.2c02343"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V08",
+    "source_identifier": "L291",
+    "reference_number": 39,
+    "doi_or_patent_family": "10.3762/bjoc.19.111",
+    "source_label": "L291 [39]",
+    "table_values": [
+      "V08",
+      "L291 [39]",
+      "39",
+      "10.3762/bjoc.19.111"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V09",
+    "source_identifier": "L351",
+    "reference_number": 65,
+    "doi_or_patent_family": "10.1080/14756366.2018.1461097",
+    "source_label": "L351 [65]",
+    "table_values": [
+      "V09",
+      "L351 [65]",
+      "65",
+      "10.1080/14756366.2018.1461097"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V10",
+    "source_identifier": "L352",
+    "reference_number": 61,
+    "doi_or_patent_family": "10.3762/bjoc.20.226",
+    "source_label": "L352 [61]",
+    "table_values": [
+      "V10",
+      "L352 [61]",
+      "61",
+      "10.3762/bjoc.20.226"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V11",
+    "source_identifier": "L353",
+    "reference_number": 71,
+    "doi_or_patent_family": "10.3762/bjoc.11.205",
+    "source_label": "L353 [71]",
+    "table_values": [
+      "V11",
+      "L353 [71]",
+      "71",
+      "10.3762/bjoc.11.205"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V12",
+    "source_identifier": "L354",
+    "reference_number": 68,
+    "doi_or_patent_family": "10.1021/acs.joc.6c01159",
+    "source_label": "L354 [68]",
+    "table_values": [
+      "V12",
+      "L354 [68]",
+      "68",
+      "10.1021/acs.joc.6c01159"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V13",
+    "source_identifier": "L355",
+    "reference_number": 120,
+    "doi_or_patent_family": "10.1021/acs.orglett.3c02235",
+    "source_label": "L355 [120]",
+    "table_values": [
+      "V13",
+      "L355 [120]",
+      "120",
+      "10.1021/acs.orglett.3c02235"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V14",
+    "source_identifier": "L356",
+    "reference_number": 70,
+    "doi_or_patent_family": "10.1039/c7ob00599g",
+    "source_label": "L356 [70]",
+    "table_values": [
+      "V14",
+      "L356 [70]",
+      "70",
+      "10.1039/c7ob00599g"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V15",
+    "source_identifier": "L222",
+    "reference_number": 69,
+    "doi_or_patent_family": "10.1021/jacs.4c03826",
+    "source_label": "L222 [69]",
+    "table_values": [
+      "V15",
+      "L222 [69]",
+      "69",
+      "10.1021/jacs.4c03826"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V16",
+    "source_identifier": "L357",
+    "reference_number": 20,
+    "doi_or_patent_family": "10.1002/ejoc.201801602",
+    "source_label": "L357 [20]",
+    "table_values": [
+      "V16",
+      "L357 [20]",
+      "20",
+      "10.1002/ejoc.201801602"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V17",
+    "source_identifier": "L358",
+    "reference_number": 72,
+    "doi_or_patent_family": "10.1021/acs.orglett.3c00631",
+    "source_label": "L358 [72]",
+    "table_values": [
+      "V17",
+      "L358 [72]",
+      "72",
+      "10.1021/acs.orglett.3c00631"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V18",
+    "source_identifier": "L359",
+    "reference_number": 22,
+    "doi_or_patent_family": "10.1021/acs.joc.9b01387",
+    "source_label": "L359 [22]",
+    "table_values": [
+      "V18",
+      "L359 [22]",
+      "22",
+      "10.1021/acs.joc.9b01387"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V19",
+    "source_identifier": "L240",
+    "reference_number": 34,
+    "doi_or_patent_family": "10.1021/ol060912r",
+    "source_label": "L240 [34]",
+    "table_values": [
+      "V19",
+      "L240 [34]",
+      "34",
+      "10.1021/ol060912r"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V20",
+    "source_identifier": "L152",
+    "reference_number": 59,
+    "doi_or_patent_family": "10.1021/acs.orglett.7b03700",
+    "source_label": "L152 [59]",
+    "table_values": [
+      "V20",
+      "L152 [59]",
+      "59",
+      "10.1021/acs.orglett.7b03700"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V21",
+    "source_identifier": "L360",
+    "reference_number": 29,
+    "doi_or_patent_family": "10.1021/acs.joc.9b00999",
+    "source_label": "L360 [29]",
+    "table_values": [
+      "V21",
+      "L360 [29]",
+      "29",
+      "10.1021/acs.joc.9b00999"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V22",
+    "source_identifier": "L361",
+    "reference_number": 60,
+    "doi_or_patent_family": "10.1039/d6sc05561c",
+    "source_label": "L361 [60]",
+    "table_values": [
+      "V22",
+      "L361 [60]",
+      "60",
+      "10.1039/d6sc05561c"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V23",
+    "source_identifier": "L133",
+    "reference_number": 21,
+    "doi_or_patent_family": "10.1021/acs.joc.3c01562",
+    "source_label": "L133 [21]",
+    "table_values": [
+      "V23",
+      "L133 [21]",
+      "21",
+      "10.1021/acs.joc.3c01562"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V24",
+    "source_identifier": "L128",
+    "reference_number": 53,
+    "doi_or_patent_family": "10.1021/acs.joc.1c01703",
+    "source_label": "L128 [53]",
+    "table_values": [
+      "V24",
+      "L128 [53]",
+      "53",
+      "10.1021/acs.joc.1c01703"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V25",
+    "source_identifier": "L205",
+    "reference_number": 54,
+    "doi_or_patent_family": "10.1039/d1cc06786a",
+    "source_label": "L205 [54]",
+    "table_values": [
+      "V25",
+      "L205 [54]",
+      "54",
+      "10.1039/d1cc06786a"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V26",
+    "source_identifier": "L346",
+    "reference_number": 23,
+    "doi_or_patent_family": "10.1038/s41467-018-08253-z",
+    "source_label": "L346 [23]",
+    "table_values": [
+      "V26",
+      "L346 [23]",
+      "23",
+      "10.1038/s41467-018-08253-z"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V27",
+    "source_identifier": "L344",
+    "reference_number": 6,
+    "doi_or_patent_family": "10.1002/advs.77070",
+    "source_label": "L344 [6]",
+    "table_values": [
+      "V27",
+      "L344 [6]",
+      "6",
+      "10.1002/advs.77070"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V28",
+    "source_identifier": "L085",
+    "reference_number": 55,
+    "doi_or_patent_family": "10.1016/0040-4039(96)00239-0",
+    "source_label": "L085 [55]",
+    "table_values": [
+      "V28",
+      "L085 [55]",
+      "55",
+      "10.1016/0040-4039(96)00239-0"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V29",
+    "source_identifier": "L342",
+    "reference_number": 56,
+    "doi_or_patent_family": "10.1021/jacs.0c08928",
+    "source_label": "L342 [56]",
+    "table_values": [
+      "V29",
+      "L342 [56]",
+      "56",
+      "10.1021/jacs.0c08928"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V30",
+    "source_identifier": "L274",
+    "reference_number": 57,
+    "doi_or_patent_family": "10.1039/d4ob01253d",
+    "source_label": "L274 [57]",
+    "table_values": [
+      "V30",
+      "L274 [57]",
+      "57",
+      "10.1039/d4ob01253d"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V31",
+    "source_identifier": "L362",
+    "reference_number": 11,
+    "doi_or_patent_family": "10.1002/adsc.202200352",
+    "source_label": "L362 [11]",
+    "table_values": [
+      "V31",
+      "L362 [11]",
+      "11",
+      "10.1002/adsc.202200352"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V32",
+    "source_identifier": "L363",
+    "reference_number": 12,
+    "doi_or_patent_family": "10.1021/acs.joc.0c02436",
+    "source_label": "L363 [12]",
+    "table_values": [
+      "V32",
+      "L363 [12]",
+      "12",
+      "10.1021/acs.joc.0c02436"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V33",
+    "source_identifier": "L364",
+    "reference_number": 13,
+    "doi_or_patent_family": "10.1039/d3cc06041a",
+    "source_label": "L364 [13]",
+    "table_values": [
+      "V33",
+      "L364 [13]",
+      "13",
+      "10.1039/d3cc06041a"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V34",
+    "source_identifier": "L365",
+    "reference_number": 14,
+    "doi_or_patent_family": "https://patents.google.com/patent/CN115322131B",
+    "source_label": "L365 [14]",
+    "table_values": [
+      "V34",
+      "L365 [14]",
+      "14",
+      "https://patents.google.com/patent/CN115322131B"
+    ]
+  },
+  {
+    "reference_set": "comparison_code",
+    "reference_id": "V35",
+    "source_identifier": "L366",
+    "reference_number": 15,
+    "doi_or_patent_family": "https://patents.google.com/patent/CN112341368A",
+    "source_label": "L366 [15]",
+    "table_values": [
+      "V35",
+      "L366 [15]",
+      "15",
+      "https://patents.google.com/patent/CN112341368A"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR01",
+    "source_identifier": "L344",
+    "reference_number": 6,
+    "doi_or_patent_family": "10.1002/advs.77070",
+    "source_label": "L344 [6]",
+    "table_values": [
+      "TR01",
+      "L344 [6]",
+      "6",
+      "10.1002/advs.77070"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR02",
+    "source_identifier": "M19",
+    "reference_number": 104,
+    "doi_or_patent_family": "10.1002/anie.202308880",
+    "source_label": "M19",
+    "table_values": [
+      "TR02",
+      "M19",
+      "104",
+      "10.1002/anie.202308880"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR03",
+    "source_identifier": "L339",
+    "reference_number": 42,
+    "doi_or_patent_family": "10.1002/cctc.202501604",
+    "source_label": "L339 [42]",
+    "table_values": [
+      "TR03",
+      "L339 [42]",
+      "42",
+      "10.1002/cctc.202501604"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR04",
+    "source_identifier": "TR04",
+    "reference_number": 17,
+    "doi_or_patent_family": "10.1002/chem.202102548",
+    "source_label": "TR04",
+    "table_values": [
+      "TR04",
+      "TR04",
+      "17",
+      "10.1002/chem.202102548"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR05",
+    "source_identifier": "L357",
+    "reference_number": 20,
+    "doi_or_patent_family": "10.1002/ejoc.201801602",
+    "source_label": "L357 [20]",
+    "table_values": [
+      "TR05",
+      "L357 [20]",
+      "20",
+      "10.1002/ejoc.201801602"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR06",
+    "source_identifier": "L133",
+    "reference_number": 21,
+    "doi_or_patent_family": "10.1021/acs.joc.3c01562",
+    "source_label": "L133 [21]",
+    "table_values": [
+      "TR06",
+      "L133 [21]",
+      "21",
+      "10.1021/acs.joc.3c01562"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR07",
+    "source_identifier": "L359",
+    "reference_number": 22,
+    "doi_or_patent_family": "10.1021/acs.joc.9b01387",
+    "source_label": "L359 [22]",
+    "table_values": [
+      "TR07",
+      "L359 [22]",
+      "22",
+      "10.1021/acs.joc.9b01387"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR08",
+    "source_identifier": "L346",
+    "reference_number": 23,
+    "doi_or_patent_family": "10.1038/s41467-018-08253-z",
+    "source_label": "L346 [23]",
+    "table_values": [
+      "TR08",
+      "L346 [23]",
+      "23",
+      "10.1038/s41467-018-08253-z"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR09",
+    "source_identifier": "L321",
+    "reference_number": 18,
+    "doi_or_patent_family": "10.1038/s41467-024-52054-6",
+    "source_label": "L321 [18]",
+    "table_values": [
+      "TR09",
+      "L321 [18]",
+      "18",
+      "10.1038/s41467-024-52054-6"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR10",
+    "source_identifier": "L274",
+    "reference_number": 57,
+    "doi_or_patent_family": "10.1039/d4ob01253d",
+    "source_label": "L274 [57]",
+    "table_values": [
+      "TR10",
+      "L274 [57]",
+      "57",
+      "10.1039/d4ob01253d"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR11",
+    "source_identifier": "L343",
+    "reference_number": 2,
+    "doi_or_patent_family": "10.1039/d5sc03915k",
+    "source_label": "L343 [2]",
+    "table_values": [
+      "TR11",
+      "L343 [2]",
+      "2",
+      "10.1039/d5sc03915k"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR12",
+    "source_identifier": "L347",
+    "reference_number": 8,
+    "doi_or_patent_family": "10.1039/d5sc04074d",
+    "source_label": "L347 [8]",
+    "table_values": [
+      "TR12",
+      "L347 [8]",
+      "8",
+      "10.1039/d5sc04074d"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR13",
+    "source_identifier": "L350",
+    "reference_number": 10,
+    "doi_or_patent_family": "10.1039/d6sc01042c",
+    "source_label": "L350 [10]",
+    "table_values": [
+      "TR13",
+      "L350 [10]",
+      "10",
+      "10.1039/d6sc01042c"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR14",
+    "source_identifier": "L093",
+    "reference_number": 16,
+    "doi_or_patent_family": "10.3762/bjoc.13.262",
+    "source_label": "L093 [16]",
+    "table_values": [
+      "TR14",
+      "L093 [16]",
+      "16",
+      "10.3762/bjoc.13.262"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "TR15",
+    "source_identifier": "L073",
+    "reference_number": 19,
+    "doi_or_patent_family": "10.1021/jacs.7b08343",
+    "source_label": "L073 [19]",
+    "table_values": [
+      "TR15",
+      "L073 [19]",
+      "19",
+      "10.1021/jacs.7b08343"
+    ]
+  },
+  {
+    "reference_set": "source_alias",
+    "reference_id": "SR-P1",
+    "source_identifier": "L370",
+    "reference_number": 9,
+    "doi_or_patent_family": "10.1021/acs.orglett.3c02031",
+    "source_label": "L370 [9]",
+    "table_values": [
+      "SR-P1",
+      "L370 [9]",
+      "9",
+      "10.1021/acs.orglett.3c02031"
+    ]
+  }
+]

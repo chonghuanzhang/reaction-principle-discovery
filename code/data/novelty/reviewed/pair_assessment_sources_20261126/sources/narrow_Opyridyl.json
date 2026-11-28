@@ -1,0 +1,1 @@
+{"version":"6.9","hitCount":0,"request":{"queryString":"(TITLE_ABS:fluorovinyl OR TITLE_ABS:monofluoroalkene OR TITLE_ABS:difluoroalkene) AND (TITLE_ABS:hydroxypyridine OR TITLE_ABS:pyridinol OR TITLE_ABS:pyridone)","resultType":"core","cursorMark":"*","pageSize":100,"sort":"","synonym":false},"resultList":{"result":[]}}

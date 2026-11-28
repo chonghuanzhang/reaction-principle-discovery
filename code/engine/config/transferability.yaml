@@ -1,0 +1,20 @@
+version: "2.0"
+weights:
+  shared_elementary_step: 4
+  electrophile_electronic_compatibility: 3
+  nucleophile_reactive_form: 3
+  catalyst_ligand_compatibility: 2
+  condition_overlap: 2
+  selective_defluorination: 4
+  product_stability: 2
+  competing_pathways: 2
+critical_unknown_dimensions:
+  - shared_elementary_step
+  - electrophile_electronic_compatibility
+  - nucleophile_reactive_form
+hard_blocker_directions:
+  - incompatible
+unknown_markers:
+  - UNKNOWN
+  - not established
+  - not reported

@@ -1,0 +1,26 @@
+{
+  "examples": [
+    {
+      "candidate_id": "C002",
+      "actual_pair_ids": [
+        "AP044"
+      ],
+      "relationship": "Exact identity"
+    },
+    {
+      "candidate_id": "C042",
+      "actual_pair_ids": [
+        "AP047",
+        "AP048"
+      ],
+      "relationship": "Same scaffold, substituent or positional variation"
+    },
+    {
+      "candidate_id": "C004",
+      "actual_pair_ids": [
+        "AP108"
+      ],
+      "relationship": "Same donor family, different scaffold"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "release": "rp-guided-nucleophile-recommendations",
+  "counts": {
+    "candidates": 100,
+    "hypotheses": 103,
+    "product_options": 103,
+    "families": 43
+  },
+  "files": {
+    "candidates_100.json": "3b818132068f00217cc5c3cc7aa1f539e7f09811c0d54853cdcbce86885e4794",
+    "hypotheses_103.json": "1b4b69ad9e8b213ae2a449a68e4b85ca19cad807c18b6856f2966b320885e476",
+    "product_options_103.json": "456faaa8cab538114a0c7f8d21e9f502febbd4e69589e5c54cda5022c65a89a4",
+    "network.json": "14fe369e9fac6e110c80e6f638e80f5d6cc7a948a82afc2f59ba40809ded449f"
+  }
+}

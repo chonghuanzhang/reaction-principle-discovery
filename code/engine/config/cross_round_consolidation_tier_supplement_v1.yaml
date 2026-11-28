@@ -1,0 +1,16 @@
+version: "3.4.1"
+source_version: "3.6"
+expected_round_count: 5
+expected_proposal_count: 690
+expected_assignment_count: 25
+maximum_new_family_rate: 0.05
+required_consecutive_low_novelty_transitions: 2
+minimum_independent_lanes: 2
+minimum_core_token_jaccard: 0.35
+minimum_context_token_jaccard: 0.20
+qualifying_evidence_prefixes:
+  - "KT2-"
+  - "TA-"
+model_only_merge_policy: exact_fingerprint_only
+cross_coordinate_policy: prohibited
+unresolved_policy: preserve

@@ -1,0 +1,36 @@
+{
+  "path": "experiments/raw/product_structure_register.xlsx",
+  "original_filename": "产物原料表.xlsx",
+  "bytes": 11712,
+  "sha256": "6f9b88c576444fda1ee373d3b4ccaa999786a7ca40b7f20c64a19823b8d16169",
+  "sheet": "Sheet1",
+  "pair_records": [
+    {
+      "actual_pair_id": "AP109",
+      "product_id": "3j",
+      "row": 17
+    },
+    {
+      "actual_pair_id": "AP110",
+      "product_id": "3m",
+      "row": 20
+    },
+    {
+      "actual_pair_id": "AP111",
+      "product_id": "3aj",
+      "row": 43
+    },
+    {
+      "actual_pair_id": "AP112",
+      "product_id": "3an",
+      "row": 3
+    }
+  ],
+  "field_scope": "Product identifier, electrophile structure, donor structure and recorded product structure.",
+  "execution_evidence": {
+    "source": "author_confirmation",
+    "date": "2026-11-26",
+    "statement": "The author confirms that these four ordered pairs belong to the complete experimental collection of 112 pairs."
+  },
+  "condition_record_scope": "The register does not encode experiment/sample identifiers, conditions or numerical responses."
+}

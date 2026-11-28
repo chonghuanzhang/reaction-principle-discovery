@@ -1,0 +1,38 @@
+[
+  {
+    "query_id": "EPMC-narrow-N",
+    "query": "(TITLE_ABS:fluoroenamine OR TITLE_ABS:fluorovinyl OR TITLE_ABS:trifluoropropanamide) AND (TITLE_ABS:amine OR TITLE_ABS:indole OR TITLE_ABS:diphenylamine)",
+    "date": "2026-11-26",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Afluoroenamine+OR+TITLE_ABS%3Afluorovinyl+OR+TITLE_ABS%3Atrifluoropropanamide%29+AND+%28TITLE_ABS%3Aamine+OR+TITLE_ABS%3Aindole+OR+TITLE_ABS%3Adiphenylamine%29&format=json&resultType=core&pageSize=100",
+    "status_code": 200,
+    "hit_count": 3,
+    "results_file": "narrow_N.json"
+  },
+  {
+    "query_id": "EPMC-narrow-S",
+    "query": "(TITLE_ABS:monofluoroalkene OR TITLE_ABS:fluorovinyl OR TITLE_ABS:trifluoropropanamide) AND (TITLE_ABS:thiol OR TITLE_ABS:thioether OR TITLE_ABS:sulfuration)",
+    "date": "2026-11-26",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Amonofluoroalkene+OR+TITLE_ABS%3Afluorovinyl+OR+TITLE_ABS%3Atrifluoropropanamide%29+AND+%28TITLE_ABS%3Athiol+OR+TITLE_ABS%3Athioether+OR+TITLE_ABS%3Asulfuration%29&format=json&resultType=core&pageSize=100",
+    "status_code": 200,
+    "hit_count": 3,
+    "results_file": "narrow_S.json"
+  },
+  {
+    "query_id": "EPMC-narrow-Ophenol",
+    "query": "(TITLE_ABS:fluorovinyl OR TITLE_ABS:monofluoroalkene OR TITLE_ABS:trifluoromethyl) AND (TITLE_ABS:phenol OR TITLE_ABS:phenoxy)",
+    "date": "2026-11-26",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Afluorovinyl+OR+TITLE_ABS%3Amonofluoroalkene+OR+TITLE_ABS%3Atrifluoromethyl%29+AND+%28TITLE_ABS%3Aphenol+OR+TITLE_ABS%3Aphenoxy%29&format=json&resultType=core&pageSize=100",
+    "status_code": 200,
+    "hit_count": 1192,
+    "results_file": "narrow_Ophenol.json"
+  },
+  {
+    "query_id": "EPMC-narrow-Opyridyl",
+    "query": "(TITLE_ABS:fluorovinyl OR TITLE_ABS:monofluoroalkene OR TITLE_ABS:difluoroalkene) AND (TITLE_ABS:hydroxypyridine OR TITLE_ABS:pyridinol OR TITLE_ABS:pyridone)",
+    "date": "2026-11-26",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Afluorovinyl+OR+TITLE_ABS%3Amonofluoroalkene+OR+TITLE_ABS%3Adifluoroalkene%29+AND+%28TITLE_ABS%3Ahydroxypyridine+OR+TITLE_ABS%3Apyridinol+OR+TITLE_ABS%3Apyridone%29&format=json&resultType=core&pageSize=100",
+    "status_code": 200,
+    "hit_count": 0,
+    "results_file": "narrow_Opyridyl.json"
+  }
+]

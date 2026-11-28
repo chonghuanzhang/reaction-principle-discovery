@@ -1,0 +1,35 @@
+[
+  {
+    "query_id": "EPMC-N",
+    "query": "(trifluoromethyl OR trifluoropropanamide OR \"vinyl fluoride\" OR monofluoroalkene) AND (diphenylamine OR \"N-methylaniline\" OR fluoroenamine)",
+    "date": "2026-11-26",
+    "error": "HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "query_id": "EPMC-S",
+    "query": "(trifluoromethyl OR trifluoropropanamide OR difluoroalkene) AND (thiophenol OR thiol OR thioether)",
+    "date": "2026-11-26",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28trifluoromethyl+OR+trifluoropropanamide+OR+difluoroalkene%29+AND+%28thiophenol+OR+thiol+OR+thioether%29&format=json&resultType=core&pageSize=100",
+    "status_code": 200,
+    "hit_count": 7935,
+    "results_file": "search_S.json"
+  },
+  {
+    "query_id": "EPMC-Ophenol",
+    "query": "(trifluoromethyl OR fluorovinyl OR monofluoroalkene) AND (phenol OR phenoxy)",
+    "date": "2026-11-26",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28trifluoromethyl+OR+fluorovinyl+OR+monofluoroalkene%29+AND+%28phenol+OR+phenoxy%29&format=json&resultType=core&pageSize=100",
+    "status_code": 200,
+    "hit_count": 12905,
+    "results_file": "search_Ophenol.json"
+  },
+  {
+    "query_id": "EPMC-Opyridyl",
+    "query": "(fluorovinyl OR monofluoroalkene OR difluoroalkene OR trifluoromethyl) AND (hydroxypyridine OR pyridinol OR pyridone)",
+    "date": "2026-11-26",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28fluorovinyl+OR+monofluoroalkene+OR+difluoroalkene+OR+trifluoromethyl%29+AND+%28hydroxypyridine+OR+pyridinol+OR+pyridone%29&format=json&resultType=core&pageSize=100",
+    "status_code": 200,
+    "hit_count": 904,
+    "results_file": "search_Opyridyl.json"
+  }
+]

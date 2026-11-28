@@ -1,0 +1,631 @@
+{
+  "config_id": "eq_r095_b050",
+  "campaign_mode": "recorded sequential campaign history",
+  "status": "STOPPED_BY_SHARED_CRITERION",
+  "first_highest_response_round": 10,
+  "stopping_round": 12,
+  "all_recommended_batches_measured": true,
+  "observed_count": 60,
+  "completed_BO_batches": 12,
+  "attempted_BO_batches": 12,
+  "final_observed_best": 1.54697139066581,
+  "history": [
+    {
+      "batch_number": 0,
+      "initial": true,
+      "indices": [
+        10480,
+        13840,
+        400,
+        837,
+        1840,
+        833,
+        814,
+        8368,
+        839,
+        790,
+        7984,
+        496
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [],
+      "posterior_sd": [],
+      "acquisition": [],
+      "observed_count_after_feedback": 12,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 12,
+        "observed_best": 1.08932391749404,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": null,
+        "minimum_observations_met": false,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 1,
+      "initial": false,
+      "indices": [
+        5392,
+        5968,
+        8080,
+        10672
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.6410286916926948,
+        0.6410286916926948,
+        0.6410286916926948,
+        0.6410286916926948
+      ],
+      "posterior_sd": [
+        0.5903052455274951,
+        0.5903052455274951,
+        0.5903052455274951,
+        0.5903052455274951
+      ],
+      "acquisition": [
+        0.9361813144574282,
+        0.9361813144574275,
+        0.9361813144574246,
+        0.9361813144574136
+      ],
+      "observed_count_after_feedback": 16,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 16,
+        "observed_best": 1.08932391749404,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": null,
+        "minimum_observations_met": false,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 2,
+      "initial": false,
+      "indices": [
+        4240,
+        2032,
+        2128,
+        9712
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.7453587618783157,
+        0.7453587618783157,
+        0.7453587618783157,
+        0.7453587618783157
+      ],
+      "posterior_sd": [
+        0.5243603742833483,
+        0.5243603742833483,
+        0.5243603742833483,
+        0.5243603742833483
+      ],
+      "acquisition": [
+        1.0075389490209847,
+        1.0075389490209823,
+        1.0075389490209776,
+        1.007538949020963
+      ],
+      "observed_count_after_feedback": 20,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 20,
+        "observed_best": 1.13868108262374,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.04935716512970001,
+        "minimum_observations_met": false,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 3,
+      "initial": false,
+      "indices": [
+        9232,
+        12688,
+        4624,
+        5104
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.7877062828349534,
+        0.7877062828349534,
+        0.7877062828349534,
+        0.7877062828349534
+      ],
+      "posterior_sd": [
+        0.4901388394938649,
+        0.4901388394938649,
+        0.4901388394938649,
+        0.4901388394938649
+      ],
+      "acquisition": [
+        1.0327757025828777,
+        1.0327757025828554,
+        1.032775702582852,
+        1.0327757025828486
+      ],
+      "observed_count_after_feedback": 24,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 24,
+        "observed_best": 1.21663162007247,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.12730770257843016,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 4,
+      "initial": false,
+      "indices": [
+        12304,
+        6928,
+        2992,
+        4528
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.8192178527885479,
+        0.8192178527885479,
+        0.8192178527885479,
+        0.8192178527885479
+      ],
+      "posterior_sd": [
+        0.46109188356498754,
+        0.46109188356498754,
+        0.46109188356498754,
+        0.46109188356498754
+      ],
+      "acquisition": [
+        1.0497637945720355,
+        1.0497637945720333,
+        1.0497637945720257,
+        1.0497637945720115
+      ],
+      "observed_count_after_feedback": 28,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 28,
+        "observed_best": 1.21663162007247,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.07795053744873015,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 5,
+      "initial": false,
+      "indices": [
+        10768,
+        6352,
+        10960,
+        10192
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.8535740263066305,
+        0.8535740263066305,
+        0.8535740263066305,
+        0.8535740263066305
+      ],
+      "posterior_sd": [
+        0.4297580615206279,
+        0.4297580615206279,
+        0.4297580615206279,
+        0.4297580615206279
+      ],
+      "acquisition": [
+        1.0684530570679254,
+        1.068453057067912,
+        1.0684530570678994,
+        1.0684530570678876
+      ],
+      "observed_count_after_feedback": 32,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 32,
+        "observed_best": 1.27331077371286,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.05667915364038989,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 6,
+      "initial": false,
+      "indices": [
+        1360,
+        4816,
+        4912,
+        2896
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.8602821983859067,
+        0.8602821983859067,
+        0.8602821983859067,
+        0.8602821983859067
+      ],
+      "posterior_sd": [
+        0.4253181926714318,
+        0.4253181926714318,
+        0.4253181926714318,
+        0.4253181926714318
+      ],
+      "acquisition": [
+        1.0729412947226218,
+        1.0729412947226216,
+        1.0729412947226216,
+        1.0729412947225765
+      ],
+      "observed_count_after_feedback": 36,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 36,
+        "observed_best": 1.35343180238105,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.13680018230858004,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 7,
+      "initial": false,
+      "indices": [
+        1648,
+        9040,
+        2608,
+        3664
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.8859866495739606,
+        0.8859866495739606,
+        0.8859866495739606,
+        0.8859866495739606
+      ],
+      "posterior_sd": [
+        0.4087988376692893,
+        0.4087988376692893,
+        0.4087988376692893,
+        0.4087988376692893
+      ],
+      "acquisition": [
+        1.090386068409578,
+        1.090386068409576,
+        1.0903860684095736,
+        1.0903860684095668
+      ],
+      "observed_count_after_feedback": 40,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 40,
+        "observed_best": 1.35343180238105,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.08012102866819015,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 8,
+      "initial": false,
+      "indices": [
+        9424,
+        7888,
+        880,
+        8944
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.88794191724905,
+        0.88794191724905,
+        0.88794191724905,
+        0.88794191724905
+      ],
+      "posterior_sd": [
+        0.39241205224884873,
+        0.39241205224884873,
+        0.39241205224884873,
+        0.39241205224884873
+      ],
+      "acquisition": [
+        1.0841479433744703,
+        1.0841479433744612,
+        1.084147943374457,
+        1.084147943374446
+      ],
+      "observed_count_after_feedback": 44,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 44,
+        "observed_best": 1.416252977765,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.06282117538394982,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 9,
+      "initial": false,
+      "indices": [
+        5488,
+        5296,
+        3088,
+        5872
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.9049292074470667,
+        0.9049292074470667,
+        0.9049292074470667,
+        0.9049292074470667
+      ],
+      "posterior_sd": [
+        0.3822200516456414,
+        0.3822200516456414,
+        0.3822200516456414,
+        0.3822200516456414
+      ],
+      "acquisition": [
+        1.096039233270867,
+        1.0960392332708515,
+        1.0960392332708462,
+        1.0960392332708082
+      ],
+      "observed_count_after_feedback": 48,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 48,
+        "observed_best": 1.416252977765,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.06282117538394982,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 10,
+      "initial": false,
+      "indices": [
+        3376,
+        112,
+        4336,
+        9904
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.9086865100713591,
+        0.9086865100713591,
+        0.9086865100713591,
+        0.9086865100713591
+      ],
+      "posterior_sd": [
+        0.3665273797620686,
+        0.3665273797620686,
+        0.3665273797620686,
+        0.3665273797620686
+      ],
+      "acquisition": [
+        1.0919501999533898,
+        1.0919501999533867,
+        1.091950199953376,
+        1.091950199953368
+      ],
+      "observed_count_after_feedback": 52,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 52,
+        "observed_best": 1.54697139066581,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.1307184129008101,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 11,
+      "initial": false,
+      "indices": [
+        1744,
+        11152,
+        7792,
+        3280
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.9133511037878697,
+        0.9133511037878697,
+        0.9133511037878697,
+        0.9133511037878697
+      ],
+      "posterior_sd": [
+        0.3771629471084368,
+        0.3771629471084368,
+        0.3771629471084368,
+        0.3771629471084368
+      ],
+      "acquisition": [
+        1.1019325773430835,
+        1.101932577343075,
+        1.101932577343073,
+        1.1019325773430564
+      ],
+      "observed_count_after_feedback": 56,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 56,
+        "observed_best": 1.54697139066581,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.1307184129008101,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": false,
+        "model_stop_criterion_met": false,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "CONTINUE"
+      }
+    },
+    {
+      "batch_number": 12,
+      "initial": false,
+      "indices": [
+        11248,
+        8848,
+        9520,
+        13744
+      ],
+      "missing_indices": [],
+      "feedback_assimilated": true,
+      "posterior_mean": [
+        0.9251922364558116,
+        0.9251922364558116,
+        0.9251922364558116,
+        0.9251922364558116
+      ],
+      "posterior_sd": [
+        0.3642876586362225,
+        0.3642876586362225,
+        0.3642876586362225,
+        0.3642876586362225
+      ],
+      "acquisition": [
+        1.107336065774922,
+        1.1073360657748994,
+        1.1073360657748952,
+        1.1073360657748907
+      ],
+      "observed_count_after_feedback": 60,
+      "stop_check": {
+        "rule": "shared_two_batch_patience",
+        "observed_count": 60,
+        "observed_best": 1.54697139066581,
+        "initial_batch_sd": 0.47250477013351994,
+        "delta_response_units": 0.047250477013352,
+        "patience_batches": 2,
+        "patience_observations": 8,
+        "improvement_over_last_two_batches": 0.0,
+        "minimum_observations_met": true,
+        "scale_guard_active": false,
+        "plateau_met": true,
+        "model_stop_criterion_met": true,
+        "UCB_used_in_stopping": false,
+        "budget_limit_reached": false,
+        "decision": "EMPIRICAL_TWO_BATCH_STOP"
+      }
+    }
+  ]
+}

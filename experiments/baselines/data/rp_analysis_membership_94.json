@@ -1,0 +1,3240 @@
+{
+  "source_workbook": "optimization/raw/summary_workbook.xlsx",
+  "source_sha256": "836f5a17429d0ab5198f0f28038e60df0992787cf9b76ed649c4abf7c7047c16",
+  "selection": "Numerical UV observations from the fixed-condition N-H, O-H and S-H substrate-scope panels. O-H uses the DIPEA/DCE block; the Na3PO4/DIO block is outside this comparison.",
+  "conditions": [
+    {
+      "route": "NH",
+      "sheet": "NH-底物扩展",
+      "donor": "V",
+      "cas": "U",
+      "electrophile": "R",
+      "uv": [
+        "AB"
+      ],
+      "conditions": {
+        "B": 0.025,
+        "C": "Ag13",
+        "G": "PPh3",
+        "J": "NaH",
+        "M": "DCE",
+        "O": 16,
+        "P": 60
+      }
+    },
+    {
+      "route": "OH",
+      "sheet": "OH-底物扩展",
+      "donor": "X",
+      "cas": "W",
+      "electrophile": "T",
+      "uv": [
+        "AD",
+        "AE"
+      ],
+      "conditions": {
+        "B": 0.025,
+        "C": "Ni203",
+        "L": "DIPEA",
+        "O": "DCE",
+        "Q": 16,
+        "R": 60
+      }
+    },
+    {
+      "route": "SH",
+      "sheet": "SH底物扩展",
+      "donor": "V",
+      "cas": "U",
+      "electrophile": "R",
+      "uv": [
+        "AC",
+        "AD"
+      ],
+      "conditions": {
+        "B": 0.025,
+        "C": "Cu9",
+        "G": "PPh3",
+        "J": "CsOH",
+        "M": "DCE",
+        "O": 16,
+        "P": 60
+      }
+    }
+  ],
+  "identity_rule": "Canonical isomeric donor SMILES; repeated observations of a donor are merged within the selected condition block.",
+  "positive_rule": "At least one numerical UV response greater than zero in the selected block.",
+  "total_unique_donors": 94,
+  "positive_donors": 35,
+  "by_route": {
+    "NH": 38,
+    "OH": 36,
+    "SH": 20
+  },
+  "positive_by_route": {
+    "NH": 12,
+    "OH": 11,
+    "SH": 12
+  },
+  "members": [
+    {
+      "analysis_donor_id": "RP94-001",
+      "route": "NH",
+      "canonical_smiles": "Brc1ccc2[nH]c3c(c2c1)CCCC3",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 17,
+          "experiment_id": "CFC124009-19-2-PL45-W16",
+          "donor_cell": "V17",
+          "donor_raw": "C1CCC2=C(C1)C3=C(N2)C=CC(=C3)Br",
+          "cas_cell": "U17",
+          "cas_raw": "21865-50-9",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB17": 0
+          },
+          "condition_cells": {
+            "B17": 0.025,
+            "C17": "Ag13",
+            "G17": "PPh3",
+            "J17": "NaH",
+            "M17": "DCE",
+            "O17": 16,
+            "P17": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-002",
+      "route": "NH",
+      "canonical_smiles": "Brc1ccc2[nH]ccc2c1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 10,
+          "experiment_id": "CFC124009-19-2-PL45-W9",
+          "donor_cell": "V10",
+          "donor_raw": "BrC1=CC2=C(C=C1)NC=C2",
+          "cas_cell": "U10",
+          "cas_raw": "10075-50-0",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB10": 0.393162393162393
+          },
+          "condition_cells": {
+            "B10": 0.025,
+            "C10": "Ag13",
+            "G10": "PPh3",
+            "J10": "NaH",
+            "M10": "DCE",
+            "O10": 16,
+            "P10": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-003",
+      "route": "NH",
+      "canonical_smiles": "Brc1cccc(-c2cc3ccccc3[nH]2)c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 18,
+          "experiment_id": "CFC124009-19-2-PL45-W17",
+          "donor_cell": "V18",
+          "donor_raw": "BrC1=CC(=CC=C1)C1=CC2=CC=CC=C2N1",
+          "cas_cell": "U18",
+          "cas_raw": "93716-78-0",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB18": 0
+          },
+          "condition_cells": {
+            "B18": 0.025,
+            "C18": "Ag13",
+            "G18": "PPh3",
+            "J18": "NaH",
+            "M18": "DCE",
+            "O18": 16,
+            "P18": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-004",
+      "route": "NH",
+      "canonical_smiles": "C1=COc2ccccc2N1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 39,
+          "experiment_id": "CFC124009-19-2-PL45-W38",
+          "donor_cell": "V39",
+          "donor_raw": "C12=CC=CC=C1OC=CN2",
+          "cas_cell": "U39",
+          "cas_raw": "5735-53-5",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB39": 1.1304347826087
+          },
+          "condition_cells": {
+            "B39": 0.025,
+            "C39": "Ag13",
+            "G39": "PPh3",
+            "J39": "NaH",
+            "M39": "DCE",
+            "O39": 16,
+            "P39": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-005",
+      "route": "NH",
+      "canonical_smiles": "CC(=O)Nc1ccccc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 25,
+          "experiment_id": "CFC124009-19-2-PL45-W24",
+          "donor_cell": "V25",
+          "donor_raw": "CC(NC1=CC=CC=C1)=O",
+          "cas_cell": "U25",
+          "cas_raw": "103-84-4",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB25": 0
+          },
+          "condition_cells": {
+            "B25": 0.025,
+            "C25": "Ag13",
+            "G25": "PPh3",
+            "J25": "NaH",
+            "M25": "DCE",
+            "O25": 16,
+            "P25": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-006",
+      "route": "NH",
+      "canonical_smiles": "CC(=O)c1c[nH]c2ccccc12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 32,
+          "experiment_id": "CFC124009-19-2-PL45-W31",
+          "donor_cell": "V32",
+          "donor_raw": "O=C(C1=CNC2=C1C=CC=C2)C",
+          "cas_cell": "U32",
+          "cas_raw": "703-80-0",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB32": 0
+          },
+          "condition_cells": {
+            "B32": 0.025,
+            "C32": "Ag13",
+            "G32": "PPh3",
+            "J32": "NaH",
+            "M32": "DCE",
+            "O32": 16,
+            "P32": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-007",
+      "route": "NH",
+      "canonical_smiles": "CCCCN1CCNCC1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 36,
+          "experiment_id": "CFC124009-19-2-PL45-W35",
+          "donor_cell": "V36",
+          "donor_raw": "CCCCN1CCNCC1",
+          "cas_cell": "U36",
+          "cas_raw": "5610-49-1",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB36": 0
+          },
+          "condition_cells": {
+            "B36": 0.025,
+            "C36": "Ag13",
+            "G36": "PPh3",
+            "J36": "NaH",
+            "M36": "DCE",
+            "O36": 16,
+            "P36": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-008",
+      "route": "NH",
+      "canonical_smiles": "CCNc1cccc2ccccc12",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 37,
+          "experiment_id": "CFC124009-19-2-PL45-W36",
+          "donor_cell": "V37",
+          "donor_raw": "CCNC1=C2C=CC=CC2=CC=C1",
+          "cas_cell": "U37",
+          "cas_raw": "118-44-5",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB37": 0.851735015772871
+          },
+          "condition_cells": {
+            "B37": 0.025,
+            "C37": "Ag13",
+            "G37": "PPh3",
+            "J37": "NaH",
+            "M37": "DCE",
+            "O37": 16,
+            "P37": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-009",
+      "route": "NH",
+      "canonical_smiles": "CCOC(=O)C1CCc2[nH]c3ccccc3c2C1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 15,
+          "experiment_id": "CFC124009-19-2-PL45-W14",
+          "donor_cell": "V15",
+          "donor_raw": "CCOC(=O)C1CCC2=C(C1)C3=CC=CC=C3N2",
+          "cas_cell": "U15",
+          "cas_raw": "26088-68-6",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB15": 0.0438247011952191
+          },
+          "condition_cells": {
+            "B15": 0.025,
+            "C15": "Ag13",
+            "G15": "PPh3",
+            "J15": "NaH",
+            "M15": "DCE",
+            "O15": 16,
+            "P15": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-010",
+      "route": "NH",
+      "canonical_smiles": "CNC(=O)c1ccccc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 26,
+          "experiment_id": "CFC124009-19-2-PL45-W25",
+          "donor_cell": "V26",
+          "donor_raw": "O=C(NC)C1=CC=CC=C1",
+          "cas_cell": "U26",
+          "cas_raw": "613-93-4",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB26": 0
+          },
+          "condition_cells": {
+            "B26": 0.025,
+            "C26": "Ag13",
+            "G26": "PPh3",
+            "J26": "NaH",
+            "M26": "DCE",
+            "O26": 16,
+            "P26": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-011",
+      "route": "NH",
+      "canonical_smiles": "CNCc1ccccc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 34,
+          "experiment_id": "CFC124009-19-2-PL45-W33",
+          "donor_cell": "V34",
+          "donor_raw": "CNCC1=CC=CC=C1",
+          "cas_cell": "U34",
+          "cas_raw": "103-67-3",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB34": 0
+          },
+          "condition_cells": {
+            "B34": 0.025,
+            "C34": "Ag13",
+            "G34": "PPh3",
+            "J34": "NaH",
+            "M34": "DCE",
+            "O34": 16,
+            "P34": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-012",
+      "route": "NH",
+      "canonical_smiles": "CNCc1cnn(C)c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 35,
+          "experiment_id": "CFC124009-19-2-PL45-W34",
+          "donor_cell": "V35",
+          "donor_raw": "CN1N=CC(CNC)=C1",
+          "cas_cell": "U35",
+          "cas_raw": "179873-43-9",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB35": 0
+          },
+          "condition_cells": {
+            "B35": 0.025,
+            "C35": "Ag13",
+            "G35": "PPh3",
+            "J35": "NaH",
+            "M35": "DCE",
+            "O35": 16,
+            "P35": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-013",
+      "route": "NH",
+      "canonical_smiles": "CNc1ccncc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 19,
+          "experiment_id": "CFC124009-19-2-PL45-W18",
+          "donor_cell": "V19",
+          "donor_raw": "CNC1=CC=NC=C1",
+          "cas_cell": "U19",
+          "cas_raw": "1121-58-0",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB19": 0
+          },
+          "condition_cells": {
+            "B19": 0.025,
+            "C19": "Ag13",
+            "G19": "PPh3",
+            "J19": "NaH",
+            "M19": "DCE",
+            "O19": 16,
+            "P19": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-014",
+      "route": "NH",
+      "canonical_smiles": "COc1ccc2c(c1)[nH]c1ccccc12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 11,
+          "experiment_id": "CFC124009-19-2-PL45-W10",
+          "donor_cell": "V11",
+          "donor_raw": "COC1=CC2=C(C=C1)C1=C(N2)C=CC=C1",
+          "cas_cell": "U11",
+          "cas_raw": "6933-49-9",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB11": 0
+          },
+          "condition_cells": {
+            "B11": 0.025,
+            "C11": "Ag13",
+            "G11": "PPh3",
+            "J11": "NaH",
+            "M11": "DCE",
+            "O11": 16,
+            "P11": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-015",
+      "route": "NH",
+      "canonical_smiles": "COc1cccc2[nH]ccc12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 29,
+          "experiment_id": "CFC124009-19-2-PL45-W28",
+          "donor_cell": "V29",
+          "donor_raw": "COC1=CC=CC2=C1C=CN2",
+          "cas_cell": "U29",
+          "cas_raw": "4837-90-5",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB29": 0
+          },
+          "condition_cells": {
+            "B29": 0.025,
+            "C29": "Ag13",
+            "G29": "PPh3",
+            "J29": "NaH",
+            "M29": "DCE",
+            "O29": 16,
+            "P29": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-016",
+      "route": "NH",
+      "canonical_smiles": "Cc1cc2ccccc2[nH]1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 20,
+          "experiment_id": "CFC124009-19-2-PL45-W19",
+          "donor_cell": "V20",
+          "donor_raw": "CC1=CC2=C(C=CC=C2)N1",
+          "cas_cell": "U20",
+          "cas_raw": "95-20-5",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB20": 0
+          },
+          "condition_cells": {
+            "B20": 0.025,
+            "C20": "Ag13",
+            "G20": "PPh3",
+            "J20": "NaH",
+            "M20": "DCE",
+            "O20": 16,
+            "P20": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-017",
+      "route": "NH",
+      "canonical_smiles": "Cc1ccc2[nH]c3ccc(C)cc3c2c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 9,
+          "experiment_id": "CFC124009-19-2-PL45-W8",
+          "donor_cell": "V9",
+          "donor_raw": "CC1=CC=C2NC3=C(C=C(C)C=C3)C2=C1",
+          "cas_cell": "U9",
+          "cas_raw": "5599-50-8",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB9": 0
+          },
+          "condition_cells": {
+            "B9": 0.025,
+            "C9": "Ag13",
+            "G9": "PPh3",
+            "J9": "NaH",
+            "M9": "DCE",
+            "O9": 16,
+            "P9": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-018",
+      "route": "NH",
+      "canonical_smiles": "Cc1ccc2c(c1)CCCN2",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 30,
+          "experiment_id": "CFC124009-19-2-PL45-W29",
+          "donor_cell": "V30",
+          "donor_raw": "CC1=CC=C2NCCCC2=C1",
+          "cas_cell": "U30",
+          "cas_raw": "91-61-2",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB30": 1.49532710280374
+          },
+          "condition_cells": {
+            "B30": 0.025,
+            "C30": "Ag13",
+            "G30": "PPh3",
+            "J30": "NaH",
+            "M30": "DCE",
+            "O30": 16,
+            "P30": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-019",
+      "route": "NH",
+      "canonical_smiles": "Cc1cccc2cc[nH]c12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 21,
+          "experiment_id": "CFC124009-19-2-PL45-W20",
+          "donor_cell": "V21",
+          "donor_raw": "CC1=C2NC=CC2=CC=C1",
+          "cas_cell": "U21",
+          "cas_raw": "933-67-5",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB21": 0
+          },
+          "condition_cells": {
+            "B21": 0.025,
+            "C21": "Ag13",
+            "G21": "PPh3",
+            "J21": "NaH",
+            "M21": "DCE",
+            "O21": 16,
+            "P21": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-020",
+      "route": "NH",
+      "canonical_smiles": "Fc1ccc2[nH]ccc2c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 24,
+          "experiment_id": "CFC124009-19-2-PL45-W23",
+          "donor_cell": "V24",
+          "donor_raw": "FC1=CC2=C(C=C1)NC=C2",
+          "cas_cell": "U24",
+          "cas_raw": "399-52-0",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB24": 0
+          },
+          "condition_cells": {
+            "B24": 0.025,
+            "C24": "Ag13",
+            "G24": "PPh3",
+            "J24": "NaH",
+            "M24": "DCE",
+            "O24": 16,
+            "P24": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-021",
+      "route": "NH",
+      "canonical_smiles": "Ic1ccc2[nH]c3ccccc3c2c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 14,
+          "experiment_id": "CFC124009-19-2-PL45-W13",
+          "donor_cell": "V14",
+          "donor_raw": "IC1=CC2=C(C=C1)NC3=C2C=CC=C3",
+          "cas_cell": "U14",
+          "cas_raw": "16807-13-9",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB14": 0
+          },
+          "condition_cells": {
+            "B14": 0.025,
+            "C14": "Ag13",
+            "G14": "PPh3",
+            "J14": "NaH",
+            "M14": "DCE",
+            "O14": 16,
+            "P14": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-022",
+      "route": "NH",
+      "canonical_smiles": "N#Cc1ccc2cc[nH]c2c1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 27,
+          "experiment_id": "CFC124009-19-2-PL45-W26",
+          "donor_cell": "V27",
+          "donor_raw": "N#CC1=CC2=C(C=C1)C=CN2",
+          "cas_cell": "U27",
+          "cas_raw": "15861-36-6",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB27": 0.147679324894515
+          },
+          "condition_cells": {
+            "B27": 0.025,
+            "C27": "Ag13",
+            "G27": "PPh3",
+            "J27": "NaH",
+            "M27": "DCE",
+            "O27": 16,
+            "P27": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-023",
+      "route": "NH",
+      "canonical_smiles": "N#Cc1cccc2[nH]ccc12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 28,
+          "experiment_id": "CFC124009-19-2-PL45-W27",
+          "donor_cell": "V28",
+          "donor_raw": "N#CC1=CC=CC2=C1C=CN2",
+          "cas_cell": "U28",
+          "cas_raw": "16136-52-0",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB28": 0
+          },
+          "condition_cells": {
+            "B28": 0.025,
+            "C28": "Ag13",
+            "G28": "PPh3",
+            "J28": "NaH",
+            "M28": "DCE",
+            "O28": 16,
+            "P28": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-024",
+      "route": "NH",
+      "canonical_smiles": "O=C(O)c1ccc2[nH]cnc2c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 4,
+          "experiment_id": "CFC124009-19-2-PL45-W3",
+          "donor_cell": "V4",
+          "donor_raw": "O=C(C1=CC=C2NC=NC2=C1)O",
+          "cas_cell": "U4",
+          "cas_raw": "15788-16-6",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB4": 0
+          },
+          "condition_cells": {
+            "B4": 0.025,
+            "C4": "Ag13",
+            "G4": "PPh3",
+            "J4": "NaH",
+            "M4": "DCE",
+            "O4": 16,
+            "P4": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-025",
+      "route": "NH",
+      "canonical_smiles": "O=C1Cc2ccccc2N1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 22,
+          "experiment_id": "CFC124009-19-2-PL45-W21",
+          "donor_cell": "V22",
+          "donor_raw": "O=C1NC2=C(C1)C=CC=C2",
+          "cas_cell": "U22",
+          "cas_raw": "59-48-3",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB22": 0
+          },
+          "condition_cells": {
+            "B22": 0.025,
+            "C22": "Ag13",
+            "G22": "PPh3",
+            "J22": "NaH",
+            "M22": "DCE",
+            "O22": 16,
+            "P22": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-026",
+      "route": "NH",
+      "canonical_smiles": "O=C1NC(=O)C2CCC=CC12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 31,
+          "experiment_id": "CFC124009-19-2-PL45-W30",
+          "donor_cell": "V31",
+          "donor_raw": "O=C(C1C2CCC=C1)NC2=O",
+          "cas_cell": "U31",
+          "cas_raw": "85-40-5",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB31": 0
+          },
+          "condition_cells": {
+            "B31": 0.025,
+            "C31": "Ag13",
+            "G31": "PPh3",
+            "J31": "NaH",
+            "M31": "DCE",
+            "O31": 16,
+            "P31": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-027",
+      "route": "NH",
+      "canonical_smiles": "O=C1Nc2ccc(F)cc2C1=O",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 3,
+          "experiment_id": "CFC124009-19-2-PL45-W2",
+          "donor_cell": "V3",
+          "donor_raw": "FC1=CC2=C(C=C1)NC(C2=O)=O",
+          "cas_cell": "U3",
+          "cas_raw": "443-69-6",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB3": 0.106741573033708
+          },
+          "condition_cells": {
+            "B3": 0.025,
+            "C3": "Ag13",
+            "G3": "PPh3",
+            "J3": "NaH",
+            "M3": "DCE",
+            "O3": 16,
+            "P3": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-028",
+      "route": "NH",
+      "canonical_smiles": "Oc1cnc2[nH]ccc2c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 23,
+          "experiment_id": "CFC124009-19-2-PL45-W22",
+          "donor_cell": "V23",
+          "donor_raw": "OC1=CN=C(NC=C2)C2=C1",
+          "cas_cell": "U23",
+          "cas_raw": "98549-88-3",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB23": 0
+          },
+          "condition_cells": {
+            "B23": 0.025,
+            "C23": "Ag13",
+            "G23": "PPh3",
+            "J23": "NaH",
+            "M23": "DCE",
+            "O23": 16,
+            "P23": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-029",
+      "route": "NH",
+      "canonical_smiles": "c1cc(N2CCNCC2)ccn1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 6,
+          "experiment_id": "CFC124009-19-2-PL45-W5",
+          "donor_cell": "V6",
+          "donor_raw": "C1CN(CCN1)C1=CC=NC=C1",
+          "cas_cell": "U6",
+          "cas_raw": "1008-91-9",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB6": 0
+          },
+          "condition_cells": {
+            "B6": 0.025,
+            "C6": "Ag13",
+            "G6": "PPh3",
+            "J6": "NaH",
+            "M6": "DCE",
+            "O6": 16,
+            "P6": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-030",
+      "route": "NH",
+      "canonical_smiles": "c1ccc(C2CCNCC2)cc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 2,
+          "experiment_id": "CFC124009-19-2-PL45-W1",
+          "donor_cell": "V2",
+          "donor_raw": "C1(C2CCNCC2)=CC=CC=C1",
+          "cas_cell": "U2",
+          "cas_raw": "771-99-3",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB2": 0
+          },
+          "condition_cells": {
+            "B2": 0.025,
+            "C2": "Ag13",
+            "G2": "PPh3",
+            "J2": "NaH",
+            "M2": "DCE",
+            "O2": 16,
+            "P2": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-031",
+      "route": "NH",
+      "canonical_smiles": "c1ccc(CNc2ccccc2)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 16,
+          "experiment_id": "CFC124009-19-2-PL45-W15",
+          "donor_cell": "V16",
+          "donor_raw": "C1(CNC2=CC=CC=C2)=CC=CC=C1",
+          "cas_cell": "U16",
+          "cas_raw": "103-32-2",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB16": 0.421940928270042
+          },
+          "condition_cells": {
+            "B16": 0.025,
+            "C16": "Ag13",
+            "G16": "PPh3",
+            "J16": "NaH",
+            "M16": "DCE",
+            "O16": 16,
+            "P16": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-032",
+      "route": "NH",
+      "canonical_smiles": "c1ccc(COc2ccc3[nH]ccc3c2)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 13,
+          "experiment_id": "CFC124009-19-2-PL45-W12",
+          "donor_cell": "V13",
+          "donor_raw": "C12=C(NC=C2)C=CC(OCC3=CC=CC=C3)=C1",
+          "cas_cell": "U13",
+          "cas_raw": "1215-59-4",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB13": 0.305
+          },
+          "condition_cells": {
+            "B13": 0.025,
+            "C13": "Ag13",
+            "G13": "PPh3",
+            "J13": "NaH",
+            "M13": "DCE",
+            "O13": 16,
+            "P13": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-033",
+      "route": "NH",
+      "canonical_smiles": "c1ccc(N2CCNCC2)cc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 38,
+          "experiment_id": "CFC124009-19-2-PL45-W37",
+          "donor_cell": "V38",
+          "donor_raw": "C1CN(CCN1)C1=CC=CC=C1",
+          "cas_cell": "U38",
+          "cas_raw": "92-54-6",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB38": 0
+          },
+          "condition_cells": {
+            "B38": 0.025,
+            "C38": "Ag13",
+            "G38": "PPh3",
+            "J38": "NaH",
+            "M38": "DCE",
+            "O38": 16,
+            "P38": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-034",
+      "route": "NH",
+      "canonical_smiles": "c1ccc(Nc2ccccc2)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 5,
+          "experiment_id": "CFC124009-19-2-PL45-W4",
+          "donor_cell": "V5",
+          "donor_raw": "C1(NC2=CC=CC=C2)=CC=CC=C1",
+          "cas_cell": "U5",
+          "cas_raw": "122-39-4",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB5": 0.569620253164557
+          },
+          "condition_cells": {
+            "B5": 0.025,
+            "C5": "Ag13",
+            "G5": "PPh3",
+            "J5": "NaH",
+            "M5": "DCE",
+            "O5": 16,
+            "P5": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-035",
+      "route": "NH",
+      "canonical_smiles": "c1ccc2c(c1)CCN2",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 33,
+          "experiment_id": "CFC124009-19-2-PL45-W32",
+          "donor_cell": "V33",
+          "donor_raw": "C12=C(NCC2)C=CC=C1",
+          "cas_cell": "U33",
+          "cas_raw": "496-15-1",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB33": 0.662650602409639
+          },
+          "condition_cells": {
+            "B33": 0.025,
+            "C33": "Ag13",
+            "G33": "PPh3",
+            "J33": "NaH",
+            "M33": "DCE",
+            "O33": 16,
+            "P33": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-036",
+      "route": "NH",
+      "canonical_smiles": "c1ccc2c(c1)Nc1ccccc1S2",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 7,
+          "experiment_id": "CFC124009-19-2-PL45-W6",
+          "donor_cell": "V7",
+          "donor_raw": "C12=CC=CC=C1NC3=C(S2)C=CC=C3",
+          "cas_cell": "U7",
+          "cas_raw": "92-84-2",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB7": 0.184027777777778
+          },
+          "condition_cells": {
+            "B7": 0.025,
+            "C7": "Ag13",
+            "G7": "PPh3",
+            "J7": "NaH",
+            "M7": "DCE",
+            "O7": 16,
+            "P7": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-037",
+      "route": "NH",
+      "canonical_smiles": "c1ccc2c(c1)ccc1c3ccccc3[nH]c21",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 12,
+          "experiment_id": "CFC124009-19-2-PL45-W11",
+          "donor_cell": "V12",
+          "donor_raw": "N1C2=C(C=CC=C2)C2=CC=C3C=CC=CC3=C12",
+          "cas_cell": "U12",
+          "cas_raw": "239-01-0",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB12": 0
+          },
+          "condition_cells": {
+            "B12": 0.025,
+            "C12": "Ag13",
+            "G12": "PPh3",
+            "J12": "NaH",
+            "M12": "DCE",
+            "O12": 16,
+            "P12": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-038",
+      "route": "NH",
+      "canonical_smiles": "c1ccc2c3c([nH]c2c1)CCCC3",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "NH-底物扩展",
+          "row": 8,
+          "experiment_id": "CFC124009-19-2-PL45-W7",
+          "donor_cell": "V8",
+          "donor_raw": "C1CCC2=C(C1)C3=CC=CC=C3N2",
+          "cas_cell": "U8",
+          "cas_raw": "942-01-8",
+          "electrophile_smiles": "Cc1ccc(C(=O)CC(F)(F)F)cc1",
+          "uv_cells": {
+            "AB8": 0
+          },
+          "condition_cells": {
+            "B8": 0.025,
+            "C8": "Ag13",
+            "G8": "PPh3",
+            "J8": "NaH",
+            "M8": "DCE",
+            "O8": 16,
+            "P8": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-039",
+      "route": "OH",
+      "canonical_smiles": "C#CC(O)c1ccccc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 33,
+          "experiment_id": "CFC124009-19-1-PL46-W35",
+          "donor_cell": "X33",
+          "donor_raw": "C#CC(O)C1=CC=CC=C1",
+          "cas_cell": "W33",
+          "cas_raw": "4187-87-5",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD33": 0
+          },
+          "condition_cells": {
+            "B33": 0.025,
+            "C33": "Ni203",
+            "L33": "DIPEA",
+            "O33": "DCE",
+            "Q33": 16,
+            "R33": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-040",
+      "route": "OH",
+      "canonical_smiles": "CC(C)(C)c1ccc(O)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 27,
+          "experiment_id": "CFC124009-19-1-PL46-W28",
+          "donor_cell": "X27",
+          "donor_raw": "OC1=CC=C(C=C1)C(C)(C)C",
+          "cas_cell": "W27",
+          "cas_raw": "98-54-4",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD27": 1.16696588868941
+          },
+          "condition_cells": {
+            "B27": 0.025,
+            "C27": "Ni203",
+            "L27": "DIPEA",
+            "O27": "DCE",
+            "Q27": 16,
+            "R27": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-041",
+      "route": "OH",
+      "canonical_smiles": "CC(C)(O)C(=O)c1ccccc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 34,
+          "experiment_id": "CFC124009-19-1-PL46-W36",
+          "donor_cell": "X34",
+          "donor_raw": "CC(C)(O)C(C1=CC=CC=C1)=O",
+          "cas_cell": "W34",
+          "cas_raw": "7473-98-5",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD34": 0
+          },
+          "condition_cells": {
+            "B34": 0.025,
+            "C34": "Ni203",
+            "L34": "DIPEA",
+            "O34": "DCE",
+            "Q34": 16,
+            "R34": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-042",
+      "route": "OH",
+      "canonical_smiles": "CC(O)c1ccc2ccccc2c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 12,
+          "experiment_id": "CFC124009-19-1-PL46-W12",
+          "donor_cell": "X12",
+          "donor_raw": "CC(O)C1=CC=C2C=CC=CC2=C1",
+          "cas_cell": "W12",
+          "cas_raw": "7228-47-9",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD12": 0
+          },
+          "condition_cells": {
+            "B12": 0.025,
+            "C12": "Ni203",
+            "L12": "DIPEA",
+            "O12": "DCE",
+            "Q12": 16,
+            "R12": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-043",
+      "route": "OH",
+      "canonical_smiles": "CCCCCO",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 38,
+          "experiment_id": "CFC124009-19-1-PL46-W40",
+          "donor_cell": "X38",
+          "donor_raw": "CCCCCO",
+          "cas_cell": "W38",
+          "cas_raw": "71-41-0",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD38": 0
+          },
+          "condition_cells": {
+            "B38": 0.025,
+            "C38": "Ni203",
+            "L38": "DIPEA",
+            "O38": "DCE",
+            "Q38": 16,
+            "R38": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-044",
+      "route": "OH",
+      "canonical_smiles": "CN1CCC(O)C1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 37,
+          "experiment_id": "CFC124009-19-1-PL46-W39",
+          "donor_cell": "X37",
+          "donor_raw": "OC1CN(CC1)C",
+          "cas_cell": "W37",
+          "cas_raw": "13220-33-2",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD37": 0
+          },
+          "condition_cells": {
+            "B37": 0.025,
+            "C37": "Ni203",
+            "L37": "DIPEA",
+            "O37": "DCE",
+            "Q37": 16,
+            "R37": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-045",
+      "route": "OH",
+      "canonical_smiles": "COC(=O)c1cnc(O)cn1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 6,
+          "experiment_id": "CFC124009-19-1-PL46-W6",
+          "donor_cell": "X6",
+          "donor_raw": "O=C(C1=NC=C(O)N=C1)OC",
+          "cas_cell": "W6",
+          "cas_raw": "13924-95-3",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD6": 0
+          },
+          "condition_cells": {
+            "B6": 0.025,
+            "C6": "Ni203",
+            "L6": "DIPEA",
+            "O6": "DCE",
+            "Q6": 16,
+            "R6": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-046",
+      "route": "OH",
+      "canonical_smiles": "COc1cc(O)cc(OC)c1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 21,
+          "experiment_id": "CFC124009-19-1-PL46-W22",
+          "donor_cell": "X21",
+          "donor_raw": "OC1=CC(OC)=CC(OC)=C1",
+          "cas_cell": "W21",
+          "cas_raw": "500-99-2",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD21": 1.16161616161616
+          },
+          "condition_cells": {
+            "B21": 0.025,
+            "C21": "Ni203",
+            "L21": "DIPEA",
+            "O21": "DCE",
+            "Q21": 16,
+            "R21": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-047",
+      "route": "OH",
+      "canonical_smiles": "COc1ccc(C(=O)O)cc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 28,
+          "experiment_id": "CFC124009-19-1-PL46-W29",
+          "donor_cell": "X28",
+          "donor_raw": "COC1=CC=C(C=C1)C(O)=O",
+          "cas_cell": "W28",
+          "cas_raw": "100-09-4",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD28": 0
+          },
+          "condition_cells": {
+            "B28": 0.025,
+            "C28": "Ni203",
+            "L28": "DIPEA",
+            "O28": "DCE",
+            "Q28": 16,
+            "R28": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-048",
+      "route": "OH",
+      "canonical_smiles": "COc1ccc(CCO)cc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 35,
+          "experiment_id": "CFC124009-19-1-PL46-W37",
+          "donor_cell": "X35",
+          "donor_raw": "COC1=CC=C(CCO)C=C1",
+          "cas_cell": "W35",
+          "cas_raw": "702-23-8",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD35": 0
+          },
+          "condition_cells": {
+            "B35": 0.025,
+            "C35": "Ni203",
+            "L35": "DIPEA",
+            "O35": "DCE",
+            "Q35": 16,
+            "R35": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-049",
+      "route": "OH",
+      "canonical_smiles": "Cc1ccc(O)nc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 16,
+          "experiment_id": "CFC124009-19-1-PL46-W17",
+          "donor_cell": "X16",
+          "donor_raw": "OC1=NC=C(C)C=C1",
+          "cas_cell": "W16",
+          "cas_raw": "91914-06-6",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD16": 1.49476831091181
+          },
+          "condition_cells": {
+            "B16": 0.025,
+            "C16": "Ni203",
+            "L16": "DIPEA",
+            "O16": "DCE",
+            "Q16": 16,
+            "R16": 60
+          }
+        },
+        {
+          "sheet": "OH-底物扩展",
+          "row": 23,
+          "experiment_id": "CFC124009-19-1-PL46-W24",
+          "donor_cell": "X23",
+          "donor_raw": "CC1=CN=C(C=C1)O",
+          "cas_cell": "W23",
+          "cas_raw": "1003-68-5",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD23": 1.55038759689922
+          },
+          "condition_cells": {
+            "B23": 0.025,
+            "C23": "Ni203",
+            "L23": "DIPEA",
+            "O23": "DCE",
+            "Q23": 16,
+            "R23": 60
+          }
+        }
+      ],
+      "identity_note": "Source rows encode the same canonical donor SMILES under different CAS labels; structure-based deduplication retains one donor and preserves both observations."
+    },
+    {
+      "analysis_donor_id": "RP94-050",
+      "route": "OH",
+      "canonical_smiles": "Cc1ccc2cccc(O)c2n1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 15,
+          "experiment_id": "CFC124009-19-1-PL46-W16",
+          "donor_cell": "X15",
+          "donor_raw": "CC1=NC2=C(C=CC=C2C=C1)O",
+          "cas_cell": "W15",
+          "cas_raw": "826-81-3",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD15": 0
+          },
+          "condition_cells": {
+            "B15": 0.025,
+            "C15": "Ni203",
+            "L15": "DIPEA",
+            "O15": "DCE",
+            "Q15": 16,
+            "R15": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-051",
+      "route": "OH",
+      "canonical_smiles": "Cc1cccc(C)c1O",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 11,
+          "experiment_id": "CFC124009-19-1-PL46-W11",
+          "donor_cell": "X11",
+          "donor_raw": "OC1=C(C=CC=C1C)C",
+          "cas_cell": "W11",
+          "cas_raw": "576-26-1",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD11": 0.55956678700361
+          },
+          "condition_cells": {
+            "B11": 0.025,
+            "C11": "Ni203",
+            "L11": "DIPEA",
+            "O11": "DCE",
+            "Q11": 16,
+            "R11": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-052",
+      "route": "OH",
+      "canonical_smiles": "N#Cc1ccc(O)cc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 17,
+          "experiment_id": "CFC124009-19-1-PL46-W18",
+          "donor_cell": "X17",
+          "donor_raw": "OC1=CC=C(C=C1)C#N",
+          "cas_cell": "W17",
+          "cas_raw": "767-00-0",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD17": 0
+          },
+          "condition_cells": {
+            "B17": 0.025,
+            "C17": "Ni203",
+            "L17": "DIPEA",
+            "O17": "DCE",
+            "Q17": 16,
+            "R17": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-053",
+      "route": "OH",
+      "canonical_smiles": "O=C(O)c1cc(O)cc(C(=O)O)n1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 22,
+          "experiment_id": "CFC124009-19-1-PL46-W23",
+          "donor_cell": "X22",
+          "donor_raw": "O=C(C1=NC(C(O)=O)=CC(O)=C1)O",
+          "cas_cell": "W22",
+          "cas_raw": "499-51-4",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD22": 0
+          },
+          "condition_cells": {
+            "B22": 0.025,
+            "C22": "Ni203",
+            "L22": "DIPEA",
+            "O22": "DCE",
+            "Q22": 16,
+            "R22": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-054",
+      "route": "OH",
+      "canonical_smiles": "O=Cc1c(O)ccc2ccccc12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 18,
+          "experiment_id": "CFC124009-19-1-PL46-W19",
+          "donor_cell": "X18",
+          "donor_raw": "O=CC1=C2C=CC=CC2=CC=C1O",
+          "cas_cell": "W18",
+          "cas_raw": "708-06-5",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD18": 0
+          },
+          "condition_cells": {
+            "B18": 0.025,
+            "C18": "Ni203",
+            "L18": "DIPEA",
+            "O18": "DCE",
+            "Q18": 16,
+            "R18": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-055",
+      "route": "OH",
+      "canonical_smiles": "O=Cc1cc(CO)ccc1O",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 9,
+          "experiment_id": "CFC124009-19-1-PL46-W9",
+          "donor_cell": "X9",
+          "donor_raw": "O=CC1=CC(CO)=CC=C1O",
+          "cas_cell": "W9",
+          "cas_raw": "74901-08-9",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD9": 0
+          },
+          "condition_cells": {
+            "B9": 0.025,
+            "C9": "Ni203",
+            "L9": "DIPEA",
+            "O9": "DCE",
+            "Q9": 16,
+            "R9": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-056",
+      "route": "OH",
+      "canonical_smiles": "O=[N+]([O-])c1c(O)ccc2ccccc12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 5,
+          "experiment_id": "CFC124009-19-1-PL46-W5",
+          "donor_cell": "X5",
+          "donor_raw": "OC1=CC=C2C=CC=CC2=C1[N+]([O-])=O",
+          "cas_cell": "W5",
+          "cas_raw": "550-60-7",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD5": 0
+          },
+          "condition_cells": {
+            "B5": 0.025,
+            "C5": "Ni203",
+            "L5": "DIPEA",
+            "O5": "DCE",
+            "Q5": 16,
+            "R5": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-057",
+      "route": "OH",
+      "canonical_smiles": "O=c1cc(O)c2ccccc2o1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 3,
+          "experiment_id": "CFC124009-19-1-PL46-W2",
+          "donor_cell": "X3",
+          "donor_raw": "OC(C1=C(C=CC=C1)O2)=CC2=O",
+          "cas_cell": "W3",
+          "cas_raw": "1076-38-6",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD3": 0.183908045977011
+          },
+          "condition_cells": {
+            "B3": 0.025,
+            "C3": "Ni203",
+            "L3": "DIPEA",
+            "O3": "DCE",
+            "Q3": 16,
+            "R3": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-058",
+      "route": "OH",
+      "canonical_smiles": "OC(c1ccccc1)c1ccccc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 13,
+          "experiment_id": "CFC124009-19-1-PL46-W13",
+          "donor_cell": "X13",
+          "donor_raw": "OC(C1=CC=CC=C1)C1=CC=CC=C1",
+          "cas_cell": "W13",
+          "cas_raw": "91-01-0",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD13": 0
+          },
+          "condition_cells": {
+            "B13": 0.025,
+            "C13": "Ni203",
+            "L13": "DIPEA",
+            "O13": "DCE",
+            "Q13": 16,
+            "R13": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-059",
+      "route": "OH",
+      "canonical_smiles": "OC/C=C/c1cccc(OCc2ccccc2)c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 31,
+          "experiment_id": "CFC124009-19-1-PL46-W32",
+          "donor_cell": "X31",
+          "donor_raw": "OC\\C=C\\C1=CC(OCC2=CC=CC=C2)=CC=C1",
+          "cas_cell": "W31",
+          "cas_raw": "155697-42-0",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD31": 0
+          },
+          "condition_cells": {
+            "B31": 0.025,
+            "C31": "Ni203",
+            "L31": "DIPEA",
+            "O31": "DCE",
+            "Q31": 16,
+            "R31": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-060",
+      "route": "OH",
+      "canonical_smiles": "OC1CCc2ccccc21",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 19,
+          "experiment_id": "CFC124009-19-1-PL46-W20",
+          "donor_cell": "X19",
+          "donor_raw": "OC1CCC2=C1C=CC=C2",
+          "cas_cell": "W19",
+          "cas_raw": "‘6351-10-6",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD19": 0
+          },
+          "condition_cells": {
+            "B19": 0.025,
+            "C19": "Ni203",
+            "L19": "DIPEA",
+            "O19": "DCE",
+            "Q19": 16,
+            "R19": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-061",
+      "route": "OH",
+      "canonical_smiles": "OC1c2ccccc2Oc2ccccc21",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 29,
+          "experiment_id": "CFC124009-19-1-PL46-W30",
+          "donor_cell": "X29",
+          "donor_raw": "OC1C2=C(OC3=C1C=CC=C3)C=CC=C2",
+          "cas_cell": "W29",
+          "cas_raw": "90-46-0",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD29": 0
+          },
+          "condition_cells": {
+            "B29": 0.025,
+            "C29": "Ni203",
+            "L29": "DIPEA",
+            "O29": "DCE",
+            "Q29": 16,
+            "R29": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-062",
+      "route": "OH",
+      "canonical_smiles": "OCC1c2ccccc2-c2ccccc21",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 20,
+          "experiment_id": "CFC124009-19-1-PL46-W21",
+          "donor_cell": "X20",
+          "donor_raw": "OCC1C2=C(C3=C1C=CC=C3)C=CC=C2",
+          "cas_cell": "W20",
+          "cas_raw": "24324-17-2",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD20": 0
+          },
+          "condition_cells": {
+            "B20": 0.025,
+            "C20": "Ni203",
+            "L20": "DIPEA",
+            "O20": "DCE",
+            "Q20": 16,
+            "R20": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-063",
+      "route": "OH",
+      "canonical_smiles": "OCc1cccc2ccccc12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 7,
+          "experiment_id": "CFC124009-19-1-PL46-W7",
+          "donor_cell": "X7",
+          "donor_raw": "OCC1=C2C=CC=CC2=CC=C1",
+          "cas_cell": "W7",
+          "cas_raw": "4780-79-4",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD7": 0
+          },
+          "condition_cells": {
+            "B7": 0.025,
+            "C7": "Ni203",
+            "L7": "DIPEA",
+            "O7": "DCE",
+            "Q7": 16,
+            "R7": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-064",
+      "route": "OH",
+      "canonical_smiles": "OCc1ccccc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 36,
+          "experiment_id": "CFC124009-19-1-PL46-W38",
+          "donor_cell": "X36",
+          "donor_raw": "OCC1=CC=CC=C1",
+          "cas_cell": "W36",
+          "cas_raw": "100-51-6",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD36": 0
+          },
+          "condition_cells": {
+            "B36": 0.025,
+            "C36": "Ni203",
+            "L36": "DIPEA",
+            "O36": "DCE",
+            "Q36": 16,
+            "R36": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-065",
+      "route": "OH",
+      "canonical_smiles": "OCc1cccnc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 32,
+          "experiment_id": "CFC124009-19-1-PL46-W34",
+          "donor_cell": "X32",
+          "donor_raw": "OCC1=CC=CN=C1",
+          "cas_cell": "W32",
+          "cas_raw": "100-55-0",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD32": 0
+          },
+          "condition_cells": {
+            "B32": 0.025,
+            "C32": "Ni203",
+            "L32": "DIPEA",
+            "O32": "DCE",
+            "Q32": 16,
+            "R32": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-066",
+      "route": "OH",
+      "canonical_smiles": "Oc1ccc(-c2ccccc2)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 25,
+          "experiment_id": "CFC124009-19-1-PL46-W26",
+          "donor_cell": "X25",
+          "donor_raw": "OC1=CC=C(C2=CC=CC=C2)C=C1",
+          "cas_cell": "W25",
+          "cas_raw": "92-69-3",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD25": 2.00927357032457
+          },
+          "condition_cells": {
+            "B25": 0.025,
+            "C25": "Ni203",
+            "L25": "DIPEA",
+            "O25": "DCE",
+            "Q25": 16,
+            "R25": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-067",
+      "route": "OH",
+      "canonical_smiles": "Oc1ccc(Br)c2ccccc12",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 30,
+          "experiment_id": "CFC124009-19-1-PL46-W31",
+          "donor_cell": "X30",
+          "donor_raw": "OC1=CC=C(C2=C1C=CC=C2)Br",
+          "cas_cell": "W30",
+          "cas_raw": "571-57-3",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD30": 0.121661721068249
+          },
+          "condition_cells": {
+            "B30": 0.025,
+            "C30": "Ni203",
+            "L30": "DIPEA",
+            "O30": "DCE",
+            "Q30": 16,
+            "R30": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-068",
+      "route": "OH",
+      "canonical_smiles": "Oc1ccc(Br)nc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 4,
+          "experiment_id": "CFC124009-19-1-PL46-W3",
+          "donor_cell": "X4",
+          "donor_raw": "OC1=CC=C(N=C1)Br",
+          "cas_cell": "W4",
+          "cas_raw": "55717-45-8",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD4": 0
+          },
+          "condition_cells": {
+            "B4": 0.025,
+            "C4": "Ni203",
+            "L4": "DIPEA",
+            "O4": "DCE",
+            "Q4": 16,
+            "R4": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-069",
+      "route": "OH",
+      "canonical_smiles": "Oc1ccc2ncccc2c1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 10,
+          "experiment_id": "CFC124009-19-1-PL46-W10",
+          "donor_cell": "X10",
+          "donor_raw": "OC1=CC=C2N=CC=CC2=C1",
+          "cas_cell": "W10",
+          "cas_raw": "580-16-5",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD10": 0.498281786941581
+          },
+          "condition_cells": {
+            "B10": 0.025,
+            "C10": "Ni203",
+            "L10": "DIPEA",
+            "O10": "DCE",
+            "Q10": 16,
+            "R10": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-070",
+      "route": "OH",
+      "canonical_smiles": "Oc1cccc2cccnc12",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 8,
+          "experiment_id": "CFC124009-19-1-PL46-W8",
+          "donor_cell": "X8",
+          "donor_raw": "OC1=C2N=CC=CC2=CC=C1",
+          "cas_cell": "W8",
+          "cas_raw": "148-24-3",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD8": 0
+          },
+          "condition_cells": {
+            "B8": 0.025,
+            "C8": "Ni203",
+            "L8": "DIPEA",
+            "O8": "DCE",
+            "Q8": 16,
+            "R8": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-071",
+      "route": "OH",
+      "canonical_smiles": "Oc1ccccc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 14,
+          "experiment_id": "CFC124009-19-1-PL46-W15",
+          "donor_cell": "X14",
+          "donor_raw": "OC1=CC=CC=C1",
+          "cas_cell": "W14",
+          "cas_raw": "108-95-2",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD14": 0.396600566572238
+          },
+          "condition_cells": {
+            "B14": 0.025,
+            "C14": "Ni203",
+            "L14": "DIPEA",
+            "O14": "DCE",
+            "Q14": 16,
+            "R14": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-072",
+      "route": "OH",
+      "canonical_smiles": "Oc1ccccc1-c1ccccc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 26,
+          "experiment_id": "CFC124009-19-1-PL46-W27",
+          "donor_cell": "X26",
+          "donor_raw": "OC1=CC=CC=C1C2=CC=CC=C2",
+          "cas_cell": "W26",
+          "cas_raw": "90-43-7",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD26": 1.55963302752294
+          },
+          "condition_cells": {
+            "B26": 0.025,
+            "C26": "Ni203",
+            "L26": "DIPEA",
+            "O26": "DCE",
+            "Q26": 16,
+            "R26": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-073",
+      "route": "OH",
+      "canonical_smiles": "Oc1ccnc2[nH]ccc12",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 2,
+          "experiment_id": "CFC124009-19-1-PL46-W1",
+          "donor_cell": "X2",
+          "donor_raw": "OC1=C2C=CNC2=NC=C1",
+          "cas_cell": "W2",
+          "cas_raw": "74420-02-3",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD2": 1.21165644171779
+          },
+          "condition_cells": {
+            "B2": 0.025,
+            "C2": "Ni203",
+            "L2": "DIPEA",
+            "O2": "DCE",
+            "Q2": 16,
+            "R2": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-074",
+      "route": "OH",
+      "canonical_smiles": "Oc1cncc(Cl)c1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "OH-底物扩展",
+          "row": 24,
+          "experiment_id": "CFC124009-19-1-PL46-W25",
+          "donor_cell": "X24",
+          "donor_raw": "OC1=CC(Cl)=CN=C1",
+          "cas_cell": "W24",
+          "cas_raw": "74115-12-1",
+          "electrophile_smiles": "O=C(CC(F)(F)F)c1ccccc1",
+          "uv_cells": {
+            "AD24": 0
+          },
+          "condition_cells": {
+            "B24": 0.025,
+            "C24": "Ni203",
+            "L24": "DIPEA",
+            "O24": "DCE",
+            "Q24": 16,
+            "R24": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-075",
+      "route": "SH",
+      "canonical_smiles": "CC(=O)Nc1ccc(S)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 4,
+          "experiment_id": "CFC124009-19-3-PL43-W3",
+          "donor_cell": "V4",
+          "donor_raw": "SC1=CC=C(NC(C)=O)C=C1",
+          "cas_cell": "U4",
+          "cas_raw": "‘1126-81-4",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC4": 3.35907335907336
+          },
+          "condition_cells": {
+            "B4": 0.025,
+            "C4": "Cu9",
+            "G4": "PPh3",
+            "J4": "CsOH",
+            "M4": "DCE",
+            "O4": 16,
+            "P4": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-076",
+      "route": "SH",
+      "canonical_smiles": "CC(C)(C)c1ccc(S)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 21,
+          "experiment_id": "CFC124009-19-3-PL43-W20",
+          "donor_cell": "V21",
+          "donor_raw": "SC1=CC=C(C(C)(C)C)C=C1",
+          "cas_cell": "U21",
+          "cas_raw": "‘2396-68-1",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC21": 1.06060606060606
+          },
+          "condition_cells": {
+            "B21": 0.025,
+            "C21": "Cu9",
+            "G21": "PPh3",
+            "J21": "CsOH",
+            "M21": "DCE",
+            "O21": 16,
+            "P21": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-077",
+      "route": "SH",
+      "canonical_smiles": "CC(C)(S)CCO",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 9,
+          "experiment_id": "CFC124009-19-3-PL43-W8",
+          "donor_cell": "V9",
+          "donor_raw": "CC(C)(S)CCO",
+          "cas_cell": "U9",
+          "cas_raw": "‘34300-94-2",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC9": 1.05431309904153
+          },
+          "condition_cells": {
+            "B9": 0.025,
+            "C9": "Cu9",
+            "G9": "PPh3",
+            "J9": "CsOH",
+            "M9": "DCE",
+            "O9": 16,
+            "P9": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-078",
+      "route": "SH",
+      "canonical_smiles": "CC1OCCC1S",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 12,
+          "experiment_id": "CFC124009-19-3-PL43-W11",
+          "donor_cell": "V12",
+          "donor_raw": "SC1C(C)OCC1",
+          "cas_cell": "U12",
+          "cas_raw": "‘57124-87-5",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC12": 0.485380116959064,
+            "AD12": 0.543859649122807
+          },
+          "condition_cells": {
+            "B12": 0.025,
+            "C12": "Cu9",
+            "G12": "PPh3",
+            "J12": "CsOH",
+            "M12": "DCE",
+            "O12": 16,
+            "P12": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-079",
+      "route": "SH",
+      "canonical_smiles": "CN(C)C(=O)C1CC(S)CN1C(=O)OCc1ccc([N+](=O)[O-])cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 7,
+          "experiment_id": "CFC124009-19-3-PL43-W6",
+          "donor_cell": "V7",
+          "donor_raw": "CN(C)C(=O)C1CC(CN1C(=O)OCC2=CC=C(C=C2)[N+](=O)[O-])S",
+          "cas_cell": "U7",
+          "cas_raw": "‘96034-64-9",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC7": 1.52777777777778
+          },
+          "condition_cells": {
+            "B7": 0.025,
+            "C7": "Cu9",
+            "G7": "PPh3",
+            "J7": "CsOH",
+            "M7": "DCE",
+            "O7": 16,
+            "P7": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-080",
+      "route": "SH",
+      "canonical_smiles": "COC(=O)CCS",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 14,
+          "experiment_id": "CFC124009-19-3-PL43-W13",
+          "donor_cell": "V14",
+          "donor_raw": "O=C(OC)CCS",
+          "cas_cell": "U14",
+          "cas_raw": "‘2935-90-2",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC14": 0
+          },
+          "condition_cells": {
+            "B14": 0.025,
+            "C14": "Cu9",
+            "G14": "PPh3",
+            "J14": "CsOH",
+            "M14": "DCE",
+            "O14": 16,
+            "P14": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-081",
+      "route": "SH",
+      "canonical_smiles": "COC(=O)c1ccccc1S",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 17,
+          "experiment_id": "CFC124009-19-3-PL43-W16",
+          "donor_cell": "V17",
+          "donor_raw": "COC(=O)C1=CC=CC=C1S",
+          "cas_cell": "U17",
+          "cas_raw": "‘4892-02-8",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC17": 1.01123595505618
+          },
+          "condition_cells": {
+            "B17": 0.025,
+            "C17": "Cu9",
+            "G17": "PPh3",
+            "J17": "CsOH",
+            "M17": "DCE",
+            "O17": 16,
+            "P17": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-082",
+      "route": "SH",
+      "canonical_smiles": "COc1ccc(S)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 10,
+          "experiment_id": "CFC124009-19-3-PL43-W9",
+          "donor_cell": "V10",
+          "donor_raw": "SC1=CC=C(OC)C=C1",
+          "cas_cell": "U10",
+          "cas_raw": "‘696-63-9",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC10": 0.536912751677852
+          },
+          "condition_cells": {
+            "B10": 0.025,
+            "C10": "Cu9",
+            "G10": "PPh3",
+            "J10": "CsOH",
+            "M10": "DCE",
+            "O10": 16,
+            "P10": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-083",
+      "route": "SH",
+      "canonical_smiles": "Cc1ccc(S)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 8,
+          "experiment_id": "CFC124009-19-3-PL43-W7",
+          "donor_cell": "V8",
+          "donor_raw": "CC1=CC=C(S)C=C1",
+          "cas_cell": "U8",
+          "cas_raw": "‘106-45-6",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC8": 0.438247011952191
+          },
+          "condition_cells": {
+            "B8": 0.025,
+            "C8": "Cu9",
+            "G8": "PPh3",
+            "J8": "CsOH",
+            "M8": "DCE",
+            "O8": 16,
+            "P8": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-084",
+      "route": "SH",
+      "canonical_smiles": "Cc1cccc(C)c1S",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 16,
+          "experiment_id": "CFC124009-19-3-PL43-W15",
+          "donor_cell": "V16",
+          "donor_raw": "SC1=C(C)C=CC=C1C",
+          "cas_cell": "U16",
+          "cas_raw": "‘118-72-9",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC16": 1.18012422360248,
+            "AD16": 1.95652173913043
+          },
+          "condition_cells": {
+            "B16": 0.025,
+            "C16": "Cu9",
+            "G16": "PPh3",
+            "J16": "CsOH",
+            "M16": "DCE",
+            "O16": 16,
+            "P16": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-085",
+      "route": "SH",
+      "canonical_smiles": "Cc1ccccc1CS",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 20,
+          "experiment_id": "CFC124009-19-3-PL43-W19",
+          "donor_cell": "V20",
+          "donor_raw": "SCC1=CC=CC=C1C",
+          "cas_cell": "U20",
+          "cas_raw": "‘7341-24-4",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC20": 0
+          },
+          "condition_cells": {
+            "B20": 0.025,
+            "C20": "Cu9",
+            "G20": "PPh3",
+            "J20": "CsOH",
+            "M20": "DCE",
+            "O20": 16,
+            "P20": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-086",
+      "route": "SH",
+      "canonical_smiles": "FC(F)(F)c1ccc(S)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 13,
+          "experiment_id": "CFC124009-19-3-PL43-W12",
+          "donor_cell": "V13",
+          "donor_raw": "SC1=CC=C(C(F)(F)F)C=C1",
+          "cas_cell": "U13",
+          "cas_raw": "‘825-83-2",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC13": 0.636704119850187
+          },
+          "condition_cells": {
+            "B13": 0.025,
+            "C13": "Cu9",
+            "G13": "PPh3",
+            "J13": "CsOH",
+            "M13": "DCE",
+            "O13": 16,
+            "P13": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-087",
+      "route": "SH",
+      "canonical_smiles": "Fc1ccc(CS)cc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 11,
+          "experiment_id": "CFC124009-19-3-PL43-W10",
+          "donor_cell": "V11",
+          "donor_raw": "SCC1=CC=C(F)C=C1",
+          "cas_cell": "U11",
+          "cas_raw": "‘15894-04-9",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC11": 0
+          },
+          "condition_cells": {
+            "B11": 0.025,
+            "C11": "Cu9",
+            "G11": "PPh3",
+            "J11": "CsOH",
+            "M11": "DCE",
+            "O11": 16,
+            "P11": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-088",
+      "route": "SH",
+      "canonical_smiles": "N#CCCS",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 19,
+          "experiment_id": "CFC124009-19-3-PL43-W18",
+          "donor_cell": "V19",
+          "donor_raw": "N#CCCS",
+          "cas_cell": "U19",
+          "cas_raw": "‘1001-58-7",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC19": 0
+          },
+          "condition_cells": {
+            "B19": 0.025,
+            "C19": "Cu9",
+            "G19": "PPh3",
+            "J19": "CsOH",
+            "M19": "DCE",
+            "O19": 16,
+            "P19": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-089",
+      "route": "SH",
+      "canonical_smiles": "O=C(O)Cc1ccc(S)cc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 5,
+          "experiment_id": "CFC124009-19-3-PL43-W4",
+          "donor_cell": "V5",
+          "donor_raw": "O=C(O)CC1=CC=C(S)C=C1",
+          "cas_cell": "U5",
+          "cas_raw": "‘39161-84-7",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC5": 0
+          },
+          "condition_cells": {
+            "B5": 0.025,
+            "C5": "Cu9",
+            "G5": "PPh3",
+            "J5": "CsOH",
+            "M5": "DCE",
+            "O5": 16,
+            "P5": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-090",
+      "route": "SH",
+      "canonical_smiles": "O=[N+]([O-])c1ccc(S)cc1",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 3,
+          "experiment_id": "CFC124009-19-3-PL43-W2",
+          "donor_cell": "V3",
+          "donor_raw": "SC1=CC=C([N+]([O-])=O)C=C1",
+          "cas_cell": "U3",
+          "cas_raw": "‘1849-36-1",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC3": 0.74235807860262,
+            "AD3": 1.87772925764192
+          },
+          "condition_cells": {
+            "B3": 0.025,
+            "C3": "Cu9",
+            "G3": "PPh3",
+            "J3": "CsOH",
+            "M3": "DCE",
+            "O3": 16,
+            "P3": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-091",
+      "route": "SH",
+      "canonical_smiles": "OCC1CO1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 18,
+          "experiment_id": "CFC124009-19-3-PL43-W17",
+          "donor_cell": "V18",
+          "donor_raw": "OCC1OC1",
+          "cas_cell": "U18",
+          "cas_raw": "‘556-52-5",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC18": 0
+          },
+          "condition_cells": {
+            "B18": 0.025,
+            "C18": "Cu9",
+            "G18": "PPh3",
+            "J18": "CsOH",
+            "M18": "DCE",
+            "O18": 16,
+            "P18": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-092",
+      "route": "SH",
+      "canonical_smiles": "OCCCS",
+      "response_positive": true,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 15,
+          "experiment_id": "CFC124009-19-3-PL43-W14",
+          "donor_cell": "V15",
+          "donor_raw": "OCCCS",
+          "cas_cell": "U15",
+          "cas_raw": "‘19721-22-3",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC15": 0.604651162790698
+          },
+          "condition_cells": {
+            "B15": 0.025,
+            "C15": "Cu9",
+            "G15": "PPh3",
+            "J15": "CsOH",
+            "M15": "DCE",
+            "O15": 16,
+            "P15": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-093",
+      "route": "SH",
+      "canonical_smiles": "SC(c1ccccc1)(c1ccccc1)c1ccccc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 6,
+          "experiment_id": "CFC124009-19-3-PL43-W5",
+          "donor_cell": "V6",
+          "donor_raw": "SC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3",
+          "cas_cell": "U6",
+          "cas_raw": "‘3695-77-0",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC6": 0
+          },
+          "condition_cells": {
+            "B6": 0.025,
+            "C6": "Cu9",
+            "G6": "PPh3",
+            "J6": "CsOH",
+            "M6": "DCE",
+            "O6": 16,
+            "P6": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    },
+    {
+      "analysis_donor_id": "RP94-094",
+      "route": "SH",
+      "canonical_smiles": "Sc1ccc(S)cc1",
+      "response_positive": false,
+      "source_observations": [
+        {
+          "sheet": "SH底物扩展",
+          "row": 2,
+          "experiment_id": "CFC124009-19-3-PL43-W1",
+          "donor_cell": "V2",
+          "donor_raw": "SC1=CC=C(S)C=C1",
+          "cas_cell": "U2",
+          "cas_raw": "‘624-39-5",
+          "electrophile_smiles": "O=C(CC(F)(F)F)Nc1ccccc1",
+          "uv_cells": {
+            "AC2": 0
+          },
+          "condition_cells": {
+            "B2": 0.025,
+            "C2": "Cu9",
+            "G2": "PPh3",
+            "J2": "CsOH",
+            "M2": "DCE",
+            "O2": 16,
+            "P2": 60
+          }
+        }
+      ],
+      "identity_note": ""
+    }
+  ],
+  "excluded_source_rows": [
+    {
+      "sheet": "NH-底物扩展",
+      "row": 40,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "NH-底物扩展",
+      "row": 41,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "NH-底物扩展",
+      "row": 42,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "NH-底物扩展",
+      "row": 43,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "NH-底物扩展",
+      "row": 44,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "NH-底物扩展",
+      "row": 45,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "NH-底物扩展",
+      "row": 46,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 39,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 40,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 41,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 42,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 43,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 44,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 45,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 46,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 47,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 48,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 49,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 50,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 51,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 52,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 53,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 54,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 55,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 56,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 57,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 58,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 59,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 60,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 61,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 62,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 63,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 64,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 65,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 66,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 67,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 68,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 69,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 70,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 71,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 72,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 73,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 74,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 75,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 76,
+      "reason": "Different reaction-condition block"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 77,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 78,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 79,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "OH-底物扩展",
+      "row": 80,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "SH底物扩展",
+      "row": 22,
+      "reason": "No numerical UV response"
+    },
+    {
+      "sheet": "SH底物扩展",
+      "row": 23,
+      "reason": "No numerical UV response"
+    }
+  ]
+}

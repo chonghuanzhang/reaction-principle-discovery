@@ -1,0 +1,397 @@
+[
+  {
+    "rule_id": "RP2_P01",
+    "principle_id": "RP2",
+    "requires": {
+      "substrate": [
+        "FC(F)(F)CCCOCc1ccccc1"
+      ],
+      "donor": [
+        "Ph2PH, P(III)–H"
+      ],
+      "activation": [
+        "base-promoted addition/elimination"
+      ],
+      "condition_recipe": [
+        "standard conditions, no P-specific complete recipe assigned in S15"
+      ]
+    },
+    "evidence_ids": [
+      "E08"
+    ],
+    "observation": {
+      "status": "reported_product",
+      "endpoint": "fluorovinyl phosphine, one F",
+      "source_case_id": "P01",
+      "source_reported_yield": 37,
+      "source_yield_basis": "percent; exact analytical basis not specified in S15"
+    },
+    "effect": "A fluorovinyl ether that has already formed can be consumed by hydrofluorination when the HF/coacid combination enables productive protonation and fluoride capture. The required regime depends on the attached heteroatom substituent; successful monofluoro formation and successful HF addition are separate outcomes.",
+    "direction": "reported_target: fluorovinyl phosphine, one F",
+    "boundary": "Source scaffold is unactivated aliphatic CF3, not the project carbonyl scaffold.",
+    "access_level": "primary_supporting_information",
+    "missing_information": [
+      "Full phosphorus-specific recipe is not specified by source"
+    ],
+    "inference_scope": "Curated source-observation clause, not a transferable prospective success predictor."
+  },
+  {
+    "rule_id": "RP2_P02",
+    "principle_id": "RP2",
+    "requires": {
+      "substrate": [
+        "source:already formed fluorovinyl phosphine"
+      ],
+      "donor": [
+        "P-bound fluorovinyl intermediate from P01"
+      ],
+      "activation": [
+        "second-step hydrofluorination"
+      ],
+      "condition_recipe": [
+        "standard hydrofluorination conditions in S15"
+      ]
+    },
+    "evidence_ids": [
+      "E09"
+    ],
+    "observation": {
+      "status": "target_not_observed",
+      "endpoint": "P-substituted gem-difluoride, two F",
+      "source_case_id": "P02",
+      "source_reported_yield": null,
+      "source_yield_basis": null
+    },
+    "effect": "A fluorovinyl ether that has already formed can be consumed by hydrofluorination when the HF/coacid combination enables productive protonation and fluoride capture. The required regime depends on the attached heteroatom substituent; successful monofluoro formation and successful HF addition are separate outcomes.",
+    "direction": "specified_target_not_detected: P-substituted gem-difluoride, two F",
+    "boundary": "Complex product mixture. No detection limit supplied. This is NOT a negative label for P01 monoF formation.",
+    "access_level": "primary_supporting_information",
+    "missing_information": [
+      "Complete formed-intermediate connectivity/recipe not independently recorded"
+    ],
+    "inference_scope": "Curated source-observation clause, not a transferable prospective success predictor."
+  },
+  {
+    "rule_id": "RP1_P05",
+    "principle_id": "RP1",
+    "requires": {
+      "substrate": [
+        "COc1ccc(C=C(F)F)cc1"
+      ],
+      "donor": [
+        "Ph2P(O)H, 3 equiv"
+      ],
+      "activation": [
+        "peroxide-initiated hydrophosphinylation"
+      ],
+      "condition_initiator": [
+        "di-tert-butyl peroxide 5 mol%"
+      ],
+      "condition_solvent": [
+        "tBuOH"
+      ],
+      "condition_temperature_C": [
+        120
+      ],
+      "condition_time_h": [
+        16
+      ],
+      "condition_atmosphere": [
+        "N2"
+      ]
+    },
+    "evidence_ids": [
+      "E03"
+    ],
+    "observation": {
+      "status": "reported_product",
+      "endpoint": "saturated ArCH2CF2P(O)Ph2; retains two F",
+      "source_case_id": "P05",
+      "source_reported_yield": ">95",
+      "source_yield_basis": "19F NMR, Table1 entry8"
+    },
+    "effect": "For a compatible gem-difluoroalkene and P(O)H partner, polar addition under basic conditions can form a carbanion that loses fluoride; peroxide-initiated radical addition followed by H-atom transfer instead can furnish a saturated CF2-containing product.",
+    "direction": "reported_alternative: saturated ArCH2CF2P(O)Ph2; retains two F",
+    "boundary": "Alternative to monofluoro target. Source scope3a gives90% isolated, average of two independent24–26h reactions.",
+    "access_level": "primary_full_text",
+    "missing_information": [],
+    "inference_scope": "Curated source-observation clause, not a transferable prospective success predictor."
+  },
+  {
+    "rule_id": "RP3_SE02",
+    "principle_id": "RP3",
+    "requires": {
+      "substrate": [
+        "C=CCC(=O)Nc1ccccc1"
+      ],
+      "donor": [
+        "PhSeH"
+      ],
+      "activation": [
+        "amide-directed NiH hydroselenylation"
+      ],
+      "condition_alkene_mmol": [
+        0.1
+      ],
+      "condition_Se_loading_equiv": [
+        1.5
+      ],
+      "condition_catalyst": [
+        "NiBr2·glyme 10 mol%"
+      ],
+      "condition_ligand": [
+        "paper L* 12 mol%; exact structure retained in original Table1"
+      ],
+      "condition_silane": [
+        "(MeO)2MeSiH 3 equiv"
+      ],
+      "condition_base": [
+        "Na2CO3 2 equiv"
+      ],
+      "condition_BnBr_equiv": [
+        1
+      ],
+      "condition_salt": [
+        "NaBF4 1 equiv"
+      ],
+      "condition_solvent": [
+        "THF 1mL (0.1M)"
+      ],
+      "condition_temperature_C": [
+        25
+      ],
+      "condition_time_h": [
+        18
+      ],
+      "condition_atmosphere": [
+        "Ar"
+      ]
+    },
+    "evidence_ids": [
+      "E12"
+    ],
+    "observation": {
+      "status": "target_not_observed",
+      "endpoint": "nonfluorinated beta-selenide 3a",
+      "source_case_id": "SE02",
+      "source_reported_yield": null,
+      "source_yield_basis": "dash in Table1 entry1; no calibrated zero"
+    },
+    "effect": "In the documented amide-directed NiH hydroselenylation, the diselenide donor is compatible with reductive selenium transfer, whereas phenylselenol is unproductive; interception of nucleophilic selenium by BnBr supports catalyst turnover.",
+    "direction": "specified_target_not_detected: nonfluorinated beta-selenide 3a",
+    "boundary": "No C–F bond present; no project defluorination label.",
+    "access_level": "primary_full_text",
+    "missing_information": [],
+    "inference_scope": "Curated source-observation clause, not a transferable prospective success predictor."
+  },
+  {
+    "rule_id": "RP3_SE03",
+    "principle_id": "RP3",
+    "requires": {
+      "substrate": [
+        "C=CCC(=O)Nc1ccccc1"
+      ],
+      "donor": [
+        "PhSeSePh"
+      ],
+      "activation": [
+        "amide-directed NiH hydroselenylation"
+      ],
+      "condition_alkene_mmol": [
+        0.1
+      ],
+      "condition_Se_loading_equiv": [
+        1.5
+      ],
+      "condition_catalyst": [
+        "NiBr2·glyme 10 mol%"
+      ],
+      "condition_ligand": [
+        "paper L* 12 mol%; exact structure retained in original Table1"
+      ],
+      "condition_silane": [
+        "(MeO)2MeSiH 3 equiv"
+      ],
+      "condition_base": [
+        "Na2CO3 2 equiv"
+      ],
+      "condition_BnBr_equiv": [
+        1
+      ],
+      "condition_salt": [
+        "NaBF4 1 equiv"
+      ],
+      "condition_solvent": [
+        "THF 1mL (0.1M)"
+      ],
+      "condition_temperature_C": [
+        25
+      ],
+      "condition_time_h": [
+        18
+      ],
+      "condition_atmosphere": [
+        "Ar"
+      ]
+    },
+    "evidence_ids": [
+      "E12"
+    ],
+    "observation": {
+      "status": "reported_product",
+      "endpoint": "nonfluorinated beta-selenide 3a",
+      "source_case_id": "SE03",
+      "source_reported_yield": 91,
+      "source_yield_basis": "1H NMR, Table1 entry4"
+    },
+    "effect": "In the documented amide-directed NiH hydroselenylation, the diselenide donor is compatible with reductive selenium transfer, whereas phenylselenol is unproductive; interception of nucleophilic selenium by BnBr supports catalyst turnover.",
+    "direction": "reported_target: nonfluorinated beta-selenide 3a",
+    "boundary": "rr18:1, er97:3; nonfluorinated local compatibility comparison.",
+    "access_level": "primary_full_text",
+    "missing_information": [],
+    "inference_scope": "Curated source-observation clause, not a transferable prospective success predictor."
+  },
+  {
+    "rule_id": "RP3_SE04",
+    "principle_id": "RP3",
+    "requires": {
+      "substrate": [
+        "C=CCC(=O)Nc1ccccc1"
+      ],
+      "donor": [
+        "PhSeSePh"
+      ],
+      "activation": [
+        "amide-directed NiH hydroselenylation"
+      ],
+      "condition_alkene_mmol": [
+        0.1
+      ],
+      "condition_Se_loading_equiv": [
+        1.5
+      ],
+      "condition_catalyst": [
+        "NiBr2·glyme 10 mol%"
+      ],
+      "condition_ligand": [
+        "paper L* 12 mol%; exact structure retained in original Table1"
+      ],
+      "condition_silane": [
+        "(MeO)2MeSiH 3 equiv"
+      ],
+      "condition_base": [
+        "Na2CO3 2 equiv"
+      ],
+      "condition_BnBr_equiv": [
+        0
+      ],
+      "condition_salt": [
+        "NaBF4 1 equiv"
+      ],
+      "condition_solvent": [
+        "THF 1mL (0.1M)"
+      ],
+      "condition_temperature_C": [
+        25
+      ],
+      "condition_time_h": [
+        18
+      ],
+      "condition_atmosphere": [
+        "Ar"
+      ]
+    },
+    "evidence_ids": [
+      "E13"
+    ],
+    "observation": {
+      "status": "reported_product",
+      "endpoint": "nonfluorinated beta-selenide 3a",
+      "source_case_id": "SE04",
+      "source_reported_yield": 11,
+      "source_yield_basis": "1H NMR, Table1 entry7"
+    },
+    "effect": "In the documented amide-directed NiH hydroselenylation, the diselenide donor is compatible with reductive selenium transfer, whereas phenylselenol is unproductive; interception of nucleophilic selenium by BnBr supports catalyst turnover.",
+    "direction": "reported_target: nonfluorinated beta-selenide 3a",
+    "boundary": "Low but nonzero positive target; source mechanistic inhibition explanation remains interpretation.",
+    "access_level": "primary_full_text",
+    "missing_information": [],
+    "inference_scope": "Curated source-observation clause, not a transferable prospective success predictor."
+  },
+  {
+    "rule_id": "RP2_N01",
+    "principle_id": "RP2",
+    "requires": {
+      "substrate": [
+        "FC(F)(F)CCCOCc1ccccc1"
+      ],
+      "donor": [
+        "N-methylaniline"
+      ],
+      "activation": [
+        "NaHMDS-mediated addition/elimination"
+      ],
+      "condition_base": [
+        "NaHMDS"
+      ],
+      "condition_solvent": [
+        "N,N-dimethylacetamide"
+      ],
+      "condition_other": [
+        "standard conditions; not fully assigned"
+      ]
+    },
+    "evidence_ids": [
+      "E10"
+    ],
+    "observation": {
+      "status": "reported_product",
+      "endpoint": "fluoroenamine, one F",
+      "source_case_id": "N01",
+      "source_reported_yield": 82,
+      "source_yield_basis": "percent, SI S15"
+    },
+    "effect": "A fluorovinyl ether that has already formed can be consumed by hydrofluorination when the HF/coacid combination enables productive protonation and fluoride capture. The required regime depends on the attached heteroatom substituent; successful monofluoro formation and successful HF addition are separate outcomes.",
+    "direction": "reported_target: fluoroenamine, one F",
+    "boundary": "No global rule that anilines outperform all aliphatic amines; source comparison only.",
+    "access_level": "primary_supporting_information",
+    "missing_information": [],
+    "inference_scope": "Curated source-observation clause, not a transferable prospective success predictor."
+  },
+  {
+    "rule_id": "RP2_N03",
+    "principle_id": "RP2",
+    "requires": {
+      "substrate": [
+        "source:already formed one-F intermediate"
+      ],
+      "donor": [
+        "fluoroenamine from N-methylaniline"
+      ],
+      "activation": [
+        "hydrofluorination"
+      ],
+      "condition_recipe": [
+        "variety of optimized ether hydrofluorination conditions"
+      ]
+    },
+    "evidence_ids": [
+      "E11"
+    ],
+    "observation": {
+      "status": "target_not_observed",
+      "endpoint": "N-substituted gem-difluoride",
+      "source_case_id": "N03",
+      "source_reported_yield": null,
+      "source_yield_basis": null
+    },
+    "effect": "A fluorovinyl ether that has already formed can be consumed by hydrofluorination when the HF/coacid combination enables productive protonation and fluoride capture. The required regime depends on the attached heteroatom substituent; successful monofluoro formation and successful HF addition are separate outcomes.",
+    "direction": "specified_target_not_detected: N-substituted gem-difluoride",
+    "boundary": "Distinct step from positive N01.",
+    "access_level": "primary_supporting_information",
+    "missing_information": [
+      "Complete formed-intermediate connectivity/recipe not independently recorded"
+    ],
+    "inference_scope": "Curated source-observation clause, not a transferable prospective success predictor."
+  }
+]

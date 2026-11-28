@@ -1,0 +1,13 @@
+{
+  "id": "pc_3an",
+  "product_label": "3an",
+  "smiles": "O=C(/C=C(F)/OC1=NC=C(C)C=C1)C2=CC=C(Br)C=C2",
+  "query": {
+    "smiles": "O=C(/C=C(F)/OC1=NC=C(C)C=C1)C2=CC=C(Br)C=C2",
+    "identity_type": "same_connectivity"
+  },
+  "access_date": "2026-11-26",
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastidentity/smiles/cids/JSON?smiles=O%3DC%28%2FC%3DC%28F%29%2FOC1%3DNC%3DC%28C%29C%3DC1%29C2%3DCC%3DC%28Br%29C%3DC2&identity_type=same_connectivity",
+  "status_code": 404,
+  "response": "{\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"Identity search returned no hits\"\n  }\n}\n"
+}

@@ -1,0 +1,31 @@
+{
+  "summary_workbook": {
+    "destination": "raw/summary_workbook.xlsx",
+    "bytes": 6910219,
+    "sha256": "836f5a17429d0ab5198f0f28038e60df0992787cf9b76ed649c4abf7c7047c16",
+    "original_filename": "三氟乙基羰基+N\\O\\S\\P数据总结.xlsx"
+  },
+  "full_response_workbook": {
+    "original_filename": "副本条件筛选-底物扩展-response总-0911.xlsx",
+    "bytes": 118056208,
+    "sha256": "46c934b69a5aa74d96c0e7ad0556b705730ddfcc6f58cb6bc0ae5e35b502d21c",
+    "parts": [
+      {
+        "path": "raw/full_response_workbook.xlsx.part001",
+        "bytes": 41943040,
+        "sha256": "129144f7d29c4736b941b62df2b15cb2c65c1311841342f73e3552691d4333fd"
+      },
+      {
+        "path": "raw/full_response_workbook.xlsx.part002",
+        "bytes": 41943040,
+        "sha256": "424c0ddd3318ef433cb994622f040bc1c464e40c6c21aaafca685817258e56b6"
+      },
+      {
+        "path": "raw/full_response_workbook.xlsx.part003",
+        "bytes": 34170128,
+        "sha256": "7d63f13ecea3f7c09baf1b17a3edc86e4a61352eaccb8ca02f5b4aa90bf9a74c"
+      }
+    ],
+    "transformation": "deterministic sequential 40 MiB byte splitting; concatenate in numbered order to recover original bytes"
+  }
+}

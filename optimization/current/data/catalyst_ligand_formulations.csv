@@ -1,0 +1,146 @@
+﻿catalyst_index,cat,catalyst_CAS,catalyst_name_as_recorded,catalyst_SMILES_as_recorded,main_metal_group,catalyst_equiv,ligand,ligand_equiv,extra_ligand_note
+0,Ag252,20667-12-3,Silver oxide,[Ag+].[O-2].[Ag+],Ag,0.1,PPh3,0.2,PPh3 added
+1,Ag6,7775-41-9,Silver fluoride,[Ag+].[F-],Ag,0.1,PPh3,0.2,PPh3 added
+2,Ag256,26042-64-8,AgSbF6,[Ag+].F[Sb](F)(F)(F)(F)F,Ag,0.1,PPh3,0.2,PPh3 added
+3,Ag259,7783-96-2,Silver iodide,[Ag]I,Ag,0.1,PPh3,0.2,PPh3 added
+4,Ag9,2966-50-9,AgTFA,O=C(C(F)(F)F)[O-].[Ag+],Ag,0.1,PPh3,0.2,PPh3 added
+5,Ag8,14104-20-2,AgBF4,F[B-](F)(F)F.[Ag+],Ag,0.1,PPh3,0.2,PPh3 added
+6,Ag12,534-16-7,Silver carbonate,[O-]C([O-])=O.[Ag+].[Ag+],Ag,0.1,PPh3,0.2,PPh3 added
+7,Ag7,7783-95-1,SILVER(II) FLUORIDE,[Ag+2].[F-].[F-],Ag,0.1,PPh3,0.2,PPh3 added
+8,Ag13,10294-26-5,Ag2SO4,[Ag+].[O-]S([O-])(=O)=O,Ag,0.1,PPh3,0.2,PPh3 added
+9,Ag15,7784-09-0,Ag3PO4,O=P([O-])([O-])[O-].[Ag+].[Ag+].[Ag+],Ag,0.1,PPh3,0.2,PPh3 added
+10,Ag5,7761-88-8,Silver nitrate,[O-][N+]([O-])=O.[Ag+],Ag,0.1,PPh3,0.2,PPh3 added
+11,Ag16,563-63-3,Silver acetate,CC([O-])=O.[Ag+],Ag,0.1,PPh3,0.2,PPh3 added
+12,Ag3,189114-61-2,silver(I) triflimide,[Ag+].FC(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,Ag,0.1,PPh3,0.2,PPh3 added
+13,Au7,13453-07-1,Gold(III) chloride,[Au+3].[Cl-].[Cl-].[Cl-],Au,0.1,PPh3,0.2,PPh3 added
+14,Co7,14024-48-7,Bis(acetylacetonato)cobalt,C/C([O-])=C/C(C)=O.C/C([O-])=C/C(C)=O.[Co+2],Co,0.1,PPh3,0.2,PPh3 added
+15,Co239,14172-90-8,Cobalt(II)Tetraphenylporphyrin,C1=CC2=C(C3=[N]4C(C=C3)=C(C3=CC=C5[N-]3[Co++]43[N-]2C1=C(C1=[N]3C(C=C1)=C5C1=CC=CC=C1)C1=CC=CC=C1)C1=CC=CC=C1)C1=CC=CC=C1,Co,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+16,Co237,21679-46-9,Cobalt(III)acetylacetonate,CC1=[O][Co+3]234([O]=C(C)[CH2-]1)[O]=C(C)[CH2-]C(C)=[O]2.CC([CH2-]C(C)=[O]3)=[O]4,Co,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+17,Co1,123334-29-2,Co(acac)2·xH2O,[H]O[H].CC1=[O][Co++]2([O]=C(C)[CH-]1)[O]=C(C)[CH-]C(C)=[O]2,Co,0.1,PPh3,0.2,PPh3 added
+18,Co241,14167-18-1,"[N,N'-bis(salicylidene)ethane-1,2-diaminato]cobalt(II)",C1C[N]2=CC3=CC=CC=C3O[Co]22OC3=CC=CC=C3C=[N]12,Co,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+19,Co238,71-48-7,Cobaltacetate,CC([O-])=O.CC([O-])=O.[Co+2],Co,0.1,PPh3,0.2,PPh3 added
+20,Co240,7646-79-9,Cobalt chloride,[Co+2].[Cl-].[Cl-],Co,0.1,PPh3,0.2,PPh3 added
+21,Cu2,25753-84-8,"Bromo(1,10-phenanthroline)(triphenylphosphine)copper(I)",[Cu]P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3.BrC4=NC5=C6N=CC=CC6=CC=C5C=C4,Cu,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+22,Cu39,14783-09-6,"(1,10-phenanthroline)copper(II)dichloride",C12=CC=C3C=CC=NC3=C1N=CC=C2.[Cu+2].[Cl-].[Cl-],Cu,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+23,Cu32,7681-65-4,Cuprous iodide (CuI),[Cu+].[I-],Cu,0.1,PPh3,0.2,PPh3 added
+24,Cu5,12018-10-9,Copper chromite,[Cr].[Cu].O,Cu,0.1,PPh3,0.2,PPh3 added
+25,Cu8,54678-23-8,Copper(I) bromide-dimethyl sulfide,CSC.[Cu+].[Br-],Cu,0.1,PPh3,0.2,PPh3 added
+26,Cu22,13778-31-9,Cu(NO3)2·xH2O,[O-][N+]([O-])=O.[O-][N+]([O-])=O.[Cu+2].O,Cu,0.1,PPh3,0.2,PPh3 added
+27,Cu26,7789-19-7,Cupric fluoride,[Cu+2].[F-].[F-],Cu,0.1,PPh3,0.2,PPh3 added
+28,Cu9,7758-89-6,Copper(I) chloride,[Cu+].[Cl-],Cu,0.1,PPh3,0.2,PPh3 added
+29,Cu7,598-54-9,COPPER(I) ACETATE,CC(O)=O.[Cu],Cu,0.1,PPh3,0.2,PPh3 added
+30,Cu24,6046-93-1,Cupric acetate monohydrate,[O-]C(C)=O.O=C([O-])C.[Cu+2].O,Cu,0.1,PPh3,0.2,PPh3 added
+31,Cu20,72259-10-0,COPPER(II) TETRAFLUOROBORATE HEXAHYDRATE,F[B-](F)(F)F.F[B-](F)(F)F.O.O.O.O.O.O.[Cu+2],Cu,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+32,Cu6,326477-70-7,Copper(I) 3-methylsalicylate,OC1=C(C)C=CC=C1C([O-])=O.[Cu+],Cu,0.1,PPh3,0.2,PPh3 added
+33,Cu27,20427-59-2,Cupric hydroxide,[Cu+2].[OH-].[OH-],Cu,0.1,PPh3,0.2,PPh3 added
+34,Cu30,7787-70-4,Cuprous bromide,[Cu+].[Br-],Cu,0.1,PPh3,0.2,PPh3 added
+35,Cu18,7758-98-7,Copper(II) sulfate,[O-]S([O-])(=O)=O.[Cu+2],Cu,0.1,PPh3,0.2,PPh3 added
+36,Cu25,13395-16-9,Cupric acetylacetonate,CC(/C=C(C)\[O-])=O.CC(/C=C(C)\[O-])=O.[Cu+2],Cu,0.1,PPh3,0.2,PPh3 added
+37,Cu12,1292766-17-6,Copper(I) thiophene-2-carboxylate hydrate,O=C(C1=CC=CS1)[O-].[H]O[H].[Cu+],Cu,0.1,PPh3,0.2,PPh3 added
+38,Cu10,544-92-3,Copper(I) Cyanide,N#[C-].[Cu+],Cu,0.1,PPh3,0.2,PPh3 added
+39,Cu1,14040-05-2,"BIS(2,2,6,6-TETRAMETHYL-3,5-HEPTANEDIONATO)COPPER(II)",CC(C)(/C([O-])=C/C(C(C)(C)C)=O)C.CC(C)(/C([O-])=C/C(C(C)(C)C)=O)C.[Cu+2],Cu,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+40,Cu16,7447-39-4,Copper(II) chloride,[Cu+2].[Cl-].[Cl-],Cu,0.1,PPh3,0.2,PPh3 added
+41,Cu63,1317-39-1,Cuprous oxide,[Cu+].[O-2].[Cu+],Cu,0.1,PPh3,0.2,PPh3 added
+42,Cu4,7440-50-8,Copper,[Cu],Cu,0.1,PPh3,0.2,PPh3 added
+43,Cu11,68986-76-5,copper(I) thiophene-2-carboxylate,[O-]C(C1=CC=CS1)=O.[Cu+],Cu,0.1,PPh3,0.2,PPh3 added
+44,Cu61,1335-23-5,Cuprous iodide,[Cu+].[I-],Cu,0.1,PPh3,0.2,PPh3 added
+45,Cu15,142-71-2,Copper(II) acetate,CC([O-])=O.CC([O-])=O.[Cu+2],Cu,0.1,PPh3,0.2,PPh3 added
+46,Cu53,7789-45-9,CuBr2,[Br-].[Cu+2].[Br-],Cu,0.1,PPh3,0.2,PPh3 added
+47,Cu59,1317-38-0,Cupric oxide,[Cu+2].[O-2],Cu,0.1,PPh3,0.2,PPh3 added
+48,Cu33,873779-78-3,"Chloro(1,3-dimesitylimidazol-2-ylidene)copper(I)",CC1=CC(C)=CC(C)=C1N2[C]([Cu-]Cl)N(C3=C(C)C=C(C)C=C3C)C=C2,Cu,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+49,Cu65,30698-64-7,CU-TMEDA CATALYST,CN(CCN(C)C)C.CN(C)CCN(C)C.CN(CCN(C)C)C.CN(CCN(C)C)C.[Cl-].[Cu].[Cu].[Cu].[Cu].[Cl-].O.O,Cu,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+50,Cu66,64443-05-6,TETRAKIS(ACETONITRILE)COPPER (I) HEXAFLUOROPHOSPHATE,CC#N.CC#N.CC#N.CC#N.F[P-](F)(F)(F)(F)F.[Cu+],Cu,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+51,Fe2,10025-77-1,Iron chloride hexahydrate,O.Cl[Fe](Cl)Cl,Fe,0.1,PPh3,0.2,PPh3 added
+52,Fe8,14024-17-0,iron(II) acetylacetonate,CC(/C=C(C)\[O-])=O.[O-]/C(C)=C\C(C)=O.[Fe+2],Fe,0.1,PPh3,0.2,PPh3 added
+53,Fe4,7439-89-6,Iron,[Fe],Fe,0.1,PPh3,0.2,PPh3 added
+54,Fe9,7782-63-0,Ferrous sulfate heptahydrate,O=S([O-])([O-])=O.[H]O[H].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[Fe+2],Fe,0.1,PPh3,0.2,PPh3 added
+55,Fe3,7782-61-8,Ferric nitrate nonahydrate,[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O.[H]O[H].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[Fe+3],Fe,0.1,PPh3,0.2,PPh3 added
+56,Fe7,13478-10-9,iron(II) chloride tetrahydrate,[H]O[H].[H]O[H].[H]O[H].[H]O[H].[Fe+2].[Cl-].[Cl-],Fe,0.1,PPh3,0.2,PPh3 added
+57,Fe179,7758-94-3,Ferrous chloride,[Fe+2].[Cl-].[Cl-],Fe,0.1,PPh3,0.2,PPh3 added
+58,Fe183,14024-18-1,Ferric acetylacetonate,[O-]/C(C)=C\C(C)=O.[O-]/C(C)=C\C(C)=O.[O-]/C(C)=C\C(C)=O.[Fe+3],Fe,0.1,PPh3,0.2,PPh3 added
+59,Fe184,63295-48-7,Iron(III) trifluoromethanesulfonate,O=S(C(F)(F)F)([O-])=O.O=S(C(F)(F)F)([O-])=O.O=S(C(F)(F)F)([O-])=O.[Fe+3],Fe,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+60,Fe185,17685-52-8,Fe3(CO)12,[C-]#[O-].[C-]#[O-].[C-]#[O-].[C-]#[O-].[C-]#[O-].[C-]#[O-].[C-]#[O-].[C-]#[O-].[C-]#[O-].[C-]#[O-].[C-]#[O-].[C-]#[O-].[Fe].[Fe].[Fe],Fe,0.1,PPh3,0.2,PPh3 added
+61,Fe178,7705-08-0,Ferric chloride,[Fe+3].[Cl-].[Cl-].[Cl-],Fe,0.1,PPh3,0.2,PPh3 added
+62,Ir228,10025-83-9,iridium(III) chloride,Cl[Ir](Cl)Cl,Ir,0.02,PPh3,0.2,PPh3 added
+63,Ni16,7791-20-0,NiCl26H2O,[Cl-].[Ni+2].[Cl-].O.O.O.O.O.O,Ni,0.1,PPh3,0.2,PPh3 added
+64,Ni18,3264-82-2,Nickel(II) acetylacetonate,CC(/C=C([O-])/C)=O.[O-]/C(C)=C\C(C)=O.[Ni+2],Ni,0.1,PPh3,0.2,PPh3 added
+65,Ni5,28923-39-9,NiBr2·DME,Br[Ni]Br.COCCOC,Ni,0.1,PPh3,0.2,PPh3 added
+66,Ni4,19999-87-2,Bis(tricyclohexylphosphine)nickel(II) chloride,P(C1CCCCC1)(C2CCCCC2)C3CCCCC3.P(C4CCCCC4)(C5CCCCC5)C6CCCCC6.[Cl-].[Ni+2].[Cl-],Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+67,Ni25,1033772-47-2,Bis[(2-dimethylamino)phenyl]amine nickel(II) chloride,CN(C1=CC=CC=C1NC2=CC=CC=C2N(C)C)C.[Ni+2].[Cl-].[Cl-],Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+68,Ni9,19232-05-4,cis-[NiCl2(PMe3)2],C[P](C)(C)[Ni++]([Cl-])([Cl-])[P](C)(C)C,Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+69,Ni27,312696-09-6,Nickel(II) bromide 2-methoxyethyl ether complex,CO1CCO2[Ni]1(O(CC2)C)(Br)Br,Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+70,Ni6,15629-92-2,"[1,3-Bis(diphenylphosphino)propane]nickel(II) chloride",P(C1=CC=CC=C1)(CCCP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4.[Ni+2].[Cl-].[Cl-],Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+71,Ni210,2035424-75-8,[Ni(dtbbpy)(H2O)4]Cl2,CC(C)(C)C1=CC=NC(C2=CC(C(C)(C)C)=CC=N2)=C1.[Ni+6].[OH-].[OH-].[OH-].[OH-].C,Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+72,Ni212,2254430-88-9,NiCl2(tmphen),CC1=C(C)C=NC2=C1C=CC3=C2N=CC(C)=C3C.[Ni+2].[Cl-].[Cl-],Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+73,Ni208,7789-49-3,NICKEL(II) BROMIDE TRIHYDRATE,[H]O[H].[H]O[H].[H]O[H].[Ni+2].[Br-].[Br-],Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+74,Ni19,7440-02-0,Ni,[Ni],Ni,0.1,PPh3,0.2,PPh3 added
+75,Ni189,14264-16-5,Bis(triphenylphosphine)nickel(II)chloride,P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3.P(C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6.[Ni+2].[Cl-].[Cl-],Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+76,Ni190,67292-34-6,Ni(dppf)Cl2,[P]1([C]=23[Fe++]456789%10%11[C]%12([P](C%13=CC=CC=C%13)(C%13=CC=CC=C%13)[Ni]1(Cl)Cl)=[CH]4[CH]5=[CH]6[C@H-]7%12)(C1=CC=CC=C1)C1=CC=CC=C1.[CH]8(=[CH]9[CH]=2%10)[C@H-]3%11,Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+77,Ni203,29046-78-4,"NICKEL CHLORIDE, DIMETHOXYETHANE ADDUCT",COCCOC.[Ni+2].[Cl-].[Cl-],Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+78,Ni196,60871-84-3,Nickel(II)Trifluoromethanesulfonate,O=S(C(F)(F)F)([O-])=O.O=S(C(F)(F)F)([O-])=O.[Ni+2],Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+79,Ni215,7718-54-9,Nickel chloride,[Ni+2].[Cl-].[Cl-],Ni,0.1,PPh3,0.2,PPh3 added
+80,Ni202,54806-25-6,Ni(PPh3)2(1-naph)Cl,[Cl-][Ni++]([C-]1=CC=CC2=C1C=CC=C2)([P](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)[P](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+81,Ni201,1295-35-8,Ni(cod)2,[Ni].C1C/C=C\CC/C=C\1.C2C/C=C\CC/C=C\2,Ni,0.1,PPh3,0.2,PPh3 added
+82,Ni205,46389-47-3,"(2,2‘-Bipyridine)nickel(II)dibromide",Br[Ni]1(Br)[N]2=C(C=CC=C2)C2=[N]1C=CC=C2,Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+83,Ni200,14647-23-5,"1,2-Bis(diphenylphosphino)ethane Nickel(II) chloride",P(C1=CC=CC=C1)(C2=CC=CC=C2)CCP(C3=CC=CC=C3)C4=CC=CC=C4.[Ni+2].[Cl-].[Cl-],Ni,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+84,Ni199,13462-90-3,NICKEL IODIDE,[Ni+2].[I-].[I-],Ni,0.1,PPh3,0.2,PPh3 added
+85,Pd10,12135-22-7,Palladium hydroxide,O[Pd]O,Pd,0.1,PPh3,0.2,PPh3 added
+86,Pd16,7790-38-7,PALLADIUM(II) IODIDE,[Pd+2].[I-].[I-],Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+87,Pd14,14024-61-4,"Bis(2,4-pentanedionato-O,O')palladium(II)",[O-]/C(C)=C\C(C)=O.[O-]/C(C)=C\C(C)=O.[Pd+2],Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+88,Pd8,14588-08-0,Pd(PPh3)2(OAc)2,CC(O[Pd]OC(C)=O)=O.P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3.P(C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6,Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+89,Pd7,53199-31-8,Pd(t-Bu3P)2,CC(C)(C)P(C(C)(C)C)C(C)(C)C.CC(C)(C)P(C(C)(C)C)C(C)(C)C.[Pd],Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+90,Pd6,69861-71-8,Bis[Tris(2-methylphenyl)phosphine]palladium,CC1=C(P(C2=C(C=CC=C2)C)C3=C(C=CC=C3)C)C=CC=C1.CC4=C(P(C5=C(C=CC=C5)C)C6=C(C=CC=C6)C)C=CC=C4.[Pd],Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+91,Pd11,7647-10-1,Palladium chloride,[Pd+2].[Cl-].[Cl-],Pd,0.05,PPh3,0.2,PPh3 added
+92,Pd1,478980-01-7,"ALLYLCHLORO[1,3-BIS(2,6-DI-I-PROPYLPHENYL)-4,5-DIHYDROIMIDAZOL-2-YLIDENE]PALLADIUM (II)",CC(C1=C(N(CCN/2C3=C(C(C)C)C=CC=C3C(C)C)C2=[Pd-2](CC=C)\Cl)C(C(C)C)=CC=C1)C,Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+93,Pd3,40691-33-6,DICHLOROBIS(TRI-O-TOLYLPHOSPHINE)PALLADIUM(II),CC1=C(C=CC=C1)P(C2=C(C)C=CC=C2)C3=CC=CC=C3C.CC(C=CC=C4)=C4P(C5=CC=CC=C5C)C6=CC=CC=C6C.[Pd+2].[Cl-].[Cl-],Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+94,Pd55,2009020-38-4,"Methanesulfonato(2-(di-t-butylphosphino)-3-methoxy-6-methyl-2',4',6'-tri-i-propyl-1,1'-biphenyl)(2'-amino-1,1'-biphenyl-2-yl)palladium(II), min. 98% [RockPhos Palladacycle Gen. 3]",O=S(O[H])(C([H])([H])[H])=O.[H]C([H])(C(C([H])([H])[H])(P(C(C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])C1=C(OC([H])([H])[H])C([H])=C([H])C(C([H])([H])[H])=C1C2=C(C([H])(C([H])([H])[H])C([H])([H])[H])C([H])=C(C([H])(C([H])([H])[H])C([H])([H])[H])C([H])=C2C([H])(C([H])([H])[H])C([H])([H])[H])C([H])([H])[H])[H].[H]C3=C(C4=C(C([H])=C(C([H])=C4N([H])[H])[H])[H])[C-]=C(C([H])=C3[H])[H].[Pd],Pd,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+95,Pd54,1445085-77-7,RuPhos Pd G3,O=S(O[H])(C([H])([H])[H])=O.[H]C1(P(C2(C([H])(C([H])(C([H])(C([H])(C2([H])[H])[H])[H])[H])[H])[H])C3=C(C([H])=C(C([H])=C3C4=C(OC([H])(C([H])([H])[H])C([H])([H])[H])C([H])=C([H])C([H])=C4OC([H])(C([H])([H])[H])C([H])([H])[H])[H])[H])C([H])(C([H])(C([H])(C([H])(C1([H])[H])[H])[H])[H])[H].[H]C5=C(C6=C(C([H])=C(C([H])=C6N([H])[H])[H])[H])[C-]=C(C([H])=C5[H])[H].[Pd],Pd,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+96,Pd166,14267-08-4,"N,N,N',N'-tetramethylethylenediamine palladium(II) chloride",C[N]1(C)CC[N](C)(C)[Pd]1(Cl)Cl,Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+97,Pd93,14220-64-5,Pd(PhCN)2Cl2,N#CC1=CC=CC=C1.N#CC2=CC=CC=C2.[Pd+2].[Cl-].[Cl-],Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+98,Pd45,29934-17-6,Pd(PCy3)2Cl2,Cl[Pd]Cl.P(C1CCCCC1)(C2CCCCC2)C3CCCCC3.P(C4CCCCC4)(C5CCCCC5)C6CCCCC6,Pd,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+99,Pd111,1445086-28-1,"Methanesulfonato[1,1'-bis(diphenylphosphino)ferrocene)](2'-amino-1,1'-biphenyl-2-yl)palladium(II), min. 98% [DPPF Palladacycle Gen. 3]",CS([O-][Pd+2]1(P(C2=CC=CC=C2)([C-]34[Fe+2]56789%10%11(C3=C9C%10=C4%11)[C-]%12(C5=C6C7=C8%12)P(C%13=CC=CC=C%13)C%14=CC=CC=C%14)C%15=CC=CC=C%15)[C-]%16=CC=CC=C%16C%17=CC=CC=C%17N1)(=O)=O,Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+100,Pd167,106224-36-6,Palladium(II)pivalate,CC(C)(C)C([O-])=O.CC(C)(C)C([O-])=O.[Pd+2],Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+101,Pd38,13444-94-5,Palladium bromide,[Pd+2].[Br-].[Br-],Pd,0.1,PPh3,0.2,PPh3 added
+102,Pd174,95464-05-4,PdCl2(dppf).CH2Cl2,[Fe++]123456789[CH]%10=[CH]1[CH-]2[CH]3=[C]4%10[P]([Pd](Cl)(Cl)[P]([C]51=[CH]6[CH-]7[CH]8=[CH]91)(C1=CC=CC=C1)C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1.C(Cl)Cl,Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+103,Pd168,205319-06-8,Dichloro[bis(2-(diphenylphosphino)phenyl)ether]palladium(II)95%,Cl[Pd]Cl.C1(OC2=CC=CC=C2P(C3=CC=CC=C3)C4=CC=CC=C4)=CC=CC=C1P(C5=CC=CC=C5)C6=CC=CC=C6,Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+104,Pd9,7440-05-3,Palladium,[Pd],Pd,0.1,PPh3,0.2,PPh3 added
+105,Pd266,42196-31-6,PALLADIUM(II) TRIFLUOROACETATE,O=C(C(F)(F)F)[O-].O=C(C(F)(F)F)[O-].[Pd+2],Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+106,Pd165,12317-46-3,Dichloro(norbornadiene)palladium(II),Cl[Pd]Cl.C12C=CC(C2)C=C1,Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+107,Pd148,12131-44-1,Bis[cinnamyl palladium(II) chloride],[Pd+]C(C1=CC=CC=C1)C=C.[Pd+]C(C2=CC=CC=C2)C=C.[Cl-].[Cl-],Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+108,Pd86,1375325-64-6,SPhos Pd G2,P(C1CCCCC1)(C1CCCCC1)(C1C=CC=CC=1C1C(=CC=CC=1OC)OC)[Pd+2]1(NC2=CC=CC=C2C2=CC=CC=[C-]12)[Cl-],Pd,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+109,Pd154,1445086-17-8,P(tBu)3 Pd G3,CC(C)(C)P(C(C)(C)C)(C(C)(C)C)[Pd+2]C1=CC=CC=C1C2=C(C=CC=C2)[NH-].[O-]S(C)(=O)=O,Pd,0.05,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+110,Pd12,14592-56-4,Bis(acetonitrile)dichloropalladium(II),Cl[Pd]Cl.CC#N.CC#N,Pd,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+111,Pd23,927706-57-8,"DICHLORO-[1,3-BIS(DIISOPROPYLPHENYL)-2-IMIDAZOLIDINYLIDENE]-(3-CHLOROPYRIDYL)PALLADIUM(II)",CC(C1=C(N2CCN(C3=C(C(C)C)C=CC=C3C(C)C)[CH-]2)C(C(C)C)=CC=C1)C.ClC4=CN=CC=C4.[Cl-].[Pd+2].[Cl-],Pd,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+112,Pd173,3375-31-3,Palladium(II)Acetate,CC([O-])=O.CC([O-])=O.[Pd+2],Pd,0.05,PPh3,0.2,PPh3 added
+113,Pd22,1028206-58-7,"SPhos Pd G1, Methyl t-Butyl Ether Adduct",[Cl-][Pd+2]1(P(C2CCCCC2)(C3=C(C=CC=C3)C4=C(OC)C=CC=C4OC)C5CCCCC5)[C-]6=CC=CC=C6CCN1,Pd,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+114,Rh9,35138-22-8,"Bis(1,5-cyclooctadiene)rhodium(I)tetrafluoroborate",F[B-](F)(F)F.[Rh+].C1=C\CC/C=C\CC/1.C2=C\CC/C=C\CC/2,Rh,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+115,Rh16,12081-16-2,Chlorobis(ethylene)rhodium(I)dimer,[Cl-].[Rh+].C=C,Rh,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+116,Rh5,62728-88-5,"Rhodium(II)trimethylacetate,dimer",CC(C)(C)C(=O)O[Rh]OC(=O)C(C)(C)C.CC(C)(C)C(=O)O[Rh]OC(=O)C(C)(C)C,Rh,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+117,Rh30,73755-28-9,dirhodium(II)tetrakis(perfluorobutyrate),O=C([O-])C(F)(F)C(F)(F)C(F)(F)F.O=C([O-])C(F)(F)C(F)(F)C(F)(F)F.O=C([O-])C(F)(F)C(F)(F)C(F)(F)F.O=C([O-])C(F)(F)C(F)(F)C(F)(F)F.[Rh+2].[Rh+2],Rh,0.02,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+118,Rh3,13938-94-8,chlorocarbonylbis(triphenylphosphine)rhodium(I),Cl[Rh](C#[O])([P](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)[P](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Rh,0.02,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+119,Rh26,73482-96-9,Rhodium(II) octanoate dimer,CCCCCCCC([O-])=O.CCCCCCCC([O-])=O.CCCCCCCC([O-])=O.CCCCCCCC([O-])=O.[Rh+2].[Rh+2],Rh,0.02,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+120,Rh15,42204-14-8,Rhodiumacetate,CC([O-])=O.CC([O-])=O.CC([O-])=O.[Rh+3],Rh,0.02,PPh3,0.2,PPh3 added
+121,Rh25,14523-22-9,Rhodium carbonyl chloride,[Cl-][Rh+](C#[O])(C#[O])[Rh+]([Cl-])(C#[O])C#[O],Rh,0.02,PPh3,0.2,PPh3 added
+122,Rh10,12092-47-6,"Chloro(1,5-cyclooctadiene)rhodium(I) dimer",C1CC=CCCC=C1.C1CC=CCCC=C1.[Cl-].[Cl-].[Rh].[Rh],Rh,0.02,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+123,Rh11,15956-28-2,Rh2(CH3COO)4,CC1=[O][Rh]23O\C(C)=[O]/[Rh](O1)(O\C(C)=[O]/2)\[O]=C(C)/O3,Rh,0.02,PPh3,0.2,PPh3 added
+124,Rh28,7440-16-6,Rhodium,[Rh],Rh,0.1,PPh3,0.2,PPh3 added
+125,Rh2,62793-31-1,"bis-1,5-cyclooctadienerhodium(l)hexafluorophosphate",F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F.[Rh+3].C1=C\CC/C=C\CC/1.C2=C\CC/C=C\CC/2,Rh,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+126,Rh20,12279-09-3,[RhCl(cyclooctene)2]2,[H][C]12=[C]([H])(CCCCCC1)[Rh+]2123[Cl-][Rh+]456([Cl-]1)[C]1([H])=[C]4([H])CCCCCC1.[H][C]21=[C]3([H])CCCCCC1.[H][C]51=[C]6([H])CCCCCC1,Rh,0.02,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+127,Rh22,10049-07-7,rhodium(III)chloride,Cl[Rh](Cl)Cl,Rh,0.1,PPh3,0.2,PPh3 added
+128,Ru219,15243-33-1,[Ru3(CO)12],[O]#C[Ru]1(C#[O])(C#[O])(C#[O])[Ru](C#[O])(C#[O])(C#[O])(C#[O])[Ru]1(C#[O])(C#[O])(C#[O])C#[O],Ru,0.02,PPh3,0.2,PPh3 added
+129,Ru221,23570-43-6,"tris(2,2‘-bipyridine)rutheniumdichloride",[Cl-].C1=C[N]2=C3C4=C(C=CC=[N]4[Ru++]2245[N]6=CC=CC7=C6C6=[N]2C=CC=C6C=C7)C=CC3=C1.C1=C[N]4=C2C3=C(C=CC=[N]53)C=CC2=C1,Ru,0.02,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+130,Ru217,14284-93-6,Ru(acac)3,CC1=[O][Ru+3]234([O]=C(C)[CH-]1)[O]=C(C)[CH-]C(C)=[O]2.CC([CH-]C(C)=[O]3)=[O]4,Ru,0.02,PPh3,0.2,PPh3 added
+131,Ru218,37366-09-9,[RuCl2(benzene)]2,[Ru]1234567(Cl)[Cl][Ru]89%10%11%12(Cl)([Cl]1)[CH]1=[CH]8[CH]9=[CH]%10[CH]%11=[CH]%121.[CH]21=[CH]3[CH]4=[CH]5[CH]6=[CH]71,Ru,0.02,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+132,Ru8,10049-08-8,ruthenium(III) chloride,[Ru](Cl)(Cl)Cl,Ru,0.1,PPh3,0.2,PPh3 added
+133,Ru10,7440-18-8,#N/A,#N/A,Ru,0.1,PPh3,0.2,PPh3 added
+134,Ru11,114615-82-6,#N/A,#N/A,Ru,0.1,PPh3,0.2,PPh3 added
+135,Ru227,301224-40-8,"(1,3-dimesitylimidazolidin-2-ylidene)(2-isopropoxybenzylidene)ruthenium(VI) chloride",CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C,Ru,0.02,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+136,MgCl2,17789-30-3,#N/A,#N/A,Mg,0.1,PPh3,0.2,PPh3 added
+137,FeSO4,7720-78-7,#N/A,#N/A,Fe,0.1,PPh3,0.2,PPh3 added
+138,Cu(OTf)2,34946-82-2,#N/A,#N/A,Cu,0.1,PPh3,0.2,PPh3 added
+139,Mg(OAc)2,16674-78-5,#N/A,#N/A,Mg,0.1,PPh3,0.2,PPh3 added
+140,FeBr3,10031-26-2,#N/A,#N/A,Fe,0.1,PPh3,0.2,PPh3 added
+141,Mg(OTf)2,60871-83-2,#N/A,#N/A,Mg,0.1,PPh3,0.2,PPh3 added
+142,Al(OTf)3,74974-61-1,#N/A,#N/A,Al,0.1,PPh3,0.2,PPh3 added
+143,Pd(PPh3)4,14221-01-3,Tetrakis(triphenylphosphine)palladium,P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3.P(C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6.P(C7=CC=CC=C7)(C8=CC=CC=C8)C9=CC=CC=C9.P(C%10=CC=CC=C%10)(C%11=CC=CC=C%11)C%12=CC=CC=C%12.[Pd],Pd,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity
+144,PdCl2(PPh3)2,13965-03-2,Bis(triphenylphosphine)palladium(II) dichloride,P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3.P(C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6.[Pd+2].[Cl-].[Cl-],Pd,0.1,,,no extra ligand recorded; pre-coordinated ligands remain part of catalyst identity

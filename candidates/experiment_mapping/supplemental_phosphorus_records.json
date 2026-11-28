@@ -1,0 +1,93 @@
+[
+  {
+    "candidate_display_id": "C097",
+    "candidate_name_en": "Diphenylphosphine oxide",
+    "candidate_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "relationship_category": "Exact identity",
+    "relationship_detail_zh": "完全相同",
+    "route_center": "P",
+    "route_compatible_hypothesis_ids": [
+      "C097-H01"
+    ],
+    "reason": "The recommended and experimental donor structures are identical.",
+    "actual_reacting_atom_index": 1,
+    "candidate_reacting_atom_index": 1,
+    "structural_similarity_for_tiebreak_only": 1.0,
+    "applicable_product_option_ids": [],
+    "actual_pair_id": "REV-P03",
+    "route": "PH",
+    "actual_donor_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+    "actual_identity_status": "structure_identified_in_source_report",
+    "source_occurrences": [
+      {
+        "source_type": "user_confirmation",
+        "date": "2026-11-18",
+        "annotation": "097已开设未检出产物",
+        "candidate_display_id": "C097",
+        "atlas_serial": 97
+      }
+    ],
+    "record_type": "supplemental_reagent_report",
+    "qualitative_outcome_zh": "已开设，未检出产物"
+  },
+  {
+    "candidate_display_id": "C089",
+    "candidate_name_en": "Dimethyl phosphite",
+    "candidate_smiles": "CO[PH](=O)OC",
+    "relationship_category": "Exact identity",
+    "relationship_detail_zh": "完全相同",
+    "route_center": "P",
+    "route_compatible_hypothesis_ids": [
+      "C089-H01"
+    ],
+    "reason": "The recommended and experimental donor structures are identical.",
+    "actual_reacting_atom_index": 2,
+    "candidate_reacting_atom_index": 2,
+    "structural_similarity_for_tiebreak_only": 1.0,
+    "applicable_product_option_ids": [],
+    "actual_pair_id": "REV-P01",
+    "route": "PH",
+    "actual_donor_smiles": "CO[PH](=O)OC",
+    "actual_identity_status": "structure_identified_in_source_report",
+    "source_occurrences": [
+      {
+        "source_type": "annotated_pdf",
+        "file": "/Users/chonghuanzhang/Downloads/2推荐100分子_结构与实测对应图册.pdf",
+        "page": 10,
+        "annotation": "测了，没产物；可以直接写这个化合物"
+      }
+    ],
+    "record_type": "supplemental_reagent_report",
+    "qualitative_outcome_zh": "已开设，未检出产物"
+  },
+  {
+    "candidate_display_id": "C090",
+    "candidate_name_en": "Diethyl phosphite",
+    "candidate_smiles": "CCO[PH](=O)OCC",
+    "relationship_category": "Exact identity",
+    "relationship_detail_zh": "完全相同",
+    "route_center": "P",
+    "route_compatible_hypothesis_ids": [
+      "C090-H01"
+    ],
+    "reason": "The recommended and experimental donor structures are identical.",
+    "actual_reacting_atom_index": 3,
+    "candidate_reacting_atom_index": 3,
+    "structural_similarity_for_tiebreak_only": 1.0,
+    "applicable_product_option_ids": [],
+    "actual_pair_id": "REV-P02",
+    "route": "PH",
+    "actual_donor_smiles": "CCO[PH](=O)OCC",
+    "actual_identity_status": "structure_identified_in_source_report",
+    "source_occurrences": [
+      {
+        "source_type": "annotated_pdf",
+        "file": "/Users/chonghuanzhang/Downloads/2推荐100分子_结构与实测对应图册.pdf",
+        "page": 10,
+        "annotation": "测了，没产物；可以直接写这个化合物"
+      }
+    ],
+    "record_type": "supplemental_reagent_report",
+    "qualitative_outcome_zh": "已开设，未检出产物"
+  }
+]

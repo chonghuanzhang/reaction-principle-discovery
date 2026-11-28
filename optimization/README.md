@@ -1,0 +1,44 @@
+# Bayesian condition recommendation in three reaction systems
+
+The current study applies a shared **13,920-condition decision space** independently to N–H, O–H and S–H: **145 catalyst–ligand and loading formulations × eight solvents × twelve bases**. Each deposited campaign history begins with twelve conditions sampled uniformly without replacement from that complete space. A hierarchical Gaussian-process surrogate and upper confidence bound (UCB) then assigns four further conditions per round, with four recorded responses returned before the next saved update.
+
+| System | First highest measured response | First stopping round | Unique selected conditions | Highest measured UV response |
+|---|---:|---:|---:|---:|
+| N–H | 10 | 12 | 60 | 1.5470 |
+| O–H | 9 | 11 | 56 | 1.4425 |
+| S–H | 7 | 9 | 48 | 3.2045 |
+
+All three campaign records use the same empirical stopping rule. The twelve recorded initial conditions are round 0.
+
+All current candidate-space rows and all 164 selected trajectory rows specify **500 µL**. The source-screen procedure specifies 250 µL. Numerical scope records are predominantly 500 µL; AP001–AP003 retain their original 250 µL source-screen scale. These values describe distinct source-screen and BO/scope layers. The highest measured-response BO settings are AgF/PPh₃/K₂CO₃/DCE (N-H), NiCl₂·DME/DIPEA/DCE (O-H) and CuCl/PPh₃/CsOH/DCE (S-H). Table 1 uses different N-H and O-H settings and the same S-H setting.
+
+## Current materials
+
+| Resource | Contents |
+|---|---|
+| [Methods](METHODS.md) | Decision space, hierarchical GP, UCB, shared stopping equation and interpretation |
+| [Current protocol](current/protocol.json) | Exact model parameters, recorded initial-batch definition, numerical settings and checksums |
+| [Condition identities](current/data/) | 145 formulations, eight solvents, twelve bases and complete 13,920-candidate tables for each system |
+| [Recorded campaigns](current/runs/) | Each initial set and subsequent batch, measured feedback and posterior quantities at recommendation |
+| [Table R3](../experiments/bo_trajectories/) | Round-by-round response progress and stopping checks |
+| [Table R4](../experiments/selected_responses/) | All 164 selected response records with physical source cells |
+| [Figure guide](FIGURE_GUIDE.md) | Main Figure 5 and Supplementary Figures 7–9 |
+| [Campaign verification](current/verification/campaign_verification.json) | Exact recommendation, measured-feedback and first-stop integrity checks |
+| [Original workbooks](raw/) | Summary workbook and lossless byte parts of the larger response workbook |
+
+## Verify the recorded campaigns
+
+From the repository root, with Python 3.12 and NumPy 2.3.5:
+
+```bash
+python -m pip install numpy==2.3.5
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
+  python optimization/current/verify_recorded_campaign.py --output /tmp/three-system-bo
+python tools/check_data.py
+```
+
+The post-run checker validates each recorded 12-condition initial batch against the full decision space, recomputes every later full-space ranking from only the responses assigned through the preceding round, checks the recorded measurements and first stopping round, and writes posterior snapshots. `engine.py` ranks every unselected candidate; unobserved response values are not inputs to its UCB calculation. The saved history updates only after each complete four-response batch.
+
+The original response cells can also be checked with `python optimization/scripts/check_data.py --output /tmp/source-cell-check.json`. This reads the original summary workbook directly and validates the measured conditions in the current candidate spaces, recorded trajectories and Table R4. Reconstruct the large workbook using `python optimization/scripts/reassemble_workbook.py --output /tmp/full_response_workbook.xlsx`.
+
+The 96-condition grids used in current Figure 5b–d are measured visualization slices, separate from the 13,920-condition recommendation space. Their source data and verification entry point are in [current/figure5/](current/figure5/).

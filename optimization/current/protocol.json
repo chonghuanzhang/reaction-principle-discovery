@@ -1,0 +1,188 @@
+{
+  "analysis": "Recorded three-system Bayesian condition recommendation",
+  "execution_mode": "recorded sequential campaign history",
+  "candidate_count_per_system": 13920,
+  "axes": {
+    "catalyst_ligand_loading_formulations": 145,
+    "solvents": 8,
+    "bases": 12
+  },
+  "response": "UV response",
+  "response_corrections": {
+    "NH_original_heading": "MS_Response was confirmed by the author to denote UV response",
+    "base_label": "CsOH/2 was confirmed by the author to denote CsOH"
+  },
+  "initialization": {
+    "count": 12,
+    "sampling": "without replacement from all 13920 candidate conditions",
+    "record": "The twelve distinct round-0 indices in each deposited trajectory are the recorded initialization batch."
+  },
+  "acquisition": {
+    "function": "UCB = posterior_mean + beta * latent_posterior_SD",
+    "batch_size": 4,
+    "scope": "All unselected candidates in the 13920-condition decision space",
+    "batch_mode": "Simultaneous top4; the next saved update uses the complete four-response batch",
+    "tie_breaking": "13920 PCG64 uniform jitter draws scaled by 1e-12, stable argsort"
+  },
+  "model": {
+    "type": "Hierarchical Gaussian process with conjugate variance-scale update",
+    "kernel_terms": [
+      "C",
+      "S",
+      "B",
+      "C:S",
+      "C:B",
+      "S:B"
+    ],
+    "kernel": "(1-rho)*sum_j weights_j equality_j + 6*rho*exact_condition_equality",
+    "prior_shape": 2,
+    "prior_scale": 1,
+    "observation_noise_variance": 1,
+    "standardization": "Mean and population SD of the currently selected responses; scale=1 if SD<=1e-12",
+    "latent_uncertainty_interpretation": "The displayed +/-2 latent posterior SD reports model uncertainty across the full 13920-condition space."
+  },
+  "system_configs": {
+    "NH": {
+      "id": "eq_r095_b050",
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rho": 0.95,
+      "beta": 0.5,
+      "initialization": "recorded_full_space_batch",
+      "acquisition": "UCB"
+    },
+    "OH": {
+      "id": "cat_r090_b100",
+      "weights": [
+        1.5,
+        0.3,
+        0.3,
+        1.8,
+        1.8,
+        0.3
+      ],
+      "rho": 0.9,
+      "beta": 1.0,
+      "initialization": "recorded_full_space_batch",
+      "acquisition": "UCB"
+    },
+    "SH": {
+      "id": "cat_r090_b196",
+      "weights": [
+        1.5,
+        0.3,
+        0.3,
+        1.8,
+        1.8,
+        0.3
+      ],
+      "rho": 0.9,
+      "beta": 1.96,
+      "initialization": "recorded_full_space_batch",
+      "acquisition": "UCB"
+    }
+  },
+  "stopping": {
+    "rule": "At the first completed round with n>=24 and initial_SD>1e-12 and best(n)-best(n-8)<=0.1*initial_SD",
+    "minimum_observations": 24,
+    "patience_rounds": 2,
+    "patience_observations": 8,
+    "initial_population_SD_fraction": 0.1,
+    "UCB_used_for_stopping": false
+  },
+  "execution": {
+    "campaign_loop": "For each saved round, fit the surrogate to responses assigned through the preceding completed round, record four recommendations and four measured responses, then save the next model update.",
+    "feedback": "Saved updates assimilate complete four-response batches; partial-batch updates are absent from the deposited histories.",
+    "source_resolution": "For repeated condition keys in the deposited response ledger, complete-condition-grid records take precedence over catalyst-panel records. No averaging or maximum-response selection."
+  },
+  "record_provenance": {
+    "sequential_consistency": "The saved histories and replay use only responses assigned through the preceding completed round.",
+    "duplicate_condition_keys": 5,
+    "duplicate_interpretation": "Each conflict-table row is a distinct source record. Shared encoded condition keys may omit plate, batch or analytical differences."
+  },
+  "experimental_record_context": {
+    "current_candidate_table_volume_uL": 500,
+    "current_selected_trajectory_rows": 164,
+    "current_selected_trajectory_volume_uL": 500,
+    "source_general_procedure_volume_uL": 250,
+    "scope_volume_note": "Numerical scope records are predominantly 500 uL. Legacy NH records AP001-AP003 retain their original 250 uL source-screen scale.",
+    "volume_layer_scope": "Source-screen and BO/scope volumes are reported as distinct experimental layers."
+  },
+  "condition_context": {
+    "highest_measured_response_settings": {
+      "NH": "AgF/PPh3/K2CO3/DCE",
+      "OH": "NiCl2·DME/DIPEA/DCE",
+      "SH": "CuCl/PPh3/CsOH/DCE"
+    },
+    "table1_scope_settings": {
+      "NH": "Ag2SO4/PPh3/NaH/DCE",
+      "OH": "NiCl2·DME/Na3PO4·12H2O/DCE",
+      "SH": "CuCl/PPh3/CsOH/DCE"
+    },
+    "comparison": "NH and OH Table 1/scope settings differ from the recorded BO highest-response settings; SH matches. The scope settings are not collectively the three BO maxima."
+  },
+  "post_run_verification": {
+    "purpose": "Recompute each recorded campaign history and check the saved recommendations, measured UV responses, posterior quantities and first stopping decision.",
+    "scope": "Integrity verification that each recorded initialization contains twelve distinct indices in the 13920-condition space, followed by full-space ranking of every later recommendation using measured feedback assigned through each completed round."
+  },
+  "campaigns": [
+    {
+      "system": "NH",
+      "config_id": "eq_r095_b050",
+      "initial_conditions": 12,
+      "batch_size": 4,
+      "first_best_round": 10,
+      "stopping_round": 12,
+      "unique_conditions": 60,
+      "highest_measured_UV_response": 1.54697139066581,
+      "initial_population_SD": 0.47250477013351994,
+      "stop_tolerance_UV_units": 0.047250477013352
+    },
+    {
+      "system": "OH",
+      "config_id": "cat_r090_b100",
+      "initial_conditions": 12,
+      "batch_size": 4,
+      "first_best_round": 9,
+      "stopping_round": 11,
+      "unique_conditions": 56,
+      "highest_measured_UV_response": 1.44247787610619,
+      "initial_population_SD": 0.05410955254257564,
+      "stop_tolerance_UV_units": 0.005410955254257565
+    },
+    {
+      "system": "SH",
+      "config_id": "cat_r090_b196",
+      "initial_conditions": 12,
+      "batch_size": 4,
+      "first_best_round": 7,
+      "stopping_round": 9,
+      "unique_conditions": 48,
+      "highest_measured_UV_response": 3.20446096654275,
+      "initial_population_SD": 0.18732155442647067,
+      "stop_tolerance_UV_units": 0.01873215544264707
+    }
+  ],
+  "method_reference": {
+    "source_id": "L361",
+    "doi": "10.1039/d6sc05561c",
+    "description": "Prior GP-based reaction condition recommendation and random-screening comparison; current batch size, kernel and UCB settings are specified here."
+  },
+  "sha256": {
+    "data/NH/candidate_space.csv": "efe9509e4a154f115efafa57c6e8b1f4ba32b561e71bd09c5d46f62a07d4a530",
+    "runs/NH/trajectory.json": "d1295273cc554696851114ba0550ca4ff4e326960c08d59453c8bfbd6235c28e",
+    "runs/NH/trajectory_conditions.csv": "e438e5638960e7332f5b737a52eda4da21e976f1f4f700e349ad03404cc65c93",
+    "data/OH/candidate_space.csv": "1ab66a8fadc8ddee99d14e3e97ca638bd8fce5e5d5ec970486dfb46662656388",
+    "runs/OH/trajectory.json": "fdf741f521c7168add6c6acdc234c2d5d315491515f056dfdeb60557e0a02a6a",
+    "runs/OH/trajectory_conditions.csv": "0cbdea5260c7f71c056022050a923641d422c0eb42e91cdbefb2aa6ddde118c7",
+    "data/SH/candidate_space.csv": "25e1947e0f617e8b9ace0d1275b649e12d47a392de4f6a620b9c5584000f7a32",
+    "runs/SH/trajectory.json": "a76b8ab8ee74ce918e4257183a77e6bcad39f46abfbe989fe577f8257b1c8abb",
+    "runs/SH/trajectory_conditions.csv": "f421a766e6d7bd17cf7fbb001a281d9d1d3cf302308558d8519aacd7a523a73d"
+  }
+}

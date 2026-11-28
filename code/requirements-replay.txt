@@ -1,0 +1,7 @@
+# Python 3.12. Exact core versions exercised for the released offline replay.
+rdkit==2025.9.6
+pydantic==2.14.3
+PyYAML==6.0.3
+pytest==8.4.2
+cryptography==46.0.7
+pypdf==6.21.4

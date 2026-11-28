@@ -1,0 +1,944 @@
+{
+  "source_file": "baseline/文献only.cdxml",
+  "source_sha256": "0a367ee7076677a7ff35175ecc0142ed164c2d6fd675898c7cbefc47e874447c",
+  "result_definition": "Trace denotes the negligible-response negative display category and 有产物 denotes a positive outcome. The LIT21 trace outcome was confirmed by the user in the conversation. No numerical UV values are supplied for these records.",
+  "displayed_records": 20,
+  "positive_displayed_records": 3,
+  "positive_rate_by_displayed_record": 0.15,
+  "unique_molecular_structures": 20,
+  "positive_unique_molecular_structures": 3,
+  "positive_rate_by_unique_structure": 0.15,
+  "duplicate_structure_groups": [
+    [
+      "LIT11",
+      "LIT13"
+    ]
+  ],
+  "exact_rp_actual_overlap_unique_count": 1,
+  "exact_rp_recommendation_overlap_unique_count": 5,
+  "records": [
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT01",
+      "row": 1,
+      "column": 1,
+      "name": "Sodium ethoxide",
+      "donor_class": "alkoxide",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "705",
+      "source_structure_bounding_box": [
+        90.83,
+        182.38,
+        151.42,
+        193.88
+      ],
+      "source_structure_label": "ONaCH3CH2ONa",
+      "source_result_id": "838",
+      "source_result_bounding_box": [
+        110.66,
+        203.5,
+        132.93,
+        215.0
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "*.CC[O][Na]",
+      "canonical_smiles": "CC[O-].[Na+]",
+      "molecular_formula": "C2H5NaO",
+      "neutral_parent_smiles": "CCO",
+      "structure_normalization": "Represented the sodium salt as explicit anion and sodium counterion; removed abbreviation placeholder atoms.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT01"
+      ],
+      "unique_structure_representative": "LIT01",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT02",
+      "row": 1,
+      "column": 2,
+      "name": "Sodium methoxide",
+      "donor_class": "alkoxide",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "301",
+      "source_structure_bounding_box": [
+        173.83,
+        182.05,
+        214.42,
+        193.55
+      ],
+      "source_structure_label": "ONaCH3ONa",
+      "source_result_id": "839",
+      "source_result_bounding_box": [
+        181.44,
+        204.04,
+        203.71,
+        215.54
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "*.C[O][Na]",
+      "canonical_smiles": "C[O-].[Na+]",
+      "molecular_formula": "CH3NaO",
+      "neutral_parent_smiles": "CO",
+      "structure_normalization": "Represented the sodium salt as explicit anion and sodium counterion; removed abbreviation placeholder atoms.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT02"
+      ],
+      "unique_structure_representative": "LIT02",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT03",
+      "row": 1,
+      "column": 3,
+      "name": "Sodium 4-methylbenzenesulfinate",
+      "donor_class": "sulfinate",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "151",
+      "source_structure_bounding_box": [
+        241.74,
+        161.65,
+        319.87,
+        195.42
+      ],
+      "source_structure_label": "SOONaSO2Na",
+      "source_result_id": "840",
+      "source_result_bounding_box": [
+        263.03,
+        207.04,
+        285.3,
+        218.54
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "Cc1ccc(S(=O)[O][Na])cc1",
+      "canonical_smiles": "Cc1ccc(S(=O)[O-])cc1.[Na+]",
+      "molecular_formula": "C7H7NaO2S",
+      "neutral_parent_smiles": "Cc1ccc(S(=O)O)cc1",
+      "structure_normalization": "Represented the sodium salt as explicit anion and sodium counterion; removed abbreviation placeholder atoms.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT03"
+      ],
+      "unique_structure_representative": "LIT03",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT04",
+      "row": 1,
+      "column": 4,
+      "name": "Sodium naphthalene-1-sulfinate",
+      "donor_class": "sulfinate",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "443",
+      "source_structure_bounding_box": [
+        345.19,
+        154.65,
+        411.74,
+        205.75
+      ],
+      "source_structure_label": "SNaSNaOO",
+      "source_result_id": "841",
+      "source_result_bounding_box": [
+        362.93,
+        206.37,
+        385.2,
+        217.87
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "O=[S](=O)([Na])c1cccc2ccccc12",
+      "canonical_smiles": "O=S([O-])c1cccc2ccccc12.[Na+]",
+      "molecular_formula": "C10H7NaO2S",
+      "neutral_parent_smiles": "O=S(O)c1cccc2ccccc12",
+      "structure_normalization": "Represented the sodium salt as explicit anion and sodium counterion; removed abbreviation placeholder atoms.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT04"
+      ],
+      "unique_structure_representative": "LIT04",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT05",
+      "row": 1,
+      "column": 5,
+      "name": "Sodium phenylmethanesulfinate",
+      "donor_class": "sulfinate",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "511",
+      "source_structure_bounding_box": [
+        450.28,
+        165.79,
+        528.57,
+        195.29
+      ],
+      "source_structure_label": "SOONaSO2Na",
+      "source_result_id": "842",
+      "source_result_bounding_box": [
+        476.48,
+        207.7,
+        498.75,
+        219.2
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "O=S(Cc1ccccc1)[O][Na]",
+      "canonical_smiles": "O=S([O-])Cc1ccccc1.[Na+]",
+      "molecular_formula": "C7H7NaO2S",
+      "neutral_parent_smiles": "O=S(O)Cc1ccccc1",
+      "structure_normalization": "Represented the sodium salt as explicit anion and sodium counterion; removed abbreviation placeholder atoms.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT05"
+      ],
+      "unique_structure_representative": "LIT05",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT06",
+      "row": 2,
+      "column": 1,
+      "name": "Bis(pinacolato)diboron",
+      "donor_class": "diboron",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "t",
+      "source_element_id": "85",
+      "source_structure_bounding_box": [
+        94.08,
+        242.05,
+        126.36,
+        253.55
+      ],
+      "source_structure_label": "(Bpin)2",
+      "source_result_id": "843",
+      "source_result_bounding_box": [
+        97.86,
+        266.98,
+        120.13,
+        278.48
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": null,
+      "canonical_smiles": "CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C",
+      "molecular_formula": "C12H24B2O4",
+      "neutral_parent_smiles": "CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C",
+      "structure_normalization": "Expanded source text (Bpin)2 into bis(pinacolato)diboron.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT06"
+      ],
+      "unique_structure_representative": "LIT06",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT07",
+      "row": 2,
+      "column": 2,
+      "name": "3-Phenylpropanoic acid",
+      "donor_class": "carboxylic acid",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "605",
+      "source_structure_bounding_box": [
+        150.4,
+        224.91,
+        236.64,
+        273.08
+      ],
+      "source_structure_label": "OHO",
+      "source_result_id": "844",
+      "source_result_bounding_box": [
+        191.1,
+        267.64,
+        213.37,
+        279.14
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "O=C(O)CCc1ccccc1",
+      "canonical_smiles": "O=C(O)CCc1ccccc1",
+      "molecular_formula": "C9H10O2",
+      "neutral_parent_smiles": "O=C(O)CCc1ccccc1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT07"
+      ],
+      "unique_structure_representative": "LIT07",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT08",
+      "row": 2,
+      "column": 3,
+      "name": "Thiophene-3-carboxylic acid",
+      "donor_class": "carboxylic acid",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "639",
+      "source_structure_bounding_box": [
+        262.87,
+        223.91,
+        322.18,
+        270.84
+      ],
+      "source_structure_label": "SOOH",
+      "source_result_id": "845",
+      "source_result_bounding_box": [
+        283.01,
+        278.63,
+        305.28,
+        290.13
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "O=C(O)c1ccsc1",
+      "canonical_smiles": "O=C(O)c1ccsc1",
+      "molecular_formula": "C5H4O2S",
+      "neutral_parent_smiles": "O=C(O)c1ccsc1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT08"
+      ],
+      "unique_structure_representative": "LIT08",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT09",
+      "row": 2,
+      "column": 4,
+      "name": "4-Methylbenzenesulfonic acid",
+      "donor_class": "sulfonic acid",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "658",
+      "source_structure_bounding_box": [
+        344.89,
+        225.71,
+        411.29,
+        273.88
+      ],
+      "source_structure_label": "SOOOH",
+      "source_result_id": "846",
+      "source_result_bounding_box": [
+        355.27,
+        279.3,
+        377.54,
+        290.8
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "Cc1ccc(S(=O)(=O)O)cc1",
+      "canonical_smiles": "Cc1ccc(S(=O)(=O)O)cc1",
+      "molecular_formula": "C7H8O3S",
+      "neutral_parent_smiles": "Cc1ccc(S(=O)(=O)O)cc1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT09"
+      ],
+      "unique_structure_representative": "LIT09",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT10",
+      "row": 2,
+      "column": 5,
+      "name": "4-Methylbenzoic acid",
+      "donor_class": "carboxylic acid",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "707",
+      "source_structure_bounding_box": [
+        445.1,
+        239.78,
+        521.57,
+        273.55
+      ],
+      "source_structure_label": "OOHCOOH",
+      "source_result_id": "847",
+      "source_result_bounding_box": [
+        476.48,
+        280.3,
+        498.75,
+        291.8
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "Cc1ccc(C(=O)O)cc1",
+      "canonical_smiles": "Cc1ccc(C(=O)O)cc1",
+      "molecular_formula": "C8H8O2",
+      "neutral_parent_smiles": "Cc1ccc(C(=O)O)cc1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT10"
+      ],
+      "unique_structure_representative": "LIT10",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT11",
+      "row": 3,
+      "column": 1,
+      "name": "Diethyl phosphite",
+      "donor_class": "P–H",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "304",
+      "source_structure_bounding_box": [
+        74.98,
+        305.88,
+        126.67,
+        340.83
+      ],
+      "source_structure_label": "PHOOOEtOOEt",
+      "source_result_id": "848",
+      "source_result_bounding_box": [
+        90.53,
+        349.89,
+        112.81,
+        361.39
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "CCO[PH](=O)OCC",
+      "canonical_smiles": "CCO[PH](=O)OCC",
+      "molecular_formula": "C4H11O3P",
+      "neutral_parent_smiles": "CCO[PH](=O)OCC",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT11",
+        "LIT13"
+      ],
+      "unique_structure_representative": "LIT11",
+      "duplicate_note": "Same molecular graph appears at source positions R3C1 and R3C3. The source does not state whether these are separate runs or a repeated drawing.",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": [
+        "C090"
+      ]
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT12",
+      "row": 3,
+      "column": 2,
+      "name": "Ethyl phenylphosphinate",
+      "donor_class": "P–H",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "316",
+      "source_structure_bounding_box": [
+        163.45,
+        298.89,
+        227.01,
+        346.44
+      ],
+      "source_structure_label": "PHOOEtO",
+      "source_result_id": "849",
+      "source_result_bounding_box": [
+        182.44,
+        353.89,
+        204.71,
+        365.39
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "CCO[PH](=O)c1ccccc1",
+      "canonical_smiles": "CCO[PH](=O)c1ccccc1",
+      "molecular_formula": "C8H11O2P",
+      "neutral_parent_smiles": "CCO[PH](=O)c1ccccc1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT12"
+      ],
+      "unique_structure_representative": "LIT12",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT13",
+      "row": 3,
+      "column": 3,
+      "name": "Diethyl phosphite",
+      "donor_class": "P–H",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "348",
+      "source_structure_bounding_box": [
+        261.93,
+        315.93,
+        313.61,
+        347.11
+      ],
+      "source_structure_label": "PHOOEtOOEtO",
+      "source_result_id": "850",
+      "source_result_bounding_box": [
+        275.35,
+        355.55,
+        297.62,
+        367.05
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "CCO[PH](=O)OCC",
+      "canonical_smiles": "CCO[PH](=O)OCC",
+      "molecular_formula": "C4H11O3P",
+      "neutral_parent_smiles": "CCO[PH](=O)OCC",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT11",
+        "LIT13"
+      ],
+      "unique_structure_representative": "LIT11",
+      "duplicate_note": "Same molecular graph appears at source positions R3C1 and R3C3. The source does not state whether these are separate runs or a repeated drawing.",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": [
+        "C090"
+      ]
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT14",
+      "row": 3,
+      "column": 4,
+      "name": "Diphenylphosphine oxide",
+      "donor_class": "P–H",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "88",
+      "source_structure_bounding_box": [
+        345.37,
+        307.02,
+        420.8,
+        354.57
+      ],
+      "source_structure_label": "PHO",
+      "source_result_id": "851",
+      "source_result_bounding_box": [
+        360.26,
+        360.55,
+        382.54,
+        372.05
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+      "canonical_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+      "molecular_formula": "C12H11OP",
+      "neutral_parent_smiles": "O=[PH](c1ccccc1)c1ccccc1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT14"
+      ],
+      "unique_structure_representative": "LIT14",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": [
+        "C097"
+      ]
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT15",
+      "row": 3,
+      "column": 5,
+      "name": "Bis(4-methylphenyl)phosphine oxide",
+      "donor_class": "P–H",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "406",
+      "source_structure_bounding_box": [
+        435.13,
+        309.22,
+        535.2,
+        356.77
+      ],
+      "source_structure_label": "PHO",
+      "source_result_id": "852",
+      "source_result_bounding_box": [
+        469.82,
+        360.55,
+        492.09,
+        372.05
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "Cc1ccc([PH](=O)c2ccc(C)cc2)cc1",
+      "canonical_smiles": "Cc1ccc([PH](=O)c2ccc(C)cc2)cc1",
+      "molecular_formula": "C14H15OP",
+      "neutral_parent_smiles": "Cc1ccc([PH](=O)c2ccc(C)cc2)cc1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT15"
+      ],
+      "unique_structure_representative": "LIT15",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT16",
+      "row": 4,
+      "column": 1,
+      "name": "3,3,3-Trifluoropropanoic acid",
+      "donor_class": "carboxylic acid",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "585",
+      "source_structure_bounding_box": [
+        78.3,
+        389.78,
+        141.56,
+        420.0
+      ],
+      "source_structure_label": "OHOFFFCF3",
+      "source_result_id": "853",
+      "source_result_bounding_box": [
+        101.85,
+        435.14,
+        124.13,
+        446.64
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "O=C(O)CC(F)(F)F",
+      "canonical_smiles": "O=C(O)CC(F)(F)F",
+      "molecular_formula": "C3H3F3O2",
+      "neutral_parent_smiles": "O=C(O)CC(F)(F)F",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT16"
+      ],
+      "unique_structure_representative": "LIT16",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT17",
+      "row": 4,
+      "column": 2,
+      "name": "Benzoic acid",
+      "donor_class": "carboxylic acid",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "282",
+      "source_structure_bounding_box": [
+        166.73,
+        395.31,
+        230.88,
+        429.08
+      ],
+      "source_structure_label": "OOHCOOH",
+      "source_result_id": "854",
+      "source_result_bounding_box": [
+        169.79,
+        441.14,
+        192.06,
+        452.64
+      ],
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "O=C(O)c1ccccc1",
+      "canonical_smiles": "O=C(O)c1ccccc1",
+      "molecular_formula": "C7H6O2",
+      "neutral_parent_smiles": "O=C(O)c1ccccc1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT17"
+      ],
+      "unique_structure_representative": "LIT17",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": []
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT18",
+      "row": 4,
+      "column": 3,
+      "name": "Cyclohexanethiol",
+      "donor_class": "S–H",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "551",
+      "source_structure_bounding_box": [
+        254.46,
+        389.18,
+        302.74,
+        422.95
+      ],
+      "source_structure_label": "SH",
+      "source_result_id": "855",
+      "source_result_bounding_box": [
+        272.35,
+        438.14,
+        305.35,
+        449.64
+      ],
+      "source_result": "有产物",
+      "response_positive": true,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "SC1CCCCC1",
+      "canonical_smiles": "SC1CCCCC1",
+      "molecular_formula": "C6H12S",
+      "neutral_parent_smiles": "SC1CCCCC1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT18"
+      ],
+      "unique_structure_representative": "LIT18",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": [
+        "C057"
+      ]
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT19",
+      "row": 4,
+      "column": 4,
+      "name": "Naphthalene-2-thiol",
+      "donor_class": "S–H",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "201",
+      "source_structure_bounding_box": [
+        336.4,
+        392.65,
+        409.62,
+        426.42
+      ],
+      "source_structure_label": "SH",
+      "source_result_id": "856",
+      "source_result_bounding_box": [
+        346.24,
+        444.13,
+        379.24,
+        455.63
+      ],
+      "source_result": "有产物",
+      "response_positive": true,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "Sc1ccc2ccccc2c1",
+      "canonical_smiles": "Sc1ccc2ccccc2c1",
+      "molecular_formula": "C10H8S",
+      "neutral_parent_smiles": "Sc1ccc2ccccc2c1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT19"
+      ],
+      "unique_structure_representative": "LIT19",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": [
+        "C004"
+      ]
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT20",
+      "row": 4,
+      "column": 5,
+      "name": "4-Methoxybenzenethiol",
+      "donor_class": "S–H",
+      "source_file": "baseline/文献only.cdxml",
+      "source_element_type": "fragment",
+      "source_element_id": "235",
+      "source_structure_bounding_box": [
+        438.42,
+        386.31,
+        516.68,
+        423.73
+      ],
+      "source_structure_label": "SHOOMe",
+      "source_result_id": "857",
+      "source_result_bounding_box": [
+        460.79,
+        440.8,
+        493.79,
+        452.3
+      ],
+      "source_result": "有产物",
+      "response_positive": true,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": "COc1ccc(S)cc1",
+      "canonical_smiles": "COc1ccc(S)cc1",
+      "molecular_formula": "C7H8OS",
+      "neutral_parent_smiles": "COc1ccc(S)cc1",
+      "structure_normalization": "RDKit interpretation of the CDXML fragment.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; individual condition assignments are not encoded in the supplied CDXML.",
+      "same_structure_records": [
+        "LIT20"
+      ],
+      "unique_structure_representative": "LIT20",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [
+        "NU032"
+      ],
+      "exact_rp_actual_pair_ids": [
+        "AP096"
+      ],
+      "exact_rp_recommended_candidate_ids": [
+        "C007"
+      ]
+    },
+    {
+      "baseline": "Literature only",
+      "record_id": "LIT21",
+      "row": null,
+      "column": null,
+      "name": "Diisopropyl phosphite",
+      "donor_class": "P(O)H donor",
+      "source_file": "baseline/literature_selection_20th_structure.png",
+      "source_element_type": "user_supplied_structure_image",
+      "source_element_id": null,
+      "source_structure_bounding_box": null,
+      "source_structure_label": "Diisopropyl phosphite, neutral P–H reagent",
+      "source_result_id": null,
+      "source_result_bounding_box": null,
+      "source_result": "trace",
+      "response_positive": false,
+      "numeric_uv_response": null,
+      "source_rdkit_smiles": null,
+      "canonical_smiles": "CC(C)O[PH](=O)OC(C)C",
+      "molecular_formula": "C6H15O3P",
+      "neutral_parent_smiles": "CC(C)O[PH](=O)OC(C)C",
+      "structure_normalization": "Structure transcribed from the user-supplied image; explicit neutral P–H and P=O retained; RDKit confirms C6H15O3P.",
+      "condition_assignment": null,
+      "condition_assignment_note": "User states each system was examined under its Bayesian optimum; no entry-specific condition assignment was supplied for this supplemental reagent.",
+      "same_structure_records": [
+        "LIT21"
+      ],
+      "unique_structure_representative": "LIT21",
+      "duplicate_note": "",
+      "exact_rp_actual_donor_ids": [],
+      "exact_rp_actual_pair_ids": [],
+      "exact_rp_recommended_candidate_ids": [],
+      "source_sha256": "f86ccbb7bc493d2db48862c356236ac126048fbd408c0eb21fe17500b2a5074b",
+      "endpoint_source": "User confirmation in this conversation on 2026-11-18: trace.",
+      "record_origin": "Supplemental omitted literature-selected reagent supplied by the user; not a new CDXML entry.",
+      "figure_display_row": 4,
+      "figure_display_column": 5,
+      "exact_llm_baseline_ids": []
+    }
+  ],
+  "record_count_note": "The original CDXML contains 20 displayed entries (19 unique structures; LIT11/LIT13 are duplicate diethyl phosphite). LIT21 is the separately supplied omitted reagent. The combined collection contains 21 source records and 20 unique molecules.",
+  "source_unique_molecular_structures": 19,
+  "total_records_with_supplement": 21,
+  "supplemental_record_ids": [
+    "LIT21"
+  ]
+}

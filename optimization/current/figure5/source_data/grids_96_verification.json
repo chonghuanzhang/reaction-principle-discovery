@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "total_nodes": 288,
+  "systems": {
+    "NH": {
+      "nodes": 96,
+      "all_measured": true,
+      "height": "UV response",
+      "local_maximum": 1.03780376396515,
+      "local_maximum_candidate_index": 790,
+      "full_space_measured_maximum": 1.54697139066581,
+      "full_space_measured_maximum_candidate_index": 112,
+      "full_space_measured_maximum_in_slice": false
+    },
+    "OH": {
+      "nodes": 96,
+      "all_measured": true,
+      "height": "UV response",
+      "local_maximum": 1.44247787610619,
+      "local_maximum_candidate_index": 7405,
+      "full_space_measured_maximum": 1.44247787610619,
+      "full_space_measured_maximum_candidate_index": 7405,
+      "full_space_measured_maximum_in_slice": true
+    },
+    "SH": {
+      "nodes": 96,
+      "all_measured": true,
+      "height": "UV response",
+      "local_maximum": 3.20446096654275,
+      "local_maximum_candidate_index": 2708,
+      "full_space_measured_maximum": 3.20446096654275,
+      "full_space_measured_maximum_candidate_index": 2708,
+      "full_space_measured_maximum_in_slice": true
+    }
+  },
+  "sources": {
+    "optimization/current/figure5/source_data/grids_96.csv": "4a2dc4f8549e4bd4fb030ed2ae3da3ebca4079b26f21cc6b81551a87b71b11c8",
+    "optimization/current/figure5/source_data/formulation_key.csv": "4d7eff01a1d0ba4c2b6eedde9bbbf912315df4f8f00a404173720229d4816338",
+    "optimization/current/data/NH/candidate_space.csv": "efe9509e4a154f115efafa57c6e8b1f4ba32b561e71bd09c5d46f62a07d4a530",
+    "optimization/current/data/OH/candidate_space.csv": "1ab66a8fadc8ddee99d14e3e97ca638bd8fce5e5d5ec970486dfb46662656388",
+    "optimization/current/data/SH/candidate_space.csv": "25e1947e0f617e8b9ace0d1275b649e12d47a392de4f6a620b9c5584000f7a32"
+  }
+}

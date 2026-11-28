@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "figure_size_mm": [
+    190,
+    255
+  ],
+  "layout": {
+    "top": "2x2: a progress, b NH, c OH, d SH",
+    "bottom": "e 2x3 posterior snapshots"
+  },
+  "panel_a": {
+    "source_values": 164,
+    "bars": 35,
+    "bar_height": "Arithmetic mean of measured responses in each batch",
+    "whiskers": "Observed minimum–maximum across different conditions, not replicate uncertainty",
+    "initial_per_system": 12,
+    "per_BO_round": 4,
+    "systems": {
+      "NH": {
+        "hit": 10,
+        "stop": 12,
+        "n": 60,
+        "maximum": 1.54697139066581
+      },
+      "OH": {
+        "hit": 9,
+        "stop": 11,
+        "n": 56,
+        "maximum": 1.44247787610619
+      },
+      "SH": {
+        "hit": 7,
+        "stop": 9,
+        "n": 48,
+        "maximum": 3.20446096654275
+      }
+    }
+  },
+  "panels_bcd": [
+    {
+      "system": "NH",
+      "values": "measured UV response",
+      "nodes": 96,
+      "shape": [
+        12,
+        8
+      ],
+      "local_maximum": 1.03780376396515,
+      "local_minimum": 0.0,
+      "maximum_candidate_index": 790,
+      "maximum_row": 11,
+      "maximum_column": 2,
+      "colour": "Within-displayed-grid response divided by its maximum; 0..1",
+      "raw_height_preserved": true,
+      "all_original_nodes_preserved": true
+    },
+    {
+      "system": "OH",
+      "values": "measured UV response",
+      "nodes": 96,
+      "shape": [
+        12,
+        8
+      ],
+      "local_maximum": 1.44247787610619,
+      "local_minimum": 0.0,
+      "maximum_candidate_index": 7405,
+      "maximum_row": 10,
+      "maximum_column": 2,
+      "colour": "Within-displayed-grid response divided by its maximum; 0..1",
+      "raw_height_preserved": true,
+      "all_original_nodes_preserved": true
+    },
+    {
+      "system": "SH",
+      "values": "measured UV response",
+      "nodes": 96,
+      "shape": [
+        12,
+        8
+      ],
+      "local_maximum": 3.20446096654275,
+      "local_minimum": 0.0,
+      "maximum_candidate_index": 2708,
+      "maximum_row": 9,
+      "maximum_column": 2,
+      "colour": "Within-displayed-grid response divided by its maximum; 0..1",
+      "raw_height_preserved": true,
+      "all_original_nodes_preserved": true
+    }
+  ],
+  "panel_e": {
+    "grid": [
+      2,
+      3
+    ],
+    "rounds": [
+      0,
+      1,
+      2,
+      3,
+      10,
+      12
+    ],
+    "source_prediction_changes": false,
+    "uncertainty": "Plus/minus two latent posterior SD",
+    "points": "Posterior mean at evaluated conditions",
+    "interpolation": "PCHIP connectors between categorical nodes only",
+    "checks": [
+      {
+        "BO_round": 0,
+        "full_model_n": 12,
+        "displayed_evaluated": 12,
+        "displayed_conditions": 32,
+        "new": 12,
+        "best_condition_mean": 0.6410286916926948,
+        "best_condition_SD": 0.5903052455274951,
+        "marker_Y": "posterior mean"
+      },
+      {
+        "BO_round": 1,
+        "full_model_n": 16,
+        "displayed_evaluated": 16,
+        "displayed_conditions": 32,
+        "new": 4,
+        "best_condition_mean": 0.7453587618783157,
+        "best_condition_SD": 0.5243603742833483,
+        "marker_Y": "posterior mean"
+      },
+      {
+        "BO_round": 2,
+        "full_model_n": 20,
+        "displayed_evaluated": 20,
+        "displayed_conditions": 32,
+        "new": 4,
+        "best_condition_mean": 0.7877062828349534,
+        "best_condition_SD": 0.4901388394938649,
+        "marker_Y": "posterior mean"
+      },
+      {
+        "BO_round": 3,
+        "full_model_n": 24,
+        "displayed_evaluated": 24,
+        "displayed_conditions": 32,
+        "new": 4,
+        "best_condition_mean": 0.8192178527885479,
+        "best_condition_SD": 0.46109188356498754,
+        "marker_Y": "posterior mean"
+      },
+      {
+        "BO_round": 10,
+        "full_model_n": 52,
+        "displayed_evaluated": 28,
+        "displayed_conditions": 32,
+        "new": 4,
+        "best_condition_mean": 1.4544720787128234,
+        "best_condition_SD": 0.14333754329390389,
+        "marker_Y": "posterior mean"
+      },
+      {
+        "BO_round": 12,
+        "full_model_n": 60,
+        "displayed_evaluated": 32,
+        "displayed_conditions": 32,
+        "new": 4,
+        "best_condition_mean": 1.4558551057213003,
+        "best_condition_SD": 0.13353771140991103,
+        "marker_Y": "posterior mean"
+      }
+    ]
+  },
+  "text_outside_canvas": [],
+  "individual_colour_bars": {
+    "count": 3,
+    "panels": [
+      "b",
+      "c",
+      "d"
+    ],
+    "limits": [
+      0,
+      1
+    ]
+  },
+  "sources": {
+    "optimization/current/figure5/source_data/grids_96.csv": "4a2dc4f8549e4bd4fb030ed2ae3da3ebca4079b26f21cc6b81551a87b71b11c8",
+    "optimization/current/figure5/source_data/NH_posterior_snapshots.npz": "b675034f80bead5e8fe99a17fc813ff72e0717e8277f9a48157c0785740cfc43",
+    "optimization/current/runs/NH/trajectory_conditions.csv": "e438e5638960e7332f5b737a52eda4da21e976f1f4f700e349ad03404cc65c93",
+    "optimization/current/figure5/source_data/projection_weights.npz": "bd602440629e8e3f0b30c8ba57a94831fb7a6a5fff96e22bb99eed88b08272db"
+  },
+  "outputs": {
+    "optimization/current/figure5/figures/Figure_5_composite_preview.png": "41fbc09cdbf236eaf92ab9fd1095b6efc4b49a3800e60805fcebfb196b09c068",
+    "optimization/current/figure5/figures/Figure_5_composite.svg": "009e13f8b02d09fd06789fe087d6b54f44993d560b970b948e122118b6e711cf",
+    "optimization/current/figure5/figures/Figure_5_composite.pdf": "104035e10ae893d27fb10ff4a2e05831f82fd286693ff0c62ba7d0215b355c4d",
+    "optimization/current/figure5/figures/Figure_5_composite.png": "d19c32ed0af1b865d3a2ab35d9cbed53e69c240648d7284b4aa1c7d01d8f62a0"
+  }
+}

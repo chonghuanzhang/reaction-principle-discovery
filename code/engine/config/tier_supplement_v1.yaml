@@ -1,0 +1,82 @@
+version: "1.0"
+study_id: "trifluoroethyl-carbonyl-tier-2-4-supplement"
+retrieval_date: "2026-08-28"
+provider: "openalex"
+per_query_limit: 100
+active_baseline:
+  tier_1: 163
+  tier_2: 14
+  tier_3: 12
+  tier_4: 11
+reference_target_per_tier: 163
+rules:
+  preserve_original_tier: true
+  reassign_tier_1: false
+  fill_with_unrelated_sources: false
+  unknown_is_failure: false
+  hidden_outcomes_allowed_in_queries: false
+  metadata_is_decision_grade_evidence: false
+tiers:
+  tier_2:
+    purpose: >-
+      Selective loss of fluorine, fluorinated-alkene reaction manifolds,
+      carbon-fluorine activation, beta-fluoride elimination, and subsequent
+      bond formation or trapping.
+    queries:
+      - "gem-difluoroalkene selective monodefluorination functionalization"
+      - "trifluoromethyl alkene selective hydrodefluorination monofluoroalkene"
+      - "polyfluoroalkene defluorinative coupling carbon fluorine activation"
+      - "beta-fluoride elimination organofluorine reaction mechanism"
+      - "nucleophilic substitution gem-difluoroalkene fluoride elimination"
+      - "defluorinative functionalization fluorinated alkene nucleophile"
+      - "transition metal activation carbon fluorine bond fluoroalkene"
+      - "fluorinated alkene nucleophilic addition elimination"
+      - "beta beta difluoro enone nucleophilic substitution"
+      - "difluorovinyl ketone nucleophilic addition fluoride elimination"
+      - "fluoro Michael acceptor nucleophilic substitution fluoride"
+      - "carbonyl activated fluoroalkene nucleophilic trapping"
+      - "trifluoromethyl carbonyl selective defluorination"
+      - "alpha trifluoromethyl carbonyl defluorinative functionalization"
+      - "selective carbon fluorine bond cleavage monofluoroalkene synthesis"
+  tier_3:
+    purpose: >-
+      Quantitative and qualitative physical-organic rules for nucleophilicity,
+      electrophilicity, acid-base state, ion pairing, solvent effects,
+      ambident selectivity, catalyst coordination, and reaction selectivity.
+    queries:
+      - "Mayr nucleophilicity scale carbon nitrogen oxygen sulfur phosphorus"
+      - "nucleophilicity solvent effect protic aprotic kinetic scale"
+      - "nucleophile basicity Brønsted correlation reaction selectivity"
+      - "ion pairing effect nucleophilicity organic reactions"
+      - "ambident nucleophile regioselectivity physical organic chemistry"
+      - "hard soft acid base ambident reactivity selectivity"
+      - "Michael acceptor nucleophilicity electrophilicity kinetic correlation"
+      - "nucleophilic addition alpha beta unsaturated carbonyl kinetics"
+      - "thiolate phenoxide amine enolate nucleophilicity comparison"
+      - "carbon nitrogen oxygen sulfur phosphorus nucleophile reactivity scale"
+      - "pKa nucleophilicity relationship organic solvent"
+      - "Fukui function nucleophilicity organic reaction selectivity"
+      - "Marcus theory nucleophilic addition kinetics"
+      - "metal coordination effect nucleophile reactivity palladium catalysis"
+      - "counterion solvent nucleophile reactivity ion pair"
+  tier_4:
+    purpose: >-
+      Explicit failure boundaries: over-defluorination, catalyst poisoning or
+      inhibition, oxidation, decomposition, competing reactions, and
+      condition incompatibility.
+    queries:
+      - "palladium catalyst poisoning nucleophile sulfur nitrogen oxygen phosphorus"
+      - "palladium catalyst inhibition heteroatom nucleophile"
+      - "transition metal catalyst poisoning sulfur phosphorus nitrogen ligand"
+      - "overdefluorination polyfluoroalkene side reaction"
+      - "monofluoroalkene decomposition stability acid base"
+      - "fluoroalkene product instability nucleophile base"
+      - "beta-fluoride elimination competing pathways selectivity"
+      - "hydrodefluorination overreduction selectivity failure"
+      - "protodefluorination side reaction organofluorine"
+      - "nucleophile oxidation decomposition catalytic reaction conditions"
+      - "catalyst resting state nucleophile inhibition palladium"
+      - "fluoride inhibition palladium catalysis"
+      - "base mediated decomposition fluorinated alkene"
+      - "ambident nucleophile undesired regioselectivity failure"
+      - "selective monodefluorination overdefluorination decomposition"

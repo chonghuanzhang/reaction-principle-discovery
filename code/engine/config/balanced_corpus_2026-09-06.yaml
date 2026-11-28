@@ -1,0 +1,50 @@
+version: "balanced-corpus-2026-09-06"
+source_directories:
+  tier_1: "Tier 1"
+  tier_2: "Tier 2"
+  tier_3: "Tier 3"
+  tier_4: "Tier 4"
+model: "gpt-5.6-sol"
+schema_version: "1.0"
+prompt_version: "answer-isolated-balanced-corpus-1.0"
+schema_path: "extraction_schema.json"
+prompt_path: "prompts/evidence_extraction.md"
+seed_context_path: "seed_reaction.yaml"
+max_chunk_characters: 60000
+full_corpus:
+  max_chunk_characters: 200000
+  max_oversized_characters: 400000
+  calibration_per_tier: 5
+selection:
+  searchable_character_minimum: 1000
+  searchable_text_bonus: 3
+  manageable_page_maximum: 30
+  manageable_page_bonus: 2
+  visual_evidence_bonus: 1
+  keyword_weight: 4
+  tier_keywords:
+    tier_1:
+      - "trifluoroethyl"
+      - "trifluoropropan"
+      - "carbonyl"
+      - "monodefluorinative"
+      - "monofluoroalkene"
+    tier_2:
+      - "defluorinative"
+      - "c-f activation"
+      - "beta-f elimination"
+      - "fluoroalkene"
+      - "nucleophilic trapping"
+    tier_3:
+      - "nucleophilicity"
+      - "electrophilicity"
+      - "pka"
+      - "reactivity scale"
+      - "palladium compatibility"
+    tier_4:
+      - "poisoning"
+      - "deactivation"
+      - "over-defluorination"
+      - "decomposition"
+      - "oxidation"
+      - "incompatibility"

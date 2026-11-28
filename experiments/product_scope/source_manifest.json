@@ -1,0 +1,72 @@
+{
+  "source_id": "author_table1_20261126",
+  "source_type": "author_provided_manuscript_table",
+  "table": "Main Table 1",
+  "received_date": "2026-11-26",
+  "source_document": {
+    "local_name": "collaborator.docx",
+    "bytes": 9035285,
+    "sha256": "ff8eb513e111c55ff50f2034e4ce1a3d69c571948bbddcaf8727a3f7d3cf0058",
+    "deposit_scope": "Table 1 assets only"
+  },
+  "assets": [
+    {
+      "path": "experiments/product_scope/table1.emf",
+      "source_document_member": "word/media/image6.emf",
+      "format": "enhanced_metafile",
+      "bytes": 959396,
+      "sha256": "3f832dadaf0dcdd0fc7cb8ad961df72a6ff3aeeb84bc3db8f1e69d9f10e74dff"
+    },
+    {
+      "path": "experiments/product_scope/table1_editable_ole.bin",
+      "source_document_member": "word/embeddings/oleObject1.bin",
+      "format": "embedded_editable_ole",
+      "bytes": 146944,
+      "sha256": "71833d0e84afac86a2df8f8542d52b17ce204bc16d457bc9ec0c34101a1491eb"
+    }
+  ],
+  "table_summary": {
+    "displayed_product_assignment_count": 44,
+    "product_id_range": [
+      "3a",
+      "3ar"
+    ],
+    "N_functionalized_count": 11,
+    "S_functionalized_count": 13,
+    "O_functionalized_count": 20
+  },
+  "yield_measurement": "Quantitative 1H NMR with an internal standard, as stated in the manuscript Table 1 footnote.",
+  "curated_record_file": "experiments/product_scope/table1_product_records.json",
+  "curated_record_scope": [
+    "3n",
+    "3q"
+  ],
+  "raw_workbook_policy": "Original screening workbooks and the product–reagent register are preserved byte-for-byte; Table 1 records are stored separately.",
+  "preview": {
+    "path": "experiments/product_scope/table1.png",
+    "format": "PNG",
+    "bytes": 1121400,
+    "sha256": "248155e4e6415506878a24014a08e36c981d6b75a06d75fc3cb1470429e37e99",
+    "width_pixels": 2070,
+    "height_pixels": 2996,
+    "derivation": {
+      "description": "Manuscript rendering with the author-provided Table 1 EMF embedded without byte changes; cropped from page 14.",
+      "source_emf_path": "experiments/product_scope/table1.emf",
+      "source_emf_sha256": "3f832dadaf0dcdd0fc7cb8ad961df72a6ff3aeeb84bc3db8f1e69d9f10e74dff",
+      "rendered_pdf_sha256": "c8c357388f4ebf3226aaf6512243cc895a5eb937317b65ad4150095294002134",
+      "source": "manuscript Table 1",
+      "pdf_page": 14,
+      "crop_pixels": [
+        211,
+        196,
+        2281,
+        3192
+      ],
+      "dpi": 300,
+      "full_page_size": [
+        2481,
+        3508
+      ]
+    }
+  }
+}

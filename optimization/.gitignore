@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+*.pyc
+reproduced_analysis/
+reproduced_figures/
+raw/full_response_workbook.xlsx
+results/
+.pytest_cache/

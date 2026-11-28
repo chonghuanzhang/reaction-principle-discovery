@@ -1,0 +1,102 @@
+context_type: "PROJECT CONTEXT"
+freeze_version: "1.0"
+seed_reaction_id: "SRC-CC-001"
+status: "established reaction platform"
+
+established_facts:
+  electrophile_class:
+    - "trifluoroethyl ketone"
+    - "trifluoroethyl ester"
+    - "trifluoroethyl amide"
+  defining_electrophile_feature: >
+    A carbonyl compound containing a trifluoroethyl-derived electrophilic unit.
+  coupling_partner_class:
+    - "organoboron reagent"
+  catalyst_class:
+    - "palladium catalyst"
+  new_bond_type:
+    - "C-C"
+  net_transformation: >
+    Palladium-catalyzed selective defluorinative C-C bond formation between a
+    trifluoroethyl carbonyl compound and an organoboron reagent.
+  target_product_class: >
+    A monofluoroalkene in which one fluorine atom from the original
+    trifluoromethyl-derived unit is retained.
+  selectivity_boundary: >
+    The target transformation is selective monodefluorinative bond formation
+    rather than complete defluorination.
+  platform_scope: >
+    The established work covers a broad substrate and organoboron reagent space
+    but represents one C-C-forming reaction platform, not an already
+    demonstrated cross-element reaction family.
+
+proposed_mechanistic_features:
+  evidence_status: "AUTHOR HYPOTHESIS"
+  statements:
+    - "Carbonyl-assisted or metal-mediated activation of the trifluoroethyl substrate may occur."
+    - "A fluorinated alkene-like or metal-activated intermediate may be involved."
+    - "The organoboron reagent may participate through transmetalation."
+    - "C-C bond formation may be coupled to beta-fluoride elimination."
+    - "Stronger base or higher temperature may promote further or excessive defluorination."
+  interpretation_rule: >
+    These statements are proposed mechanistic features and must not be treated
+    as experimentally established facts unless supported by direct evidence in
+    the literature source being analyzed.
+
+expansion_objective:
+  question: >
+    Does the seed reaction represent an isolated organoboron transformation, or
+    can the underlying electrophile activation and selective defluorination
+    logic be transferred to different nucleophile classes?
+  target_new_bond_types: ["C-C", "C-P", "C-S", "C-O", "C-N"]
+  target_nucleophile_atoms: ["C", "P", "S", "O", "N"]
+
+transferability_dimensions:
+  - "electrophile-class similarity"
+  - "accessibility of a fluorinated alkene-like reaction manifold"
+  - "nucleophile formation and activation requirements"
+  - "catalyst and ligand compatibility"
+  - "base, solvent, and temperature compatibility"
+  - "evidence for beta-fluoride elimination"
+  - "monofluoroalkene selectivity"
+  - "risk of further defluorination"
+  - "catalyst poisoning or inhibition"
+  - "nucleophile oxidation or decomposition"
+  - "target-product stability"
+
+literature_classification:
+  direct_precedent: >
+    The paper reports the same or a highly similar trifluoroethyl carbonyl
+    electrophile, selective defluorination, and the relevant C-Nu bond formation.
+  shared_reaction_manifold: >
+    The starting material or product differs, but the paper supports a relevant
+    fluorinated intermediate, C-F activation event, nucleophilic addition, or
+    beta-fluoride-elimination step.
+  physical_organic_support: >
+    The paper provides quantitative or qualitative evidence useful for ranking
+    nucleophile reactivity, activation state, steric or electronic effects, or
+    solvent and ion-pair effects.
+  failure_boundary: >
+    The paper identifies catalyst poisoning, inhibition, excessive
+    defluorination, oxidation, decomposition, competing reaction, or
+    product-instability risk.
+  unrelated: >
+    The paper does not provide evidence relevant to the seed transformation or
+    its proposed expansion.
+
+evidence_boundary:
+  - "This seed-reaction context is project metadata, not evidence extracted from the literature paper."
+  - "It must never be quoted as if it appeared in the analyzed paper."
+  - "Literature-fact claims must be supported only by the supplied paper text or a reviewed visual reference."
+  - "Similar product appearance alone does not establish a shared mechanism."
+  - "A shared reaction step does not establish that the complete catalytic cycle is transferable."
+  - "Missing evidence must be reported as UNKNOWN."
+  - "Author hypotheses and model inferences must remain explicitly labeled."
+
+information_isolation:
+  excluded_from_prompt:
+    - "outcomes of later project experiments"
+    - "known successful P, S, O, or N reaction labels"
+    - "known failed project experiments"
+    - "retrospective candidate rankings"
+    - "hidden validation-set outcomes"

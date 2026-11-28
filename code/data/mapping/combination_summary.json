@@ -1,0 +1,16 @@
+{
+  "experimental_pairs": 112,
+  "unique_experimental_donor_structures": 102,
+  "routes": {
+    "NH": 45,
+    "OH": 44,
+    "PH": 2,
+    "SH": 21
+  },
+  "relationship_categories": {
+    "Exact identity": 27,
+    "Same scaffold, substituent or positional variation": 39,
+    "Same donor family, different scaffold": 42,
+    "No reasonable counterpart": 4
+  }
+}

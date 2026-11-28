@@ -1,0 +1,144 @@
+{
+  "statistics": [
+    {
+      "strategy": "RP-guided",
+      "positive": 35,
+      "tested_unique_donors": 94,
+      "collection_scope": "reported_NOS_unique_donor_analysis",
+      "fraction": 0.3723404255319149,
+      "wilson95_low": 0.2814318660117187,
+      "wilson95_high": 0.4732733449563353
+    },
+    {
+      "strategy": "LLM-only",
+      "positive": 4,
+      "tested_unique_donors": 20,
+      "collection_scope": "complete_deposited_20_structure_collection",
+      "fraction": 0.2,
+      "wilson95_low": 0.08065766257979806,
+      "wilson95_high": 0.41601743225189364
+    },
+    {
+      "strategy": "Literature-only",
+      "positive": 3,
+      "tested_unique_donors": 20,
+      "collection_scope": "complete_deposited_20_unique_structure_collection",
+      "fraction": 0.15,
+      "wilson95_low": 0.052368745896216595,
+      "wilson95_high": 0.36041886474075696
+    }
+  ],
+  "reported_unique_structure_intersections": [
+    {
+      "membership": [
+        true,
+        false,
+        false
+      ],
+      "count": 91
+    },
+    {
+      "membership": [
+        false,
+        true,
+        false
+      ],
+      "count": 18
+    },
+    {
+      "membership": [
+        false,
+        false,
+        true
+      ],
+      "count": 19
+    },
+    {
+      "membership": [
+        true,
+        true,
+        false
+      ],
+      "count": 2
+    },
+    {
+      "membership": [
+        true,
+        false,
+        true
+      ],
+      "count": 1
+    }
+  ],
+  "membership_order": [
+    "RP-guided",
+    "LLM-only",
+    "Literature-only"
+  ],
+  "panel_scopes": {
+    "panel_a": {
+      "content": "Reported collection-positive fractions and Wilson intervals.",
+      "rp_scope": "Reported N/O/S donor analysis: 35 positives among 94 unique donors (NH 12/38, OH 11/36 and SH 12/20).",
+      "baseline_scope": "Complete deposited 20-structure direct-LLM and 20-unique-structure literature collections.",
+      "comparability": "Fractions summarize the tested collections under their respective electrophile and reaction-condition combinations."
+    },
+    "panel_b": {
+      "content": "Reported exact donor-structure intersections among the three experimental analysis collections.",
+      "rp_scope": "The same 94 unique N/O/S donors used for the reported RP-guided analysis in panel a.",
+      "baseline_scope": "All 20 direct-LLM structures and 20 unique literature-selection structures.",
+      "count_provenance": "Reproduced from data/rp_analysis_membership_94.json, llm_records.json and literature_baseline_records.json by reproduce_comparison.py."
+    }
+  },
+  "comparison_type": "experimental_collection_positive_fraction_comparison",
+  "descriptive_fraction_ratios": {
+    "vs_llm": 1.8617021276595742,
+    "vs_literature": 2.482269503546099
+  },
+  "ratio_interpretation": "The observed RP-guided positive fraction is 1.86-fold and 2.48-fold higher than in the direct-LLM and literature-selection collections, respectively.",
+  "unit": "Unique donor structures in each reported experimental analysis collection.",
+  "endpoint": "RP-guided: nonzero numerical UV response. Direct LLM and literature selection: recorded negligible-response outcomes displayed as Trace and counted as negative.",
+  "comparison_scope": "Each collection retains its recorded candidate space, electrophile information, reaction-condition information and endpoint.",
+  "interpretation_limit": "The fractions and Wilson intervals summarize the tested collections under their respective electrophile and reaction-condition combinations.",
+  "collection_definitions": {
+    "RP-guided": {
+      "endpoint": "Nonzero numerical UV response aggregated by unique donor structure within the selected fixed-condition panel.",
+      "electrophile": "Six electrophile structures occur in the 112-pair experimental mapping.",
+      "conditions": "Fixed-condition substrate-scope panels: NH Ag13/PPh3/NaH/DCE; OH Ni203/DIPEA/DCE; SH Cu9/PPh3/CsOH/DCE, all 0.025 mmol, 60 °C and 16 h.",
+      "candidate_space": "Panels a and b use the reported N/O/S analysis collection of 94 unique donors."
+    },
+    "LLM-only": {
+      "endpoint": "Final qualitative 有产物/trace call, displayed as Product/Trace; Trace denotes a negligible UV-response outcome and is counted as negative.",
+      "electrophile": "All 20 records encode COc1ccc(C(=O)CC(F)(F)F)cc1.",
+      "conditions": "Bayesian-optimized conditions assigned to each reaction system.",
+      "candidate_space": "Twenty direct-LLM recommendations; the set is not restricted to the N/O/S/P donor-center classes used to organize the RP-guided collection."
+    },
+    "Literature-only": {
+      "endpoint": "Final qualitative 有产物/trace call, displayed as Product/Trace; trace is negative.",
+      "electrophile": "Collection-specific electrophiles used in the recorded baseline experiments.",
+      "conditions": "Bayesian-optimized conditions assigned to each reaction system.",
+      "candidate_space": "Twenty unique literature-selected structures represented by 21 deposited source records, including one duplicated source structure and one supplemental record."
+    }
+  },
+  "rp_reported_denominator": {
+    "total": 94,
+    "by_route": {
+      "NH": 38,
+      "OH": 36,
+      "SH": 20
+    },
+    "positive_by_route": {
+      "NH": 12,
+      "OH": 11,
+      "SH": 12
+    }
+  },
+  "literature_duplicate": [
+    "LIT11",
+    "LIT13"
+  ],
+  "literature_supplemental_records": [
+    "LIT21"
+  ],
+  "literature_source_records": 21,
+  "rp_membership_source": "rp_analysis_membership_94.json"
+}

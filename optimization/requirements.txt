@@ -1,0 +1,2 @@
+# Portable analysis tested with Python 3.12.14. Original archive requires NumPy only.
+numpy==2.3.5
